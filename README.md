@@ -22,7 +22,7 @@ Then open http://localhost:8137.
 ## Checks
 ```bash
 python scripts/validate_content.py
-node --test tests/
+node --test tests/*.test.mjs
 ```
 
 ## Adding content

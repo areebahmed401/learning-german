@@ -29,7 +29,7 @@ jobs:
       - name: Validate lesson content
         run: python scripts/validate_content.py --strict
       - name: Translator engine tests
-        run: node --test tests/
+        run: node --test tests/*.test.mjs
 
   deploy:
     needs: check

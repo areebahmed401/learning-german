@@ -5,7 +5,7 @@ Personal German study app (A1 → C1) for one learner. They use the **Learn Germ
 ## Commands
 - Dev server: `python -m http.server 8137` (ES modules need http, not file://), then open http://localhost:8137
 - Content check: `python scripts/validate_content.py`
-- Engine tests: `node --test tests/`
+- Engine tests: `node --test tests/*.test.mjs`
 
 ## Layout
 - `index.html`, `css/app.css`: shell and theme tokens (light/dark via `[data-theme]` + `prefers-color-scheme`)
