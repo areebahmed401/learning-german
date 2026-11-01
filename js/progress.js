@@ -39,10 +39,29 @@ export function recordPractice(id, score, mistakes, wordCount) {
   l.best = Math.max(l.best, score);
   l.mistakes = mistakes;
   l.wordCount = wordCount;
-  if (score >= PASS) l.done = true;
+  if (score >= PASS) { l.done = true; delete l.skipped; } // passing turns a skipped stop into a real one
   save();
   return l;
 }
+
+/** "I know this": a stop counts as done without its exercises. The level checkpoint still has to be passed. */
+export function skipLesson(id) {
+  const l = lesson(id);
+  if (l.done) return;
+  l.done = true;
+  l.skipped = true;
+  save();
+}
+
+export function undoSkip(id) {
+  const l = lesson(id);
+  if (!l.skipped) return;
+  l.done = false;
+  delete l.skipped;
+  save();
+}
+
+export const isSkipped = (id) => !!state.lessons[id]?.skipped;
 
 export function setMistakes(id, mistakes) {
   lesson(id).mistakes = mistakes;
