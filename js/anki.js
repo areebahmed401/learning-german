@@ -32,4 +32,7 @@ export function download(rows, filename) {
 }
 
 export const lessonRows = (lesson) =>
-  lesson.words.map((word) => ({ word, tags: [`Deutschweg::${lesson.level}`, `Deutschweg::${lesson.level}::${lesson.id}`] }));
+  lesson.words.map((word) => ({
+    word,
+    tags: [`Deutschweg::${lesson.level}`, `Deutschweg::${lesson.level}::${lesson.id}`, word.goethe && `Goethe::${word.goethe}`].filter(Boolean),
+  }));

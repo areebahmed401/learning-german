@@ -6,6 +6,7 @@ Personal German study app (A1 → C1) for one learner. They use the **Learn Germ
 - Dev server: `python -m http.server 8137` (ES modules need http, not file://), then open http://localhost:8137
 - Content check: `python scripts/validate_content.py`
 - Engine tests: `node --test tests/*.test.mjs`
+- Goethe check (local only): `python -I scripts/goethe_check.py` reports A1–B1 lesson words that are not on the official Goethe-Zertifikat list for their level; `--badges` writes the `goethe` field. It needs the three Goethe PDFs in `references/goethe/` (gitignored) and `pdftotext`; it skips quietly without them, so it is not in CI.
 
 ## Layout
 - `index.html`, `css/app.css`: shell and theme tokens (light/dark via `[data-theme]` + `prefers-color-scheme`)
@@ -66,3 +67,5 @@ Personal German study app (A1 → C1) for one learner. They use the **Learn Germ
 - Every exercise has an `explain` that says *why* the answer is right.
 - Gap/translate answers list every reasonable correct variant. Comparison ignores case and final punctuation.
 - Keep it calm: short explanations and one table per section, at most.
+- A1, A2 and B1 words must be on the Goethe-Zertifikat word list for the lesson's level or a lower one. Run the Goethe check after changing words, and let `--badges` set `"goethe": "A1" | "A2" | "B1"` (don't write it by hand). B2/C1 have no Goethe list and no `goethe` field.
+- The Goethe PDFs are copyrighted: never commit them or copy their example sentences. Use headwords only and write your own examples.

@@ -108,6 +108,8 @@ def check_lesson(path: Path, milestone: dict, level: str) -> None:
         need(wd, ["de", "en", "pos"], w)
         if wd.get("pos") not in POS:
             err(w, f"bad pos {wd.get('pos')!r}")
+        if "goethe" in wd and wd["goethe"] not in ("A1", "A2", "B1"):
+            err(w, f"goethe must be A1/A2/B1, got {wd['goethe']!r}")
         if wd.get("pos") == "noun":
             if wd.get("article") not in ("der", "die", "das"):
                 err(w, "noun needs article der/die/das")
@@ -122,7 +124,7 @@ def check_lesson(path: Path, milestone: dict, level: str) -> None:
                 err(w, "verb needs aux haben/sein")
             if not wd.get("p2"):
                 err(w, "verb needs p2 (Partizip II)")
-            if wd.get("sep") and not wd["de"].startswith(wd["sep"]):
+            if wd.get("sep") and not wd["de"].removeprefix("sich ").startswith(wd["sep"]):
                 err(w, f"sep {wd['sep']!r} is not a prefix of {wd['de']!r}")
     check_mindmap(lesson.get("mindmap", {}), where)
     exs = lesson.get("exercises", [])
