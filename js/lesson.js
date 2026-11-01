@@ -3,6 +3,7 @@ import { h, md, nounHTML, getLesson, getRoadmap, sayBtn, toast } from './util.js
 import { speak, listen, compare, canListen, canSpeak } from './speech.js';
 import { runQuiz } from './exercises.js';
 import { renderMindmap } from './mindmap.js';
+import { openMindmapModal } from './mindmap-modal.js';
 import * as progress from './progress.js';
 import * as anki from './anki.js';
 
@@ -105,7 +106,11 @@ function words(body, lesson) {
 
 function mindmap(body, lesson) {
   const wrap = h('div.mindmap-wrap');
-  body.append(h('p.muted', 'Say each branch out loud. Tap a branch to fold it, then try to recall what was inside.'), wrap);
+  body.append(
+    h('div.words-tools',
+      h('p.muted', { style: 'margin:0;flex:1' }, 'Say each branch out loud. Tap a branch to fold it, then try to recall what was inside.'),
+      h('button.btn.small', { type: 'button', onclick: () => openMindmapModal(lesson) }, '⤢ Expand')),
+    wrap);
   requestAnimationFrame(() => renderMindmap(wrap, lesson.mindmap));
 }
 
