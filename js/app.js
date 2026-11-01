@@ -13,7 +13,7 @@ async function route() {
   const [path, query = ''] = location.hash.replace(/^#\/?/, '').split('?');
   const parts = path.split('/').filter(Boolean);
   const params = Object.fromEntries(new URLSearchParams(query));
-  document.querySelectorAll('.sheet, .sheet-backdrop').forEach((e) => e.remove());
+  document.querySelectorAll('.sheet, .sheet-backdrop, .peek, .mm-modal-backdrop').forEach((e) => e.remove());
   try {
     if (parts[0] === 'lesson' && parts[1]) {
       await renderLesson(view, parts[1], parts[2]);

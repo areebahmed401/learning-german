@@ -1,6 +1,7 @@
 // The Road: a winding SVG road from A1 (bottom) to C1 (top), one milestone per lesson.
 import { h, md, getRoadmap, getLesson } from './util.js';
 import { renderMindmapPreview } from './mindmap.js';
+import { openMindmapModal } from './mindmap-modal.js';
 import * as progress from './progress.js';
 import { STEPS } from './lesson.js';
 
@@ -152,39 +153,64 @@ function node(x, p, cx) {
     h('button.ms-label', { type: 'button', onclick: open, tabindex: '-1' }, h('b', title), h('small', sub)));
   if (x.kind === 'ms' && canHover) {
     el.addEventListener('mouseenter', () => peek(x, el));
-    el.addEventListener('mouseleave', unpeek);
+    el.addEventListener('mouseleave', leaveSoon);
     el.addEventListener('focusin', () => peek(x, el));
-    el.addEventListener('focusout', unpeek);
+    el.addEventListener('focusout', leaveSoon);
   }
   return el;
 }
 
-/* ---------- Hover peek: the milestone's mind map ---------- */
+/** Where "Start/Continue" goes: the first lesson step not visited yet. */
+function lessonHref(x) {
+  const st = progress.lessonState(x.m.id);
+  const step = x.status === 'new' ? 'learn' : STEPS.find(([s]) => !st?.steps?.[s])?.[0] || 'practice';
+  return `#/lesson/${x.m.id}/${step}`;
+}
+
+/* ---------- Hover peek: the milestone's mind map; click the map to expand ---------- */
 const canHover = matchMedia('(hover: hover) and (pointer: fine)').matches;
 let peekTimer;
+let hideTimer;
 let peekId;
 
 function unpeek() {
   clearTimeout(peekTimer);
+  clearTimeout(hideTimer);
   peekId = null;
   document.querySelector('.peek')?.remove();
 }
 
+// a short grace period lets the mouse travel from the milestone onto the card
+function leaveSoon() {
+  clearTimeout(peekTimer);
+  clearTimeout(hideTimer);
+  hideTimer = setTimeout(unpeek, 300);
+}
+
 function peek(x, el) {
   clearTimeout(peekTimer);
+  clearTimeout(hideTimer);
+  if (peekId === x.m.id && document.querySelector('.peek')) return;
   peekId = x.m.id;
   // short delay so sweeping the mouse along the road doesn't flash cards
   peekTimer = setTimeout(async () => {
     let lesson;
     try { lesson = await getLesson(x.m.id); } catch { return; }
-    if (peekId !== x.m.id || document.querySelector('.sheet')) return;
+    if (peekId !== x.m.id || document.querySelector('.sheet, .mm-modal-backdrop')) return;
     document.querySelector('.peek')?.remove();
-    const map = h('div.peek-map');
-    const card = h('div.peek', { 'aria-hidden': 'true' },
+    const href = lessonHref(x);
+    const expand = () => { unpeek(); openMindmapModal(lesson, { lessonHref: href }); };
+    const map = h('div.peek-map', {
+      role: 'button', tabindex: '0', title: 'Click to expand', 'aria-label': `Expand the mind map: ${lesson.title}`,
+      onclick: expand, onkeydown: (e) => (e.key === 'Enter' || e.key === ' ') && (e.preventDefault(), expand()),
+    });
+    const card = h('div.peek', { onmouseenter: () => clearTimeout(hideTimer), onmouseleave: leaveSoon },
       h('div.peek-head', h('b', `🧠 ${lesson.title}`), h('span.muted', `🗂 ${lesson.wordlist} · ${lesson.words.length} words`)),
       map,
       lesson.tip ? h('div.peek-tip', { html: `💡 ${md(lesson.tip)}` }) : null,
-      h('div.peek-foot.muted', 'Click to open'));
+      h('div.peek-foot',
+        h('span.muted', '🔍 Click the map to expand'),
+        h('a.btn.small', { href, onclick: unpeek }, 'Open lesson →')));
     el.closest('.road-page').append(card);
     renderMindmapPreview(map, lesson.mindmap);
     // above the milestone if there's room, else below; centred on the road
@@ -225,8 +251,7 @@ async function sheet(x) {
       h('div.row', close, h('a.btn.primary', { href: `#/checkpoint/${x.level.id}`, onclick: closeSheet }, c?.passed ? 'Retake' : 'Start checkpoint')));
   } else {
     const st = progress.lessonState(x.m.id);
-    const firstOpen = STEPS.find(([s]) => !st?.steps?.[s])?.[0] || 'practice';
-    const go = h('a.btn.primary', { href: `#/lesson/${x.m.id}/${x.status === 'new' ? 'learn' : firstOpen}`, onclick: closeSheet },
+    const go = h('a.btn.primary', { href: lessonHref(x), onclick: closeSheet },
       x.status === 'new' ? 'Start' : x.status === 'done' ? 'Review' : 'Continue');
     const meta = h('div.meta', h('span.chip.accent', x.level.id), h('span.chip', `🗂 ${x.m.wordlist}`));
     append(card, meta, h('h2', x.m.title), h('p', x.m.concept),
@@ -238,7 +263,10 @@ async function sheet(x) {
       meta.append(h('span.chip', `${lesson.words.length} words`), h('span.chip', `${lesson.exercises.length} exercises`), h('span.chip', `⏱ ${lesson.minutes} min`));
       // no hover on touch screens, so the mind map preview lives in the sheet instead
       if (!canHover) {
-        const map = h('div.sheet-map');
+        const map = h('div.sheet-map', {
+          role: 'button', tabindex: '0', title: 'Tap to expand',
+          onclick: () => { closeSheet(); openMindmapModal(lesson, { lessonHref: lessonHref(x) }); },
+        });
         card.querySelector('.row').before(map);
         renderMindmapPreview(map, lesson.mindmap);
       }
