@@ -18,12 +18,13 @@ export const cardKey = (w) => (w.pos === 'noun' && w.article ? `${w.article} ${w
 /**
  * Knew it: up one box. Missed it: back to box 1, due again today.
  * A word missed today that is then answered right stays in box 1 (back tomorrow), so it can't jump ahead.
+ * fast (adaptive mode): a brand-new word you already know skips to box 2 (back in 3 days, not tomorrow).
  */
-export function answer(card, knew, today) {
+export function answer(card, knew, today, { fast = false } = {}) {
   const c = { box: 0, fails: 0, seen: 0, first: today, ...card };
   c.seen += 1;
   if (!knew) return { ...c, box: 1, fails: c.fails + 1, lapsed: today, due: today };
-  const box = c.lapsed === today ? 1 : Math.min(c.box + 1, MAX_BOX);
+  const box = c.lapsed === today ? 1 : fast && !card ? 2 : Math.min(c.box + 1, MAX_BOX);
   return { ...c, box, due: addDays(today, INTERVALS[box]) };
 }
 

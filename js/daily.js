@@ -1,5 +1,7 @@
 // Tagesquiz: which grammar questions to ask today. Pure (no DOM, no storage), so it is unit-tested.
 // The choice is seeded by the date, so reloading the page keeps the same quiz all day.
+import { weightedOrder } from './adapt.js';
+
 export const QUIZ_TYPES = ['mc', 'gap', 'article', 'order', 'translate']; // match grids are too slow for a quick quiz
 export const MISTAKE_SHARE = 0.4; // up to 40% of a quiz are earlier mistakes
 export const MAX_MISTAKES = 60;
@@ -37,8 +39,11 @@ export function questionPool(lessons) {
  * Today's questions: earlier mistakes first (up to 40%), then about two thirds from your current
  * level and the rest as review from the levels below. `round` > 0 gives a fresh set ("one more round").
  */
-export function pickDaily({ lessons, level, mistakes = [], today, size = 10, round = 0 }) {
+export function pickDaily({ lessons, level, mistakes = [], today, size = 10, round = 0, plan = null }) {
+  // plan (adapt.js quizPlan): stretch questions from the next level, review share, weak question types
+  const p = { stretch: 0, stretchLevel: null, belowShare: 1 / 3, mistakeShare: MISTAKE_SHARE, typeWeights: {}, ...plan };
   const rand = seeded(`${today}#${round}`);
+  const order = (list) => weightedOrder(rand, list, (q) => p.typeWeights[q.type] ?? 1);
   const pool = questionPool(lessons);
   const byRef = new Map(pool.map((q) => [q._ref, q]));
   const picked = [];
@@ -52,11 +57,12 @@ export function pickDaily({ lessons, level, mistakes = [], today, size = 10, rou
       n--;
     }
   };
-  take(shuffleWith(rand, mistakes.map((r) => byRef.get(r)).filter(Boolean)), Math.ceil(size * MISTAKE_SHARE));
-  const current = shuffleWith(rand, pool.filter((q) => q._level === level));
-  const below = shuffleWith(rand, pool.filter((q) => q._level !== level));
+  take(shuffleWith(rand, mistakes.map((r) => byRef.get(r)).filter(Boolean)), Math.ceil(size * p.mistakeShare));
+  take(order(pool.filter((q) => q._level === p.stretchLevel)), p.stretch);
+  const current = order(pool.filter((q) => q._level === level));
+  const below = order(pool.filter((q) => q._level !== level && q._level !== p.stretchLevel));
   const left = size - picked.length;
-  take(current, below.length ? Math.ceil(left * 2 / 3) : left);
+  take(current, below.length ? Math.ceil(left * (1 - p.belowShare) - 1e-9) : left);
   take(below, size - picked.length);
   take(current, size - picked.length); // top up if the levels below ran short
   return shuffleWith(rand, picked);

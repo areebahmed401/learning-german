@@ -5,6 +5,7 @@ import { speak, canSpeak } from './speech.js';
 import { wordForms } from './lesson.js';
 import * as progress from './progress.js';
 import * as srs from './srs.js';
+import * as adapt from './adapt.js';
 
 /**
  * Words for a deck, easiest level first:
@@ -40,9 +41,10 @@ export async function renderCards(view, extra = 0) {
   const road = await getRoadmap();
   const myLevel = progress.currentLevel(road);
   const levels = road.levels.filter((l) => l.milestones?.length).map((l) => l.id);
-  const words = await wordPool(prefs.deck, road, myLevel);
+  let words = await wordPool(prefs.deck, road, myLevel);
   const today = srs.day();
-  const queue = srs.buildQueue(words, progress.cards(), today, prefs.newCards + extra);
+  const { limit, notes } = prefs.adaptive ? await adaptDeck() : { limit: prefs.newCards, notes: [] };
+  const queue = srs.buildQueue(words, progress.cards(), today, limit + extra);
   const unseen = words.filter((w) => !progress.cards()[srs.cardKey(w)]).length;
   const due = queue.filter((w) => progress.cards()[srs.cardKey(w)]).length;
 
@@ -59,6 +61,7 @@ export async function renderCards(view, extra = 0) {
   view.replaceChildren(h('article.lesson',
     h('header.lesson-head', h('a.back', { href: '#/road' }, '← Zurück zur Straße'), h('h1', '🃏 Karten'),
       h('p', 'A few minutes every day. Words you miss come back until you get them right.')),
+    notes.length ? h('div.adapt-note', notes.map((n) => h('p', n))) : null,
     h('div.stats.cards-stats',
       stat(due, 'due today'), stat(queue.length - due, 'new today'),
       stat(Object.values(progress.cards()).filter((c) => c.box >= 3).length, 'well known'),
@@ -78,9 +81,40 @@ export async function renderCards(view, extra = 0) {
   } else {
     stage.append(h('div.card.cards-start',
       h('p', h('b', `${queue.length} cards`), ` ready: ${due} to review, ${queue.length - due} new. `,
-        h('span.muted', `${words.length} words in this deck · ${prefs.newCards} new a day (⚙ Settings)`)),
+        h('span.muted', `${words.length} words in this deck · ${limit} new a day${prefs.adaptive ? ', adaptive' : ''} (⚙ Settings)`)),
       h('button.btn.primary', { type: 'button', onclick: () => run(stage, shuffle(queue.slice(0, due))
         .concat(queue.slice(due)), reverse.querySelector('input').checked, view) }, 'Start')));
+  }
+
+  /**
+   * Adaptive mode: today's new-card number from your recent first tries, and, once you know most of
+   * your level's words, the next level's words mixed into the "My level" deck.
+   */
+  async function adaptDeck() {
+    const cards = progress.cards();
+    const state = progress.adaptState();
+    const due = srs.buildQueue(words, cards, today, 0).length;
+    const r = adapt.nextNewCards({ base: prefs.newCards, adapt: state.cards, stats: progress.cardStats(), today, due });
+    if (r.day === today && r.change) progress.setAdapt({ cards: r });
+    const shown = state.cards?.day === today ? state.cards : r; // today's change stays visible all day
+    const notes = [`📈 Adaptive: ${r.newCards} new cards today` + (shown.change ? ` (${shown.change > 0 ? '+' : ''}${shown.change}, ${shown.reason})` : shown.reason ? ` · ${shown.reason}` : '')];
+    if (prefs.deck === 'level') {
+      const mine = words.filter((w) => w.level === myLevel);
+      const known = adapt.mastery(mine, cards, srs.cardKey);
+      progress.setAdapt({ mastery: { ...state.mastery, [myLevel]: known } });
+      const next = levels[levels.indexOf(myLevel) + 1];
+      if (next && known >= adapt.UNLOCK_SHARE) {
+        const ahead = await wordPool(next, road, myLevel);
+        const isNew = (w) => !cards[srs.cardKey(w)];
+        // new words alternate between the two levels; words already seen keep their own schedule
+        words = [...words.filter((w) => w.level !== myLevel || !isNew(w)), ...ahead.filter((w) => !isNew(w)),
+          ...adapt.interleave(mine.filter(isNew), ahead.filter(isNew))];
+        notes.push(`🔓 You know ${Math.round(known * 100)}% of the ${myLevel} words, so ${next} words are joining your deck.`);
+      } else if (next) {
+        notes.push(`${myLevel} words known: ${Math.round(known * 100)}%. ${next} words join your deck at ${Math.round(adapt.UNLOCK_SHARE * 100)}%.`);
+      }
+    }
+    return { limit: r.newCards, notes };
   }
 }
 
@@ -99,6 +133,8 @@ function run(stage, queue, reverse, view) {
   const today = srs.day();
   const autoplay = canSpeak && progress.settings().autoplay;
   const missed = new Set();
+  const answered = new Set(); // first answer per card this session feeds the adaptive stats
+  const fast = progress.settings().adaptive;
   let knew = 0;
   let flipped = false;
 
@@ -144,7 +180,8 @@ function run(stage, queue, reverse, view) {
     if (!flipped) return;
     const w = queue.shift();
     const k = srs.cardKey(w);
-    progress.setCard(k, srs.answer(progress.cards()[k], ok, today), today);
+    progress.setCard(k, srs.answer(progress.cards()[k], ok, today, { fast }), today, !answered.has(k), ok);
+    answered.add(k);
     if (ok) knew++;
     else { missed.add(k); queue = srs.requeue(queue, w); }
     if (queue.length) show();

@@ -398,6 +398,14 @@ textarea.answer { width: 100%; min-height: 80px; border: 1.5px solid var(--line)
   background: var(--surface); border: 1px solid var(--line); border-radius: 12px;
 }
 .today .muted { font-size: .82rem; margin-left: auto; }
+@media (max-width: 520px) { .today .ready-more, .today .muted { display: none; } } /* keep the pinned strip to one line */
+
+/* adaptive mode: one or two calm lines on what changed today */
+.adapt-note {
+  margin: 0 0 12px; padding: 8px 14px; border-radius: 12px;
+  background: var(--accent-soft); border: 1px solid var(--line); font-size: .9rem;
+}
+.adapt-note p { margin: 2px 0; }
 
 /* ---------- Settings ---------- */
 .settings .card h2 { margin-bottom: 6px; }
