@@ -1,0 +1,539 @@
+{
+  "id": "b2-01-passiv-modal",
+  "level": "B2",
+  "title": "Passiv mit Modalverben",
+  "concept": "Passive with modal verbs and Zustandspassiv (ist geöffnet)",
+  "wordlist": "Technik & Industrie",
+  "minutes": 35,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+B2+Passiv+Modalverben+Zustandspassiv",
+  "learn": [
+    {
+      "heading": "Modalverb + Partizip II + werden",
+      "text": "In the passive with a modal verb, the **modal** is conjugated (position 2), and the end of the sentence holds **Partizip II + werden** (always the infinitive *werden*). The past uses the Präteritum of the modal: *musste, konnte, durfte, sollte*. This is the standard pattern for **instructions, rules and technical reports**.",
+      "table": {
+        "head": [
+          "",
+          "Präsens",
+          "Präteritum"
+        ],
+        "rows": [
+          [
+            "müssen",
+            "Die Maschine muss repariert werden.",
+            "Die Maschine musste repariert werden."
+          ],
+          [
+            "können",
+            "Der Filter kann getauscht werden.",
+            "Der Filter konnte getauscht werden."
+          ],
+          [
+            "dürfen",
+            "Das Gerät darf nicht geöffnet werden.",
+            "Das Gerät durfte nicht geöffnet werden."
+          ],
+          [
+            "sollen",
+            "Die Pumpe soll geprüft werden.",
+            "Die Pumpe sollte geprüft werden."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "de": "Die Anlage muss jedes Jahr gewartet werden.",
+          "en": "The plant has to be serviced every year."
+        },
+        {
+          "de": "Die Schrauben müssen fest angezogen werden.",
+          "en": "The screws have to be tightened firmly."
+        },
+        {
+          "de": "Der Filter konnte nicht rechtzeitig ausgetauscht werden.",
+          "en": "The filter could not be replaced in time."
+        },
+        {
+          "de": "Die Maschine musste sofort abgeschaltet werden.",
+          "en": "The machine had to be switched off immediately."
+        }
+      ]
+    },
+    {
+      "heading": "Perfekt Passiv: sein + Partizip II + worden",
+      "text": "The Perfekt Passiv uses **sein** (not haben) plus **Partizip II + worden**. Careful: in the passive it is **worden**, never *geworden* (that is the Partizip II of the full verb *werden*, \"to become\"). In a subordinate clause the finite verb goes last: *… weil die Pumpe nicht gewartet worden ist.*",
+      "table": {
+        "head": [
+          "Zeit",
+          "Beispiel"
+        ],
+        "rows": [
+          [
+            "Präsens",
+            "Die Pumpe wird repariert."
+          ],
+          [
+            "Präteritum",
+            "Die Pumpe wurde repariert."
+          ],
+          [
+            "Perfekt",
+            "Die Pumpe ist repariert worden."
+          ],
+          [
+            "Plusquamperfekt",
+            "Die Pumpe war repariert worden."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "de": "Die Anlage ist 2020 gebaut worden.",
+          "en": "The plant was built in 2020."
+        },
+        {
+          "de": "Alle Bauteile sind vor der Lieferung geprüft worden.",
+          "en": "All components were checked before delivery."
+        },
+        {
+          "de": "Das Problem war schon vor dem Test erkannt worden.",
+          "en": "The problem had already been recognised before the test."
+        },
+        {
+          "de": "Die Maschine ist ausgefallen, weil sie nicht gewartet worden ist.",
+          "en": "The machine broke down because it had not been serviced."
+        }
+      ]
+    },
+    {
+      "heading": "Vorgangspassiv vs. Zustandspassiv",
+      "text": "**Vorgangspassiv** (werden + Partizip II) describes the **process**. **Zustandspassiv** (sein + Partizip II) describes the **result, the state** after the process. Compare *Die Tür wird geöffnet* (someone is opening it now) with *Die Tür ist geöffnet* (it is open). Only verbs with a clear end result form a Zustandspassiv.",
+      "table": {
+        "head": [
+          "Vorgangspassiv (Prozess)",
+          "Zustandspassiv (Ergebnis)"
+        ],
+        "rows": [
+          [
+            "Die Tür wird geöffnet.",
+            "Die Tür ist geöffnet."
+          ],
+          [
+            "Der Motor wird repariert.",
+            "Der Motor ist repariert."
+          ],
+          [
+            "Die Halle wurde geschlossen.",
+            "Die Halle war geschlossen."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "de": "Die Teile sind geprüft und freigegeben.",
+          "en": "The parts are checked and approved."
+        },
+        {
+          "de": "Die Werkstatt ist samstags geschlossen.",
+          "en": "The workshop is closed on Saturdays."
+        },
+        {
+          "de": "Gestern war der Fehler noch nicht behoben.",
+          "en": "Yesterday the fault had not been fixed yet."
+        }
+      ]
+    }
+  ],
+  "tip": "Count the verbs at the end: modal passive = Partizip II + werden (müssen repariert werden); Perfekt passive = Partizip II + worden. Zustand = sein + Partizip II with no worden.",
+  "words": [
+    {
+      "de": "Maschine",
+      "en": "machine",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Maschinen"
+    },
+    {
+      "de": "Anlage",
+      "en": "plant, facility",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Anlagen"
+    },
+    {
+      "de": "Wartung",
+      "en": "maintenance",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Wartungen"
+    },
+    {
+      "de": "Fertigung",
+      "en": "manufacturing",
+      "pos": "noun",
+      "article": "die",
+      "plural": "-"
+    },
+    {
+      "de": "Werkstück",
+      "en": "workpiece",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Werkstücke"
+    },
+    {
+      "de": "Bauteil",
+      "en": "component",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Bauteile"
+    },
+    {
+      "de": "Schraube",
+      "en": "screw",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Schrauben"
+    },
+    {
+      "de": "Pumpe",
+      "en": "pump",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Pumpen"
+    },
+    {
+      "de": "Störung",
+      "en": "malfunction",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Störungen"
+    },
+    {
+      "de": "Qualitätskontrolle",
+      "en": "quality control",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Qualitätskontrollen"
+    },
+    {
+      "de": "Lieferung",
+      "en": "delivery",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Lieferungen"
+    },
+    {
+      "de": "Ersatzteil",
+      "en": "spare part",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Ersatzteile"
+    },
+    {
+      "de": "reparieren",
+      "en": "to repair",
+      "pos": "verb",
+      "aux": "haben",
+      "p2": "repariert"
+    },
+    {
+      "de": "warten",
+      "en": "to service, to maintain",
+      "pos": "verb",
+      "aux": "haben",
+      "p2": "gewartet"
+    },
+    {
+      "de": "austauschen",
+      "en": "to replace, to exchange",
+      "pos": "verb",
+      "aux": "haben",
+      "sep": "aus",
+      "p2": "ausgetauscht"
+    },
+    {
+      "de": "prüfen",
+      "en": "to check, to test",
+      "pos": "verb",
+      "aux": "haben",
+      "p2": "geprüft"
+    },
+    {
+      "de": "einbauen",
+      "en": "to install, to fit",
+      "pos": "verb",
+      "aux": "haben",
+      "sep": "ein",
+      "p2": "eingebaut"
+    },
+    {
+      "de": "abschalten",
+      "en": "to switch off",
+      "pos": "verb",
+      "aux": "haben",
+      "sep": "ab",
+      "p2": "abgeschaltet"
+    },
+    {
+      "de": "liefern",
+      "en": "to deliver",
+      "pos": "verb",
+      "aux": "haben",
+      "p2": "geliefert"
+    },
+    {
+      "de": "fehlerhaft",
+      "en": "faulty",
+      "pos": "adj"
+    },
+    {
+      "de": "zuverlässig",
+      "en": "reliable",
+      "pos": "adj"
+    },
+    {
+      "de": "defekt",
+      "en": "defective, broken",
+      "pos": "adj"
+    }
+  ],
+  "mindmap": {
+    "label": "Passiv: Modal & Zustand",
+    "children": [
+      {
+        "label": "Modal + Passiv",
+        "note": "Partizip II + werden",
+        "children": [
+          {
+            "label": "muss repariert werden"
+          },
+          {
+            "label": "musste repariert werden"
+          }
+        ]
+      },
+      {
+        "label": "Perfekt Passiv",
+        "note": "sein + Partizip II + worden",
+        "children": [
+          {
+            "label": "ist gebaut worden"
+          },
+          {
+            "label": "war gebaut worden"
+          }
+        ]
+      },
+      {
+        "label": "Vorgangspassiv",
+        "note": "werden: Prozess",
+        "children": [
+          {
+            "label": "Die Tür wird geöffnet."
+          }
+        ]
+      },
+      {
+        "label": "Zustandspassiv",
+        "note": "sein: Ergebnis",
+        "children": [
+          {
+            "label": "Die Tür ist geöffnet."
+          }
+        ]
+      },
+      {
+        "label": "Fehler vermeiden",
+        "children": [
+          {
+            "label": "worden, nicht geworden"
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "mc",
+      "q": "Die Maschine muss morgen ___.",
+      "options": [
+        "repariert werden",
+        "repariert wird",
+        "reparieren werden"
+      ],
+      "answer": 0,
+      "explain": "After a modal, the passive infinitive stands at the end: Partizip II + werden (repariert werden)."
+    },
+    {
+      "type": "mc",
+      "q": "Die Pumpe ist gestern ___.",
+      "options": [
+        "repariert geworden",
+        "repariert worden",
+        "reparieren worden"
+      ],
+      "answer": 1,
+      "explain": "The Perfekt Passiv ends in Partizip II + worden. Geworden is only the full verb werden."
+    },
+    {
+      "type": "mc",
+      "q": "Welcher Satz beschreibt einen Zustand (Ergebnis)?",
+      "options": [
+        "Die Tür wird geöffnet.",
+        "Die Tür ist geöffnet.",
+        "Die Tür muss geöffnet werden."
+      ],
+      "answer": 1,
+      "explain": "Zustandspassiv = sein + Partizip II: the door is already open."
+    },
+    {
+      "type": "gap",
+      "q": "Das Gerät darf nicht geöffnet ___.",
+      "answer": [
+        "werden"
+      ],
+      "explain": "Modal passive: dürfen + Partizip II + werden."
+    },
+    {
+      "type": "gap",
+      "q": "Weil das Ersatzteil fehlte, ___ die Pumpe nicht repariert werden.",
+      "answer": [
+        "konnte"
+      ],
+      "explain": "Past (fehlte) and a result that was not possible: konnte + repariert werden."
+    },
+    {
+      "type": "gap",
+      "q": "Alle Teile sind vor der Lieferung geprüft ___.",
+      "answer": [
+        "worden"
+      ],
+      "explain": "Perfekt Passiv: sind … geprüft worden."
+    },
+    {
+      "type": "article",
+      "word": "Ersatzteil",
+      "answer": "das",
+      "explain": "Teil is neuter, so das Ersatzteil."
+    },
+    {
+      "type": "article",
+      "word": "Wartung",
+      "answer": "die",
+      "explain": "Nouns ending in -ung are feminine: die Wartung."
+    },
+    {
+      "type": "order",
+      "words": [
+        "abgeschaltet",
+        "werden",
+        "sofort",
+        "musste",
+        "Maschine",
+        "Die"
+      ],
+      "answer": "Die Maschine musste sofort abgeschaltet werden",
+      "explain": "The modal musste is in position 2; abgeschaltet werden stands at the end."
+    },
+    {
+      "type": "order",
+      "words": [
+        "gebaut",
+        "worden",
+        "2020",
+        "ist",
+        "Anlage",
+        "Die"
+      ],
+      "answer": "Die Anlage ist 2020 gebaut worden",
+      "explain": "Perfekt Passiv: ist in position 2, gebaut worden at the end."
+    },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "die Wartung",
+          "maintenance"
+        ],
+        [
+          "das Bauteil",
+          "component"
+        ],
+        [
+          "austauschen",
+          "to replace"
+        ],
+        [
+          "fehlerhaft",
+          "faulty"
+        ],
+        [
+          "die Störung",
+          "malfunction"
+        ]
+      ],
+      "explain": "Typical vocabulary from industry and maintenance."
+    },
+    {
+      "type": "translate",
+      "en": "The pump had to be replaced.",
+      "answer": [
+        "Die Pumpe musste ausgetauscht werden"
+      ],
+      "explain": "Past modal passive: musste + Partizip II + werden. Austauschen is separable, so the participle is ausgetauscht."
+    },
+    {
+      "type": "translate",
+      "en": "The plant has been checked.",
+      "answer": [
+        "Die Anlage ist geprüft worden",
+        "Die Anlage wurde geprüft"
+      ],
+      "explain": "Perfekt Passiv: ist geprüft worden (Präteritum wurde geprüft is also fine in a report)."
+    }
+  ],
+  "speak": {
+    "shadow": [
+      {
+        "de": "Die Anlage muss jedes Jahr gewartet werden.",
+        "en": "The plant has to be serviced every year."
+      },
+      {
+        "de": "Der defekte Filter musste sofort ausgetauscht werden.",
+        "en": "The broken filter had to be replaced immediately."
+      },
+      {
+        "de": "Die Pumpe ist gestern repariert worden.",
+        "en": "The pump was repaired yesterday."
+      },
+      {
+        "de": "Das Gerät darf nur von Fachpersonal geöffnet werden.",
+        "en": "The device may only be opened by specialists."
+      },
+      {
+        "de": "Alle Bauteile sind vor der Lieferung geprüft worden.",
+        "en": "All components were checked before delivery."
+      }
+    ],
+    "prompts": [
+      {
+        "q": "Was muss bei der Wartung einer Anlage gemacht werden?",
+        "qEn": "What has to be done when servicing a plant?",
+        "model": "Zuerst muss die Anlage abgeschaltet werden. Dann müssen die Filter geprüft und, wenn nötig, ausgetauscht werden. Die Schrauben müssen fest angezogen werden, und am Ende muss alles dokumentiert werden.",
+        "hint": "Zuerst muss … werden. Dann müssen … werden."
+      },
+      {
+        "q": "Was ist gestern in der Werkstatt passiert? Berichte.",
+        "qEn": "What happened in the workshop yesterday? Report.",
+        "model": "Gestern ist die Pumpe ausgefallen. Sie musste sofort abgeschaltet werden, weil sie zu heiß wurde. Das Ersatzteil konnte erst heute geliefert werden. Jetzt ist die Pumpe repariert, und die Anlage kann wieder gestartet werden.",
+        "hint": "… ist ausgefallen. … musste … werden. … konnte … werden."
+      },
+      {
+        "q": "Ist die Anlage schon fertig? Beschreibe den Zustand.",
+        "qEn": "Is the plant finished yet? Describe the state.",
+        "model": "Fast. Die Anlage ist gebaut und alle Bauteile sind geprüft. Nur die Software muss noch aktualisiert werden. Die Halle ist schon geöffnet, aber der Prüfraum ist noch geschlossen.",
+        "hint": "Zustandspassiv: … ist gebaut. … sind geprüft."
+      }
+    ]
+  }
+}

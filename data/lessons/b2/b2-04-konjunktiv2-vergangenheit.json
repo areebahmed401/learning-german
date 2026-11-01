@@ -1,0 +1,529 @@
+{
+  "id": "b2-04-konjunktiv2-vergangenheit",
+  "level": "B2",
+  "title": "Hätte ich nur…",
+  "concept": "Konjunktiv II past: hätte gemacht, wäre gegangen",
+  "wordlist": "Entscheidungen im Leben",
+  "minutes": 35,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+B2+Konjunktiv+2+Vergangenheit+h%C3%A4tte+w%C3%A4re",
+  "learn": [
+    {
+      "heading": "hätte / wäre + Partizip II",
+      "text": "The **Konjunktiv II der Vergangenheit** talks about things that did **not** happen: regrets, missed chances, unreal pasts. Form: **hätte** or **wäre** (Konjunktiv II of the auxiliary) + **Partizip II**. Use **wäre** with the same verbs that take *sein* in the Perfekt (movement, change of state, *sein, bleiben*), otherwise **hätte**.",
+      "table": {
+        "head": [
+          "Hilfsverb",
+          "Beispiel",
+          "Bedeutung"
+        ],
+        "rows": [
+          [
+            "hätte + Partizip II",
+            "Ich hätte das Angebot angenommen.",
+            "I would have accepted the offer."
+          ],
+          [
+            "wäre + Partizip II",
+            "Wir wären gern länger geblieben.",
+            "We would have liked to stay longer."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "de": "Ich hätte das Angebot angenommen.",
+          "en": "I would have accepted the offer."
+        },
+        {
+          "de": "Wir wären gern länger geblieben.",
+          "en": "We would have liked to stay longer."
+        },
+        {
+          "de": "Hätte ich das nur früher gewusst!",
+          "en": "If only I had known that earlier!"
+        }
+      ]
+    },
+    {
+      "heading": "Wenn ich das gewusst hätte …",
+      "text": "An unreal condition in the past has **both clauses** in the Konjunktiv II past: *Wenn ich das gewusst hätte, wäre ich nicht gefahren.* In the **wenn-clause** the auxiliary is at the end. You can drop *wenn* and put the verb first: *Hätte ich das gewusst, wäre ich nicht gefahren.*",
+      "table": {
+        "head": [
+          "Bedingung (wenn)",
+          "Folge"
+        ],
+        "rows": [
+          [
+            "Wenn ich mehr gelernt hätte,",
+            "hätte ich die Prüfung bestanden."
+          ],
+          [
+            "Wenn wir früher losgefahren wären,",
+            "hätten wir den Zug erreicht."
+          ],
+          [
+            "Hätte ich das gewusst,",
+            "wäre ich nicht gefahren."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "de": "Wenn ich mehr gelernt hätte, hätte ich die Prüfung bestanden.",
+          "en": "If I had studied more, I would have passed the exam."
+        },
+        {
+          "de": "Wenn wir früher losgefahren wären, hätten wir den Zug erreicht.",
+          "en": "If we had left earlier, we would have caught the train."
+        },
+        {
+          "de": "Wenn er das Angebot angenommen hätte, wäre er jetzt in München.",
+          "en": "If he had accepted the offer, he would be in Munich now."
+        }
+      ]
+    },
+    {
+      "heading": "With modal verbs: the double infinitive",
+      "text": "With a modal verb you use **hätte + Infinitiv + Modalverb-Infinitiv** (the modal replaces Partizip II): *Ich hätte früher anfangen sollen.* In a subordinate clause, **hätte stands before the two infinitives**: *Ich weiß, dass ich das hätte machen sollen.* Never use *gesollt*, *gekonnt* here.",
+      "table": {
+        "head": [
+          "Hauptsatz",
+          "Nebensatz"
+        ],
+        "rows": [
+          [
+            "Ich hätte früher anfangen sollen.",
+            "…, dass ich früher hätte anfangen sollen."
+          ],
+          [
+            "Du hättest mich anrufen können.",
+            "…, dass du mich hättest anrufen können."
+          ],
+          [
+            "Wir hätten das machen müssen.",
+            "…, dass wir das hätten machen müssen."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "de": "Ich hätte den Vertrag nicht unterschreiben sollen.",
+          "en": "I should not have signed the contract."
+        },
+        {
+          "de": "Du hättest mich anrufen können.",
+          "en": "You could have called me."
+        },
+        {
+          "de": "Ich weiß, dass ich das hätte machen sollen.",
+          "en": "I know that I should have done that."
+        }
+      ]
+    }
+  ],
+  "tip": "Regret = hätte + Partizip II (or hätte … sollen). Unreal past needs the same tense in both clauses. In a subordinate clause with a modal: hätte comes before the double infinitive.",
+  "words": [
+    {
+      "de": "Entscheidung",
+      "en": "decision",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Entscheidungen"
+    },
+    {
+      "de": "Chance",
+      "en": "chance, opportunity",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Chancen"
+    },
+    {
+      "de": "Angebot",
+      "en": "offer",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Angebote"
+    },
+    {
+      "de": "Bewerbung",
+      "en": "job application",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Bewerbungen"
+    },
+    {
+      "de": "Vertrag",
+      "en": "contract",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Verträge"
+    },
+    {
+      "de": "Kündigung",
+      "en": "resignation, notice",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Kündigungen"
+    },
+    {
+      "de": "Fehler",
+      "en": "mistake",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Fehler"
+    },
+    {
+      "de": "Risiko",
+      "en": "risk",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Risiken"
+    },
+    {
+      "de": "Vorteil",
+      "en": "advantage",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Vorteile"
+    },
+    {
+      "de": "Nachteil",
+      "en": "disadvantage",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Nachteile"
+    },
+    {
+      "de": "Zukunft",
+      "en": "future",
+      "pos": "noun",
+      "article": "die",
+      "plural": "-"
+    },
+    {
+      "de": "verpassen",
+      "en": "to miss",
+      "pos": "verb",
+      "aux": "haben",
+      "p2": "verpasst"
+    },
+    {
+      "de": "bereuen",
+      "en": "to regret",
+      "pos": "verb",
+      "aux": "haben",
+      "p2": "bereut"
+    },
+    {
+      "de": "sich entscheiden",
+      "en": "to decide",
+      "pos": "verb",
+      "aux": "haben",
+      "p2": "entschieden"
+    },
+    {
+      "de": "sich ärgern",
+      "en": "to be annoyed",
+      "pos": "verb",
+      "aux": "haben",
+      "p2": "geärgert"
+    },
+    {
+      "de": "annehmen",
+      "en": "to accept",
+      "pos": "verb",
+      "aux": "haben",
+      "sep": "an",
+      "p2": "angenommen"
+    },
+    {
+      "de": "ablehnen",
+      "en": "to decline",
+      "pos": "verb",
+      "aux": "haben",
+      "sep": "ab",
+      "p2": "abgelehnt"
+    },
+    {
+      "de": "kündigen",
+      "en": "to give notice, to quit",
+      "pos": "verb",
+      "aux": "haben",
+      "p2": "gekündigt"
+    },
+    {
+      "de": "wagen",
+      "en": "to dare, to risk",
+      "pos": "verb",
+      "aux": "haben",
+      "p2": "gewagt"
+    },
+    {
+      "de": "umziehen",
+      "en": "to move (house)",
+      "pos": "verb",
+      "aux": "sein",
+      "sep": "um",
+      "p2": "umgezogen"
+    },
+    {
+      "de": "leider",
+      "en": "unfortunately",
+      "pos": "adv"
+    },
+    {
+      "de": "rückblickend",
+      "en": "looking back",
+      "pos": "adv"
+    }
+  ],
+  "mindmap": {
+    "label": "Konjunktiv II Vergangenheit",
+    "children": [
+      {
+        "label": "Form",
+        "note": "hätte / wäre + Partizip II",
+        "children": [
+          {
+            "label": "Ich hätte gewusst."
+          },
+          {
+            "label": "Ich wäre gefahren."
+          }
+        ]
+      },
+      {
+        "label": "Unreal condition",
+        "children": [
+          {
+            "label": "Wenn ich … gewusst hätte, …"
+          },
+          {
+            "label": "Hätte ich …, wäre ich …"
+          }
+        ]
+      },
+      {
+        "label": "Modal verbs",
+        "note": "double infinitive",
+        "children": [
+          {
+            "label": "hätte machen sollen"
+          },
+          {
+            "label": "…, dass ich das hätte machen sollen"
+          }
+        ]
+      },
+      {
+        "label": "Use",
+        "children": [
+          {
+            "label": "regret"
+          },
+          {
+            "label": "criticism: Du hättest anrufen können."
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "mc",
+      "q": "Ich ___ den Job angenommen, wenn das Gehalt höher gewesen wäre.",
+      "options": [
+        "hätte",
+        "wäre",
+        "würde"
+      ],
+      "answer": 0,
+      "explain": "Annehmen takes haben, so the past Konjunktiv II is hätte angenommen."
+    },
+    {
+      "type": "mc",
+      "q": "Wir ___ gern länger geblieben.",
+      "options": [
+        "hätten",
+        "wären",
+        "waren"
+      ],
+      "answer": 1,
+      "explain": "Bleiben takes sein in the Perfekt, so: wären geblieben."
+    },
+    {
+      "type": "mc",
+      "q": "Welcher Satz ist richtig?",
+      "options": [
+        "Ich hätte früher anfangen sollen.",
+        "Ich hätte früher anfangen gesollt.",
+        "Ich wäre früher anfangen sollen."
+      ],
+      "answer": 0,
+      "explain": "With a modal: hätte + Infinitiv + sollen (double infinitive), never gesollt."
+    },
+    {
+      "type": "mc",
+      "q": "Ich weiß, dass ich das ___.",
+      "options": [
+        "hätte machen sollen",
+        "machen sollen hätte",
+        "machen hätte sollen"
+      ],
+      "answer": 0,
+      "explain": "In a subordinate clause hätte stands before the double infinitive."
+    },
+    {
+      "type": "gap",
+      "q": "Wenn ich das gewusst ___, wäre ich nicht gefahren.",
+      "answer": [
+        "hätte"
+      ],
+      "explain": "Wissen takes haben: gewusst hätte at the end of the wenn-clause."
+    },
+    {
+      "type": "gap",
+      "q": "Wenn wir früher losgefahren ___, hätten wir den Zug erreicht.",
+      "answer": [
+        "wären"
+      ],
+      "explain": "Losfahren takes sein: losgefahren wären."
+    },
+    {
+      "type": "gap",
+      "q": "Du ___ mich anrufen können.",
+      "answer": [
+        "hättest"
+      ],
+      "explain": "Criticism or missed possibility: du hättest … können (hätte, du-form hättest)."
+    },
+    {
+      "type": "gap",
+      "q": "Hätte ich mehr gelernt, ___ ich die Prüfung bestanden.",
+      "answer": [
+        "hätte"
+      ],
+      "explain": "The main clause has the inverted structure: hätte ich … bestanden."
+    },
+    {
+      "type": "article",
+      "word": "Risiko",
+      "answer": "das",
+      "explain": "Risiko is neuter: das Risiko (plural: Risiken)."
+    },
+    {
+      "type": "article",
+      "word": "Kündigung",
+      "answer": "die",
+      "explain": "Nouns on -ung are feminine: die Kündigung."
+    },
+    {
+      "type": "order",
+      "words": [
+        "unterschreiben",
+        "sollen",
+        "nicht",
+        "Vertrag",
+        "den",
+        "hätte",
+        "Ich"
+      ],
+      "answer": "Ich hätte den Vertrag nicht unterschreiben sollen",
+      "explain": "Main clause with a modal: hätte in position 2, the double infinitive unterschreiben sollen at the end."
+    },
+    {
+      "type": "order",
+      "words": [
+        "machen",
+        "sollen",
+        "hätte",
+        "das",
+        "ich",
+        "dass",
+        "weiß,",
+        "Ich"
+      ],
+      "answer": "Ich weiß, dass ich das hätte machen sollen",
+      "explain": "Subordinate clause: dass … hätte machen sollen, with hätte before the two infinitives."
+    },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "die Chance",
+          "opportunity"
+        ],
+        [
+          "bereuen",
+          "to regret"
+        ],
+        [
+          "ablehnen",
+          "to decline"
+        ],
+        [
+          "der Nachteil",
+          "disadvantage"
+        ],
+        [
+          "rückblickend",
+          "looking back"
+        ]
+      ],
+      "explain": "Vocabulary for life decisions."
+    },
+    {
+      "type": "translate",
+      "en": "If I had known that, I would not have gone.",
+      "answer": [
+        "Wenn ich das gewusst hätte, wäre ich nicht gefahren",
+        "Wenn ich das gewusst hätte, wäre ich nicht gegangen"
+      ],
+      "explain": "Both clauses are Konjunktiv II past: gewusst hätte / wäre gefahren (or gegangen)."
+    }
+  ],
+  "speak": {
+    "shadow": [
+      {
+        "de": "Ich hätte das Angebot annehmen sollen.",
+        "en": "I should have accepted the offer."
+      },
+      {
+        "de": "Wenn ich das gewusst hätte, wäre ich nicht gefahren.",
+        "en": "If I had known that, I would not have gone."
+      },
+      {
+        "de": "Wir wären gern länger geblieben.",
+        "en": "We would have liked to stay longer."
+      },
+      {
+        "de": "Du hättest mich früher anrufen können.",
+        "en": "You could have called me earlier."
+      },
+      {
+        "de": "Ich bereue, dass ich nicht früher gekündigt habe.",
+        "en": "I regret that I did not quit earlier."
+      }
+    ],
+    "prompts": [
+      {
+        "q": "Welche Entscheidung bereust du? Erkläre warum.",
+        "qEn": "Which decision do you regret? Explain why.",
+        "model": "Ich bereue, dass ich nach dem Studium nicht für ein Jahr ins Ausland gegangen bin. Wenn ich damals mutiger gewesen wäre, hätte ich viele neue Erfahrungen gesammelt. Ich hätte auch schneller besser Deutsch gelernt. Rückblickend hätte ich die Chance nutzen sollen.",
+        "hint": "Ich bereue, dass … Wenn ich … gewesen wäre, hätte ich …"
+      },
+      {
+        "q": "Wie hätte ein Projekt bei der Arbeit besser laufen können?",
+        "qEn": "How could a project at work have gone better?",
+        "model": "Das Projekt ist leider zu spät fertig geworden. Wir hätten früher mit den Tests anfangen sollen. Wenn wir die Lieferanten rechtzeitig informiert hätten, wäre das Bauteil nicht so spät angekommen. Außerdem hätte ich mehr Zeit für die Planung einplanen müssen.",
+        "hint": "Wir hätten … sollen. Wenn wir … hätten, wäre …"
+      },
+      {
+        "q": "Was wäre passiert, wenn du dich anders entschieden hättest?",
+        "qEn": "What would have happened if you had decided differently?",
+        "model": "Wenn ich in meiner Heimatstadt geblieben wäre, hätte ich nie in Aachen gearbeitet. Ich hätte meine Kollegen nicht kennengelernt, und ich wäre nicht in dieses Projekt gekommen. Vielleicht hätte ich ein leichteres Leben gehabt, aber es wäre langweiliger gewesen.",
+        "hint": "Wenn ich … wäre, hätte ich … Ich wäre nicht …"
+      }
+    ]
+  }
+}

@@ -1,0 +1,529 @@
+{
+  "id": "b2-05-modalverben-subjektiv",
+  "level": "B2",
+  "title": "Er soll reich sein",
+  "concept": "Modal verbs for assumptions and hearsay",
+  "wordlist": "Vermutungen & Gerüchte",
+  "minutes": 35,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+B2+Modalverben+subjektiv+Vermutung+sollen+wollen",
+  "learn": [
+    {
+      "heading": "Modal verbs for assumptions: a certainty scale",
+      "text": "Modal verbs can express how **sure you are** about something. This is the **subjektiver Gebrauch**. The normal meaning (\"obligation, ability\") is the *objektiver Gebrauch*. Compare *Er muss arbeiten* (he has to work) with *Er muss krank sein* (I am sure he is ill). The more certain you are, the stronger the modal verb.",
+      "table": {
+        "head": [
+          "Modalverb",
+          "Sicherheit",
+          "Beispiel"
+        ],
+        "rows": [
+          [
+            "muss",
+            "sehr sicher (ca. 95 %)",
+            "Er muss krank sein."
+          ],
+          [
+            "dürfte",
+            "wahrscheinlich (ca. 75 %)",
+            "Er dürfte krank sein."
+          ],
+          [
+            "kann / könnte",
+            "möglich (ca. 50 %)",
+            "Er könnte krank sein."
+          ],
+          [
+            "kann nicht",
+            "ausgeschlossen (ca. 5 %)",
+            "Er kann nicht krank sein."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "de": "Das Licht brennt noch. Der Chef muss noch im Büro sein.",
+          "en": "The light is still on. The boss must still be in the office."
+        },
+        {
+          "de": "Es dürfte bald regnen.",
+          "en": "It will probably rain soon."
+        },
+        {
+          "de": "Die Lieferung könnte morgen kommen.",
+          "en": "The delivery might come tomorrow."
+        },
+        {
+          "de": "Das kann nicht stimmen.",
+          "en": "That cannot be true."
+        }
+      ]
+    },
+    {
+      "heading": "Assumptions about the past: modal + Infinitiv Perfekt",
+      "text": "For an assumption about the **past**, the modal stays in the present and the main verb goes into the **Infinitiv Perfekt**: **Partizip II + haben/sein** at the end of the clause. *Er muss krank gewesen sein.* The opposite of *muss* is **kann nicht**, not *muss nicht*.",
+      "table": {
+        "head": [
+          "Gegenwart",
+          "Vergangenheit"
+        ],
+        "rows": [
+          [
+            "Er muss krank sein.",
+            "Er muss krank gewesen sein."
+          ],
+          [
+            "Sie dürfte schlafen.",
+            "Sie dürfte geschlafen haben."
+          ],
+          [
+            "Er könnte den Termin vergessen.",
+            "Er könnte den Termin vergessen haben."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "de": "Er muss krank gewesen sein.",
+          "en": "He must have been ill."
+        },
+        {
+          "de": "Sie dürfte die Mail schon gelesen haben.",
+          "en": "She has probably already read the mail."
+        },
+        {
+          "de": "Er könnte den Termin vergessen haben.",
+          "en": "He might have forgotten the appointment."
+        },
+        {
+          "de": "Das kann nicht passiert sein.",
+          "en": "That cannot have happened."
+        }
+      ]
+    },
+    {
+      "heading": "sollen and wollen: hearsay and claims",
+      "text": "**sollen** reports what **other people say** (a rumour or news); you do not say whether it is true: *Er soll sehr reich sein* (they say he is rich). **wollen** reports what the **subject claims about himself**, often with doubt: *Er will nichts gewusst haben* (he claims he knew nothing). Both can be used with the past, too.",
+      "table": {
+        "head": [
+          "",
+          "Wer behauptet es?",
+          "Beispiel"
+        ],
+        "rows": [
+          [
+            "sollen",
+            "andere Leute, die Medien",
+            "Die Firma soll Millionen verloren haben."
+          ],
+          [
+            "wollen",
+            "die Person selbst",
+            "Er will den Fehler nicht gesehen haben."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "de": "Der Politiker soll zurückgetreten sein.",
+          "en": "The politician is said to have resigned."
+        },
+        {
+          "de": "Laut Zeitung soll die Firma Millionen verloren haben.",
+          "en": "According to the paper, the company is said to have lost millions."
+        },
+        {
+          "de": "Er will nichts davon gewusst haben.",
+          "en": "He claims he knew nothing about it."
+        }
+      ]
+    }
+  ],
+  "tip": "Scale: muss (sure) > dürfte (probably) > könnte (maybe) > kann nicht (impossible). Sollen = others say, wollen = he says himself. For the past add Partizip II + haben/sein.",
+  "words": [
+    {
+      "de": "Vermutung",
+      "en": "assumption",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Vermutungen"
+    },
+    {
+      "de": "Gerücht",
+      "en": "rumour",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Gerüchte"
+    },
+    {
+      "de": "Annahme",
+      "en": "assumption",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Annahmen"
+    },
+    {
+      "de": "Beweis",
+      "en": "proof",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Beweise"
+    },
+    {
+      "de": "Zweifel",
+      "en": "doubt",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Zweifel"
+    },
+    {
+      "de": "Verdacht",
+      "en": "suspicion",
+      "pos": "noun",
+      "article": "der",
+      "plural": "-"
+    },
+    {
+      "de": "Quelle",
+      "en": "source",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Quellen"
+    },
+    {
+      "de": "Eindruck",
+      "en": "impression",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Eindrücke"
+    },
+    {
+      "de": "vermuten",
+      "en": "to assume, to suspect",
+      "pos": "verb",
+      "aux": "haben",
+      "p2": "vermutet"
+    },
+    {
+      "de": "bezweifeln",
+      "en": "to doubt",
+      "pos": "verb",
+      "aux": "haben",
+      "p2": "bezweifelt"
+    },
+    {
+      "de": "scheinen",
+      "en": "to seem",
+      "pos": "verb",
+      "aux": "haben",
+      "p2": "geschienen"
+    },
+    {
+      "de": "stimmen",
+      "en": "to be correct",
+      "pos": "verb",
+      "aux": "haben",
+      "p2": "gestimmt"
+    },
+    {
+      "de": "sich irren",
+      "en": "to be mistaken",
+      "pos": "verb",
+      "aux": "haben",
+      "p2": "geirrt"
+    },
+    {
+      "de": "verbreiten",
+      "en": "to spread",
+      "pos": "verb",
+      "aux": "haben",
+      "p2": "verbreitet"
+    },
+    {
+      "de": "abstreiten",
+      "en": "to deny",
+      "pos": "verb",
+      "aux": "haben",
+      "sep": "ab",
+      "p2": "abgestritten"
+    },
+    {
+      "de": "annehmen",
+      "en": "to assume",
+      "pos": "verb",
+      "aux": "haben",
+      "sep": "an",
+      "p2": "angenommen"
+    },
+    {
+      "de": "vermutlich",
+      "en": "presumably",
+      "pos": "adv"
+    },
+    {
+      "de": "wahrscheinlich",
+      "en": "probable, likely",
+      "pos": "adj"
+    },
+    {
+      "de": "offenbar",
+      "en": "apparently",
+      "pos": "adv"
+    },
+    {
+      "de": "möglicherweise",
+      "en": "possibly",
+      "pos": "adv"
+    }
+  ],
+  "mindmap": {
+    "label": "Subjektive Modalverben",
+    "children": [
+      {
+        "label": "Certainty",
+        "children": [
+          {
+            "label": "muss: sehr sicher"
+          },
+          {
+            "label": "dürfte: wahrscheinlich"
+          },
+          {
+            "label": "könnte: möglich"
+          },
+          {
+            "label": "kann nicht: ausgeschlossen"
+          }
+        ]
+      },
+      {
+        "label": "Past",
+        "note": "Partizip II + haben/sein",
+        "children": [
+          {
+            "label": "Er muss krank gewesen sein."
+          }
+        ]
+      },
+      {
+        "label": "sollen",
+        "note": "man sagt",
+        "children": [
+          {
+            "label": "Er soll reich sein."
+          }
+        ]
+      },
+      {
+        "label": "wollen",
+        "note": "er behauptet",
+        "children": [
+          {
+            "label": "Er will nichts gewusst haben."
+          }
+        ]
+      },
+      {
+        "label": "Negation",
+        "children": [
+          {
+            "label": "kann nicht, not muss nicht"
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "mc",
+      "q": "Das Licht brennt. Der Chef ___ noch im Büro sein.",
+      "options": [
+        "muss",
+        "soll",
+        "will"
+      ],
+      "answer": 0,
+      "explain": "You infer from evidence and are sure: muss."
+    },
+    {
+      "type": "mc",
+      "q": "Welcher Satz drückt die höchste Sicherheit aus?",
+      "options": [
+        "Er könnte krank sein.",
+        "Er muss krank sein.",
+        "Er dürfte krank sein."
+      ],
+      "answer": 1,
+      "explain": "Muss = very certain; dürfte = probably; könnte = possible."
+    },
+    {
+      "type": "mc",
+      "q": "\"Er soll sehr reich sein.\" bedeutet:",
+      "options": [
+        "Man sagt, dass er sehr reich ist.",
+        "Er behauptet selbst, reich zu sein.",
+        "Er muss reich werden."
+      ],
+      "answer": 0,
+      "explain": "Sollen in the subjective use reports what others say."
+    },
+    {
+      "type": "mc",
+      "q": "\"Er will den Fehler nicht gesehen haben.\" bedeutet:",
+      "options": [
+        "Andere Leute sagen das.",
+        "Er behauptet das selbst.",
+        "Es ist ganz sicher."
+      ],
+      "answer": 1,
+      "explain": "Wollen in the subjective use reports the person's own claim, often with doubt."
+    },
+    {
+      "type": "gap",
+      "q": "Ich bin ganz sicher: Er ___ krank gewesen sein.",
+      "answer": [
+        "muss"
+      ],
+      "explain": "Very certain assumption about the past: muss + Infinitiv Perfekt."
+    },
+    {
+      "type": "gap",
+      "q": "Das ___ nicht stimmen, die Zahlen sind falsch.",
+      "answer": [
+        "kann"
+      ],
+      "explain": "Excluded possibility: kann nicht (not muss nicht)."
+    },
+    {
+      "type": "gap",
+      "q": "Laut Zeitung ___ die Firma Millionen verloren haben.",
+      "answer": [
+        "soll"
+      ],
+      "explain": "A report from the press: sollen."
+    },
+    {
+      "type": "gap",
+      "q": "Er ___ nichts gewusst haben, sagt er.",
+      "answer": [
+        "will"
+      ],
+      "explain": "His own claim: wollen."
+    },
+    {
+      "type": "article",
+      "word": "Gerücht",
+      "answer": "das",
+      "explain": "Gerücht is neuter: das Gerücht."
+    },
+    {
+      "type": "article",
+      "word": "Beweis",
+      "answer": "der",
+      "explain": "Beweis is masculine: der Beweis (plural Beweise)."
+    },
+    {
+      "type": "order",
+      "words": [
+        "gewesen",
+        "sein",
+        "krank",
+        "muss",
+        "Er"
+      ],
+      "answer": "Er muss krank gewesen sein",
+      "explain": "Modal in position 2; gewesen sein (Infinitiv Perfekt) at the end."
+    },
+    {
+      "type": "order",
+      "words": [
+        "gelesen",
+        "haben",
+        "schon",
+        "Mail",
+        "die",
+        "dürfte",
+        "Sie"
+      ],
+      "answer": "Sie dürfte die Mail schon gelesen haben",
+      "explain": "Dürfte is in position 2; gelesen haben forms the Infinitiv Perfekt at the end."
+    },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "die Vermutung",
+          "assumption"
+        ],
+        [
+          "das Gerücht",
+          "rumour"
+        ],
+        [
+          "der Beweis",
+          "proof"
+        ],
+        [
+          "bezweifeln",
+          "to doubt"
+        ],
+        [
+          "offenbar",
+          "apparently"
+        ]
+      ],
+      "explain": "Vocabulary for assumptions and rumours."
+    },
+    {
+      "type": "translate",
+      "en": "He must have forgotten the appointment.",
+      "answer": [
+        "Er muss den Termin vergessen haben"
+      ],
+      "explain": "Assumption about the past: muss + Partizip II + haben."
+    }
+  ],
+  "speak": {
+    "shadow": [
+      {
+        "de": "Der Chef muss noch im Büro sein, das Licht brennt.",
+        "en": "The boss must still be in the office, the light is on."
+      },
+      {
+        "de": "Es dürfte heute Abend noch regnen.",
+        "en": "It will probably rain this evening."
+      },
+      {
+        "de": "Er muss krank gewesen sein, sonst wäre er gekommen.",
+        "en": "He must have been ill, otherwise he would have come."
+      },
+      {
+        "de": "Die Firma soll Millionen verloren haben.",
+        "en": "The company is said to have lost millions."
+      },
+      {
+        "de": "Er will nichts davon gewusst haben.",
+        "en": "He claims to have known nothing about it."
+      }
+    ],
+    "prompts": [
+      {
+        "q": "Dein Kollege ist heute nicht zur Arbeit gekommen. Was vermutest du?",
+        "qEn": "Your colleague did not come to work today. What do you assume?",
+        "model": "Er muss krank sein, denn gestern hat er schon gehustet. Er könnte auch im Stau stehen, aber dann hätte er angerufen. Er dürfte also zu Hause im Bett liegen. Den Termin kann er nicht vergessen haben, weil er ihn selbst organisiert hat.",
+        "hint": "Er muss … sein. Er könnte … Er kann nicht … haben."
+      },
+      {
+        "q": "Was hast du über eine Firma oder Person gehört? Berichte, ohne dich festzulegen.",
+        "qEn": "What have you heard about a company or person? Report without committing.",
+        "model": "Ich habe gehört, dass der Konkurrent seine Fabrik schließen will. Er soll im letzten Jahr viel Geld verloren haben. Der Chef will davon nichts gewusst haben, aber das ist schwer zu glauben. Ob das alles stimmt, weiß ich nicht.",
+        "hint": "… soll … haben. … will … haben."
+      },
+      {
+        "q": "Die Anlage ist ausgefallen. Was könnte passiert sein?",
+        "qEn": "The plant broke down. What might have happened?",
+        "model": "Der Filter dürfte verstopft gewesen sein, denn er wurde lange nicht gewartet. Es könnte auch ein Fehler in der Software gewesen sein. Ein Stromausfall kann es nicht gewesen sein, weil die anderen Maschinen laufen. Wir müssen die Daten auswerten, um sicher zu sein.",
+        "hint": "… dürfte … gewesen sein. … könnte … haben. … kann nicht … gewesen sein."
+      }
+    ]
+  }
+}

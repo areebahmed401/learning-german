@@ -1,5 +1,6 @@
 // The Road: a winding SVG road from A1 (bottom) to C1 (top), one milestone per lesson.
-import { h, getRoadmap, getLesson } from './util.js';
+import { h, md, getRoadmap, getLesson } from './util.js';
+import { renderMindmapPreview } from './mindmap.js';
 import * as progress from './progress.js';
 import { STEPS } from './lesson.js';
 
@@ -145,11 +146,59 @@ function node(x, p, cx) {
   })() : null;
   const label = `${title}: ${x.kind === 'planned' ? 'coming soon' : x.status === 'done' ? 'done' : x.status === 'progress' ? 'in progress' : 'not started'}`;
 
-  return h(`div.ms.${cls.replace(/ /g, '.')}`, { style, 'data-key': x.kind === 'ms' ? `ms-${x.m.id}` : `${x.kind}-${x.level.id}-${title}` },
+  const el = h(`div.ms.${cls.replace(/ /g, '.')}`, { style, 'data-key': x.kind === 'ms' ? `ms-${x.m.id}` : `${x.kind}-${x.level.id}-${title}` },
     x.current ? h('div.you-are-here', 'Du bist hier') : null,
     h('button.ms-dot', { type: 'button', onclick: open, 'aria-label': label }, ring, dot),
     h('button.ms-label', { type: 'button', onclick: open, tabindex: '-1' }, h('b', title), h('small', sub)));
+  if (x.kind === 'ms' && canHover) {
+    el.addEventListener('mouseenter', () => peek(x, el));
+    el.addEventListener('mouseleave', unpeek);
+    el.addEventListener('focusin', () => peek(x, el));
+    el.addEventListener('focusout', unpeek);
+  }
+  return el;
 }
+
+/* ---------- Hover peek: the milestone's mind map ---------- */
+const canHover = matchMedia('(hover: hover) and (pointer: fine)').matches;
+let peekTimer;
+let peekId;
+
+function unpeek() {
+  clearTimeout(peekTimer);
+  peekId = null;
+  document.querySelector('.peek')?.remove();
+}
+
+function peek(x, el) {
+  clearTimeout(peekTimer);
+  peekId = x.m.id;
+  // short delay so sweeping the mouse along the road doesn't flash cards
+  peekTimer = setTimeout(async () => {
+    let lesson;
+    try { lesson = await getLesson(x.m.id); } catch { return; }
+    if (peekId !== x.m.id || document.querySelector('.sheet')) return;
+    document.querySelector('.peek')?.remove();
+    const map = h('div.peek-map');
+    const card = h('div.peek', { 'aria-hidden': 'true' },
+      h('div.peek-head', h('b', `🧠 ${lesson.title}`), h('span.muted', `🗂 ${lesson.wordlist} · ${lesson.words.length} words`)),
+      map,
+      lesson.tip ? h('div.peek-tip', { html: `💡 ${md(lesson.tip)}` }) : null,
+      h('div.peek-foot.muted', 'Click to open'));
+    el.closest('.road-page').append(card);
+    renderMindmapPreview(map, lesson.mindmap);
+    // above the milestone if there's room, else below; centred on the road
+    const r = el.getBoundingClientRect();
+    const road = el.closest('.road').getBoundingClientRect();
+    const w = card.offsetWidth;
+    const hgt = card.offsetHeight;
+    const left = Math.min(Math.max(16, road.left + road.width / 2 - w / 2), innerWidth - w - 16);
+    const top = r.top - hgt - 34 > 64 ? r.top - hgt - 34 : Math.min(r.bottom + 14, innerHeight - hgt - 12);
+    Object.assign(card.style, { left: `${left}px`, top: `${top}px` });
+    requestAnimationFrame(() => card.classList.add('on'));
+  }, 220);
+}
+addEventListener('scroll', unpeek, { passive: true });
 
 function closeSheet() {
   document.querySelectorAll('.sheet, .sheet-backdrop').forEach((e) => e.remove());
@@ -159,6 +208,7 @@ const escClose = (e) => e.key === 'Escape' && closeSheet();
 
 async function sheet(x) {
   closeSheet();
+  unpeek();
   const card = h('div.sheet', { role: 'dialog', 'aria-modal': 'true' });
   document.body.append(h('div.sheet-backdrop', { onclick: closeSheet }), card);
   document.addEventListener('keydown', escClose);
@@ -166,7 +216,7 @@ async function sheet(x) {
 
   if (x.kind === 'planned') {
     append(card, h('span.chip', `${x.level.id} · coming soon`), h('h2', x.m.title), h('p', x.m.concept),
-      h('p.muted', `The ${x.level.id} lessons arrive in a later phase. Finish B1 first; it's the base for this.`), h('div.row', close));
+      h('p.muted', `The ${x.level.id} lessons arrive in a later phase. Keep going on the road; they build on what comes before.`), h('div.row', close));
   } else if (x.kind === 'gate') {
     const c = progress.checkpointState(x.level.id);
     append(card, h('span.chip.accent', `${x.level.id} Checkpoint`), h('h2', `${x.level.id} geschafft?`),
@@ -186,6 +236,12 @@ async function sheet(x) {
     try {
       const lesson = await getLesson(x.m.id);
       meta.append(h('span.chip', `${lesson.words.length} words`), h('span.chip', `${lesson.exercises.length} exercises`), h('span.chip', `⏱ ${lesson.minutes} min`));
+      // no hover on touch screens, so the mind map preview lives in the sheet instead
+      if (!canHover) {
+        const map = h('div.sheet-map');
+        card.querySelector('.row').before(map);
+        renderMindmapPreview(map, lesson.mindmap);
+      }
     } catch {
       go.replaceWith(h('span.muted', 'This lesson file is missing.'));
     }

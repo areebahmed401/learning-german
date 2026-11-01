@@ -1,0 +1,540 @@
+{
+  "id": "b2-02-passiversatz",
+  "level": "B2",
+  "title": "lässt sich machen",
+  "concept": "Passive alternatives: sich lassen, -bar, sein + zu",
+  "wordlist": "Energie & Klima",
+  "minutes": 35,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+B2+Passiversatz+sich+lassen+sein+zu+bar",
+  "learn": [
+    {
+      "heading": "sich lassen + Infinitiv",
+      "text": "**sich lassen + Infinitiv** replaces a passive with **können**: *Das Problem lässt sich lösen* = *Das Problem kann gelöst werden*. The subject is the thing (not a person), and the doer is not named. The form is often used in technical and written German. For the past use *ließ sich* (Präteritum).",
+      "table": {
+        "head": [
+          "Passiv mit können",
+          "sich lassen"
+        ],
+        "rows": [
+          [
+            "Das Problem kann gelöst werden.",
+            "Das Problem lässt sich lösen."
+          ],
+          [
+            "Der Strom kann gespeichert werden.",
+            "Der Strom lässt sich speichern."
+          ],
+          [
+            "Der Fehler konnte nicht behoben werden.",
+            "Der Fehler ließ sich nicht beheben."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "de": "Diese Daten lassen sich leicht vergleichen.",
+          "en": "These data can be compared easily."
+        },
+        {
+          "de": "Strom aus Wind lässt sich nur schwer speichern.",
+          "en": "Electricity from wind is hard to store."
+        },
+        {
+          "de": "Der Fehler ließ sich nicht schnell beheben.",
+          "en": "The fault could not be fixed quickly."
+        }
+      ]
+    },
+    {
+      "heading": "Adjectives on -bar and -lich",
+      "text": "Many adjectives with **-bar** or **-lich** carry the meaning \"can be …-ed\": **lösbar** = *kann gelöst werden*. With the prefix **un-** they mean \"cannot\": *unlösbar*. Some need an umlaut or a changed stem (*verstehen → verständlich*, *erhalten → erhältlich*). Learn them as vocabulary.",
+      "table": {
+        "head": [
+          "Verb",
+          "Adjektiv",
+          "Bedeutung"
+        ],
+        "rows": [
+          [
+            "lösen",
+            "lösbar",
+            "kann gelöst werden"
+          ],
+          [
+            "erneuern",
+            "erneuerbar",
+            "kann erneuert werden"
+          ],
+          [
+            "vermeiden",
+            "vermeidbar / unvermeidlich",
+            "kann / kann nicht vermieden werden"
+          ],
+          [
+            "verstehen",
+            "verständlich",
+            "kann verstanden werden"
+          ],
+          [
+            "erhalten",
+            "erhältlich",
+            "kann erhalten werden"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "de": "Windenergie ist erneuerbar.",
+          "en": "Wind energy is renewable."
+        },
+        {
+          "de": "Dieser Fehler ist vermeidbar.",
+          "en": "This error is avoidable."
+        },
+        {
+          "de": "Die Anleitung ist leicht verständlich.",
+          "en": "The instructions are easy to understand."
+        },
+        {
+          "de": "Die Ersatzteile sind online erhältlich.",
+          "en": "The spare parts are available online."
+        }
+      ]
+    },
+    {
+      "heading": "sein + zu and bleiben + zu",
+      "text": "**sein + zu + Infinitiv** means either **kann … werden** (possible) or **muss … werden** (obligation); the context decides. **bleiben + zu + Infinitiv** means that something is **still to be done**. With separable verbs, **zu** goes between prefix and verb: *abzuwarten, einzuhalten*.",
+      "table": {
+        "head": [
+          "Konstruktion",
+          "Bedeutung",
+          "Beispiel"
+        ],
+        "rows": [
+          [
+            "sein + zu",
+            "kann werden",
+            "Das Problem ist zu lösen."
+          ],
+          [
+            "sein + zu",
+            "muss werden",
+            "Die Frist ist einzuhalten."
+          ],
+          [
+            "bleiben + zu",
+            "noch zu tun",
+            "Viel bleibt noch zu tun."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "de": "Die Anlage ist nur mit Spezialwerkzeug zu öffnen.",
+          "en": "The plant can only be opened with a special tool."
+        },
+        {
+          "de": "Die Frist ist unbedingt einzuhalten.",
+          "en": "The deadline must be kept without fail."
+        },
+        {
+          "de": "Es bleibt abzuwarten, ob die Förderung verlängert wird.",
+          "en": "It remains to be seen whether the funding is extended."
+        },
+        {
+          "de": "Viel bleibt noch zu tun.",
+          "en": "Much remains to be done."
+        }
+      ]
+    }
+  ],
+  "tip": "Test: can you replace the structure with \"kann … werden\" or \"muss … werden\"? Then it is a passive alternative. Lassen = kann, -bar = kann, sein + zu = kann or muss.",
+  "words": [
+    {
+      "de": "Stromnetz",
+      "en": "power grid",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Stromnetze"
+    },
+    {
+      "de": "Speicher",
+      "en": "storage, battery",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Speicher"
+    },
+    {
+      "de": "Wärmepumpe",
+      "en": "heat pump",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Wärmepumpen"
+    },
+    {
+      "de": "Emission",
+      "en": "emission",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Emissionen"
+    },
+    {
+      "de": "Ziel",
+      "en": "goal, target",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Ziele"
+    },
+    {
+      "de": "Förderung",
+      "en": "funding, subsidy",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Förderungen"
+    },
+    {
+      "de": "Klimaschutz",
+      "en": "climate protection",
+      "pos": "noun",
+      "article": "der",
+      "plural": "-"
+    },
+    {
+      "de": "Lösung",
+      "en": "solution",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Lösungen"
+    },
+    {
+      "de": "Ausbau",
+      "en": "expansion",
+      "pos": "noun",
+      "article": "der",
+      "plural": "-"
+    },
+    {
+      "de": "Verbrauch",
+      "en": "consumption",
+      "pos": "noun",
+      "article": "der",
+      "plural": "-"
+    },
+    {
+      "de": "speichern",
+      "en": "to store",
+      "pos": "verb",
+      "aux": "haben",
+      "p2": "gespeichert"
+    },
+    {
+      "de": "einsparen",
+      "en": "to save (energy)",
+      "pos": "verb",
+      "aux": "haben",
+      "sep": "ein",
+      "p2": "eingespart"
+    },
+    {
+      "de": "erneuern",
+      "en": "to renew",
+      "pos": "verb",
+      "aux": "haben",
+      "p2": "erneuert"
+    },
+    {
+      "de": "vermeiden",
+      "en": "to avoid",
+      "pos": "verb",
+      "aux": "haben",
+      "p2": "vermieden"
+    },
+    {
+      "de": "ausbauen",
+      "en": "to expand",
+      "pos": "verb",
+      "aux": "haben",
+      "sep": "aus",
+      "p2": "ausgebaut"
+    },
+    {
+      "de": "beheben",
+      "en": "to fix, to remedy",
+      "pos": "verb",
+      "aux": "haben",
+      "p2": "behoben"
+    },
+    {
+      "de": "erneuerbar",
+      "en": "renewable",
+      "pos": "adj"
+    },
+    {
+      "de": "vermeidbar",
+      "en": "avoidable",
+      "pos": "adj"
+    },
+    {
+      "de": "umsetzbar",
+      "en": "feasible, implementable",
+      "pos": "adj"
+    },
+    {
+      "de": "unvermeidlich",
+      "en": "unavoidable",
+      "pos": "adj"
+    }
+  ],
+  "mindmap": {
+    "label": "Passiversatz",
+    "children": [
+      {
+        "label": "sich lassen + Inf.",
+        "note": "= kann … werden",
+        "children": [
+          {
+            "label": "Das lässt sich lösen."
+          },
+          {
+            "label": "Das ließ sich nicht beheben."
+          }
+        ]
+      },
+      {
+        "label": "-bar",
+        "note": "kann …",
+        "children": [
+          {
+            "label": "lösbar, erneuerbar, vermeidbar"
+          }
+        ]
+      },
+      {
+        "label": "-lich",
+        "children": [
+          {
+            "label": "verständlich, erhältlich"
+          },
+          {
+            "label": "unvermeidlich"
+          }
+        ]
+      },
+      {
+        "label": "sein + zu",
+        "note": "kann / muss",
+        "children": [
+          {
+            "label": "Die Frist ist einzuhalten."
+          }
+        ]
+      },
+      {
+        "label": "bleiben + zu",
+        "note": "noch zu tun",
+        "children": [
+          {
+            "label": "Es bleibt abzuwarten."
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "mc",
+      "q": "Das Problem ___ sich schnell lösen.",
+      "options": [
+        "lässt",
+        "kann",
+        "wird"
+      ],
+      "answer": 0,
+      "explain": "Sich lassen + Infinitiv replaces the passive: Das Problem lässt sich lösen."
+    },
+    {
+      "type": "mc",
+      "q": "\"Dieser Fehler ist vermeidbar\" bedeutet:",
+      "options": [
+        "Der Fehler muss vermieden werden.",
+        "Der Fehler kann vermieden werden.",
+        "Der Fehler wurde vermieden."
+      ],
+      "answer": 1,
+      "explain": "-bar means \"can be …-ed\": vermeidbar = kann vermieden werden."
+    },
+    {
+      "type": "mc",
+      "q": "\"Die Frist ist unbedingt einzuhalten.\" bedeutet:",
+      "options": [
+        "Die Frist kann eingehalten werden.",
+        "Die Frist muss eingehalten werden.",
+        "Die Frist wurde eingehalten."
+      ],
+      "answer": 1,
+      "explain": "Sein + zu can mean an obligation; unbedingt shows that it is a must."
+    },
+    {
+      "type": "gap",
+      "q": "Der Strom ___ sich in Batterien speichern.",
+      "answer": [
+        "lässt"
+      ],
+      "explain": "Er/sie/es form of lassen: lässt sich speichern."
+    },
+    {
+      "type": "gap",
+      "q": "Windenergie ist ___, sie geht nie zu Ende.",
+      "answer": [
+        "erneuerbar"
+      ],
+      "explain": "Erneuern + -bar = erneuerbar (can be renewed)."
+    },
+    {
+      "type": "gap",
+      "q": "Es bleibt noch viel ___ tun.",
+      "answer": [
+        "zu"
+      ],
+      "explain": "Bleiben + zu + Infinitiv: still to be done."
+    },
+    {
+      "type": "gap",
+      "q": "Es bleibt ___, ob die Förderung verlängert wird.",
+      "answer": [
+        "abzuwarten"
+      ],
+      "explain": "Separable verb abwarten: zu goes between the prefix and the verb."
+    },
+    {
+      "type": "article",
+      "word": "Ausbau",
+      "answer": "der",
+      "explain": "Ausbau is masculine: der Ausbau (from der Bau)."
+    },
+    {
+      "type": "article",
+      "word": "Wärmepumpe",
+      "answer": "die",
+      "explain": "Pumpe is feminine, so die Wärmepumpe."
+    },
+    {
+      "type": "order",
+      "words": [
+        "schnell",
+        "beheben",
+        "nicht",
+        "sich",
+        "ließ",
+        "Fehler",
+        "Der"
+      ],
+      "answer": "Der Fehler ließ sich nicht schnell beheben",
+      "explain": "Ließ sich stands in position 2 (with sich), the infinitive beheben goes to the end."
+    },
+    {
+      "type": "order",
+      "words": [
+        "leicht",
+        "vergleichen",
+        "sich",
+        "lassen",
+        "Daten",
+        "Diese"
+      ],
+      "answer": "Diese Daten lassen sich leicht vergleichen",
+      "explain": "Plural subject: lassen sich; the infinitive vergleichen is last."
+    },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "die Förderung",
+          "funding"
+        ],
+        [
+          "der Verbrauch",
+          "consumption"
+        ],
+        [
+          "einsparen",
+          "to save"
+        ],
+        [
+          "unvermeidlich",
+          "unavoidable"
+        ],
+        [
+          "das Stromnetz",
+          "power grid"
+        ]
+      ],
+      "explain": "Vocabulary around energy and climate."
+    },
+    {
+      "type": "translate",
+      "en": "The problem can be solved easily.",
+      "answer": [
+        "Das Problem lässt sich leicht lösen",
+        "Das Problem lässt sich einfach lösen",
+        "Das Problem ist leicht lösbar",
+        "Das Problem kann leicht gelöst werden"
+      ],
+      "explain": "Passive alternatives: sich lassen, -bar or the passive with können."
+    },
+    {
+      "type": "translate",
+      "en": "Much remains to be done.",
+      "answer": [
+        "Viel bleibt noch zu tun",
+        "Es bleibt noch viel zu tun",
+        "Es bleibt viel zu tun"
+      ],
+      "explain": "Bleiben + zu + Infinitiv expresses what is still to be done."
+    }
+  ],
+  "speak": {
+    "shadow": [
+      {
+        "de": "Das Problem lässt sich leicht lösen.",
+        "en": "The problem can be solved easily."
+      },
+      {
+        "de": "Strom aus Wind und Sonne lässt sich nur schwer speichern.",
+        "en": "Electricity from wind and sun is hard to store."
+      },
+      {
+        "de": "Dieser Fehler ist vermeidbar.",
+        "en": "This error is avoidable."
+      },
+      {
+        "de": "Die Frist ist unbedingt einzuhalten.",
+        "en": "The deadline must be kept."
+      },
+      {
+        "de": "Es bleibt abzuwarten, ob die Förderung verlängert wird.",
+        "en": "It remains to be seen whether the funding is extended."
+      }
+    ],
+    "prompts": [
+      {
+        "q": "Wie lässt sich der Stromverbrauch in einem Betrieb senken?",
+        "qEn": "How can power consumption be reduced in a company?",
+        "model": "Der Verbrauch lässt sich auf mehrere Arten senken. Alte Maschinen lassen sich durch effizientere ersetzen, und die Abwärme ist wiederverwendbar. Außerdem sind die Anlagen nachts abzuschalten, wenn niemand arbeitet.",
+        "hint": "… lässt sich senken. … ist … -bar. … ist … zu …"
+      },
+      {
+        "q": "Was hältst du von erneuerbaren Energien? Begründe deine Meinung.",
+        "qEn": "What do you think about renewable energy? Give reasons.",
+        "model": "Ich finde erneuerbare Energien sehr wichtig, weil sie nie aufgebraucht sind. Allerdings lässt sich der Strom noch nicht gut genug speichern. Das Problem ist aber lösbar, denn die Batterietechnik entwickelt sich schnell. Viel bleibt jedoch noch zu tun.",
+        "hint": "Ich finde …, weil … Das Problem ist lösbar. Viel bleibt noch zu tun."
+      },
+      {
+        "q": "Welche Probleme gibt es bei Direct Air Capture? Was vermutest du?",
+        "qEn": "What problems does Direct Air Capture have? Speculate.",
+        "model": "Die Technik ist noch teuer, und sie braucht viel Energie. Der Energiebedarf lässt sich vielleicht senken, wenn man die Abwärme nutzt. Die Kosten sind sicher zu reduzieren, aber es bleibt abzuwarten, wie schnell das geht.",
+        "hint": "… lässt sich senken. … ist zu reduzieren. Es bleibt abzuwarten, …"
+      }
+    ]
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "id": "b2-08-nominalisierung",
+  "level": "B2",
+  "title": "Nominalisierung",
+  "concept": "Turning verbs and clauses into nouns",
+  "wordlist": "Berichte & Präsentationen",
+  "minutes": 35,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+B2+Nominalisierung+Nominalstil",
+  "learn": [
+    {
+      "heading": "From verb to noun",
+      "text": "Reports, emails and presentations in German prefer **nouns** to verbs (Nominalstil). There are three common ways to make a noun from a verb: add **-ung** (always **die**), use the **infinitive as a noun** (always **das**), or use the **verb stem** (often **der** or **die**, and the stem sometimes changes). The stem nouns must be learned one by one.",
+      "table": {
+        "head": ["Verb", "Noun", "Pattern"],
+        "rows": [
+          ["entwickeln", "die Entwicklung", "-ung"],
+          ["auswerten", "die Auswertung", "-ung"],
+          ["arbeiten", "das Arbeiten", "infinitive = noun (das)"],
+          ["abfahren", "die Abfahrt", "stem noun"],
+          ["ankommen", "die Ankunft", "stem noun"],
+          ["vergleichen", "der Vergleich", "stem noun"],
+          ["zurückgehen", "der Rückgang", "stem noun"]
+        ]
+      },
+      "examples": [
+        { "de": "Die Entwicklung des Prototyps dauerte ein Jahr.", "en": "The development of the prototype took a year." },
+        { "de": "Die Abfahrt des Zuges verzögert sich.", "en": "The departure of the train is delayed." },
+        { "de": "Beim Arbeiten im Labor trägt man eine Schutzbrille.", "en": "When working in the lab, you wear safety goggles." }
+      ]
+    },
+    {
+      "heading": "From clause to prepositional phrase",
+      "text": "A whole subordinate clause can become a **preposition + noun**. The verb becomes a noun, and the old subject usually moves into the **Genitiv** (*der Anstieg der Kosten*). Learn the pairs: **weil → wegen** (+ Genitiv), **obwohl → trotz** (+ Genitiv), **als / wenn → bei** (+ Dativ), **nachdem → nach** (+ Dativ), **bevor → vor** (+ Dativ), **damit → zur / für**.",
+      "table": {
+        "head": ["Clause (verbal)", "Prepositional phrase (nominal)"],
+        "rows": [
+          ["Weil die Kosten gestiegen sind, …", "Wegen des Anstiegs der Kosten …"],
+          ["Obwohl die Kritik scharf war, …", "Trotz der scharfen Kritik …"],
+          ["Als wir die Anlage getestet haben, …", "Beim Test der Anlage …"],
+          ["Nachdem wir die Daten ausgewertet hatten, …", "Nach der Auswertung der Daten …"],
+          ["Bevor das Meeting beginnt, …", "Vor Beginn des Meetings …"]
+        ]
+      },
+      "examples": [
+        { "de": "Wegen des Anstiegs der Energiepreise haben wir das Budget geändert.", "en": "Because of the rise in energy prices, we changed the budget." },
+        { "de": "Nach der Auswertung der Daten stellte sie die Ergebnisse vor.", "en": "After evaluating the data, she presented the results." },
+        { "de": "Trotz des Rückgangs der Verkäufe bleibt das Team optimistisch.", "en": "Despite the decline in sales, the team stays optimistic." }
+      ]
+    },
+    {
+      "heading": "When to use it",
+      "text": "Nominal style is **compact and formal**: perfect for written reports and slides. In speech, verbal style (*weil, nachdem*) sounds more natural and is easier to follow. Switch between the two on purpose: use nouns for the headline on your slide, and clauses when you explain it aloud.",
+      "examples": [
+        { "de": "Folie 3: Rückgang des Energieverbrauchs durch die Verbesserung der Anlage.", "en": "Slide 3: decline in energy consumption through the improvement of the plant." },
+        { "de": "Der Energieverbrauch ist gesunken, weil wir die Anlage verbessert haben.", "en": "Energy consumption has fallen because we improved the plant." }
+      ]
+    }
+  ],
+  "tip": "Nouns made from verbs: -ung is ALWAYS die; the nominalised infinitive is ALWAYS das. After wegen and trotz the noun goes into the Genitiv (des / der), after nach, bei, vor into the Dativ.",
+  "words": [
+    { "de": "Bericht", "en": "report", "pos": "noun", "article": "der", "plural": "Berichte" },
+    { "de": "Ergebnis", "en": "result", "pos": "noun", "article": "das", "plural": "Ergebnisse" },
+    { "de": "Auswertung", "en": "evaluation, analysis", "pos": "noun", "article": "die", "plural": "Auswertungen" },
+    { "de": "Entwicklung", "en": "development", "pos": "noun", "article": "die", "plural": "Entwicklungen" },
+    { "de": "Verbesserung", "en": "improvement", "pos": "noun", "article": "die", "plural": "Verbesserungen" },
+    { "de": "Präsentation", "en": "presentation", "pos": "noun", "article": "die", "plural": "Präsentationen" },
+    { "de": "Folie", "en": "slide", "pos": "noun", "article": "die", "plural": "Folien" },
+    { "de": "Zusammenfassung", "en": "summary", "pos": "noun", "article": "die", "plural": "Zusammenfassungen" },
+    { "de": "Kennzahl", "en": "key figure, KPI", "pos": "noun", "article": "die", "plural": "Kennzahlen" },
+    { "de": "Anstieg", "en": "rise, increase", "pos": "noun", "article": "der", "plural": "Anstiege" },
+    { "de": "Rückgang", "en": "decline, decrease", "pos": "noun", "article": "der", "plural": "Rückgänge" },
+    { "de": "Vergleich", "en": "comparison", "pos": "noun", "article": "der", "plural": "Vergleiche" },
+    { "de": "präsentieren", "en": "to present", "pos": "verb", "aux": "haben", "p2": "präsentiert" },
+    { "de": "auswerten", "en": "to evaluate, to analyse", "pos": "verb", "aux": "haben", "sep": "aus", "p2": "ausgewertet" },
+    { "de": "zusammenfassen", "en": "to summarise", "pos": "verb", "aux": "haben", "sep": "zusammen", "p2": "zusammengefasst" },
+    { "de": "vergleichen", "en": "to compare", "pos": "verb", "aux": "haben", "p2": "verglichen" },
+    { "de": "erläutern", "en": "to explain in detail", "pos": "verb", "aux": "haben", "p2": "erläutert" },
+    { "de": "belegen", "en": "to prove, to back up with evidence", "pos": "verb", "aux": "haben", "p2": "belegt" },
+    { "de": "steigen", "en": "to rise", "pos": "verb", "aux": "sein", "p2": "gestiegen" },
+    { "de": "sinken", "en": "to fall, to drop", "pos": "verb", "aux": "sein", "p2": "gesunken" },
+    { "de": "ausführlich", "en": "detailed, in detail", "pos": "adj" },
+    { "de": "übersichtlich", "en": "clear, well organised", "pos": "adj" },
+    { "de": "deutlich", "en": "clear, noticeable", "pos": "adj" }
+  ],
+  "mindmap": {
+    "label": "Nominalisierung",
+    "children": [
+      {
+        "label": "Verb → Nomen",
+        "children": [
+          { "label": "-ung", "note": "always die: die Entwicklung" },
+          { "label": "Infinitiv", "note": "always das: das Arbeiten" },
+          { "label": "Stamm", "note": "abfahren → die Abfahrt" }
+        ]
+      },
+      {
+        "label": "Nebensatz → Präposition",
+        "children": [
+          { "label": "weil → wegen + Genitiv" },
+          { "label": "obwohl → trotz + Genitiv" },
+          { "label": "als → bei + Dativ" },
+          { "label": "nachdem → nach + Dativ" }
+        ]
+      },
+      {
+        "label": "Wann?",
+        "children": [
+          { "label": "schriftlich, Folien", "note": "nominal" },
+          { "label": "mündlich", "note": "verbal, with weil / nachdem" }
+        ]
+      },
+      {
+        "label": "Berichte & Präsentationen",
+        "children": [ { "label": "Bericht, Ergebnis, Folie, Anstieg" } ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "mc", "q": "___ des starken Regens fiel die Messung aus.", "options": ["Wegen", "Trotz", "Nach"], "answer": 0, "explain": "Heavy rain is the reason why the measurement was cancelled: weil → wegen, followed by the Genitiv (des Regens)." },
+    { "type": "mc", "q": "Nachdem wir die Daten ausgewertet hatten, … → ___ der Daten …", "options": ["Nach die Auswertung", "Nach der Auswertung", "Nach den Auswertung"], "answer": 1, "explain": "nachdem becomes nach + Dativ. Auswertung is feminine, so the Dativ is der Auswertung; the old object (die Daten) goes into the Genitiv (der Daten)." },
+    { "type": "mc", "q": "Which noun belongs to the verb abfahren?", "options": ["die Abfahrung", "die Abfahrt", "das Abfahr"], "answer": 1, "explain": "abfahren forms a stem noun: die Abfahrt. Stem nouns do not follow a fixed rule, so learn them together with the verb." },
+    { "type": "mc", "q": "Obwohl es sehr kalt war, … → ___ der Kälte …", "options": ["Wegen", "Trotz", "Bei"], "answer": 1, "explain": "obwohl expresses a contrast; its nominal form is trotz + Genitiv." },
+    { "type": "gap", "q": "___ der Verspätung des Zuges kam ich zu spät zum Meeting.", "answer": ["Wegen"], "explain": "The delay is the cause (weil der Zug Verspätung hatte). wegen + Genitiv." },
+    { "type": "gap", "q": "Beim ___ der Folien habe ich einen Fehler gefunden. (prüfen)", "answer": ["Prüfen"], "explain": "A verb used as a noun: das Prüfen. It is neuter and written with a capital letter, and beim = bei + dem." },
+    { "type": "gap", "q": "Trotz ___ Kritik hat das Team das Projekt abgeschlossen.", "answer": ["der"], "explain": "trotz takes the Genitiv. Kritik is feminine, so the Genitiv is der Kritik." },
+    { "type": "article", "word": "Entwicklung", "answer": "die", "explain": "Nouns ending in -ung are always feminine." },
+    { "type": "article", "word": "Anstieg", "answer": "der", "explain": "Anstieg (from ansteigen) is a masculine stem noun: der Anstieg, plural die Anstiege." },
+    { "type": "order", "words": ["Nach der Auswertung", "der Daten", "präsentierte", "sie", "die Ergebnisse"], "answer": "Nach der Auswertung der Daten präsentierte sie die Ergebnisse", "explain": "The prepositional phrase fills position 1, so the verb präsentierte comes second, before the subject sie." },
+    { "type": "order", "words": ["Wegen des Anstiegs", "der Kosten", "haben", "wir", "das Budget", "geändert"], "answer": "Wegen des Anstiegs der Kosten haben wir das Budget geändert", "explain": "The phrase wegen des Anstiegs der Kosten is position 1; then the verb (haben), the subject (wir) and the participle at the end." },
+    { "type": "match", "pairs": [["abfahren", "die Abfahrt"], ["ankommen", "die Ankunft"], ["vergleichen", "der Vergleich"], ["entwickeln", "die Entwicklung"], ["anfangen", "der Anfang"]], "explain": "Verb and the matching noun: three stem nouns and one -ung noun." },
+    { "type": "translate", "en": "Because of the decline in sales, we changed the plan.", "answer": ["Wegen des Rückgangs des Umsatzes haben wir den Plan geändert", "Wegen des Umsatzrückgangs haben wir den Plan geändert", "Wegen des Rückgangs des Umsatzes änderten wir den Plan", "Wegen des Umsatzrückgangs änderten wir den Plan"], "explain": "wegen + Genitiv (des Rückgangs, des Umsatzes). The phrase is position 1, so the verb follows right away." },
+    { "type": "translate", "en": "After the presentation we answered the questions.", "answer": ["Nach der Präsentation haben wir die Fragen beantwortet", "Nach der Präsentation beantworteten wir die Fragen"], "explain": "nach + Dativ (der Präsentation); then the finite verb in position 2." }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Nach der Auswertung der Daten ist der Verbrauch deutlich gesunken.", "en": "After evaluating the data, consumption has clearly fallen." },
+      { "de": "Wegen des Anstiegs der Energiepreise müssen wir das Budget anpassen.", "en": "Because of the rise in energy prices, we have to adjust the budget." },
+      { "de": "Trotz der hohen Kosten halte ich das Projekt für sinnvoll.", "en": "Despite the high costs, I think the project makes sense." },
+      { "de": "Bei der Entwicklung der Anlage haben wir viel gelernt.", "en": "In developing the plant we learned a lot." },
+      { "de": "Zum Schluss möchte ich die Ergebnisse kurz zusammenfassen.", "en": "To finish, I would like to summarise the results briefly." }
+    ],
+    "prompts": [
+      { "q": "Sie präsentieren dem Team die Ergebnisse Ihres Tests. Was sagen Sie?", "qEn": "You present your test results to the team. What do you say?", "model": "Ich möchte Ihnen heute die Ergebnisse des Tests vorstellen. Nach der Auswertung der Messdaten sehen wir einen deutlichen Rückgang des Energieverbrauchs. Das liegt an der Verbesserung der Anlage, die wir im Frühjahr durchgeführt haben. Zum Schluss fasse ich die wichtigsten Punkte noch einmal zusammen.", "hint": "Nach der Auswertung … / Wegen … / Zum Schluss …" },
+      { "q": "Ihr Chef fragt, warum das Projekt später fertig wird. Erklären Sie die Gründe.", "qEn": "Your boss asks why the project will be finished later. Explain the reasons.", "model": "Wegen der Lieferprobleme bei den Sensoren verzögert sich der Start um zwei Wochen. Trotz dieser Verzögerung können wir das Budget einhalten. Nach Absprache mit dem Lieferanten kommen die Teile nächsten Montag an. Danach brauchen wir noch eine Woche für den Test.", "hint": "Wegen … / Trotz … / Nach …" },
+      { "q": "Beschreiben Sie eine Entwicklung, die Sie in Ihrer Firma oder Stadt beobachten.", "qEn": "Describe a development you notice in your company or city.", "model": "In Aachen sehe ich einen Anstieg der Fahrradfahrer, besonders im Sommer. Der Grund ist die Verbesserung der Radwege in den letzten Jahren. Trotz des Regens fahren viele Kollegen auch im Herbst mit dem Rad zur Arbeit. Ich finde diese Entwicklung sehr positiv.", "hint": "ein Anstieg / ein Rückgang / die Verbesserung" }
+    ]
+  }
+}

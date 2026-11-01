@@ -1,0 +1,150 @@
+{
+  "id": "b2-12-adjektive-praepositionen",
+  "level": "B2",
+  "title": "stolz auf, abhängig von",
+  "concept": "Adjectives with fixed prepositions",
+  "wordlist": "Gefühle & Persönlichkeit",
+  "minutes": 30,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+B2+Adjektive+mit+Pr%C3%A4positionen",
+  "learn": [
+    {
+      "heading": "Adjectives with a fixed preposition + Akkusativ",
+      "text": "Many adjectives are always combined with one specific preposition, just like verbs. The preposition is **fixed** and you must learn it together with the **case that follows**. First group: the preposition is followed by the **Akkusativ**.",
+      "table": {
+        "head": ["Adjective + preposition", "Case", "Example"],
+        "rows": [
+          ["stolz auf", "Akkusativ", "Ich bin stolz auf mein Team."],
+          ["verantwortlich für", "Akkusativ", "Sie ist für die Wartung der Anlage verantwortlich."],
+          ["gespannt auf", "Akkusativ", "Wir sind gespannt auf die Ergebnisse."],
+          ["neugierig auf", "Akkusativ", "Er ist neugierig auf das neue System."],
+          ["angewiesen auf", "Akkusativ", "Ich bin auf den Bus angewiesen."],
+          ["typisch für", "Akkusativ", "Das ist typisch für ihn."],
+          ["froh über", "Akkusativ", "Ich bin froh über die Entscheidung."]
+        ]
+      },
+      "examples": [
+        { "de": "Wir sind stolz auf das Ergebnis.", "en": "We are proud of the result." },
+        { "de": "Der Ingenieur ist für die Sicherheit der Anlage verantwortlich.", "en": "The engineer is responsible for the safety of the plant." }
+      ]
+    },
+    {
+      "heading": "Adjectives with a fixed preposition + Dativ",
+      "text": "The second group takes the **Dativ**. Typical prepositions are **von, mit, an, zu**. The same adjective can sometimes take different prepositions with a different meaning, so always learn the whole block (for example *begeistert **von***).",
+      "table": {
+        "head": ["Adjective + preposition", "Case", "Example"],
+        "rows": [
+          ["abhängig von", "Dativ", "Der Erfolg ist von der Förderung abhängig."],
+          ["interessiert an", "Dativ", "Er ist an erneuerbaren Energien interessiert."],
+          ["zufrieden mit", "Dativ", "Wir sind mit dem Ergebnis zufrieden."],
+          ["begeistert von", "Dativ", "Sie ist von dem Projekt begeistert."],
+          ["überzeugt von", "Dativ", "Ich bin von der Idee überzeugt."],
+          ["enttäuscht von", "Dativ", "Er ist von der Antwort enttäuscht."],
+          ["bereit zu", "Dativ", "Wir sind zu einem Kompromiss bereit."]
+        ]
+      },
+      "examples": [
+        { "de": "Die Anlage ist von der Stromversorgung abhängig.", "en": "The plant depends on the power supply." },
+        { "de": "Ich bin mit der Arbeit sehr zufrieden.", "en": "I am very satisfied with the work." }
+      ]
+    },
+    {
+      "heading": "Questions and da(r)- / wo(r)-words",
+      "text": "To ask about the thing, join **wo(r)** with the preposition: **Worauf** bist du stolz? **Wovon** ist das abhängig? Instead of repeating a noun you can use **da(r)** + preposition: *Ich bin stolz darauf.* If you continue with a **dass-clause** or an **infinitive clause with zu**, the *da(r)-word* appears in the main clause: *Ich bin stolz darauf, dass wir fertig sind.*",
+      "examples": [
+        { "de": "Worauf bist du stolz? – Ich bin stolz darauf, dass wir das Projekt fertig haben.", "en": "What are you proud of? – I'm proud that we finished the project." },
+        { "de": "Wovon ist der Erfolg abhängig?", "en": "What does the success depend on?" },
+        { "de": "Ich bin bereit, mehr Verantwortung zu übernehmen.", "en": "I am ready to take on more responsibility." }
+      ]
+    }
+  ],
+  "tip": "Learn adjective, preposition and case as ONE block: stolz AUF + Akk, abhängig VON + Dat. Say a short sentence with each pair (ich bin stolz auf mein Team) so the case sticks.",
+  "words": [
+    { "de": "stolz auf", "en": "proud of (+Akk)", "pos": "adj" },
+    { "de": "verantwortlich für", "en": "responsible for (+Akk)", "pos": "adj" },
+    { "de": "gespannt auf", "en": "eager to see (+Akk)", "pos": "adj" },
+    { "de": "neugierig auf", "en": "curious about (+Akk)", "pos": "adj" },
+    { "de": "angewiesen auf", "en": "dependent on, reliant on (+Akk)", "pos": "adj" },
+    { "de": "typisch für", "en": "typical of (+Akk)", "pos": "adj" },
+    { "de": "froh über", "en": "glad about (+Akk)", "pos": "adj" },
+    { "de": "abhängig von", "en": "dependent on (+Dat)", "pos": "adj" },
+    { "de": "interessiert an", "en": "interested in (+Dat)", "pos": "adj" },
+    { "de": "zufrieden mit", "en": "satisfied with (+Dat)", "pos": "adj" },
+    { "de": "begeistert von", "en": "enthusiastic about (+Dat)", "pos": "adj" },
+    { "de": "überzeugt von", "en": "convinced of (+Dat)", "pos": "adj" },
+    { "de": "enttäuscht von", "en": "disappointed by (+Dat)", "pos": "adj" },
+    { "de": "bereit zu", "en": "ready for (+Dat)", "pos": "adj" },
+    { "de": "Persönlichkeit", "en": "personality", "pos": "noun", "article": "die", "plural": "Persönlichkeiten" },
+    { "de": "Eigenschaft", "en": "trait, characteristic", "pos": "noun", "article": "die", "plural": "Eigenschaften" },
+    { "de": "Selbstvertrauen", "en": "self-confidence", "pos": "noun", "article": "das", "plural": "-" },
+    { "de": "Geduld", "en": "patience", "pos": "noun", "article": "die", "plural": "-" },
+    { "de": "Enttäuschung", "en": "disappointment", "pos": "noun", "article": "die", "plural": "Enttäuschungen" },
+    { "de": "sich ärgern", "en": "to be annoyed (über + Akk)", "pos": "verb", "aux": "haben", "p2": "geärgert" },
+    { "de": "selbstbewusst", "en": "self-confident", "pos": "adj" },
+    { "de": "geduldig", "en": "patient", "pos": "adj" },
+    { "de": "zuverlässig", "en": "reliable", "pos": "adj" }
+  ],
+  "mindmap": {
+    "label": "Adjektive + Präposition",
+    "children": [
+      {
+        "label": "+ Akkusativ",
+        "children": [
+          { "label": "stolz auf" },
+          { "label": "verantwortlich für" },
+          { "label": "gespannt auf, neugierig auf" },
+          { "label": "angewiesen auf" }
+        ]
+      },
+      {
+        "label": "+ Dativ",
+        "children": [
+          { "label": "abhängig von" },
+          { "label": "interessiert an" },
+          { "label": "zufrieden mit" },
+          { "label": "begeistert von, überzeugt von" }
+        ]
+      },
+      {
+        "label": "Fragen & Pronomen",
+        "children": [
+          { "label": "worauf, wovon, woran" },
+          { "label": "darauf, davon, daran" }
+        ]
+      },
+      {
+        "label": "Gefühle & Persönlichkeit",
+        "children": [ { "label": "Geduld, Selbstvertrauen, zuverlässig" } ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "mc", "q": "Ich bin stolz ___ mein Team.", "options": ["auf", "von", "für"], "answer": 0, "explain": "stolz is always followed by auf + Akkusativ." },
+    { "type": "mc", "q": "Sie ist ___ ihrem Chef abhängig.", "options": ["von", "auf", "für"], "answer": 0, "explain": "abhängig takes von + Dativ (von ihrem Chef)." },
+    { "type": "mc", "q": "Wir sind zufrieden ___ dem Ergebnis.", "options": ["mit", "für", "an"], "answer": 0, "explain": "zufrieden mit + Dativ." },
+    { "type": "mc", "q": "___ bist du gespannt?", "options": ["Worauf", "Wofür", "Woran"], "answer": 0, "explain": "gespannt auf → question word wo(r) + auf = worauf (an r is inserted before a vowel)." },
+    { "type": "gap", "q": "Er ist interessiert ___ erneuerbaren Energien.", "answer": ["an"], "explain": "interessiert an + Dativ (an erneuerbaren Energien)." },
+    { "type": "gap", "q": "Ich bin verantwortlich ___ die Wartung der Anlage.", "answer": ["für"], "explain": "verantwortlich für + Akkusativ." },
+    { "type": "gap", "q": "Sie ist begeistert ___ dem neuen Projekt.", "answer": ["von"], "explain": "begeistert von + Dativ. (dem neuen Projekt is Dativ)." },
+    { "type": "gap", "q": "Wir sind stolz ___, dass das Projekt fertig ist.", "answer": ["darauf"], "explain": "Before a dass-clause the main clause contains da(r) + preposition: stolz auf → darauf." },
+    { "type": "article", "word": "Selbstvertrauen", "answer": "das", "explain": "Selbstvertrauen is built on das Vertrauen (trust) and is neuter: das Selbstvertrauen." },
+    { "type": "order", "words": ["Ich", "bin", "mit dem Ergebnis", "sehr", "zufrieden"], "answer": "Ich bin mit dem Ergebnis sehr zufrieden", "explain": "The adjective with its prepositional phrase: zufrieden stands at the end and mit dem Ergebnis (Dativ) comes before it." },
+    { "type": "order", "words": ["Das Team", "ist", "stolz", "auf seine Leistung"], "answer": "Das Team ist stolz auf seine Leistung", "explain": "stolz auf + Akkusativ: auf seine Leistung." },
+    { "type": "match", "pairs": [["stolz auf", "proud of"], ["zufrieden mit", "satisfied with"], ["abhängig von", "dependent on"], ["angewiesen auf", "reliant on"], ["typisch für", "typical of"]], "explain": "Adjective-preposition blocks and their meaning." },
+    { "type": "translate", "en": "I am interested in the project.", "answer": ["Ich bin an dem Projekt interessiert", "Ich bin am Projekt interessiert", "Ich interessiere mich für das Projekt"], "explain": "interessiert an + Dativ (an dem / am Projekt). The verb interessieren takes sich + für + Akkusativ." },
+    { "type": "translate", "en": "We are very satisfied with the new system.", "answer": ["Wir sind mit dem neuen System sehr zufrieden", "Wir sind sehr zufrieden mit dem neuen System"], "explain": "zufrieden mit + Dativ: mit dem neuen System." }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Ich bin stolz darauf, dass unser Team das Projekt pünktlich abgeschlossen hat.", "en": "I am proud that our team finished the project on time." },
+      { "de": "Der Erfolg ist stark von der Förderung abhängig.", "en": "Success depends strongly on the funding." },
+      { "de": "Ich bin mit meiner Arbeit insgesamt zufrieden, aber ich bin gespannt auf neue Aufgaben.", "en": "Overall I am satisfied with my work, but I am eager for new tasks." },
+      { "de": "Mein Chef ist von der Idee überzeugt.", "en": "My boss is convinced of the idea." },
+      { "de": "Ich bin verantwortlich für die Wartung der Anlage.", "en": "I am responsible for the maintenance of the plant." }
+    ],
+    "prompts": [
+      { "q": "Beschreiben Sie Ihre Persönlichkeit im Vorstellungsgespräch.", "qEn": "Describe your personality in a job interview.", "model": "Ich bin ein geduldiger und zuverlässiger Mensch. Als Ingenieur bin ich es gewohnt, Verantwortung für meine Aufgaben zu übernehmen. Ich bin sehr an nachhaltigen Technologien interessiert, deshalb bewerbe ich mich bei Ihnen. Außerdem bin ich bereit, mich schnell in neue Themen einzuarbeiten.", "hint": "interessiert an / bereit zu / verantwortlich für" },
+      { "q": "Worauf sind Sie in Ihrem Leben stolz?", "qEn": "What are you proud of in your life?", "model": "Ich bin stolz darauf, dass ich als Ausländer in Deutschland eine Stelle gefunden habe. Dafür musste ich viel lernen und mich an eine neue Sprache gewöhnen. Ich bin auch auf mein Team stolz, weil wir ein schwieriges Projekt abgeschlossen haben.", "hint": "stolz auf / darauf, dass …" },
+      { "q": "Wovon hängt der Erfolg eines Projekts für Sie ab?", "qEn": "What does the success of a project depend on for you?", "model": "Der Erfolg ist für mich von der Zusammenarbeit im Team abhängig. Wenn alle mit den Aufgaben zufrieden sind, arbeiten sie besser. Außerdem sind wir immer auf klare Informationen angewiesen. Ich bin überzeugt davon, dass offene Kommunikation das Wichtigste ist.", "hint": "abhängig von / angewiesen auf / überzeugt von" }
+    ]
+  }
+}

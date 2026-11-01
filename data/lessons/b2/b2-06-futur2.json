@@ -1,0 +1,538 @@
+{
+  "id": "b2-06-futur2",
+  "level": "B2",
+  "title": "Futur II",
+  "concept": "Future perfect and assumptions about the past",
+  "wordlist": "Digitalisierung & KI",
+  "minutes": 30,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+B2+Futur+2+Futur+II+Vermutung",
+  "learn": [
+    {
+      "heading": "Futur II: werden + Partizip II + haben/sein",
+      "text": "The **Futur II** (future perfect) is formed with **werden** (position 2) + **Partizip II + haben or sein** at the end. It says that something will be **finished at a point in the future**: *Bis Ende des Jahres werden wir das System umgestellt haben.* It is used with time phrases like *bis morgen, bis dahin, in fünf Jahren*. In everyday speech the Perfekt with a time word is often used instead: *Bis morgen habe ich das geschafft.*",
+      "table": {
+        "head": [
+          "Futur I",
+          "Futur II"
+        ],
+        "rows": [
+          [
+            "Er wird das System umstellen.",
+            "Er wird das System umgestellt haben."
+          ],
+          [
+            "Sie wird nach Berlin fahren.",
+            "Sie wird nach Berlin gefahren sein."
+          ],
+          [
+            "Wir werden die Daten auswerten.",
+            "Wir werden die Daten ausgewertet haben."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "de": "Bis nächstes Jahr werden wir die neue Software eingeführt haben.",
+          "en": "By next year we will have introduced the new software."
+        },
+        {
+          "de": "In fünf Jahren wird die KI viele Prozesse automatisiert haben.",
+          "en": "In five years AI will have automated many processes."
+        },
+        {
+          "de": "Bis Montag werden wir alle Daten ausgewertet haben.",
+          "en": "By Monday we will have analysed all the data."
+        }
+      ]
+    },
+    {
+      "heading": "Assumptions about the past",
+      "text": "The Futur II also expresses a **guess about the past**: *Er wird den Zug verpasst haben* (He has probably missed the train). Typical helpers are **wohl, sicher, bestimmt, schon**. It is a polite, careful way to speculate. The meaning is close to *dürfte … haben* or *muss … haben*.",
+      "table": {
+        "head": [
+          "Vermutung (Futur II)",
+          "Ähnlich"
+        ],
+        "rows": [
+          [
+            "Er wird den Zug verpasst haben.",
+            "Er dürfte den Zug verpasst haben."
+          ],
+          [
+            "Sie wird die Mail wohl nicht gesehen haben.",
+            "Sie hat die Mail wahrscheinlich nicht gesehen."
+          ],
+          [
+            "Der Server wird ausgefallen sein.",
+            "Der Server muss ausgefallen sein."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "de": "Er ist nicht da. Er wird den Termin vergessen haben.",
+          "en": "He is not here. He has probably forgotten the appointment."
+        },
+        {
+          "de": "Sie wird die Mail wohl noch nicht gelesen haben.",
+          "en": "She has probably not read the email yet."
+        },
+        {
+          "de": "Der Server wird über Nacht ausgefallen sein.",
+          "en": "The server has probably gone down overnight."
+        }
+      ]
+    },
+    {
+      "heading": "Word order in subordinate clauses",
+      "text": "In a subordinate clause the finite verb goes last. In the Futur II that means: **Partizip II + haben/sein + werden**. So the order is *… dass die KI viele Jobs verändert haben wird*. Keep the rule: **werden always comes last**.",
+      "table": {
+        "head": [
+          "Hauptsatz",
+          "Nebensatz"
+        ],
+        "rows": [
+          [
+            "Die KI wird viele Jobs verändert haben.",
+            "Ich glaube, dass die KI viele Jobs verändert haben wird."
+          ],
+          [
+            "Wir werden das Update installiert haben.",
+            "Er sagt, dass wir das Update bis Freitag installiert haben werden."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "de": "Ich glaube, dass die KI viele Jobs verändert haben wird.",
+          "en": "I believe that AI will have changed many jobs."
+        },
+        {
+          "de": "Ich hoffe, dass wir das Problem bis dahin gelöst haben werden.",
+          "en": "I hope that we will have solved the problem by then."
+        }
+      ]
+    }
+  ],
+  "tip": "Futur II = werden + Partizip II + haben/sein. Future: finished by then. Present: a guess about the past (wohl, sicher). In a subordinate clause, werden stands at the very end.",
+  "words": [
+    {
+      "de": "Digitalisierung",
+      "en": "digitalisation",
+      "pos": "noun",
+      "article": "die",
+      "plural": "-"
+    },
+    {
+      "de": "Algorithmus",
+      "en": "algorithm",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Algorithmen"
+    },
+    {
+      "de": "Datensatz",
+      "en": "data set",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Datensätze"
+    },
+    {
+      "de": "Software",
+      "en": "software",
+      "pos": "noun",
+      "article": "die",
+      "plural": "-"
+    },
+    {
+      "de": "Server",
+      "en": "server",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Server"
+    },
+    {
+      "de": "Programm",
+      "en": "program",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Programme"
+    },
+    {
+      "de": "Fehlermeldung",
+      "en": "error message",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Fehlermeldungen"
+    },
+    {
+      "de": "Datenschutz",
+      "en": "data protection",
+      "pos": "noun",
+      "article": "der",
+      "plural": "-"
+    },
+    {
+      "de": "Automatisierung",
+      "en": "automation",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Automatisierungen"
+    },
+    {
+      "de": "Netzwerk",
+      "en": "network",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Netzwerke"
+    },
+    {
+      "de": "Update",
+      "en": "update",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Updates"
+    },
+    {
+      "de": "einführen",
+      "en": "to introduce",
+      "pos": "verb",
+      "aux": "haben",
+      "sep": "ein",
+      "p2": "eingeführt"
+    },
+    {
+      "de": "ersetzen",
+      "en": "to replace",
+      "pos": "verb",
+      "aux": "haben",
+      "p2": "ersetzt"
+    },
+    {
+      "de": "programmieren",
+      "en": "to program",
+      "pos": "verb",
+      "aux": "haben",
+      "p2": "programmiert"
+    },
+    {
+      "de": "ausfallen",
+      "en": "to fail, to break down",
+      "pos": "verb",
+      "aux": "sein",
+      "sep": "aus",
+      "p2": "ausgefallen"
+    },
+    {
+      "de": "umstellen",
+      "en": "to switch over",
+      "pos": "verb",
+      "aux": "haben",
+      "sep": "um",
+      "p2": "umgestellt"
+    },
+    {
+      "de": "automatisieren",
+      "en": "to automate",
+      "pos": "verb",
+      "aux": "haben",
+      "p2": "automatisiert"
+    },
+    {
+      "de": "auswerten",
+      "en": "to analyse, to evaluate",
+      "pos": "verb",
+      "aux": "haben",
+      "sep": "aus",
+      "p2": "ausgewertet"
+    },
+    {
+      "de": "vernetzen",
+      "en": "to connect, to network",
+      "pos": "verb",
+      "aux": "haben",
+      "p2": "vernetzt"
+    },
+    {
+      "de": "digital",
+      "en": "digital",
+      "pos": "adj"
+    },
+    {
+      "de": "künstliche Intelligenz",
+      "en": "artificial intelligence",
+      "pos": "phrase"
+    },
+    {
+      "de": "bis dahin",
+      "en": "by then",
+      "pos": "phrase"
+    },
+    {
+      "de": "wohl",
+      "en": "probably",
+      "pos": "adv"
+    }
+  ],
+  "mindmap": {
+    "label": "Futur II",
+    "children": [
+      {
+        "label": "Form",
+        "note": "werden + Partizip II + haben/sein",
+        "children": [
+          {
+            "label": "wird gemacht haben"
+          },
+          {
+            "label": "wird gefahren sein"
+          }
+        ]
+      },
+      {
+        "label": "Completed future",
+        "children": [
+          {
+            "label": "Bis Montag werden wir … haben."
+          },
+          {
+            "label": "in fünf Jahren"
+          }
+        ]
+      },
+      {
+        "label": "Assumption",
+        "note": "about the past",
+        "children": [
+          {
+            "label": "Er wird den Zug verpasst haben."
+          },
+          {
+            "label": "wohl, sicher, bestimmt"
+          }
+        ]
+      },
+      {
+        "label": "Nebensatz",
+        "children": [
+          {
+            "label": "… verändert haben wird"
+          }
+        ]
+      },
+      {
+        "label": "Alternative",
+        "children": [
+          {
+            "label": "Perfekt + bis morgen"
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "mc",
+      "q": "Welcher Satz ist Futur II?",
+      "options": [
+        "Er wird den Zug verpasst haben.",
+        "Er wird den Zug verpassen.",
+        "Er hat den Zug verpasst werden."
+      ],
+      "answer": 0,
+      "explain": "Futur II: werden + Partizip II + haben."
+    },
+    {
+      "type": "mc",
+      "q": "\"Bis 2030 wird die Firma alle Daten digitalisiert haben.\" bedeutet:",
+      "options": [
+        "The task will be finished before 2030.",
+        "The task will start in 2030.",
+        "The task was finished in 2030."
+      ],
+      "answer": 0,
+      "explain": "Futur II with a time limit (bis) says that the action will be completed by then."
+    },
+    {
+      "type": "mc",
+      "q": "Ich glaube, dass die KI viele Jobs ___.",
+      "options": [
+        "verändert haben wird",
+        "wird verändert haben",
+        "verändert wird haben"
+      ],
+      "answer": 0,
+      "explain": "In a subordinate clause the conjugated werden goes last."
+    },
+    {
+      "type": "gap",
+      "q": "Bis Ende des Jahres ___ wir das System umgestellt haben.",
+      "answer": [
+        "werden"
+      ],
+      "explain": "Futur II uses werden, wir → werden."
+    },
+    {
+      "type": "gap",
+      "q": "Der Server wird über Nacht ausgefallen ___.",
+      "answer": [
+        "sein"
+      ],
+      "explain": "Ausfallen forms the Perfekt with sein, so the Futur II ends in sein."
+    },
+    {
+      "type": "gap",
+      "q": "Er ist nicht da. Er wird den Termin vergessen ___.",
+      "answer": [
+        "haben"
+      ],
+      "explain": "Vergessen takes haben: vergessen haben."
+    },
+    {
+      "type": "article",
+      "word": "Update",
+      "answer": "das",
+      "explain": "Update is neuter in German: das Update."
+    },
+    {
+      "type": "article",
+      "word": "Fehlermeldung",
+      "answer": "die",
+      "explain": "Nouns on -ung are feminine: die Fehlermeldung."
+    },
+    {
+      "type": "order",
+      "words": [
+        "verpasst",
+        "haben",
+        "Zug",
+        "den",
+        "wird",
+        "Er"
+      ],
+      "answer": "Er wird den Zug verpasst haben",
+      "explain": "Wird in position 2; the Infinitiv Perfekt verpasst haben stands at the end."
+    },
+    {
+      "type": "order",
+      "words": [
+        "ausgewertet",
+        "haben",
+        "Daten",
+        "alle",
+        "wir",
+        "werden",
+        "Montag",
+        "Bis"
+      ],
+      "answer": "Bis Montag werden wir alle Daten ausgewertet haben",
+      "explain": "The time phrase takes position 1, werden stays in position 2."
+    },
+    {
+      "type": "order",
+      "words": [
+        "haben",
+        "wird",
+        "verändert",
+        "Jobs",
+        "viele",
+        "KI",
+        "die",
+        "dass",
+        "glaube,",
+        "Ich"
+      ],
+      "answer": "Ich glaube, dass die KI viele Jobs verändert haben wird",
+      "explain": "Subordinate clause: the finite verb wird comes last."
+    },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "die Software",
+          "software"
+        ],
+        [
+          "der Server",
+          "server"
+        ],
+        [
+          "ausfallen",
+          "to break down"
+        ],
+        [
+          "umstellen",
+          "to switch over"
+        ],
+        [
+          "der Datenschutz",
+          "data protection"
+        ]
+      ],
+      "explain": "Vocabulary from digitalisation."
+    },
+    {
+      "type": "translate",
+      "en": "She has probably read the email already.",
+      "answer": [
+        "Sie wird die E-Mail wohl schon gelesen haben",
+        "Sie wird die Mail wohl schon gelesen haben",
+        "Sie wird die E-Mail schon gelesen haben",
+        "Sie wird die Mail schon gelesen haben"
+      ],
+      "explain": "A guess about the past: Futur II, often with wohl."
+    },
+    {
+      "type": "translate",
+      "en": "By next year we will have introduced the new software.",
+      "answer": [
+        "Bis nächstes Jahr werden wir die neue Software eingeführt haben"
+      ],
+      "explain": "Completed future: werden + Partizip II + haben; einführen is separable → eingeführt."
+    }
+  ],
+  "speak": {
+    "shadow": [
+      {
+        "de": "Bis nächstes Jahr werden wir die neue Software eingeführt haben.",
+        "en": "By next year we will have introduced the new software."
+      },
+      {
+        "de": "In fünf Jahren wird die KI viele Prozesse automatisiert haben.",
+        "en": "In five years AI will have automated many processes."
+      },
+      {
+        "de": "Er wird den Zug verpasst haben.",
+        "en": "He has probably missed the train."
+      },
+      {
+        "de": "Der Server wird über Nacht ausgefallen sein.",
+        "en": "The server has probably gone down overnight."
+      },
+      {
+        "de": "Ich hoffe, dass wir das Problem bis dahin gelöst haben werden.",
+        "en": "I hope that we will have solved the problem by then."
+      }
+    ],
+    "prompts": [
+      {
+        "q": "Was wird sich bis 2035 durch Digitalisierung und KI verändert haben?",
+        "qEn": "What will have changed by 2035 through digitalisation and AI?",
+        "model": "Bis 2035 wird die KI viele Routineaufgaben übernommen haben. Die Firmen werden ihre Prozesse stärker automatisiert haben. Ich glaube, dass sich auch mein Beruf verändert haben wird. Wir Ingenieure werden mehr mit Daten und Software gearbeitet haben als heute.",
+        "hint": "Bis 2035 wird … haben. Ich glaube, dass … haben wird."
+      },
+      {
+        "q": "Dein Kollege ist zu spät. Was vermutest du?",
+        "qEn": "Your colleague is late. What do you assume?",
+        "model": "Er wird den Zug verpasst haben, denn auf der Strecke gibt es oft Verspätungen. Vielleicht wird er auch im Stau gestanden haben. Er wird uns wohl keine Nachricht geschickt haben, weil sein Akku leer ist. Ich rufe ihn gleich an.",
+        "hint": "Er wird … haben. Er wird wohl … haben."
+      },
+      {
+        "q": "Was wollt ihr im Projekt bis Ende des Quartals erreicht haben?",
+        "qEn": "What do you want to have achieved in the project by the end of the quarter?",
+        "model": "Bis Ende des Quartals werden wir den Prototyp gebaut haben. Wir werden alle Messdaten ausgewertet haben und die Software umgestellt haben. Dann wird das Team die Ergebnisse präsentiert haben. Danach können wir mit der Planung der Anlage beginnen.",
+        "hint": "Bis Ende … werden wir … haben."
+      }
+    ]
+  }
+}

@@ -1,0 +1,564 @@
+{
+  "id": "b2-03-konjunktiv1",
+  "level": "B2",
+  "title": "Konjunktiv I",
+  "concept": "Reported speech (indirekte Rede)",
+  "wordlist": "Nachrichten & Politik",
+  "minutes": 35,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+B2+Konjunktiv+1+indirekte+Rede",
+  "learn": [
+    {
+      "heading": "Konjunktiv I: forms and use",
+      "text": "**Konjunktiv I** is the verb form of **reported speech** in news, reports and minutes. It shows: \"this is what someone said, I am not saying it is true\". Form: **stem + -e** (er/sie/es **-e**, ich also -e). **sein** is special: *er sei*. Most often you only need the **er/sie/es** form. The reported sentence is usually a main clause without *dass*.",
+      "table": {
+        "head": [
+          "Infinitiv",
+          "er / sie / es (KI)",
+          "Indikativ"
+        ],
+        "rows": [
+          [
+            "sein",
+            "er sei",
+            "er ist"
+          ],
+          [
+            "haben",
+            "er habe",
+            "er hat"
+          ],
+          [
+            "werden",
+            "er werde",
+            "er wird"
+          ],
+          [
+            "kommen",
+            "er komme",
+            "er kommt"
+          ],
+          [
+            "können",
+            "er könne",
+            "er kann"
+          ],
+          [
+            "müssen",
+            "er müsse",
+            "er muss"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "de": "Der Minister sagt, er habe keine Zeit.",
+          "en": "The minister says he has no time."
+        },
+        {
+          "de": "Die Sprecherin erklärt, die Lage sei ernst.",
+          "en": "The spokeswoman explains that the situation is serious."
+        },
+        {
+          "de": "Der Kanzler sagte, die Regierung werde die Steuern senken.",
+          "en": "The chancellor said the government would lower taxes."
+        },
+        {
+          "de": "Der Chef meint, wir könnten das Projekt nicht verschieben.",
+          "en": "The boss says we cannot postpone the project."
+        }
+      ]
+    },
+    {
+      "heading": "When Konjunktiv I equals the indicative: use Konjunktiv II",
+      "text": "If the Konjunktiv I form looks **exactly like the indicative** (this happens for *ich, wir, sie* plural and most *haben/kommen* forms), it would not show the reported speech. Then you use **Konjunktiv II** instead: *sie haben → sie hätten*, *sie kommen → sie kämen* (or *würden kommen*). For regular verbs use **würde + Infinitiv**.",
+      "table": {
+        "head": [
+          "Direkte Rede",
+          "Indirekte Rede (KI zeigt nichts)",
+          "Richtig"
+        ],
+        "rows": [
+          [
+            "Wir haben keine Wahl.",
+            "Sie sagen, sie haben keine Wahl.",
+            "Sie sagen, sie hätten keine Wahl."
+          ],
+          [
+            "Wir kommen später.",
+            "Sie sagen, sie kommen später.",
+            "Sie sagen, sie kämen später."
+          ],
+          [
+            "Wir arbeiten sehr viel.",
+            "Sie sagen, sie arbeiten sehr viel.",
+            "Sie sagen, sie würden sehr viel arbeiten."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "de": "Die Politiker sagen, sie hätten keine Wahl.",
+          "en": "The politicians say they have no choice."
+        },
+        {
+          "de": "Die Ministerinnen erklärten, sie kämen später.",
+          "en": "The ministers explained they would come later."
+        },
+        {
+          "de": "Die Demonstranten sagen, sie würden friedlich protestieren.",
+          "en": "The demonstrators say they will protest peacefully."
+        }
+      ]
+    },
+    {
+      "heading": "The past: habe / sei + Partizip II",
+      "text": "For something that happened before, use **Konjunktiv I of haben or sein + Partizip II**: *er habe gesagt, sie sei gegangen*. The choice of **haben/sein** is the same as in the Perfekt. A future is *werde + Infinitiv*. Questions become *ob* clauses: *Sie fragte, ob er Zeit habe.*",
+      "table": {
+        "head": [
+          "Direkte Rede",
+          "Indirekte Rede"
+        ],
+        "rows": [
+          [
+            "Ich habe die Mail nicht gelesen.",
+            "Er sagte, er habe die Mail nicht gelesen."
+          ],
+          [
+            "Ich bin gestern in Berlin gewesen.",
+            "Sie sagte, sie sei gestern in Berlin gewesen."
+          ],
+          [
+            "Wir haben verloren.",
+            "Sie sagen, sie hätten verloren."
+          ],
+          [
+            "Ich werde kommen.",
+            "Er sagte, er werde kommen."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "de": "Der Sprecher sagte, die Firma habe die Daten gesammelt.",
+          "en": "The spokesman said the company had collected the data."
+        },
+        {
+          "de": "Die Zeitung berichtet, der Minister sei zurückgetreten.",
+          "en": "The newspaper reports the minister has resigned."
+        },
+        {
+          "de": "Er behauptet, er habe nichts davon gewusst.",
+          "en": "He claims he knew nothing about it."
+        }
+      ]
+    }
+  ],
+  "tip": "Check whether the KI form differs from the indicative. If yes (er habe, er sei), use it. If not (sie haben), switch to Konjunktiv II (sie hätten) or use würde + Infinitiv.",
+  "words": [
+    {
+      "de": "Regierung",
+      "en": "government",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Regierungen"
+    },
+    {
+      "de": "Minister",
+      "en": "minister",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Minister"
+    },
+    {
+      "de": "Kanzler",
+      "en": "chancellor",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Kanzler"
+    },
+    {
+      "de": "Wahl",
+      "en": "election, choice",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Wahlen"
+    },
+    {
+      "de": "Partei",
+      "en": "party",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Parteien"
+    },
+    {
+      "de": "Gesetz",
+      "en": "law",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Gesetze"
+    },
+    {
+      "de": "Sprecher",
+      "en": "spokesman",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Sprecher"
+    },
+    {
+      "de": "Meldung",
+      "en": "news report",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Meldungen"
+    },
+    {
+      "de": "Umfrage",
+      "en": "survey, poll",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Umfragen"
+    },
+    {
+      "de": "Behauptung",
+      "en": "claim",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Behauptungen"
+    },
+    {
+      "de": "Gewerkschaft",
+      "en": "trade union",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Gewerkschaften"
+    },
+    {
+      "de": "behaupten",
+      "en": "to claim",
+      "pos": "verb",
+      "aux": "haben",
+      "p2": "behauptet"
+    },
+    {
+      "de": "erklären",
+      "en": "to explain, to declare",
+      "pos": "verb",
+      "aux": "haben",
+      "p2": "erklärt"
+    },
+    {
+      "de": "mitteilen",
+      "en": "to announce, to inform",
+      "pos": "verb",
+      "aux": "haben",
+      "sep": "mit",
+      "p2": "mitgeteilt"
+    },
+    {
+      "de": "berichten",
+      "en": "to report",
+      "pos": "verb",
+      "aux": "haben",
+      "p2": "berichtet"
+    },
+    {
+      "de": "bestätigen",
+      "en": "to confirm",
+      "pos": "verb",
+      "aux": "haben",
+      "p2": "bestätigt"
+    },
+    {
+      "de": "dementieren",
+      "en": "to deny (officially)",
+      "pos": "verb",
+      "aux": "haben",
+      "p2": "dementiert"
+    },
+    {
+      "de": "zurücktreten",
+      "en": "to resign",
+      "pos": "verb",
+      "aux": "sein",
+      "sep": "zurück",
+      "p2": "zurückgetreten"
+    },
+    {
+      "de": "beschließen",
+      "en": "to decide, to pass",
+      "pos": "verb",
+      "aux": "haben",
+      "p2": "beschlossen"
+    },
+    {
+      "de": "fordern",
+      "en": "to demand",
+      "pos": "verb",
+      "aux": "haben",
+      "p2": "gefordert"
+    },
+    {
+      "de": "angeblich",
+      "en": "allegedly",
+      "pos": "adv"
+    },
+    {
+      "de": "offiziell",
+      "en": "official",
+      "pos": "adj"
+    }
+  ],
+  "mindmap": {
+    "label": "Konjunktiv I",
+    "children": [
+      {
+        "label": "Use",
+        "note": "indirekte Rede",
+        "children": [
+          {
+            "label": "news, reports, minutes"
+          }
+        ]
+      },
+      {
+        "label": "Forms",
+        "note": "stem + -e",
+        "children": [
+          {
+            "label": "er sei, habe, werde"
+          },
+          {
+            "label": "er komme, könne, müsse"
+          }
+        ]
+      },
+      {
+        "label": "KI = Indikativ?",
+        "note": "switch",
+        "children": [
+          {
+            "label": "sie haben → sie hätten"
+          },
+          {
+            "label": "würde + Infinitiv"
+          }
+        ]
+      },
+      {
+        "label": "Past",
+        "children": [
+          {
+            "label": "er habe gesagt"
+          },
+          {
+            "label": "sie sei gegangen"
+          }
+        ]
+      },
+      {
+        "label": "Future",
+        "children": [
+          {
+            "label": "er werde kommen"
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "mc",
+      "q": "Der Minister sagt, er ___ keine Zeit.",
+      "options": [
+        "habe",
+        "haben",
+        "habt"
+      ],
+      "answer": 0,
+      "explain": "Konjunktiv I of haben for er/sie/es: er habe."
+    },
+    {
+      "type": "mc",
+      "q": "Die Sprecherin erklärt, die Lage ___ ernst.",
+      "options": [
+        "sei",
+        "sein",
+        "war"
+      ],
+      "answer": 0,
+      "explain": "Konjunktiv I of sein: die Lage sei ernst."
+    },
+    {
+      "type": "mc",
+      "q": "Direkt: \"Wir haben Zeit.\" → Indirekt:",
+      "options": [
+        "Sie sagen, sie haben Zeit.",
+        "Sie sagen, sie hätten Zeit.",
+        "Sie sagen, sie habe Zeit."
+      ],
+      "answer": 1,
+      "explain": "Sie haben is the same in indicative and KI, so you switch to Konjunktiv II: hätten."
+    },
+    {
+      "type": "mc",
+      "q": "Er sagte, er ___ gestern in Berlin gewesen.",
+      "options": [
+        "sei",
+        "habe",
+        "werde"
+      ],
+      "answer": 0,
+      "explain": "Gewesen (from sein) forms the past with sein in Konjunktiv I: er sei … gewesen."
+    },
+    {
+      "type": "gap",
+      "q": "Der Kanzler sagte, die Regierung ___ die Steuern senken.",
+      "answer": [
+        "werde"
+      ],
+      "explain": "Reported future: werde + Infinitiv."
+    },
+    {
+      "type": "gap",
+      "q": "Die Politiker sagen, sie ___ keine Wahl.",
+      "answer": [
+        "hätten"
+      ],
+      "explain": "KI sie haben equals the indicative, so use Konjunktiv II: hätten."
+    },
+    {
+      "type": "gap",
+      "q": "Er sagte, er ___ die Mail nicht gelesen.",
+      "answer": [
+        "habe"
+      ],
+      "explain": "Reported past: habe + Partizip II."
+    },
+    {
+      "type": "gap",
+      "q": "Die Sprecherin sagte, sie ___ nach Brüssel gefahren.",
+      "answer": [
+        "sei"
+      ],
+      "explain": "Fahren takes sein, so: sei gefahren."
+    },
+    {
+      "type": "article",
+      "word": "Gesetz",
+      "answer": "das",
+      "explain": "Gesetz is neuter: das Gesetz."
+    },
+    {
+      "type": "article",
+      "word": "Umfrage",
+      "answer": "die",
+      "explain": "Nouns ending in -frage / -e like Umfrage are feminine: die Umfrage."
+    },
+    {
+      "type": "order",
+      "words": [
+        "sei",
+        "ernst",
+        "Lage",
+        "die",
+        "erklärt,",
+        "Sprecherin",
+        "Die"
+      ],
+      "answer": "Die Sprecherin erklärt, die Lage sei ernst",
+      "explain": "Reported speech is a main clause without dass: verb in position 2 (sei)."
+    },
+    {
+      "type": "order",
+      "words": [
+        "keine",
+        "Zeit",
+        "habe",
+        "er",
+        "sagte,",
+        "Er"
+      ],
+      "answer": "Er sagte, er habe keine Zeit",
+      "explain": "Two main clauses: Er sagte, + er habe keine Zeit."
+    },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "behaupten",
+          "to claim"
+        ],
+        [
+          "dementieren",
+          "to deny"
+        ],
+        [
+          "die Regierung",
+          "government"
+        ],
+        [
+          "angeblich",
+          "allegedly"
+        ],
+        [
+          "die Umfrage",
+          "poll"
+        ]
+      ],
+      "explain": "Core vocabulary for news and politics."
+    },
+    {
+      "type": "translate",
+      "en": "He said he had no time.",
+      "answer": [
+        "Er sagte, er habe keine Zeit",
+        "Er sagte, dass er keine Zeit habe"
+      ],
+      "explain": "Reported speech: er habe. With dass, the verb goes to the end."
+    }
+  ],
+  "speak": {
+    "shadow": [
+      {
+        "de": "Der Minister sagte, er habe keine Zeit.",
+        "en": "The minister said he had no time."
+      },
+      {
+        "de": "Die Sprecherin erklärte, die Lage sei ernst.",
+        "en": "The spokeswoman explained that the situation was serious."
+      },
+      {
+        "de": "Die Regierung teilte mit, sie werde die Steuern senken.",
+        "en": "The government announced it would lower taxes."
+      },
+      {
+        "de": "Die Gewerkschaften behaupten, sie würden benachteiligt.",
+        "en": "The unions claim they are being disadvantaged."
+      },
+      {
+        "de": "Die Zeitung berichtet, der Minister sei zurückgetreten.",
+        "en": "The paper reports that the minister has resigned."
+      }
+    ],
+    "prompts": [
+      {
+        "q": "Was hat dein Chef im letzten Meeting gesagt?",
+        "qEn": "What did your boss say in the last meeting?",
+        "model": "Mein Chef sagte, die Firma habe im letzten Jahr mehr Aufträge bekommen. Er erklärte, wir müssten bis Juni neue Anlagen planen. Außerdem meinte er, das Budget sei knapp, aber die Geschäftsführung werde weitere Stellen schaffen.",
+        "hint": "Mein Chef sagte, … habe … Er erklärte, … werde …"
+      },
+      {
+        "q": "Fasse eine aktuelle Nachricht zusammen.",
+        "qEn": "Summarise a current news item.",
+        "model": "Laut einer Meldung sagte die Ministerin, die Regierung werde mehr Windräder fördern. Sie erklärte, der Ausbau sei bisher zu langsam gewesen. Die Gewerkschaften fordern dagegen, die Arbeitsplätze müssten sicher bleiben. Ein Sprecher des Ministeriums bestätigte, man prüfe alle Vorschläge.",
+        "hint": "… sagte, … werde … Sie erklärte, … sei …"
+      },
+      {
+        "q": "Was behaupten Kritiker über Direct Air Capture?",
+        "qEn": "What do critics claim about Direct Air Capture?",
+        "model": "Kritiker behaupten, die Technik sei zu teuer und brauche zu viel Energie. Sie sagen außerdem, es gebe bessere Wege, Emissionen zu senken. Befürworter erklären dagegen, man brauche die Technik, um unvermeidbare Emissionen auszugleichen.",
+        "hint": "Kritiker behaupten, … sei … Befürworter erklären, man brauche …"
+      }
+    ]
+  }
+}
