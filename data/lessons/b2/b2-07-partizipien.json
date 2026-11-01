@@ -1,0 +1,554 @@
+{
+  "id": "b2-07-partizipien",
+  "level": "B2",
+  "title": "Partizipien als Adjektive",
+  "concept": "Participles as adjectives: der lachende Mann, das gekochte Ei",
+  "wordlist": "Wissenschaft & Forschung",
+  "minutes": 35,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+B2+Partizip+1+Partizip+2+als+Adjektiv",
+  "learn": [
+    {
+      "heading": "Partizip I: infinitive + d",
+      "text": "**Partizip I** = **Infinitiv + d**: *lachen → lachend*, *steigen → steigend*. As an attribute it is **active and simultaneous**: the thing does the action right now. It takes the normal **adjective endings**: *der lachende Mann*, *ein lachender Mann*, *mit dem lachenden Mann*.",
+      "table": {
+        "head": [
+          "Verb",
+          "Partizip I",
+          "Beispiel"
+        ],
+        "rows": [
+          [
+            "lachen",
+            "lachend",
+            "der lachende Mann"
+          ],
+          [
+            "steigen",
+            "steigend",
+            "die steigende Temperatur"
+          ],
+          [
+            "wachsen",
+            "wachsend",
+            "die wachsende Nachfrage"
+          ],
+          [
+            "schmelzen",
+            "schmelzend",
+            "das schmelzende Eis"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "de": "Die steigenden Temperaturen machen den Forschern Sorgen.",
+          "en": "The rising temperatures worry the researchers."
+        },
+        {
+          "de": "Eine wachsende Zahl von Studien zeigt das.",
+          "en": "A growing number of studies show this."
+        },
+        {
+          "de": "Das schmelzende Eis bedroht den Lebensraum der Eisbären.",
+          "en": "The melting ice threatens the habitat of polar bears."
+        }
+      ]
+    },
+    {
+      "heading": "Partizip II as an adjective",
+      "text": "**Partizip II** as an attribute means **finished**. With **transitive verbs** it is passive: *das gekochte Ei* (the egg was boiled). With intransitive verbs of change (*steigen, schmelzen, sinken*) it means that the change **has happened**: *die gestiegene Temperatur*. Again add the adjective endings.",
+      "table": {
+        "head": [
+          "Partizip II",
+          "Bedeutung",
+          "Beispiel"
+        ],
+        "rows": [
+          [
+            "gekocht",
+            "passiv, fertig",
+            "das gekochte Ei"
+          ],
+          [
+            "veröffentlicht",
+            "passiv, fertig",
+            "der veröffentlichte Artikel"
+          ],
+          [
+            "gestiegen",
+            "Veränderung abgeschlossen",
+            "die gestiegene Temperatur"
+          ],
+          [
+            "gelungen",
+            "erfolgreich beendet",
+            "die gelungene Messung"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "de": "Die veröffentlichte Studie zeigt klare Ergebnisse.",
+          "en": "The published study shows clear results."
+        },
+        {
+          "de": "Wegen der gesunkenen Preise kaufen mehr Leute ein.",
+          "en": "Because of the lower prices more people are buying."
+        },
+        {
+          "de": "Die im Labor getestete Probe war sauber.",
+          "en": "The sample tested in the lab was clean."
+        }
+      ]
+    },
+    {
+      "heading": "The meaning difference: Partizip I vs II",
+      "text": "Partizip I says **it is happening now** (active). Partizip II says **it is done** (passive, or change completed). Pairs like these show the difference clearly. Always ask: is the action still going on, or is it finished?",
+      "table": {
+        "head": [
+          "Partizip I (läuft gerade)",
+          "Partizip II (abgeschlossen)"
+        ],
+        "rows": [
+          [
+            "die steigende Temperatur",
+            "die gestiegene Temperatur"
+          ],
+          [
+            "die sinkenden Preise",
+            "die gesunkenen Preise"
+          ],
+          [
+            "das schmelzende Eis",
+            "das geschmolzene Eis"
+          ],
+          [
+            "der untersuchende Arzt",
+            "der untersuchte Patient"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "de": "Die steigende Temperatur ist ein Problem.",
+          "en": "The rising temperature is a problem."
+        },
+        {
+          "de": "Die gestiegene Temperatur wurde im Labor gemessen.",
+          "en": "The temperature that has risen was measured in the lab."
+        },
+        {
+          "de": "Der untersuchende Arzt schreibt den Bericht.",
+          "en": "The doctor examining writes the report."
+        }
+      ]
+    }
+  ],
+  "tip": "Partizip I (-d) = happening now, active: die steigende Temperatur. Partizip II = finished, passive or completed: die gestiegene Temperatur, das gekochte Ei. Then add the adjective ending.",
+  "words": [
+    {
+      "de": "Forschung",
+      "en": "research",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Forschungen"
+    },
+    {
+      "de": "Studie",
+      "en": "study",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Studien"
+    },
+    {
+      "de": "Experiment",
+      "en": "experiment",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Experimente"
+    },
+    {
+      "de": "Ergebnis",
+      "en": "result",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Ergebnisse"
+    },
+    {
+      "de": "Messung",
+      "en": "measurement",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Messungen"
+    },
+    {
+      "de": "Probe",
+      "en": "sample",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Proben"
+    },
+    {
+      "de": "Hypothese",
+      "en": "hypothesis",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Hypothesen"
+    },
+    {
+      "de": "Labor",
+      "en": "laboratory",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Labore"
+    },
+    {
+      "de": "Wissenschaftler",
+      "en": "scientist",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Wissenschaftler"
+    },
+    {
+      "de": "Erkenntnis",
+      "en": "insight, finding",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Erkenntnisse"
+    },
+    {
+      "de": "Untersuchung",
+      "en": "examination, investigation",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Untersuchungen"
+    },
+    {
+      "de": "veröffentlichen",
+      "en": "to publish",
+      "pos": "verb",
+      "aux": "haben",
+      "p2": "veröffentlicht"
+    },
+    {
+      "de": "untersuchen",
+      "en": "to examine",
+      "pos": "verb",
+      "aux": "haben",
+      "p2": "untersucht"
+    },
+    {
+      "de": "messen",
+      "en": "to measure",
+      "pos": "verb",
+      "aux": "haben",
+      "p2": "gemessen"
+    },
+    {
+      "de": "beweisen",
+      "en": "to prove",
+      "pos": "verb",
+      "aux": "haben",
+      "p2": "bewiesen"
+    },
+    {
+      "de": "nachweisen",
+      "en": "to detect, to prove",
+      "pos": "verb",
+      "aux": "haben",
+      "sep": "nach",
+      "p2": "nachgewiesen"
+    },
+    {
+      "de": "erforschen",
+      "en": "to research",
+      "pos": "verb",
+      "aux": "haben",
+      "p2": "erforscht"
+    },
+    {
+      "de": "schmelzen",
+      "en": "to melt",
+      "pos": "verb",
+      "aux": "sein",
+      "p2": "geschmolzen"
+    },
+    {
+      "de": "steigen",
+      "en": "to rise",
+      "pos": "verb",
+      "aux": "sein",
+      "p2": "gestiegen"
+    },
+    {
+      "de": "sinken",
+      "en": "to fall, to sink",
+      "pos": "verb",
+      "aux": "sein",
+      "p2": "gesunken"
+    },
+    {
+      "de": "wachsen",
+      "en": "to grow",
+      "pos": "verb",
+      "aux": "sein",
+      "p2": "gewachsen"
+    },
+    {
+      "de": "messbar",
+      "en": "measurable",
+      "pos": "adj"
+    },
+    {
+      "de": "wissenschaftlich",
+      "en": "scientific",
+      "pos": "adj"
+    }
+  ],
+  "mindmap": {
+    "label": "Partizipien als Adjektiv",
+    "children": [
+      {
+        "label": "Partizip I",
+        "note": "Infinitiv + d",
+        "children": [
+          {
+            "label": "der lachende Mann"
+          },
+          {
+            "label": "die steigende Temperatur"
+          }
+        ]
+      },
+      {
+        "label": "Partizip II",
+        "note": "abgeschlossen",
+        "children": [
+          {
+            "label": "das gekochte Ei"
+          },
+          {
+            "label": "die gestiegene Temperatur"
+          }
+        ]
+      },
+      {
+        "label": "Meaning",
+        "children": [
+          {
+            "label": "I: aktiv, gerade jetzt"
+          },
+          {
+            "label": "II: passiv oder fertig"
+          }
+        ]
+      },
+      {
+        "label": "Endings",
+        "note": "like adjectives",
+        "children": [
+          {
+            "label": "der …e / ein …er / mit dem …en"
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "mc",
+      "q": "Die ___ Temperatur macht den Forschern Sorgen. (Sie steigt gerade.)",
+      "options": [
+        "steigende",
+        "gestiegene",
+        "steigen"
+      ],
+      "answer": 0,
+      "explain": "Ongoing change → Partizip I (steigend) + ending -e."
+    },
+    {
+      "type": "mc",
+      "q": "Die ___ Temperatur liegt jetzt bei 30 Grad. (Sie ist schon gestiegen.)",
+      "options": [
+        "steigende",
+        "gestiegene",
+        "gestiegen"
+      ],
+      "answer": 1,
+      "explain": "A completed change → Partizip II (gestiegen) + ending -e."
+    },
+    {
+      "type": "mc",
+      "q": "\"das gekochte Ei\" bedeutet:",
+      "options": [
+        "Das Ei kocht gerade.",
+        "Das Ei wurde gekocht.",
+        "Das Ei kocht etwas."
+      ],
+      "answer": 1,
+      "explain": "Partizip II of a transitive verb has a passive, finished meaning."
+    },
+    {
+      "type": "mc",
+      "q": "Das ___ Eis bedroht den Lebensraum der Eisbären. (Es schmilzt gerade.)",
+      "options": [
+        "schmelzende",
+        "geschmolzene",
+        "schmelzen"
+      ],
+      "answer": 0,
+      "explain": "The ice is melting now → Partizip I."
+    },
+    {
+      "type": "gap",
+      "q": "Der ___ Mann ist mein Kollege. (lachen)",
+      "answer": [
+        "lachende"
+      ],
+      "explain": "Partizip I: lachend + -e after der (nominative masculine)."
+    },
+    {
+      "type": "gap",
+      "q": "Die gestern ___ Probe war sauber. (untersuchen, passiv)",
+      "answer": [
+        "untersuchte"
+      ],
+      "explain": "Passive and finished → Partizip II untersucht + ending -e (feminine nominative)."
+    },
+    {
+      "type": "gap",
+      "q": "Eine ___ Zahl von Studien zeigt das. (wachsen)",
+      "answer": [
+        "wachsende"
+      ],
+      "explain": "Partizip I wachsend; after eine (feminine nominative) the ending is -e."
+    },
+    {
+      "type": "gap",
+      "q": "Wegen der ___ Preise kaufen mehr Leute ein. (sinken, schon passiert)",
+      "answer": [
+        "gesunkenen"
+      ],
+      "explain": "Partizip II gesunken; genitive plural after der takes -en."
+    },
+    {
+      "type": "article",
+      "word": "Hypothese",
+      "answer": "die",
+      "explain": "Words on -e that come from Greek like Hypothese are feminine: die Hypothese."
+    },
+    {
+      "type": "order",
+      "words": [
+        "ein",
+        "Problem",
+        "ist",
+        "Temperatur",
+        "steigende",
+        "Die"
+      ],
+      "answer": "Die steigende Temperatur ist ein Problem",
+      "explain": "Adjective-like participle before the noun: die steigende Temperatur."
+    },
+    {
+      "type": "order",
+      "words": [
+        "Labor",
+        "gemessen",
+        "im",
+        "wurde",
+        "Temperatur",
+        "gestiegene",
+        "Die"
+      ],
+      "answer": "Die gestiegene Temperatur wurde im Labor gemessen",
+      "explain": "Passive past sentence with the Partizip II attribute gestiegene."
+    },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "die steigende Temperatur",
+          "the temperature that is rising"
+        ],
+        [
+          "die gestiegene Temperatur",
+          "the temperature that has risen"
+        ],
+        [
+          "das gekochte Ei",
+          "the boiled egg"
+        ],
+        [
+          "der lachende Mann",
+          "the laughing man"
+        ],
+        [
+          "die wachsende Nachfrage",
+          "the growing demand"
+        ]
+      ],
+      "explain": "Participle phrases and their meanings."
+    },
+    {
+      "type": "translate",
+      "en": "The growing demand is a challenge.",
+      "answer": [
+        "Die wachsende Nachfrage ist eine Herausforderung"
+      ],
+      "explain": "Ongoing process → Partizip I wachsend + -e."
+    },
+    {
+      "type": "translate",
+      "en": "The published study shows clear results.",
+      "answer": [
+        "Die veröffentlichte Studie zeigt klare Ergebnisse"
+      ],
+      "explain": "Passive and finished → Partizip II veröffentlicht + -e."
+    }
+  ],
+  "speak": {
+    "shadow": [
+      {
+        "de": "Die steigenden Temperaturen machen den Forschern Sorgen.",
+        "en": "The rising temperatures worry the researchers."
+      },
+      {
+        "de": "Die gestiegene Temperatur wurde im Labor gemessen.",
+        "en": "The temperature that has risen was measured in the lab."
+      },
+      {
+        "de": "Das schmelzende Eis bedroht den Lebensraum der Eisbären.",
+        "en": "The melting ice threatens the polar bears' habitat."
+      },
+      {
+        "de": "Die veröffentlichte Studie zeigt klare Ergebnisse.",
+        "en": "The published study shows clear results."
+      },
+      {
+        "de": "Wegen der gesunkenen Preise kaufen mehr Leute ein.",
+        "en": "Because of the lower prices more people are buying."
+      }
+    ],
+    "prompts": [
+      {
+        "q": "Beschreibe ein aktuelles Umweltproblem mit Partizipien.",
+        "qEn": "Describe a current environmental problem using participles.",
+        "model": "Ein großes Problem sind die steigenden Temperaturen. Das schmelzende Eis führt zu einem höheren Meeresspiegel. Die gestiegene Konzentration von Kohlendioxid in der Luft ist gut messbar. Deshalb brauchen wir die wachsende Forschung zu neuen Technologien.",
+        "hint": "die steigende / die gestiegene … das schmelzende …"
+      },
+      {
+        "q": "Erkläre den Unterschied zwischen „die steigende“ und „die gestiegene Temperatur“.",
+        "qEn": "Explain the difference between die steigende and die gestiegene Temperatur.",
+        "model": "Die steigende Temperatur ist noch in Bewegung, sie wird gerade höher. Die gestiegene Temperatur ist schon höher geworden, die Veränderung ist abgeschlossen. Das Partizip I zeigt also einen laufenden Vorgang. Das Partizip II beschreibt das Ergebnis.",
+        "hint": "Partizip I: … gerade. Partizip II: … schon …"
+      },
+      {
+        "q": "Berichte über eine Studie oder ein Experiment, das du kennst.",
+        "qEn": "Report on a study or experiment you know.",
+        "model": "Ich habe eine veröffentlichte Studie über Direct Air Capture gelesen. Die untersuchten Anlagen konnten das Kohlendioxid zuverlässig aus der Luft filtern. Die gemessenen Ergebnisse waren besser als erwartet. Allerdings brauchen die Anlagen noch viel Energie.",
+        "hint": "eine veröffentlichte Studie … die gemessenen Ergebnisse …"
+      }
+    ]
+  }
+}

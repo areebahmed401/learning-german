@@ -23,6 +23,15 @@ function size(node, depth) {
   return { w, h: node.note ? 46 : 32, fs };
 }
 
+/** Static, scaled-to-fit mind map (road hover peek, preview sheet). */
+export function renderMindmapPreview(container, root) {
+  const svg = build(root, new Set(), false, () => {});
+  svg.removeAttribute('width');
+  svg.removeAttribute('height');
+  svg.querySelectorAll('[tabindex]').forEach((g) => { g.removeAttribute('tabindex'); g.removeAttribute('role'); });
+  container.replaceChildren(svg);
+}
+
 export function renderMindmap(container, root) {
   const collapsed = new Set();
   // two-sided when it fits the container, otherwise everything on the right (scrolls sideways)

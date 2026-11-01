@@ -1,0 +1,142 @@
+{
+  "id": "b2-09-konnektoren",
+  "level": "B2",
+  "title": "je … desto, indem, zumal",
+  "concept": "Advanced connectors: indem, sofern, zumal, je … desto",
+  "wordlist": "Argumentieren & Diskutieren",
+  "minutes": 35,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+B2+je+desto+indem+zumal+sodass+Konnektoren",
+  "learn": [
+    {
+      "heading": "indem, sodass, so … dass",
+      "text": "**Indem** tells you *how* something is done (the method): *by doing …*. **Sodass** (or *so dass*) and **so … dass** express a **result**. All three send the verb to the **end** of the clause. With **so … dass**, *so* stands before an adjective in the main clause: *so teuer, dass …*.",
+      "examples": [
+        { "de": "Wir sparen Energie, indem wir die Anlage nachts abschalten.", "en": "We save energy by switching off the plant at night." },
+        { "de": "Wir haben die Filter getauscht, sodass die Anlage wieder läuft.", "en": "We replaced the filters, so the plant is running again." },
+        { "de": "Das Projekt ist so teuer, dass wir es nicht finanzieren können.", "en": "The project is so expensive that we cannot finance it." }
+      ]
+    },
+    {
+      "heading": "sofern, falls, zumal",
+      "text": "**Sofern** and **falls** introduce a condition (*if, provided that*) and are a little more careful than *wenn*. **Zumal** adds an extra argument: *especially since*. It is typical in discussions. Again the verb goes to the **end**.",
+      "examples": [
+        { "de": "Sofern der Test erfolgreich ist, starten wir im Herbst die Produktion.", "en": "Provided the test is successful, we start production in autumn." },
+        { "de": "Falls Sie Fragen haben, melden Sie sich bitte bei mir.", "en": "If you have questions, please contact me." },
+        { "de": "Ich bin für den Vorschlag, zumal er viel Geld spart.", "en": "I am in favour of the proposal, especially since it saves a lot of money." }
+      ]
+    },
+    {
+      "heading": "je … desto / umso",
+      "text": "**Je … desto** (or **je … umso**) connects two comparatives: *the more …, the more …*. The **je clause** sends the verb to the end. The **desto clause** has the **verb in second position**: *desto* + comparative takes position 1. Both parts need a comparative (*mehr, besser, länger, höher*).",
+      "examples": [
+        { "de": "Je mehr ich übe, desto besser spreche ich.", "en": "The more I practise, the better I speak." },
+        { "de": "Je länger die Besprechung dauert, umso müder werden wir.", "en": "The longer the meeting lasts, the more tired we get." },
+        { "de": "Je höher der Preis ist, desto weniger kaufen die Kunden.", "en": "The higher the price, the less the customers buy." }
+      ]
+    },
+    {
+      "heading": "außerdem, dennoch, folglich",
+      "text": "Some connectors are **adverbs**, not conjunctions. They take **position 1**, so the verb follows right behind them (verb second): *Außerdem ist die Qualität gut.* This is the same pattern as *deshalb* and *trotzdem*. Compare it with the subordinating conjunctions, where the verb goes to the end.",
+      "table": {
+        "head": ["Type", "Examples", "Verb position"],
+        "rows": [
+          ["Conjunction", "indem, sodass, sofern, falls, zumal, je", "end of the clause"],
+          ["Adverb", "außerdem, dennoch, folglich", "second, right after the adverb"]
+        ]
+      },
+      "examples": [
+        { "de": "Der Preis ist fair. Außerdem ist die Qualität sehr gut.", "en": "The price is fair. Besides, the quality is very good." },
+        { "de": "Das Risiko ist hoch. Dennoch halte ich die Idee für richtig.", "en": "The risk is high. Nevertheless I think the idea is right." },
+        { "de": "Der Test war erfolgreich. Folglich starten wir im Herbst die Produktion.", "en": "The test was successful. Consequently we start production in autumn." }
+      ]
+    }
+  ],
+  "tip": "Je … desto: two comparatives, two different verb positions. Je clause: verb LAST. Desto clause: verb SECOND. Je mehr ich übe (verb last), desto besser spreche ich (verb second).",
+  "words": [
+    { "de": "Argument", "en": "argument", "pos": "noun", "article": "das", "plural": "Argumente" },
+    { "de": "Gegenargument", "en": "counter-argument", "pos": "noun", "article": "das", "plural": "Gegenargumente" },
+    { "de": "Standpunkt", "en": "point of view", "pos": "noun", "article": "der", "plural": "Standpunkte" },
+    { "de": "Vorteil", "en": "advantage", "pos": "noun", "article": "der", "plural": "Vorteile" },
+    { "de": "Nachteil", "en": "disadvantage", "pos": "noun", "article": "der", "plural": "Nachteile" },
+    { "de": "Meinung", "en": "opinion", "pos": "noun", "article": "die", "plural": "Meinungen" },
+    { "de": "Kompromiss", "en": "compromise", "pos": "noun", "article": "der", "plural": "Kompromisse" },
+    { "de": "Einwand", "en": "objection", "pos": "noun", "article": "der", "plural": "Einwände" },
+    { "de": "Behauptung", "en": "claim", "pos": "noun", "article": "die", "plural": "Behauptungen" },
+    { "de": "Voraussetzung", "en": "precondition", "pos": "noun", "article": "die", "plural": "Voraussetzungen" },
+    { "de": "überzeugen", "en": "to convince", "pos": "verb", "aux": "haben", "p2": "überzeugt" },
+    { "de": "widersprechen", "en": "to contradict (+Dat)", "pos": "verb", "aux": "haben", "p2": "widersprochen" },
+    { "de": "zustimmen", "en": "to agree (+Dat)", "pos": "verb", "aux": "haben", "sep": "zu", "p2": "zugestimmt" },
+    { "de": "ablehnen", "en": "to reject", "pos": "verb", "aux": "haben", "sep": "ab", "p2": "abgelehnt" },
+    { "de": "begründen", "en": "to justify, to give reasons for", "pos": "verb", "aux": "haben", "p2": "begründet" },
+    { "de": "betonen", "en": "to emphasise", "pos": "verb", "aux": "haben", "p2": "betont" },
+    { "de": "abwägen", "en": "to weigh up", "pos": "verb", "aux": "haben", "sep": "ab", "p2": "abgewogen" },
+    { "de": "sich einigen", "en": "to come to an agreement", "pos": "verb", "aux": "haben", "p2": "geeinigt" },
+    { "de": "sachlich", "en": "objective, factual", "pos": "adj" },
+    { "de": "überzeugend", "en": "convincing", "pos": "adj" },
+    { "de": "einseitig", "en": "one-sided", "pos": "adj" },
+    { "de": "sofern", "en": "provided that", "pos": "conj" },
+    { "de": "zumal", "en": "especially since", "pos": "conj" }
+  ],
+  "mindmap": {
+    "label": "Konnektoren B2",
+    "children": [
+      {
+        "label": "Nebensatz (Verb am Ende)",
+        "children": [
+          { "label": "indem", "note": "method: by doing" },
+          { "label": "sodass / so … dass", "note": "result" },
+          { "label": "sofern / falls", "note": "condition" },
+          { "label": "zumal", "note": "especially since" }
+        ]
+      },
+      {
+        "label": "je … desto",
+        "children": [
+          { "label": "je + Komparativ, verb last" },
+          { "label": "desto + Komparativ, verb 2nd" }
+        ]
+      },
+      {
+        "label": "Adverbien (Verb an 2. Stelle)",
+        "children": [
+          { "label": "außerdem" },
+          { "label": "dennoch" },
+          { "label": "folglich" }
+        ]
+      },
+      {
+        "label": "Argumentieren & Diskutieren",
+        "children": [ { "label": "Argument, Vorteil, überzeugen, zustimmen" } ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "mc", "q": "Wir sparen Energie, ___ wir die Anlage nachts abschalten.", "options": ["indem", "obwohl", "sodass"], "answer": 0, "explain": "Switching off the plant is the method by which energy is saved: indem + verb at the end." },
+    { "type": "mc", "q": "Which sentence is correct?", "options": ["Je mehr ich übe, desto besser ich spreche.", "Je mehr ich übe, desto besser spreche ich.", "Je mehr übe ich, desto besser spreche ich."], "answer": 1, "explain": "The je clause has the verb at the end (übe). In the desto clause, desto besser is position 1, so the verb spreche is second." },
+    { "type": "mc", "q": "Der Test war erfolgreich. ___ starten wir im Herbst die Produktion.", "options": ["Folglich", "Falls", "Indem"], "answer": 0, "explain": "A new main sentence with the verb in second position (starten) needs an adverb: folglich. Falls and indem would send the verb to the end." },
+    { "type": "gap", "q": "Das Projekt ist so teuer, ___ wir es nicht finanzieren können.", "answer": ["dass"], "explain": "so + adjective in the main clause is completed by dass in the result clause (so teuer, dass …)." },
+    { "type": "gap", "q": "Je höher der Preis ist, ___ weniger kaufen die Kunden.", "answer": ["desto", "umso"], "explain": "The second part of je … desto / umso. It takes position 1 with a comparative and the verb follows in position 2." },
+    { "type": "gap", "q": "Ich bin für den Vorschlag, ___ er viel Geld spart.", "answer": ["zumal"], "explain": "zumal adds an extra argument (especially since) and sends the verb spart to the end." },
+    { "type": "article", "word": "Kompromiss", "answer": "der", "explain": "Kompromiss is masculine: der Kompromiss, plural die Kompromisse." },
+    { "type": "order", "words": ["Je mehr ich übe,", "desto besser", "spreche", "ich"], "answer": "Je mehr ich übe, desto besser spreche ich", "explain": "After the je clause the main clause starts with desto besser, so the verb spreche is next and the subject ich last." },
+    { "type": "order", "words": ["Wir", "überzeugen", "den Kunden,", "indem", "wir", "die Vorteile", "zeigen"], "answer": "Wir überzeugen den Kunden, indem wir die Vorteile zeigen", "explain": "indem opens a subordinate clause: the verb zeigen goes to the very end." },
+    { "type": "order", "words": ["Der Preis ist fair.", "Außerdem", "ist", "die Qualität", "sehr gut"], "answer": "Der Preis ist fair. Außerdem ist die Qualität sehr gut", "explain": "außerdem is an adverb in position 1, so the verb ist stands directly after it." },
+    { "type": "match", "pairs": [["indem", "by doing something"], ["sodass", "so that (result)"], ["zumal", "especially since"], ["sofern", "provided that"], ["dennoch", "nevertheless"]], "explain": "Meaning of the advanced connectors." },
+    { "type": "translate", "en": "The more we discuss, the better we understand each other.", "answer": ["Je mehr wir diskutieren, desto besser verstehen wir uns", "Je mehr wir diskutieren, umso besser verstehen wir uns", "Je mehr wir diskutieren, desto besser verstehen wir einander", "Je mehr wir diskutieren, umso besser verstehen wir einander"], "explain": "je + comparative with the verb last; desto / umso + comparative with the verb second." },
+    { "type": "translate", "en": "He convinced the team by presenting the figures.", "answer": ["Er hat das Team überzeugt, indem er die Zahlen präsentiert hat", "Er überzeugte das Team, indem er die Zahlen präsentierte"], "explain": "indem + verb at the end. Keep the tense consistent: perfect with perfect, or Präteritum with Präteritum." }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Je mehr Argumente wir sammeln, desto leichter fällt die Entscheidung.", "en": "The more arguments we collect, the easier the decision becomes." },
+      { "de": "Man kann die Kosten senken, indem man weniger Energie verbraucht.", "en": "You can reduce costs by using less energy." },
+      { "de": "Ich bin dagegen, zumal die Risiken noch nicht klar sind.", "en": "I am against it, especially since the risks are not yet clear." },
+      { "de": "Sofern alle zustimmen, beginnen wir nächste Woche.", "en": "Provided everyone agrees, we start next week." },
+      { "de": "Das Argument ist gut. Dennoch überzeugt es mich nicht ganz.", "en": "The argument is good. Nevertheless it doesn't fully convince me." }
+    ],
+    "prompts": [
+      { "q": "Ihr Team diskutiert, ob die Firma ein Homeoffice-Modell einführen soll. Geben Sie Ihre Meinung mit Gründen.", "qEn": "Your team discusses whether the company should introduce working from home. Give your opinion with reasons.", "model": "Ich bin für das Homeoffice, zumal wir dadurch lange Wege sparen. Je flexibler wir arbeiten können, desto zufriedener sind die Kollegen. Außerdem können wir Büroflächen reduzieren, sodass die Firma Geld spart. Allerdings müssen wir klare Regeln festlegen, damit die Zusammenarbeit funktioniert.", "hint": "zumal … / je … desto … / außerdem …" },
+      { "q": "Argumentieren Sie für und gegen ein Elektroauto als Firmenwagen.", "qEn": "Argue for and against an electric car as a company car.", "model": "Ein Elektroauto hat den Vorteil, dass es im Betrieb keine Abgase erzeugt. Die Anschaffung ist allerdings teuer, zumal die Ladestationen noch fehlen. Dennoch lohnt es sich, sofern wir den Strom aus erneuerbaren Quellen beziehen. Je mehr Ladestationen es gibt, desto attraktiver wird die Entscheidung.", "hint": "Vorteil / Nachteil / sofern / dennoch" },
+      { "q": "Sie möchten Ihren Chef von einer Investition überzeugen. Wie gehen Sie vor?", "qEn": "You want to convince your boss to make an investment. How do you proceed?", "model": "Ich würde zuerst die Kosten und den Nutzen sachlich vergleichen. Ich überzeuge meinen Chef, indem ich konkrete Zahlen zeige. Die Investition ist so günstig, dass sie sich in zwei Jahren bezahlt macht. Folglich spricht aus meiner Sicht nichts dagegen.", "hint": "indem … / so … dass … / folglich …" }
+    ]
+  }
+}

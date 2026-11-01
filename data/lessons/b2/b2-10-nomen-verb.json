@@ -1,0 +1,162 @@
+{
+  "id": "b2-10-nomen-verb",
+  "level": "B2",
+  "title": "Nomen-Verb-Verbindungen",
+  "concept": "Fixed noun-verb phrases: eine Entscheidung treffen",
+  "wordlist": "Verhandlungen & Meetings",
+  "minutes": 35,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+B2+Nomen-Verb-Verbindungen",
+  "learn": [
+    {
+      "heading": "Fixed phrases: the noun carries the meaning",
+      "text": "A **Nomen-Verb-Verbindung** is a fixed combination of a noun and a verb that works like one verb. The noun carries the meaning, the verb is almost empty (*treffen, nehmen, stellen, bringen*). You cannot swap the verb: German says **eine Entscheidung treffen**, never *machen*. These phrases sound formal and are very common in meetings, emails and contracts.",
+      "table": {
+        "head": ["Nomen-Verb-Verbindung", "Meaning", "Simple verb"],
+        "rows": [
+          ["eine Entscheidung treffen", "to make a decision", "entscheiden"],
+          ["in Kauf nehmen", "to accept (a drawback)", "akzeptieren"],
+          ["zur Verfügung stellen", "to provide", "bereitstellen"],
+          ["Rücksicht nehmen auf + Akk", "to show consideration for", "berücksichtigen"],
+          ["in Frage kommen", "to be possible", "möglich sein"],
+          ["zum Ausdruck bringen", "to express", "ausdrücken"]
+        ]
+      },
+      "examples": [
+        { "de": "Wir müssen bis Freitag eine Entscheidung treffen.", "en": "We have to make a decision by Friday." },
+        { "de": "Die Firma stellt uns einen Besprechungsraum zur Verfügung.", "en": "The company provides us with a meeting room." },
+        { "de": "Dieser Termin kommt für mich leider nicht in Frage.", "en": "This date is unfortunately not possible for me." }
+      ]
+    },
+    {
+      "heading": "More phrases for meetings and negotiations",
+      "text": "These phrases come up again and again when people discuss, negotiate and decide. Pay attention to the **fixed preposition** and the **case** that follows it (for example *Kritik üben **an** + Dativ*, *Einfluss nehmen **auf** + Akkusativ*).",
+      "table": {
+        "head": ["Nomen-Verb-Verbindung", "Meaning"],
+        "rows": [
+          ["eine Rolle spielen", "to play a role"],
+          ["Kritik üben an + Dat", "to criticise"],
+          ["einen Beitrag leisten zu + Dat", "to contribute to"],
+          ["in Betracht ziehen", "to consider"],
+          ["Stellung nehmen zu + Dat", "to comment on, to take a stand on"],
+          ["zur Kenntnis nehmen", "to take note of"],
+          ["Einfluss nehmen auf + Akk", "to influence"],
+          ["Verantwortung übernehmen für + Akk", "to take responsibility for"],
+          ["Bedenken äußern", "to voice concerns"],
+          ["zur Diskussion stellen", "to put up for discussion"]
+        ]
+      },
+      "examples": [
+        { "de": "Der Betriebsrat übt Kritik an dem neuen Plan.", "en": "The works council criticises the new plan." },
+        { "de": "Ich möchte zu diesem Vorschlag Stellung nehmen.", "en": "I would like to comment on this proposal." },
+        { "de": "Wir ziehen auch eine zweite Lösung in Betracht.", "en": "We are also considering a second solution." }
+      ]
+    },
+    {
+      "heading": "How they behave in a sentence",
+      "text": "The **verb** is conjugated as usual, and in the perfect tense you need the participle of the verb part. The noun part stays in place: in a main clause it moves to the end together with the preposition (*Wir haben eine Entscheidung getroffen*). Check whether the verb takes **haben** or **sein** (*in Frage kommen* → *ist … gekommen*).",
+      "table": {
+        "head": ["Phrase", "Präsens", "Perfekt"],
+        "rows": [
+          ["eine Entscheidung treffen", "Sie trifft eine Entscheidung.", "Sie hat eine Entscheidung getroffen."],
+          ["in Kauf nehmen", "Er nimmt die Kosten in Kauf.", "Er hat die Kosten in Kauf genommen."],
+          ["zur Verfügung stellen", "Wir stellen Mittel zur Verfügung.", "Wir haben Mittel zur Verfügung gestellt."],
+          ["in Frage kommen", "Das kommt nicht in Frage.", "Das ist nicht in Frage gekommen."]
+        ]
+      }
+    }
+  ],
+  "tip": "Learn the whole block, not single words: eine Entscheidung TREFFEN, in Kauf NEHMEN, zur Verfügung STELLEN. Say the phrase aloud three times with its noun; the verb will follow automatically.",
+  "words": [
+    { "de": "eine Entscheidung treffen", "en": "to make a decision", "pos": "phrase" },
+    { "de": "in Kauf nehmen", "en": "to accept (a drawback)", "pos": "phrase" },
+    { "de": "zur Verfügung stellen", "en": "to provide, to make available", "pos": "phrase" },
+    { "de": "Rücksicht nehmen auf", "en": "to show consideration for (+Akk)", "pos": "phrase" },
+    { "de": "in Frage kommen", "en": "to be possible, to be an option", "pos": "phrase" },
+    { "de": "zum Ausdruck bringen", "en": "to express", "pos": "phrase" },
+    { "de": "eine Rolle spielen", "en": "to play a role", "pos": "phrase" },
+    { "de": "Kritik üben an", "en": "to criticise (+Dat)", "pos": "phrase" },
+    { "de": "einen Beitrag leisten zu", "en": "to contribute to (+Dat)", "pos": "phrase" },
+    { "de": "in Betracht ziehen", "en": "to consider", "pos": "phrase" },
+    { "de": "Stellung nehmen zu", "en": "to comment on (+Dat)", "pos": "phrase" },
+    { "de": "zur Kenntnis nehmen", "en": "to take note of", "pos": "phrase" },
+    { "de": "Einfluss nehmen auf", "en": "to influence (+Akk)", "pos": "phrase" },
+    { "de": "Verantwortung übernehmen für", "en": "to take responsibility for (+Akk)", "pos": "phrase" },
+    { "de": "einen Vorschlag unterbreiten", "en": "to submit a proposal", "pos": "phrase" },
+    { "de": "Bedenken äußern", "en": "to voice concerns", "pos": "phrase" },
+    { "de": "zur Diskussion stellen", "en": "to put up for discussion", "pos": "phrase" },
+    { "de": "Besprechung", "en": "meeting, discussion", "pos": "noun", "article": "die", "plural": "Besprechungen" },
+    { "de": "Tagesordnung", "en": "agenda", "pos": "noun", "article": "die", "plural": "Tagesordnungen" },
+    { "de": "Protokoll", "en": "minutes, record", "pos": "noun", "article": "das", "plural": "Protokolle" },
+    { "de": "Verhandlung", "en": "negotiation", "pos": "noun", "article": "die", "plural": "Verhandlungen" },
+    { "de": "Angebot", "en": "offer", "pos": "noun", "article": "das", "plural": "Angebote" }
+  ],
+  "mindmap": {
+    "label": "Nomen-Verb-Verbindungen",
+    "children": [
+      {
+        "label": "treffen",
+        "children": [ { "label": "eine Entscheidung treffen" } ]
+      },
+      {
+        "label": "nehmen",
+        "children": [
+          { "label": "in Kauf nehmen" },
+          { "label": "Rücksicht nehmen auf + Akk" },
+          { "label": "Stellung nehmen zu + Dat" },
+          { "label": "zur Kenntnis nehmen" },
+          { "label": "Einfluss nehmen auf + Akk" }
+        ]
+      },
+      {
+        "label": "stellen / bringen / ziehen",
+        "children": [
+          { "label": "zur Verfügung stellen" },
+          { "label": "zur Diskussion stellen" },
+          { "label": "zum Ausdruck bringen" },
+          { "label": "in Betracht ziehen" }
+        ]
+      },
+      {
+        "label": "Regel",
+        "children": [
+          { "label": "noun carries the meaning" },
+          { "label": "verb is fixed", "note": "treffen, never machen" },
+          { "label": "preposition + case are fixed" }
+        ]
+      },
+      {
+        "label": "Verhandlungen & Meetings",
+        "children": [ { "label": "Besprechung, Tagesordnung, Protokoll, Angebot" } ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "mc", "q": "Wir müssen heute eine Entscheidung ___.", "options": ["treffen", "machen", "geben"], "answer": 0, "explain": "The fixed combination is eine Entscheidung treffen. machen sounds like a literal translation and is not used here." },
+    { "type": "mc", "q": "Der Kunde ___ den höheren Preis in Kauf.", "options": ["nimmt", "macht", "stellt"], "answer": 0, "explain": "in Kauf nehmen = to accept a drawback. The verb nehmen is part of the fixed phrase." },
+    { "type": "mc", "q": "Dieser Kandidat ___ nicht in Frage ___. (Perfekt)", "options": ["hat … gekommen", "ist … gekommen", "ist … kommen"], "answer": 1, "explain": "kommen forms the perfect with sein, so in Frage kommen → ist in Frage gekommen." },
+    { "type": "gap", "q": "Die Firma stellt uns ein neues Büro zur ___.", "answer": ["Verfügung"], "explain": "zur Verfügung stellen = to make available. zur = zu + der, because Verfügung is feminine Dativ." },
+    { "type": "gap", "q": "Wir müssen mehr Rücksicht ___ die Kollegen nehmen.", "answer": ["auf"], "explain": "Rücksicht nehmen auf + Akkusativ: the preposition is part of the fixed phrase." },
+    { "type": "gap", "q": "Der Betriebsrat übt Kritik ___ dem neuen Plan.", "answer": ["an"], "explain": "Kritik üben an + Dativ. Here dem neuen Plan is Dativ." },
+    { "type": "gap", "q": "Sie bringt ihre Zufriedenheit zum ___.", "answer": ["Ausdruck"], "explain": "zum Ausdruck bringen = to express. zum = zu + dem, and Ausdruck is masculine." },
+    { "type": "article", "word": "Protokoll", "answer": "das", "explain": "Protokoll is neuter: das Protokoll, plural die Protokolle." },
+    { "type": "order", "words": ["Die Geschäftsführung", "hat", "die Kosten", "in Kauf", "genommen"], "answer": "Die Geschäftsführung hat die Kosten in Kauf genommen", "explain": "In the perfect tense the participle (genommen) goes to the end; in Kauf belongs to it, just before the participle." },
+    { "type": "order", "words": ["Ich", "möchte", "zu diesem Vorschlag", "Stellung", "nehmen"], "answer": "Ich möchte zu diesem Vorschlag Stellung nehmen", "explain": "With a modal verb the infinitive part (Stellung nehmen) stands at the end; zu + Dativ (diesem Vorschlag) is the fixed preposition." },
+    { "type": "match", "pairs": [["eine Entscheidung treffen", "to make a decision"], ["in Kauf nehmen", "to accept (a drawback)"], ["zur Verfügung stellen", "to provide"], ["in Betracht ziehen", "to consider"], ["zur Kenntnis nehmen", "to take note of"]], "explain": "Core Nomen-Verb-Verbindungen for meetings." },
+    { "type": "translate", "en": "We have to take the costs into account.", "answer": ["Wir müssen die Kosten in Betracht ziehen", "Wir müssen die Kosten berücksichtigen"], "explain": "in Betracht ziehen = to consider; with a modal verb the infinitive part goes to the end." },
+    { "type": "translate", "en": "She made the decision yesterday.", "answer": ["Sie hat gestern die Entscheidung getroffen", "Sie hat die Entscheidung gestern getroffen", "Sie traf gestern die Entscheidung", "Sie traf die Entscheidung gestern"], "explain": "eine Entscheidung treffen: treffen has the participle getroffen and takes haben." }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Wir haben die Kosten in Kauf genommen, weil der Nutzen größer ist.", "en": "We accepted the costs because the benefit is greater." },
+      { "de": "Die Firma stellt uns zusätzliche Mittel zur Verfügung.", "en": "The company is providing us with additional funds." },
+      { "de": "Ich möchte meine Bedenken zum Ausdruck bringen.", "en": "I would like to express my concerns." },
+      { "de": "Diese Lösung kommt für uns nicht in Frage.", "en": "This solution is not an option for us." },
+      { "de": "Bis Freitag müssen wir eine Entscheidung treffen.", "en": "By Friday we have to make a decision." }
+    ],
+    "prompts": [
+      { "q": "Sie verhandeln mit einem Lieferanten über den Preis. Was sagen Sie?", "qEn": "You negotiate the price with a supplier. What do you say?", "model": "Vielen Dank für Ihr Angebot. Der Preis kommt für uns in dieser Höhe leider nicht in Frage. Wir können eine längere Lieferzeit in Kauf nehmen, wenn Sie uns beim Preis entgegenkommen. Dann könnten wir noch diese Woche eine Entscheidung treffen.", "hint": "in Frage kommen / in Kauf nehmen / eine Entscheidung treffen" },
+      { "q": "In der Besprechung haben Sie Bedenken gegen einen Vorschlag. Äußern Sie sich.", "qEn": "In the meeting you have concerns about a proposal. Speak up.", "model": "Ich möchte zu diesem Vorschlag Stellung nehmen. Grundsätzlich finde ich die Idee gut, aber ich habe Bedenken wegen der Kosten. Wir sollten auch eine zweite Lösung in Betracht ziehen. Dann können wir beide Möglichkeiten vergleichen.", "hint": "Stellung nehmen zu / Bedenken äußern / in Betracht ziehen" },
+      { "q": "Sie leiten ein Meeting. Wie eröffnen Sie die Besprechung und verteilen Aufgaben?", "qEn": "You lead a meeting. How do you open it and assign tasks?", "model": "Guten Morgen zusammen, wir beginnen mit der Tagesordnung. Zuerst stelle ich den Plan zur Diskussion, danach nehmen wir die Ergebnisse zur Kenntnis. Frau Weber übernimmt die Verantwortung für das Protokoll. Am Ende treffen wir gemeinsam eine Entscheidung.", "hint": "zur Diskussion stellen / Verantwortung übernehmen / zur Kenntnis nehmen" }
+    ]
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "id": "b2-13-ohne-statt",
+  "level": "B2",
+  "title": "ohne … zu, statt … zu",
+  "concept": "ohne/statt/anstatt + zu and ohne dass/anstatt dass",
+  "wordlist": "Work-Life-Balance",
+  "minutes": 30,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+B2+ohne+zu+statt+zu+ohne+dass+anstatt+dass",
+  "learn": [
+    {
+      "heading": "ohne … zu and (an)statt … zu",
+      "text": "**Ohne … zu** means *without doing*; **(an)statt … zu** means *instead of doing*. The infinitive clause has **no subject of its own**, so both parts must have the **same subject**. The clause is separated by a comma and ends with **zu + infinitive**. With a separable verb the **zu stands inside the verb**: *aufzustehen, abzuschalten*. For a reflexive verb the pronoun comes first: *ohne sich zu erholen*.",
+      "examples": [
+        { "de": "Er arbeitet den ganzen Tag, ohne eine Pause zu machen.", "en": "He works all day without taking a break." },
+        { "de": "Sie arbeitet viel, ohne sich auszuruhen.", "en": "She works a lot without resting." },
+        { "de": "Anstatt Überstunden zu machen, geht sie nach Hause.", "en": "Instead of working overtime, she goes home." },
+        { "de": "Statt zu klagen, sucht er eine Lösung.", "en": "Instead of complaining, he looks for a solution." }
+      ]
+    },
+    {
+      "heading": "ohne dass and (an)statt dass",
+      "text": "If the subjects are **different**, you cannot use *zu*. Use **ohne dass** or **(an)statt dass** with a normal subordinate clause: a **subject** of its own and the **verb at the end**. The same pattern also appears with the same subject, but the *zu* version is more natural. Do not mix them up: *Er ist gegangen, ohne dass wir es bemerkt haben.*",
+      "table": {
+        "head": ["Same subject", "Different subject"],
+        "rows": [
+          ["Er arbeitet, ohne Pause zu machen.", "Er arbeitet, ohne dass sein Chef es verlangt."],
+          ["Sie geht ins Büro, anstatt im Homeoffice zu arbeiten.", "Sie geht ins Büro, anstatt dass ihre Kollegen sie besuchen."]
+        ]
+      },
+      "examples": [
+        { "de": "Sie hat Urlaub genommen, ohne dass ihr Chef davon wusste.", "en": "She took leave without her boss knowing about it." },
+        { "de": "Anstatt dass wir uns ausruhen, arbeiten wir am Wochenende weiter.", "en": "Instead of us resting, we keep working at the weekend." }
+      ]
+    },
+    {
+      "heading": "Position in the sentence",
+      "text": "The infinitive clause can come **after** the main clause or **before** it. If it comes first, the main clause starts with its **verb** (the clause fills position 1). It is common in speaking about work-life balance: *Anstatt zu arbeiten, bin ich spazieren gegangen.*",
+      "examples": [
+        { "de": "Anstatt am Wochenende zu arbeiten, gehe ich wandern.", "en": "Instead of working at the weekend, I go hiking." },
+        { "de": "Ohne zu fragen, hat er die Überstunden gemacht.", "en": "Without asking, he did the overtime." }
+      ]
+    }
+  ],
+  "tip": "One subject → ohne ... zu / (an)statt ... zu. Two different subjects → ohne dass / (an)statt dass. With a separable verb, zu goes in the middle: abzuschalten, auszuruhen.",
+  "words": [
+    { "de": "Freizeit", "en": "free time", "pos": "noun", "article": "die", "plural": "-" },
+    { "de": "Feierabend", "en": "end of the working day", "pos": "noun", "article": "der", "plural": "Feierabende" },
+    { "de": "Überstunde", "en": "overtime hour", "pos": "noun", "article": "die", "plural": "Überstunden" },
+    { "de": "Urlaub", "en": "holiday, leave", "pos": "noun", "article": "der", "plural": "Urlaube" },
+    { "de": "Homeoffice", "en": "working from home", "pos": "noun", "article": "das", "plural": "Homeoffices" },
+    { "de": "Stress", "en": "stress", "pos": "noun", "article": "der", "plural": "-" },
+    { "de": "Erholung", "en": "recovery, rest", "pos": "noun", "article": "die", "plural": "-" },
+    { "de": "Gleitzeit", "en": "flexitime", "pos": "noun", "article": "die", "plural": "-" },
+    { "de": "Arbeitsbelastung", "en": "workload", "pos": "noun", "article": "die", "plural": "Arbeitsbelastungen" },
+    { "de": "Wochenende", "en": "weekend", "pos": "noun", "article": "das", "plural": "Wochenenden" },
+    { "de": "Ausgleich", "en": "balance, compensation", "pos": "noun", "article": "der", "plural": "-" },
+    { "de": "Auszeit", "en": "break, time out", "pos": "noun", "article": "die", "plural": "Auszeiten" },
+    { "de": "abschalten", "en": "to switch off, to relax", "pos": "verb", "aux": "haben", "sep": "ab", "p2": "abgeschaltet" },
+    { "de": "sich entspannen", "en": "to relax", "pos": "verb", "aux": "haben", "p2": "entspannt" },
+    { "de": "sich ausruhen", "en": "to rest", "pos": "verb", "aux": "haben", "p2": "ausgeruht" },
+    { "de": "sich erholen", "en": "to recover", "pos": "verb", "aux": "haben", "p2": "erholt" },
+    { "de": "Überstunden machen", "en": "to work overtime", "pos": "phrase" },
+    { "de": "Grenzen setzen", "en": "to set boundaries", "pos": "phrase" },
+    { "de": "erreichbar", "en": "reachable, available", "pos": "adj" },
+    { "de": "gestresst", "en": "stressed", "pos": "adj" },
+    { "de": "ausgeglichen", "en": "balanced, even-tempered", "pos": "adj" },
+    { "de": "flexibel", "en": "flexible", "pos": "adj" }
+  ],
+  "mindmap": {
+    "label": "ohne / statt",
+    "children": [
+      {
+        "label": "gleiches Subjekt",
+        "children": [
+          { "label": "ohne … zu + Infinitiv" },
+          { "label": "(an)statt … zu + Infinitiv" }
+        ]
+      },
+      {
+        "label": "verschiedene Subjekte",
+        "children": [
+          { "label": "ohne dass + Verb am Ende" },
+          { "label": "(an)statt dass + Verb am Ende" }
+        ]
+      },
+      {
+        "label": "zu + trennbares Verb",
+        "children": [ { "label": "abzuschalten, auszuruhen" } ]
+      },
+      {
+        "label": "Satzstellung",
+        "children": [
+          { "label": "after the main clause" },
+          { "label": "before it → main verb first" }
+        ]
+      },
+      {
+        "label": "Work-Life-Balance",
+        "children": [ { "label": "Feierabend, Freizeit, abschalten, Ausgleich" } ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "mc", "q": "Er arbeitet, ___ eine Pause zu machen.", "options": ["ohne", "ohne dass", "damit"], "answer": 0, "explain": "The subject is the same and the clause has zu + infinitive (zu machen), so the connector is ohne." },
+    { "type": "mc", "q": "Er hat das Büro verlassen, ___ jemand ihn gesehen hat.", "options": ["ohne zu", "ohne dass", "statt zu"], "answer": 1, "explain": "The subjects are different (er / jemand), so you need ohne dass with the verb at the end." },
+    { "type": "mc", "q": "Which sentence is correct?", "options": ["Statt zu schlafen, ich arbeite die ganze Nacht.", "Statt zu schlafen, arbeite ich die ganze Nacht.", "Statt schlafen zu, arbeite ich die ganze Nacht."], "answer": 1, "explain": "The infinitive clause fills position 1, so the main verb arbeite comes directly after the comma, before the subject." },
+    { "type": "gap", "q": "Er geht ins Büro, anstatt im Homeoffice zu ___.", "answer": ["arbeiten"], "explain": "(an)statt … zu is followed by an infinitive: im Homeoffice zu arbeiten." },
+    { "type": "gap", "q": "Sie hat Urlaub genommen, ohne ___ ihr Chef davon wusste.", "answer": ["dass"], "explain": "Different subjects (sie / ihr Chef) → ohne dass + verb at the end (wusste)." },
+    { "type": "gap", "q": "Ich schalte nach der Arbeit ab, ___ weiter E-Mails zu lesen.", "answer": ["anstatt", "statt"], "explain": "I do something instead of the other thing, with the same subject: (an)statt … zu." },
+    { "type": "gap", "q": "Er arbeitet den ganzen Tag, ohne sich ___.", "answer": ["auszuruhen"], "explain": "ausruhen is separable: the zu goes between the prefix and the verb (aus-zu-ruhen) and written as one word. The reflexive pronoun sich comes first." },
+    { "type": "article", "word": "Feierabend", "answer": "der", "explain": "Feierabend is masculine: der Feierabend (plural: die Feierabende)." },
+    { "type": "order", "words": ["Sie", "arbeitet", "viel,", "ohne", "sich zu erholen"], "answer": "Sie arbeitet viel, ohne sich zu erholen", "explain": "The infinitive clause goes to the end; for a reflexive verb the pronoun comes before zu: sich zu erholen." },
+    { "type": "order", "words": ["Anstatt", "Überstunden zu machen,", "geht", "sie", "nach Hause"], "answer": "Anstatt Überstunden zu machen, geht sie nach Hause", "explain": "The infinitive clause fills position 1, so the main verb geht follows directly, then the subject." },
+    { "type": "order", "words": ["Er", "ist", "gegangen,", "ohne dass", "wir", "es", "bemerkt", "haben"], "answer": "Er ist gegangen, ohne dass wir es bemerkt haben", "explain": "Different subjects (er / wir) → ohne dass, with the verbs bemerkt haben at the end." },
+    { "type": "match", "pairs": [["ohne zu", "without doing (same subject)"], ["ohne dass", "without (different subject)"], ["anstatt zu", "instead of doing (same subject)"], ["anstatt dass", "instead of (different subject)"]], "explain": "Match the connector to its meaning and its subject rule." },
+    { "type": "translate", "en": "She went home without saying goodbye.", "answer": ["Sie ist nach Hause gegangen, ohne sich zu verabschieden", "Sie ging nach Hause, ohne sich zu verabschieden", "Sie ist nach Hause gegangen, ohne Tschüss zu sagen", "Sie ging nach Hause, ohne Tschüss zu sagen"], "explain": "Same subject, so ohne … zu. The reflexive pronoun sich comes before zu verabschieden." },
+    { "type": "translate", "en": "Instead of working at the weekend, I'm going hiking.", "answer": ["Anstatt am Wochenende zu arbeiten, gehe ich wandern", "Statt am Wochenende zu arbeiten, gehe ich wandern"], "explain": "(An)statt … zu in position 1; the main verb gehe follows right after the comma." }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Ich arbeite oft bis spät, ohne eine Pause zu machen.", "en": "I often work late without taking a break." },
+      { "de": "Anstatt am Wochenende E-Mails zu lesen, gehe ich lieber wandern.", "en": "Instead of reading emails at the weekend, I prefer to go hiking." },
+      { "de": "Man sollte nach Feierabend abschalten, ohne ständig erreichbar zu sein.", "en": "After work you should switch off without being constantly reachable." },
+      { "de": "Er hat Überstunden gemacht, ohne dass jemand es verlangt hat.", "en": "He worked overtime without anyone asking for it." },
+      { "de": "Statt mehr zu arbeiten, brauche ich mehr Ausgleich.", "en": "Instead of working more, I need more balance." }
+    ],
+    "prompts": [
+      { "q": "Wie sieht für Sie eine gute Work-Life-Balance aus?", "qEn": "What does a good work-life balance look like for you?", "model": "Für mich bedeutet Work-Life-Balance, nach Feierabend wirklich abzuschalten, ohne ständig an die Arbeit zu denken. Anstatt abends noch E-Mails zu lesen, gehe ich lieber laufen oder koche etwas. Am Wochenende versuche ich, mich zu erholen, ohne mir viel Stress zu machen. Dann habe ich am Montag wieder mehr Energie.", "hint": "ohne … zu / anstatt … zu" },
+      { "q": "Ihre Kollegin macht jeden Tag Überstunden. Was raten Sie ihr?", "qEn": "Your colleague works overtime every day. What do you advise her?", "model": "Ich würde ihr raten, Grenzen zu setzen, anstatt jeden Tag länger zu bleiben. Sie arbeitet viel, ohne sich genug zu erholen, und das ist auf Dauer nicht gesund. Außerdem sollte sie mit ihrem Chef sprechen, ohne dass sie sich schlecht fühlen muss. Ein offenes Gespräch hilft oft mehr als noch mehr Arbeit.", "hint": "Grenzen setzen / ohne dass …" },
+      { "q": "Diskutieren Sie die Vor- und Nachteile von Homeoffice für die Work-Life-Balance.", "qEn": "Discuss the pros and cons of working from home for work-life balance.", "model": "Im Homeoffice spare ich Zeit, weil ich nicht pendeln muss, und kann flexibler arbeiten. Der Nachteil ist, dass man schwer abschaltet, ohne den Laptop zuzuklappen. Manche Menschen arbeiten länger, anstatt Feierabend zu machen. Deshalb ist es wichtig, feste Zeiten zu haben, ohne dass der Chef sie kontrollieren muss.", "hint": "ohne … zu / anstatt … zu / ohne dass" }
+    ]
+  }
+}

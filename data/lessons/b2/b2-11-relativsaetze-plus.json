@@ -1,0 +1,146 @@
+{
+  "id": "b2-11-relativsaetze-plus",
+  "level": "B2",
+  "title": "was, wo, wer & mit dem",
+  "concept": "Relative clauses with prepositions, was/wo/wer",
+  "wordlist": "Gesellschaft & Zusammenleben",
+  "minutes": 35,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+B2+Relativs%C3%A4tze+was+wo+wer+Pr%C3%A4position",
+  "learn": [
+    {
+      "heading": "Preposition + relative pronoun",
+      "text": "When the verb in the relative clause needs a preposition, the **preposition comes first**, directly before the relative pronoun. The **preposition decides the case**, and the **noun decides gender and number**. In the plural Dativ the pronoun is **denen**. The relative clause is set off by commas and the verb is at the end.",
+      "table": {
+        "head": ["Noun", "Relative clause", "Why"],
+        "rows": [
+          ["der Kollege", "mit dem ich zusammenarbeite", "mit + Dativ, masculine → dem"],
+          ["die Firma", "für die er arbeitet", "für + Akkusativ, feminine → die"],
+          ["das Projekt", "an dem wir arbeiten", "an + Dativ, neuter → dem"],
+          ["die Nachbarn", "mit denen wir feiern", "mit + Dativ, plural → denen"]
+        ]
+      },
+      "examples": [
+        { "de": "Der Kollege, mit dem ich zusammenarbeite, wohnt in Aachen.", "en": "The colleague I work with lives in Aachen." },
+        { "de": "Der Verein, für den ich arbeite, sucht Freiwillige.", "en": "The association I work for is looking for volunteers." },
+        { "de": "Die Menschen, von denen ich erzähle, leben in meiner Straße.", "en": "The people I am talking about live on my street." }
+      ]
+    },
+    {
+      "heading": "was and wo",
+      "text": "Use **was** when there is no real noun to refer to: after **alles, etwas, nichts, vieles**, after **superlatives used as nouns** (*das Beste, das Schönste*), and when it refers to a **whole clause** (*, was mich ärgert*). Use **wo** after **places** and in *jetzt, wo …*.",
+      "table": {
+        "head": ["After …", "Pronoun", "Example"],
+        "rows": [
+          ["alles, etwas, nichts, vieles", "was", "Alles, was er sagt, stimmt."],
+          ["das Beste, das Wichtigste", "was", "Das ist das Beste, was du tun kannst."],
+          ["a whole clause", "was", "Er kommt immer zu spät, was mich ärgert."],
+          ["a place (Stadt, Land, Ort)", "wo", "Aachen ist die Stadt, wo ich arbeite."],
+          ["jetzt, …", "wo", "Jetzt, wo die Anlage läuft, haben wir mehr Zeit."]
+        ]
+      },
+      "examples": [
+        { "de": "Es gibt nichts, was mich mehr freut als ein ruhiger Abend.", "en": "There is nothing that makes me happier than a quiet evening." },
+        { "de": "Er hat gekündigt, was alle überrascht hat.", "en": "He has resigned, which surprised everyone." }
+      ]
+    },
+    {
+      "heading": "wer … (der) and wo(r) + preposition",
+      "text": "**Wer** at the start of a sentence means *whoever / anyone who*. It is followed by a main clause that often starts with **der** or **dem/den** (the case of the second part). If the relative clause refers to **was, alles, etwas, nichts**, the preposition joins **wo**: **worüber, womit, wofür, woran, worauf** (before a vowel an **r** is added).",
+      "examples": [
+        { "de": "Wer viel arbeitet, der braucht auch Pausen.", "en": "Whoever works a lot also needs breaks." },
+        { "de": "Wer nicht fragt, bekommt keine Antwort.", "en": "Whoever doesn't ask doesn't get an answer." },
+        { "de": "Alles, worüber wir gesprochen haben, war wichtig.", "en": "Everything we talked about was important." },
+        { "de": "Das ist etwas, wofür man kämpfen muss.", "en": "That is something you have to fight for." }
+      ]
+    }
+  ],
+  "tip": "Two questions decide everything: 1) Is there a real noun? Then use der / die / das / denen with its preposition in front. 2) Only alles, etwas, nichts, a superlative or a whole clause? Then use was, or wo(r) + preposition.",
+  "words": [
+    { "de": "Gesellschaft", "en": "society", "pos": "noun", "article": "die", "plural": "Gesellschaften" },
+    { "de": "Nachbarschaft", "en": "neighbourhood, neighbours", "pos": "noun", "article": "die", "plural": "Nachbarschaften" },
+    { "de": "Gemeinschaft", "en": "community", "pos": "noun", "article": "die", "plural": "Gemeinschaften" },
+    { "de": "Ehrenamt", "en": "voluntary work", "pos": "noun", "article": "das", "plural": "Ehrenämter" },
+    { "de": "Verein", "en": "club, association", "pos": "noun", "article": "der", "plural": "Vereine" },
+    { "de": "Spende", "en": "donation", "pos": "noun", "article": "die", "plural": "Spenden" },
+    { "de": "Mieter", "en": "tenant", "pos": "noun", "article": "der", "plural": "Mieter" },
+    { "de": "Bürger", "en": "citizen", "pos": "noun", "article": "der", "plural": "Bürger" },
+    { "de": "Integration", "en": "integration", "pos": "noun", "article": "die", "plural": "-" },
+    { "de": "Gleichberechtigung", "en": "equal rights", "pos": "noun", "article": "die", "plural": "-" },
+    { "de": "Vorurteil", "en": "prejudice", "pos": "noun", "article": "das", "plural": "Vorurteile" },
+    { "de": "Zusammenhalt", "en": "cohesion, solidarity", "pos": "noun", "article": "der", "plural": "-" },
+    { "de": "sich engagieren", "en": "to get involved, to be committed", "pos": "verb", "aux": "haben", "p2": "engagiert" },
+    { "de": "sich beteiligen", "en": "to take part (an + Dat)", "pos": "verb", "aux": "haben", "p2": "beteiligt" },
+    { "de": "unterstützen", "en": "to support", "pos": "verb", "aux": "haben", "p2": "unterstützt" },
+    { "de": "zusammenleben", "en": "to live together", "pos": "verb", "aux": "haben", "sep": "zusammen", "p2": "zusammengelebt" },
+    { "de": "fördern", "en": "to promote, to support", "pos": "verb", "aux": "haben", "p2": "gefördert" },
+    { "de": "benachteiligen", "en": "to disadvantage", "pos": "verb", "aux": "haben", "p2": "benachteiligt" },
+    { "de": "gerecht", "en": "fair, just", "pos": "adj" },
+    { "de": "solidarisch", "en": "supportive, in solidarity", "pos": "adj" },
+    { "de": "vielfältig", "en": "diverse", "pos": "adj" }
+  ],
+  "mindmap": {
+    "label": "Relativsätze plus",
+    "children": [
+      {
+        "label": "Präposition + Pronomen",
+        "children": [
+          { "label": "mit dem / mit der / mit denen" },
+          { "label": "für den / für die / für das" },
+          { "label": "preposition decides the case" }
+        ]
+      },
+      {
+        "label": "was",
+        "children": [
+          { "label": "alles, etwas, nichts, vieles" },
+          { "label": "das Beste, das Wichtigste" },
+          { "label": "whole clause", "note": ", was mich ärgert" }
+        ]
+      },
+      {
+        "label": "wo",
+        "children": [
+          { "label": "places", "note": "die Stadt, wo …" },
+          { "label": "jetzt, wo …" }
+        ]
+      },
+      {
+        "label": "wer … (der)",
+        "children": [ { "label": "Wer viel arbeitet, der braucht Pausen" } ]
+      },
+      {
+        "label": "wo(r) + Präposition",
+        "children": [ { "label": "worüber, womit, wofür, woran, worauf" } ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "mc", "q": "Das ist der Kollege, ___ ich zusammenarbeite.", "options": ["mit dem", "mit den", "mit der"], "answer": 0, "explain": "Kollege is masculine, mit takes the Dativ, so the relative pronoun is dem; the preposition comes first." },
+    { "type": "mc", "q": "Aachen ist die Stadt, ___ ich arbeite.", "options": ["wo", "was", "wer"], "answer": 0, "explain": "After a place you can use wo instead of in der." },
+    { "type": "mc", "q": "___ viel arbeitet, braucht auch Erholung.", "options": ["Wer", "Was", "Wo"], "answer": 0, "explain": "wer means whoever or anyone who; it refers to a person in general." },
+    { "type": "gap", "q": "Die Nachbarn, mit ___ wir feiern, sind sehr nett.", "answer": ["denen"], "explain": "Nachbarn is plural and mit takes the Dativ, so the pronoun is denen." },
+    { "type": "gap", "q": "Das Projekt, an ___ wir arbeiten, fördert die Integration.", "answer": ["dem"], "explain": "Projekt is neuter; arbeiten an takes the Dativ → an dem." },
+    { "type": "gap", "q": "Das ist das Beste, ___ du tun kannst.", "answer": ["was"], "explain": "After a superlative used as a noun (das Beste) the relative pronoun is was." },
+    { "type": "gap", "q": "Das ist etwas, ___ wir lange gesprochen haben.", "answer": ["worüber"], "explain": "etwas has no real gender, so the pronoun is wo(r) + preposition: sprechen über → worüber." },
+    { "type": "article", "word": "Gesellschaft", "answer": "die", "explain": "Nouns ending in -schaft are always feminine: die Gesellschaft." },
+    { "type": "order", "words": ["Der Verein,", "für den", "ich arbeite,", "sucht", "Freiwillige"], "answer": "Der Verein, für den ich arbeite, sucht Freiwillige", "explain": "The relative clause is inserted after the noun; for + Akkusativ → für den, and the verb arbeite is last in its clause." },
+    { "type": "order", "words": ["Alles,", "worüber", "wir gesprochen haben,", "war", "wichtig"], "answer": "Alles, worüber wir gesprochen haben, war wichtig", "explain": "After alles the relative clause uses wo(r) + preposition; the main verb war continues the main clause after the second comma." },
+    { "type": "match", "pairs": [["after alles / nichts", "was"], ["after a place", "wo"], ["a person in general", "wer"], ["sprechen über + was-clause", "worüber"]], "explain": "Which relative word fits which situation." },
+    { "type": "translate", "en": "The colleague I work with lives in Aachen.", "answer": ["Der Kollege, mit dem ich zusammenarbeite, wohnt in Aachen", "Der Kollege, mit dem ich arbeite, wohnt in Aachen"], "explain": "Preposition + dem (Dativ masculine), verb last in the relative clause, then the main verb wohnt." },
+    { "type": "translate", "en": "He is always late, which annoys me.", "answer": ["Er kommt immer zu spät, was mich ärgert", "Er kommt immer zu spät, was mich nervt", "Er ist immer zu spät, was mich ärgert", "Er ist immer zu spät, was mich nervt"], "explain": "was refers to the whole preceding clause; the verb is at the end of the relative clause." }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Das ist die Nachbarschaft, in der ich gern wohne.", "en": "This is the neighbourhood I like living in." },
+      { "de": "Der Verein, bei dem ich mich engagiere, hilft Geflüchteten.", "en": "The club I volunteer at helps refugees." },
+      { "de": "Alles, was wir tun, sollte die Gemeinschaft stärken.", "en": "Everything we do should strengthen the community." },
+      { "de": "Wer in einer Gesellschaft lebt, der trägt auch Verantwortung.", "en": "Whoever lives in a society also bears responsibility." },
+      { "de": "Es gibt viele Themen, über die wir diskutieren müssen.", "en": "There are many topics we have to discuss." }
+    ],
+    "prompts": [
+      { "q": "Beschreiben Sie ein gesellschaftliches Problem, das Sie in Deutschland beschäftigt.", "qEn": "Describe a social issue in Germany that concerns you.", "model": "Ein Problem, über das viel gesprochen wird, ist die hohe Miete in den Städten. Viele Menschen, für die eine Wohnung ein Grundbedürfnis ist, finden kaum noch etwas Bezahlbares. Das ist etwas, was die Gesellschaft nicht ignorieren darf. Ich finde, dass die Stadt mehr sozialen Wohnraum fördern sollte.", "hint": "ein Problem, über das … / etwas, was …" },
+      { "q": "Engagieren Sie sich ehrenamtlich? Warum ist das wichtig?", "qEn": "Do you volunteer? Why is it important?", "model": "Ich helfe ab und zu in einem Verein, in dem sich Studenten und Berufstätige für Umweltthemen engagieren. Die Menschen, mit denen ich dort arbeite, haben ähnliche Interessen wie ich. Das ist das Beste, was man für den Zusammenhalt tun kann. Außerdem lerne ich viele neue Leute kennen.", "hint": "der Verein, in dem … / Menschen, mit denen …" },
+      { "q": "Was macht für Sie eine gerechte Gesellschaft aus?", "qEn": "What makes a fair society for you?", "model": "Wer in einer Gesellschaft lebt, der sollte die gleichen Chancen haben. Das gilt besonders für Kinder, deren Eltern wenig Geld haben. Alles, was die Gleichberechtigung fördert, halte ich für sinnvoll. Wichtig ist auch, dass niemand wegen seiner Herkunft benachteiligt wird.", "hint": "Wer …, der … / Alles, was …" }
+    ]
+  }
+}
