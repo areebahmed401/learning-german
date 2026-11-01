@@ -15,7 +15,7 @@ Personal German study app (A1 → C1) for one learner. They use the **Learn Germ
 - `js/settings.js`: the settings page. Settings live in progress.js (`settings()`, `setSettings()`); `currentLevel(road)` is the level setting, or the first level with unfinished stops when it is `auto`
 - `js/adapt.js`: adaptive difficulty rules (pure, tested in `tests/adapt.test.mjs`): `nextNewCards`, `mastery`, `quizPlan`, `readyToAdvance`. Its inputs live in progress.js: `cardStats` (first tries per day), `quiz.answers` (last 200, `{l, t, ok}`), `adapt` (`cards`: today's new-card number; `mastery`: known share per level, cached by the cards page for the road). With `settings.adaptive`, a passed checkpoint makes `currentLevel` skip that level
 - `js/quiz.js`: the daily grammar quiz view; `js/daily.js`: which questions to ask (pure, date-seeded, tested in `tests/daily.test.mjs`). Score and open mistakes live in progress.js (`quiz.days`, `quiz.mistakes`)
-- `js/lesson.js`: lesson steps learn · words · mindmap · practice · speak
+- `js/lesson.js`: lesson steps learn · words · mindmap · practice · speak. The practice step offers "I know this, skip" (`progress.skipLesson`: `done` + `skipped`, drawn ⏭ on the road); a skipped level still needs its checkpoint
 - `js/cards.js`: daily flashcards view (deck and new-cards-per-day come from settings); `js/srs.js`: its Leitner scheduling (pure functions, tested in `tests/srs.test.mjs`). Card state lives in progress.js (`cards`, `cardDays`) so it is saved with the progress file
 - `js/exercises.js`, `js/mindmap.js`, `js/speech.js`, `js/progress.js`, `js/anki.js`
 - `js/translator/`: verbformen-style lookup (`panel.js` UI, `dictionary.js`, `conjugate.js`, `decline.js`, `online.js`)

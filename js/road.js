@@ -148,7 +148,8 @@ function node(x, p, cx) {
       h('div.sign', h('b', `${x.level.id} · ${x.level.name}`), h('small', x.level.goal)));
   }
   const side = p.x > cx + 4 ? 'left' : 'right'; // label points toward the middle
-  const cls = [x.kind === 'gate' ? 'gate' : x.kind === 'goal' ? 'goal' : '', x.kind === 'planned' ? 'locked' : x.status, side, x.current ? 'current' : ''].filter(Boolean).join(' ');
+  const skipped = x.kind === 'ms' && progress.isSkipped(x.m.id);
+  const cls = [x.kind === 'gate' ? 'gate' : x.kind === 'goal' ? 'goal' : '', x.kind === 'planned' ? 'locked' : x.status, skipped ? 'skipped' : '', side, x.current ? 'current' : ''].filter(Boolean).join(' ');
 
   if (x.kind === 'goal') {
     return h(`div.ms.${cls.replace(/ /g, '.')}`, { style }, h('div.ms-dot', '🏆'),
@@ -165,7 +166,7 @@ function node(x, p, cx) {
     sub = x.status === 'done' ? `${x.level.id} geschafft!` : 'Mixed quiz on the whole level';
   } else {
     const n = x.level.milestones?.indexOf(x.m);
-    dot = x.kind === 'planned' ? '🔒' : x.status === 'done' ? '✓' : String(n + 1);
+    dot = x.kind === 'planned' ? '🔒' : x.status === 'done' ? (progress.isSkipped(x.m.id) ? '⏭' : '✓') : String(n + 1);
     title = x.m.title;
     sub = x.m.wordlist ? `📍 ${x.m.concept} · 🗂 ${x.m.wordlist}` : x.m.concept;
   }
@@ -174,7 +175,7 @@ function node(x, p, cx) {
     const c = 2 * Math.PI * 30;
     return h('span', { html: `<svg class="ring" viewBox="0 0 64 64"><circle cx="32" cy="32" r="30" fill="none" stroke="var(--line)" stroke-width="4"/><circle cx="32" cy="32" r="30" fill="none" stroke="var(--accent)" stroke-width="4" stroke-linecap="round" stroke-dasharray="${c * frac} ${c}"/></svg>` });
   })() : null;
-  const label = `${title}: ${x.kind === 'planned' ? 'coming soon' : x.status === 'done' ? 'done' : x.status === 'progress' ? 'in progress' : 'not started'}`;
+  const label = `${title}: ${x.kind === 'planned' ? 'coming soon' : x.status === 'done' ? (skipped ? 'skipped' : 'done') : x.status === 'progress' ? 'in progress' : 'not started'}`;
 
   const el = h(`div.ms.${cls.replace(/ /g, '.')}`, { style, 'data-key': x.kind === 'ms' ? `ms-${x.m.id}` : `${x.kind}-${x.level.id}-${title}` },
     x.current ? h('div.you-are-here', 'Du bist hier') : null,
@@ -305,7 +306,8 @@ async function sheet(x) {
       x.status === 'new' ? 'Start' : x.status === 'done' ? 'Review' : 'Continue');
     const meta = h('div.meta', h('span.chip.accent', x.level.id), h('span.chip', `🗂 ${x.m.wordlist}`));
     append(card, meta, h('h2', x.m.title), h('p', x.m.concept),
-      st?.best ? h('p.muted', `Best practice score: ${Math.round(st.best * 100)}%${st.done ? ' · milestone reached ✓' : ''}`) : null,
+      st?.best ? h('p.muted', `Best practice score: ${Math.round(st.best * 100)}%${st.done && !st.skipped ? ' · milestone reached ✓' : ''}`) : null,
+      st?.skipped ? h('p.muted', '⏭ Skipped. Pass its exercises any time to complete it properly.') : null,
       h('div.row', close, go));
     go.focus();
     try {

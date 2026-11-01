@@ -183,6 +183,11 @@ body.side-hidden .side-rail:hover { color: var(--accent); border-color: var(--ac
 .ms-label small { display: block; color: var(--muted); font-size: .76rem; line-height: 1.35; }
 .ms.locked .ms-label { opacity: .6; cursor: default; }
 .ms.done .ms-label b::after { content: " ✓"; color: var(--accent); }
+/* skipped stops ("I know this"): done, but drawn lighter so they stand out from practised ones */
+.ms.skipped .ms-dot { background: var(--surface); color: var(--accent); border: 2px dashed var(--accent); }
+.ms.skipped .ms-label b::after { content: " ⏭"; }
+.skip-card { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between; }
+.skip-card p { margin: 0; flex: 1 1 260px; }
 .you-are-here {
   position: absolute; bottom: 58px; left: 50%; transform: translateX(-50%); white-space: nowrap; pointer-events: none;
   background: var(--gold); color: #3a2a00; font-weight: 800; font-size: .74rem; padding: 3px 9px; border-radius: 999px;

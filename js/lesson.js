@@ -19,6 +19,9 @@ export async function renderLesson(view, id, step = 'learn') {
 
   const all = road.levels.flatMap((l) => l.milestones || []);
   const next = all[all.findIndex((m) => m.id === id) + 1];
+  // skipping goes straight to the next lesson of this level; after the last one, back to the road (its checkpoint)
+  const sameLevel = road.levels.find((l) => l.id === lesson.level)?.milestones?.some((m) => m.id === next?.id);
+  const skipTo = sameLevel ? `#/lesson/${next.id}/learn` : '#/road';
   const idx = STEPS.findIndex(([s]) => s === step);
   const st = progress.lessonState(id) || { steps: {} };
 
@@ -44,7 +47,7 @@ export async function renderLesson(view, id, step = 'learn') {
   );
 
   view.replaceChildren(h('article.lesson', head, tabs, body, nav));
-  ({ learn, words, mindmap, practice, speak: speakStep })[step](body, lesson);
+  ({ learn, words, mindmap, practice, speak: speakStep })[step](body, lesson, skipTo);
 }
 
 function learn(body, lesson) {
@@ -124,7 +127,7 @@ function mindmap(body, lesson) {
   requestAnimationFrame(() => renderMindmap(wrap, lesson.mindmap));
 }
 
-function practice(body, lesson) {
+function practice(body, lesson, skipTo) {
   const items = lesson.exercises.map((e, i) => ({ ...e, _i: i }));
   const start = (subset, label) => runQuiz(body, subset, {
     label,
@@ -155,7 +158,25 @@ function practice(body, lesson) {
     h('div.speak-row',
       h('button.btn.primary', { onclick: () => start(items, 'Übung') }, '▶ Start'),
       mistakes.length ? h('button.btn', { onclick: () => start(mistakes, 'Fehler') }, `↻ Review my ${mistakes.length} mistakes`) : null),
-  ));
+  ), skipCard(lesson, skipTo, () => { body.replaceChildren(); practice(body, lesson, skipTo); }));
+}
+
+/** "I know this": mark the stop done without the exercises and go on. The level checkpoint stays required. */
+function skipCard(lesson, skipTo, redraw) {
+  const st = progress.lessonState(lesson.id);
+  if (st?.skipped) {
+    return h('div.card.skip-card',
+      h('p', h('b', '⏭ You skipped this stop.'), ' Pass the exercises to complete it properly.'),
+      h('button.btn.small', { type: 'button', onclick: () => { progress.undoSkip(lesson.id); redraw(); } }, 'Undo skip'));
+  }
+  if (st?.done) return null;
+  return h('div.card.skip-card',
+    h('p', h('b', 'Already know this?'), ` Skip the exercises and go on. You still need to pass the ${lesson.level} checkpoint to finish the level.`),
+    h('button.btn', { type: 'button', onclick: () => {
+      progress.skipLesson(lesson.id);
+      toast(`⏭ ${lesson.title} skipped`);
+      location.hash = skipTo;
+    } }, '⏭ I know this, skip'));
 }
 
 function heardLine(target, said) {
