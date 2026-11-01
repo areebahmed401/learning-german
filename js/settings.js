@@ -39,13 +39,20 @@ export async function renderSettings(view) {
       h('p', 'Saved on this device and in your progress file (⚙ → Save my progress).')),
 
     h('section.card',
+      h('h2', '📈 Adaptive difficulty'),
+      field('Adapt to how I do', 'New cards a day, the quiz mix and words from the next level follow your results. Passing a level checkpoint moves "Auto" up to the next level.',
+        h('input.set-check', { type: 'checkbox', checked: s.adaptive, onchange: (e) => set({ adaptive: e.target.checked }) }))),
+
+    h('section.card',
       h('h2', '📍 My level'),
       field('Level I am working on', 'Used for the flashcard deck and the daily quiz.',
         select(s.level, [['auto', autoLabel], ...levels.map((l) => [l, l])], (v) => set({ level: v })))),
 
     h('section.card',
       h('h2', '🃏 Karten'),
-      field('New cards per day', 'Reviews of cards you have already seen are always shown.',
+      field('New cards per day', s.adaptive && progress.adaptState().cards
+        ? `Reviews are always shown. Adaptive starts here and is at ${progress.adaptState().cards.newCards} now; changing this restarts it.`
+        : 'Reviews are always shown. With adaptive on, this is the starting point.',
         select(s.newCards, [5, 10, 15, 20, 25, 30, 40, 50].map((n) => [n, String(n)]), (v) => set({ newCards: Number(v) }))),
       field('Deck', '"My level" = every word up to your level (lessons + dictionary).',
         select(s.deck, [['level', 'My level'], ['mine', 'Lessons I have opened'], ...levels.map((l) => [l, `${l} only`])], (v) => set({ deck: v }))),

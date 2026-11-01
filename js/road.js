@@ -4,18 +4,36 @@ import { renderMindmapPreview } from './mindmap.js';
 import { openMindmapModal } from './mindmap-modal.js';
 import * as progress from './progress.js';
 import { day } from './srs.js';
+import { readyToAdvance } from './adapt.js';
 import { STEPS } from './lesson.js';
 
 const STEP = { zone: 150, ms: 108, gate: 120, planned: 96, goal: 130 };
 
-/** "Heute" strip: today's quiz and flashcards, one tap away. */
-function today() {
+/** "Heute" strip: today's quiz and flashcards, one tap away (plus the checkpoint once you're ready for it). */
+function today(road) {
   const score = progress.quizState().days[day()];
   return h('div.today',
     h('b', 'Heute'),
+    readyLink(road),
     h('a.btn.small', { href: '#/quiz' }, score != null ? `⚡ Quiz ✓ ${Math.round(score * 100)}%` : '⚡ Tagesquiz'),
     h('a.btn.small', { href: '#/cards' }, '🃏 Karten'),
     h('span.muted', `🔥 Quiz ${progress.quizStreak()} · Karten ${progress.cardStreak()}`));
+}
+
+/** Adaptive mode: when the quiz and the cards both say your level is down, suggest its checkpoint. */
+function readyLink(road) {
+  if (!progress.settings().adaptive) return null;
+  const level = progress.currentLevel(road);
+  const ready = readyToAdvance({
+    answers: progress.quizState().answers, level,
+    levelMastery: progress.adaptState().mastery?.[level] ?? 0,
+    checkpointPassed: progress.checkpointState(level)?.passed,
+  });
+  if (!ready) return null;
+  const ids = road.levels.filter((l) => l.milestones?.length).map((l) => l.id);
+  const next = ids[ids.indexOf(level) + 1];
+  return h('a.btn.small.primary', { href: `#/checkpoint/${level}`, title: `Take the ${level} checkpoint` },
+    next ? [`🎯 Ready for ${next}?`, h('span.ready-more', ` Take the ${level} checkpoint`)] : `🎯 Take the ${level} checkpoint`);
 }
 
 /** Flatten the roadmap into road items, bottom (start) to top (goal). */
@@ -67,7 +85,7 @@ export async function renderRoad(view, { at } = {}) {
   const page = h('div.road-page');
   const wrap = h('div.road');
   page.append(
-    h('div.road-top', stats(road, list, current), today()), // both stay pinned while you scroll
+    h('div.road-top', stats(road, list, current), today(road)), // both stay pinned while you scroll
     h('div.road-intro',
       h('p', 'Your road from A1 to C1. Every stop is one concept with its wordlist. Scroll up to see what\'s ahead.'),
       h('div.road-jump', road.levels.map((lv) => h('button.btn.small', { type: 'button', onclick: () => scrollToNode(wrap, `zone-${lv.id}`) }, lv.id)),

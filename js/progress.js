@@ -1,11 +1,12 @@
 // Learner progress, kept in localStorage. Every read/write is guarded:
 // private windows or blocked storage just mean progress isn't remembered.
 import { day as srsDay } from './srs.js';
+import { KEEP_ANSWERS } from './adapt.js';
 
 const KEY = 'lg-progress-v1';
 export const PASS = 0.7;
 
-const blank = () => ({ lessons: {}, checkpoints: {}, speakDays: [], cards: {}, cardDays: [], quiz: { days: {}, mistakes: [] }, settings: {}, version: 1 });
+const blank = () => ({ lessons: {}, checkpoints: {}, speakDays: [], cards: {}, cardDays: [], cardStats: {}, quiz: { days: {}, mistakes: [], answers: [] }, adapt: {}, settings: {}, version: 1 });
 let state = load();
 
 function load() {
@@ -19,7 +20,7 @@ function load() {
 /** Older progress files lack newer sections: fill them in. */
 function withDefaults(data) {
   const b = blank();
-  return { ...b, ...data, quiz: { ...b.quiz, ...data.quiz } };
+  return { ...b, ...data, quiz: { ...b.quiz, ...data.quiz }, adapt: { ...data.adapt } };
 }
 
 function save() {
@@ -100,10 +101,12 @@ export const DEFAULT_SETTINGS = {
   reverse: false, // cards English → German
   autoplay: true, // read the German aloud when a card flips
   quizSize: 10, // questions in the daily quiz
+  adaptive: true, // adapt.js: new cards, quiz mix and level follow how you do
 };
 export const settings = () => ({ ...DEFAULT_SETTINGS, ...state.settings });
 export function setSettings(patch) {
   state.settings = { ...state.settings, ...patch };
+  if ('newCards' in patch) state.adapt.cards = null; // a number you set yourself is the new starting point
   save();
 }
 
@@ -114,16 +117,20 @@ export function currentLevel(road, { auto = false } = {}) {
   if (!auto && ids.includes(level)) return level;
   for (const lv of road.levels) {
     if (!lv.milestones?.length) continue;
-    if (lv.milestones.some((m) => status(m.id) !== 'done') || !state.checkpoints[lv.id]?.passed) return lv.id;
+    const passed = state.checkpoints[lv.id]?.passed;
+    if (passed && settings().adaptive) continue; // adaptive: passing the checkpoint moves you up, finished stops or not
+    if (lv.milestones.some((m) => status(m.id) !== 'done') || !passed) return lv.id;
   }
   return ids.at(-1);
 }
 
 /* ---------- Daily quiz (question choice lives in daily.js) ---------- */
 export const quizState = () => state.quiz;
-export function recordQuiz(today, score, mistakes) {
+/** answers: [{ l: level, t: type, ok }] for the adaptive quiz plan. */
+export function recordQuiz(today, score, mistakes, answers = []) {
   state.quiz.days[today] = Math.max(state.quiz.days[today] ?? 0, score);
   state.quiz.mistakes = mistakes;
+  state.quiz.answers = [...state.quiz.answers, ...answers].slice(-KEEP_ANSWERS);
   save();
 }
 export const quizStreak = () => streak(Object.keys(state.quiz.days), srsDay);
@@ -132,9 +139,24 @@ export const quizStreak = () => streak(Object.keys(state.quiz.days), srsDay);
 export const cards = () => state.cards;
 export const openedLessons = () => Object.keys(state.lessons);
 
-export function setCard(key, card, today) {
+/** firstTry: this was the card's first answer in the session (counted in cardStats for adapt.js). */
+export function setCard(key, card, today, firstTry = false, ok = false) {
   state.cards[key] = card;
+  if (firstTry) {
+    const d = (state.cardStats[today] ??= { first: 0, right: 0 });
+    d.first += 1;
+    if (ok) d.right += 1;
+  }
   if (!state.cardDays.includes(today)) state.cardDays.push(today);
+  save();
+}
+
+export const cardStats = () => state.cardStats;
+
+/* ---------- Adaptive state: today's new-card number and each level's word mastery ---------- */
+export const adaptState = () => state.adapt;
+export function setAdapt(patch) {
+  state.adapt = { ...state.adapt, ...patch };
   save();
 }
 
