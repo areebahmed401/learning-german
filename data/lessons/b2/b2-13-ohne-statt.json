@@ -57,7 +57,7 @@
     { "de": "Auszeit", "en": "break, time out", "pos": "noun", "article": "die", "plural": "Auszeiten" },
     { "de": "abschalten", "en": "to switch off, to relax", "pos": "verb", "aux": "haben", "sep": "ab", "p2": "abgeschaltet" },
     { "de": "sich entspannen", "en": "to relax", "pos": "verb", "aux": "haben", "p2": "entspannt" },
-    { "de": "sich ausruhen", "en": "to rest", "pos": "verb", "aux": "haben", "p2": "ausgeruht" },
+    { "de": "sich ausruhen", "en": "to rest", "pos": "verb", "aux": "haben", "sep": "aus", "p2": "ausgeruht" },
     { "de": "sich erholen", "en": "to recover", "pos": "verb", "aux": "haben", "p2": "erholt" },
     { "de": "Überstunden machen", "en": "to work overtime", "pos": "phrase" },
     { "de": "Grenzen setzen", "en": "to set boundaries", "pos": "phrase" },

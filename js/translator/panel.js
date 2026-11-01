@@ -102,6 +102,7 @@ function chipsHtml(e) {
   const chips = [];
   if (e.source === 'lesson') chips.push(`<span class="tr-chip tr-chip-src">${esc(e.level ? e.level + ' lesson' : 'lesson')}</span>`);
   else if (e.source === 'core') chips.push('<span class="tr-chip tr-chip-src">core</span>');
+  if (e.goethe) chips.push(`<span class="tr-chip">Goethe ${esc(e.goethe)}</span>`);
   else chips.push('<span class="tr-chip tr-chip-online">online</span>');
   chips.push(`<span class="tr-chip">${esc(POS_LABEL[e.pos] || e.pos || '')}</span>`);
   if (e.pos === 'verb') {

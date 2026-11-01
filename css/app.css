@@ -242,6 +242,7 @@ table.grid tr:nth-child(even) td { background: color-mix(in srgb, var(--surface-
 .wordlist .w { font-weight: 700; background: none; border: 0; padding: 0; text-align: left; cursor: pointer; }
 .wordlist .w:hover { text-decoration: underline dotted; }
 .wordlist .forms { display: block; color: var(--muted); font-size: .82rem; font-weight: 400; }
+.wordlist .goethe { margin-left: .5em; padding: 0 .45em; border-radius: 6px; font-size: .7rem; font-weight: 700; color: var(--accent); background: var(--accent-soft); }
 .wordlist .en { color: var(--muted); text-align: right; font-size: .92rem; }
 .hide-en .wordlist .en { filter: blur(5px); }
 .hide-en .wordlist li:hover .en, .hide-en .wordlist li:focus-within .en { filter: none; }

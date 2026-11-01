@@ -66,6 +66,16 @@ function learn(body, lesson) {
     h('div.muted', { style: 'font-size:.85rem' }, 'Opens YouTube in a new tab.'))));
 }
 
+const GOETHE_LEVELS = ['A1', 'A2', 'B1'];
+
+function goetheNote(lesson) {
+  if (!GOETHE_LEVELS.includes(lesson.level)) {
+    return h('span.chip', { title: 'The Goethe-Institut publishes official word lists for A1, A2 and B1 only' }, `No Goethe list for ${lesson.level}`);
+  }
+  const n = lesson.words.filter((w) => w.goethe).length;
+  return h('span.chip.accent', { title: 'Words from the official Goethe-Zertifikat word lists' }, `Goethe ${lesson.level} · ${n}/${lesson.words.length}`);
+}
+
 function wordForms(w) {
   if (w.pos === 'noun') return w.plural && w.plural !== '-' ? `die ${w.plural}` : w.note || 'no plural';
   if (w.pos === 'verb') return [w.aux === 'sein' ? 'ist' : 'hat', w.p2].filter(Boolean).join(' ') + (w.sep ? ` · trennbar (${w.sep}-)` : '');
@@ -81,7 +91,7 @@ function words(body, lesson) {
         type: 'button', title: 'See all forms in the translator', html: nounHTML(w),
         onclick: () => window.dispatchEvent(new CustomEvent('lg:lookup', { detail: { word: w.de } })),
       }),
-      h('span.forms', wordForms(w))),
+      h('span.forms', wordForms(w), w.goethe ? h('span.goethe', { title: `On the official Goethe-Zertifikat ${w.goethe} word list` }, `Goethe ${w.goethe}`) : null)),
     h('span.en', w.en))));
   const hide = h('button.btn.small', {
     type: 'button', 'aria-pressed': 'false',
@@ -93,7 +103,7 @@ function words(body, lesson) {
   }, '🙈 Hide English');
   wrap.append(
     h('div.words-tools',
-      h('strong', `🗂 ${lesson.wordlist}`), h('span.muted', `${lesson.words.length} words`), h('span.spacer'),
+      h('strong', `🗂 ${lesson.wordlist}`), h('span.muted', `${lesson.words.length} words`), goetheNote(lesson), h('span.spacer'),
       hide,
       h('button.btn.small', {
         type: 'button', title: 'Download a file to import into Anki (File → Import)',
