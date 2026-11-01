@@ -341,3 +341,41 @@ textarea.answer { width: 100%; min-height: 80px; border: 1.5px solid var(--line)
 .mm-modal-map { border: 0; padding: 0; overflow: visible; }
 .mm-modal-map svg { width: 100%; height: auto; max-height: 68vh; }
 .mm-modal .peek-tip { font-size: .9rem; }
+
+/* ---------- Karten (flashcards) ---------- */
+.cards-link { text-decoration: none; margin-right: 4px; }
+.cards-stats { position: static; grid-template-columns: repeat(4, 1fr); padding: 0 0 12px; }
+.cards-tools { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between; margin-bottom: 14px; }
+.cards-scope { display: flex; flex-wrap: wrap; gap: 6px; }
+.cards-switch { font-size: .9rem; color: var(--muted); display: inline-flex; gap: 6px; align-items: center; cursor: pointer; }
+.cards-start { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between; }
+.cards-start p { margin: 0; }
+.flash-wrap { text-align: center; }
+.flash-count { margin: 0 0 10px; font-size: .88rem; }
+.flash {
+  min-height: 220px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px;
+  border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface-2); padding: 24px 16px;
+  cursor: pointer; user-select: none;
+}
+.flash:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.flash-side { display: flex; align-items: center; justify-content: center; gap: 10px; flex-wrap: wrap; }
+.flash-de { font-size: clamp(1.6rem, 6vw, 2.3rem); font-weight: 800; overflow-wrap: anywhere; }
+.flash-en { font-size: clamp(1.3rem, 5vw, 1.8rem); font-weight: 700; overflow-wrap: anywhere; }
+.flash.flipped .flash-side { opacity: .55; transform: scale(.85); }
+.flash-back { display: flex; flex-direction: column; align-items: center; gap: 6px; }
+.flash-back .flash-de, .flash-back .flash-en { font-size: clamp(1.5rem, 5.5vw, 2.1rem); }
+.flash-word { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; justify-content: center; }
+.flash-forms { color: var(--muted); }
+.flash-hint { font-size: .8rem; }
+.flash-actions { display: flex; gap: 10px; justify-content: center; margin-top: 14px; }
+.flash-actions .btn { min-width: 140px; }
+.flash-no { border-color: var(--bad); color: var(--bad); }
+.flash-keys { font-size: .78rem; margin: 10px 0 0; }
+.cards-hard summary { cursor: pointer; }
+.cards-hard ul { list-style: none; padding: 0; margin: 10px 0 0; display: grid; gap: 4px; }
+.cards-hard li { display: flex; justify-content: space-between; border-bottom: 1px solid var(--line); padding: 4px 0; }
+@media (max-width: 520px) {
+  .cards-stats { grid-template-columns: repeat(2, 1fr); }
+  .flash-actions .btn { min-width: 0; flex: 1; }
+}
+.on-cards .fab { display: none; }
