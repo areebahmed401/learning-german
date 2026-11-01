@@ -5,15 +5,21 @@ import { day as srsDay } from './srs.js';
 const KEY = 'lg-progress-v1';
 export const PASS = 0.7;
 
-const blank = () => ({ lessons: {}, checkpoints: {}, speakDays: [], cards: {}, cardDays: [], version: 1 });
+const blank = () => ({ lessons: {}, checkpoints: {}, speakDays: [], cards: {}, cardDays: [], quiz: { days: {}, mistakes: [] }, settings: {}, version: 1 });
 let state = load();
 
 function load() {
   try {
     const raw = localStorage.getItem(KEY);
-    if (raw) return { ...blank(), ...JSON.parse(raw) };
+    if (raw) return withDefaults(JSON.parse(raw));
   } catch {}
   return blank();
+}
+
+/** Older progress files lack newer sections: fill them in. */
+function withDefaults(data) {
+  const b = blank();
+  return { ...b, ...data, quiz: { ...b.quiz, ...data.quiz } };
 }
 
 function save() {
@@ -86,6 +92,42 @@ function streak(list, fmt) {
 
 export const speakStreak = () => streak(state.speakDays, (d) => d.toISOString().slice(0, 10));
 
+/* ---------- Settings (⚙ → Settings; saved in the progress file) ---------- */
+export const DEFAULT_SETTINGS = {
+  level: 'auto', // 'auto' = the level of your current stop on the road, or 'A1' … 'C1'
+  newCards: 15, // new flashcards per day
+  deck: 'level', // 'level' = all words up to your level, 'mine' = opened lessons, or one level id
+  reverse: false, // cards English → German
+  autoplay: true, // read the German aloud when a card flips
+  quizSize: 10, // questions in the daily quiz
+};
+export const settings = () => ({ ...DEFAULT_SETTINGS, ...state.settings });
+export function setSettings(patch) {
+  state.settings = { ...state.settings, ...patch };
+  save();
+}
+
+/** The level you're working on: the setting, else (or with auto) the level of the first stop not done yet. */
+export function currentLevel(road, { auto = false } = {}) {
+  const { level } = settings();
+  const ids = road.levels.filter((l) => l.milestones?.length).map((l) => l.id);
+  if (!auto && ids.includes(level)) return level;
+  for (const lv of road.levels) {
+    if (!lv.milestones?.length) continue;
+    if (lv.milestones.some((m) => status(m.id) !== 'done') || !state.checkpoints[lv.id]?.passed) return lv.id;
+  }
+  return ids.at(-1);
+}
+
+/* ---------- Daily quiz (question choice lives in daily.js) ---------- */
+export const quizState = () => state.quiz;
+export function recordQuiz(today, score, mistakes) {
+  state.quiz.days[today] = Math.max(state.quiz.days[today] ?? 0, score);
+  state.quiz.mistakes = mistakes;
+  save();
+}
+export const quizStreak = () => streak(Object.keys(state.quiz.days), srsDay);
+
 /* ---------- Flashcards (scheduling lives in srs.js) ---------- */
 export const cards = () => state.cards;
 export const openedLessons = () => Object.keys(state.lessons);
@@ -115,7 +157,7 @@ export function exportFile() {
 export async function importFile(file) {
   const data = JSON.parse(await file.text());
   if (typeof data !== 'object' || !data.lessons) throw new Error('Not a Deutschweg progress file');
-  state = { ...blank(), ...data };
+  state = withDefaults(data);
   save();
 }
 

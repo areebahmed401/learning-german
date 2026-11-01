@@ -22,12 +22,14 @@
       <span>Deutschweg</span>
     </a>
     <div class="topbar-actions">
+      <a class="btn small cards-link" href="#/quiz" title="Daily grammar quiz" aria-label="Tagesquiz: daily grammar quiz">⚡<span class="cards-text"> Quiz</span></a>
       <a class="btn small cards-link" href="#/cards" title="Daily flashcards" aria-label="Karten: daily flashcards">🃏<span class="cards-text"> Karten</span></a>
       <button class="icon-btn" id="theme-btn" title="Switch light/dark" aria-label="Switch light/dark theme">◐</button>
       <button class="icon-btn" id="menu-btn" title="Settings" aria-label="Settings" aria-expanded="false">⚙</button>
       <button class="icon-btn tr-toggle" id="tr-btn" title="Translator" aria-label="Show or hide the translator" aria-expanded="true">文A</button>
     </div>
     <div class="menu" id="menu" hidden>
+      <button data-act="settings">⚙ Settings</button>
       <button data-act="anki-all">⬇ Export all words to Anki</button>
       <button data-act="export">⬇ Save my progress (file)</button>
       <label class="menu-file">⬆ Load progress file<input type="file" accept="application/json" id="import-file" hidden></label>
@@ -40,12 +42,14 @@
     <aside class="side" id="side" aria-label="Translator">
       <div class="side-head">
         <strong>Übersetzer</strong>
+        <button class="icon-btn side-collapse" id="side-collapse" title="Collapse the translator" aria-label="Collapse the translator">⟩</button>
         <button class="icon-btn side-close" id="side-close" aria-label="Close translator">✕</button>
       </div>
       <div id="translator"></div>
     </aside>
   </div>
 
+  <button class="side-rail" id="side-rail" title="Open the translator" aria-label="Open the translator"><span>⟨ 文A Übersetzer</span></button>
   <button class="fab" id="fab" aria-label="Open translator">文A Übersetzer</button>
   <div class="toast" id="toast" role="status" hidden></div>
 

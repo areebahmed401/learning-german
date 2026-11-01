@@ -94,6 +94,14 @@ body.side-hidden .side { display: none; }
 }
 .side-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
 .side-close { display: none; }
+/* collapsed translator: a slim tab on the right edge brings it back */
+.side-rail { display: none; }
+body.side-hidden .side-rail {
+  display: flex; position: fixed; right: 0; top: 50%; transform: translateY(-50%); z-index: 30;
+  writing-mode: vertical-rl; padding: 14px 7px; border: 1px solid var(--line); border-right: 0; border-radius: 12px 0 0 12px;
+  background: var(--surface); color: var(--text); font-weight: 800; font-size: .85rem; box-shadow: var(--shadow); cursor: pointer;
+}
+body.side-hidden .side-rail:hover { color: var(--accent); border-color: var(--accent); }
 .fab { display: none; }
 
 @media (max-width: 900px) {
@@ -105,6 +113,7 @@ body.side-hidden .side { display: none; }
   }
   body.drawer-open .side { transform: none; }
   .side-close { display: inline-block; }
+  .side-collapse, body.side-hidden .side-rail { display: none; }
   .fab {
     display: block; position: fixed; right: 16px; bottom: 16px; z-index: 40; border: 0; border-radius: 999px;
     padding: .7em 1.1em; font-weight: 800; background: var(--accent); color: #fff; box-shadow: var(--shadow);
@@ -312,7 +321,7 @@ textarea.answer { width: 100%; min-height: 80px; border: 1.5px solid var(--line)
 
 /* ---------- Road: mind map peek (hover) and in-sheet preview (touch) ---------- */
 .peek {
-  position: fixed; z-index: 35; width: min(660px, calc(100vw - 32px)); padding: 12px 14px 10px;
+  position: fixed; z-index: 35; width: min(440px, calc(100vw - 32px)); padding: 12px 14px 10px;
   background: var(--surface); border: 1px solid var(--line); border-radius: 16px; box-shadow: 0 10px 34px rgba(0,0,0,.22);
   opacity: 0; transform: translateY(4px); transition: opacity .15s ease, transform .15s ease;
 }
@@ -380,3 +389,28 @@ textarea.answer { width: 100%; min-height: 80px; border: 1.5px solid var(--line)
   .flash-actions .btn { min-width: 0; flex: 1; }
 }
 .on-cards .fab { display: none; }
+
+/* ---------- Heute strip on the road ---------- */
+.road-top { position: sticky; top: 56px; z-index: 20; background: var(--bg); padding-bottom: 8px; }
+.road-top .stats { position: static; }
+.today {
+  display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding: 6px 12px;
+  background: var(--surface); border: 1px solid var(--line); border-radius: 12px;
+}
+.today .muted { font-size: .82rem; margin-left: auto; }
+
+/* ---------- Settings ---------- */
+.settings .card h2 { margin-bottom: 6px; }
+.set-row { display: flex; gap: 14px; align-items: center; justify-content: space-between; padding: 10px 0; border-top: 1px solid var(--line); }
+.set-row:first-of-type { border-top: 0; }
+.set-label { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.set-label small { font-size: .8rem; }
+.set-select {
+  font: inherit; color: var(--text); background: var(--surface-2); border: 1px solid var(--line); border-radius: 10px;
+  padding: .35em .6em; max-width: 55%;
+}
+.set-check { width: 20px; height: 20px; accent-color: var(--accent); }
+@media (max-width: 520px) {
+  .set-row { flex-direction: column; align-items: stretch; }
+  .set-select { max-width: none; }
+}

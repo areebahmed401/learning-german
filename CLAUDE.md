@@ -10,15 +10,17 @@ Personal German study app (A1 → C1) for one learner. They use the **Learn Germ
 
 ## Layout
 - `index.html`, `css/app.css`: shell and theme tokens (light/dark via `[data-theme]` + `prefers-color-scheme`)
-- `js/app.js`: hash router: `#/road`, `#/lesson/<id>/<step>`, `#/checkpoint/<LEVEL>`, `#/cards`
-- `js/road.js`: the scrollable road (A1 at the bottom, C1 at the top)
+- `js/app.js`: hash router: `#/road`, `#/lesson/<id>/<step>`, `#/checkpoint/<LEVEL>`, `#/cards`, `#/quiz`, `#/settings`
+- `js/road.js`: the scrollable road (A1 at the bottom, C1 at the top), the pinned stats + *Heute* strip, and the hover preview (placed beside the stop, never over the road)
+- `js/settings.js`: the settings page. Settings live in progress.js (`settings()`, `setSettings()`); `currentLevel(road)` is the level setting, or the first level with unfinished stops when it is `auto`
+- `js/quiz.js`: the daily grammar quiz view; `js/daily.js`: which questions to ask (pure, date-seeded, tested in `tests/daily.test.mjs`). Score and open mistakes live in progress.js (`quiz.days`, `quiz.mistakes`)
 - `js/lesson.js`: lesson steps learn · words · mindmap · practice · speak
-- `js/cards.js`: daily flashcards view; `js/srs.js`: its Leitner scheduling (pure functions, tested in `tests/srs.test.mjs`). Card state lives in progress.js (`cards`, `cardDays`) so it is saved with the progress file
+- `js/cards.js`: daily flashcards view (deck and new-cards-per-day come from settings); `js/srs.js`: its Leitner scheduling (pure functions, tested in `tests/srs.test.mjs`). Card state lives in progress.js (`cards`, `cardDays`) so it is saved with the progress file
 - `js/exercises.js`, `js/mindmap.js`, `js/speech.js`, `js/progress.js`, `js/anki.js`
 - `js/translator/`: verbformen-style lookup (`panel.js` UI, `dictionary.js`, `conjugate.js`, `decline.js`, `online.js`)
 - `data/roadmap.json`: levels → milestones (lesson ids in road order). A level can list `planned` concepts (shown locked) instead of milestones until its lessons exist
 - `data/lessons/<level>/<id>.json`: one lesson per file; the file name is `<id>.json`
-- `data/dictionary/core.json`, `data/dictionary/strong-verbs.json`: translator data
+- `data/dictionary/core.json`, `data/dictionary/strong-verbs.json`: translator data. Core words carry `"goethe"` (written by `goethe_check.py --badges`, which also tidies their glosses); the "My level" flashcard deck takes core words up to the learner's level from it
 
 ## Lesson JSON schema (see `data/lessons/a1/a1-05-artikel.json` for a full example)
 ```jsonc

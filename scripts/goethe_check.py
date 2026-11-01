@@ -5,6 +5,7 @@ The PDFs are copyrighted, so they are NOT in the repo. Download them from goethe
 
     python scripts/goethe_check.py            # report words not on the Goethe list for their level
     python scripts/goethe_check.py --badges   # also write "goethe": "A1"/"A2"/"B1" into lesson words
+                                              # and into data/dictionary/core.json (feeds the flashcard deck)
 
 A word counts as "on the list" when it appears as a whole word anywhere in that level's
 PDF text (headword or example). Lists are treated as cumulative: an A2 lesson may use A1 words.
@@ -100,7 +101,28 @@ def main(argv: list[str]) -> int:
             if write:
                 path.write_bytes(with_words(raw.replace("\r\n", "\n"), lesson["words"]).encode("utf-8"))
     print(f"{total - off}/{total} A1–B1 lesson words are on the Goethe list for their level ({off} off-list).")
+    if write:
+        tag_core(lists)
     return 0
+
+
+def tag_core(lists: dict[str, set[str]]) -> None:
+    """Give each translator dictionary word its lowest Goethe level (no field if on no list)."""
+    path = ROOT / "data" / "dictionary" / "core.json"
+    core = json.loads(path.read_text(encoding="utf-8"))
+    counts: dict[str, int] = {}
+    for e in core:
+        # tidy glosses: stray CRs and repeated meanings ("luck; happiness; luck")
+        e["en"] = "; ".join(dict.fromkeys(m.strip() for m in e["en"].replace(chr(13), "").split(";") if m.strip()))
+        g = goethe_level(e, lists)
+        if g:
+            e["goethe"] = g
+        else:
+            e.pop("goethe", None)
+        counts[g or "none"] = counts.get(g or "none", 0) + 1
+    body = ",\n".join(json.dumps(e, ensure_ascii=False, separators=(",", ":")) for e in core)
+    path.write_bytes(f"[\n{body}\n]\n".encode("utf-8"))
+    print("core.json Goethe levels:", counts)
 
 
 if __name__ == "__main__":

@@ -3,9 +3,20 @@ import { h, md, getRoadmap, getLesson } from './util.js';
 import { renderMindmapPreview } from './mindmap.js';
 import { openMindmapModal } from './mindmap-modal.js';
 import * as progress from './progress.js';
+import { day } from './srs.js';
 import { STEPS } from './lesson.js';
 
 const STEP = { zone: 150, ms: 108, gate: 120, planned: 96, goal: 130 };
+
+/** "Heute" strip: today's quiz and flashcards, one tap away. */
+function today() {
+  const score = progress.quizState().days[day()];
+  return h('div.today',
+    h('b', 'Heute'),
+    h('a.btn.small', { href: '#/quiz' }, score != null ? `⚡ Quiz ✓ ${Math.round(score * 100)}%` : '⚡ Tagesquiz'),
+    h('a.btn.small', { href: '#/cards' }, '🃏 Karten'),
+    h('span.muted', `🔥 Quiz ${progress.quizStreak()} · Karten ${progress.cardStreak()}`));
+}
 
 /** Flatten the roadmap into road items, bottom (start) to top (goal). */
 function items(road) {
@@ -56,7 +67,7 @@ export async function renderRoad(view, { at } = {}) {
   const page = h('div.road-page');
   const wrap = h('div.road');
   page.append(
-    stats(road, list, current),
+    h('div.road-top', stats(road, list, current), today()), // both stay pinned while you scroll
     h('div.road-intro',
       h('p', 'Your road from A1 to C1. Every stop is one concept with its wordlist. Scroll up to see what\'s ahead.'),
       h('div.road-jump', road.levels.map((lv) => h('button.btn.small', { type: 'button', onclick: () => scrollToNode(wrap, `zone-${lv.id}`) }, lv.id)),
@@ -213,18 +224,39 @@ function peek(x, el) {
         h('a.btn.small', { href, onclick: unpeek }, 'Open lesson →')));
     el.closest('.road-page').append(card);
     renderMindmapPreview(map, lesson.mindmap);
-    // above the milestone if there's room, else below; centred on the road
-    const r = el.getBoundingClientRect();
-    const road = el.closest('.road').getBoundingClientRect();
-    const w = card.offsetWidth;
-    const hgt = card.offsetHeight;
-    const left = Math.min(Math.max(16, road.left + road.width / 2 - w / 2), innerWidth - w - 16);
-    const top = r.top - hgt - 34 > 64 ? r.top - hgt - 34 : Math.min(r.bottom + 14, innerHeight - hgt - 12);
-    Object.assign(card.style, { left: `${left}px`, top: `${top}px` });
+    Object.assign(card.style, placePeek(el, card.offsetWidth, card.offsetHeight));
     requestAnimationFrame(() => card.classList.add('on'));
   }, 220);
 }
 addEventListener('scroll', unpeek, { passive: true });
+
+/**
+ * Put the hover card beside the stop, on the side away from its label, level with it, so the
+ * stop, its label and the road around it stay clickable. Falls back to above/below when narrow.
+ */
+function placePeek(el, w, hgt) {
+  const gap = 18;
+  const dot = el.querySelector('.ms-dot').getBoundingClientRect();
+  const label = el.querySelector('.ms-label').getBoundingClientRect();
+  const labelRight = label.left > dot.left;
+  const box = [dot, label];
+  const minX = Math.min(...box.map((b) => b.left));
+  const maxX = Math.max(...box.map((b) => b.right));
+  const right = innerWidth - (document.querySelector('.side')?.getBoundingClientRect().width || 0);
+  const roomLeft = minX - gap - 12;
+  const roomRight = right - maxX - gap - 12;
+  const minTop = (document.querySelector('.road-top')?.getBoundingClientRect().bottom ?? 56) + 8; // below the pinned stats
+  const top = Math.min(Math.max(minTop, dot.top + dot.height / 2 - hgt / 2), innerHeight - hgt - 12);
+  // prefer the side without the label; otherwise whichever side has room
+  const sides = labelRight ? ['left', 'right'] : ['right', 'left'];
+  for (const side of sides) {
+    if (side === 'left' && roomLeft >= w) return { left: `${minX - gap - w}px`, top: `${top}px` };
+    if (side === 'right' && roomRight >= w) return { left: `${maxX + gap}px`, top: `${top}px` };
+  }
+  const left = Math.min(Math.max(16, dot.left + dot.width / 2 - w / 2), innerWidth - w - 16);
+  const above = dot.top - hgt - 30;
+  return { left: `${left}px`, top: `${above > minTop ? above : Math.min(dot.bottom + 70, innerHeight - hgt - 12)}px` };
+}
 
 function closeSheet() {
   document.querySelectorAll('.sheet, .sheet-backdrop').forEach((e) => e.remove());
