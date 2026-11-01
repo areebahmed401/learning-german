@@ -170,7 +170,7 @@ body.side-hidden .side { display: none; }
 }
 .ms.right .ms-label { left: 62px; }
 .ms.left .ms-label { right: 62px; text-align: right; }
-.ms-label b { display: block; font-size: .95rem; }
+.ms-label b { display: block; font-size: .95rem; hyphens: auto; overflow-wrap: anywhere; } /* long German words break on phones */
 .ms-label small { display: block; color: var(--muted); font-size: .76rem; line-height: 1.35; }
 .ms.locked .ms-label { opacity: .6; cursor: default; }
 .ms.done .ms-label b::after { content: " ✓"; color: var(--accent); }
@@ -186,7 +186,7 @@ body.side-hidden .side { display: none; }
   .ms-dot { width: 42px; height: 42px; font-size: 1rem; }
   .ms.right .ms-label { left: 52px; }
   .ms.left .ms-label { right: 52px; }
-  .ms-label { max-width: 42vw; padding: 5px 8px; }
+  .ms-label { max-width: calc(50vw - 60px); padding: 5px 8px; } /* a label starts ~52px beside a stop near the middle */
   .ms-label small { display: none; }
 }
 
@@ -343,7 +343,8 @@ textarea.answer { width: 100%; min-height: 80px; border: 1.5px solid var(--line)
 .mm-modal .peek-tip { font-size: .9rem; }
 
 /* ---------- Karten (flashcards) ---------- */
-.cards-link { text-decoration: none; margin-right: 4px; }
+.cards-link { text-decoration: none; margin-right: 4px; white-space: nowrap; }
+@media (max-width: 400px) { .cards-text { display: none; } }
 .cards-stats { position: static; grid-template-columns: repeat(4, 1fr); padding: 0 0 12px; }
 .cards-tools { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between; margin-bottom: 14px; }
 .cards-scope { display: flex; flex-wrap: wrap; gap: 6px; }

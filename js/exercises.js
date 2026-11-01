@@ -1,22 +1,32 @@
 // One-at-a-time quiz runner for the six exercise types in the lesson schema.
 import { h, md, shuffle } from './util.js';
 import { speak } from './speech.js';
+import { sameIgnoringUmlauts } from './umlaut.js';
 
 const KIND = {
   mc: 'Choose the answer', gap: 'Fill the gap', article: 'der, die or das?',
   order: 'Build the sentence', match: 'Match the pairs', translate: 'Translate into German',
 };
 
-const fold = (s) => s.toLowerCase().replace(/ä/g, 'ae').replace(/ö/g, 'oe').replace(/ü/g, 'ue').replace(/ß/g, 'ss');
 export const normAnswer = (s) =>
   String(s).toLowerCase().replace(/[.,!?;:„“"»«]/g, '').replace(/\s+/g, ' ').trim();
 
-/** Returns 'right' | 'umlaut' (right apart from ä/ö/ü/ß spelling) | 'wrong'. */
+/**
+ * Returns 'right' | 'umlaut' (right, typed without ä/ö/ü/ß: a/ae, o/oe, u/ue, ss all count) | 'wrong'.
+ * Both 'right' and 'umlaut' score as correct; 'umlaut' just shows the proper spelling.
+ */
 export function grade(given, accepted) {
+  return gradeAnswer(given, accepted).grade;
+}
+
+/** grade() plus the accepted answer that matched, to show its proper spelling. */
+export function gradeAnswer(given, accepted) {
   const g = normAnswer(given);
-  if (accepted.some((a) => normAnswer(a) === g)) return 'right';
-  if (accepted.some((a) => fold(normAnswer(a)) === fold(g))) return 'umlaut';
-  return 'wrong';
+  const exact = accepted.find((a) => normAnswer(a) === g);
+  if (exact != null) return { grade: 'right', answer: exact };
+  const close = accepted.find((a) => sameIgnoringUmlauts(normAnswer(a), g));
+  if (close != null) return { grade: 'umlaut', answer: close };
+  return { grade: 'wrong', answer: accepted[0] };
 }
 
 /**
@@ -46,8 +56,8 @@ export function runQuiz(container, items, { onFinish, label = 'Übung' } = {}) {
       if (ok) right++; else wrong.push(item._i ?? i);
       feedback.className = `feedback ${ok ? 'right' : 'wrong'}`;
       feedback.replaceChildren(...[
-        h('b', ok ? (ok === 'umlaut' ? 'Richtig, but check the umlaut/ß spelling' : 'Richtig! ✓') : 'Nicht ganz.'),
-        shown ? h('div', { html: `Answer: <strong>${md(shown)}</strong>` }) : null,
+        h('b', ok ? 'Richtig! ✓' : 'Nicht ganz.'),
+        shown ? h('div', { html: `${ok === 'umlaut' ? 'With umlauts' : 'Answer'}: <strong>${md(shown)}</strong>` }) : null,
         item.explain ? h('div', { html: md(item.explain) }) : null,
       ].filter(Boolean));
       actions.replaceChildren(h('button.btn.primary', { onclick: next, autofocus: true }, i + 1 < items.length ? 'Weiter →' : 'Ergebnis'));
@@ -124,8 +134,8 @@ function renderGap(item, finish, actions) {
   const check = () => {
     if (!input.value.trim()) return input.focus();
     input.disabled = true;
-    const g = grade(input.value, item.answer);
-    finish(g === 'wrong' ? false : g, g === 'right' ? null : item.answer[0]);
+    const { grade: g, answer } = gradeAnswer(input.value, item.answer);
+    finish(g === 'wrong' ? false : g, g === 'right' ? null : answer);
   };
   // preventDefault: otherwise the same Enter press also "clicks" the Weiter button that check() focuses
   input.addEventListener('keydown', (e) => e.key === 'Enter' && (e.preventDefault(), check()));
@@ -135,12 +145,12 @@ function renderGap(item, finish, actions) {
 }
 
 function renderTranslate(item, finish, actions) {
-  const ta = h('textarea.answer', { placeholder: 'Auf Deutsch…', autocapitalize: 'sentences', spellcheck: 'false', 'aria-label': 'Your translation' });
+  const ta = h('textarea.answer', { placeholder: 'Auf Deutsch… (no umlaut keys? type a/ae for ä, ss for ß)', autocapitalize: 'sentences', spellcheck: 'false', 'aria-label': 'Your translation' });
   const check = () => {
     if (!ta.value.trim()) return ta.focus();
     ta.disabled = true;
-    const g = grade(ta.value, item.answer);
-    finish(g === 'wrong' ? false : g, g === 'right' ? null : item.answer[0]);
+    const { grade: g, answer } = gradeAnswer(ta.value, item.answer);
+    finish(g === 'wrong' ? false : g, g === 'right' ? null : answer);
     speak(item.answer[0]);
   };
   ta.addEventListener('keydown', (e) => e.key === 'Enter' && !e.shiftKey && (e.preventDefault(), check()));
