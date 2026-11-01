@@ -150,7 +150,7 @@ function node(x, p, cx) {
   const el = h(`div.ms.${cls.replace(/ /g, '.')}`, { style, 'data-key': x.kind === 'ms' ? `ms-${x.m.id}` : `${x.kind}-${x.level.id}-${title}` },
     x.current ? h('div.you-are-here', 'Du bist hier') : null,
     h('button.ms-dot', { type: 'button', onclick: open, 'aria-label': label }, ring, dot),
-    h('button.ms-label', { type: 'button', onclick: open, tabindex: '-1' }, h('b', title), h('small', sub)));
+    h('button.ms-label', { type: 'button', onclick: open, tabindex: '-1' }, h('b', { lang: 'de' }, title), h('small', sub)));
   if (x.kind === 'ms' && canHover) {
     el.addEventListener('mouseenter', () => peek(x, el));
     el.addEventListener('mouseleave', leaveSoon);

@@ -11,6 +11,7 @@ A calm, personal German study app. It's a scrollable **road** where every stop i
 - **Goethe word lists:** every A1, A2 and B1 lesson word is on the official Goethe-Zertifikat word list for that level (or a lower one), and carries a small *Goethe A1/A2/B1* badge. The Goethe-Institut publishes no lists for B2 and C1, so those wordlists are my own selection.
 - **🃏 Karten (flashcards):** a few minutes a day with the words from the lessons you've opened (or a whole level). Flip a card, then answer *Nochmal* or *Gewusst*. A word you miss comes back in the same session until you get it right; a word you know comes back after 1, 3, 7, 14, then 30 days. 15 new words a day (+10 more on request), an English → German mode for speaking recall, a streak and a list of your hardest words.
 - **Anki:** "⬇ Anki" on a wordlist, or ⚙ → *Export all words*, saves a `.txt` file. In Anki: *File → Import*, then pick the file (the fields are tab-separated; the tags hold the level, the lesson and the Goethe level).
+- **No umlaut keys needed:** in exercises and the translator, type ä/ö/ü as a/o/u or ae/oe/ue and ß as ss. It counts as right, and the app shows you the proper spelling.
 - **Progress** is stored in the browser. ⚙ → *Save my progress* writes a file you can load on another device.
 
 Mic transcription uses the Web Speech API (Chrome or Edge). Audio uses your system's German voice; Edge's "Natural" voices sound best.

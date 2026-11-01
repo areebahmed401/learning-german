@@ -1,12 +1,11 @@
 // Dictionary: merges lesson words, core.json and strong-verbs.json, and answers lookups.
 import { conjugate } from './conjugate.js';
 import { declineAdjective } from './decline.js';
+import { toPlain, umlautKeys } from '../umlaut.js';
 
 const keyOf = (e) => `${e.pos}|${e.de.toLowerCase()}`;
 
-export function fold(s) {
-  return s.toLowerCase().replace(/ä/g, 'a').replace(/ö/g, 'o').replace(/ü/g, 'u').replace(/ß/g, 'ss');
-}
+export const fold = toPlain;
 
 function normEn(s) {
   return s
@@ -50,7 +49,7 @@ export function buildDictionary({ core = [], strong = {}, lessonWords = [] } = {
     const de = e.de.toLowerCase();
     push(byDe, de, e);
     if (e.pos === 'verb' && de.startsWith('sich ')) push(byDe, de.slice(5), e);
-    push(byFold, fold(de), e);
+    for (const k of umlautKeys(de)) push(byFold, k, e);
 
     if (e.pos === 'verb') {
       try {
@@ -84,7 +83,11 @@ export function buildDictionary({ core = [], strong = {}, lessonWords = [] } = {
     });
   }
 
-  return { entries, strong, byDe, byFold, byForm, byEn, byEnWord };
+  // forms typed without umlauts: "fahrst" / "faehrst" → fährst
+  const byFormFold = new Map();
+  for (const [form, list] of byForm) for (const k of umlautKeys(form)) for (const e of list) push(byFormFold, k, e);
+
+  return { entries, strong, byDe, byFold, byForm, byFormFold, byEn, byEnWord };
 }
 
 export function lookup(query, dict) {
@@ -104,10 +107,15 @@ export function lookup(query, dict) {
   }
   for (const e of dict.byDe.get(lower) || []) bump(e, 104);
   for (const e of dict.byForm.get(de) || []) bump(e, 95);
-  for (const e of dict.byFold.get(fold(de)) || []) bump(e, 70);
+  // typed without umlauts (US keyboard): "uber", "ueber" → über; "strasse" → Straße
+  const keys = umlautKeys(de);
+  for (const k of keys) {
+    for (const e of dict.byFold.get(k) || []) bump(e, 92);
+    for (const e of dict.byFormFold?.get(k) || []) bump(e, 88);
+  }
   if (de.length >= 3) {
-    for (const [key, list] of dict.byDe) {
-      if (key !== de && key.startsWith(de)) for (const e of list) bump(e, 40 - Math.min(20, key.length - de.length));
+    for (const [key, list] of dict.byFold) {
+      if (!keys.includes(key) && keys.some((k) => key.startsWith(k))) for (const e of list) bump(e, 40 - Math.min(20, key.length - de.length));
     }
   }
 
