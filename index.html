@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Deutschweg</title>
+  <meta name="description" content="My road from A1 to C1 German: concepts, wordlists, mind maps, exercises and speaking practice.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%231f7a5a'/><path d='M9 26 C 9 18, 23 16, 23 6' stroke='white' stroke-width='3.5' fill='none' stroke-linecap='round'/><circle cx='23' cy='6' r='3' fill='%23e0a526'/></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap">
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/translator.css">
+  <script>
+    try { const t = localStorage.getItem('lg-theme'); if (t) document.documentElement.dataset.theme = t; } catch {}
+  </script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#/road" aria-label="Deutschweg home">
+      <svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true"><rect width="32" height="32" rx="8" fill="var(--accent)"/><path d="M9 26 C 9 18, 23 16, 23 6" stroke="#fff" stroke-width="3.5" fill="none" stroke-linecap="round"/><circle cx="23" cy="6" r="3" fill="var(--gold)"/></svg>
+      <span>Deutschweg</span>
+    </a>
+    <div class="topbar-actions">
+      <button class="icon-btn" id="theme-btn" title="Switch light/dark" aria-label="Switch light/dark theme">◐</button>
+      <button class="icon-btn" id="menu-btn" title="Settings" aria-label="Settings" aria-expanded="false">⚙</button>
+      <button class="icon-btn tr-toggle" id="tr-btn" title="Translator" aria-label="Show or hide the translator" aria-expanded="true">文A</button>
+    </div>
+    <div class="menu" id="menu" hidden>
+      <button data-act="anki-all">⬇ Export all words to Anki</button>
+      <button data-act="export">⬇ Save my progress (file)</button>
+      <label class="menu-file">⬆ Load progress file<input type="file" accept="application/json" id="import-file" hidden></label>
+      <button data-act="reset" class="danger">↺ Reset progress</button>
+    </div>
+  </header>
+
+  <div class="layout">
+    <main id="view" tabindex="-1" aria-live="polite"></main>
+    <aside class="side" id="side" aria-label="Translator">
+      <div class="side-head">
+        <strong>Übersetzer</strong>
+        <button class="icon-btn side-close" id="side-close" aria-label="Close translator">✕</button>
+      </div>
+      <div id="translator"></div>
+    </aside>
+  </div>
+
+  <button class="fab" id="fab" aria-label="Open translator">文A Übersetzer</button>
+  <div class="toast" id="toast" role="status" hidden></div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

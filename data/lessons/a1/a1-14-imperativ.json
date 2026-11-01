@@ -1,0 +1,156 @@
+{
+  "id": "a1-14-imperativ",
+  "level": "A1",
+  "title": "Imperativ",
+  "concept": "Giving instructions and requests",
+  "wordlist": "Beim Arzt",
+  "minutes": 25,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+A1+Imperativ+commands+instructions",
+  "learn": [
+    {
+      "heading": "Three forms: du, ihr, Sie",
+      "text": "Use the **Imperativ** to give instructions, advice or polite requests. There is one form for each way of saying \"you\". **du**: the verb stem without *-st* (*Komm!*). **ihr**: the same as the ihr-form (*Kommt!*). **Sie**: the infinitive, then *Sie* (*Kommen Sie!*). In the Sie form the verb is in position 1 and **Sie** stays. Add **bitte** to sound polite.",
+      "table": {
+        "head": ["infinitive", "du", "ihr", "Sie"],
+        "rows": [
+          ["kommen", "Komm!", "Kommt!", "Kommen Sie!"],
+          ["warten", "Warte!", "Wartet!", "Warten Sie!"],
+          ["trinken", "Trink!", "Trinkt!", "Trinken Sie!"],
+          ["sein", "Sei!", "Seid!", "Seien Sie!"]
+        ]
+      },
+      "examples": [
+        { "de": "Kommen Sie bitte herein.", "en": "Please come in." },
+        { "de": "Warten Sie bitte im Wartezimmer.", "en": "Please wait in the waiting room." },
+        { "de": "Seid bitte leise, das Baby schläft.", "en": "Please be quiet, the baby is sleeping." }
+      ]
+    },
+    {
+      "heading": "Irregular and separable verbs",
+      "text": "Verbs with an **e → i / ie** change in the present keep it in the **du** imperative: *nehmen → Nimm! sprechen → Sprich! lesen → Lies!* But verbs with an **a → ä** change do **not**: *fahren → Fahr!* (not *Fähr!*). Separable verbs send the prefix to the **end**: *Steh auf! Stehen Sie auf!* In the **wir** form (Let's …!) use the verb first with *wir*: *Gehen wir!*",
+      "table": {
+        "head": ["infinitive", "du", "Sie"],
+        "rows": [
+          ["nehmen", "Nimm!", "Nehmen Sie!"],
+          ["sprechen", "Sprich!", "Sprechen Sie!"],
+          ["lesen", "Lies!", "Lesen Sie!"],
+          ["fahren", "Fahr!", "Fahren Sie!"],
+          ["aufstehen", "Steh auf!", "Stehen Sie auf!"],
+          ["anrufen", "Ruf an!", "Rufen Sie an!"]
+        ]
+      },
+      "examples": [
+        { "de": "Nimm bitte den Bus, nicht das Auto.", "en": "Please take the bus, not the car." },
+        { "de": "Sprechen Sie bitte langsam.", "en": "Please speak slowly." },
+        { "de": "Rufen Sie morgen noch einmal an.", "en": "Call again tomorrow." }
+      ]
+    },
+    {
+      "heading": "At the doctor's",
+      "text": "At the doctor's you will hear many imperatives. Most are in the **Sie** form. Know what the doctor says and how to describe your problem: **Ich habe Kopfschmerzen / Fieber / Husten.** **Mein Kopf tut weh.** (For the body: *Mein Hals tut weh.*) Ask for repetition without fear: *Bitte langsamer. Können Sie das bitte wiederholen?* It is your health, so ask until you understand.",
+      "examples": [
+        { "de": "Nehmen Sie bitte Platz. Was fehlt Ihnen?", "en": "Please take a seat. What seems to be the problem?" },
+        { "de": "Atmen Sie tief ein und aus.", "en": "Breathe in and out deeply." },
+        { "de": "Trinken Sie viel Wasser und bleiben Sie im Bett.", "en": "Drink a lot of water and stay in bed." },
+        { "de": "Nehmen Sie die Tabletten dreimal am Tag.", "en": "Take the tablets three times a day." }
+      ]
+    }
+  ],
+  "tip": "Role-play the doctor's visit in the mirror: you say the symptom, then you play the doctor and give three instructions in the Sie-form. Rewriting each as a du-command trains the second form as well.",
+  "words": [
+    { "de": "Arzt", "en": "doctor (male)", "pos": "noun", "article": "der", "plural": "Ärzte" },
+    { "de": "Ärztin", "en": "doctor (female)", "pos": "noun", "article": "die", "plural": "Ärztinnen" },
+    { "de": "Praxis", "en": "doctor's practice", "pos": "noun", "article": "die", "plural": "Praxen" },
+    { "de": "Wartezimmer", "en": "waiting room", "pos": "noun", "article": "das", "plural": "Wartezimmer" },
+    { "de": "Rezept", "en": "prescription", "pos": "noun", "article": "das", "plural": "Rezepte" },
+    { "de": "Medikament", "en": "medicine", "pos": "noun", "article": "das", "plural": "Medikamente" },
+    { "de": "Tablette", "en": "tablet", "pos": "noun", "article": "die", "plural": "Tabletten" },
+    { "de": "Gesundheitskarte", "en": "health insurance card", "pos": "noun", "article": "die", "plural": "Gesundheitskarten" },
+    { "de": "Schmerzen", "en": "pain", "pos": "noun", "article": "die", "plural": "-", "note": "plural only" },
+    { "de": "Kopf", "en": "head", "pos": "noun", "article": "der", "plural": "Köpfe" },
+    { "de": "Bauch", "en": "belly; stomach", "pos": "noun", "article": "der", "plural": "Bäuche" },
+    { "de": "Hals", "en": "throat; neck", "pos": "noun", "article": "der", "plural": "Hälse" },
+    { "de": "Rücken", "en": "back", "pos": "noun", "article": "der", "plural": "Rücken" },
+    { "de": "Fieber", "en": "fever", "pos": "noun", "article": "das", "plural": "-" },
+    { "de": "Husten", "en": "cough", "pos": "noun", "article": "der", "plural": "-" },
+    { "de": "Erkältung", "en": "cold", "pos": "noun", "article": "die", "plural": "Erkältungen" },
+    { "de": "wehtun", "en": "to hurt", "pos": "verb", "aux": "haben", "sep": "weh", "p2": "wehgetan" },
+    { "de": "atmen", "en": "to breathe", "pos": "verb", "aux": "haben", "p2": "geatmet" },
+    { "de": "bleiben", "en": "to stay", "pos": "verb", "aux": "sein", "p2": "geblieben" },
+    { "de": "warten", "en": "to wait", "pos": "verb", "aux": "haben", "p2": "gewartet" },
+    { "de": "untersuchen", "en": "to examine", "pos": "verb", "aux": "haben", "p2": "untersucht" },
+    { "de": "krank", "en": "ill; sick", "pos": "adj" },
+    { "de": "gesund", "en": "healthy", "pos": "adj" },
+    { "de": "bitte", "en": "please", "pos": "adv" }
+  ],
+  "mindmap": {
+    "label": "Imperativ",
+    "children": [
+      {
+        "label": "du",
+        "children": [
+          { "label": "stem without -st", "note": "Komm! Warte!" },
+          { "label": "e → i / ie keeps", "note": "Nimm! Lies!" },
+          { "label": "a → ä is dropped", "note": "Fahr!" }
+        ]
+      },
+      {
+        "label": "ihr",
+        "children": [
+          { "label": "same as ihr-form", "note": "Kommt! Wartet!" }
+        ]
+      },
+      {
+        "label": "Sie",
+        "children": [
+          { "label": "infinitive + Sie", "note": "Kommen Sie!" },
+          { "label": "sein → Seien Sie" }
+        ]
+      },
+      {
+        "label": "Separable",
+        "children": [
+          { "label": "prefix at the end", "note": "Steh auf! Rufen Sie an!" }
+        ]
+      },
+      {
+        "label": "At the doctor's",
+        "children": [
+          { "label": "Nehmen Sie Platz." },
+          { "label": "Atmen Sie tief ein." },
+          { "label": "Mein Kopf tut weh." }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "gap", "q": "___ Sie bitte Platz! (nehmen)", "answer": ["Nehmen"], "explain": "Sie-imperative: infinitive first, then Sie." },
+    { "type": "gap", "q": "___ Sie bitte im Wartezimmer! (warten)", "answer": ["Warten"], "explain": "Sie-imperative: infinitive first, then Sie." },
+    { "type": "gap", "q": "___ bitte mehr Wasser! (trinken, du)", "answer": ["Trink", "Trinke"], "explain": "du-imperative: the stem without -st: Trink! (Trinke is also possible.)" },
+    { "type": "gap", "q": "___ bitte den Text! (lesen, du)", "answer": ["Lies"], "explain": "e → ie is kept in the du-imperative: Lies!" },
+    { "type": "gap", "q": "___ nicht so schnell! (fahren, du)", "answer": ["Fahr", "Fahre"], "explain": "a → ä is not used in the imperative: Fahr! (not Fähr)." },
+    { "type": "gap", "q": "___ bitte ruhig! (sein, du)", "answer": ["Sei"], "explain": "sein is irregular: Sei! – Seid! – Seien Sie!" },
+    { "type": "mc", "q": "Which is correct? (formal, to the doctor's patient)", "options": ["Komm herein!", "Kommen Sie herein!", "Kommt Sie herein!"], "answer": 1, "explain": "Formal: infinitive + Sie. The prefix herein goes to the end." },
+    { "type": "mc", "q": "Which is the du-form of \"aufstehen\"?", "options": ["Aufsteh!", "Steh auf!", "Stehst auf!"], "answer": 1, "explain": "Separable: the verb part is first, the prefix goes to the end: Steh auf!" },
+    { "type": "mc", "q": "The doctor says: \"Nehmen Sie die Tabletten dreimal am Tag.\" What do you do?", "options": ["Take the tablets three times a day.", "Buy three tablets.", "Stop taking the tablets."], "answer": 0, "explain": "nehmen = to take, dreimal am Tag = three times a day." },
+    { "type": "match", "pairs": [["der Kopf", "head"], ["der Hals", "throat"], ["der Bauch", "belly"], ["das Fieber", "fever"], ["die Schmerzen", "pain"]], "explain": "Body parts are masculine more often than not, but learn each article." },
+    { "type": "order", "words": ["Warten", "Sie", "bitte", "im Wartezimmer"], "answer": "Warten Sie bitte im Wartezimmer", "explain": "Sie-imperative: verb first, then Sie." },
+    { "type": "order", "words": ["Atmen", "tief", "Sie", "ein"], "answer": "Atmen Sie tief ein", "explain": "einatmen is separable: Atmen Sie … ein." },
+    { "type": "translate", "en": "Please take a seat.", "answer": ["Nehmen Sie bitte Platz", "Bitte nehmen Sie Platz"], "explain": "Nehmen Sie Platz: the polite request in a waiting room." },
+    { "type": "translate", "en": "Drink a lot of water and stay in bed. (Sie)", "answer": ["Trinken Sie viel Wasser und bleiben Sie im Bett"], "explain": "Both verbs in Sie-imperative: Trinken Sie … und bleiben Sie …" }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Guten Tag, ich habe einen Termin um zehn Uhr.", "en": "Hello, I have an appointment at ten." },
+      { "de": "Ich habe Kopfschmerzen und Fieber seit zwei Tagen.", "en": "I have had a headache and fever for two days." },
+      { "de": "Mein Hals tut weh und ich habe Husten.", "en": "My throat hurts and I have a cough." },
+      { "de": "Bitte sprechen Sie langsam. Ich verstehe nicht alles.", "en": "Please speak slowly. I don't understand everything." },
+      { "de": "Wie oft soll ich die Tabletten nehmen?", "en": "How often should I take the tablets?" }
+    ],
+    "prompts": [
+      { "q": "Guten Tag, nehmen Sie bitte Platz. Was fehlt Ihnen?", "qEn": "Hello, please take a seat. What seems to be the matter? (at the doctor's)", "model": "Guten Tag. Ich habe Kopfschmerzen und Fieber. Mein Hals tut auch weh.", "hint": "Ich habe … / Mein … tut weh." },
+      { "q": "Nehmen Sie die Tabletten dreimal am Tag und bleiben Sie im Bett.", "qEn": "Take the tablets three times a day and stay in bed. (the doctor's instruction)", "model": "Dreimal am Tag, verstehe ich. Wie lange soll ich im Bett bleiben?", "hint": "Entschuldigung, wie oft? / Wie lange?" },
+      { "q": "Haben Sie Ihre Gesundheitskarte dabei?", "qEn": "Do you have your health insurance card with you? (the receptionist)", "model": "Ja, hier ist meine Gesundheitskarte. Muss ich im Wartezimmer warten?", "hint": "Ja, hier ist … / Nein, leider nicht." }
+    ]
+  }
+}

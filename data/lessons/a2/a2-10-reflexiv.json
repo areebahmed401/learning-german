@@ -1,0 +1,156 @@
+{
+  "id": "a2-10-reflexiv",
+  "level": "A2",
+  "title": "Reflexive Verben",
+  "concept": "sich waschen, sich freuen, sich erinnern",
+  "wordlist": "Körper & Gesundheit",
+  "minutes": 30,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+A2+reflexive+Verben+sich+waschen+sich+freuen",
+  "learn": [
+    {
+      "heading": "Reflexive pronouns",
+      "text": "A verb is **reflexive** when the action goes back to the subject: *Ich wasche mich* (I wash myself). The reflexive pronoun is **mich, dich, sich, uns, euch, sich** in the Akkusativ. It looks like the personal pronoun, except for the third person and the plural: always **sich**. The pronoun stands right after the verb in a main clause, or after the subject if the subject follows the verb.",
+      "table": {
+        "head": ["Subject", "Akkusativ", "Example"],
+        "rows": [
+          ["ich", "mich", "Ich fühle mich nicht gut."],
+          ["du", "dich", "Hast du dich erholt?"],
+          ["er / sie / es", "sich", "Er erkältet sich oft."],
+          ["wir", "uns", "Wir freuen uns auf das Wochenende."],
+          ["ihr", "euch", "Ihr müsst euch beeilen."],
+          ["sie / Sie", "sich", "Sie ruhen sich aus."]
+        ]
+      },
+      "examples": [
+        { "de": "Heute fühle ich mich nicht gut.", "en": "I do not feel well today." },
+        { "de": "Ich habe mich gestern erkältet.", "en": "I caught a cold yesterday." },
+        { "de": "Er erinnert sich nicht an den Termin.", "en": "He does not remember the appointment." }
+      ]
+    },
+    {
+      "heading": "Common reflexive verbs",
+      "text": "Some verbs are **always** reflexive: **sich freuen** (to be happy), **sich erinnern** (to remember), **sich beeilen** (to hurry), **sich erkälten**, **sich entspannen**, **sich interessieren**. Others can be reflexive or not, with a different meaning: *waschen* (wash something) vs. *sich waschen* (wash oneself). In the Perfekt, all reflexive verbs use **haben**. Reflexive verbs often take a preposition: *sich freuen auf, sich erinnern an, sich interessieren für.*",
+      "examples": [
+        { "de": "Wir freuen uns auf das Wochenende.", "en": "We are looking forward to the weekend." },
+        { "de": "Ich interessiere mich für Technik.", "en": "I am interested in technology." },
+        { "de": "Hast du dich im Urlaub gut erholt?", "en": "Did you relax well on holiday?" },
+        { "de": "Beeil dich, der Zug fährt gleich!", "en": "Hurry up, the train leaves soon!" }
+      ]
+    },
+    {
+      "heading": "Dativ reflexive with body parts",
+      "text": "When a reflexive verb has **another object** (an Akkusativ object), the reflexive pronoun is in the **Dativ**: **mir, dir, sich, uns, euch, sich**. This is typical with body parts: *Ich wasche mir die Hände. Ich putze mir die Zähne.* Without the extra object, it stays Akkusativ: *Ich wasche mich.*",
+      "table": {
+        "head": ["Akkusativ (no other object)", "Dativ (with an object)"],
+        "rows": [
+          ["Ich wasche mich.", "Ich wasche mir die Hände."],
+          ["Er zieht sich an.", "Er zieht sich die Jacke an."],
+          ["Du kämmst dich.", "Du kämmst dir die Haare."],
+          ["Er hat sich verletzt.", "Er hat sich die Hand verletzt."]
+        ]
+      },
+      "examples": [
+        { "de": "Ich putze mir jeden Morgen die Zähne.", "en": "I brush my teeth every morning." },
+        { "de": "Sie hat sich den Arm gebrochen.", "en": "She broke her arm." }
+      ]
+    }
+  ],
+  "tip": "For body parts, German uses 'mir die Hände', not 'meine Hände': 'I wash myself the hands.' The Dativ pronoun already tells you whose hands they are.",
+  "words": [
+    { "de": "Körper", "en": "body", "pos": "noun", "article": "der", "plural": "Körper" },
+    { "de": "Kopf", "en": "head", "pos": "noun", "article": "der", "plural": "Köpfe" },
+    { "de": "Hals", "en": "neck, throat", "pos": "noun", "article": "der", "plural": "Hälse" },
+    { "de": "Rücken", "en": "back", "pos": "noun", "article": "der", "plural": "Rücken" },
+    { "de": "Bauch", "en": "stomach, belly", "pos": "noun", "article": "der", "plural": "Bäuche" },
+    { "de": "Arm", "en": "arm", "pos": "noun", "article": "der", "plural": "Arme" },
+    { "de": "Hand", "en": "hand", "pos": "noun", "article": "die", "plural": "Hände" },
+    { "de": "Bein", "en": "leg", "pos": "noun", "article": "das", "plural": "Beine" },
+    { "de": "Fuß", "en": "foot", "pos": "noun", "article": "der", "plural": "Füße" },
+    { "de": "Zahn", "en": "tooth", "pos": "noun", "article": "der", "plural": "Zähne" },
+    { "de": "Arzt", "en": "doctor (male)", "pos": "noun", "article": "der", "plural": "Ärzte" },
+    { "de": "Ärztin", "en": "doctor (female)", "pos": "noun", "article": "die", "plural": "Ärztinnen" },
+    { "de": "Schmerzen", "en": "pain", "pos": "noun", "article": "die", "plural": "-", "note": "plural only" },
+    { "de": "Fieber", "en": "fever", "pos": "noun", "article": "das", "plural": "-", "note": "no plural" },
+    { "de": "Erkältung", "en": "cold", "pos": "noun", "article": "die", "plural": "Erkältungen" },
+    { "de": "Rezept", "en": "prescription; recipe", "pos": "noun", "article": "das", "plural": "Rezepte" },
+    { "de": "Apotheke", "en": "pharmacy", "pos": "noun", "article": "die", "plural": "Apotheken" },
+    { "de": "sich waschen", "en": "to wash oneself", "pos": "verb", "aux": "haben", "p2": "gewaschen" },
+    { "de": "sich fühlen", "en": "to feel", "pos": "verb", "aux": "haben", "p2": "gefühlt" },
+    { "de": "sich erholen", "en": "to recover, to relax", "pos": "verb", "aux": "haben", "p2": "erholt" },
+    { "de": "sich erkälten", "en": "to catch a cold", "pos": "verb", "aux": "haben", "p2": "erkältet" },
+    { "de": "sich verletzen", "en": "to hurt oneself", "pos": "verb", "aux": "haben", "p2": "verletzt" },
+    { "de": "sich erinnern", "en": "to remember", "pos": "verb", "aux": "haben", "p2": "erinnert" },
+    { "de": "wehtun", "en": "to hurt", "pos": "verb", "aux": "haben", "sep": "weh", "p2": "wehgetan" }
+  ],
+  "mindmap": {
+    "label": "Reflexive Verben",
+    "children": [
+      {
+        "label": "Pronomen",
+        "children": [
+          { "label": "mich dich sich", "note": "Akkusativ" },
+          { "label": "uns euch sich" },
+          { "label": "mir dir sich", "note": "Dativ with an object" }
+        ]
+      },
+      {
+        "label": "immer reflexiv",
+        "children": [
+          { "label": "sich freuen, sich erinnern" },
+          { "label": "sich beeilen, sich erkälten" }
+        ]
+      },
+      {
+        "label": "optional reflexiv",
+        "children": [
+          { "label": "waschen / sich waschen" },
+          { "label": "fühlen / sich fühlen" }
+        ]
+      },
+      {
+        "label": "Körperteile",
+        "note": "Dativ",
+        "children": [
+          { "label": "Ich putze mir die Zähne." },
+          { "label": "Ich wasche mir die Hände." }
+        ]
+      },
+      {
+        "label": "Perfekt",
+        "children": [
+          { "label": "haben + Partizip II", "note": "Ich habe mich erkältet." }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "gap", "q": "Ich fühle ___ heute nicht gut.", "answer": ["mich"], "explain": "sich fühlen with ich: mich (Akkusativ)." },
+    { "type": "gap", "q": "Wir freuen ___ auf den Urlaub.", "answer": ["uns"], "explain": "sich freuen with wir: uns." },
+    { "type": "gap", "q": "Ich putze ___ jeden Morgen die Zähne.", "answer": ["mir"], "explain": "There is another object (die Zähne), so the reflexive pronoun is in the Dativ: mir." },
+    { "type": "gap", "q": "Hast du ___ im Urlaub gut erholt?", "answer": ["dich"], "explain": "sich erholen with du: dich (Akkusativ). In the Perfekt the pronoun comes after the subject." },
+    { "type": "mc", "q": "Ich wasche ___ die Hände.", "options": ["mir", "mich", "sich"], "answer": 0, "explain": "Body part = Akkusativ object, so the reflexive pronoun is Dativ: mir." },
+    { "type": "mc", "q": "Sie hat ___ erkältet.", "options": ["sich", "ihr", "sie"], "answer": 0, "explain": "Third person singular and plural: always sich." },
+    { "type": "mc", "q": "Ihr müsst ___ beeilen.", "options": ["euch", "sich", "uns"], "answer": 0, "explain": "ihr → euch." },
+    { "type": "article", "word": "Rücken", "answer": "der", "explain": "der Rücken, plural die Rücken." },
+    { "type": "article", "word": "Erkältung", "answer": "die", "explain": "Nouns ending in -ung are always feminine." },
+    { "type": "order", "words": ["Heute", "fühle", "ich", "mich", "nicht gut"], "answer": "Heute fühle ich mich nicht gut", "explain": "Verb in position 2, then subject, then the reflexive pronoun." },
+    { "type": "order", "words": ["Wir", "freuen", "uns", "auf das Wochenende"], "answer": "Wir freuen uns auf das Wochenende", "explain": "sich freuen auf + Akkusativ for something in the future." },
+    { "type": "match", "pairs": [["ich", "mich"], ["du", "dich"], ["er / sie / es", "sich"], ["wir", "uns"], ["ihr", "euch"]], "explain": "Only the third person (and Sie) is always sich." },
+    { "type": "translate", "en": "I feel tired.", "answer": ["Ich fühle mich müde"], "explain": "sich fühlen + adjective: ich fühle mich müde." },
+    { "type": "translate", "en": "He hurt his hand.", "answer": ["Er hat sich die Hand verletzt", "Er hat sich an der Hand verletzt"], "explain": "A body part makes the reflexive pronoun Dativ: sich (3rd person, same form). Perfekt with haben." }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Ich fühle mich heute nicht so gut.", "en": "I do not feel so well today." },
+      { "de": "Ich habe mich erkältet und habe Halsschmerzen.", "en": "I have a cold and a sore throat." },
+      { "de": "Ich putze mir jeden Abend die Zähne.", "en": "I brush my teeth every evening." },
+      { "de": "Wir freuen uns auf das Wochenende.", "en": "We are looking forward to the weekend." },
+      { "de": "Ich möchte mich ein bisschen ausruhen.", "en": "I would like to rest a little." }
+    ],
+    "prompts": [
+      { "q": "Beim Arzt: Was fehlt Ihnen? Wie fühlen Sie sich?", "qEn": "At the doctor's: what is wrong? How do you feel?", "model": "Ich habe mich erkältet. Ich habe Halsschmerzen und Kopfschmerzen, und ich fühle mich sehr müde. Ich habe auch ein bisschen Fieber.", "hint": "Ich habe mich erkältet. Mir tut … weh." },
+      { "q": "Dein Kollege sieht müde aus. Was sagst du ihm?", "qEn": "Your coworker looks tired. What do you say to him?", "model": "Du siehst müde aus. Hast du dich nicht gut erholt? Ruh dich doch heute Nachmittag etwas aus.", "hint": "Du siehst müde aus. Ruh dich aus." },
+      { "q": "Beschreibe deinen Morgen: Was machst du zuerst?", "qEn": "Describe your morning: what do you do first?", "model": "Ich stehe um sieben Uhr auf. Dann wasche ich mich, putze mir die Zähne und ziehe mich an. Danach frühstücke ich.", "hint": "Ich wasche mich … Ich putze mir …" }
+    ]
+  }
+}

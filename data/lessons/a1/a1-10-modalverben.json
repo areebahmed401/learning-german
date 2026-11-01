@@ -1,0 +1,166 @@
+{
+  "id": "a1-10-modalverben",
+  "level": "A1",
+  "title": "Modalverben",
+  "concept": "können, müssen, wollen, dürfen, sollen, möchten",
+  "wordlist": "Freizeit",
+  "minutes": 25,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+A1+Modalverben+k%C3%B6nnen+m%C3%BCssen+wollen",
+  "learn": [
+    {
+      "heading": "Six helper verbs",
+      "text": "Modal verbs express ability, duty, wish or permission. They are irregular in the **singular**: **ich** and **er/sie/es** have **no ending** and the same form. The plural is regular. Learn the six forms of each verb together, and notice that *möchten* is a polite form that you will use every day.",
+      "table": {
+        "head": ["", "können", "müssen", "wollen", "dürfen", "sollen", "möchten"],
+        "rows": [
+          ["ich", "kann", "muss", "will", "darf", "soll", "möchte"],
+          ["du", "kannst", "musst", "willst", "darfst", "sollst", "möchtest"],
+          ["er / sie / es", "kann", "muss", "will", "darf", "soll", "möchte"],
+          ["wir", "können", "müssen", "wollen", "dürfen", "sollen", "möchten"],
+          ["ihr", "könnt", "müsst", "wollt", "dürft", "sollt", "möchtet"],
+          ["sie / Sie", "können", "müssen", "wollen", "dürfen", "sollen", "möchten"]
+        ]
+      },
+      "examples": [
+        { "de": "Ich kann gut schwimmen.", "en": "I can swim well." },
+        { "de": "Du musst morgen früh aufstehen.", "en": "You have to get up early tomorrow." },
+        { "de": "Wir möchten am Wochenende wandern.", "en": "We would like to go hiking at the weekend." }
+      ]
+    },
+    {
+      "heading": "Word order: the infinitive goes to the end",
+      "text": "The modal verb is the conjugated verb, so it is in **position 2**. The main verb stays in the **infinitive and goes to the very end** of the sentence. This creates a frame: *Ich **kann** heute nicht ins Kino **gehen**.* In questions, the modal comes first (yes/no) or after the question word. You may leave out the main verb when the meaning is clear: *Ich muss nach Hause.*",
+      "table": {
+        "head": ["position 1", "position 2 (modal)", "middle", "end (infinitive)"],
+        "rows": [
+          ["Ich", "kann", "heute nicht", "kommen."],
+          ["Am Samstag", "will", "ich ins Kino", "gehen."],
+          ["Kannst", "du", "am Wochenende", "kommen?"],
+          ["Was", "möchtest", "du", "trinken?"]
+        ]
+      },
+      "examples": [
+        { "de": "Kannst du mir bitte helfen?", "en": "Can you help me, please?" },
+        { "de": "Ich muss heute lange arbeiten.", "en": "I have to work late today." },
+        { "de": "Was möchtest du am Wochenende machen?", "en": "What would you like to do at the weekend?" }
+      ]
+    },
+    {
+      "heading": "Meanings and everyday use",
+      "text": "**können** = can (ability, possibility). **müssen** = must, have to. **wollen** = want (strong). **möchten** = would like (polite, softer than *wollen*). **dürfen** = may, be allowed to. **sollen** = should, ought to (a rule or what someone told you). For polite requests use **Können Sie …?** or **Könnten Sie …?** *Nicht dürfen* means \"must not\", while *nicht müssen* means \"don't have to\".",
+      "table": {
+        "head": ["verb", "meaning", "example"],
+        "rows": [
+          ["können", "ability, request", "Können Sie das wiederholen?"],
+          ["müssen", "necessity", "Ich muss zum Arzt."],
+          ["wollen / möchten", "wish", "Ich möchte einen Kaffee."],
+          ["dürfen", "permission", "Hier darf man nicht rauchen."],
+          ["sollen", "advice, instruction", "Sie sollen viel Wasser trinken."]
+        ]
+      },
+      "examples": [
+        { "de": "Darf ich hier sitzen?", "en": "May I sit here?" },
+        { "de": "Der Arzt sagt, ich soll mehr schlafen.", "en": "The doctor says I should sleep more." }
+      ]
+    }
+  ],
+  "tip": "Think of the frame \"modal ... infinitive\": the modal is like a left bracket in position 2 and the infinitive is the right bracket at the end. Fill the middle with everything else.",
+  "words": [
+    { "de": "Freizeit", "en": "free time", "pos": "noun", "article": "die", "plural": "-" },
+    { "de": "Kino", "en": "cinema", "pos": "noun", "article": "das", "plural": "Kinos" },
+    { "de": "Park", "en": "park", "pos": "noun", "article": "der", "plural": "Parks" },
+    { "de": "Konzert", "en": "concert", "pos": "noun", "article": "das", "plural": "Konzerte" },
+    { "de": "Party", "en": "party", "pos": "noun", "article": "die", "plural": "Partys" },
+    { "de": "Ausflug", "en": "trip; excursion", "pos": "noun", "article": "der", "plural": "Ausflüge" },
+    { "de": "Urlaub", "en": "holiday; vacation", "pos": "noun", "article": "der", "plural": "Urlaube" },
+    { "de": "Fitnessstudio", "en": "gym", "pos": "noun", "article": "das", "plural": "Fitnessstudios" },
+    { "de": "Schwimmbad", "en": "swimming pool", "pos": "noun", "article": "das", "plural": "Schwimmbäder" },
+    { "de": "Gitarre", "en": "guitar", "pos": "noun", "article": "die", "plural": "Gitarren" },
+    { "de": "Café", "en": "café", "pos": "noun", "article": "das", "plural": "Cafés" },
+    { "de": "Spiel", "en": "game", "pos": "noun", "article": "das", "plural": "Spiele" },
+    { "de": "können", "en": "can; to be able to", "pos": "verb", "aux": "haben", "p2": "gekonnt" },
+    { "de": "müssen", "en": "must; to have to", "pos": "verb", "aux": "haben", "p2": "gemusst" },
+    { "de": "wollen", "en": "to want to", "pos": "verb", "aux": "haben", "p2": "gewollt" },
+    { "de": "tanzen", "en": "to dance", "pos": "verb", "aux": "haben", "p2": "getanzt" },
+    { "de": "wandern", "en": "to hike", "pos": "verb", "aux": "sein", "p2": "gewandert" },
+    { "de": "singen", "en": "to sing", "pos": "verb", "aux": "haben", "p2": "gesungen" },
+    { "de": "treffen", "en": "to meet", "pos": "verb", "aux": "haben", "p2": "getroffen" },
+    { "de": "besuchen", "en": "to visit", "pos": "verb", "aux": "haben", "p2": "besucht" },
+    { "de": "laufen", "en": "to run; to walk", "pos": "verb", "aux": "sein", "p2": "gelaufen" },
+    { "de": "lustig", "en": "funny; fun", "pos": "adj" },
+    { "de": "langweilig", "en": "boring", "pos": "adj" }
+  ],
+  "mindmap": {
+    "label": "Modalverben",
+    "children": [
+      {
+        "label": "können",
+        "note": "can",
+        "children": [
+          { "label": "ability", "note": "Ich kann schwimmen." },
+          { "label": "polite request", "note": "Können Sie helfen?" }
+        ]
+      },
+      {
+        "label": "müssen · sollen",
+        "children": [
+          { "label": "müssen = must", "note": "Ich muss arbeiten." },
+          { "label": "sollen = should", "note": "Ich soll mehr schlafen." }
+        ]
+      },
+      {
+        "label": "wollen · möchten",
+        "children": [
+          { "label": "wollen = want", "note": "strong" },
+          { "label": "möchten = would like", "note": "polite" }
+        ]
+      },
+      {
+        "label": "dürfen",
+        "note": "may",
+        "children": [
+          { "label": "permission", "note": "Darf ich hier sitzen?" },
+          { "label": "nicht dürfen", "note": "must not" }
+        ]
+      },
+      {
+        "label": "Word order",
+        "children": [
+          { "label": "modal = position 2" },
+          { "label": "infinitive = end", "note": "Ich kann heute kommen." },
+          { "label": "ich = er form", "note": "ich kann, er kann" }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "gap", "q": "Ich ___ gut schwimmen. (können)", "answer": ["kann"], "explain": "ich kann: the singular has no ending." },
+    { "type": "gap", "q": "Du ___ morgen früh aufstehen. (müssen)", "answer": ["musst"], "explain": "du musst: müssen is irregular in the singular." },
+    { "type": "gap", "q": "Er ___ heute nicht kommen. (können)", "answer": ["kann"], "explain": "er/sie/es has the same form as ich: kann." },
+    { "type": "gap", "q": "Wir ___ am Wochenende wandern. (wollen)", "answer": ["wollen"], "explain": "The plural wir takes the infinitive form." },
+    { "type": "gap", "q": "___ ich hier sitzen? (dürfen)", "answer": ["Darf"], "explain": "darf for ich. A yes/no question puts the modal first." },
+    { "type": "gap", "q": "Der Arzt sagt, ich ___ mehr schlafen. (sollen)", "answer": ["soll"], "explain": "sollen with ich: soll (no ending)." },
+    { "type": "mc", "q": "Which sentence is correct?", "options": ["Ich kann heute kommen nicht.", "Ich kann heute nicht kommen.", "Ich kommen kann heute nicht."], "answer": 1, "explain": "Modal in position 2, infinitive at the end." },
+    { "type": "mc", "q": "How do you politely order a coffee?", "options": ["Ich will einen Kaffee.", "Ich möchte einen Kaffee.", "Ich muss einen Kaffee."], "answer": 1, "explain": "möchten is the polite form; wollen sounds too demanding." },
+    { "type": "mc", "q": "\"Hier darf man nicht rauchen.\" means …", "options": ["You don't have to smoke here.", "You must not smoke here.", "You cannot smoke here."], "answer": 1, "explain": "nicht dürfen = must not (prohibited)." },
+    { "type": "match", "pairs": [["können", "can"], ["müssen", "must"], ["wollen", "to want"], ["dürfen", "may"], ["sollen", "should"]], "explain": "Learn the modals as a set of six; möchten is the polite wish." },
+    { "type": "order", "words": ["muss", "Ich", "heute", "arbeiten"], "answer": "Ich muss heute arbeiten", "explain": "Modal in position 2, infinitive arbeiten at the end." },
+    { "type": "order", "words": ["Sie", "helfen", "mir", "Können", "bitte"], "answer": "Können Sie mir bitte helfen", "explain": "Yes/no question: modal first, infinitive at the end." },
+    { "type": "order", "words": ["will", "ich", "Am Samstag", "ins Kino gehen"], "answer": "Am Samstag will ich ins Kino gehen", "explain": "Position 1 is the time, the modal stays in position 2, and the infinitive goes last." },
+    { "type": "translate", "en": "I would like to meet friends at the weekend.", "answer": ["Ich möchte am Wochenende Freunde treffen", "Am Wochenende möchte ich Freunde treffen"], "explain": "möchte + infinitive treffen at the end." }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Kannst du am Samstag mit ins Kino kommen?", "en": "Can you come to the cinema with us on Saturday?" },
+      { "de": "Ich kann leider nicht, ich muss arbeiten.", "en": "Unfortunately I can't, I have to work." },
+      { "de": "Wir möchten am Sonntag im Park Fußball spielen.", "en": "We'd like to play football in the park on Sunday." },
+      { "de": "Darf ich Ihnen eine Frage stellen?", "en": "May I ask you a question?" },
+      { "de": "Was möchtest du heute Abend machen?", "en": "What would you like to do this evening?" }
+    ],
+    "prompts": [
+      { "q": "Hast du Lust, am Wochenende etwas zu machen?", "qEn": "Do you feel like doing something at the weekend? (a classmate from the Deutschkurs)", "model": "Ja, gern! Ich möchte ins Kino gehen. Kannst du am Samstag?", "hint": "Ich möchte … / Ich kann am … / Ich muss …" },
+      { "q": "Können Sie am Mittwoch um zehn Uhr kommen?", "qEn": "Can you come on Wednesday at ten? (the Arztpraxis, rescheduling an appointment)", "model": "Leider nicht, ich muss um zehn Uhr arbeiten. Kann ich am Donnerstag kommen?", "hint": "Leider kann ich nicht, ich muss …" },
+      { "q": "Was möchten Sie in der Freizeit machen?", "qEn": "What would you like to do in your free time? (Sprachkurs interview)", "model": "Ich möchte viel wandern und ich will besser Gitarre spielen.", "hint": "Ich möchte … / Ich will …" }
+    ]
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "id": "a2-04-wechselpraepositionen",
+  "level": "A2",
+  "title": "Wechselpräpositionen",
+  "concept": "Two-way prepositions; stellen/stehen, legen/liegen",
+  "wordlist": "Wohnung einrichten",
+  "minutes": 30,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+A2+Wechselpr%C3%A4positionen+stellen+stehen+legen+liegen",
+  "learn": [
+    {
+      "heading": "Wo? or Wohin?",
+      "text": "Nine prepositions can take the **Dativ** or the **Akkusativ**: **an, auf, hinter, in, neben, über, unter, vor, zwischen**. Ask the question: **Wo?** (where, a position, no movement) → **Dativ**. **Wohin?** (where to, a movement to a new place) → **Akkusativ**. The article tells you the case: dem/der/dem/den = Dativ, den/die/das/die = Akkusativ.",
+      "table": {
+        "head": ["", "masculine", "feminine", "neuter", "plural"],
+        "rows": [
+          ["Wo? (Dativ)", "auf dem Tisch", "auf der Kommode", "auf dem Sofa", "auf den Stühlen"],
+          ["Wohin? (Akkusativ)", "auf den Tisch", "auf die Kommode", "auf das Sofa", "auf die Stühle"]
+        ]
+      },
+      "examples": [
+        { "de": "Die Lampe steht auf dem Schreibtisch.", "en": "The lamp is standing on the desk." },
+        { "de": "Ich stelle die Lampe auf den Schreibtisch.", "en": "I put the lamp on the desk." },
+        { "de": "Wir wohnen in der Stadt. Wir ziehen in die Stadt.", "en": "We live in the city. We are moving into the city." }
+      ]
+    },
+    {
+      "heading": "stellen/stehen, legen/liegen, hängen",
+      "text": "Position verbs come in pairs. The verb **with movement** is regular, takes an object and goes with **Akkusativ**: *stellen, legen, setzen, hängen.* The verb **for the position** is strong, has no object and goes with **Dativ**: *stehen, liegen, sitzen, hängen.* Use **stellen/stehen** for upright things, **legen/liegen** for flat things.",
+      "table": {
+        "head": ["Wohin? (Akk)", "Wo? (Dativ)", "Perfekt"],
+        "rows": [
+          ["stellen", "stehen", "hat gestellt / hat gestanden"],
+          ["legen", "liegen", "hat gelegt / hat gelegen"],
+          ["setzen", "sitzen", "hat gesetzt / hat gesessen"],
+          ["hängen (hängte)", "hängen (hing)", "hat gehängt / hat gehangen"]
+        ]
+      },
+      "examples": [
+        { "de": "Ich stelle die Flasche in den Kühlschrank. Sie steht jetzt im Kühlschrank.", "en": "I put the bottle into the fridge. It is now in the fridge." },
+        { "de": "Ich lege das Handy auf den Tisch. Es liegt auf dem Tisch.", "en": "I put the phone on the table. It lies on the table." },
+        { "de": "Sie hängt das Bild an die Wand. Das Bild hängt an der Wand.", "en": "She hangs the picture on the wall. The picture hangs on the wall." }
+      ]
+    },
+    {
+      "heading": "Short forms",
+      "text": "As with the dative prepositions, articles merge with the preposition: **in dem → im, an dem → am, in das → ins, an das → ans, auf das → aufs**. Use them in everyday German. Remember: only the nine prepositions change; with **durch, für, gegen, ohne, um** it is always Akkusativ, with **aus, bei, mit, nach, seit, von, zu** always Dativ.",
+      "examples": [
+        { "de": "Das Sofa steht im Wohnzimmer.", "en": "The sofa is in the living room." },
+        { "de": "Wir stellen das Regal ins Schlafzimmer.", "en": "We put the shelf in the bedroom." },
+        { "de": "Der Teppich liegt zwischen dem Sofa und dem Tisch.", "en": "The carpet lies between the sofa and the table." }
+      ]
+    }
+  ],
+  "tip": "Ask yourself: is something moving to a new place? Then Wohin? + Akkusativ + a regular verb (stellen, legen). If nothing moves: Wo? + Dativ + stehen, liegen.",
+  "words": [
+    { "de": "Wohnzimmer", "en": "living room", "pos": "noun", "article": "das", "plural": "Wohnzimmer" },
+    { "de": "Schlafzimmer", "en": "bedroom", "pos": "noun", "article": "das", "plural": "Schlafzimmer" },
+    { "de": "Küche", "en": "kitchen", "pos": "noun", "article": "die", "plural": "Küchen" },
+    { "de": "Flur", "en": "hallway", "pos": "noun", "article": "der", "plural": "Flure" },
+    { "de": "Balkon", "en": "balcony", "pos": "noun", "article": "der", "plural": "Balkone" },
+    { "de": "Sofa", "en": "sofa", "pos": "noun", "article": "das", "plural": "Sofas" },
+    { "de": "Tisch", "en": "table", "pos": "noun", "article": "der", "plural": "Tische" },
+    { "de": "Stuhl", "en": "chair", "pos": "noun", "article": "der", "plural": "Stühle" },
+    { "de": "Regal", "en": "shelf", "pos": "noun", "article": "das", "plural": "Regale" },
+    { "de": "Schrank", "en": "wardrobe, cupboard", "pos": "noun", "article": "der", "plural": "Schränke" },
+    { "de": "Bett", "en": "bed", "pos": "noun", "article": "das", "plural": "Betten" },
+    { "de": "Lampe", "en": "lamp", "pos": "noun", "article": "die", "plural": "Lampen" },
+    { "de": "Teppich", "en": "carpet", "pos": "noun", "article": "der", "plural": "Teppiche" },
+    { "de": "Vorhang", "en": "curtain", "pos": "noun", "article": "der", "plural": "Vorhänge" },
+    { "de": "Bild", "en": "picture", "pos": "noun", "article": "das", "plural": "Bilder" },
+    { "de": "Wand", "en": "wall", "pos": "noun", "article": "die", "plural": "Wände" },
+    { "de": "Schreibtisch", "en": "desk", "pos": "noun", "article": "der", "plural": "Schreibtische" },
+    { "de": "stellen", "en": "to put (upright)", "pos": "verb", "aux": "haben", "p2": "gestellt" },
+    { "de": "stehen", "en": "to stand", "pos": "verb", "aux": "haben", "p2": "gestanden" },
+    { "de": "legen", "en": "to lay, to put (flat)", "pos": "verb", "aux": "haben", "p2": "gelegt" },
+    { "de": "liegen", "en": "to lie, to be located (flat)", "pos": "verb", "aux": "haben", "p2": "gelegen" },
+    { "de": "hängen", "en": "to hang (position)", "pos": "verb", "aux": "haben", "p2": "gehangen", "note": "hang something up: hängen → gehängt" },
+    { "de": "aufhängen", "en": "to hang up", "pos": "verb", "aux": "haben", "sep": "auf", "p2": "aufgehängt" },
+    { "de": "einrichten", "en": "to furnish, to set up", "pos": "verb", "aux": "haben", "sep": "ein", "p2": "eingerichtet" }
+  ],
+  "mindmap": {
+    "label": "Wechselpräpositionen",
+    "children": [
+      {
+        "label": "9 Präpositionen",
+        "children": [
+          { "label": "an auf hinter", "note": "am Fenster, auf dem Tisch" },
+          { "label": "in neben über", "note": "im Schrank, neben dem Sofa" },
+          { "label": "unter vor zwischen" }
+        ]
+      },
+      {
+        "label": "Wo? → Dativ",
+        "note": "position",
+        "children": [
+          { "label": "stehen, liegen, sitzen, hängen" },
+          { "label": "Das Buch liegt auf dem Tisch." }
+        ]
+      },
+      {
+        "label": "Wohin? → Akkusativ",
+        "note": "movement",
+        "children": [
+          { "label": "stellen, legen, setzen, hängen" },
+          { "label": "Ich lege das Buch auf den Tisch." }
+        ]
+      },
+      {
+        "label": "upright vs flat",
+        "children": [
+          { "label": "stellen / stehen", "note": "Flasche, Lampe, Schrank" },
+          { "label": "legen / liegen", "note": "Buch, Handy, Teppich" }
+        ]
+      },
+      {
+        "label": "Kurzformen",
+        "children": [
+          { "label": "im, am, ins, ans, aufs" }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "mc", "q": "Die Lampe steht auf ___ Tisch.", "options": ["dem", "den", "der"], "answer": 0, "explain": "The lamp stands there, no movement → Wo? → Dativ: auf dem Tisch (masculine)." },
+    { "type": "mc", "q": "Ich stelle die Lampe auf ___ Schreibtisch.", "options": ["den", "dem", "der"], "answer": 0, "explain": "stellen is movement to a new place → Wohin? → Akkusativ: auf den Schreibtisch." },
+    { "type": "mc", "q": "Das Handy ___ auf dem Sofa.", "options": ["liegt", "legt", "stellt"], "answer": 0, "explain": "A flat object that is simply there: liegen (position, Dativ). legen means to put it there." },
+    { "type": "gap", "q": "Ich lege die Jacke auf ___ Bett.", "answer": ["das"], "explain": "legen = movement → Akkusativ. Bett is neuter: das." },
+    { "type": "gap", "q": "Der Teppich liegt vor ___ Sofa.", "answer": ["dem"], "explain": "liegen = position → Dativ. Sofa is neuter: dem Sofa." },
+    { "type": "gap", "q": "Wir stellen den Schrank in ___ Schlafzimmer.", "answer": ["das"], "explain": "stellen = movement → Akkusativ. Schlafzimmer is neuter: in das Schlafzimmer (ins Schlafzimmer)." },
+    { "type": "article", "word": "Regal", "answer": "das", "explain": "das Regal, plural die Regale." },
+    { "type": "article", "word": "Flur", "answer": "der", "explain": "der Flur, plural die Flure." },
+    { "type": "order", "words": ["Ich", "stelle", "das Sofa", "an die Wand"], "answer": "Ich stelle das Sofa an die Wand", "explain": "Movement: stellen + Akkusativ. Wand is feminine: an die Wand." },
+    { "type": "order", "words": ["Das Regal", "steht", "im Wohnzimmer", "neben dem Fenster"], "answer": "Das Regal steht im Wohnzimmer neben dem Fenster", "explain": "Position: Dativ after stehen. Both im (in dem) and neben dem are dative." },
+    { "type": "match", "pairs": [["stellen", "wohin? (upright)"], ["stehen", "wo? (upright)"], ["legen", "wohin? (flat)"], ["liegen", "wo? (flat)"], ["setzen", "wohin? (sitting)"]], "explain": "Verbs with movement (stellen, legen, setzen) take Akkusativ; the position verbs take Dativ." },
+    { "type": "translate", "en": "The lamp is standing on the desk.", "answer": ["Die Lampe steht auf dem Schreibtisch"], "explain": "Position → Dativ: auf dem Schreibtisch (masculine)." },
+    { "type": "translate", "en": "I am hanging the picture on the wall.", "answer": ["Ich hänge das Bild an die Wand"], "explain": "Movement (hanging it up) → Akkusativ: an die Wand (feminine)." }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Das Sofa steht im Wohnzimmer vor dem Fenster.", "en": "The sofa is in the living room in front of the window." },
+      { "de": "Ich stelle das Regal an die Wand.", "en": "I am putting the shelf against the wall." },
+      { "de": "Die Bücher liegen auf dem Schreibtisch.", "en": "The books are lying on the desk." },
+      { "de": "Wohin soll ich den Karton stellen?", "en": "Where should I put the box?" },
+      { "de": "Das Bild hängt über dem Bett.", "en": "The picture hangs above the bed." }
+    ],
+    "prompts": [
+      { "q": "Du ziehst in eine neue WG. Ein Freund fragt: Wohin soll ich den Tisch stellen?", "qEn": "You are moving into a new shared flat. A friend asks: where should I put the table?", "model": "Stell den Tisch bitte in die Küche, neben das Fenster. Die Stühle stellst du um den Tisch.", "hint": "Stell … in die / in das / an … Bitte stell …" },
+      { "q": "Beschreibe dein Zimmer. Was steht wo?", "qEn": "Describe your room. What is where?", "model": "In meinem Zimmer steht ein Bett an der Wand. Der Schreibtisch steht am Fenster und auf dem Schreibtisch liegt mein Laptop.", "hint": "Das Bett steht … Auf dem Tisch liegt …" },
+      { "q": "Der Vermieter fragt: Wo ist der Schlüssel?", "qEn": "The landlord asks: where is the key?", "model": "Der Schlüssel liegt auf dem Regal im Flur. Ich lege ihn dir gleich auf den Tisch.", "hint": "Er liegt auf / in / neben …" }
+    ]
+  }
+}

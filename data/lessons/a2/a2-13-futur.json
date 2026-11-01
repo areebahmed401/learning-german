@@ -1,0 +1,143 @@
+{
+  "id": "a2-13-futur",
+  "level": "A2",
+  "title": "Futur I",
+  "concept": "Talking about the future and plans",
+  "wordlist": "Zukunft & Pläne",
+  "minutes": 25,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+A2+Futur+I+werden+Infinitiv+Pl%C3%A4ne",
+  "learn": [
+    {
+      "heading": "werden + infinitive",
+      "text": "The **Futur I** is built with **werden** in position 2 and the **infinitive at the end** of the sentence: **Ich werde nächstes Jahr umziehen.** It expresses plans, promises, predictions and assumptions. Do not confuse it with **werden** as a full verb (to become), which works the same way in the present: *Es wird kalt.*",
+      "table": {
+        "head": ["Subject", "werden", "Example"],
+        "rows": [
+          ["ich", "werde", "Ich werde mehr sparen."],
+          ["du", "wirst", "Du wirst die Prüfung schaffen."],
+          ["er / sie / es", "wird", "Sie wird bald umziehen."],
+          ["wir", "werden", "Wir werden ein Haus kaufen."],
+          ["ihr", "werdet", "Ihr werdet das sehen."],
+          ["sie / Sie", "werden", "Sie werden es erreichen."]
+        ]
+      },
+      "examples": [
+        { "de": "Nächstes Jahr werde ich meine Prüfung machen.", "en": "Next year I will take my exam." },
+        { "de": "Meine Schwester wird bald in Aachen arbeiten.", "en": "My sister will soon be working in Aachen." },
+        { "de": "Wir werden im Sommer nach Pakistan fliegen.", "en": "We will fly to Pakistan in the summer." }
+      ]
+    },
+    {
+      "heading": "Present tense with a time word is more common",
+      "text": "In everyday German you often use the **Präsens plus a future time word**: *Morgen fahre ich nach Köln. Nächste Woche beginnt der Kurs.* Use the Futur I when you want to stress a **decision, promise or prediction**, or when there is **no time word**. With **wohl**, **bestimmt**, **sicher** and **wahrscheinlich** it expresses an assumption: *Er wird wohl krank sein.*",
+      "examples": [
+        { "de": "Morgen fahre ich nach Köln.", "en": "Tomorrow I am going to Cologne." },
+        { "de": "Ich werde dich nicht vergessen, das verspreche ich.", "en": "I will not forget you, I promise." },
+        { "de": "Es wird morgen wohl regnen.", "en": "It will probably rain tomorrow." },
+        { "de": "Du wirst die Prüfung bestimmt schaffen.", "en": "You will certainly pass the exam." }
+      ]
+    },
+    {
+      "heading": "Useful words for plans",
+      "text": "Time words help you talk about plans: **bald** (soon), **später**, **nächstes Jahr**, **in zwei Jahren**, **irgendwann** (someday). Ask: *Was hast du vor?* (What do you plan?) with the verb **vorhaben**. To say what you want, use **wollen** or **planen**; to say what you would like in the future, you can also use **werden**.",
+      "examples": [
+        { "de": "Was hast du nächstes Jahr vor?", "en": "What are you planning for next year?" },
+        { "de": "Ich habe vor, in zwei Jahren ein Haus zu kaufen.", "en": "I plan to buy a house in two years." },
+        { "de": "Irgendwann werde ich meine eigene Firma gründen.", "en": "Someday I will start my own company." }
+      ]
+    }
+  ],
+  "tip": "Say your plans out loud every Sunday evening: 'Diese Woche werde ich …' plus three infinitives. Practice one sentence with werden and two with the present and a time word.",
+  "words": [
+    { "de": "Zukunft", "en": "future", "pos": "noun", "article": "die", "plural": "-", "note": "no plural" },
+    { "de": "Plan", "en": "plan", "pos": "noun", "article": "der", "plural": "Pläne" },
+    { "de": "Ziel", "en": "goal, aim", "pos": "noun", "article": "das", "plural": "Ziele" },
+    { "de": "Traum", "en": "dream", "pos": "noun", "article": "der", "plural": "Träume" },
+    { "de": "Wunsch", "en": "wish", "pos": "noun", "article": "der", "plural": "Wünsche" },
+    { "de": "Karriere", "en": "career", "pos": "noun", "article": "die", "plural": "Karrieren" },
+    { "de": "Prüfung", "en": "exam", "pos": "noun", "article": "die", "plural": "Prüfungen" },
+    { "de": "Umzug", "en": "move (to a new home)", "pos": "noun", "article": "der", "plural": "Umzüge" },
+    { "de": "Haus", "en": "house", "pos": "noun", "article": "das", "plural": "Häuser" },
+    { "de": "Ausbildung", "en": "vocational training", "pos": "noun", "article": "die", "plural": "Ausbildungen" },
+    { "de": "Einbürgerung", "en": "naturalisation", "pos": "noun", "article": "die", "plural": "Einbürgerungen" },
+    { "de": "werden", "en": "to become; will", "pos": "verb", "aux": "sein", "p2": "geworden" },
+    { "de": "planen", "en": "to plan", "pos": "verb", "aux": "haben", "p2": "geplant" },
+    { "de": "vorhaben", "en": "to intend, to have planned", "pos": "verb", "aux": "haben", "sep": "vor", "p2": "vorgehabt" },
+    { "de": "erreichen", "en": "to reach, to achieve", "pos": "verb", "aux": "haben", "p2": "erreicht" },
+    { "de": "ausziehen", "en": "to move out", "pos": "verb", "aux": "sein", "sep": "aus", "p2": "ausgezogen" },
+    { "de": "schaffen", "en": "to manage, to make it", "pos": "verb", "aux": "haben", "p2": "geschafft" },
+    { "de": "bestehen", "en": "to pass (an exam)", "pos": "verb", "aux": "haben", "p2": "bestanden" },
+    { "de": "sparen", "en": "to save (money)", "pos": "verb", "aux": "haben", "p2": "gespart" },
+    { "de": "gründen", "en": "to found, to start", "pos": "verb", "aux": "haben", "p2": "gegründet" },
+    { "de": "bald", "en": "soon", "pos": "adv" },
+    { "de": "später", "en": "later", "pos": "adv" },
+    { "de": "irgendwann", "en": "someday, at some point", "pos": "adv" },
+    { "de": "bestimmt", "en": "certainly, surely", "pos": "adv" },
+    { "de": "nächstes Jahr", "en": "next year", "pos": "phrase" }
+  ],
+  "mindmap": {
+    "label": "Futur I",
+    "children": [
+      {
+        "label": "Bauplan",
+        "children": [
+          { "label": "werden (Position 2)" },
+          { "label": "Infinitiv am Ende", "note": "Ich werde lernen." }
+        ]
+      },
+      {
+        "label": "werden",
+        "children": [
+          { "label": "ich werde, du wirst" },
+          { "label": "er wird, wir werden" },
+          { "label": "ihr werdet, sie werden" }
+        ]
+      },
+      {
+        "label": "Wann benutzen?",
+        "children": [
+          { "label": "Pläne und Versprechen", "note": "Ich werde dich anrufen." },
+          { "label": "Vermutung", "note": "wohl, bestimmt, sicher" },
+          { "label": "meistens Präsens + Zeitwort", "note": "Morgen fahre ich." }
+        ]
+      },
+      {
+        "label": "Zeitwörter",
+        "children": [
+          { "label": "bald, später, irgendwann" },
+          { "label": "nächstes Jahr, in zwei Jahren" }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "mc", "q": "Nächstes Jahr ___ ich den Deutschtest bestehen.", "options": ["werde", "wurde", "bin"], "answer": 0, "explain": "Futur I: werden in the present + infinitive at the end. wurde is Präteritum." },
+    { "type": "mc", "q": "Er ___ bald umziehen.", "options": ["wird", "werden", "wirst"], "answer": 0, "explain": "er/sie/es → wird." },
+    { "type": "mc", "q": "Where does the infinitive go in the Futur I?", "options": ["Position 2", "The end of the sentence", "Before werden"], "answer": 1, "explain": "werden takes position 2 and the infinitive goes to the end: Ich werde nächstes Jahr umziehen." },
+    { "type": "gap", "q": "Wir ___ im Sommer nach Pakistan fliegen.", "answer": ["werden"], "explain": "wir → werden." },
+    { "type": "gap", "q": "Du ___ die Prüfung bestimmt schaffen.", "answer": ["wirst"], "explain": "du → wirst (irregular, with the vowel change e → i)." },
+    { "type": "gap", "q": "Ihr ___ nächste Woche umziehen.", "answer": ["werdet"], "explain": "ihr → werdet." },
+    { "type": "gap", "q": "Ich werde nächstes Jahr mehr Geld ___. (sparen)", "answer": ["sparen"], "explain": "After werden the verb stays in the infinitive, at the end of the sentence." },
+    { "type": "article", "word": "Plan", "answer": "der", "explain": "der Plan, plural die Pläne." },
+    { "type": "article", "word": "Prüfung", "answer": "die", "explain": "Nouns ending in -ung are always feminine." },
+    { "type": "order", "words": ["Nächstes Jahr", "werde", "ich", "meine Prüfung", "machen"], "answer": "Nächstes Jahr werde ich meine Prüfung machen", "explain": "Time word first, then werden in position 2, subject, and the infinitive at the end." },
+    { "type": "order", "words": ["Wir", "werden", "im Sommer", "ein Haus", "kaufen"], "answer": "Wir werden im Sommer ein Haus kaufen", "explain": "werden is in position 2, the infinitive kaufen is at the very end." },
+    { "type": "match", "pairs": [["ich werde", "I will"], ["du wirst", "you will"], ["er wird", "he will"], ["wir werden", "we will"], ["ihr werdet", "you (pl.) will"]], "explain": "Only du and er/sie/es change the stem vowel (wirst, wird)." },
+    { "type": "translate", "en": "I will start a new job next month.", "answer": ["Ich werde nächsten Monat einen neuen Job anfangen", "Ich werde nächsten Monat eine neue Stelle anfangen", "Ich werde nächsten Monat eine neue Arbeit anfangen", "Nächsten Monat werde ich einen neuen Job anfangen", "Nächsten Monat werde ich eine neue Stelle anfangen"], "explain": "werden in position 2, infinitive anfangen at the end (the separable verb is not split)." },
+    { "type": "translate", "en": "It will probably rain tomorrow.", "answer": ["Morgen wird es wohl regnen", "Es wird morgen wohl regnen", "Morgen wird es wahrscheinlich regnen", "Es wird morgen wahrscheinlich regnen"], "explain": "Futur I with wohl / wahrscheinlich expresses an assumption." }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Nächstes Jahr werde ich meine Deutschprüfung machen.", "en": "Next year I will take my German exam." },
+      { "de": "Ich werde mehr Geld sparen und im Sommer verreisen.", "en": "I will save more money and travel in the summer." },
+      { "de": "Meine Familie wird mich bald in Aachen besuchen.", "en": "My family will visit me in Aachen soon." },
+      { "de": "Irgendwann werde ich ein eigenes Haus haben.", "en": "Someday I will have my own house." },
+      { "de": "Was hast du am Wochenende vor?", "en": "What are you planning for the weekend?" }
+    ],
+    "prompts": [
+      { "q": "Was sind deine Pläne für die nächsten zwei Jahre?", "qEn": "What are your plans for the next two years?", "model": "In den nächsten zwei Jahren werde ich meine Deutschprüfung bestehen. Ich werde auch befördert und dann ziehe ich vielleicht in eine größere Wohnung um.", "hint": "Ich werde … Dann werde ich …" },
+      { "q": "Ein Kollege fragt: Was hast du im Urlaub vor?", "qEn": "A coworker asks: what are you planning to do on holiday?", "model": "Im Urlaub werde ich nach Pakistan fliegen und meine Eltern besuchen. Wir werden viel zusammen essen und ich werde mich gut erholen.", "hint": "Ich werde … fliegen / besuchen / mich erholen." },
+      { "q": "Beim Vorstellungsgespräch: Wo sehen Sie sich in fünf Jahren?", "qEn": "At a job interview: where do you see yourself in five years?", "model": "In fünf Jahren werde ich hoffentlich Projektleiter sein. Ich werde viel lernen und neue Erfahrungen sammeln. Vielleicht werde ich auch eine Weiterbildung machen.", "hint": "In fünf Jahren werde ich … sein. Ich werde … lernen." }
+    ]
+  }
+}

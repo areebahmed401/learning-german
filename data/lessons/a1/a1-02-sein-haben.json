@@ -1,0 +1,174 @@
+{
+  "id": "a1-02-sein-haben",
+  "level": "A1",
+  "title": "sein & haben",
+  "concept": "Personal pronouns, sein & haben",
+  "wordlist": "Länder & Sprachen",
+  "minutes": 25,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+A1+sein+haben+personal+pronouns",
+  "learn": [
+    {
+      "heading": "Personal pronouns",
+      "text": "The pronoun tells you who does the action. German has **du** (informal, one person), **ihr** (informal, several people) and **Sie** (formal, one or more people, always with a capital S). Do not mix up **sie** (she / they) and **Sie** (you, formal): the verb ending helps you tell them apart. **es** is used for things and neuter nouns: *Das Kind? Es schläft.*",
+      "table": {
+        "head": ["singular", "plural"],
+        "rows": [
+          ["ich (I)", "wir (we)"],
+          ["du (you, informal)", "ihr (you all, informal)"],
+          ["er / sie / es (he / she / it)", "sie (they)"],
+          ["Sie (you, formal)", "Sie (you, formal)"]
+        ]
+      },
+      "examples": [
+        { "de": "Wir kommen aus Pakistan.", "en": "We come from Pakistan." },
+        { "de": "Ihr seid heute früh!", "en": "You (all) are early today!" },
+        { "de": "Sie ist Ärztin, sie arbeitet in Aachen.", "en": "She is a doctor, she works in Aachen." }
+      ]
+    },
+    {
+      "heading": "sein: to be",
+      "text": "**sein** is the most important verb and it is irregular, so learn it by heart. Use it for names, origin, jobs, feelings and states. Jobs have no article: *Ich bin Ingenieur.* Origin: *Ich bin aus …* or *Ich komme aus …*.",
+      "table": {
+        "head": ["pronoun", "sein"],
+        "rows": [
+          ["ich", "bin"],
+          ["du", "bist"],
+          ["er / sie / es", "ist"],
+          ["wir", "sind"],
+          ["ihr", "seid"],
+          ["sie / Sie", "sind"]
+        ]
+      },
+      "examples": [
+        { "de": "Ich bin Ingenieur und bin 29 Jahre alt.", "en": "I am an engineer and I am 29 years old." },
+        { "de": "Bist du müde?", "en": "Are you tired?" },
+        { "de": "Meine Kollegen sind nett.", "en": "My colleagues are nice." },
+        { "de": "Woher sind Sie?", "en": "Where are you from?" }
+      ]
+    },
+    {
+      "heading": "haben: to have",
+      "text": "**haben** is also irregular (note **du hast**, **er hat**: the b disappears). Use it for possession and for fixed phrases: *Ich habe Hunger / Durst / Zeit / Fragen.* Age is the exception: it uses *sein* (*Ich bin 29*). After haben, a masculine noun takes **einen** (*Ich habe einen Bruder*); you will learn why in the lesson on the Akkusativ.",
+      "table": {
+        "head": ["pronoun", "haben"],
+        "rows": [
+          ["ich", "habe"],
+          ["du", "hast"],
+          ["er / sie / es", "hat"],
+          ["wir", "haben"],
+          ["ihr", "habt"],
+          ["sie / Sie", "haben"]
+        ]
+      },
+      "examples": [
+        { "de": "Ich habe heute einen Termin beim Arzt.", "en": "I have an appointment at the doctor's today." },
+        { "de": "Hast du Zeit?", "en": "Do you have time?" },
+        { "de": "Sie hat zwei Schwestern.", "en": "She has two sisters." },
+        { "de": "Wir haben Hunger.", "en": "We are hungry." }
+      ]
+    }
+  ],
+  "tip": "Ask the two questions every German asks a newcomer: \"Woher kommst du?\" and \"Welche Sprachen sprichst du?\" Write your own answers with sein and haben today and say them out loud.",
+  "words": [
+    { "de": "Land", "en": "country", "pos": "noun", "article": "das", "plural": "Länder" },
+    { "de": "Sprache", "en": "language", "pos": "noun", "article": "die", "plural": "Sprachen" },
+    { "de": "Deutschland", "en": "Germany", "pos": "noun", "article": "das", "plural": "-", "note": "no article in sentences" },
+    { "de": "Österreich", "en": "Austria", "pos": "noun", "article": "das", "plural": "-", "note": "no article in sentences" },
+    { "de": "Schweiz", "en": "Switzerland", "pos": "noun", "article": "die", "plural": "-", "note": "in der Schweiz" },
+    { "de": "Pakistan", "en": "Pakistan", "pos": "noun", "article": "das", "plural": "-", "note": "no article in sentences" },
+    { "de": "Türkei", "en": "Turkey", "pos": "noun", "article": "die", "plural": "-", "note": "in der Türkei" },
+    { "de": "Deutsch", "en": "German (language)", "pos": "noun", "article": "das", "plural": "-" },
+    { "de": "Englisch", "en": "English (language)", "pos": "noun", "article": "das", "plural": "-" },
+    { "de": "Muttersprache", "en": "native language", "pos": "noun", "article": "die", "plural": "Muttersprachen" },
+    { "de": "Staatsangehörigkeit", "en": "nationality", "pos": "noun", "article": "die", "plural": "Staatsangehörigkeiten" },
+    { "de": "sein", "en": "to be", "pos": "verb", "aux": "sein", "p2": "gewesen" },
+    { "de": "haben", "en": "to have", "pos": "verb", "aux": "haben", "p2": "gehabt" },
+    { "de": "kommen", "en": "to come", "pos": "verb", "aux": "sein", "p2": "gekommen" },
+    { "de": "sprechen", "en": "to speak", "pos": "verb", "aux": "haben", "p2": "gesprochen" },
+    { "de": "wohnen", "en": "to live (reside)", "pos": "verb", "aux": "haben", "p2": "gewohnt" },
+    { "de": "lernen", "en": "to learn", "pos": "verb", "aux": "haben", "p2": "gelernt" },
+    { "de": "verstehen", "en": "to understand", "pos": "verb", "aux": "haben", "p2": "verstanden" },
+    { "de": "deutsch", "en": "German (adj.)", "pos": "adj" },
+    { "de": "englisch", "en": "English (adj.)", "pos": "adj" },
+    { "de": "pakistanisch", "en": "Pakistani", "pos": "adj" },
+    { "de": "aus", "en": "from; out of", "pos": "prep" },
+    { "de": "woher", "en": "where from", "pos": "adv" },
+    { "de": "auch", "en": "also; too", "pos": "adv" }
+  ],
+  "mindmap": {
+    "label": "sein & haben",
+    "children": [
+      {
+        "label": "Pronouns",
+        "children": [
+          { "label": "ich · du · er/sie/es" },
+          { "label": "wir · ihr · sie" },
+          { "label": "Sie (formal)", "note": "capital S" }
+        ]
+      },
+      {
+        "label": "sein",
+        "note": "irregular",
+        "children": [
+          { "label": "bin · bist · ist", "note": "ich · du · er" },
+          { "label": "sind · seid · sind", "note": "wir · ihr · sie" },
+          { "label": "use", "note": "name, origin, job, feelings" }
+        ]
+      },
+      {
+        "label": "haben",
+        "note": "irregular",
+        "children": [
+          { "label": "habe · hast · hat", "note": "ich · du · er" },
+          { "label": "haben · habt · haben", "note": "wir · ihr · sie" },
+          { "label": "use", "note": "possession, Hunger, Zeit, Termin" }
+        ]
+      },
+      {
+        "label": "Origin",
+        "children": [
+          { "label": "Ich komme aus …" },
+          { "label": "Ich bin aus …" },
+          { "label": "Woher kommst du?" }
+        ]
+      },
+      {
+        "label": "Languages",
+        "children": [
+          { "label": "Ich spreche Deutsch." },
+          { "label": "Meine Muttersprache ist …" }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "gap", "q": "Ich ___ Ingenieur.", "answer": ["bin"], "explain": "sein with ich: ich bin." },
+    { "type": "gap", "q": "Wir ___ aus Pakistan.", "answer": ["sind", "kommen"], "explain": "sein with wir is sind. Wir kommen aus Pakistan is also correct." },
+    { "type": "gap", "q": "Du ___ heute Zeit.", "answer": ["hast"], "explain": "haben with du: du hast (no b)." },
+    { "type": "gap", "q": "Er ___ einen Termin beim Arzt.", "answer": ["hat"], "explain": "haben with er/sie/es: hat." },
+    { "type": "gap", "q": "Ihr ___ sehr nett.", "answer": ["seid"], "explain": "sein with ihr: ihr seid." },
+    { "type": "mc", "q": "Which pronoun do you use for your landlord (formal)?", "options": ["du", "ihr", "Sie"], "answer": 2, "explain": "Strangers and authority figures get the formal Sie, always with a capital S." },
+    { "type": "mc", "q": "\"Sie sind Ärztin.\" Who is meant?", "options": ["She (is a doctor)", "You, formal (are a doctor)", "I (am a doctor)"], "answer": 1, "explain": "sind fits Sie (you, formal) or sie (they). \"She is\" would be sie ist." },
+    { "type": "mc", "q": "Which sentence is correct?", "options": ["Ich habe 29 Jahre alt.", "Ich bin 29 Jahre alt.", "Ich bin Hunger."], "answer": 1, "explain": "Age uses sein: Ich bin 29 Jahre alt. Hunger uses haben: Ich habe Hunger." },
+    { "type": "match", "pairs": [["ich", "bin"], ["du", "bist"], ["er", "ist"], ["wir", "sind"], ["ihr", "seid"]], "explain": "sein is irregular: learn all six forms as a set." },
+    { "type": "match", "pairs": [["Deutschland", "Germany"], ["die Schweiz", "Switzerland"], ["die Türkei", "Turkey"], ["Österreich", "Austria"], ["die Sprache", "language"]], "explain": "Most countries have no article; a few like die Schweiz and die Türkei do." },
+    { "type": "article", "word": "Sprache", "answer": "die", "explain": "Nouns ending in -e are mostly feminine: die Sprache." },
+    { "type": "order", "words": ["aus", "komme", "Ich", "Pakistan"], "answer": "Ich komme aus Pakistan", "explain": "Statement: subject, verb in position 2, then the rest." },
+    { "type": "order", "words": ["Sie", "Woher", "kommen"], "answer": "Woher kommen Sie", "explain": "W-question: question word first, verb second, then the subject." },
+    { "type": "translate", "en": "I am an engineer and I speak German and English.", "answer": ["Ich bin Ingenieur und ich spreche Deutsch und Englisch", "Ich bin Ingenieur und spreche Deutsch und Englisch"], "explain": "Jobs have no article after sein. sprechen is irregular only for du/er (du sprichst), so ich spreche." }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Ich bin Ahmed und ich komme aus Pakistan.", "en": "I am Ahmed and I come from Pakistan." },
+      { "de": "Ich wohne jetzt in Aachen.", "en": "I live in Aachen now." },
+      { "de": "Meine Muttersprache ist Urdu.", "en": "My native language is Urdu." },
+      { "de": "Ich spreche ein bisschen Deutsch und gut Englisch.", "en": "I speak a little German and good English." },
+      { "de": "Haben Sie Zeit? Ich habe eine Frage.", "en": "Do you have time? I have a question." }
+    ],
+    "prompts": [
+      { "q": "Woher kommen Sie?", "qEn": "Where are you from? (small talk at a Uni event)", "model": "Ich komme aus Pakistan. Und Sie?", "hint": "Ich komme aus …" },
+      { "q": "Welche Sprachen sprichst du?", "qEn": "Which languages do you speak? (new coworker at work)", "model": "Ich spreche Urdu, Englisch und ein bisschen Deutsch.", "hint": "Ich spreche …" },
+      { "q": "Was sind Sie von Beruf?", "qEn": "What do you do for a living? (at the Ausländerbehörde)", "model": "Ich bin Ingenieur. Ich arbeite in Aachen.", "hint": "Ich bin …" }
+    ]
+  }
+}

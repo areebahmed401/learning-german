@@ -1,0 +1,165 @@
+{
+  "id": "a2-01-perfekt",
+  "level": "A2",
+  "title": "Perfekt komplett",
+  "concept": "Perfekt with haben/sein and irregular participles",
+  "wordlist": "Reisen",
+  "minutes": 30,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+A2+Perfekt+haben+sein+Partizip+II",
+  "learn": [
+    {
+      "heading": "Building the Partizip II",
+      "text": "The Perfekt is the normal past tense in spoken German. It needs **haben** or **sein** in position 2 and the **Partizip II** at the very end of the sentence. Regular (weak) verbs end in **-t**, irregular (strong) verbs end in **-en** and often change the stem. You have to learn the strong ones one by one.",
+      "table": {
+        "head": ["Type", "Rule", "Example"],
+        "rows": [
+          ["regular", "ge- + stem + -t", "machen → gemacht"],
+          ["irregular", "ge- + stem (often changed) + -en", "sehen → gesehen, nehmen → genommen"],
+          ["separable", "prefix + ge + stem", "einsteigen → eingestiegen"],
+          ["inseparable (be-, ver-, er-, ent-)", "no ge-", "besuchen → besucht, verstehen → verstanden"],
+          ["-ieren", "no ge-", "reservieren → reserviert"],
+          ["mixed", "ge- + changed stem + -t", "bringen → gebracht, denken → gedacht"]
+        ]
+      },
+      "examples": [
+        { "de": "Ich habe das Zimmer online gebucht.", "en": "I booked the room online." },
+        { "de": "Wir haben in einem kleinen Hotel übernachtet.", "en": "We stayed overnight in a small hotel." },
+        { "de": "Der Zug ist um acht Uhr angekommen.", "en": "The train arrived at eight o'clock." },
+        { "de": "Hast du schon einen Tisch reserviert?", "en": "Have you already reserved a table?" }
+      ]
+    },
+    {
+      "heading": "haben or sein?",
+      "text": "Most verbs use **haben**. Use **sein** for (1) verbs of **movement from A to B** (fahren, fliegen, gehen, kommen, laufen), (2) verbs of **change of state** (aufstehen, einschlafen, werden) and (3) the verbs **sein, bleiben** and **passieren**. If a verb has a direct object (Akkusativ), it almost always takes haben: *Ich habe das Auto gefahren.* But: *Ich bin nach Köln gefahren.*",
+      "examples": [
+        { "de": "Wir sind letzten Sommer nach Italien geflogen.", "en": "We flew to Italy last summer." },
+        { "de": "Ich bin um sechs Uhr aufgestanden.", "en": "I got up at six o'clock." },
+        { "de": "Sie ist drei Tage in Berlin geblieben.", "en": "She stayed in Berlin for three days." },
+        { "de": "Was ist passiert?", "en": "What happened?" }
+      ]
+    },
+    {
+      "heading": "Irregular participles to learn",
+      "text": "These verbs appear every day. Learn them as a set: infinitive, Partizip II and the auxiliary. For *sein* and *haben* people usually use the Präteritum (*ich war, ich hatte*) instead of the Perfekt.",
+      "table": {
+        "head": ["Infinitive", "Partizip II", "Perfekt (er)"],
+        "rows": [
+          ["fahren", "gefahren", "ist gefahren"],
+          ["fliegen", "geflogen", "ist geflogen"],
+          ["gehen", "gegangen", "ist gegangen"],
+          ["kommen", "gekommen", "ist gekommen"],
+          ["bleiben", "geblieben", "ist geblieben"],
+          ["laufen", "gelaufen", "ist gelaufen"],
+          ["essen", "gegessen", "hat gegessen"],
+          ["trinken", "getrunken", "hat getrunken"],
+          ["schlafen", "geschlafen", "hat geschlafen"],
+          ["nehmen", "genommen", "hat genommen"],
+          ["sprechen", "gesprochen", "hat gesprochen"],
+          ["finden", "gefunden", "hat gefunden"]
+        ]
+      },
+      "examples": [
+        { "de": "Ich habe im Zug nicht gut geschlafen.", "en": "I did not sleep well on the train." },
+        { "de": "Wir haben ein Taxi genommen.", "en": "We took a taxi." }
+      ]
+    }
+  ],
+  "tip": "Never learn a participle alone. Put the auxiliary on the Anki card: 'fahren – ist gefahren', 'essen – hat gegessen'. Then haben/sein comes automatically.",
+  "words": [
+    { "de": "Reise", "en": "trip, journey", "pos": "noun", "article": "die", "plural": "Reisen" },
+    { "de": "Urlaub", "en": "holiday, vacation", "pos": "noun", "article": "der", "plural": "Urlaube" },
+    { "de": "Koffer", "en": "suitcase", "pos": "noun", "article": "der", "plural": "Koffer" },
+    { "de": "Flughafen", "en": "airport", "pos": "noun", "article": "der", "plural": "Flughäfen" },
+    { "de": "Bahnhof", "en": "train station", "pos": "noun", "article": "der", "plural": "Bahnhöfe" },
+    { "de": "Fahrkarte", "en": "ticket (train, bus)", "pos": "noun", "article": "die", "plural": "Fahrkarten" },
+    { "de": "Hotel", "en": "hotel", "pos": "noun", "article": "das", "plural": "Hotels" },
+    { "de": "Ausflug", "en": "day trip, excursion", "pos": "noun", "article": "der", "plural": "Ausflüge" },
+    { "de": "Strand", "en": "beach", "pos": "noun", "article": "der", "plural": "Strände" },
+    { "de": "Reisepass", "en": "passport", "pos": "noun", "article": "der", "plural": "Reisepässe" },
+    { "de": "Sehenswürdigkeit", "en": "sight, attraction", "pos": "noun", "article": "die", "plural": "Sehenswürdigkeiten" },
+    { "de": "verreisen", "en": "to go away on a trip", "pos": "verb", "aux": "sein", "p2": "verreist" },
+    { "de": "fliegen", "en": "to fly", "pos": "verb", "aux": "sein", "p2": "geflogen" },
+    { "de": "fahren", "en": "to drive, to go (by vehicle)", "pos": "verb", "aux": "sein", "p2": "gefahren" },
+    { "de": "ankommen", "en": "to arrive", "pos": "verb", "aux": "sein", "sep": "an", "p2": "angekommen" },
+    { "de": "abfahren", "en": "to depart", "pos": "verb", "aux": "sein", "sep": "ab", "p2": "abgefahren" },
+    { "de": "einsteigen", "en": "to get on, to board", "pos": "verb", "aux": "sein", "sep": "ein", "p2": "eingestiegen" },
+    { "de": "aussteigen", "en": "to get off", "pos": "verb", "aux": "sein", "sep": "aus", "p2": "ausgestiegen" },
+    { "de": "buchen", "en": "to book", "pos": "verb", "aux": "haben", "p2": "gebucht" },
+    { "de": "besichtigen", "en": "to visit, to sightsee", "pos": "verb", "aux": "haben", "p2": "besichtigt" },
+    { "de": "übernachten", "en": "to stay overnight", "pos": "verb", "aux": "haben", "p2": "übernachtet" },
+    { "de": "packen", "en": "to pack", "pos": "verb", "aux": "haben", "p2": "gepackt" },
+    { "de": "unterwegs", "en": "on the way, out and about", "pos": "adv" }
+  ],
+  "mindmap": {
+    "label": "Perfekt",
+    "children": [
+      {
+        "label": "Bauplan",
+        "note": "aux in position 2, Partizip II at the end",
+        "children": [
+          { "label": "haben + Partizip II", "note": "Ich habe gebucht." },
+          { "label": "sein + Partizip II", "note": "Ich bin geflogen." }
+        ]
+      },
+      {
+        "label": "sein",
+        "note": "movement, change, sein/bleiben",
+        "children": [
+          { "label": "movement A → B", "note": "fahren, fliegen, gehen" },
+          { "label": "change of state", "note": "aufstehen, einschlafen" },
+          { "label": "sein, bleiben, passieren" }
+        ]
+      },
+      {
+        "label": "Partizip II",
+        "children": [
+          { "label": "regular: ge…t", "note": "gemacht, gebucht" },
+          { "label": "irregular: ge…en", "note": "gesehen, genommen" },
+          { "label": "separable: prefix + ge", "note": "angekommen" }
+        ]
+      },
+      {
+        "label": "no ge-",
+        "children": [
+          { "label": "be- ver- er- ent-", "note": "besucht, verstanden" },
+          { "label": "-ieren", "note": "reserviert" }
+        ]
+      },
+      {
+        "label": "Position",
+        "children": [
+          { "label": "time first?", "note": "Gestern habe ich … gebucht." }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "mc", "q": "Gestern ___ ich nach Köln gefahren.", "options": ["bin", "habe", "war"], "answer": 0, "explain": "fahren is a movement verb (A → B) without an object, so it takes sein: ich bin gefahren." },
+    { "type": "mc", "q": "What is the Partizip II of 'aufstehen'?", "options": ["aufgestanden", "geaufstanden", "aufgestehen"], "answer": 0, "explain": "Separable verb: the ge- goes between prefix and stem (auf + ge + standen). Stehen is irregular, so -en." },
+    { "type": "mc", "q": "Which sentence is correct?", "options": ["Wir haben in einem Hotel übernachtet.", "Wir sind in einem Hotel übernachtet.", "Wir haben in einem Hotel geübernachtet."], "answer": 0, "explain": "übernachten is inseparable (über-), so no ge-, and it is not a movement verb, so haben." },
+    { "type": "gap", "q": "Der Zug ist pünktlich ___. (ankommen)", "answer": ["angekommen"], "explain": "Separable verb: an + ge + kommen = angekommen; ankommen takes sein." },
+    { "type": "gap", "q": "Ich habe die Fahrkarte online ___. (buchen)", "answer": ["gebucht"], "explain": "buchen is regular: ge- + buch + -t." },
+    { "type": "gap", "q": "Wir ___ am Wochenende nach Hamburg gefahren.", "answer": ["sind"], "explain": "Movement from A to B (nach Hamburg) → sein: wir sind gefahren." },
+    { "type": "article", "word": "Koffer", "answer": "der", "explain": "Many nouns ending in -er for objects are masculine: der Koffer." },
+    { "type": "article", "word": "Reise", "answer": "die", "explain": "Most nouns ending in -e are feminine: die Reise." },
+    { "type": "order", "words": ["Wir", "sind", "letzten Sommer", "nach Italien", "geflogen"], "answer": "Wir sind letzten Sommer nach Italien geflogen", "explain": "The auxiliary stays in position 2, the Partizip II goes to the very end." },
+    { "type": "order", "words": ["Gestern", "habe", "ich", "den Koffer", "gepackt"], "answer": "Gestern habe ich den Koffer gepackt", "explain": "With a time word first, the verb stays in position 2 and the subject follows: Gestern habe ich …" },
+    { "type": "match", "pairs": [["fliegen", "ist geflogen"], ["buchen", "hat gebucht"], ["ankommen", "ist angekommen"], ["besichtigen", "hat besichtigt"], ["bleiben", "ist geblieben"]], "explain": "Learn the auxiliary together with the participle: movement and change use sein, most others haben." },
+    { "type": "translate", "en": "We took the train to Munich.", "answer": ["Wir sind mit dem Zug nach München gefahren", "Wir sind nach München mit dem Zug gefahren", "Wir haben den Zug nach München genommen"], "explain": "Most natural: sein + gefahren (movement). nehmen takes haben: Wir haben den Zug genommen." },
+    { "type": "translate", "en": "I did not sleep well in the hotel.", "answer": ["Ich habe im Hotel nicht gut geschlafen", "Ich habe nicht gut im Hotel geschlafen"], "explain": "schlafen is not a movement or change verb → haben. nicht comes before the Partizip II area." }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Letzten Sommer bin ich nach Spanien geflogen.", "en": "Last summer I flew to Spain." },
+      { "de": "Wir haben ein kleines Hotel am Strand gebucht.", "en": "We booked a small hotel on the beach." },
+      { "de": "Der Zug ist leider zu spät angekommen.", "en": "Unfortunately the train arrived late." },
+      { "de": "Am ersten Tag haben wir die Stadt besichtigt.", "en": "On the first day we visited the city." },
+      { "de": "Ich habe viel gesehen und sehr gut gegessen.", "en": "I saw a lot and ate very well." }
+    ],
+    "prompts": [
+      { "q": "Wo warst du im letzten Urlaub? Was hast du gemacht?", "qEn": "Where were you on your last holiday? What did you do?", "model": "Ich bin letztes Jahr nach Italien gefahren. Wir haben in Rom übernachtet und viele Sehenswürdigkeiten besichtigt.", "hint": "Ich bin nach … gefahren / geflogen. Wir haben … besichtigt." },
+      { "q": "Am Bahnhof: Wie bist du heute zur Arbeit gekommen?", "qEn": "At the station: how did you get to work today?", "model": "Ich bin mit der Straßenbahn gefahren, aber ich habe den Bus verpasst. Deshalb bin ich zu spät angekommen.", "hint": "Ich bin mit dem … gefahren." },
+      { "q": "Ein Kollege fragt: Was hast du am Wochenende gemacht?", "qEn": "A coworker asks: what did you do at the weekend?", "model": "Am Samstag habe ich lange geschlafen. Dann bin ich in die Stadt gegangen und habe Freunde getroffen.", "hint": "Am Samstag habe ich … Dann bin ich …" }
+    ]
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "id": "b1-11-verben-praepositionen",
+  "level": "B1",
+  "title": "Verben mit Präpositionen",
+  "concept": "warten auf, sich interessieren für, denken an",
+  "wordlist": "Kommunikation",
+  "minutes": 30,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+B1+Verben+mit+Pr%C3%A4positionen",
+  "learn": [
+    {
+      "heading": "Verb + fixed preposition + case",
+      "text": "Many German verbs are always used with **one particular preposition**, and this preposition decides the case of the noun that follows. The preposition is **not** predictable from English, so learn the verb **together with its preposition and case**, for example *warten auf + Akkusativ*. The preposition stays the same even in other tenses.",
+      "table": {
+        "head": ["Verb + preposition", "Case", "Example"],
+        "rows": [
+          ["warten auf", "Akkusativ", "Ich warte auf den Bus."],
+          ["sich interessieren für", "Akkusativ", "Sie interessiert sich für erneuerbare Energien."],
+          ["denken an", "Akkusativ", "Ich denke oft an meine Familie."],
+          ["sich ärgern über", "Akkusativ", "Er ärgert sich über den Lärm."],
+          ["teilnehmen an", "Dativ", "Ich nehme an der Besprechung teil."],
+          ["sich beschweren bei + über", "Dativ + Akk.", "Ich beschwere mich beim Vermieter über die Heizung."]
+        ]
+      },
+      "examples": [
+        { "de": "Wir warten seit einer Stunde auf deine Antwort.", "en": "We have been waiting for your answer for an hour." },
+        { "de": "Ich interessiere mich für Wärmepumpen.", "en": "I am interested in heat pumps." },
+        { "de": "Sie hat sich bei der Hausverwaltung über den Lärm beschwert.", "en": "She complained to the property management about the noise." }
+      ]
+    },
+    {
+      "heading": "Question words and pronouns: wo(r)- and da(r)-",
+      "text": "To ask about a **thing**, combine **wo(r)- + preposition**: *Worauf wartest du? Woran denkst du? Wofür interessierst du dich?* (add **r** before a vowel: *worauf, woran, worüber*). To answer or refer back to a thing, use **da(r)- + preposition**: *Darauf warte ich. Daran denke ich.* For **people**, use the preposition + question word: *Auf wen wartest du? Auf meinen Kollegen.*",
+      "table": {
+        "head": ["", "thing", "person"],
+        "rows": [
+          ["question", "Worüber ärgerst du dich?", "Über wen ärgerst du dich?"],
+          ["answer", "Darüber ärgere ich mich.", "Über meinen Chef ärgere ich mich."],
+          ["question", "Worauf freust du dich?", "Auf wen freust du dich?"]
+        ]
+      },
+      "examples": [
+        { "de": "Worauf wartest du? – Auf die E-Mail vom Chef.", "en": "What are you waiting for? – For the email from the boss." },
+        { "de": "Mit wem hast du gesprochen? – Mit dem Vermieter.", "en": "Who did you speak to? – To the landlord." }
+      ]
+    },
+    {
+      "heading": "Followed by dass or zu",
+      "text": "After many of these verbs you can add a whole clause. Use **da(r)- + preposition** in the main clause, then **dass** or **zu + Infinitiv**: *Ich freue mich darauf, dich zu sehen.* / *Ich warte darauf, dass du anrufst.* With the same subject use zu + infinitive, with a different subject use dass. Typical pairs for the **future** are *sich freuen auf*, for something that **already happened** *sich freuen über*.",
+      "examples": [
+        { "de": "Ich freue mich darauf, bald im neuen Team zu arbeiten.", "en": "I look forward to working in the new team soon." },
+        { "de": "Ich ärgere mich darüber, dass der Zug schon wieder Verspätung hat.", "en": "I'm annoyed that the train is late again." },
+        { "de": "Sie freut sich über die Zusage.", "en": "She is happy about the acceptance." }
+      ]
+    }
+  ],
+  "tip": "Make flashcards with the preposition IN the sentence: 'Ich warte AUF den Bus.' Mark the preposition in a colour. Then you never learn a verb alone again.",
+  "words": [
+    { "de": "Gespräch", "en": "conversation", "pos": "noun", "article": "das", "plural": "Gespräche" },
+    { "de": "Anruf", "en": "phone call", "pos": "noun", "article": "der", "plural": "Anrufe" },
+    { "de": "Nachricht", "en": "message", "pos": "noun", "article": "die", "plural": "Nachrichten" },
+    { "de": "E-Mail", "en": "email", "pos": "noun", "article": "die", "plural": "E-Mails" },
+    { "de": "Besprechung", "en": "meeting", "pos": "noun", "article": "die", "plural": "Besprechungen" },
+    { "de": "Meinung", "en": "opinion", "pos": "noun", "article": "die", "plural": "Meinungen" },
+    { "de": "Missverständnis", "en": "misunderstanding", "pos": "noun", "article": "das", "plural": "Missverständnisse" },
+    { "de": "Information", "en": "information", "pos": "noun", "article": "die", "plural": "Informationen" },
+    { "de": "Antwort", "en": "answer", "pos": "noun", "article": "die", "plural": "Antworten" },
+    { "de": "Frage", "en": "question", "pos": "noun", "article": "die", "plural": "Fragen" },
+    { "de": "Diskussion", "en": "discussion", "pos": "noun", "article": "die", "plural": "Diskussionen" },
+    { "de": "warten", "en": "to wait", "pos": "verb", "aux": "haben", "p2": "gewartet", "note": "warten auf + Akk" },
+    { "de": "denken", "en": "to think", "pos": "verb", "aux": "haben", "p2": "gedacht", "note": "denken an + Akk" },
+    { "de": "sich interessieren", "en": "to be interested", "pos": "verb", "aux": "haben", "p2": "interessiert", "note": "sich interessieren für + Akk" },
+    { "de": "sich ärgern", "en": "to be annoyed", "pos": "verb", "aux": "haben", "p2": "geärgert", "note": "sich ärgern über + Akk" },
+    { "de": "sich freuen", "en": "to be glad", "pos": "verb", "aux": "haben", "p2": "gefreut", "note": "sich freuen auf / über + Akk" },
+    { "de": "sich beschweren", "en": "to complain", "pos": "verb", "aux": "haben", "p2": "beschwert", "note": "sich beschweren bei + Dat über + Akk" },
+    { "de": "teilnehmen", "en": "to take part", "pos": "verb", "aux": "haben", "sep": "teil", "p2": "teilgenommen", "note": "teilnehmen an + Dat" },
+    { "de": "zustimmen", "en": "to agree", "pos": "verb", "aux": "haben", "sep": "zu", "p2": "zugestimmt", "note": "+ Dativ, no preposition" },
+    { "de": "nachfragen", "en": "to ask for details", "pos": "verb", "aux": "haben", "sep": "nach", "p2": "nachgefragt" },
+    { "de": "diskutieren", "en": "to discuss", "pos": "verb", "aux": "haben", "p2": "diskutiert", "note": "diskutieren über + Akk" },
+    { "de": "verständlich", "en": "understandable", "pos": "adj" },
+    { "de": "höflich", "en": "polite", "pos": "adj" }
+  ],
+  "mindmap": {
+    "label": "Verben + Präposition",
+    "children": [
+      {
+        "label": "+ Akkusativ",
+        "children": [
+          { "label": "warten auf" },
+          { "label": "sich interessieren für" },
+          { "label": "denken an" },
+          { "label": "sich ärgern über" }
+        ]
+      },
+      {
+        "label": "+ Dativ",
+        "children": [
+          { "label": "teilnehmen an" },
+          { "label": "sich beschweren bei" }
+        ]
+      },
+      {
+        "label": "Question",
+        "children": [
+          { "label": "thing: worauf, woran, worüber" },
+          { "label": "person: auf wen, an wen" }
+        ]
+      },
+      {
+        "label": "Answer / reference",
+        "children": [ { "label": "darauf, daran, darüber" } ]
+      },
+      {
+        "label": "Clauses",
+        "children": [
+          { "label": "darauf, dass …" },
+          { "label": "darauf, … zu …", "note": "same subject" }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "mc", "q": "Ich warte ___ den Bus.", "options": ["auf", "für", "an"], "answer": 0, "explain": "warten always takes auf + Akkusativ: warten auf." },
+    { "type": "mc", "q": "Sie interessiert sich ___ erneuerbare Energien.", "options": ["für", "an", "über"], "answer": 0, "explain": "sich interessieren is used with für + Akkusativ." },
+    { "type": "gap", "q": "Ich denke oft ___ meine Familie.", "answer": ["an"], "explain": "denken an + Akkusativ: an meine Familie." },
+    { "type": "gap", "q": "Wir haben lange ___ das Problem diskutiert.", "answer": ["über"], "explain": "diskutieren über + Akkusativ." },
+    { "type": "gap", "q": "Er ärgert sich ___ den Lärm.", "answer": ["über"], "explain": "sich ärgern über + Akkusativ." },
+    { "type": "gap", "q": "___ wartest du? – Auf die E-Mail vom Chef.", "answer": ["Worauf"], "explain": "For things you ask wo(r)- + preposition: auf → worauf." },
+    { "type": "gap", "q": "Ich freue mich ___, dich bald zu sehen.", "answer": ["darauf"], "explain": "Sich freuen auf (future). The clause is announced by darauf in the main clause." },
+    { "type": "gap", "q": "Ich nehme an ___ Besprechung teil.", "answer": ["der"], "explain": "teilnehmen an + Dativ; Besprechung is feminine → der Besprechung." },
+    { "type": "order", "words": ["Ich", "habe", "mich", "bei", "der", "Hausverwaltung", "über", "den", "Lärm", "beschwert"], "answer": "Ich habe mich bei der Hausverwaltung über den Lärm beschwert", "explain": "sich beschweren takes bei + Dativ for the person and über + Akkusativ for the topic." },
+    { "type": "order", "words": ["Wir", "warten", "seit", "einer", "Stunde", "auf", "deine", "Antwort"], "answer": "Wir warten seit einer Stunde auf deine Antwort", "explain": "warten auf + Akkusativ: auf deine Antwort. seit takes the Dativ: seit einer Stunde." },
+    { "type": "match", "pairs": [["sich freuen auf", "to look forward to"], ["sich freuen über", "to be happy about"], ["sich ärgern über", "to be annoyed about"], ["warten auf", "to wait for"], ["denken an", "to think of"]], "explain": "Each verb needs its fixed preposition, with a clear meaning." },
+    { "type": "article", "word": "Besprechung", "answer": "die", "explain": "Nouns ending in -ung are always feminine." },
+    { "type": "translate", "en": "I'm waiting for your answer.", "answer": ["Ich warte auf deine Antwort", "Ich warte auf Ihre Antwort", "Ich warte auf eure Antwort"], "explain": "warten auf + Akkusativ; Antwort is feminine, so deine / Ihre / eure Antwort." },
+    { "type": "translate", "en": "We are talking about the project.", "answer": ["Wir sprechen über das Projekt", "Wir reden über das Projekt"], "explain": "sprechen / reden über + Akkusativ." }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Ich warte seit zwei Wochen auf eine Antwort von der Behörde.", "en": "I have been waiting for an answer from the authority for two weeks." },
+      { "de": "Ich interessiere mich besonders für Technologien zur CO₂-Abscheidung.", "en": "I am particularly interested in CO₂ capture technologies." },
+      { "de": "Ich ärgere mich manchmal über die vielen Formulare.", "en": "Sometimes I am annoyed about the many forms." },
+      { "de": "Ich freue mich darauf, meine Familie im Sommer zu besuchen.", "en": "I look forward to visiting my family in summer." },
+      { "de": "Können wir noch einmal über den Zeitplan sprechen?", "en": "Can we talk about the schedule once more?" }
+    ],
+    "prompts": [
+      { "q": "Wofür interessierst du dich beruflich?", "qEn": "What are you interested in professionally?", "model": "Ich interessiere mich besonders für erneuerbare Energien und für Technologien, mit denen man Kohlendioxid aus der Luft holen kann. Darüber lese ich viel und diskutiere oft mit meinen Kollegen.", "hint": "Ich interessiere mich für … Darüber lese ich …" },
+      { "q": "Worüber ärgerst du dich manchmal in Deutschland?", "qEn": "What do you sometimes get annoyed about in Germany?", "model": "Ich ärgere mich manchmal über die Verspätungen bei der Bahn. Außerdem warte ich oft lange auf Antworten von Ämtern. Aber ich freue mich darüber, dass die Menschen hier sehr zuverlässig sind.", "hint": "Ich ärgere mich über … Ich warte auf … Ich freue mich darüber, dass …" },
+      { "q": "Worauf freust du dich dieses Jahr?", "qEn": "What are you looking forward to this year?", "model": "Ich freue mich auf meinen Urlaub im Sommer und darauf, meine Eltern wiederzusehen. Außerdem freue ich mich auf das neue Projekt, an dem ich im Herbst teilnehme.", "hint": "Ich freue mich auf … / darauf, … zu …" }
+    ]
+  }
+}

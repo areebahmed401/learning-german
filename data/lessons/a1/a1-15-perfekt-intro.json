@@ -1,0 +1,167 @@
+{
+  "id": "a1-15-perfekt-intro",
+  "level": "A1",
+  "title": "Perfekt: Einstieg",
+  "concept": "Talking about the past with the Perfekt",
+  "wordlist": "Wochenende",
+  "minutes": 25,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+A1+Perfekt+haben+sein+Partizip+II",
+  "learn": [
+    {
+      "heading": "Perfekt = haben / sein + Partizip II",
+      "text": "In spoken German you talk about the past with the **Perfekt**. It has two parts: the auxiliary **haben** or **sein** in position 2, and the **Partizip II** at the **very end**. The same \"frame\" you know from modal verbs: *Ich habe am Samstag Fußball gespielt.* Time words like *gestern, am Wochenende, letzte Woche* help. Questions work the same way: *Hast du am Wochenende gearbeitet?*",
+      "table": {
+        "head": ["position 1", "position 2 (haben / sein)", "middle", "end (Partizip II)"],
+        "rows": [
+          ["Ich", "habe", "am Samstag Fußball", "gespielt."],
+          ["Wir", "haben", "zusammen", "gekocht."],
+          ["Er", "ist", "nach Köln", "gefahren."],
+          ["Gestern", "habe", "ich lange", "geschlafen."]
+        ]
+      },
+      "examples": [
+        { "de": "Am Wochenende habe ich meine Freunde getroffen.", "en": "At the weekend I met my friends." },
+        { "de": "Wir haben im Park Fußball gespielt.", "en": "We played football in the park." },
+        { "de": "Hast du schon gegessen?", "en": "Have you eaten yet?" }
+      ]
+    },
+    {
+      "heading": "How to form the Partizip II",
+      "text": "Regular (\"weak\") verbs: **ge- + stem + -t** (*machen → gemacht*). Irregular (\"strong\") verbs: **ge- + stem + -en**, often with a vowel change (*trinken → getrunken, sehen → gesehen*): learn them from the word list. **Separable** verbs put **-ge-** between prefix and stem (*aufstehen → aufgestanden*). **No ge-** for verbs that start with an inseparable prefix (**be-, ver-, er-, ent-**) and for verbs ending in **-ieren** (*besuchen → besucht, telefonieren → telefoniert*).",
+      "table": {
+        "head": ["type", "infinitive", "Partizip II"],
+        "rows": [
+          ["regular", "machen · spielen · kochen", "gemacht · gespielt · gekocht"],
+          ["irregular", "essen · trinken · sehen · treffen", "gegessen · getrunken · gesehen · getroffen"],
+          ["separable", "aufstehen · einkaufen", "aufgestanden · eingekauft"],
+          ["no ge-", "besuchen · telefonieren", "besucht · telefoniert"]
+        ]
+      },
+      "examples": [
+        { "de": "Ich habe gestern Pizza gegessen.", "en": "I ate pizza yesterday." },
+        { "de": "Meine Freundin hat mich besucht.", "en": "My girlfriend visited me." },
+        { "de": "Wir haben am Samstag eingekauft.", "en": "We went shopping on Saturday." }
+      ]
+    },
+    {
+      "heading": "haben or sein?",
+      "text": "Most verbs use **haben**. Use **sein** with verbs of **movement from A to B** (*gehen, fahren, kommen, schwimmen*), verbs of **change of state** (*aufstehen, einschlafen*) and the verbs **sein** and **bleiben**. If in doubt, haben is more common. The word lists in this app show the auxiliary and the Partizip II for every verb.",
+      "table": {
+        "head": ["haben (most verbs)", "sein (movement, change, bleiben / sein)"],
+        "rows": [
+          ["Ich habe Fußball gespielt.", "Ich bin nach Köln gefahren."],
+          ["Wir haben gekocht.", "Wir sind zu Hause geblieben."],
+          ["Er hat lange geschlafen.", "Er ist um zehn Uhr aufgestanden."],
+          ["Ich habe einen Film gesehen.", "Ich bin im See geschwommen."]
+        ]
+      },
+      "examples": [
+        { "de": "Ich bin am Sonntag lange im Bett geblieben.", "en": "On Sunday I stayed in bed for a long time." },
+        { "de": "Wir sind mit dem Zug nach Berlin gefahren.", "en": "We went to Berlin by train." }
+      ]
+    }
+  ],
+  "tip": "Learn every verb with its Perfekt as one unit, e.g. \"gehen – ist gegangen\", \"essen – hat gegessen\". Say it in a sentence with gestern or am Wochenende. Your Anki cards should show the whole Perfekt form.",
+  "words": [
+    { "de": "Wochenende", "en": "weekend", "pos": "noun", "article": "das", "plural": "Wochenenden" },
+    { "de": "Besuch", "en": "visit; visitor", "pos": "noun", "article": "der", "plural": "Besuche" },
+    { "de": "Spaziergang", "en": "walk", "pos": "noun", "article": "der", "plural": "Spaziergänge" },
+    { "de": "Geburtstag", "en": "birthday", "pos": "noun", "article": "der", "plural": "Geburtstage" },
+    { "de": "Geschenk", "en": "present; gift", "pos": "noun", "article": "das", "plural": "Geschenke" },
+    { "de": "Museum", "en": "museum", "pos": "noun", "article": "das", "plural": "Museen" },
+    { "de": "Wetter", "en": "weather", "pos": "noun", "article": "das", "plural": "-" },
+    { "de": "Sonne", "en": "sun", "pos": "noun", "article": "die", "plural": "Sonnen" },
+    { "de": "Regen", "en": "rain", "pos": "noun", "article": "der", "plural": "-" },
+    { "de": "machen", "en": "to do; to make", "pos": "verb", "aux": "haben", "p2": "gemacht" },
+    { "de": "spielen", "en": "to play", "pos": "verb", "aux": "haben", "p2": "gespielt" },
+    { "de": "kochen", "en": "to cook", "pos": "verb", "aux": "haben", "p2": "gekocht" },
+    { "de": "essen", "en": "to eat", "pos": "verb", "aux": "haben", "p2": "gegessen" },
+    { "de": "sehen", "en": "to see", "pos": "verb", "aux": "haben", "p2": "gesehen" },
+    { "de": "treffen", "en": "to meet", "pos": "verb", "aux": "haben", "p2": "getroffen" },
+    { "de": "schlafen", "en": "to sleep", "pos": "verb", "aux": "haben", "p2": "geschlafen" },
+    { "de": "waschen", "en": "to wash", "pos": "verb", "aux": "haben", "p2": "gewaschen" },
+    { "de": "besuchen", "en": "to visit", "pos": "verb", "aux": "haben", "p2": "besucht" },
+    { "de": "telefonieren", "en": "to phone", "pos": "verb", "aux": "haben", "p2": "telefoniert" },
+    { "de": "gehen", "en": "to go; to walk", "pos": "verb", "aux": "sein", "p2": "gegangen" },
+    { "de": "fahren", "en": "to drive; to go (by vehicle)", "pos": "verb", "aux": "sein", "p2": "gefahren" },
+    { "de": "bleiben", "en": "to stay", "pos": "verb", "aux": "sein", "p2": "geblieben" },
+    { "de": "aufstehen", "en": "to get up", "pos": "verb", "aux": "sein", "sep": "auf", "p2": "aufgestanden" },
+    { "de": "schon", "en": "already; yet", "pos": "adv" },
+    { "de": "leider", "en": "unfortunately", "pos": "adv" }
+  ],
+  "mindmap": {
+    "label": "Perfekt",
+    "children": [
+      {
+        "label": "Structure",
+        "children": [
+          { "label": "haben / sein", "note": "position 2" },
+          { "label": "Partizip II", "note": "end" },
+          { "label": "Ich habe Fußball gespielt." }
+        ]
+      },
+      {
+        "label": "Partizip II",
+        "children": [
+          { "label": "regular", "note": "ge…t: gemacht" },
+          { "label": "irregular", "note": "ge…en: gegessen" },
+          { "label": "separable", "note": "aufgestanden" },
+          { "label": "no ge-", "note": "besucht, telefoniert" }
+        ]
+      },
+      {
+        "label": "haben",
+        "note": "most verbs",
+        "children": [
+          { "label": "machen · spielen · essen · sehen" },
+          { "label": "schlafen · treffen · besuchen" }
+        ]
+      },
+      {
+        "label": "sein",
+        "note": "movement, change, sein, bleiben",
+        "children": [
+          { "label": "gehen · fahren · kommen" },
+          { "label": "aufstehen · bleiben" }
+        ]
+      },
+      {
+        "label": "Time words",
+        "children": [
+          { "label": "gestern · letzte Woche" },
+          { "label": "am Wochenende · am Samstag" }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "gap", "q": "Ich ___ am Samstag Fußball gespielt.", "answer": ["habe"], "explain": "spielen uses haben: ich habe gespielt." },
+    { "type": "gap", "q": "Wir ___ nach Köln gefahren.", "answer": ["sind"], "explain": "fahren expresses movement from A to B → sein." },
+    { "type": "gap", "q": "Er hat gestern lange ___. (schlafen)", "answer": ["geschlafen"], "explain": "schlafen → geschlafen (irregular, ge- … -en)." },
+    { "type": "gap", "q": "Sie hat mich ___. (besuchen)", "answer": ["besucht"], "explain": "Verbs with the inseparable prefix be- have no ge-: besucht." },
+    { "type": "gap", "q": "Ich bin um sieben Uhr ___. (aufstehen)", "answer": ["aufgestanden"], "explain": "Separable: ge- goes between the prefix and the stem: aufgestanden." },
+    { "type": "mc", "q": "Which auxiliary: \"Ich ___ zu Hause geblieben.\"?", "options": ["habe", "bin", "hat"], "answer": 1, "explain": "bleiben always uses sein: ich bin geblieben." },
+    { "type": "mc", "q": "Which Partizip II is correct for \"telefonieren\"?", "options": ["getelefoniert", "telefoniert", "telefonigt"], "answer": 1, "explain": "Verbs ending in -ieren have no ge-." },
+    { "type": "mc", "q": "Which sentence is correct?", "options": ["Ich gespielt habe Fußball.", "Ich habe Fußball gespielt.", "Ich habe gespielt Fußball."], "answer": 1, "explain": "habe in position 2, Partizip II at the very end." },
+    { "type": "match", "pairs": [["gehen", "ist gegangen"], ["essen", "hat gegessen"], ["machen", "hat gemacht"], ["bleiben", "ist geblieben"], ["sehen", "hat gesehen"]], "explain": "Learn each verb with haben or sein and its Partizip II." },
+    { "type": "order", "words": ["habe", "Ich", "am Samstag", "Fußball", "gespielt"], "answer": "Ich habe am Samstag Fußball gespielt", "explain": "habe in position 2 and the Partizip II at the end." },
+    { "type": "order", "words": ["sind", "Wir", "nach Köln", "gefahren"], "answer": "Wir sind nach Köln gefahren", "explain": "fahren expresses movement, so sein is the auxiliary." },
+    { "type": "order", "words": ["habe", "Am Sonntag", "ich", "lange", "geschlafen"], "answer": "Am Sonntag habe ich lange geschlafen", "explain": "With a time word first, the auxiliary stays in position 2 and the subject follows." },
+    { "type": "translate", "en": "Yesterday I met friends.", "answer": ["Gestern habe ich Freunde getroffen", "Ich habe gestern Freunde getroffen"], "explain": "treffen → hat getroffen (haben). The Partizip II goes to the end." },
+    { "type": "translate", "en": "We stayed at home.", "answer": ["Wir sind zu Hause geblieben", "Wir sind zuhause geblieben"], "explain": "bleiben uses sein: wir sind geblieben." }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Am Wochenende habe ich meine Freunde getroffen.", "en": "At the weekend I met my friends." },
+      { "de": "Wir haben im Park gegrillt und Fußball gespielt.", "en": "We grilled food in the park and played football." },
+      { "de": "Am Sonntag bin ich lange im Bett geblieben.", "en": "On Sunday I stayed in bed for a long time." },
+      { "de": "Ich habe meine Eltern angerufen und mit ihnen telefoniert.", "en": "I called my parents and spoke with them on the phone." },
+      { "de": "Das Wetter war schön, wir sind spazieren gegangen.", "en": "The weather was nice, we went for a walk." }
+    ],
+    "prompts": [
+      { "q": "Was hast du am Wochenende gemacht?", "qEn": "What did you do at the weekend? (a coworker on Monday)", "model": "Am Samstag habe ich eingekauft und gekocht. Am Sonntag bin ich spazieren gegangen.", "hint": "Am Samstag habe ich … Am Sonntag bin ich …" },
+      { "q": "Wie war dein Wochenende? Warst du weg?", "qEn": "How was your weekend? Were you away? (a classmate in the Deutschkurs)", "model": "Ja, wir sind nach Köln gefahren und haben das Museum besucht. Es war toll.", "hint": "Wir sind … gefahren und haben … gesehen." },
+      { "q": "Wann bist du heute Morgen aufgestanden?", "qEn": "When did you get up this morning? (a flatmate in the WG)", "model": "Ich bin um halb sieben aufgestanden und habe ein Brötchen gegessen.", "hint": "Ich bin um … aufgestanden." }
+    ]
+  }
+}

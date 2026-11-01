@@ -1,0 +1,166 @@
+{
+  "id": "a1-06-plural",
+  "level": "A1",
+  "title": "Plural",
+  "concept": "Plural forms of nouns",
+  "wordlist": "Wohnung & Möbel",
+  "minutes": 25,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+A1+plural+of+nouns",
+  "learn": [
+    {
+      "heading": "Five ways to make a plural",
+      "text": "German nouns form the plural in several ways, and there is no perfect rule: learn each plural **together with the noun**, like *der Tisch, die Tische*. The article in the plural is always **die**. Some vowels (**a, o, u, au**) often get an **umlaut** (ä, ö, ü, äu) in the plural. The dictionary shows the plural after the noun, for example *Stuhl, ¨-e*.",
+      "table": {
+        "head": ["pattern", "singular", "plural"],
+        "rows": [
+          ["-e (often + umlaut)", "der Tisch · der Stuhl", "die Tische · die Stühle"],
+          ["-er (+ umlaut)", "das Haus · das Kind", "die Häuser · die Kinder"],
+          ["-n / -en", "die Lampe · die Wohnung", "die Lampen · die Wohnungen"],
+          ["no ending (- / umlaut)", "das Zimmer · der Bruder", "die Zimmer · die Brüder"],
+          ["-s", "das Sofa · das Auto", "die Sofas · die Autos"]
+        ]
+      },
+      "examples": [
+        { "de": "Die Wohnung hat zwei Zimmer und einen Balkon.", "en": "The apartment has two rooms and a balcony." },
+        { "de": "Wir brauchen vier Stühle für den Tisch.", "en": "We need four chairs for the table." },
+        { "de": "In meiner WG gibt es drei Betten.", "en": "In my flat share there are three beds." }
+      ]
+    },
+    {
+      "heading": "Patterns that help",
+      "text": "Some endings tell you the plural. **Feminine nouns** almost always take **-n or -en**: *die Küche → die Küchen, die Tür → die Türen, die Wohnung → die Wohnungen*. Nouns ending in **-er, -el, -en** (masculine or neuter) usually do not change: *das Zimmer, der Schlüssel, das Fenster*. Words from other languages often take **-s**: *das Sofa, das Hotel, das Handy*. Masculine nouns most often take **-e**, often with an umlaut.",
+      "table": {
+        "head": ["pattern", "rule of thumb", "example"],
+        "rows": [
+          ["feminine", "+ (e)n", "die Lampe → die Lampen"],
+          ["-er / -el / -en", "no change (sometimes umlaut)", "der Schlüssel → die Schlüssel"],
+          ["foreign words", "+ s", "das Sofa → die Sofas"],
+          ["masculine", "+ e (often with umlaut)", "der Schrank → die Schränke"]
+        ]
+      },
+      "examples": [
+        { "de": "Die Schlüssel liegen auf dem Tisch.", "en": "The keys are on the table." },
+        { "de": "Wie viele Zimmer hat die Wohnung?", "en": "How many rooms does the apartment have?" }
+      ]
+    },
+    {
+      "heading": "Plural in sentences",
+      "text": "After a number (above one) the noun is plural: *zwei Zimmer, drei Betten*. There is no plural of **ein**, so the plural of *ein Zimmer* is just *Zimmer*: *Ich suche Zimmer in Aachen.* The verb must also be plural: *Die Möbel sind neu.* Watch out: **Möbel** is always plural in this sense (*das Möbelstück* is one piece of furniture).",
+      "examples": [
+        { "de": "Wir suchen zwei Zimmer in der Nähe von der Uni.", "en": "We are looking for two rooms near the university." },
+        { "de": "Die Möbel in der Wohnung sind alt, aber gut.", "en": "The furniture in the apartment is old, but good." },
+        { "de": "Hier sind meine Schlüssel.", "en": "Here are my keys." }
+      ]
+    }
+  ],
+  "tip": "Make Anki cards that show the plural on the answer side (\"der Stuhl – die Stühle\"). Never learn a noun without its plural: it is one extra word on the card, but it saves you from guessing for years.",
+  "words": [
+    { "de": "Wohnung", "en": "apartment", "pos": "noun", "article": "die", "plural": "Wohnungen" },
+    { "de": "Haus", "en": "house", "pos": "noun", "article": "das", "plural": "Häuser" },
+    { "de": "Zimmer", "en": "room", "pos": "noun", "article": "das", "plural": "Zimmer" },
+    { "de": "Küche", "en": "kitchen", "pos": "noun", "article": "die", "plural": "Küchen" },
+    { "de": "Bad", "en": "bathroom", "pos": "noun", "article": "das", "plural": "Bäder" },
+    { "de": "Schlafzimmer", "en": "bedroom", "pos": "noun", "article": "das", "plural": "Schlafzimmer" },
+    { "de": "Wohnzimmer", "en": "living room", "pos": "noun", "article": "das", "plural": "Wohnzimmer" },
+    { "de": "Balkon", "en": "balcony", "pos": "noun", "article": "der", "plural": "Balkone" },
+    { "de": "Tür", "en": "door", "pos": "noun", "article": "die", "plural": "Türen" },
+    { "de": "Fenster", "en": "window", "pos": "noun", "article": "das", "plural": "Fenster" },
+    { "de": "Tisch", "en": "table", "pos": "noun", "article": "der", "plural": "Tische" },
+    { "de": "Stuhl", "en": "chair", "pos": "noun", "article": "der", "plural": "Stühle" },
+    { "de": "Bett", "en": "bed", "pos": "noun", "article": "das", "plural": "Betten" },
+    { "de": "Schrank", "en": "cupboard; wardrobe", "pos": "noun", "article": "der", "plural": "Schränke" },
+    { "de": "Regal", "en": "shelf", "pos": "noun", "article": "das", "plural": "Regale" },
+    { "de": "Sofa", "en": "sofa", "pos": "noun", "article": "das", "plural": "Sofas" },
+    { "de": "Lampe", "en": "lamp", "pos": "noun", "article": "die", "plural": "Lampen" },
+    { "de": "Kühlschrank", "en": "fridge", "pos": "noun", "article": "der", "plural": "Kühlschränke" },
+    { "de": "Schlüssel", "en": "key", "pos": "noun", "article": "der", "plural": "Schlüssel" },
+    { "de": "Miete", "en": "rent", "pos": "noun", "article": "die", "plural": "Mieten" },
+    { "de": "Mitbewohner", "en": "flatmate (male)", "pos": "noun", "article": "der", "plural": "Mitbewohner" },
+    { "de": "Möbel", "en": "furniture", "pos": "noun", "article": "die", "plural": "-", "note": "plural only" },
+    { "de": "groß", "en": "big", "pos": "adj" },
+    { "de": "klein", "en": "small", "pos": "adj" }
+  ],
+  "mindmap": {
+    "label": "Plural",
+    "children": [
+      {
+        "label": "-e (+ umlaut)",
+        "note": "often masculine",
+        "children": [
+          { "label": "der Tisch → die Tische" },
+          { "label": "der Stuhl → die Stühle" },
+          { "label": "der Schrank → die Schränke" }
+        ]
+      },
+      {
+        "label": "-er (+ umlaut)",
+        "note": "often neuter",
+        "children": [
+          { "label": "das Haus → die Häuser" },
+          { "label": "das Kind → die Kinder" }
+        ]
+      },
+      {
+        "label": "-n / -en",
+        "note": "most feminine nouns",
+        "children": [
+          { "label": "die Küche → die Küchen" },
+          { "label": "die Tür → die Türen" },
+          { "label": "die Wohnung → die Wohnungen" }
+        ]
+      },
+      {
+        "label": "no ending",
+        "note": "-er, -el, -en",
+        "children": [
+          { "label": "das Zimmer → die Zimmer" },
+          { "label": "der Schlüssel → die Schlüssel" }
+        ]
+      },
+      {
+        "label": "-s",
+        "note": "foreign words",
+        "children": [
+          { "label": "das Sofa → die Sofas" },
+          { "label": "das Handy → die Handys" }
+        ]
+      },
+      {
+        "label": "Always",
+        "children": [
+          { "label": "article = die" },
+          { "label": "learn the plural with the noun" }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "gap", "q": "Die Wohnung hat zwei ___. (Zimmer)", "answer": ["Zimmer"], "explain": "Neuter nouns ending in -er do not change in the plural." },
+    { "type": "gap", "q": "Wir brauchen vier ___. (Stuhl)", "answer": ["Stühle"], "explain": "Stuhl → Stühle: -e plus an umlaut." },
+    { "type": "gap", "q": "In der WG gibt es drei ___. (Bett)", "answer": ["Betten"], "explain": "Bett → Betten: -en." },
+    { "type": "gap", "q": "Die ___ sind neu. (Lampe)", "answer": ["Lampen"], "explain": "Feminine nouns ending in -e take -n: die Lampen." },
+    { "type": "gap", "q": "Wo sind meine ___? (Schlüssel)", "answer": ["Schlüssel"], "explain": "Nouns ending in -el stay the same in the plural." },
+    { "type": "mc", "q": "What is the plural of \"das Haus\"?", "options": ["die Haus", "die Häuser", "die Hauser"], "answer": 1, "explain": "Haus takes -er plus an umlaut: die Häuser." },
+    { "type": "mc", "q": "What is the plural of \"das Sofa\"?", "options": ["die Sofas", "die Sofen", "die Söfer"], "answer": 0, "explain": "Words from other languages often take -s: die Sofas." },
+    { "type": "mc", "q": "Which article do ALL plural nouns take?", "options": ["der", "die", "das"], "answer": 1, "explain": "In the plural the article is always die: die Tische, die Betten." },
+    { "type": "article", "word": "Wohnung", "answer": "die", "explain": "Nouns ending in -ung are feminine." },
+    { "type": "article", "word": "Balkon", "answer": "der", "explain": "Balkon is masculine: der Balkon, die Balkone." },
+    { "type": "match", "pairs": [["der Schrank", "die Schränke"], ["das Bad", "die Bäder"], ["die Tür", "die Türen"], ["das Fenster", "die Fenster"], ["der Tisch", "die Tische"]], "explain": "Learn each plural together with the noun; there is no perfect rule." },
+    { "type": "order", "words": ["hat", "Die Wohnung", "zwei Zimmer"], "answer": "Die Wohnung hat zwei Zimmer", "explain": "Subject, verb in position 2, then the object." },
+    { "type": "translate", "en": "The apartment has three rooms and two balconies.", "answer": ["Die Wohnung hat drei Zimmer und zwei Balkone"], "explain": "Zimmer stays Zimmer, Balkon → Balkone. After a number the noun is plural." }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Die Wohnung hat drei Zimmer, eine Küche und ein Bad.", "en": "The apartment has three rooms, a kitchen and a bathroom." },
+      { "de": "Wie hoch ist die Miete?", "en": "How high is the rent?" },
+      { "de": "Die Möbel sind schon da.", "en": "The furniture is already there." },
+      { "de": "Ich habe zwei Mitbewohner in der WG.", "en": "I have two flatmates in the flat share." },
+      { "de": "Hier sind die Schlüssel für die Wohnung.", "en": "Here are the keys for the apartment." }
+    ],
+    "prompts": [
+      { "q": "Wie viele Zimmer hat Ihre Wohnung?", "qEn": "How many rooms are in your apartment? (a coworker asks)", "model": "Meine Wohnung hat zwei Zimmer, eine Küche und ein Bad. Sie ist nicht groß.", "hint": "Meine Wohnung hat … Zimmer." },
+      { "q": "Was gibt es in deinem Zimmer?", "qEn": "What is in your room? (a new friend visits the WG)", "model": "In meinem Zimmer gibt es ein Bett, einen Schrank und zwei Regale.", "hint": "Es gibt …" },
+      { "q": "Haben Sie noch Fragen zur Wohnung?", "qEn": "Do you have any more questions about the apartment? (Wohnungsbesichtigung)", "model": "Ja, wie hoch ist die Miete? Und gibt es einen Keller?", "hint": "Wie hoch ist die Miete?" }
+    ]
+  }
+}

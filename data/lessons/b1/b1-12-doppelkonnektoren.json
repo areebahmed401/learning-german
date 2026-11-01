@@ -1,0 +1,132 @@
+{
+  "id": "b1-12-doppelkonnektoren",
+  "level": "B1",
+  "title": "sowohl … als auch",
+  "concept": "Two-part connectors",
+  "wordlist": "Reisen & Kultur",
+  "minutes": 30,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+B1+Doppelkonnektoren+sowohl+als+auch+weder+noch",
+  "learn": [
+    {
+      "heading": "The important pairs",
+      "text": "**Doppelkonnektoren** (two-part connectors) link two equal parts: two nouns, two adjectives or two whole clauses. They help you to speak in longer, more connected sentences. The two parts surround the elements they connect. Learn the most useful ones at B1 as fixed pairs.",
+      "table": {
+        "head": ["Connector", "Meaning", "Example"],
+        "rows": [
+          ["sowohl … als auch", "both … and", "Sowohl das Essen als auch die Musik sind gut."],
+          ["weder … noch", "neither … nor", "Weder der Zug noch der Bus ist gekommen."],
+          ["entweder … oder", "either … or", "Wir fahren entweder mit dem Zug oder mit dem Bus."],
+          ["nicht nur … sondern auch", "not only … but also", "Das Museum ist nicht nur interessant, sondern auch kostenlos."]
+        ]
+      },
+      "examples": [
+        { "de": "Er spricht sowohl Englisch als auch Deutsch.", "en": "He speaks both English and German." },
+        { "de": "Das Zimmer ist weder sauber noch ruhig.", "en": "The room is neither clean nor quiet." },
+        { "de": "Wir besuchen entweder Wien oder Prag.", "en": "We visit either Vienna or Prague." }
+      ]
+    },
+    {
+      "heading": "Word order and agreement",
+      "text": "With **sowohl … als auch** the subject is plural, so the verb is plural. With **weder … noch** the verb is often singular or plural; both are accepted, but a **negative** is already inside the connector, so you do not add *nicht* or *kein*. With **entweder … oder** the verb agrees with the nearer subject. With **nicht nur … sondern auch** you can put the verb in front when the first part starts the sentence: *Nicht nur die Altstadt ist schön, sondern auch das Schloss.*",
+      "examples": [
+        { "de": "Wir haben weder ein Hotel noch eine Pension gefunden.", "en": "We found neither a hotel nor a guesthouse." },
+        { "de": "Nicht nur die Altstadt, sondern auch das Schloss ist sehenswert.", "en": "Not only the old town but also the castle is worth seeing." },
+        { "de": "Entweder bezahle ich bar, oder ich nehme meine Karte.", "en": "Either I pay cash or I take my card." }
+      ]
+    },
+    {
+      "heading": "Giving opinions: zwar … aber, einerseits … andererseits",
+      "text": "Two more pairs are perfect for speaking about advantages and disadvantages. **Zwar … aber** admits something and then adds a contrast: *Die Reise war zwar anstrengend, aber sie war wunderschön.* **Einerseits … andererseits** presents two sides of an issue: *Einerseits ist Berlin teuer, andererseits gibt es viel Kultur.* Both give your answers a clear structure.",
+      "examples": [
+        { "de": "Die Wohnung ist zwar klein, aber sie liegt zentral.", "en": "The flat is small, but it is centrally located." },
+        { "de": "Einerseits ist die Bahn bequem, andererseits hat sie oft Verspätung.", "en": "On the one hand the train is comfortable, on the other hand it is often late." }
+      ]
+    }
+  ],
+  "tip": "Speak in pairs: whenever you give an opinion, finish with 'einerseits … andererseits' or 'zwar … aber'. Examiners and interviewers love balanced answers.",
+  "words": [
+    { "de": "Reise", "en": "trip, journey", "pos": "noun", "article": "die", "plural": "Reisen" },
+    { "de": "Sehenswürdigkeit", "en": "sight, attraction", "pos": "noun", "article": "die", "plural": "Sehenswürdigkeiten" },
+    { "de": "Reiseführer", "en": "guidebook; tour guide", "pos": "noun", "article": "der", "plural": "Reiseführer" },
+    { "de": "Unterkunft", "en": "accommodation", "pos": "noun", "article": "die", "plural": "Unterkünfte" },
+    { "de": "Fahrkarte", "en": "ticket (train, bus)", "pos": "noun", "article": "die", "plural": "Fahrkarten" },
+    { "de": "Verspätung", "en": "delay", "pos": "noun", "article": "die", "plural": "Verspätungen" },
+    { "de": "Gepäck", "en": "luggage", "pos": "noun", "article": "das", "plural": "-" },
+    { "de": "Reisepass", "en": "passport", "pos": "noun", "article": "der", "plural": "Reisepässe" },
+    { "de": "Tradition", "en": "tradition", "pos": "noun", "article": "die", "plural": "Traditionen" },
+    { "de": "Brauch", "en": "custom", "pos": "noun", "article": "der", "plural": "Bräuche" },
+    { "de": "Museum", "en": "museum", "pos": "noun", "article": "das", "plural": "Museen" },
+    { "de": "Ausstellung", "en": "exhibition", "pos": "noun", "article": "die", "plural": "Ausstellungen" },
+    { "de": "Konzert", "en": "concert", "pos": "noun", "article": "das", "plural": "Konzerte" },
+    { "de": "Fest", "en": "festival, celebration", "pos": "noun", "article": "das", "plural": "Feste" },
+    { "de": "buchen", "en": "to book", "pos": "verb", "aux": "haben", "p2": "gebucht" },
+    { "de": "besichtigen", "en": "to visit, to tour", "pos": "verb", "aux": "haben", "p2": "besichtigt" },
+    { "de": "verreisen", "en": "to go away on a trip", "pos": "verb", "aux": "sein", "p2": "verreist" },
+    { "de": "ankommen", "en": "to arrive", "pos": "verb", "aux": "sein", "sep": "an", "p2": "angekommen" },
+    { "de": "abfahren", "en": "to depart", "pos": "verb", "aux": "sein", "sep": "ab", "p2": "abgefahren" },
+    { "de": "umsteigen", "en": "to change (trains)", "pos": "verb", "aux": "sein", "sep": "um", "p2": "umgestiegen" },
+    { "de": "beeindruckend", "en": "impressive", "pos": "adj" },
+    { "de": "typisch", "en": "typical", "pos": "adj" }
+  ],
+  "mindmap": {
+    "label": "Doppelkonnektoren",
+    "children": [
+      {
+        "label": "sowohl … als auch",
+        "note": "both … and",
+        "children": [ { "label": "plural verb" } ]
+      },
+      {
+        "label": "weder … noch",
+        "note": "neither … nor",
+        "children": [ { "label": "no extra nicht / kein" } ]
+      },
+      {
+        "label": "entweder … oder",
+        "note": "either … or",
+        "children": [ { "label": "choice between two" } ]
+      },
+      {
+        "label": "nicht nur … sondern auch",
+        "children": [ { "label": "not only … but also" } ]
+      },
+      {
+        "label": "Opinions",
+        "children": [
+          { "label": "zwar … aber" },
+          { "label": "einerseits … andererseits" }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "mc", "q": "Wir besuchen nur eine Stadt: ___ Wien ___ Prag.", "options": ["sowohl … als auch", "entweder … oder", "weder … noch"], "answer": 1, "explain": "Only one of the two cities is chosen → entweder … oder." },
+    { "type": "mc", "q": "Das Hotel hat ___ ein Schwimmbad ___ eine Sauna. (it has both)", "options": ["sowohl … als auch", "weder … noch", "entweder … oder"], "answer": 0, "explain": "Both facilities exist → sowohl … als auch." },
+    { "type": "gap", "q": "Das Zimmer ist weder sauber ___ ruhig.", "answer": ["noch"], "explain": "weder always pairs with noch." },
+    { "type": "gap", "q": "Er spricht sowohl Englisch ___ Deutsch.", "answer": ["als auch", "wie auch"], "explain": "sowohl is completed by als auch (or wie auch)." },
+    { "type": "gap", "q": "Nicht nur die Altstadt, ___ auch das Schloss ist sehenswert.", "answer": ["sondern"], "explain": "nicht nur … sondern auch." },
+    { "type": "gap", "q": "Die Reise war zwar anstrengend, ___ sie war wunderschön.", "answer": ["aber"], "explain": "zwar … aber: admit one thing, then add a contrast." },
+    { "type": "gap", "q": "Wir fahren ___ mit dem Zug oder mit dem Bus.", "answer": ["entweder"], "explain": "entweder … oder: a choice between two options." },
+    { "type": "article", "word": "Fahrkarte", "answer": "die", "explain": "Fahrkarte is feminine: die Fahrkarte (ending in -e)." },
+    { "type": "article", "word": "Museum", "answer": "das", "explain": "Nouns ending in -um are neuter: das Museum." },
+    { "type": "order", "words": ["Wir", "haben", "weder", "ein", "Hotel", "noch", "eine", "Pension", "gefunden"], "answer": "Wir haben weder ein Hotel noch eine Pension gefunden", "explain": "weder … noch surrounds the two objects; the Partizip II gefunden stays at the end." },
+    { "type": "order", "words": ["Das", "Museum", "ist", "nicht", "nur", "interessant,", "sondern", "auch", "kostenlos"], "answer": "Das Museum ist nicht nur interessant, sondern auch kostenlos", "explain": "nicht nur … sondern auch links two adjectives after ist." },
+    { "type": "order", "words": ["Einerseits", "ist", "Berlin", "teuer,", "andererseits", "gibt", "es", "viel", "Kultur"], "answer": "Einerseits ist Berlin teuer, andererseits gibt es viel Kultur", "explain": "Both einerseits and andererseits are adverbs in position 1, so the verb follows immediately in each clause." },
+    { "type": "match", "pairs": [["die Sehenswürdigkeit", "sight, attraction"], ["die Unterkunft", "accommodation"], ["die Verspätung", "delay"], ["das Gepäck", "luggage"], ["der Brauch", "custom"]], "explain": "Vocabulary for travelling and culture." },
+    { "type": "translate", "en": "Both the food and the music are good.", "answer": ["Sowohl das Essen als auch die Musik sind gut"], "explain": "sowohl … als auch connects two nouns; the verb is plural: sind." }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Berlin ist sowohl historisch als auch modern.", "en": "Berlin is both historic and modern." },
+      { "de": "Wir haben weder ein Auto noch ein Fahrrad gemietet.", "en": "We rented neither a car nor a bike." },
+      { "de": "Die Reise war zwar anstrengend, aber sie hat sich gelohnt.", "en": "The trip was exhausting, but it was worth it." },
+      { "de": "Einerseits sind Zugreisen umweltfreundlich, andererseits haben sie oft Verspätung.", "en": "On the one hand train journeys are environmentally friendly, on the other hand they are often late." },
+      { "de": "Das Fest war nicht nur lustig, sondern auch sehr typisch für die Region.", "en": "The festival was not only fun but also very typical for the region." }
+    ],
+    "prompts": [
+      { "q": "Erzähl von einer Reise, die dir gut gefallen hat.", "qEn": "Tell me about a trip you really enjoyed.", "model": "Letzten Sommer waren wir in Wien. Die Stadt ist nicht nur schön, sondern auch sehr lebendig. Wir haben sowohl das Schloss Schönbrunn als auch ein Museum besichtigt. Die Reise war zwar kurz, aber sie hat sich gelohnt.", "hint": "nicht nur … sondern auch / sowohl … als auch / zwar … aber" },
+      { "q": "Du buchst eine Unterkunft. Was ist dir wichtig?", "qEn": "You are booking accommodation. What matters to you?", "model": "Mir ist wichtig, dass die Unterkunft sowohl sauber als auch zentral gelegen ist. Entweder suche ich ein kleines Hotel oder eine Ferienwohnung. Ein Luxushotel brauche ich nicht, denn ich möchte weder viel Geld ausgeben noch weit vom Zentrum entfernt wohnen.", "hint": "sowohl … als auch / entweder … oder / weder … noch" },
+      { "q": "Wie findest du Reisen mit der Bahn in Deutschland?", "qEn": "What do you think about travelling by train in Germany?", "model": "Einerseits ist die Bahn bequem und umweltfreundlich, andererseits kommen die Züge oft zu spät. Man muss zwar manchmal umsteigen, aber man kann dabei arbeiten oder lesen.", "hint": "Einerseits …, andererseits … / zwar …, aber …" }
+    ]
+  }
+}

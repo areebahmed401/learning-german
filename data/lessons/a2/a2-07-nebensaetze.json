@@ -1,0 +1,148 @@
+{
+  "id": "a2-07-nebensaetze",
+  "level": "A2",
+  "title": "weil, dass, wenn",
+  "concept": "Subordinate clauses: verb at the end",
+  "wordlist": "Arbeit & Beruf",
+  "minutes": 30,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+A2+Nebens%C3%A4tze+weil+dass+wenn+ob+Verb+am+Ende",
+  "learn": [
+    {
+      "heading": "The verb jumps to the end",
+      "text": "A **subordinate clause** (Nebensatz) starts with a conjunction such as **weil, dass, wenn, ob**. In this clause the **conjugated verb goes to the very end**. The main clause before or after it keeps its normal order, and a comma separates the two. If the Nebensatz comes first, it counts as position 1 of the main clause, so the main-clause verb comes next: **Wenn ich Feierabend habe, gehe ich einkaufen.**",
+      "table": {
+        "head": ["Main clause", "Conjunction", "Subordinate clause (verb last)"],
+        "rows": [
+          ["Ich bleibe zu Hause,", "weil", "ich krank bin."],
+          ["Er sagt,", "dass", "er heute länger arbeiten muss."],
+          ["Ich rufe dich an,", "wenn", "ich im Büro ankomme."],
+          ["Ich weiß nicht,", "ob", "der Chef heute im Büro ist."]
+        ]
+      },
+      "examples": [
+        { "de": "Ich komme zu spät, weil der Bus Verspätung hat.", "en": "I am late because the bus is delayed." },
+        { "de": "Ich glaube, dass die Besprechung um zehn Uhr beginnt.", "en": "I think the meeting starts at ten." },
+        { "de": "Wenn ich Feierabend habe, gehe ich einkaufen.", "en": "When I finish work, I go shopping." }
+      ]
+    },
+    {
+      "heading": "weil, dass, wenn, ob",
+      "text": "**weil** gives a reason (answers *warum?*). **dass** introduces what someone says, thinks or knows: *ich denke, ich weiß, er sagt, es ist wichtig, dass …* **wenn** means *if* or *whenever* (a condition or repeated action). **ob** means *whether* and is used for indirect yes/no questions: *Ich weiß nicht, ob er kommt.* Do not confuse **wenn** with **wann** (when? in questions).",
+      "examples": [
+        { "de": "Ich lerne Deutsch, weil ich es für die Arbeit brauche.", "en": "I learn German because I need it for work." },
+        { "de": "Mein Chef sagt, dass ich nächste Woche nach München fahren soll.", "en": "My boss says that I should go to Munich next week." },
+        { "de": "Wenn du Fragen hast, ruf mich an.", "en": "If you have questions, call me." },
+        { "de": "Weißt du, ob die Kantine heute geöffnet ist?", "en": "Do you know whether the canteen is open today?" }
+      ]
+    },
+    {
+      "heading": "Separable verbs and the Perfekt in the Nebensatz",
+      "text": "At the end of the clause everything stays together. A separable verb is **not split**: *…, weil der Zug um 8 Uhr abfährt.* In the Perfekt, the Partizip II comes first and the conjugated auxiliary last: *…, weil ich lange gearbeitet habe.* With a modal verb, the modal verb is last: *…, dass ich früher gehen muss.*",
+      "table": {
+        "head": ["Main clause", "Nebensatz"],
+        "rows": [
+          ["Ich bin müde,", "weil ich gestern lange gearbeitet habe."],
+          ["Ich weiß,", "dass das Meeting um zehn Uhr anfängt."],
+          ["Er sagt,", "dass er morgen früher gehen muss."]
+        ]
+      },
+      "examples": [
+        { "de": "Ich war nicht im Büro, weil ich beim Arzt war.", "en": "I was not at the office because I was at the doctor's." },
+        { "de": "Wenn der Chef zurückkommt, besprechen wir das Projekt.", "en": "When the boss comes back, we will discuss the project." }
+      ]
+    }
+  ],
+  "tip": "Think of the Nebensatz as a sandwich: conjunction first, verb last. Always check the end of the clause before you speak: 'weil ich … habe / bin / muss'.",
+  "words": [
+    { "de": "Beruf", "en": "profession, occupation", "pos": "noun", "article": "der", "plural": "Berufe" },
+    { "de": "Firma", "en": "company", "pos": "noun", "article": "die", "plural": "Firmen" },
+    { "de": "Büro", "en": "office", "pos": "noun", "article": "das", "plural": "Büros" },
+    { "de": "Chef", "en": "boss (male)", "pos": "noun", "article": "der", "plural": "Chefs" },
+    { "de": "Chefin", "en": "boss (female)", "pos": "noun", "article": "die", "plural": "Chefinnen" },
+    { "de": "Besprechung", "en": "meeting", "pos": "noun", "article": "die", "plural": "Besprechungen" },
+    { "de": "Termin", "en": "appointment, deadline", "pos": "noun", "article": "der", "plural": "Termine" },
+    { "de": "Gehalt", "en": "salary", "pos": "noun", "article": "das", "plural": "Gehälter" },
+    { "de": "Vertrag", "en": "contract", "pos": "noun", "article": "der", "plural": "Verträge" },
+    { "de": "Bewerbung", "en": "job application", "pos": "noun", "article": "die", "plural": "Bewerbungen" },
+    { "de": "Lebenslauf", "en": "CV, résumé", "pos": "noun", "article": "der", "plural": "Lebensläufe" },
+    { "de": "Erfahrung", "en": "experience", "pos": "noun", "article": "die", "plural": "Erfahrungen" },
+    { "de": "Überstunden", "en": "overtime", "pos": "noun", "article": "die", "plural": "-", "note": "plural only" },
+    { "de": "Ingenieur", "en": "engineer (male)", "pos": "noun", "article": "der", "plural": "Ingenieure" },
+    { "de": "Projekt", "en": "project", "pos": "noun", "article": "das", "plural": "Projekte" },
+    { "de": "Kunde", "en": "customer (male)", "pos": "noun", "article": "der", "plural": "Kunden" },
+    { "de": "Feierabend", "en": "end of the working day", "pos": "noun", "article": "der", "plural": "-", "note": "no plural" },
+    { "de": "verdienen", "en": "to earn", "pos": "verb", "aux": "haben", "p2": "verdient" },
+    { "de": "kündigen", "en": "to quit; to give notice", "pos": "verb", "aux": "haben", "p2": "gekündigt" },
+    { "de": "anfangen", "en": "to begin, to start", "pos": "verb", "aux": "haben", "sep": "an", "p2": "angefangen" },
+    { "de": "vereinbaren", "en": "to arrange, to agree on", "pos": "verb", "aux": "haben", "p2": "vereinbart" },
+    { "de": "teilnehmen", "en": "to take part", "pos": "verb", "aux": "haben", "sep": "teil", "p2": "teilgenommen" },
+    { "de": "schicken", "en": "to send", "pos": "verb", "aux": "haben", "p2": "geschickt" },
+    { "de": "anstrengend", "en": "tiring, demanding", "pos": "adj" }
+  ],
+  "mindmap": {
+    "label": "Nebensatz",
+    "note": "verb at the end",
+    "children": [
+      {
+        "label": "weil",
+        "note": "because",
+        "children": [
+          { "label": "gives a reason", "note": "Warum? – weil …" },
+          { "label": "..., weil ich arbeiten muss" }
+        ]
+      },
+      {
+        "label": "dass",
+        "note": "that",
+        "children": [
+          { "label": "after ich denke / glaube / weiß", "note": "Ich weiß, dass …" },
+          { "label": "after er sagt", "note": "Er sagt, dass …" }
+        ]
+      },
+      {
+        "label": "wenn · ob",
+        "children": [
+          { "label": "wenn = if / whenever", "note": "Wenn ich Zeit habe, …" },
+          { "label": "ob = whether", "note": "Ich weiß nicht, ob …" }
+        ]
+      },
+      {
+        "label": "Regeln",
+        "children": [
+          { "label": "comma before the conjunction" },
+          { "label": "Nebensatz first → verb, then subject", "note": "Wenn …, gehe ich …" },
+          { "label": "separable verb stays together", "note": "weil er anfängt" },
+          { "label": "Perfekt: Partizip + haben last", "note": "weil ich gearbeitet habe" }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "order", "words": ["Ich", "komme", "zu spät,", "weil", "der Bus", "Verspätung", "hat"], "answer": "Ich komme zu spät, weil der Bus Verspätung hat", "explain": "After weil, the conjugated verb (hat) goes to the end of the clause." },
+    { "type": "order", "words": ["Er", "sagt,", "dass", "er", "heute", "länger arbeiten", "muss"], "answer": "Er sagt, dass er heute länger arbeiten muss", "explain": "With a modal verb in a dass-clause the modal (muss) comes last, after the infinitive." },
+    { "type": "order", "words": ["Wenn ich", "Feierabend", "habe,", "gehe", "ich", "nach Hause"], "answer": "Wenn ich Feierabend habe, gehe ich nach Hause", "explain": "The wenn-clause is position 1; the verb of the main clause (gehe) follows directly, then the subject." },
+    { "type": "order", "words": ["Ich", "weiß", "nicht,", "ob", "der Chef", "heute", "im Büro", "ist"], "answer": "Ich weiß nicht, ob der Chef heute im Büro ist", "explain": "ob introduces an indirect yes/no question; the verb ist is last." },
+    { "type": "mc", "q": "Sie sagt, ___ sie morgen später kommt.", "options": ["dass", "weil", "wenn"], "answer": 0, "explain": "After verbs of saying (sagen), the content clause begins with dass." },
+    { "type": "mc", "q": "Which sentence is correct?", "options": ["Ich lerne Deutsch, weil ich brauche es für die Arbeit.", "Ich lerne Deutsch, weil ich es für die Arbeit brauche.", "Ich lerne Deutsch, weil brauche ich es für die Arbeit."], "answer": 1, "explain": "After weil, the verb brauche moves to the end of the clause." },
+    { "type": "gap", "q": "Ich bin müde, weil ich gestern lange ___ habe. (arbeiten)", "answer": ["gearbeitet"], "explain": "In the Nebensatz the Partizip II (gearbeitet) comes before the auxiliary habe, which is last." },
+    { "type": "gap", "q": "Ich weiß, dass die Besprechung um zehn Uhr ___. (anfangen)", "answer": ["anfängt"], "explain": "The separable verb stays together at the end of the Nebensatz: anfängt (er fängt an → dass er anfängt)." },
+    { "type": "article", "word": "Firma", "answer": "die", "explain": "Firma is feminine and has an irregular plural: die Firma, die Firmen. Learn it as a unit." },
+    { "type": "match", "pairs": [["weil", "because"], ["dass", "that"], ["wenn", "if / whenever"], ["ob", "whether / if"]], "explain": "All four send the conjugated verb to the end of the clause." },
+    { "type": "translate", "en": "I like my job because my coworkers are nice.", "answer": ["Ich mag meinen Job, weil meine Kollegen nett sind", "Ich mag meine Arbeit, weil meine Kollegen nett sind", "Mir gefällt meine Arbeit, weil meine Kollegen nett sind", "Ich mag meinen Beruf, weil meine Kollegen nett sind"], "explain": "weil sends the verb sind to the end: …, weil meine Kollegen nett sind." },
+    { "type": "translate", "en": "If I have time, I will call you.", "answer": ["Wenn ich Zeit habe, rufe ich dich an", "Wenn ich Zeit habe, ruf ich dich an"], "explain": "The wenn-clause comes first, so the main clause starts with the verb: rufe ich dich an (separable verb anrufen)." }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Ich arbeite gern bei meiner Firma, weil die Kollegen nett sind.", "en": "I like working at my company because the coworkers are nice." },
+      { "de": "Mein Chef sagt, dass wir nächste Woche ein neues Projekt anfangen.", "en": "My boss says that we are starting a new project next week." },
+      { "de": "Wenn ich Feierabend habe, gehe ich meistens einkaufen.", "en": "When I finish work, I usually go shopping." },
+      { "de": "Ich weiß nicht, ob ich morgen früher gehen kann.", "en": "I do not know whether I can leave earlier tomorrow." },
+      { "de": "Ich bin müde, weil ich viele Überstunden gemacht habe.", "en": "I am tired because I worked a lot of overtime." }
+    ],
+    "prompts": [
+      { "q": "Du kommst zu spät zur Besprechung. Dein Chef fragt: Warum kommen Sie so spät?", "qEn": "You are late for the meeting. Your boss asks: why are you so late?", "model": "Entschuldigung, ich bin zu spät, weil der Zug Verspätung hatte. Ich hoffe, dass ich nichts verpasst habe.", "hint": "…, weil der Zug / Bus … Ich hoffe, dass …" },
+      { "q": "Warum arbeitest du in Deutschland und was gefällt dir an deiner Arbeit?", "qEn": "Why do you work in Germany and what do you like about your job?", "model": "Ich arbeite in Deutschland, weil ich hier gute Erfahrungen sammeln kann. Mir gefällt die Arbeit, weil ich spannende Projekte habe.", "hint": "Ich arbeite hier, weil … Mir gefällt …, weil …" },
+      { "q": "Ein Kollege fragt dich, ob du morgen Zeit hast. Was antwortest du?", "qEn": "A coworker asks whether you have time tomorrow. What do you answer?", "model": "Ich weiß noch nicht, ob ich Zeit habe, weil ich morgen einen Termin beim Kunden habe. Wenn ich früh fertig bin, rufe ich dich an.", "hint": "Ich weiß nicht, ob … Wenn ich …, rufe ich …" }
+    ]
+  }
+}

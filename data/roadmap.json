@@ -1,0 +1,100 @@
+{
+  "levels": [
+    {
+      "id": "A1",
+      "name": "Anfänger",
+      "goal": "Introduce yourself, handle everyday basics, ask and answer simple questions.",
+      "youtube": "https://www.youtube.com/results?search_query=Learn+German+A1+course",
+      "milestones": [
+        { "id": "a1-01-hallo", "title": "Hallo!", "concept": "Greetings, alphabet & German sounds", "wordlist": "Begrüßung" },
+        { "id": "a1-02-sein-haben", "title": "sein & haben", "concept": "Personal pronouns, sein & haben", "wordlist": "Länder & Sprachen" },
+        { "id": "a1-03-praesens", "title": "Präsens & Satzbau", "concept": "Present tense and verb-second word order", "wordlist": "Hobbys & Alltag" },
+        { "id": "a1-04-fragen", "title": "Fragen stellen", "concept": "W-questions and yes/no questions", "wordlist": "Zahlen" },
+        { "id": "a1-05-artikel", "title": "Artikel & Genus", "concept": "Articles and gender: der, die, das, ein, eine", "wordlist": "Familie" },
+        { "id": "a1-06-plural", "title": "Plural", "concept": "Plural forms of nouns", "wordlist": "Wohnung & Möbel" },
+        { "id": "a1-07-akkusativ", "title": "Akkusativ", "concept": "The accusative case (den, einen)", "wordlist": "Essen & Trinken" },
+        { "id": "a1-08-negation", "title": "nicht & kein", "concept": "Negation with nicht and kein", "wordlist": "Einkaufen" },
+        { "id": "a1-09-possessiv", "title": "mein, dein, sein…", "concept": "Possessive articles", "wordlist": "Sachen & Farben" },
+        { "id": "a1-10-modalverben", "title": "Modalverben", "concept": "können, müssen, wollen, dürfen, sollen, möchten", "wordlist": "Freizeit" },
+        { "id": "a1-11-trennbare-verben", "title": "Trennbare Verben", "concept": "Separable verbs (aufstehen, einkaufen)", "wordlist": "Tagesablauf" },
+        { "id": "a1-12-zeit", "title": "Uhrzeit & Termine", "concept": "Telling time; am, um, im", "wordlist": "Zeit & Termine" },
+        { "id": "a1-13-akk-praepositionen", "title": "für, ohne, durch…", "concept": "Accusative prepositions", "wordlist": "Stadt & Wege" },
+        { "id": "a1-14-imperativ", "title": "Imperativ", "concept": "Giving instructions and requests", "wordlist": "Beim Arzt" },
+        { "id": "a1-15-perfekt-intro", "title": "Perfekt: Einstieg", "concept": "Talking about the past with the Perfekt", "wordlist": "Wochenende" }
+      ]
+    },
+    {
+      "id": "A2",
+      "name": "Grundlagen",
+      "goal": "Talk about your past, your plans, your work and your opinions in simple connected sentences.",
+      "youtube": "https://www.youtube.com/results?search_query=Learn+German+A2+course",
+      "milestones": [
+        { "id": "a2-01-perfekt", "title": "Perfekt komplett", "concept": "Perfekt with haben/sein and irregular participles", "wordlist": "Reisen" },
+        { "id": "a2-02-dativ", "title": "Dativ", "concept": "The dative case and dative verbs", "wordlist": "Geschenke & Feiern" },
+        { "id": "a2-03-dativ-praepositionen", "title": "aus, bei, mit…", "concept": "Dative prepositions", "wordlist": "Verkehr & Unterwegs" },
+        { "id": "a2-04-wechselpraepositionen", "title": "Wechselpräpositionen", "concept": "Two-way prepositions; stellen/stehen, legen/liegen", "wordlist": "Wohnung einrichten" },
+        { "id": "a2-05-pronomen", "title": "Pronomen", "concept": "Personal pronouns in all cases", "wordlist": "Freunde & Beziehungen" },
+        { "id": "a2-06-praeteritum-basis", "title": "war, hatte, konnte", "concept": "Präteritum of sein, haben and modal verbs", "wordlist": "Kindheit & Schule" },
+        { "id": "a2-07-nebensaetze", "title": "weil, dass, wenn", "concept": "Subordinate clauses: verb at the end", "wordlist": "Arbeit & Beruf" },
+        { "id": "a2-08-adjektive", "title": "Adjektivendungen", "concept": "Adjective endings after der/ein/no article", "wordlist": "Aussehen & Charakter" },
+        { "id": "a2-09-komparativ", "title": "Komparativ & Superlativ", "concept": "Comparing things", "wordlist": "Wetter & Natur" },
+        { "id": "a2-10-reflexiv", "title": "Reflexive Verben", "concept": "sich waschen, sich freuen, sich erinnern", "wordlist": "Körper & Gesundheit" },
+        { "id": "a2-11-wo-da", "title": "worauf? darauf!", "concept": "Verbs with prepositions; wo- and da-words", "wordlist": "Gefühle & Meinungen" },
+        { "id": "a2-12-hoeflich", "title": "Ich hätte gern…", "concept": "Polite Konjunktiv II: würde, hätte, könnte", "wordlist": "Restaurant & Service" },
+        { "id": "a2-13-futur", "title": "Futur I", "concept": "Talking about the future and plans", "wordlist": "Zukunft & Pläne" }
+      ]
+    },
+    {
+      "id": "B1",
+      "name": "Mittelstufe",
+      "goal": "Handle most situations in Germany, tell stories, give reasons and opinions, and follow everyday conversations.",
+      "youtube": "https://www.youtube.com/results?search_query=Learn+German+B1+course",
+      "milestones": [
+        { "id": "b1-01-praeteritum", "title": "Präteritum", "concept": "Simple past for storytelling and writing", "wordlist": "Geschichten & Medien" },
+        { "id": "b1-02-plusquamperfekt", "title": "Plusquamperfekt", "concept": "Past perfect and nachdem", "wordlist": "Lebenslauf" },
+        { "id": "b1-03-relativsaetze", "title": "Relativsätze", "concept": "Relative clauses: der, die, das, dem, den, dessen", "wordlist": "Wohnen & Nachbarschaft" },
+        { "id": "b1-04-passiv", "title": "Passiv", "concept": "Passive voice in present and past", "wordlist": "Umwelt & Recycling" },
+        { "id": "b1-05-zu-infinitiv", "title": "Infinitiv mit zu", "concept": "Infinitive clauses: Ich habe vor, … zu …", "wordlist": "Bewerbung" },
+        { "id": "b1-06-um-zu-damit", "title": "um … zu / damit", "concept": "Expressing purpose", "wordlist": "Lernen & Studium" },
+        { "id": "b1-07-konnektoren", "title": "obwohl, trotzdem, deshalb", "concept": "Connectors for reason, contrast and consequence", "wordlist": "Gesundheit & Sport" },
+        { "id": "b1-08-temporalsaetze", "title": "als, wenn, während", "concept": "Time clauses: als, wenn, während, bevor, bis, seit", "wordlist": "Erinnerungen" },
+        { "id": "b1-09-genitiv", "title": "Genitiv", "concept": "Genitive case; wegen, trotz, während", "wordlist": "Behörden & Ämter" },
+        { "id": "b1-10-n-deklination", "title": "n-Deklination", "concept": "Weak masculine nouns (der Kollege → den Kollegen)", "wordlist": "Menschen & Berufe" },
+        { "id": "b1-11-verben-praepositionen", "title": "Verben mit Präpositionen", "concept": "warten auf, sich interessieren für, denken an", "wordlist": "Kommunikation" },
+        { "id": "b1-12-doppelkonnektoren", "title": "sowohl … als auch", "concept": "Two-part connectors", "wordlist": "Reisen & Kultur" },
+        { "id": "b1-13-konjunktiv2", "title": "Wenn ich … wäre", "concept": "Konjunktiv II: wishes, advice and unreal conditions", "wordlist": "Träume & Wünsche" }
+      ]
+    },
+    {
+      "id": "B2",
+      "name": "Selbstständig",
+      "goal": "Discuss abstract topics, argue a position, and understand news and work conversations.",
+      "youtube": "https://www.youtube.com/results?search_query=Learn+German+B2+course",
+      "planned": [
+        { "title": "Passiv mit Modalverben", "concept": "muss gemacht werden; Zustandspassiv" },
+        { "title": "Konjunktiv I", "concept": "Reported speech (indirekte Rede)" },
+        { "title": "Konjunktiv II Vergangenheit", "concept": "hätte gemacht, wäre gegangen" },
+        { "title": "Partizipien als Adjektive", "concept": "der lachende Mann, das gekochte Ei" },
+        { "title": "Nominalisierung", "concept": "Turning verbs into nouns" },
+        { "title": "Konnektoren für Fortgeschrittene", "concept": "zumal, sofern, indem, je … desto" },
+        { "title": "Nomen-Verb-Verbindungen", "concept": "eine Entscheidung treffen, in Frage kommen" },
+        { "title": "Modalverben subjektiv", "concept": "Er soll reich sein. Sie dürfte zu Hause sein." }
+      ]
+    },
+    {
+      "id": "C1",
+      "name": "Fachkundig",
+      "goal": "Express yourself fluently and precisely at work, at university and in society.",
+      "youtube": "https://www.youtube.com/results?search_query=German+C1+grammar",
+      "planned": [
+        { "title": "Erweiterte Partizipialattribute", "concept": "die vom Ingenieur geplante Anlage" },
+        { "title": "Nominalstil vs. Verbalstil", "concept": "Switching between registers" },
+        { "title": "Konjunktiv vertieft", "concept": "als ob, als wäre; advanced Konjunktiv I/II" },
+        { "title": "Modalpartikeln", "concept": "doch, mal, ja, eben, halt, wohl" },
+        { "title": "Redewendungen", "concept": "Idioms and fixed expressions" },
+        { "title": "Wissenschaftliches Schreiben", "concept": "Academic and technical writing" },
+        { "title": "Register & Stil", "concept": "Formal, informal and professional tone" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "id": "a2-06-praeteritum-basis",
+  "level": "A2",
+  "title": "war, hatte, konnte",
+  "concept": "Präteritum of sein, haben and modal verbs",
+  "wordlist": "Kindheit & Schule",
+  "minutes": 25,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+A2+Pr%C3%A4teritum+war+hatte+konnte+Modalverben",
+  "learn": [
+    {
+      "heading": "war and hatte",
+      "text": "For most verbs people speak in the **Perfekt**. But for **sein**, **haben** and the **modal verbs** they use the **Präteritum** (simple past), even in conversation. It is shorter: *Ich war müde* is more natural than *Ich bin müde gewesen.* Note: the **ich** and **er/sie/es** forms are identical, and the **-t** endings tell you it is past.",
+      "table": {
+        "head": ["", "sein", "haben"],
+        "rows": [
+          ["ich", "war", "hatte"],
+          ["du", "warst", "hattest"],
+          ["er / sie / es", "war", "hatte"],
+          ["wir", "waren", "hatten"],
+          ["ihr", "wart", "hattet"],
+          ["sie / Sie", "waren", "hatten"]
+        ]
+      },
+      "examples": [
+        { "de": "Als Kind war ich oft krank.", "en": "As a child I was often ill." },
+        { "de": "Wir hatten in der Grundschule viel Spaß.", "en": "We had a lot of fun in primary school." },
+        { "de": "Warst du gestern in der Uni?", "en": "Were you at uni yesterday?" }
+      ]
+    },
+    {
+      "heading": "Modal verbs in the Präteritum",
+      "text": "Modal verbs add **-te** to the stem and **lose their umlaut**: können → konnte, müssen → musste, dürfen → durfte, mögen → mochte. **wollen** and **sollen** have no umlaut anyway. The endings are the same as for *hatte*: ich konnte, du konntest, er konnte, wir konnten, ihr konntet, sie konnten. The infinitive still goes to the end.",
+      "table": {
+        "head": ["Infinitive", "ich / er", "du", "wir / sie"],
+        "rows": [
+          ["können", "konnte", "konntest", "konnten"],
+          ["müssen", "musste", "musstest", "mussten"],
+          ["wollen", "wollte", "wolltest", "wollten"],
+          ["dürfen", "durfte", "durftest", "durften"],
+          ["sollen", "sollte", "solltest", "sollten"],
+          ["mögen", "mochte", "mochtest", "mochten"]
+        ]
+      },
+      "examples": [
+        { "de": "Mit sechs Jahren konnte ich schon schwimmen.", "en": "At six I could already swim." },
+        { "de": "In der Schule mussten wir immer pünktlich sein.", "en": "At school we always had to be on time." },
+        { "de": "Mein Vater wollte Ingenieur werden.", "en": "My father wanted to become an engineer." }
+      ]
+    },
+    {
+      "heading": "Talking about the past: früher and damals",
+      "text": "Use time words like **früher** (in the past), **damals** (back then), **als Kind** and **mit zehn Jahren** to tell stories about your childhood and school days. Remember that the verb stays in position 2, so after a time word comes the verb, then the subject: *Früher hatte ich keine Angst vor Mathe.* For all other verbs, use the Perfekt (see lesson Perfekt).",
+      "examples": [
+        { "de": "Früher durfte ich nach der Schule nicht fernsehen.", "en": "In the past I was not allowed to watch TV after school." },
+        { "de": "Damals hatte ich nur einen Lehrer für alle Fächer.", "en": "Back then I only had one teacher for all subjects." },
+        { "de": "Nach der Schule bin ich nach Hause gegangen und habe Hausaufgaben gemacht.", "en": "After school I went home and did my homework." }
+      ]
+    }
+  ],
+  "tip": "A story needs only three small verbs: war, hatte, konnte. 'Ich war klein, ich hatte einen Hund, ich konnte schon lesen.' Tell your own childhood story with these before you add the Perfekt.",
+  "words": [
+    { "de": "Kindheit", "en": "childhood", "pos": "noun", "article": "die", "plural": "-", "note": "no plural" },
+    { "de": "Schule", "en": "school", "pos": "noun", "article": "die", "plural": "Schulen" },
+    { "de": "Grundschule", "en": "primary school", "pos": "noun", "article": "die", "plural": "Grundschulen" },
+    { "de": "Klasse", "en": "class", "pos": "noun", "article": "die", "plural": "Klassen" },
+    { "de": "Lehrer", "en": "teacher (male)", "pos": "noun", "article": "der", "plural": "Lehrer" },
+    { "de": "Lehrerin", "en": "teacher (female)", "pos": "noun", "article": "die", "plural": "Lehrerinnen" },
+    { "de": "Schüler", "en": "pupil (male)", "pos": "noun", "article": "der", "plural": "Schüler" },
+    { "de": "Hausaufgabe", "en": "homework (single task)", "pos": "noun", "article": "die", "plural": "Hausaufgaben" },
+    { "de": "Pause", "en": "break", "pos": "noun", "article": "die", "plural": "Pausen" },
+    { "de": "Zeugnis", "en": "school report, certificate", "pos": "noun", "article": "das", "plural": "Zeugnisse" },
+    { "de": "Note", "en": "grade, mark", "pos": "noun", "article": "die", "plural": "Noten" },
+    { "de": "Fach", "en": "subject", "pos": "noun", "article": "das", "plural": "Fächer" },
+    { "de": "Spielplatz", "en": "playground", "pos": "noun", "article": "der", "plural": "Spielplätze" },
+    { "de": "Klassenarbeit", "en": "class test", "pos": "noun", "article": "die", "plural": "Klassenarbeiten" },
+    { "de": "Abitur", "en": "final school exams (university entrance)", "pos": "noun", "article": "das", "plural": "-", "note": "no plural" },
+    { "de": "Ferien", "en": "school holidays", "pos": "noun", "article": "die", "plural": "-", "note": "plural only" },
+    { "de": "aufwachsen", "en": "to grow up", "pos": "verb", "aux": "sein", "sep": "auf", "p2": "aufgewachsen" },
+    { "de": "lernen", "en": "to learn, to study", "pos": "verb", "aux": "haben", "p2": "gelernt" },
+    { "de": "spielen", "en": "to play", "pos": "verb", "aux": "haben", "p2": "gespielt" },
+    { "de": "abschließen", "en": "to finish, to complete", "pos": "verb", "aux": "haben", "sep": "ab", "p2": "abgeschlossen" },
+    { "de": "streng", "en": "strict", "pos": "adj" },
+    { "de": "früher", "en": "in the past, formerly", "pos": "adv" },
+    { "de": "damals", "en": "back then", "pos": "adv" },
+    { "de": "als Kind", "en": "as a child", "pos": "phrase" }
+  ],
+  "mindmap": {
+    "label": "Präteritum",
+    "note": "war · hatte · konnte",
+    "children": [
+      {
+        "label": "sein",
+        "children": [
+          { "label": "ich war, du warst" },
+          { "label": "wir waren, ihr wart" }
+        ]
+      },
+      {
+        "label": "haben",
+        "children": [
+          { "label": "ich hatte, du hattest" },
+          { "label": "wir hatten, ihr hattet" }
+        ]
+      },
+      {
+        "label": "Modalverben",
+        "note": "stem + -te, no umlaut",
+        "children": [
+          { "label": "konnte, musste, durfte", "note": "können, müssen, dürfen" },
+          { "label": "wollte, sollte, mochte" }
+        ]
+      },
+      {
+        "label": "Wann benutzen?",
+        "children": [
+          { "label": "sein, haben, Modalverben", "note": "Präteritum" },
+          { "label": "alle anderen Verben", "note": "Perfekt" }
+        ]
+      },
+      {
+        "label": "Zeitwörter",
+        "children": [
+          { "label": "früher, damals, als Kind" }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "mc", "q": "Als Kind ___ ich in Lahore.", "options": ["war", "bin", "hatte"], "answer": 0, "explain": "Stories about the past use war, not the present bin. Ich war in Lahore." },
+    { "type": "mc", "q": "Wir ___ keine Hausaufgaben.", "options": ["hatten", "waren", "hatte"], "answer": 0, "explain": "wir + haben in the Präteritum: wir hatten. Only the ich/er form is hatte." },
+    { "type": "mc", "q": "What is the Präteritum of 'müssen' (ich)?", "options": ["musste", "mußte", "müsste"], "answer": 0, "explain": "Modals lose the umlaut: musste. müsste is the Konjunktiv II (polite/hypothetical)." },
+    { "type": "gap", "q": "Wir ___ in der Grundschule viel Spaß.", "answer": ["hatten"], "explain": "viel Spaß haben in the past: wir hatten." },
+    { "type": "gap", "q": "Ihr ___ gestern nicht im Unterricht.", "answer": ["wart"], "explain": "ihr + sein in the Präteritum: ihr wart." },
+    { "type": "gap", "q": "Mit sechs Jahren ___ ich schon schwimmen. (können)", "answer": ["konnte"], "explain": "können → konnte, no umlaut, ending -te." },
+    { "type": "article", "word": "Schule", "answer": "die", "explain": "Most nouns ending in -e are feminine: die Schule." },
+    { "type": "article", "word": "Zeugnis", "answer": "das", "explain": "Nouns ending in -nis are neuter: das Zeugnis." },
+    { "type": "order", "words": ["Früher", "hatte", "ich", "keine Angst", "vor Mathe"], "answer": "Früher hatte ich keine Angst vor Mathe", "explain": "A time word first → verb in position 2, then the subject." },
+    { "type": "order", "words": ["In der Pause", "durften", "wir", "nicht", "ins Klassenzimmer"], "answer": "In der Pause durften wir nicht ins Klassenzimmer", "explain": "durften is in position 2; nicht comes before the direction ins Klassenzimmer." },
+    { "type": "match", "pairs": [["ich war", "I was"], ["wir hatten", "we had"], ["er konnte", "he could"], ["sie mussten", "they had to"], ["du wolltest", "you wanted"]], "explain": "Präteritum of modals = stem + -te + personal ending." },
+    { "type": "translate", "en": "Our teacher was very strict.", "answer": ["Unser Lehrer war sehr streng", "Unsere Lehrerin war sehr streng"], "explain": "sein in the Präteritum for er/sie: war. Lehrer is masculine → unser, Lehrerin feminine → unsere." },
+    { "type": "translate", "en": "As a child I could not swim.", "answer": ["Als Kind konnte ich nicht schwimmen", "Ich konnte als Kind nicht schwimmen"], "explain": "können → konnte. The infinitive schwimmen goes to the end." }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Als Kind war ich ziemlich schüchtern.", "en": "As a child I was quite shy." },
+      { "de": "In der Grundschule hatten wir eine sehr nette Lehrerin.", "en": "In primary school we had a very nice teacher." },
+      { "de": "Damals konnte ich noch nicht gut schwimmen.", "en": "Back then I could not swim well yet." },
+      { "de": "Wir mussten jeden Tag Hausaufgaben machen.", "en": "We had to do homework every day." },
+      { "de": "Nach der Schule wollte ich Ingenieur werden.", "en": "After school I wanted to become an engineer." }
+    ],
+    "prompts": [
+      { "q": "Wie war deine Schulzeit? Erzähl von deiner Lieblingslehrerin oder deinem Lieblingslehrer.", "qEn": "What was your school time like? Tell me about your favourite teacher.", "model": "Meine Schulzeit war schön. Mein Mathelehrer war streng, aber sehr nett. Er konnte alles gut erklären und ich hatte gute Noten.", "hint": "Mein Lehrer war … Er konnte … Ich hatte …" },
+      { "q": "Was wolltest du als Kind werden?", "qEn": "What did you want to become as a child?", "model": "Als Kind wollte ich Pilot werden. Ich habe gern Flugzeuge gesehen und ich war oft am Flughafen.", "hint": "Als Kind wollte ich … werden." },
+      { "q": "Beim Treffen mit Kollegen: Was durftest du als Kind nicht machen?", "qEn": "At a meeting with coworkers: what were you not allowed to do as a child?", "model": "Ich durfte abends nicht lange fernsehen. Ich musste um acht Uhr im Bett sein und ich durfte keine Süßigkeiten essen.", "hint": "Ich durfte nicht … Ich musste …" }
+    ]
+  }
+}

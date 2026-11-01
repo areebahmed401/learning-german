@@ -1,0 +1,153 @@
+{
+  "id": "a2-09-komparativ",
+  "level": "A2",
+  "title": "Komparativ & Superlativ",
+  "concept": "Comparing things",
+  "wordlist": "Wetter & Natur",
+  "minutes": 25,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+A2+Komparativ+Superlativ+comparing",
+  "learn": [
+    {
+      "heading": "Komparativ and Superlativ",
+      "text": "To compare two things, add **-er** to the adjective and use **als** (than). For the highest degree, use **am + -sten**. Short adjectives with **a, o, u** usually add an umlaut. Adjectives ending in **-d, -t, -s, -ß, -z, -sch** add **-esten** in the Superlativ (*am heißesten*).",
+      "table": {
+        "head": ["", "Positiv", "Komparativ", "Superlativ"],
+        "rows": [
+          ["regular", "schnell", "schneller", "am schnellsten"],
+          ["umlaut", "warm", "wärmer", "am wärmsten"],
+          ["umlaut", "kalt", "kälter", "am kältesten"],
+          ["-ß / -t / -d", "heiß", "heißer", "am heißesten"],
+          ["-e ending", "leise", "leiser", "am leisesten"]
+        ]
+      },
+      "examples": [
+        { "de": "Im Sommer ist es wärmer als im Winter.", "en": "In summer it is warmer than in winter." },
+        { "de": "Aachen ist kleiner als Köln.", "en": "Aachen is smaller than Cologne." },
+        { "de": "Im Juli ist es am heißesten.", "en": "It is hottest in July." }
+      ]
+    },
+    {
+      "heading": "Irregular forms and so … wie",
+      "text": "A few very common adjectives are irregular. Learn them as a group. For things that are **equal**, use **(genau)so … wie**; for things that are not equal, **nicht so … wie**. *Als* is for different degrees, *wie* for the same.",
+      "table": {
+        "head": ["Positiv", "Komparativ", "Superlativ"],
+        "rows": [
+          ["gut", "besser", "am besten"],
+          ["viel", "mehr", "am meisten"],
+          ["gern", "lieber", "am liebsten"],
+          ["hoch", "höher", "am höchsten"],
+          ["nah", "näher", "am nächsten"],
+          ["groß", "größer", "am größten"]
+        ]
+      },
+      "examples": [
+        { "de": "Heute ist es nicht so kalt wie gestern.", "en": "Today it is not as cold as yesterday." },
+        { "de": "Ich trinke lieber Tee als Kaffee.", "en": "I prefer drinking tea to coffee." },
+        { "de": "In Aachen regnet es mehr als in Madrid.", "en": "It rains more in Aachen than in Madrid." }
+      ]
+    },
+    {
+      "heading": "Comparison before a noun",
+      "text": "When the Komparativ or Superlativ stands **before a noun**, it takes the normal adjective endings (see the lesson on Adjektivendungen). The Superlativ always has a definite article: **der höchste Berg**. With **am** there is no noun: *Dieser Berg ist am höchsten.*",
+      "examples": [
+        { "de": "Die Zugspitze ist der höchste Berg in Deutschland.", "en": "The Zugspitze is the highest mountain in Germany." },
+        { "de": "Der August ist der heißeste Monat.", "en": "August is the hottest month." },
+        { "de": "Wir hatten einen kälteren Winter als letztes Jahr.", "en": "We had a colder winter than last year." }
+      ]
+    }
+  ],
+  "tip": "Say it like a ladder: gut – besser – am besten, gern – lieber – am liebsten, viel – mehr – am meisten. These three ladders cover 80 % of everyday comparisons.",
+  "words": [
+    { "de": "Wetter", "en": "weather", "pos": "noun", "article": "das", "plural": "-", "note": "no plural" },
+    { "de": "Sonne", "en": "sun", "pos": "noun", "article": "die", "plural": "-", "note": "no plural" },
+    { "de": "Regen", "en": "rain", "pos": "noun", "article": "der", "plural": "-", "note": "no plural" },
+    { "de": "Schnee", "en": "snow", "pos": "noun", "article": "der", "plural": "-", "note": "no plural" },
+    { "de": "Wind", "en": "wind", "pos": "noun", "article": "der", "plural": "Winde" },
+    { "de": "Wolke", "en": "cloud", "pos": "noun", "article": "die", "plural": "Wolken" },
+    { "de": "Gewitter", "en": "thunderstorm", "pos": "noun", "article": "das", "plural": "Gewitter" },
+    { "de": "Temperatur", "en": "temperature", "pos": "noun", "article": "die", "plural": "Temperaturen" },
+    { "de": "Grad", "en": "degree", "pos": "noun", "article": "das", "plural": "Grad" },
+    { "de": "Himmel", "en": "sky; heaven", "pos": "noun", "article": "der", "plural": "-", "note": "no plural (in this sense)" },
+    { "de": "Berg", "en": "mountain", "pos": "noun", "article": "der", "plural": "Berge" },
+    { "de": "Wald", "en": "forest", "pos": "noun", "article": "der", "plural": "Wälder" },
+    { "de": "See", "en": "lake", "pos": "noun", "article": "der", "plural": "Seen" },
+    { "de": "Fluss", "en": "river", "pos": "noun", "article": "der", "plural": "Flüsse" },
+    { "de": "Meer", "en": "sea", "pos": "noun", "article": "das", "plural": "Meere" },
+    { "de": "Jahreszeit", "en": "season", "pos": "noun", "article": "die", "plural": "Jahreszeiten" },
+    { "de": "regnen", "en": "to rain", "pos": "verb", "aux": "haben", "p2": "geregnet" },
+    { "de": "schneien", "en": "to snow", "pos": "verb", "aux": "haben", "p2": "geschneit" },
+    { "de": "scheinen", "en": "to shine", "pos": "verb", "aux": "haben", "p2": "geschienen" },
+    { "de": "warm", "en": "warm", "pos": "adj" },
+    { "de": "kalt", "en": "cold", "pos": "adj" },
+    { "de": "heiß", "en": "hot", "pos": "adj" },
+    { "de": "nass", "en": "wet", "pos": "adj" },
+    { "de": "windig", "en": "windy", "pos": "adj" }
+  ],
+  "mindmap": {
+    "label": "Vergleichen",
+    "children": [
+      {
+        "label": "Komparativ",
+        "note": "-er + als",
+        "children": [
+          { "label": "schneller als", "note": "regular" },
+          { "label": "wärmer, kälter", "note": "umlaut a, o, u" }
+        ]
+      },
+      {
+        "label": "Superlativ",
+        "note": "am -sten / der -ste",
+        "children": [
+          { "label": "am schnellsten" },
+          { "label": "-esten after d, t, s, ß, z", "note": "am heißesten" }
+        ]
+      },
+      {
+        "label": "unregelmäßig",
+        "children": [
+          { "label": "gut – besser – am besten" },
+          { "label": "viel – mehr – am meisten" },
+          { "label": "gern – lieber – am liebsten" },
+          { "label": "hoch – höher – am höchsten" }
+        ]
+      },
+      {
+        "label": "Gleichheit",
+        "children": [
+          { "label": "so … wie", "note": "Es ist so kalt wie gestern." },
+          { "label": "nicht so … wie" }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "gap", "q": "Im Sommer ist es ___ als im Winter. (warm)", "answer": ["wärmer"], "explain": "Komparativ of warm: wärmer (umlaut a → ä, ending -er) + als." },
+    { "type": "gap", "q": "Aachen ist ___ als Berlin. (klein)", "answer": ["kleiner"], "explain": "Komparativ: klein + -er. No umlaut because the vowel is ei." },
+    { "type": "gap", "q": "Heute ist es nicht so kalt ___ gestern.", "answer": ["wie"], "explain": "In so … wie / nicht so … wie we use wie for equality." },
+    { "type": "gap", "q": "Im Juli ist es am ___. (heiß)", "answer": ["heißesten"], "explain": "Adjectives ending in -ß take -esten in the Superlativ: am heißesten." },
+    { "type": "mc", "q": "Die Zugspitze ist der ___ Berg in Deutschland.", "options": ["höchste", "höher", "am höchsten"], "answer": 0, "explain": "Before a noun the Superlativ takes an adjective ending: der höchste Berg. am höchsten is used without a noun." },
+    { "type": "mc", "q": "Ich trinke ___ Tee als Kaffee.", "options": ["lieber", "gerner", "besser"], "answer": 0, "explain": "gern – lieber – am liebsten is irregular." },
+    { "type": "mc", "q": "Hier regnet es ___ als in Spanien.", "options": ["mehr", "besser", "lieber"], "answer": 0, "explain": "viel – mehr – am meisten: it rains more." },
+    { "type": "article", "word": "Wetter", "answer": "das", "explain": "das Wetter. Many nouns ending in -er are masculine, but Wetter and Gewitter are neuter (Ge- words are often neuter)." },
+    { "type": "article", "word": "Wald", "answer": "der", "explain": "der Wald, plural die Wälder." },
+    { "type": "order", "words": ["Im Winter", "ist", "es", "in Aachen", "viel kälter", "als in Lahore"], "answer": "Im Winter ist es in Aachen viel kälter als in Lahore", "explain": "The Komparativ (kälter) is followed by als and the second item of the comparison." },
+    { "type": "order", "words": ["Das Wetter", "war", "gestern", "besser", "als heute"], "answer": "Das Wetter war gestern besser als heute", "explain": "gut → besser (irregular), followed by als." },
+    { "type": "match", "pairs": [["gut", "besser – am besten"], ["viel", "mehr – am meisten"], ["gern", "lieber – am liebsten"], ["hoch", "höher – am höchsten"], ["groß", "größer – am größten"]], "explain": "Learn these irregular ladders by heart; they appear in almost every conversation." },
+    { "type": "translate", "en": "Today it is warmer than yesterday.", "answer": ["Heute ist es wärmer als gestern", "Es ist heute wärmer als gestern"], "explain": "warm → wärmer + als." },
+    { "type": "translate", "en": "August is the hottest month.", "answer": ["Der August ist der heißeste Monat", "August ist der heißeste Monat"], "explain": "Superlativ before a noun: der heißeste Monat (heißeste: der-form with -e after the definite article in Nominativ)." }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Im Sommer ist es in Pakistan viel heißer als in Deutschland.", "en": "In summer it is much hotter in Pakistan than in Germany." },
+      { "de": "Der Winter in Aachen ist nicht so kalt wie in Berlin.", "en": "Winter in Aachen is not as cold as in Berlin." },
+      { "de": "Ich mag den Herbst am liebsten.", "en": "I like autumn best." },
+      { "de": "Heute regnet es mehr als gestern.", "en": "It is raining more today than yesterday." },
+      { "de": "Das Wetter ist besser als in der Wettervorhersage.", "en": "The weather is better than in the forecast." }
+    ],
+    "prompts": [
+      { "q": "Wie ist das Wetter bei dir? Ist es wärmer oder kälter als gestern?", "qEn": "What is the weather like where you are? Is it warmer or colder than yesterday?", "model": "Heute ist es kälter als gestern. Gestern hatten wir zwölf Grad, heute sind es nur sieben. Es regnet auch mehr.", "hint": "Heute ist es … als gestern." },
+      { "q": "Welche Jahreszeit magst du am liebsten und warum?", "qEn": "Which season do you like best and why?", "model": "Ich mag den Frühling am liebsten. Es ist wärmer als im Winter, aber nicht so heiß wie im Sommer.", "hint": "Ich mag … am liebsten. Es ist … als / so … wie …" },
+      { "q": "Ein Kollege plant einen Ausflug: Was ist schöner, die Berge oder das Meer?", "qEn": "A coworker plans a trip: what is nicer, the mountains or the sea?", "model": "Ich finde das Meer schöner als die Berge. Aber im Sommer ist es am Meer voller als in den Bergen.", "hint": "Ich finde … schöner / besser als …" }
+    ]
+  }
+}

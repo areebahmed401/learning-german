@@ -1,0 +1,151 @@
+{
+  "id": "a2-05-pronomen",
+  "level": "A2",
+  "title": "Pronomen",
+  "concept": "Personal pronouns in all cases",
+  "wordlist": "Freunde & Beziehungen",
+  "minutes": 25,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+A2+Personalpronomen+Nominativ+Akkusativ+Dativ",
+  "learn": [
+    {
+      "heading": "Personal pronouns: all three cases",
+      "text": "Pronouns replace nouns so you do not repeat them. Learn the three columns together. The **Nominativ** is the subject, the **Akkusativ** answers *wen/was?*, the **Dativ** answers *wem?*. Notice that **sie** and **es** do not change in the Akkusativ.",
+      "table": {
+        "head": ["Nominativ", "Akkusativ", "Dativ"],
+        "rows": [
+          ["ich", "mich", "mir"],
+          ["du", "dich", "dir"],
+          ["er", "ihn", "ihm"],
+          ["sie", "sie", "ihr"],
+          ["es", "es", "ihm"],
+          ["wir", "uns", "uns"],
+          ["ihr", "euch", "euch"],
+          ["sie / Sie", "sie / Sie", "ihnen / Ihnen"]
+        ]
+      },
+      "examples": [
+        { "de": "Ich vermisse dich.", "en": "I miss you." },
+        { "de": "Kannst du mir helfen?", "en": "Can you help me?" },
+        { "de": "Meine Kollegin ist nett. Ich mag sie.", "en": "My coworker is nice. I like her." }
+      ]
+    },
+    {
+      "heading": "Which case? Look at the verb",
+      "text": "The verb decides the case. Most verbs take the **Akkusativ**: *sehen, kennen, lieben, vermissen, besuchen, anrufen, treffen.* A few take only the **Dativ**: *helfen, gefallen, gehören, danken, vertrauen.* Some verbs have both: *geben, zeigen, schenken, schicken* (person = Dativ, thing = Akkusativ).",
+      "examples": [
+        { "de": "Ich habe ihn gestern im Büro getroffen.", "en": "I met him at the office yesterday." },
+        { "de": "Meine Nachbarin hilft mir oft. Ich danke ihr sehr.", "en": "My neighbour often helps me. I thank her a lot." },
+        { "de": "Der Chef zeigt uns das neue Projekt.", "en": "The boss shows us the new project." }
+      ]
+    },
+    {
+      "heading": "Word order with pronouns",
+      "text": "When a sentence has two objects, the rule is: **pronoun before noun**. If both are pronouns, the **Akkusativ comes first**, then the Dativ. With two nouns, the Dativ comes first.",
+      "table": {
+        "head": ["Objects", "Order", "Example"],
+        "rows": [
+          ["noun + noun", "Dativ → Akkusativ", "Ich gebe meinem Freund das Buch."],
+          ["pronoun + noun", "pronoun first", "Ich gebe ihm das Buch. / Ich gebe es meinem Freund."],
+          ["pronoun + pronoun", "Akkusativ → Dativ", "Ich gebe es ihm."]
+        ]
+      },
+      "examples": [
+        { "de": "Ich gebe es dir morgen.", "en": "I will give it to you tomorrow." },
+        { "de": "Ich zeige sie dir später.", "en": "I will show them to you later." }
+      ]
+    }
+  ],
+  "tip": "Ihn and ihm both start with ih-: the Akkusativ is the shorter form (ihn), the Dativ ends in -m (ihm), just like dem. Think: m = Dativ for mir, ihm, dem.",
+  "words": [
+    { "de": "Freund", "en": "friend (male); boyfriend", "pos": "noun", "article": "der", "plural": "Freunde" },
+    { "de": "Freundin", "en": "friend (female); girlfriend", "pos": "noun", "article": "die", "plural": "Freundinnen" },
+    { "de": "Nachbar", "en": "neighbour (male)", "pos": "noun", "article": "der", "plural": "Nachbarn" },
+    { "de": "Nachbarin", "en": "neighbour (female)", "pos": "noun", "article": "die", "plural": "Nachbarinnen" },
+    { "de": "Kollege", "en": "coworker (male)", "pos": "noun", "article": "der", "plural": "Kollegen" },
+    { "de": "Kollegin", "en": "coworker (female)", "pos": "noun", "article": "die", "plural": "Kolleginnen" },
+    { "de": "Mitbewohner", "en": "flatmate (male)", "pos": "noun", "article": "der", "plural": "Mitbewohner" },
+    { "de": "Partner", "en": "partner", "pos": "noun", "article": "der", "plural": "Partner" },
+    { "de": "Beziehung", "en": "relationship", "pos": "noun", "article": "die", "plural": "Beziehungen" },
+    { "de": "Treffen", "en": "meeting, get-together", "pos": "noun", "article": "das", "plural": "Treffen" },
+    { "de": "Streit", "en": "argument, quarrel", "pos": "noun", "article": "der", "plural": "Streite" },
+    { "de": "Vertrauen", "en": "trust", "pos": "noun", "article": "das", "plural": "-", "note": "no plural" },
+    { "de": "kennenlernen", "en": "to get to know, to meet", "pos": "verb", "aux": "haben", "sep": "kennen", "p2": "kennengelernt" },
+    { "de": "treffen", "en": "to meet", "pos": "verb", "aux": "haben", "p2": "getroffen" },
+    { "de": "anrufen", "en": "to call, to phone", "pos": "verb", "aux": "haben", "sep": "an", "p2": "angerufen" },
+    { "de": "besuchen", "en": "to visit", "pos": "verb", "aux": "haben", "p2": "besucht" },
+    { "de": "vermissen", "en": "to miss", "pos": "verb", "aux": "haben", "p2": "vermisst" },
+    { "de": "vertrauen", "en": "to trust", "pos": "verb", "aux": "haben", "p2": "vertraut" },
+    { "de": "streiten", "en": "to quarrel", "pos": "verb", "aux": "haben", "p2": "gestritten" },
+    { "de": "abholen", "en": "to pick up", "pos": "verb", "aux": "haben", "sep": "ab", "p2": "abgeholt" },
+    { "de": "nett", "en": "nice", "pos": "adj" },
+    { "de": "sympathisch", "en": "likeable, pleasant", "pos": "adj" },
+    { "de": "ehrlich", "en": "honest", "pos": "adj" },
+    { "de": "zusammen", "en": "together", "pos": "adv" }
+  ],
+  "mindmap": {
+    "label": "Personalpronomen",
+    "children": [
+      {
+        "label": "Nominativ",
+        "note": "who?",
+        "children": [
+          { "label": "ich du er sie es" },
+          { "label": "wir ihr sie / Sie" }
+        ]
+      },
+      {
+        "label": "Akkusativ",
+        "note": "wen / was?",
+        "children": [
+          { "label": "mich dich ihn sie es", "note": "Ich sehe ihn." },
+          { "label": "uns euch sie / Sie" }
+        ]
+      },
+      {
+        "label": "Dativ",
+        "note": "wem?",
+        "children": [
+          { "label": "mir dir ihm ihr ihm", "note": "Ich helfe ihr." },
+          { "label": "uns euch ihnen / Ihnen" }
+        ]
+      },
+      {
+        "label": "Wortstellung",
+        "children": [
+          { "label": "Pronomen vor Nomen" },
+          { "label": "Akk-Pronomen vor Dat-Pronomen", "note": "Ich gebe es dir." }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "gap", "q": "Ich kenne Anna schon lange. Ich mag ___ sehr.", "answer": ["sie"], "explain": "mögen takes the Akkusativ. Anna is feminine: sie stays sie in the Akkusativ." },
+    { "type": "gap", "q": "Mein Bruder ist krank. Ich rufe ___ heute an.", "answer": ["ihn"], "explain": "anrufen takes the Akkusativ: er → ihn." },
+    { "type": "gap", "q": "Kannst du ___ bitte helfen? (me)", "answer": ["mir"], "explain": "helfen takes the Dativ: ich → mir." },
+    { "type": "gap", "q": "Peter hat Geburtstag. Ich schenke ___ ein Buch.", "answer": ["ihm"], "explain": "The person who receives is in the Dativ: er → ihm." },
+    { "type": "mc", "q": "Die Kollegin ist nett. Ich helfe ___ gern.", "options": ["ihr", "sie", "ihm"], "answer": 0, "explain": "helfen takes the Dativ; sie (she) in the Dativ is ihr." },
+    { "type": "mc", "q": "Ich gebe ___ dir morgen.", "options": ["es", "ihm", "ihn"], "answer": 0, "explain": "Two pronouns: Akkusativ (es) before Dativ (dir): Ich gebe es dir." },
+    { "type": "mc", "q": "Kommt ihr heute? Wir holen ___ vom Bahnhof ab.", "options": ["euch", "ihr", "uns"], "answer": 0, "explain": "abholen takes the Akkusativ. ihr (you, plural) in the Akkusativ is euch." },
+    { "type": "article", "word": "Nachbar", "answer": "der", "explain": "Male people are masculine: der Nachbar." },
+    { "type": "article", "word": "Beziehung", "answer": "die", "explain": "Nouns ending in -ung are feminine." },
+    { "type": "order", "words": ["Ich", "habe", "ihn", "gestern", "im Büro", "getroffen"], "answer": "Ich habe ihn gestern im Büro getroffen", "explain": "Perfekt: haben in position 2, Partizip II at the end. The pronoun ihn comes early." },
+    { "type": "order", "words": ["Ich", "gebe", "es", "dir", "morgen"], "answer": "Ich gebe es dir morgen", "explain": "Two pronouns: Akkusativ before Dativ." },
+    { "type": "match", "pairs": [["ich", "mich / mir"], ["er", "ihn / ihm"], ["sie (she)", "sie / ihr"], ["wir", "uns / uns"], ["ihr", "euch / euch"]], "explain": "Akkusativ and Dativ are identical for wir and ihr." },
+    { "type": "translate", "en": "I miss you.", "answer": ["Ich vermisse dich", "Ich vermisse euch", "Ich vermisse Sie"], "explain": "vermissen takes the Akkusativ: du → dich. (euch / Sie work for plural and formal.)" },
+    { "type": "translate", "en": "I am giving her the key.", "answer": ["Ich gebe ihr den Schlüssel", "Ich gebe ihr die Schlüssel"], "explain": "The person is in the Dativ (ihr), the thing in the Akkusativ (den Schlüssel)." }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Ich habe meinen Kollegen gestern kennengelernt. Ich finde ihn sehr nett.", "en": "I met my coworker yesterday. I think he is very nice." },
+      { "de": "Meine Mitbewohnerin hilft mir oft. Ich danke ihr immer.", "en": "My flatmate often helps me. I always thank her." },
+      { "de": "Ich rufe dich heute Abend an.", "en": "I will call you this evening." },
+      { "de": "Kannst du mir den Schlüssel geben? – Klar, ich gebe ihn dir.", "en": "Can you give me the key? – Sure, I will give it to you." },
+      { "de": "Wir treffen uns am Wochenende. Kommst du mit?", "en": "We are meeting at the weekend. Are you coming?" }
+    ],
+    "prompts": [
+      { "q": "Erzähl von einem guten Freund oder einer guten Freundin. Wie hast du ihn oder sie kennengelernt?", "qEn": "Tell me about a good friend. How did you meet him or her?", "model": "Mein Freund heißt Ali. Ich habe ihn an der Uni kennengelernt. Wir treffen uns oft und er hilft mir bei der Arbeit.", "hint": "Ich habe ihn / sie … kennengelernt. Er / Sie hilft mir …" },
+      { "q": "Dein Nachbar fragt: Kannst du mir morgen helfen? Was antwortest du?", "qEn": "Your neighbour asks: can you help me tomorrow? What do you answer?", "model": "Ja, klar. Ich helfe dir gern. Wann soll ich zu dir kommen? Ich kann dich um zehn Uhr abholen.", "hint": "Ich helfe dir gern. Ich rufe dich an." },
+      { "q": "Du hast deinen Schlüssel vergessen und rufst deine Mitbewohnerin an. Was sagst du?", "qEn": "You forgot your key and call your flatmate. What do you say?", "model": "Hallo, ich stehe vor der Tür. Ich habe meinen Schlüssel vergessen. Kannst du mir bitte die Tür aufmachen? Danke, ich warte auf dich.", "hint": "Kannst du mir … ? Ich warte auf dich." }
+    ]
+  }
+}

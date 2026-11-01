@@ -1,0 +1,138 @@
+{
+  "id": "b1-02-plusquamperfekt",
+  "level": "B1",
+  "title": "Plusquamperfekt",
+  "concept": "Past perfect and nachdem",
+  "wordlist": "Lebenslauf",
+  "minutes": 30,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+B1+Plusquamperfekt+nachdem",
+  "learn": [
+    {
+      "heading": "Formation: hatte / war + Partizip II",
+      "text": "The **Plusquamperfekt** (past perfect) describes something that happened **before another past event**. You form it like the Perfekt, but the auxiliary is in the Präteritum: **hatte** or **war** + Partizip II. The auxiliary is the same as in the Perfekt: *haben* for most verbs, *sein* for movement and change of state.",
+      "table": {
+        "head": ["", "mit haben", "mit sein"],
+        "rows": [
+          ["ich", "hatte gearbeitet", "war umgezogen"],
+          ["du", "hattest gearbeitet", "warst umgezogen"],
+          ["er / sie / es", "hatte gearbeitet", "war umgezogen"],
+          ["wir / sie", "hatten gearbeitet", "waren umgezogen"],
+          ["ihr", "hattet gearbeitet", "wart umgezogen"]
+        ]
+      },
+      "examples": [
+        { "de": "Ich hatte schon gekündigt, als die Firma mir mehr Gehalt anbot.", "en": "I had already given notice when the company offered me more salary." },
+        { "de": "Als ich ankam, war der Zug schon abgefahren.", "en": "When I arrived, the train had already left." },
+        { "de": "Er hatte vorher in München studiert.", "en": "He had studied in Munich before." }
+      ]
+    },
+    {
+      "heading": "nachdem: the earlier event",
+      "text": "**Nachdem** (after) introduces the event that happened **first**. Put that clause in the **Plusquamperfekt** with the verb at the end. The main clause then uses the Präteritum (writing) or the Perfekt (speaking), and the verb comes straight after the comma.",
+      "examples": [
+        { "de": "Nachdem ich mein Studium abgeschlossen hatte, begann ich bei einem Energieversorger.", "en": "After I had finished my studies, I started at an energy supplier." },
+        { "de": "Nachdem wir nach Köln umgezogen waren, hat meine Frau eine Stelle gefunden.", "en": "After we had moved to Cologne, my wife found a job." },
+        { "de": "Nachdem er die Prüfung bestanden hatte, feierte er mit Freunden.", "en": "After he had passed the exam, he celebrated with friends." }
+      ]
+    },
+    {
+      "heading": "Telling your career story",
+      "text": "In an interview you want to put events in order. Useful signal words: **zuerst, dann, danach, später, schließlich** (order) and **vorher, davor, schon, bereits** (earlier). With **bevor** the later event comes first and the earlier one is in the subordinate clause, so you do not need the Plusquamperfekt there.",
+      "examples": [
+        { "de": "Davor hatte ich ein Praktikum bei einer Solarfirma gemacht.", "en": "Before that I had done an internship at a solar company." },
+        { "de": "Ich hatte mich bereits bei drei Firmen beworben, als ich die Einladung bekam.", "en": "I had already applied to three companies when I got the invitation." },
+        { "de": "Bevor ich nach Deutschland kam, hatte ich zwei Jahre Deutsch gelernt.", "en": "Before I came to Germany, I had learned German for two years." }
+      ]
+    }
+  ],
+  "tip": "Draw a two-point timeline: the event that happened FIRST gets hatte/war + Partizip II; the later event gets the Präteritum. After nachdem, always ask: which happened first?",
+  "words": [
+    { "de": "Lebenslauf", "en": "CV, résumé", "pos": "noun", "article": "der", "plural": "Lebensläufe" },
+    { "de": "Ausbildung", "en": "vocational training", "pos": "noun", "article": "die", "plural": "Ausbildungen" },
+    { "de": "Studium", "en": "university studies", "pos": "noun", "article": "das", "plural": "Studien" },
+    { "de": "Maschinenbau", "en": "mechanical engineering", "pos": "noun", "article": "der", "plural": "-" },
+    { "de": "Abschluss", "en": "degree, qualification", "pos": "noun", "article": "der", "plural": "Abschlüsse" },
+    { "de": "Abitur", "en": "high-school diploma", "pos": "noun", "article": "das", "plural": "-" },
+    { "de": "Berufserfahrung", "en": "work experience", "pos": "noun", "article": "die", "plural": "-" },
+    { "de": "Praktikum", "en": "internship", "pos": "noun", "article": "das", "plural": "Praktika" },
+    { "de": "Stelle", "en": "job, position", "pos": "noun", "article": "die", "plural": "Stellen" },
+    { "de": "Arbeitgeber", "en": "employer", "pos": "noun", "article": "der", "plural": "Arbeitgeber" },
+    { "de": "Zeugnis", "en": "certificate; reference", "pos": "noun", "article": "das", "plural": "Zeugnisse" },
+    { "de": "Lücke", "en": "gap", "pos": "noun", "article": "die", "plural": "Lücken" },
+    { "de": "studieren", "en": "to study (at university)", "pos": "verb", "aux": "haben", "p2": "studiert" },
+    { "de": "abschließen", "en": "to complete, to graduate", "pos": "verb", "aux": "haben", "sep": "ab", "p2": "abgeschlossen" },
+    { "de": "kündigen", "en": "to give notice, to resign", "pos": "verb", "aux": "haben", "p2": "gekündigt" },
+    { "de": "umziehen", "en": "to move (house)", "pos": "verb", "aux": "sein", "sep": "um", "p2": "umgezogen" },
+    { "de": "wechseln", "en": "to change, to switch", "pos": "verb", "aux": "haben", "p2": "gewechselt" },
+    { "de": "anfangen", "en": "to begin", "pos": "verb", "aux": "haben", "sep": "an", "p2": "angefangen" },
+    { "de": "sich bewerben", "en": "to apply (for a job)", "pos": "verb", "aux": "haben", "p2": "beworben" },
+    { "de": "berufstätig", "en": "employed, working", "pos": "adj" },
+    { "de": "bereits", "en": "already", "pos": "adv" },
+    { "de": "vorher", "en": "beforehand", "pos": "adv" }
+  ],
+  "mindmap": {
+    "label": "Plusquamperfekt",
+    "children": [
+      {
+        "label": "Formation",
+        "children": [
+          { "label": "hatte + Partizip II", "note": "gearbeitet" },
+          { "label": "war + Partizip II", "note": "umgezogen" }
+        ]
+      },
+      {
+        "label": "Meaning",
+        "note": "earlier than another past event",
+        "children": [ { "label": "Als ich ankam, war der Zug schon abgefahren." } ]
+      },
+      {
+        "label": "nachdem",
+        "children": [
+          { "label": "nachdem-clause = first event", "note": "Plusquamperfekt" },
+          { "label": "verb at the end" },
+          { "label": "main clause: Präteritum or Perfekt" }
+        ]
+      },
+      {
+        "label": "Signal words",
+        "children": [
+          { "label": "vorher, davor, schon, bereits" },
+          { "label": "zuerst, danach, später" }
+        ]
+      },
+      {
+        "label": "Lebenslauf",
+        "children": [ { "label": "Ausbildung, Studium, Praktikum, Stelle" } ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "mc", "q": "Nachdem ich das Studium ___, suchte ich eine Stelle.", "options": ["beendet hatte", "beendete", "beendet habe"], "answer": 0, "explain": "The nachdem-clause names the earlier event, so it takes the Plusquamperfekt: beendet hatte." },
+    { "type": "mc", "q": "Sie ___ schon nach Hause gegangen, als ich kam.", "options": ["hatte", "war", "wurde"], "answer": 1, "explain": "gehen is a movement verb and takes sein: war gegangen." },
+    { "type": "mc", "q": "Which sentence is correct?", "options": ["Als ich ankam, war der Zug schon abgefahren.", "Als ich ankam, hatte der Zug schon abgefahren.", "Als ich ankam, ist der Zug schon abgefahren."], "answer": 0, "explain": "abfahren is a movement verb with sein. The train left first, so we need the Plusquamperfekt: war abgefahren." },
+    { "type": "gap", "q": "Er ___ schon gekündigt, als ich ihn traf.", "answer": ["hatte"], "explain": "kündigen takes haben; the event happened earlier, so: hatte gekündigt." },
+    { "type": "gap", "q": "Nachdem wir nach Köln ___ waren, fand meine Frau eine Stelle.", "answer": ["umgezogen"], "explain": "umziehen (separable) forms the Partizip II um-ge-zogen and takes sein: umgezogen waren." },
+    { "type": "gap", "q": "Bevor ich bei dieser Firma anfing, ___ ich zwei Jahre als Praktikant gearbeitet.", "answer": ["hatte"], "explain": "The internship was earlier than the start at this company: hatte … gearbeitet." },
+    { "type": "article", "word": "Lebenslauf", "answer": "der", "explain": "Lebenslauf is masculine: der Lebenslauf (like der Lauf)." },
+    { "type": "article", "word": "Praktikum", "answer": "das", "explain": "Nouns ending in -um are usually neuter: das Praktikum, das Studium." },
+    { "type": "order", "words": ["Nachdem", "ich", "das", "Abitur", "gemacht", "hatte,", "begann", "ich", "mein", "Studium"], "answer": "Nachdem ich das Abitur gemacht hatte, begann ich mein Studium", "explain": "The verb hatte is at the end of the nachdem-clause; the main clause then starts with the verb (begann) right after the comma." },
+    { "type": "order", "words": ["Ich", "hatte", "vorher", "in", "München", "gearbeitet"], "answer": "Ich hatte vorher in München gearbeitet", "explain": "hatte is in position 2; the Partizip II gearbeitet goes to the end." },
+    { "type": "match", "pairs": [["der Abschluss", "degree"], ["die Stelle", "job position"], ["die Berufserfahrung", "work experience"], ["das Zeugnis", "certificate"], ["kündigen", "to give notice"]], "explain": "Core vocabulary for a CV and an interview." },
+    { "type": "translate", "en": "After I had finished my studies, I moved to Stuttgart.", "answer": ["Nachdem ich mein Studium abgeschlossen hatte, zog ich nach Stuttgart", "Nachdem ich mein Studium abgeschlossen hatte, bin ich nach Stuttgart gezogen", "Nachdem ich mein Studium beendet hatte, zog ich nach Stuttgart", "Nachdem ich mein Studium beendet hatte, bin ich nach Stuttgart gezogen"], "explain": "nachdem + Plusquamperfekt (verb at the end), then the main clause with the verb first." },
+    { "type": "translate", "en": "I had already applied for three jobs.", "answer": ["Ich hatte mich schon auf drei Stellen beworben", "Ich hatte mich bereits auf drei Stellen beworben", "Ich hatte mich schon um drei Stellen beworben", "Ich hatte mich bereits um drei Stellen beworben"], "explain": "sich bewerben is reflexive and takes haben: hatte mich beworben. Both auf and um are used with Stelle." }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Nachdem ich mein Studium abgeschlossen hatte, arbeitete ich drei Jahre als Konstrukteur.", "en": "After I had finished my studies, I worked as a design engineer for three years." },
+      { "de": "Davor hatte ich ein Praktikum bei einer Energiefirma gemacht.", "en": "Before that I had done an internship at an energy company." },
+      { "de": "Nachdem ich gekündigt hatte, bin ich nach Deutschland gezogen.", "en": "After I had resigned, I moved to Germany." },
+      { "de": "Ich hatte schon einen Deutschkurs besucht, bevor ich ankam.", "en": "I had already attended a German course before I arrived." },
+      { "de": "Zuerst hatte ich eine Lücke im Lebenslauf, aber dann fand ich diese Stelle.", "en": "At first I had a gap in my CV, but then I found this job." }
+    ],
+    "prompts": [
+      { "q": "Erzählen Sie uns bitte etwas über Ihren Lebenslauf.", "qEn": "Please tell us something about your CV.", "model": "Nachdem ich mein Maschinenbaustudium abgeschlossen hatte, habe ich drei Jahre bei einem Anlagenbauer gearbeitet. Davor hatte ich ein Praktikum bei einer Energiefirma gemacht. Jetzt suche ich eine neue Aufgabe im Bereich Nachhaltigkeit.", "hint": "Nachdem ich … abgeschlossen hatte, … Davor hatte ich …" },
+      { "q": "Warum haben Sie Ihre letzte Stelle gewechselt?", "qEn": "Why did you change your last job?", "model": "Ich hatte dort schon vier Jahre gearbeitet und viel gelernt. Nachdem mein Projekt zu Ende gegangen war, wollte ich etwas Neues machen. Deshalb habe ich mich bei Ihnen beworben.", "hint": "Ich hatte schon … gearbeitet, deshalb …" },
+      { "q": "Was hatten Sie gemacht, bevor Sie nach Deutschland gekommen sind?", "qEn": "What had you done before you came to Germany?", "model": "Bevor ich nach Deutschland kam, hatte ich in Pakistan als Ingenieur gearbeitet. Außerdem hatte ich schon zwei Jahre Deutsch gelernt.", "hint": "Bevor ich kam, hatte ich … gearbeitet / gelernt." }
+    ]
+  }
+}

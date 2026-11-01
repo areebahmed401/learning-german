@@ -1,0 +1,169 @@
+{
+  "id": "a1-04-fragen",
+  "level": "A1",
+  "title": "Fragen stellen",
+  "concept": "W-questions and yes/no questions",
+  "wordlist": "Zahlen",
+  "minutes": 25,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+A1+W-Fragen+questions+numbers",
+  "learn": [
+    {
+      "heading": "W-questions: question word + verb",
+      "text": "W-questions start with a question word (most begin with **w**). The **conjugated verb comes straight after it**, in position 2, then the subject: *Wo wohnst du?* The answer is a piece of information, not just yes or no. Questions are the fastest way to practise speaking: ask people around you every day.",
+      "table": {
+        "head": ["question word", "asks for", "example"],
+        "rows": [
+          ["Wer?", "who", "Wer ist das?"],
+          ["Was?", "what", "Was machst du?"],
+          ["Wo?", "where (place)", "Wo wohnst du?"],
+          ["Woher? / Wohin?", "from where / to where", "Woher kommen Sie?"],
+          ["Wann?", "when", "Wann beginnt der Kurs?"],
+          ["Wie?", "how", "Wie heißt du?"],
+          ["Warum?", "why", "Warum lernst du Deutsch?"],
+          ["Wie viel? / Wie viele?", "how much / how many", "Wie viele Geschwister hast du?"]
+        ]
+      },
+      "examples": [
+        { "de": "Wer ist Ihr Arzt?", "en": "Who is your doctor?" },
+        { "de": "Wann öffnet das Bürgeramt?", "en": "When does the Bürgeramt open?" },
+        { "de": "Wie viel kostet das Brot?", "en": "How much does the bread cost?" }
+      ]
+    },
+    {
+      "heading": "Yes/no questions: verb first",
+      "text": "For questions that can be answered with *ja* or *nein*, put the **conjugated verb first**: *Wohnst du in Aachen?* Answer with **Ja, …** or **Nein, …**. If the question is negative and you disagree, use **Doch**: *Hast du keine Zeit? – Doch, ich habe Zeit.* In writing, always end a question with a question mark; in speech, your voice rises at the end.",
+      "table": {
+        "head": ["statement", "yes/no question"],
+        "rows": [
+          ["Du kommst aus Pakistan.", "Kommst du aus Pakistan?"],
+          ["Sie sprechen Deutsch.", "Sprechen Sie Deutsch?"],
+          ["Er hat einen Termin.", "Hat er einen Termin?"]
+        ]
+      },
+      "examples": [
+        { "de": "Haben Sie einen Moment Zeit?", "en": "Do you have a moment?" },
+        { "de": "Ist hier noch frei?", "en": "Is this seat still free?" },
+        { "de": "Hast du keinen Hunger? – Doch, ich habe Hunger!", "en": "Aren't you hungry? – Yes, I am hungry!" }
+      ]
+    },
+    {
+      "heading": "Numbers and everyday questions",
+      "text": "Learn 0–12 first, then 13–19 (**drei**zehn, **vier**zehn …, note **sechzehn** and **siebzehn**). From 21, say the unit **before** the ten: 21 = **einundzwanzig** (\"one-and-twenty\"). Numbers are written as one word. You need them for phone numbers, prices, ages and house numbers.",
+      "table": {
+        "head": ["0–12", "13–19", "tens"],
+        "rows": [
+          ["0 null · 1 eins · 2 zwei · 3 drei", "13 dreizehn · 14 vierzehn", "20 zwanzig · 30 dreißig"],
+          ["4 vier · 5 fünf · 6 sechs · 7 sieben", "15 fünfzehn · 16 sechzehn", "40 vierzig · 50 fünfzig"],
+          ["8 acht · 9 neun · 10 zehn · 11 elf · 12 zwölf", "17 siebzehn · 18 achtzehn · 19 neunzehn", "100 hundert · 1000 tausend"]
+        ]
+      },
+      "examples": [
+        { "de": "Wie alt bist du? – Ich bin dreißig.", "en": "How old are you? – I am thirty." },
+        { "de": "Wie ist Ihre Telefonnummer? – Null eins fünf eins, drei vier sieben.", "en": "What is your phone number? – 0151 347." },
+        { "de": "Das macht fünfundzwanzig Euro.", "en": "That comes to twenty-five euros." }
+      ]
+    }
+  ],
+  "tip": "Say your own phone number out loud in German, digit by digit, every day. At the Amt or a call centre they will ask for it, and numbers are the first thing that goes wrong when you are nervous.",
+  "words": [
+    { "de": "null", "en": "zero", "pos": "num" },
+    { "de": "eins", "en": "one", "pos": "num" },
+    { "de": "zwei", "en": "two", "pos": "num" },
+    { "de": "drei", "en": "three", "pos": "num" },
+    { "de": "vier", "en": "four", "pos": "num" },
+    { "de": "fünf", "en": "five", "pos": "num" },
+    { "de": "sechs", "en": "six", "pos": "num" },
+    { "de": "sieben", "en": "seven", "pos": "num" },
+    { "de": "acht", "en": "eight", "pos": "num" },
+    { "de": "neun", "en": "nine", "pos": "num" },
+    { "de": "zehn", "en": "ten", "pos": "num" },
+    { "de": "elf", "en": "eleven", "pos": "num" },
+    { "de": "zwölf", "en": "twelve", "pos": "num" },
+    { "de": "fünfzehn", "en": "fifteen", "pos": "num" },
+    { "de": "zwanzig", "en": "twenty", "pos": "num" },
+    { "de": "dreißig", "en": "thirty", "pos": "num" },
+    { "de": "hundert", "en": "one hundred", "pos": "num" },
+    { "de": "tausend", "en": "one thousand", "pos": "num" },
+    { "de": "Zahl", "en": "number; figure", "pos": "noun", "article": "die", "plural": "Zahlen" },
+    { "de": "Nummer", "en": "number (house, room)", "pos": "noun", "article": "die", "plural": "Nummern" },
+    { "de": "Telefonnummer", "en": "phone number", "pos": "noun", "article": "die", "plural": "Telefonnummern" },
+    { "de": "Alter", "en": "age", "pos": "noun", "article": "das", "plural": "-" },
+    { "de": "Euro", "en": "euro", "pos": "noun", "article": "der", "plural": "Euro" },
+    { "de": "fragen", "en": "to ask", "pos": "verb", "aux": "haben", "p2": "gefragt" }
+  ],
+  "mindmap": {
+    "label": "Fragen",
+    "children": [
+      {
+        "label": "W-Fragen",
+        "note": "question word + verb",
+        "children": [
+          { "label": "wer · was · wo", "note": "who · what · where" },
+          { "label": "woher · wohin · wann", "note": "from where · to where · when" },
+          { "label": "wie · warum · wie viele", "note": "how · why · how many" }
+        ]
+      },
+      {
+        "label": "Ja/Nein-Fragen",
+        "note": "verb first",
+        "children": [
+          { "label": "Wohnst du in Aachen?" },
+          { "label": "Ja, … / Nein, …" },
+          { "label": "Doch", "note": "disagree with a negative question" }
+        ]
+      },
+      {
+        "label": "Numbers 0–20",
+        "children": [
+          { "label": "0–12", "note": "null … zwölf" },
+          { "label": "13–19", "note": "dreizehn … neunzehn" }
+        ]
+      },
+      {
+        "label": "Numbers 20+",
+        "children": [
+          { "label": "unit before ten", "note": "21 = einundzwanzig" },
+          { "label": "hundert · tausend" }
+        ]
+      },
+      {
+        "label": "Useful questions",
+        "children": [
+          { "label": "Wie alt bist du?" },
+          { "label": "Wie ist Ihre Telefonnummer?" },
+          { "label": "Wie viel kostet das?" }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "mc", "q": "___ wohnst du? – In Aachen.", "options": ["Wer", "Wo", "Wann"], "answer": 1, "explain": "The answer is a place, so ask with wo." },
+    { "type": "mc", "q": "___ kommen Sie? – Aus Pakistan.", "options": ["Woher", "Wohin", "Warum"], "answer": 0, "explain": "aus Pakistan answers \"from where\": woher." },
+    { "type": "mc", "q": "___ beginnt der Deutschkurs? – Um neun Uhr.", "options": ["Wo", "Wie", "Wann"], "answer": 2, "explain": "A time answers wann." },
+    { "type": "gap", "q": "___ kostet das Brot? – Drei Euro.", "answer": ["Wie viel", "Wieviel"], "explain": "Prices and quantities that cannot be counted use wie viel." },
+    { "type": "gap", "q": "___ du aus Indien? – Nein, ich komme aus Pakistan.", "answer": ["Kommst"], "explain": "A yes/no question starts with the conjugated verb: Kommst du …?" },
+    { "type": "gap", "q": "Hast du keine Zeit? – ___, ich habe Zeit.", "answer": ["Doch"], "explain": "Use doch to say \"yes\" to a negative question." },
+    { "type": "gap", "q": "Zwei plus drei ist ___.", "answer": ["fünf"], "explain": "2 + 3 = 5 = fünf." },
+    { "type": "gap", "q": "Sieben mal drei ist ___.", "answer": ["einundzwanzig"], "explain": "7 × 3 = 21. The unit comes first: ein-und-zwanzig." },
+    { "type": "match", "pairs": [["Wer?", "who"], ["Warum?", "why"], ["Wann?", "when"], ["Wie viele?", "how many"], ["Woher?", "from where"]], "explain": "Most W-questions start with w; wie is \"how\", not \"what\"." },
+    { "type": "match", "pairs": [["dreizehn", "13"], ["sechzehn", "16"], ["siebzehn", "17"], ["dreißig", "30"], ["zwölf", "12"]], "explain": "Watch the spelling: sechzehn (not sechszehn), siebzehn (not siebenzehn), dreißig (with ß)." },
+    { "type": "order", "words": ["wohnst", "Wo", "du"], "answer": "Wo wohnst du", "explain": "W-question: question word, verb, subject." },
+    { "type": "order", "words": ["du", "Aachen", "Kommst", "aus"], "answer": "Kommst du aus Aachen", "explain": "Yes/no question: the verb comes first." },
+    { "type": "order", "words": ["Sie", "alt", "Wie", "sind"], "answer": "Wie alt sind Sie", "explain": "Wie alt + verb + subject. The formal version of Wie alt bist du?" },
+    { "type": "translate", "en": "How old are you?", "answer": ["Wie alt bist du", "Wie alt sind Sie", "Wie alt seid ihr"], "explain": "Age is asked with sein: Wie alt bist du? Formal: Wie alt sind Sie?" }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Wie heißen Sie? Woher kommen Sie?", "en": "What is your name? Where are you from?" },
+      { "de": "Wo wohnst du? Wie lange wohnst du schon hier?", "en": "Where do you live? How long have you lived here?" },
+      { "de": "Wann beginnt der Kurs? Um acht Uhr?", "en": "When is the course starting? At eight o'clock?" },
+      { "de": "Wie ist Ihre Telefonnummer?", "en": "What is your phone number?" },
+      { "de": "Meine Nummer ist null eins sieben sechs, vier fünf zwei.", "en": "My number is 0176 452." }
+    ],
+    "prompts": [
+      { "q": "Wie ist Ihre Telefonnummer?", "qEn": "What is your phone number? (the receptionist at the Arztpraxis)", "model": "Meine Telefonnummer ist null eins fünf eins, drei vier sieben, zwei neun acht.", "hint": "Meine Telefonnummer ist …" },
+      { "q": "Wie alt bist du? Und woher kommst du?", "qEn": "How old are you? And where are you from? (a Kommilitone at the Uni)", "model": "Ich bin dreißig Jahre alt und ich komme aus Pakistan. Und du?", "hint": "Ich bin … Jahre alt." },
+      { "q": "Haben Sie noch Fragen?", "qEn": "Do you have any more questions? (end of an appointment at the Amt)", "model": "Ja, wann kommt der Brief? Und wie viel kostet das?", "hint": "Ja, wann …? / Nein, danke." }
+    ]
+  }
+}

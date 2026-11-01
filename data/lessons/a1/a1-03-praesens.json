@@ -1,0 +1,161 @@
+{
+  "id": "a1-03-praesens",
+  "level": "A1",
+  "title": "Präsens & Satzbau",
+  "concept": "Present tense and verb-second word order",
+  "wordlist": "Hobbys & Alltag",
+  "minutes": 25,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+A1+present+tense+verb+conjugation+word+order",
+  "learn": [
+    {
+      "heading": "Regular verbs: stem + ending",
+      "text": "Take the infinitive (**machen**), remove **-en** to get the stem (**mach-**), and add the ending that fits the pronoun. Verbs whose stem ends in **-t** or **-d** (arbeiten, finden) add an extra **e** in the du, er/sie/es and ihr forms so you can pronounce them: *du arbeitest, er arbeitet.* German has only one present tense: *Ich lerne Deutsch* means \"I learn\" and \"I am learning\".",
+      "table": {
+        "head": ["", "machen", "arbeiten"],
+        "rows": [
+          ["ich", "mache", "arbeite"],
+          ["du", "machst", "arbeitest"],
+          ["er / sie / es", "macht", "arbeitet"],
+          ["wir", "machen", "arbeiten"],
+          ["ihr", "macht", "arbeitet"],
+          ["sie / Sie", "machen", "arbeiten"]
+        ]
+      },
+      "examples": [
+        { "de": "Ich arbeite bei einer Firma in Aachen.", "en": "I work at a company in Aachen." },
+        { "de": "Du lernst jeden Tag Deutsch.", "en": "You learn German every day." },
+        { "de": "Wir spielen am Wochenende Fußball.", "en": "We play football at the weekend." }
+      ]
+    },
+    {
+      "heading": "Verbs that change their vowel",
+      "text": "Some very common verbs change their stem vowel in the **du** and **er/sie/es** forms only: **a → ä** (fahren), **e → i** (sprechen, essen) or **e → ie** (lesen, sehen). All other forms are regular. Your dictionary or the translator in this app marks these verbs. Learn them as a pattern, not one by one.",
+      "table": {
+        "head": ["", "fahren (a → ä)", "sprechen (e → i)", "lesen (e → ie)"],
+        "rows": [
+          ["ich", "fahre", "spreche", "lese"],
+          ["du", "fährst", "sprichst", "liest"],
+          ["er / sie / es", "fährt", "spricht", "liest"],
+          ["wir", "fahren", "sprechen", "lesen"],
+          ["ihr", "fahrt", "sprecht", "lest"],
+          ["sie / Sie", "fahren", "sprechen", "lesen"]
+        ]
+      },
+      "examples": [
+        { "de": "Er fährt jeden Morgen mit dem Bus zur Uni.", "en": "He takes the bus to university every morning." },
+        { "de": "Sie spricht sehr schnell.", "en": "She speaks very fast." },
+        { "de": "Liest du gern Bücher?", "en": "Do you like reading books?" }
+      ]
+    },
+    {
+      "heading": "Word order: the verb is in position 2",
+      "text": "In a statement the **conjugated verb is always the second element**. The first element can be the subject or something else (time, place); then the verb still stays second and the subject moves behind it. Words like **und, aber, oder** do not count as a position. Use **gern** after the verb to say what you like doing: *Ich koche gern.*",
+      "table": {
+        "head": ["position 1", "position 2 (verb)", "rest"],
+        "rows": [
+          ["Ich", "arbeite", "heute zu Hause."],
+          ["Heute", "arbeite", "ich zu Hause."],
+          ["Am Wochenende", "spiele", "ich Fußball."],
+          ["Im Winter", "lese", "ich viel."]
+        ]
+      },
+      "examples": [
+        { "de": "Morgens trinke ich Tee.", "en": "In the morning I drink tea." },
+        { "de": "In Aachen regnet es oft.", "en": "It often rains in Aachen." },
+        { "de": "Ich höre gern Musik, und mein Mitbewohner spielt Gitarre.", "en": "I like listening to music, and my flatmate plays guitar." }
+      ]
+    }
+  ],
+  "tip": "Drill the rule \"verb = position 2\" by starting the same sentence three ways: Ich spiele heute Fußball. / Heute spiele ich Fußball. / Fußball spiele ich heute. The verb never moves.",
+  "words": [
+    { "de": "Hobby", "en": "hobby", "pos": "noun", "article": "das", "plural": "Hobbys" },
+    { "de": "Sport", "en": "sport", "pos": "noun", "article": "der", "plural": "-" },
+    { "de": "Musik", "en": "music", "pos": "noun", "article": "die", "plural": "-" },
+    { "de": "Film", "en": "film", "pos": "noun", "article": "der", "plural": "Filme" },
+    { "de": "Buch", "en": "book", "pos": "noun", "article": "das", "plural": "Bücher" },
+    { "de": "Fußball", "en": "football", "pos": "noun", "article": "der", "plural": "-" },
+    { "de": "Freund", "en": "friend (male)", "pos": "noun", "article": "der", "plural": "Freunde" },
+    { "de": "Wochenende", "en": "weekend", "pos": "noun", "article": "das", "plural": "Wochenenden" },
+    { "de": "Arbeit", "en": "work", "pos": "noun", "article": "die", "plural": "Arbeiten" },
+    { "de": "arbeiten", "en": "to work", "pos": "verb", "aux": "haben", "p2": "gearbeitet" },
+    { "de": "machen", "en": "to do; to make", "pos": "verb", "aux": "haben", "p2": "gemacht" },
+    { "de": "spielen", "en": "to play", "pos": "verb", "aux": "haben", "p2": "gespielt" },
+    { "de": "lesen", "en": "to read", "pos": "verb", "aux": "haben", "p2": "gelesen" },
+    { "de": "kochen", "en": "to cook", "pos": "verb", "aux": "haben", "p2": "gekocht" },
+    { "de": "schlafen", "en": "to sleep", "pos": "verb", "aux": "haben", "p2": "geschlafen" },
+    { "de": "fahren", "en": "to drive; to go (by vehicle)", "pos": "verb", "aux": "sein", "p2": "gefahren" },
+    { "de": "schwimmen", "en": "to swim", "pos": "verb", "aux": "sein", "p2": "geschwommen" },
+    { "de": "hören", "en": "to hear; to listen", "pos": "verb", "aux": "haben", "p2": "gehört" },
+    { "de": "trinken", "en": "to drink", "pos": "verb", "aux": "haben", "p2": "getrunken" },
+    { "de": "gern", "en": "gladly; to like doing", "pos": "adv" },
+    { "de": "oft", "en": "often", "pos": "adv" },
+    { "de": "manchmal", "en": "sometimes", "pos": "adv" },
+    { "de": "immer", "en": "always", "pos": "adv" },
+    { "de": "nie", "en": "never", "pos": "adv" }
+  ],
+  "mindmap": {
+    "label": "Präsens",
+    "children": [
+      {
+        "label": "Regular endings",
+        "children": [
+          { "label": "-e · -st · -t", "note": "ich · du · er" },
+          { "label": "-en · -t · -en", "note": "wir · ihr · sie" },
+          { "label": "stem in -t/-d", "note": "du arbeitest, er arbeitet" }
+        ]
+      },
+      {
+        "label": "Vowel change",
+        "note": "only du + er/sie/es",
+        "children": [
+          { "label": "a → ä", "note": "fahren: du fährst" },
+          { "label": "e → i", "note": "sprechen: du sprichst" },
+          { "label": "e → ie", "note": "lesen: du liest" }
+        ]
+      },
+      {
+        "label": "Word order",
+        "children": [
+          { "label": "verb = position 2", "note": "Heute arbeite ich." },
+          { "label": "und / aber / oder", "note": "do not count" }
+        ]
+      },
+      {
+        "label": "Frequency",
+        "children": [
+          { "label": "immer · oft · manchmal · nie" },
+          { "label": "gern", "note": "Ich koche gern." }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "gap", "q": "Ich ___ jeden Tag Deutsch. (lernen)", "answer": ["lerne"], "explain": "Regular verb with ich: stem lern- + e." },
+    { "type": "gap", "q": "Du ___ sehr gut Deutsch. (sprechen)", "answer": ["sprichst"], "explain": "sprechen changes e → i with du: du sprichst." },
+    { "type": "gap", "q": "Er ___ im Büro. (arbeiten)", "answer": ["arbeitet"], "explain": "The stem ends in -t, so er gets an extra e: arbeitet." },
+    { "type": "gap", "q": "Meine Schwester ___ gern Bücher. (lesen)", "answer": ["liest"], "explain": "lesen changes e → ie with er/sie/es: sie liest." },
+    { "type": "gap", "q": "Wir ___ am Wochenende Fußball. (spielen)", "answer": ["spielen"], "explain": "With wir the verb keeps the infinitive form." },
+    { "type": "mc", "q": "Which form is correct? \"Er ___ mit dem Zug nach Köln.\"", "options": ["fahrt", "fährt", "fahrst"], "answer": 1, "explain": "fahren changes a → ä for er/sie/es: er fährt." },
+    { "type": "mc", "q": "Which sentence has the verb in the right place?", "options": ["Heute ich arbeite zu Hause.", "Heute arbeite ich zu Hause.", "Heute zu Hause ich arbeite."], "answer": 1, "explain": "The conjugated verb must be in position 2; the subject follows it." },
+    { "type": "mc", "q": "How do you say that you like cooking?", "options": ["Ich koche gern.", "Ich gern koche.", "Ich mag kochen gern."], "answer": 0, "explain": "gern comes after the conjugated verb: Ich koche gern." },
+    { "type": "match", "pairs": [["immer", "always"], ["oft", "often"], ["manchmal", "sometimes"], ["nie", "never"], ["gern", "gladly"]], "explain": "These adverbs say how often or how willingly you do something." },
+    { "type": "order", "words": ["Fußball", "spiele", "Am Wochenende", "ich"], "answer": "Am Wochenende spiele ich Fußball", "explain": "Time first, verb in position 2, then the subject." },
+    { "type": "order", "words": ["Musik", "höre", "gern", "Ich"], "answer": "Ich höre gern Musik", "explain": "Subject, verb in position 2, then gern, then the object." },
+    { "type": "order", "words": ["Tee", "Morgens", "ich", "trinke"], "answer": "Morgens trinke ich Tee", "explain": "Morgens is in position 1, so the verb stays second and ich follows it." },
+    { "type": "translate", "en": "I work in Aachen and my friend plays football.", "answer": ["Ich arbeite in Aachen und mein Freund spielt Fußball", "Ich arbeite in Aachen und mein Freund spielt gern Fußball"], "explain": "ich arbeite, er spielt (-t ending). und does not change the word order." }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Ich arbeite von Montag bis Freitag.", "en": "I work from Monday to Friday." },
+      { "de": "Am Wochenende schlafe ich lange.", "en": "At the weekend I sleep in." },
+      { "de": "Mein Mitbewohner kocht sehr gern.", "en": "My flatmate likes cooking a lot." },
+      { "de": "Abends lese ich oder ich höre Musik.", "en": "In the evening I read or I listen to music." },
+      { "de": "Im Sommer schwimme ich gern im See.", "en": "In summer I like swimming in the lake." }
+    ],
+    "prompts": [
+      { "q": "Was machst du am Wochenende?", "qEn": "What do you do at the weekend? (a coworker asks on Friday)", "model": "Am Wochenende schlafe ich lange und spiele Fußball mit Freunden.", "hint": "Am Wochenende … ich …" },
+      { "q": "Was sind deine Hobbys?", "qEn": "What are your hobbies? (getting to know people in the WG)", "model": "Ich lese gern, ich höre Musik und ich fahre manchmal Fahrrad.", "hint": "Ich … gern." },
+      { "q": "Was machen Sie beruflich?", "qEn": "What do you do for work? (a neighbour asks)", "model": "Ich arbeite als Ingenieur. Ich arbeite bei einer Firma in Aachen.", "hint": "Ich arbeite als … / bei …" }
+    ]
+  }
+}

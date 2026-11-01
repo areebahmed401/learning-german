@@ -1,0 +1,150 @@
+{
+  "id": "b1-08-temporalsaetze",
+  "level": "B1",
+  "title": "als, wenn, während",
+  "concept": "Time clauses: als, wenn, während, bevor, bis, seit",
+  "wordlist": "Erinnerungen",
+  "minutes": 30,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+B1+als+wenn+w%C3%A4hrend+Temporals%C3%A4tze",
+  "learn": [
+    {
+      "heading": "als or wenn?",
+      "text": "Both mean *when*, but they are not interchangeable. Use **als** for **one single event in the past**. Use **wenn** for **repeated events** (*whenever*), for the **present** and for the **future**. In the past with repetition, use **wenn**, often with *immer* or *jedes Mal*. In both cases the verb goes to the **end** of the clause.",
+      "table": {
+        "head": ["", "als", "wenn"],
+        "rows": [
+          ["Time", "single event in the past", "repeated past event, present, future"],
+          ["Example", "Als ich klein war, zogen wir um.", "Wenn ich Zeit habe, rufe ich dich an."],
+          ["Repetition", "no", "Immer wenn es schneite, …"]
+        ]
+      },
+      "examples": [
+        { "de": "Als ich 2018 nach Deutschland kam, sprach ich kaum Deutsch.", "en": "When I came to Germany in 2018, I hardly spoke any German." },
+        { "de": "Immer wenn wir Urlaub hatten, fuhren wir ans Meer.", "en": "Whenever we had holidays, we went to the sea." },
+        { "de": "Wenn es morgen regnet, bleiben wir zu Hause.", "en": "If/when it rains tomorrow, we'll stay at home." }
+      ]
+    },
+    {
+      "heading": "während, bevor, bis, seit",
+      "text": "**Während** = at the same time as. **Bevor** = before. **Bis** = until. **Seit(dem)** = since (a point in the past up to now). All of these send the verb to the end. For **seit** the main clause is usually in the present: *Seit ich hier arbeite, lerne ich viel.* (**Nachdem** works with the Plusquamperfekt, see the earlier lesson.)",
+      "table": {
+        "head": ["Conjunction", "Meaning", "Example"],
+        "rows": [
+          ["während", "while", "Während ich koche, hört mein Mann Radio."],
+          ["bevor", "before", "Ich dusche, bevor ich ins Büro fahre."],
+          ["bis", "until", "Wir warten, bis der Bus kommt."],
+          ["seit / seitdem", "since", "Seit ich in Berlin lebe, esse ich viel Brot."]
+        ]
+      },
+      "examples": [
+        { "de": "Ich höre Podcasts, während ich zur Arbeit fahre.", "en": "I listen to podcasts while I travel to work." },
+        { "de": "Ich blieb in Köln, bis ich 2020 umzog.", "en": "I stayed in Cologne until I moved in 2020." }
+      ]
+    },
+    {
+      "heading": "Word order with the clause first",
+      "text": "A time clause can come first or second. If it comes **first**, it fills **position 1** of the whole sentence, so the main clause starts with its **verb** right after the comma: *Als ich klein war, **spielte ich** oft draußen.* If it comes second, the main clause keeps its normal order: *Ich spielte oft draußen, als ich klein war.*",
+      "examples": [
+        { "de": "Als ich klein war, spielte ich oft auf dem Spielplatz.", "en": "When I was small, I often played on the playground." },
+        { "de": "Ich spielte oft auf dem Spielplatz, als ich klein war.", "en": "I often played on the playground when I was small." },
+        { "de": "Bevor ich nach Deutschland kam, hatte ich nie Schnee gesehen.", "en": "Before I came to Germany, I had never seen snow." }
+      ]
+    }
+  ],
+  "tip": "One single event in the past = als. Everything else = wenn. Quick test: can you add 'jedes Mal' or 'immer'? Then it is wenn.",
+  "words": [
+    { "de": "Erinnerung", "en": "memory", "pos": "noun", "article": "die", "plural": "Erinnerungen" },
+    { "de": "Kindheit", "en": "childhood", "pos": "noun", "article": "die", "plural": "-" },
+    { "de": "Jugend", "en": "youth", "pos": "noun", "article": "die", "plural": "-" },
+    { "de": "Schulzeit", "en": "school days", "pos": "noun", "article": "die", "plural": "-" },
+    { "de": "Ferien", "en": "holidays (school)", "pos": "noun", "article": "die", "plural": "-", "note": "plural only" },
+    { "de": "Urlaub", "en": "holiday, vacation", "pos": "noun", "article": "der", "plural": "Urlaube" },
+    { "de": "Ausflug", "en": "day trip", "pos": "noun", "article": "der", "plural": "Ausflüge" },
+    { "de": "Geburtstag", "en": "birthday", "pos": "noun", "article": "der", "plural": "Geburtstage" },
+    { "de": "Hochzeit", "en": "wedding", "pos": "noun", "article": "die", "plural": "Hochzeiten" },
+    { "de": "Heimat", "en": "home country, home region", "pos": "noun", "article": "die", "plural": "-" },
+    { "de": "Vergangenheit", "en": "past", "pos": "noun", "article": "die", "plural": "-" },
+    { "de": "Foto", "en": "photo", "pos": "noun", "article": "das", "plural": "Fotos" },
+    { "de": "Überraschung", "en": "surprise", "pos": "noun", "article": "die", "plural": "Überraschungen" },
+    { "de": "Spielplatz", "en": "playground", "pos": "noun", "article": "der", "plural": "Spielplätze" },
+    { "de": "sich erinnern", "en": "to remember", "pos": "verb", "aux": "haben", "p2": "erinnert", "note": "sich erinnern an + Akk" },
+    { "de": "vergessen", "en": "to forget", "pos": "verb", "aux": "haben", "p2": "vergessen" },
+    { "de": "aufwachsen", "en": "to grow up", "pos": "verb", "aux": "sein", "sep": "auf", "p2": "aufgewachsen" },
+    { "de": "feiern", "en": "to celebrate", "pos": "verb", "aux": "haben", "p2": "gefeiert" },
+    { "de": "vermissen", "en": "to miss", "pos": "verb", "aux": "haben", "p2": "vermisst" },
+    { "de": "damals", "en": "back then", "pos": "adv" },
+    { "de": "früher", "en": "in the past, formerly", "pos": "adv" },
+    { "de": "plötzlich", "en": "suddenly", "pos": "adv" },
+    { "de": "unvergesslich", "en": "unforgettable", "pos": "adj" }
+  ],
+  "mindmap": {
+    "label": "Temporalsätze",
+    "children": [
+      {
+        "label": "als",
+        "note": "single past event",
+        "children": [ { "label": "Als ich klein war, …" } ]
+      },
+      {
+        "label": "wenn",
+        "children": [
+          { "label": "repeated: immer wenn" },
+          { "label": "present & future" }
+        ]
+      },
+      {
+        "label": "während",
+        "note": "at the same time",
+        "children": [ { "label": "Während ich koche, …" } ]
+      },
+      {
+        "label": "bevor / bis",
+        "children": [
+          { "label": "bevor = before" },
+          { "label": "bis = until" }
+        ]
+      },
+      {
+        "label": "seit / seitdem",
+        "children": [ { "label": "since: present tense in main clause" } ]
+      },
+      {
+        "label": "Word order",
+        "children": [
+          { "label": "verb at the end" },
+          { "label": "clause first → verb first in main clause" }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "mc", "q": "___ ich ein Kind war, wohnten wir in Lahore.", "options": ["Als", "Wenn", "Während"], "answer": 0, "explain": "This was one situation in the past (childhood in Lahore) → als." },
+    { "type": "mc", "q": "___ ich Zeit habe, rufe ich meine Mutter an.", "options": ["Als", "Wenn", "Seit"], "answer": 1, "explain": "This happens repeatedly in the present → wenn." },
+    { "type": "gap", "q": "Jedes Mal, ___ wir Urlaub hatten, fuhren wir ans Meer.", "answer": ["wenn"], "explain": "Repeated action in the past (jedes Mal) → wenn, not als." },
+    { "type": "gap", "q": "Ich höre Musik, ___ ich koche.", "answer": ["während", "wenn"], "explain": "Two actions at the same time → während (wenn is also possible for a habit)." },
+    { "type": "gap", "q": "Ich habe in Köln gewohnt, ___ ich 2020 umgezogen bin.", "answer": ["bis"], "explain": "bis = until: the end point of the situation in Cologne." },
+    { "type": "gap", "q": "___ ich in Deutschland lebe, habe ich viel gelernt.", "answer": ["Seit", "Seitdem"], "explain": "A situation that began in the past and continues up to now → seit / seitdem." },
+    { "type": "gap", "q": "Ich muss noch duschen, ___ ich ins Büro fahre.", "answer": ["bevor"], "explain": "Showering comes first, the drive second → bevor." },
+    { "type": "article", "word": "Hochzeit", "answer": "die", "explain": "Nouns ending in -zeit are feminine: die Hochzeit, die Schulzeit." },
+    { "type": "article", "word": "Foto", "answer": "das", "explain": "Foto is neuter: das Foto (plural: die Fotos)." },
+    { "type": "order", "words": ["Als", "ich", "klein", "war,", "spielte", "ich", "oft", "auf", "dem", "Spielplatz"], "answer": "Als ich klein war, spielte ich oft auf dem Spielplatz", "explain": "The als-clause fills position 1, so the main clause starts with the verb spielte." },
+    { "type": "order", "words": ["Während", "ich", "koche,", "hört", "mein", "Mann", "Radio"], "answer": "Während ich koche, hört mein Mann Radio", "explain": "Verb koche at the end of the während-clause; then the main verb hört comes first." },
+    { "type": "match", "pairs": [["die Kindheit", "childhood"], ["die Erinnerung", "memory"], ["der Ausflug", "day trip"], ["die Heimat", "home country"], ["damals", "back then"]], "explain": "Vocabulary for talking about the past." },
+    { "type": "translate", "en": "When I was young, I often visited my grandparents.", "answer": ["Als ich jung war, habe ich oft meine Großeltern besucht", "Als ich jung war, besuchte ich oft meine Großeltern"], "explain": "A single past period → als. The verb war goes to the end, and the main clause starts with the verb." },
+    { "type": "translate", "en": "Whenever it snows, I think of my childhood.", "answer": ["Wenn es schneit, denke ich an meine Kindheit", "Immer wenn es schneit, denke ich an meine Kindheit"], "explain": "Repeated, present → wenn. denken an + Akkusativ." }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Als ich klein war, wohnten wir in einem Dorf in der Nähe von Lahore.", "en": "When I was small we lived in a village near Lahore." },
+      { "de": "Immer wenn die Ferien anfingen, besuchten wir meine Großeltern.", "en": "Whenever the holidays started, we visited my grandparents." },
+      { "de": "Während mein Vater arbeitete, spielte ich mit meinem Bruder draußen.", "en": "While my father was working, I played outside with my brother." },
+      { "de": "Ich blieb in meiner Heimatstadt, bis ich mein Studium beendet hatte.", "en": "I stayed in my home town until I had finished my studies." },
+      { "de": "Seit ich in Deutschland wohne, vermisse ich manchmal das Essen aus meiner Heimat.", "en": "Since I've lived in Germany I sometimes miss the food from my home country." }
+    ],
+    "prompts": [
+      { "q": "Erzähl von einem schönen Erlebnis aus deiner Kindheit.", "qEn": "Tell me about a nice experience from your childhood.", "model": "Als ich zehn Jahre alt war, hat mein Vater mir einen Drachen gebaut. Wir sind zusammen auf ein Feld gegangen, und während der Wind den Drachen hochzog, habe ich laut gelacht. Das war ein unvergesslicher Tag.", "hint": "Als ich … war, … Während …" },
+      { "q": "Was war dein schönstes Erlebnis in der Schul- oder Unizeit?", "qEn": "What was your best experience in school or university?", "model": "Als ich im dritten Semester war, haben wir als Team einen kleinen Roboter gebaut. Wenn wir nachts im Labor saßen, haben wir viel gelacht. Bevor wir den Preis gewonnen haben, mussten wir aber sehr viel arbeiten.", "hint": "Als …, Immer wenn …, Bevor …" },
+      { "q": "Was hast du gemacht, bevor du nach Deutschland gekommen bist?", "qEn": "What did you do before you came to Germany?", "model": "Bevor ich nach Deutschland kam, habe ich vier Jahre als Ingenieur gearbeitet. Ich habe dort gewohnt, bis ich die Zusage für die Stelle in Deutschland bekommen habe. Seit ich hier bin, lerne ich jeden Tag Deutsch.", "hint": "Bevor ich kam, … Seit ich hier bin, …" }
+    ]
+  }
+}

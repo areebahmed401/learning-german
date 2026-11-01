@@ -1,0 +1,171 @@
+{
+  "id": "a1-13-akk-praepositionen",
+  "level": "A1",
+  "title": "für, ohne, durch…",
+  "concept": "Accusative prepositions",
+  "wordlist": "Stadt & Wege",
+  "minutes": 25,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+A1+Akkusativ+Pr%C3%A4positionen+f%C3%BCr+ohne+durch",
+  "learn": [
+    {
+      "heading": "Five prepositions that always take the accusative",
+      "text": "Some prepositions are always followed by the **accusative**: **für** (for), **ohne** (without), **durch** (through), **gegen** (against; around, for times), **um** (around; at, for clock times). Remember that only masculine changes: *für den Mann*, but *für die Frau, für das Kind*. A trick to remember them: **F-O-D-G-U**.",
+      "table": {
+        "head": ["preposition", "meaning", "example"],
+        "rows": [
+          ["für", "for", "Das Geschenk ist für den Lehrer."],
+          ["ohne", "without", "Ich gehe nicht ohne meinen Schlüssel."],
+          ["durch", "through", "Wir gehen durch den Park."],
+          ["gegen", "against; around (time)", "Ich komme gegen acht Uhr."],
+          ["um", "around; at (time)", "Das Café ist um die Ecke."]
+        ]
+      },
+      "examples": [
+        { "de": "Ich kaufe Brötchen für meinen Mitbewohner.", "en": "I buy rolls for my flatmate." },
+        { "de": "Ohne Kaffee kann ich morgens nicht arbeiten.", "en": "Without coffee I can't work in the morning." },
+        { "de": "Der Bus fährt durch die Innenstadt.", "en": "The bus runs through the city centre." }
+      ]
+    },
+    {
+      "heading": "Using them in the city",
+      "text": "In directions you often meet **durch** (through the park), **um** (around the corner, around the square) and **gegen** (against the wind, or *gegen* + clock time = *around*). Typical phrases: *durch den Park, um die Ecke, um den Platz, gegen halb zehn.* Note that **um** and **gegen** are also used with clock times: *um acht Uhr* (exactly), *gegen acht Uhr* (around eight).",
+      "table": {
+        "head": ["", "example"],
+        "rows": [
+          ["durch", "Gehen Sie durch den Park."],
+          ["um", "Dann gehen Sie um die Ecke."],
+          ["gegen", "Wir sind gegen drei Uhr da."],
+          ["für", "Ich brauche eine Fahrkarte für die Straßenbahn."]
+        ]
+      },
+      "examples": [
+        { "de": "Gehen Sie geradeaus und dann links um die Ecke.", "en": "Go straight on and then left around the corner." },
+        { "de": "Die Apotheke ist gleich um die Ecke.", "en": "The pharmacy is right around the corner." },
+        { "de": "Der Zug kommt gegen neun Uhr an.", "en": "The train arrives around nine." }
+      ]
+    },
+    {
+      "heading": "Asking the way and understanding the answer",
+      "text": "Learn a few fixed phrases to ask for directions: **Entschuldigung, wie komme ich zum Bahnhof?** / **Wo ist die Haltestelle?** Answers: **geradeaus** (straight ahead), **links** (left), **rechts** (right), **an der Kreuzung** (at the junction), **an der Ampel** (at the traffic light). The verb **abbiegen** is separable: *Biegen Sie links ab.* Ask again if you don't understand: *Können Sie das bitte wiederholen?*",
+      "table": {
+        "head": ["Frage", "Antwort"],
+        "rows": [
+          ["Wo ist der Bahnhof?", "Gehen Sie geradeaus."],
+          ["Wie komme ich zur Post?", "Gehen Sie rechts und dann durch den Park."],
+          ["Ist die Bank weit?", "Nein, nur fünf Minuten zu Fuß."]
+        ]
+      },
+      "examples": [
+        { "de": "Entschuldigung, wie komme ich zum Bahnhof?", "en": "Excuse me, how do I get to the station?" },
+        { "de": "An der Ampel biegen Sie links ab.", "en": "At the traffic light turn left." }
+      ]
+    }
+  ],
+  "tip": "Learn the five accusative prepositions with one funny sentence you can picture, e.g. \"Für meinen Freund gehe ich durch den Park, ohne Handy, gegen die Kälte, um die Ecke.\" The picture helps you recall: für, durch, ohne, gegen, um.",
+  "words": [
+    { "de": "Stadt", "en": "city; town", "pos": "noun", "article": "die", "plural": "Städte" },
+    { "de": "Zentrum", "en": "centre", "pos": "noun", "article": "das", "plural": "Zentren" },
+    { "de": "Straße", "en": "street", "pos": "noun", "article": "die", "plural": "Straßen" },
+    { "de": "Weg", "en": "way; path", "pos": "noun", "article": "der", "plural": "Wege" },
+    { "de": "Bahnhof", "en": "train station", "pos": "noun", "article": "der", "plural": "Bahnhöfe" },
+    { "de": "Haltestelle", "en": "bus / tram stop", "pos": "noun", "article": "die", "plural": "Haltestellen" },
+    { "de": "Bus", "en": "bus", "pos": "noun", "article": "der", "plural": "Busse" },
+    { "de": "Zug", "en": "train", "pos": "noun", "article": "der", "plural": "Züge" },
+    { "de": "Ecke", "en": "corner", "pos": "noun", "article": "die", "plural": "Ecken" },
+    { "de": "Kreuzung", "en": "junction", "pos": "noun", "article": "die", "plural": "Kreuzungen" },
+    { "de": "Ampel", "en": "traffic light", "pos": "noun", "article": "die", "plural": "Ampeln" },
+    { "de": "Brücke", "en": "bridge", "pos": "noun", "article": "die", "plural": "Brücken" },
+    { "de": "Platz", "en": "square; seat", "pos": "noun", "article": "der", "plural": "Plätze" },
+    { "de": "Rathaus", "en": "town hall", "pos": "noun", "article": "das", "plural": "Rathäuser" },
+    { "de": "Apotheke", "en": "pharmacy", "pos": "noun", "article": "die", "plural": "Apotheken" },
+    { "de": "Post", "en": "post office", "pos": "noun", "article": "die", "plural": "-" },
+    { "de": "Bank", "en": "bank", "pos": "noun", "article": "die", "plural": "Banken" },
+    { "de": "gehen", "en": "to go; to walk", "pos": "verb", "aux": "sein", "p2": "gegangen" },
+    { "de": "finden", "en": "to find", "pos": "verb", "aux": "haben", "p2": "gefunden" },
+    { "de": "abbiegen", "en": "to turn (off)", "pos": "verb", "aux": "sein", "sep": "ab", "p2": "abgebogen" },
+    { "de": "geradeaus", "en": "straight ahead", "pos": "adv" },
+    { "de": "links", "en": "left", "pos": "adv" },
+    { "de": "rechts", "en": "right", "pos": "adv" },
+    { "de": "weit", "en": "far", "pos": "adj" },
+    { "de": "nah", "en": "near", "pos": "adj" }
+  ],
+  "mindmap": {
+    "label": "Akkusativ-Präpositionen",
+    "children": [
+      {
+        "label": "für",
+        "note": "for",
+        "children": [
+          { "label": "für meinen Freund" },
+          { "label": "eine Karte für den Bus" }
+        ]
+      },
+      {
+        "label": "ohne",
+        "note": "without",
+        "children": [
+          { "label": "ohne meinen Schlüssel" }
+        ]
+      },
+      {
+        "label": "durch",
+        "note": "through",
+        "children": [
+          { "label": "durch den Park" },
+          { "label": "durch die Stadt" }
+        ]
+      },
+      {
+        "label": "gegen · um",
+        "children": [
+          { "label": "gegen drei Uhr", "note": "around" },
+          { "label": "um die Ecke", "note": "around" }
+        ]
+      },
+      {
+        "label": "Directions",
+        "children": [
+          { "label": "geradeaus · links · rechts" },
+          { "label": "an der Ampel · an der Kreuzung" },
+          { "label": "Wie komme ich zum Bahnhof?" }
+        ]
+      },
+      {
+        "label": "Rule",
+        "children": [
+          { "label": "only masculine changes", "note": "den, einen, meinen" }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "gap", "q": "Das Geschenk ist für ___ Lehrer. (der)", "answer": ["den"], "explain": "für is always followed by the accusative: der Lehrer → den Lehrer." },
+    { "type": "gap", "q": "Ich gehe nicht ohne ___ Schlüssel. (mein)", "answer": ["meinen"], "explain": "ohne + accusative; Schlüssel is masculine → meinen." },
+    { "type": "gap", "q": "Wir gehen durch ___ Park. (der)", "answer": ["den"], "explain": "durch + accusative; Park is masculine → den Park." },
+    { "type": "gap", "q": "Die Apotheke ist um ___ Ecke. (die)", "answer": ["die"], "explain": "um + accusative; feminine stays die." },
+    { "type": "gap", "q": "Ich brauche eine Fahrkarte ___ den Bus.", "answer": ["für"], "explain": "für = for (the purpose)." },
+    { "type": "mc", "q": "Which preposition takes the accusative?", "options": ["mit", "durch", "bei"], "answer": 1, "explain": "durch always takes the accusative; mit and bei take the dative." },
+    { "type": "mc", "q": "Ich trinke den Tee ___ Zucker. (without)", "options": ["ohne", "für", "durch"], "answer": 0, "explain": "ohne = without, and it is followed by the accusative." },
+    { "type": "mc", "q": "Which sentence is correct?", "options": ["Wir gehen durch dem Park.", "Wir gehen durch den Park.", "Wir gehen durch der Park."], "answer": 1, "explain": "durch + accusative: der Park → den Park." },
+    { "type": "article", "word": "Bahnhof", "answer": "der", "explain": "Bahnhof is masculine: der Bahnhof, accusative: den Bahnhof." },
+    { "type": "article", "word": "Haltestelle", "answer": "die", "explain": "Most nouns in -e are feminine: die Haltestelle." },
+    { "type": "match", "pairs": [["geradeaus", "straight ahead"], ["links", "left"], ["rechts", "right"], ["die Ampel", "traffic light"], ["die Kreuzung", "junction"]], "explain": "These words appear in every direction you get." },
+    { "type": "order", "words": ["durch", "Wir", "den Park", "gehen"], "answer": "Wir gehen durch den Park", "explain": "Subject, verb in position 2, then durch + accusative." },
+    { "type": "order", "words": ["Brötchen", "für", "Ich", "kaufe", "meinen Mitbewohner"], "answer": "Ich kaufe Brötchen für meinen Mitbewohner", "explain": "für + accusative: masculine Mitbewohner → meinen." },
+    { "type": "translate", "en": "The pharmacy is around the corner.", "answer": ["Die Apotheke ist um die Ecke"], "explain": "um + accusative: die Ecke (feminine, no change)." }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Entschuldigung, wie komme ich zum Bahnhof?", "en": "Excuse me, how do I get to the station?" },
+      { "de": "Gehen Sie geradeaus und dann links um die Ecke.", "en": "Go straight and then left around the corner." },
+      { "de": "Der Bus fährt durch die Innenstadt.", "en": "The bus runs through the city centre." },
+      { "de": "Ich brauche eine Fahrkarte für den Zug nach Köln.", "en": "I need a ticket for the train to Cologne." },
+      { "de": "Ist das weit? – Nein, nur fünf Minuten.", "en": "Is that far? – No, only five minutes." }
+    ],
+    "prompts": [
+      { "q": "Sie suchen die Apotheke. Fragen Sie nach dem Weg.", "qEn": "You are looking for the pharmacy. Ask for directions. (on the street in Aachen)", "model": "Entschuldigung, wo ist die Apotheke, bitte? Ist das weit?", "hint": "Entschuldigung, wo ist … / wie komme ich zu …?" },
+      { "q": "Gehen Sie geradeaus, dann rechts um die Ecke. Haben Sie das verstanden?", "qEn": "Go straight, then right around the corner. Did you understand? (a passer-by)", "model": "Geradeaus und dann rechts um die Ecke, richtig? Vielen Dank!", "hint": "Noch einmal, bitte. / Danke!" },
+      { "q": "Wohin möchten Sie fahren?", "qEn": "Where would you like to go? (at the ticket machine at the Hauptbahnhof)", "model": "Ich brauche eine Fahrkarte für den Zug nach Köln, bitte.", "hint": "Eine Fahrkarte für den Zug nach … " }
+    ]
+  }
+}

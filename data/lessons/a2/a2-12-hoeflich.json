@@ -1,0 +1,157 @@
+{
+  "id": "a2-12-hoeflich",
+  "level": "A2",
+  "title": "Ich hätte gern…",
+  "concept": "Polite Konjunktiv II: würde, hätte, könnte",
+  "wordlist": "Restaurant & Service",
+  "minutes": 25,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+A2+h%C3%B6flich+Konjunktiv+II+h%C3%A4tte+w%C3%BCrde+k%C3%B6nnte",
+  "learn": [
+    {
+      "heading": "hätte, wäre, würde: the polite forms",
+      "text": "The **Konjunktiv II** is used for polite requests, wishes and advice. At A2 you need just a few forms: **hätte** (from haben), **wäre** (from sein) and **würde + infinitive** (from werden). In a restaurant, *Ich hätte gern …* sounds friendlier than *Ich will …* or *Ich möchte …*. Note the endings: the same as in the Präteritum of haben and sein.",
+      "table": {
+        "head": ["", "haben", "sein", "werden"],
+        "rows": [
+          ["ich", "hätte", "wäre", "würde"],
+          ["du", "hättest", "wärst", "würdest"],
+          ["er / sie / es", "hätte", "wäre", "würde"],
+          ["wir", "hätten", "wären", "würden"],
+          ["ihr", "hättet", "wärt", "würdet"],
+          ["sie / Sie", "hätten", "wären", "würden"]
+        ]
+      },
+      "examples": [
+        { "de": "Ich hätte gern einen Tisch für zwei Personen.", "en": "I would like a table for two people." },
+        { "de": "Wir hätten gern die Speisekarte.", "en": "We would like the menu." },
+        { "de": "Das wäre sehr nett von Ihnen.", "en": "That would be very kind of you." }
+      ]
+    },
+    {
+      "heading": "Polite requests: Könnten Sie …? Würden Sie …?",
+      "text": "To ask politely, put **könnte / würde** at the start of the question and the infinitive at the end: **Könnten Sie mir bitte helfen? Würden Sie bitte die Tür öffnen?** With friends use **du**: *Könntest du mir bitte das Salz geben?* The forms: ich könnte, du könntest, er könnte, wir könnten, ihr könntet, sie könnten. Add **bitte**, and the request sounds even softer.",
+      "examples": [
+        { "de": "Könnten Sie uns bitte die Speisekarte bringen?", "en": "Could you please bring us the menu?" },
+        { "de": "Könnte ich bitte die Rechnung haben?", "en": "Could I have the bill, please?" },
+        { "de": "Würden Sie mir bitte noch ein Glas Wasser bringen?", "en": "Would you please bring me another glass of water?" },
+        { "de": "Könntest du mir bitte das Salz geben?", "en": "Could you please pass me the salt?" }
+      ]
+    },
+    {
+      "heading": "Wishes, suggestions and advice",
+      "text": "Use **würde + infinitive** to say what you would do or choose: *Ich würde den Fisch nehmen.* To suggest something, use **könnten**: *Wir könnten ein Taxi nehmen.* To give advice, use **sollte**: *Du solltest zum Arzt gehen.* The phrases below are worth learning as fixed chunks.",
+      "table": {
+        "head": ["Situation", "Phrase"],
+        "rows": [
+          ["ordering", "Ich hätte gern … / Ich nehme …"],
+          ["asking for the bill", "Zahlen, bitte! / Könnten wir bitte zahlen?"],
+          ["polite request", "Könnten Sie / Würden Sie bitte …?"],
+          ["suggestion", "Wir könnten … / Wie wäre es mit …?"],
+          ["advice", "Du solltest … / Ich würde …"]
+        ]
+      },
+      "examples": [
+        { "de": "Ich würde die Suppe nehmen, sie ist hier sehr gut.", "en": "I would take the soup, it is very good here." },
+        { "de": "Wie wäre es mit einem Kaffee?", "en": "How about a coffee?" }
+      ]
+    }
+  ],
+  "tip": "Three polite openers will carry you through any restaurant: 'Ich hätte gern …', 'Könnten Sie bitte …?' and 'Das wäre alles.' Use bitte and danke after every sentence.",
+  "words": [
+    { "de": "Speisekarte", "en": "menu", "pos": "noun", "article": "die", "plural": "Speisekarten" },
+    { "de": "Getränk", "en": "drink", "pos": "noun", "article": "das", "plural": "Getränke" },
+    { "de": "Vorspeise", "en": "starter", "pos": "noun", "article": "die", "plural": "Vorspeisen" },
+    { "de": "Hauptgericht", "en": "main course", "pos": "noun", "article": "das", "plural": "Hauptgerichte" },
+    { "de": "Nachtisch", "en": "dessert", "pos": "noun", "article": "der", "plural": "Nachtische" },
+    { "de": "Rechnung", "en": "bill", "pos": "noun", "article": "die", "plural": "Rechnungen" },
+    { "de": "Trinkgeld", "en": "tip (money)", "pos": "noun", "article": "das", "plural": "Trinkgelder" },
+    { "de": "Kellner", "en": "waiter", "pos": "noun", "article": "der", "plural": "Kellner" },
+    { "de": "Kellnerin", "en": "waitress", "pos": "noun", "article": "die", "plural": "Kellnerinnen" },
+    { "de": "Reservierung", "en": "reservation", "pos": "noun", "article": "die", "plural": "Reservierungen" },
+    { "de": "Besteck", "en": "cutlery", "pos": "noun", "article": "das", "plural": "-", "note": "no plural" },
+    { "de": "Teller", "en": "plate", "pos": "noun", "article": "der", "plural": "Teller" },
+    { "de": "Glas", "en": "glass", "pos": "noun", "article": "das", "plural": "Gläser" },
+    { "de": "Messer", "en": "knife", "pos": "noun", "article": "das", "plural": "Messer" },
+    { "de": "Gabel", "en": "fork", "pos": "noun", "article": "die", "plural": "Gabeln" },
+    { "de": "Löffel", "en": "spoon", "pos": "noun", "article": "der", "plural": "Löffel" },
+    { "de": "bestellen", "en": "to order", "pos": "verb", "aux": "haben", "p2": "bestellt" },
+    { "de": "bezahlen", "en": "to pay", "pos": "verb", "aux": "haben", "p2": "bezahlt" },
+    { "de": "empfehlen", "en": "to recommend", "pos": "verb", "aux": "haben", "p2": "empfohlen" },
+    { "de": "reservieren", "en": "to reserve", "pos": "verb", "aux": "haben", "p2": "reserviert" },
+    { "de": "bringen", "en": "to bring", "pos": "verb", "aux": "haben", "p2": "gebracht" },
+    { "de": "Ich hätte gern …", "en": "I would like …", "pos": "phrase" },
+    { "de": "Zahlen, bitte!", "en": "The bill, please!", "pos": "phrase" },
+    { "de": "Stimmt so.", "en": "Keep the change.", "pos": "phrase" },
+    { "de": "Guten Appetit!", "en": "Enjoy your meal!", "pos": "phrase" }
+  ],
+  "mindmap": {
+    "label": "Höflich sein",
+    "children": [
+      {
+        "label": "hätte",
+        "note": "from haben",
+        "children": [
+          { "label": "Ich hätte gern …", "note": "ordering" },
+          { "label": "Wir hätten gern …" }
+        ]
+      },
+      {
+        "label": "wäre",
+        "note": "from sein",
+        "children": [
+          { "label": "Das wäre nett.", "note": "polite" },
+          { "label": "Wie wäre es mit …?", "note": "suggesting" }
+        ]
+      },
+      {
+        "label": "könnte / würde",
+        "children": [
+          { "label": "Könnten Sie bitte …?", "note": "request" },
+          { "label": "Würden Sie bitte …?" },
+          { "label": "Ich würde … nehmen", "note": "choice" }
+        ]
+      },
+      {
+        "label": "sollte",
+        "children": [
+          { "label": "Du solltest …", "note": "advice" }
+        ]
+      },
+      {
+        "label": "im Restaurant",
+        "children": [
+          { "label": "bestellen · bezahlen · Trinkgeld" }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "mc", "q": "Which sentence is the most polite?", "options": ["Gib mir die Rechnung!", "Ich will zahlen.", "Könnten wir bitte zahlen?"], "answer": 2, "explain": "Könnten + bitte is the polite Konjunktiv II request; the other two sound too direct." },
+    { "type": "mc", "q": "Ich ___ gern einen Tisch für zwei Personen.", "options": ["hätte", "habe", "hatte"], "answer": 0, "explain": "Ich hätte gern … is the polite Konjunktiv II of haben. habe sounds blunt, hatte is the past." },
+    { "type": "mc", "q": "___ Sie mir bitte die Speisekarte bringen?", "options": ["Würden", "Wurden", "Werden"], "answer": 0, "explain": "Würden Sie bitte + infinitive: the polite request. Wurden is a Präteritum form of werden." },
+    { "type": "gap", "q": "Wir ___ gern die Speisekarte. (haben)", "answer": ["hätten"], "explain": "wir + haben in the Konjunktiv II: hätten." },
+    { "type": "gap", "q": "Das ___ sehr nett von Ihnen. (sein)", "answer": ["wäre"], "explain": "es/das + sein in the Konjunktiv II: wäre." },
+    { "type": "gap", "q": "___ du mir bitte das Salz geben? (können)", "answer": ["Könntest"], "explain": "du + können in the Konjunktiv II: du könntest." },
+    { "type": "article", "word": "Rechnung", "answer": "die", "explain": "Nouns ending in -ung are always feminine." },
+    { "type": "article", "word": "Besteck", "answer": "das", "explain": "das Besteck (no plural). Collective nouns for sets of things are often neuter; learn it as a unit." },
+    { "type": "order", "words": ["Ich", "hätte", "gern", "eine Suppe", "und", "ein Wasser"], "answer": "Ich hätte gern eine Suppe und ein Wasser", "explain": "Statement: subject, verb in position 2 (hätte), then gern and the objects." },
+    { "type": "order", "words": ["Könnten", "Sie", "uns", "bitte", "die Speisekarte", "bringen"], "answer": "Könnten Sie uns bitte die Speisekarte bringen", "explain": "In a polite request the infinitive (bringen) goes to the end." },
+    { "type": "match", "pairs": [["Ich hätte gern …", "I would like …"], ["Könnten Sie …?", "Could you …?"], ["Würden Sie bitte …?", "Would you please …?"], ["Zahlen, bitte!", "The bill, please!"], ["Stimmt so.", "Keep the change."]], "explain": "These are fixed phrases for any restaurant." },
+    { "type": "translate", "en": "Could I have the bill, please?", "answer": ["Könnte ich bitte die Rechnung haben", "Könnte ich bitte die Rechnung bekommen", "Könnten wir bitte zahlen", "Ich hätte gern die Rechnung"], "explain": "Könnte + ich … + infinitive at the end. Alternatively: Ich hätte gern die Rechnung." },
+    { "type": "translate", "en": "I would like a table for four.", "answer": ["Ich hätte gern einen Tisch für vier Personen", "Ich hätte gern einen Tisch für vier", "Ich möchte einen Tisch für vier Personen", "Ich möchte einen Tisch für vier"], "explain": "Ich hätte gern + Akkusativ (einen Tisch)." }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Guten Abend, ich hätte gern einen Tisch für zwei Personen.", "en": "Good evening, I would like a table for two." },
+      { "de": "Könnten wir bitte die Speisekarte haben?", "en": "Could we have the menu, please?" },
+      { "de": "Ich hätte gern die Suppe und danach den Fisch.", "en": "I would like the soup and then the fish." },
+      { "de": "Würden Sie uns bitte noch zwei Wasser bringen?", "en": "Would you bring us two more waters, please?" },
+      { "de": "Könnten wir bitte zahlen? – Zusammen oder getrennt?", "en": "Could we pay, please? – Together or separately?" }
+    ],
+    "prompts": [
+      { "q": "Im Restaurant: Guten Abend! Haben Sie reserviert? Was möchten Sie trinken?", "qEn": "In the restaurant: good evening! Do you have a reservation? What would you like to drink?", "model": "Guten Abend. Ja, ich habe auf den Namen Khan reserviert. Ich hätte gern ein Mineralwasser, und könnten wir bitte die Speisekarte haben?", "hint": "Ich hätte gern … Könnten wir bitte …?" },
+      { "q": "Das Essen ist kalt. Was sagst du dem Kellner?", "qEn": "The food is cold. What do you say to the waiter?", "model": "Entschuldigung, die Suppe ist leider kalt. Könnten Sie sie bitte noch einmal warm machen? Das wäre sehr nett.", "hint": "Entschuldigung … Könnten Sie bitte …?" },
+      { "q": "Du möchtest bezahlen und hast Trinkgeld. Was sagst du?", "qEn": "You want to pay and give a tip. What do you say?", "model": "Zahlen, bitte! Ich würde gern mit Karte bezahlen. Das Essen war sehr gut. Stimmt so, danke!", "hint": "Zahlen, bitte! … Stimmt so." }
+    ]
+  }
+}

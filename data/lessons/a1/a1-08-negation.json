@@ -1,0 +1,156 @@
+{
+  "id": "a1-08-negation",
+  "level": "A1",
+  "title": "nicht & kein",
+  "concept": "Negation with nicht and kein",
+  "wordlist": "Einkaufen",
+  "minutes": 25,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+A1+nicht+kein+negation",
+  "learn": [
+    {
+      "heading": "kein: \"not a\" / \"no\"",
+      "text": "Use **kein** to negate a noun that has **ein/eine** or **no article** at all. It takes the same endings as *ein*, and in the plural it is **keine**. In the accusative, masculine becomes **keinen**. Think of it as \"ein\" with a **k** in front: *ein Auto → kein Auto.*",
+      "table": {
+        "head": ["", "masculine", "feminine", "neuter", "plural"],
+        "rows": [
+          ["Nominativ", "kein Supermarkt", "keine Kasse", "kein Geld", "keine Tüten"],
+          ["Akkusativ", "keinen Supermarkt", "keine Kasse", "kein Geld", "keine Tüten"]
+        ]
+      },
+      "examples": [
+        { "de": "Ich habe kein Bargeld.", "en": "I have no cash." },
+        { "de": "Haben Sie einen Einkaufswagen? – Nein, ich habe keinen.", "en": "Do you have a shopping cart? – No, I don't have one." },
+        { "de": "Das ist keine Wurst, das ist Käse.", "en": "That is not sausage, that is cheese." }
+      ]
+    },
+    {
+      "heading": "nicht: negating the rest",
+      "text": "Use **nicht** for everything else: verbs, adjectives, adverbs, and nouns with **der/die/das** or a possessive. Position: **at the end** of the sentence when you negate the whole sentence (*Ich kaufe das Brot nicht.*), but **before** the word you negate when it is an adjective, adverb or a place (*Das Brot ist nicht frisch. Ich wohne nicht in Aachen.*).",
+      "table": {
+        "head": ["negation of …", "position of nicht", "example"],
+        "rows": [
+          ["the whole sentence (verb)", "end", "Ich arbeite heute nicht."],
+          ["noun with der/die/das", "end", "Ich kenne den Mann nicht."],
+          ["adjective / adverb", "before it", "Der Käse ist nicht teuer."],
+          ["place / prepositional phrase", "before it", "Er ist nicht im Supermarkt."]
+        ]
+      },
+      "examples": [
+        { "de": "Der Laden ist heute nicht geöffnet.", "en": "The shop is not open today." },
+        { "de": "Ich kaufe die Tüte nicht.", "en": "I won't buy the bag." },
+        { "de": "Das Obst ist nicht frisch.", "en": "The fruit is not fresh." }
+      ]
+    },
+    {
+      "heading": "kein or nicht?",
+      "text": "Ask yourself one question: is the noun used with **ein/eine** or **without any article**? If yes, use **kein**. If the noun has **der/die/das** or **mein/dein**, use **nicht**. The answer to a question that includes a negative uses **doch** to disagree: *Du kaufst kein Brot? – Doch, ich kaufe Brot!* Do not translate \"no\" with *nicht* alone: \"I have no time\" is *Ich habe keine Zeit.*",
+      "table": {
+        "head": ["positive", "negative"],
+        "rows": [
+          ["Ich habe ein Auto.", "Ich habe kein Auto."],
+          ["Ich kaufe Brot.", "Ich kaufe kein Brot."],
+          ["Ich kaufe das Brot.", "Ich kaufe das Brot nicht."],
+          ["Das Brot ist frisch.", "Das Brot ist nicht frisch."]
+        ]
+      },
+      "examples": [
+        { "de": "Ich habe heute keine Zeit zum Einkaufen.", "en": "I have no time for shopping today." },
+        { "de": "Das ist nicht mein Einkaufswagen.", "en": "That is not my shopping cart." }
+      ]
+    }
+  ],
+  "tip": "Two-second test: can you put ein/eine in front of the noun, or is there no article? Then it is kein. Otherwise it is nicht. \"Ich habe kein Geld\" (not: nicht Geld).",
+  "words": [
+    { "de": "Supermarkt", "en": "supermarket", "pos": "noun", "article": "der", "plural": "Supermärkte" },
+    { "de": "Geschäft", "en": "shop", "pos": "noun", "article": "das", "plural": "Geschäfte" },
+    { "de": "Laden", "en": "shop; store", "pos": "noun", "article": "der", "plural": "Läden" },
+    { "de": "Markt", "en": "market", "pos": "noun", "article": "der", "plural": "Märkte" },
+    { "de": "Kasse", "en": "checkout; till", "pos": "noun", "article": "die", "plural": "Kassen" },
+    { "de": "Einkaufswagen", "en": "shopping cart", "pos": "noun", "article": "der", "plural": "Einkaufswagen" },
+    { "de": "Tüte", "en": "bag", "pos": "noun", "article": "die", "plural": "Tüten" },
+    { "de": "Preis", "en": "price", "pos": "noun", "article": "der", "plural": "Preise" },
+    { "de": "Geld", "en": "money", "pos": "noun", "article": "das", "plural": "-" },
+    { "de": "Bargeld", "en": "cash", "pos": "noun", "article": "das", "plural": "-" },
+    { "de": "Karte", "en": "card", "pos": "noun", "article": "die", "plural": "Karten" },
+    { "de": "Rechnung", "en": "bill; invoice", "pos": "noun", "article": "die", "plural": "Rechnungen" },
+    { "de": "Angebot", "en": "special offer", "pos": "noun", "article": "das", "plural": "Angebote" },
+    { "de": "Kilo", "en": "kilo", "pos": "noun", "article": "das", "plural": "Kilos" },
+    { "de": "kaufen", "en": "to buy", "pos": "verb", "aux": "haben", "p2": "gekauft" },
+    { "de": "einkaufen", "en": "to shop", "pos": "verb", "aux": "haben", "sep": "ein", "p2": "eingekauft" },
+    { "de": "bezahlen", "en": "to pay", "pos": "verb", "aux": "haben", "p2": "bezahlt" },
+    { "de": "kosten", "en": "to cost", "pos": "verb", "aux": "haben", "p2": "gekostet" },
+    { "de": "brauchen", "en": "to need", "pos": "verb", "aux": "haben", "p2": "gebraucht" },
+    { "de": "teuer", "en": "expensive", "pos": "adj" },
+    { "de": "billig", "en": "cheap", "pos": "adj" },
+    { "de": "günstig", "en": "inexpensive; a bargain", "pos": "adj" },
+    { "de": "frisch", "en": "fresh", "pos": "adj" },
+    { "de": "geöffnet", "en": "open", "pos": "adj" },
+    { "de": "geschlossen", "en": "closed", "pos": "adj" }
+  ],
+  "mindmap": {
+    "label": "nicht & kein",
+    "children": [
+      {
+        "label": "kein",
+        "note": "noun with ein or no article",
+        "children": [
+          { "label": "kein Geld · keine Zeit" },
+          { "label": "Akkusativ masculine", "note": "keinen Supermarkt" },
+          { "label": "Plural", "note": "keine Tüten" }
+        ]
+      },
+      {
+        "label": "nicht",
+        "note": "everything else",
+        "children": [
+          { "label": "verbs", "note": "Ich arbeite nicht." },
+          { "label": "adjectives", "note": "nicht frisch" },
+          { "label": "noun with der/die/das", "note": "das Brot nicht" }
+        ]
+      },
+      {
+        "label": "Position of nicht",
+        "children": [
+          { "label": "end of sentence", "note": "whole sentence" },
+          { "label": "before adj / place", "note": "nicht teuer, nicht im Laden" }
+        ]
+      },
+      {
+        "label": "Answers",
+        "children": [
+          { "label": "Nein, … kein / nicht" },
+          { "label": "Doch!", "note": "to a negative question" }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "gap", "q": "Ich habe ___ Bargeld.", "answer": ["kein"], "explain": "Bargeld is neuter and has no article → kein." },
+    { "type": "gap", "q": "Wir haben ___ Zeit.", "answer": ["keine"], "explain": "Zeit is feminine → keine Zeit." },
+    { "type": "gap", "q": "Nein, danke. Ich brauche ___ Tüte.", "answer": ["keine"], "explain": "Tüte is feminine, and the noun has no definite article → keine." },
+    { "type": "gap", "q": "Er hat ___ Einkaufswagen.", "answer": ["keinen"], "explain": "Einkaufswagen is masculine and the object (accusative) → keinen." },
+    { "type": "gap", "q": "Das Obst ist ___ frisch.", "answer": ["nicht"], "explain": "You negate an adjective with nicht, placed before it." },
+    { "type": "gap", "q": "Ich kaufe das Brot ___.", "answer": ["nicht"], "explain": "The noun has the definite article das → nicht, at the end." },
+    { "type": "mc", "q": "Which sentence is correct?", "options": ["Ich habe nicht Geld.", "Ich habe kein Geld.", "Ich habe keine Geld."], "answer": 1, "explain": "Geld has no article and is neuter → kein Geld." },
+    { "type": "mc", "q": "\"Du kaufst kein Brot?\" – You want to say \"Yes, I do.\" What do you answer?", "options": ["Ja, ich kaufe Brot.", "Doch, ich kaufe Brot.", "Nein, ich kaufe Brot."], "answer": 1, "explain": "To contradict a negative question, use doch." },
+    { "type": "mc", "q": "Which sentence is correct?", "options": ["Der Laden ist nicht geöffnet.", "Der Laden ist kein geöffnet.", "Der Laden nicht ist geöffnet."], "answer": 0, "explain": "The adjective geöffnet is negated with nicht, before it." },
+    { "type": "match", "pairs": [["teuer", "expensive"], ["billig", "cheap"], ["frisch", "fresh"], ["geöffnet", "open"], ["geschlossen", "closed"]], "explain": "Adjectives are negated with nicht: nicht teuer, nicht frisch." },
+    { "type": "order", "words": ["Geld", "Ich", "habe", "kein"], "answer": "Ich habe kein Geld", "explain": "kein stands directly before the noun it negates." },
+    { "type": "order", "words": ["teuer", "nicht", "Das", "ist"], "answer": "Das ist nicht teuer", "explain": "nicht stands before the adjective." },
+    { "type": "translate", "en": "I don't have a car and I don't have time.", "answer": ["Ich habe kein Auto und ich habe keine Zeit", "Ich habe kein Auto und keine Zeit"], "explain": "Both nouns come with ein/no article, so kein (neuter Auto) and keine (feminine Zeit)." }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Entschuldigung, ich habe kein Bargeld. Kann ich mit Karte bezahlen?", "en": "Excuse me, I have no cash. Can I pay by card?" },
+      { "de": "Nein danke, ich brauche keine Tüte.", "en": "No thanks, I don't need a bag." },
+      { "de": "Das ist nicht teuer, das ist ein gutes Angebot.", "en": "That is not expensive, that is a good offer." },
+      { "de": "Der Laden ist heute nicht geöffnet.", "en": "The shop is not open today." },
+      { "de": "Ich habe keine Kundenkarte.", "en": "I don't have a loyalty card." }
+    ],
+    "prompts": [
+      { "q": "Brauchen Sie eine Tüte?", "qEn": "Do you need a bag? (at the Supermarkt checkout)", "model": "Nein, danke, ich brauche keine Tüte. Ich habe einen Rucksack.", "hint": "Nein, ich brauche keine Tüte." },
+      { "q": "Haben Sie eine Kundenkarte?", "qEn": "Do you have a customer card? (at the checkout)", "model": "Nein, ich habe keine Kundenkarte. Kann ich mit Karte bezahlen?", "hint": "Nein, ich habe keine …" },
+      { "q": "Möchten Sie noch etwas?", "qEn": "Would you like anything else? (at the Bäcker)", "model": "Nein, danke. Das ist alles. Was kostet das?", "hint": "Nein, danke. Das ist alles." }
+    ]
+  }
+}

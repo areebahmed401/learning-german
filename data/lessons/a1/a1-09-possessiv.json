@@ -1,0 +1,156 @@
+{
+  "id": "a1-09-possessiv",
+  "level": "A1",
+  "title": "mein, dein, sein…",
+  "concept": "Possessive articles",
+  "wordlist": "Sachen & Farben",
+  "minutes": 25,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+A1+possessive+articles+mein+dein+sein",
+  "learn": [
+    {
+      "heading": "One owner, one possessive",
+      "text": "Possessive articles show who something belongs to. There is one for each pronoun. They stand in front of a noun, like *ein*: *mein Handy* (my phone). The possessive depends on the **owner**: **sein** = his (also *its*), **ihr** = her. The formal \"your\" is **Ihr** with a capital letter.",
+      "table": {
+        "head": ["pronoun", "possessive", "example"],
+        "rows": [
+          ["ich", "mein", "mein Handy"],
+          ["du", "dein", "dein Rucksack"],
+          ["er / es", "sein", "sein Auto"],
+          ["sie", "ihr", "ihre Tasche"],
+          ["wir", "unser", "unser Fahrrad"],
+          ["ihr", "euer", "eure Jacke"],
+          ["sie (they)", "ihr", "ihre Schlüssel"],
+          ["Sie (formal)", "Ihr", "Ihr Ausweis"]
+        ]
+      },
+      "examples": [
+        { "de": "Das ist mein Laptop.", "en": "That is my laptop." },
+        { "de": "Ist das Ihr Ausweis?", "en": "Is that your ID card?" },
+        { "de": "Anna sucht ihre Brille, und Tim sucht sein Handy.", "en": "Anna is looking for her glasses, and Tim is looking for his phone." }
+      ]
+    },
+    {
+      "heading": "Endings: same as ein / kein",
+      "text": "Possessives take exactly the same endings as **ein** and **kein**: no ending for masculine and neuter in the nominative, **-e** for feminine and plural, and **-en** for masculine in the accusative. So if you know *ein/eine/einen*, you already know *mein/meine/meinen*. Note: **euer** drops the e before an ending (*eure*, not *euere*).",
+      "table": {
+        "head": ["", "masculine", "feminine", "neuter", "plural"],
+        "rows": [
+          ["Nominativ", "mein Rucksack", "meine Tasche", "mein Handy", "meine Schlüssel"],
+          ["Akkusativ", "meinen Rucksack", "meine Tasche", "mein Handy", "meine Schlüssel"]
+        ]
+      },
+      "examples": [
+        { "de": "Ich suche meinen Ausweis.", "en": "I am looking for my ID card." },
+        { "de": "Hast du deine Jacke dabei?", "en": "Do you have your jacket with you?" },
+        { "de": "Wir haben unseren Schlüssel dabei.", "en": "We have our key with us." }
+      ]
+    },
+    {
+      "heading": "Colours and describing your things",
+      "text": "Colours are adjectives. After **sein** (is) they have no ending: *Mein Rucksack ist schwarz.* Use them to describe your things at the Fundbüro, in the WG or on the phone: *Mein Handy ist schwarz und neu.* Ask *Wie ist dein Rucksack?* or *Welche Farbe hat er?* and answer with a full sentence: *Ja, das ist mein Rucksack.*",
+      "table": {
+        "head": ["Farbe", "Farbe", "Farbe"],
+        "rows": [
+          ["rot (red)", "blau (blue)", "grün (green)"],
+          ["gelb (yellow)", "schwarz (black)", "weiß (white)"],
+          ["grau (grey)", "braun (brown)", "neu / alt (new / old)"]
+        ]
+      },
+      "examples": [
+        { "de": "Meine Jacke ist blau und mein Rucksack ist schwarz.", "en": "My jacket is navy and my backpack is black." },
+        { "de": "Ihr Fahrrad ist alt, aber sein Auto ist neu.", "en": "Her bike is old, but his car is new." }
+      ]
+    }
+  ],
+  "tip": "Say it with a gesture: point to yourself for mein, to the other person for dein, to a man for sein, to a woman for ihr. Do this with five things on your desk, out loud.",
+  "words": [
+    { "de": "Handy", "en": "mobile phone", "pos": "noun", "article": "das", "plural": "Handys" },
+    { "de": "Laptop", "en": "laptop", "pos": "noun", "article": "der", "plural": "Laptops" },
+    { "de": "Tasche", "en": "bag", "pos": "noun", "article": "die", "plural": "Taschen" },
+    { "de": "Rucksack", "en": "backpack", "pos": "noun", "article": "der", "plural": "Rucksäcke" },
+    { "de": "Brille", "en": "glasses", "pos": "noun", "article": "die", "plural": "Brillen" },
+    { "de": "Ausweis", "en": "ID card", "pos": "noun", "article": "der", "plural": "Ausweise" },
+    { "de": "Geldbeutel", "en": "wallet", "pos": "noun", "article": "der", "plural": "Geldbeutel" },
+    { "de": "Stift", "en": "pen", "pos": "noun", "article": "der", "plural": "Stifte" },
+    { "de": "Jacke", "en": "jacket", "pos": "noun", "article": "die", "plural": "Jacken" },
+    { "de": "Schuh", "en": "shoe", "pos": "noun", "article": "der", "plural": "Schuhe" },
+    { "de": "Auto", "en": "car", "pos": "noun", "article": "das", "plural": "Autos" },
+    { "de": "Fahrrad", "en": "bicycle", "pos": "noun", "article": "das", "plural": "Fahrräder" },
+    { "de": "Farbe", "en": "colour", "pos": "noun", "article": "die", "plural": "Farben" },
+    { "de": "rot", "en": "red", "pos": "adj" },
+    { "de": "blau", "en": "blue", "pos": "adj" },
+    { "de": "grün", "en": "green", "pos": "adj" },
+    { "de": "gelb", "en": "yellow", "pos": "adj" },
+    { "de": "schwarz", "en": "black", "pos": "adj" },
+    { "de": "weiß", "en": "white", "pos": "adj" },
+    { "de": "grau", "en": "grey", "pos": "adj" },
+    { "de": "braun", "en": "brown", "pos": "adj" },
+    { "de": "neu", "en": "new", "pos": "adj" },
+    { "de": "alt", "en": "old", "pos": "adj" }
+  ],
+  "mindmap": {
+    "label": "Possessiv",
+    "children": [
+      {
+        "label": "Singular owners",
+        "children": [
+          { "label": "mein · dein", "note": "my · your" },
+          { "label": "sein · ihr", "note": "his/its · her" },
+          { "label": "Ihr", "note": "your (formal)" }
+        ]
+      },
+      {
+        "label": "Plural owners",
+        "children": [
+          { "label": "unser · euer", "note": "our · your (pl.)" },
+          { "label": "ihr", "note": "their" }
+        ]
+      },
+      {
+        "label": "Endings like ein",
+        "children": [
+          { "label": "masc/neut Nom.", "note": "mein Handy" },
+          { "label": "fem + plural", "note": "meine Tasche" },
+          { "label": "masc Akk.", "note": "meinen Rucksack" }
+        ]
+      },
+      {
+        "label": "Colours",
+        "children": [
+          { "label": "rot · blau · grün · gelb" },
+          { "label": "schwarz · weiß · grau · braun" }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "gap", "q": "Das ist ___ Handy. (ich)", "answer": ["mein"], "explain": "Owner = ich → mein. Handy is neuter, no ending in the nominative." },
+    { "type": "gap", "q": "Hast du ___ Ausweis dabei? (du)", "answer": ["deinen"], "explain": "Owner = du → dein. Ausweis is masculine and the object (accusative) → deinen." },
+    { "type": "gap", "q": "Anna sucht ___ Brille. (sie)", "answer": ["ihre"], "explain": "Owner = Anna (sie) → ihr. Brille is feminine → ihre." },
+    { "type": "gap", "q": "Tim sucht ___ Schlüssel. (er)", "answer": ["seinen"], "explain": "Owner = Tim (er) → sein. Schlüssel is masculine, accusative → seinen." },
+    { "type": "gap", "q": "Wir haben ___ Fahrrad hier. (wir)", "answer": ["unser"], "explain": "Owner = wir → unser. Fahrrad is neuter → no ending." },
+    { "type": "mc", "q": "Which form is correct? \"Ist das ___ Tasche?\" (you, formal)", "options": ["Ihr", "Ihre", "ihre"], "answer": 1, "explain": "Formal Sie → Ihr with a capital I. Tasche is feminine → Ihre." },
+    { "type": "mc", "q": "Ali and Sara are siblings. \"Das ist ___ Mutter.\" (their)", "options": ["unsere", "ihre", "seine"], "answer": 1, "explain": "The owners are they (sie) → ihr. Mutter is feminine → ihre." },
+    { "type": "mc", "q": "What is the plural of \"mein Schuh\" in the nominative?", "options": ["meine Schuhe", "mein Schuhe", "meinen Schuhe"], "answer": 0, "explain": "The plural takes -e: meine Schuhe." },
+    { "type": "article", "word": "Rucksack", "answer": "der", "explain": "Rucksack is masculine: der Rucksack, mein Rucksack." },
+    { "type": "article", "word": "Jacke", "answer": "die", "explain": "Most nouns in -e are feminine: die Jacke." },
+    { "type": "match", "pairs": [["rot", "red"], ["blau", "blue"], ["grün", "green"], ["schwarz", "black"], ["weiß", "white"]], "explain": "Colours are adjectives; after sein they take no ending." },
+    { "type": "order", "words": ["ist", "Mein Rucksack", "schwarz"], "answer": "Mein Rucksack ist schwarz", "explain": "Subject, verb in position 2, then the adjective." },
+    { "type": "translate", "en": "Where is my phone?", "answer": ["Wo ist mein Handy"], "explain": "W-question: Wo + ist + subject. Handy is neuter: mein." },
+    { "type": "translate", "en": "She has her jacket and he has his backpack.", "answer": ["Sie hat ihre Jacke und er hat seinen Rucksack"], "explain": "ihre Jacke (feminine) and seinen Rucksack (masculine accusative)." }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Entschuldigung, ich suche meinen Ausweis.", "en": "Excuse me, I'm looking for my ID card." },
+      { "de": "Meine Jacke ist blau und mein Rucksack ist schwarz.", "en": "My jacket is navy and my backpack is black." },
+      { "de": "Das ist nicht mein Handy. Mein Handy ist grau.", "en": "That is not my phone. My phone is grey." },
+      { "de": "Ist das Ihre Tasche?", "en": "Is that your bag?" },
+      { "de": "Unser Fahrrad ist alt, aber es fährt gut.", "en": "Our bike is old, but it rides well." }
+    ],
+    "prompts": [
+      { "q": "Sie haben etwas verloren? Was suchen Sie?", "qEn": "Have you lost something? What are you looking for? (at the Fundbüro of the Deutsche Bahn)", "model": "Ich suche meinen Rucksack. Er ist schwarz und ziemlich groß.", "hint": "Ich suche meinen / meine / mein … Er / Sie / Es ist …" },
+      { "q": "Ist das dein Handy?", "qEn": "Is that your phone? (a flatmate found one in the kitchen)", "model": "Ja, das ist mein Handy. Danke! Es ist schwarz.", "hint": "Ja, das ist mein … / Nein, das ist nicht mein …" },
+      { "q": "Wie ist dein Fahrrad? Welche Farbe hat es?", "qEn": "What is your bike like? What colour is it? (a friend asks)", "model": "Mein Fahrrad ist alt und grün. Es ist nicht teuer.", "hint": "Mein Fahrrad ist … Die Farbe ist …" }
+    ]
+  }
+}

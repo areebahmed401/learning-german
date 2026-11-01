@@ -1,0 +1,143 @@
+{
+  "id": "b1-09-genitiv",
+  "level": "B1",
+  "title": "Genitiv",
+  "concept": "Genitive case; wegen, trotz, während",
+  "wordlist": "Behörden & Ämter",
+  "minutes": 30,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+B1+Genitiv+wegen+trotz+w%C3%A4hrend",
+  "learn": [
+    {
+      "heading": "The Genitiv: possession",
+      "text": "The **Genitiv** shows that something belongs to somebody or something: *das Büro des Chefs*. Articles change: **des** (masculine and neuter), **der** (feminine and plural). Masculine and neuter nouns also add **-s** (or **-es** after one syllable or an s-sound): *des Amtes, des Antrags*. With names, add -s without an article: *Annas Antrag*. In speech, *von + Dativ* often replaces the Genitiv, but in writing and in official language the Genitiv is expected.",
+      "table": {
+        "head": ["", "masculine", "feminine", "neuter", "plural"],
+        "rows": [
+          ["Nominativ", "der Chef", "die Firma", "das Amt", "die Kollegen"],
+          ["Genitiv", "des Chefs", "der Firma", "des Amtes", "der Kollegen"]
+        ]
+      },
+      "examples": [
+        { "de": "Das ist das Büro des Chefs.", "en": "That is the boss's office." },
+        { "de": "Die Adresse der Firma steht im Formular.", "en": "The company's address is in the form." },
+        { "de": "Der Sachbearbeiter des Bürgeramts hat den Antrag geprüft.", "en": "The clerk at the citizens' office has checked the application." }
+      ]
+    },
+    {
+      "heading": "Prepositions with the Genitiv",
+      "text": "Some prepositions always take the Genitiv. The most important for B1 are **wegen** (because of), **trotz** (despite), **während** (during), **innerhalb** (within) and **außerhalb** (outside of). In everyday speech you will often hear *wegen dem*, but in writing and at the Amt use the Genitiv.",
+      "table": {
+        "head": ["Preposition", "Meaning", "Example"],
+        "rows": [
+          ["wegen", "because of", "Wegen des Streiks kam der Zug zu spät."],
+          ["trotz", "despite", "Trotz des Regens gingen wir zum Amt."],
+          ["während", "during", "Während der Öffnungszeiten ist das Amt geöffnet."],
+          ["innerhalb", "within", "Innerhalb einer Woche bekommen Sie Antwort."]
+        ]
+      },
+      "examples": [
+        { "de": "Wegen meiner Arbeit habe ich keine Zeit.", "en": "Because of my work I have no time." },
+        { "de": "Während der Sprechzeiten können Sie ohne Termin kommen.", "en": "During consultation hours you can come without an appointment." }
+      ]
+    },
+    {
+      "heading": "Genitiv in official language",
+      "text": "Letters from the Amt are full of the Genitiv: *die Verlängerung des Aufenthaltstitels, die Ausstellung eines Ausweises*. The **indefinite article** is **eines** (m, n) and **einer** (f). Possessives follow the same pattern: *meines, meiner*. Weak masculine nouns keep their -(e)n: *des Kollegen, des Menschen*.",
+      "examples": [
+        { "de": "Ich möchte die Verlängerung meines Aufenthaltstitels beantragen.", "en": "I would like to apply for the extension of my residence permit." },
+        { "de": "Das ist der Reisepass meines Kollegen.", "en": "That is my colleague's passport." },
+        { "de": "Die Ausstellung eines neuen Ausweises dauert vier Wochen.", "en": "Issuing a new ID card takes four weeks." }
+      ]
+    }
+  ],
+  "tip": "Think 'des-s': the article des on masculine and neuter nouns comes with an -s on the noun (des Chefs). Feminine and plural: just der, nothing on the noun.",
+  "words": [
+    { "de": "Behörde", "en": "authority, public agency", "pos": "noun", "article": "die", "plural": "Behörden" },
+    { "de": "Amt", "en": "office, agency", "pos": "noun", "article": "das", "plural": "Ämter" },
+    { "de": "Bürgeramt", "en": "citizens' office", "pos": "noun", "article": "das", "plural": "Bürgerämter" },
+    { "de": "Antrag", "en": "application, request", "pos": "noun", "article": "der", "plural": "Anträge" },
+    { "de": "Formular", "en": "form", "pos": "noun", "article": "das", "plural": "Formulare" },
+    { "de": "Anmeldung", "en": "registration", "pos": "noun", "article": "die", "plural": "Anmeldungen" },
+    { "de": "Aufenthaltstitel", "en": "residence permit", "pos": "noun", "article": "der", "plural": "Aufenthaltstitel" },
+    { "de": "Bescheinigung", "en": "certificate, confirmation", "pos": "noun", "article": "die", "plural": "Bescheinigungen" },
+    { "de": "Ausweis", "en": "ID card", "pos": "noun", "article": "der", "plural": "Ausweise" },
+    { "de": "Sachbearbeiter", "en": "case worker, clerk", "pos": "noun", "article": "der", "plural": "Sachbearbeiter" },
+    { "de": "Öffnungszeiten", "en": "opening hours", "pos": "noun", "article": "die", "plural": "-", "note": "plural only" },
+    { "de": "Gebühr", "en": "fee", "pos": "noun", "article": "die", "plural": "Gebühren" },
+    { "de": "Unterschrift", "en": "signature", "pos": "noun", "article": "die", "plural": "Unterschriften" },
+    { "de": "Steuer", "en": "tax", "pos": "noun", "article": "die", "plural": "Steuern" },
+    { "de": "beantragen", "en": "to apply for", "pos": "verb", "aux": "haben", "p2": "beantragt" },
+    { "de": "ausfüllen", "en": "to fill in", "pos": "verb", "aux": "haben", "sep": "aus", "p2": "ausgefüllt" },
+    { "de": "abgeben", "en": "to hand in", "pos": "verb", "aux": "haben", "sep": "ab", "p2": "abgegeben" },
+    { "de": "verlängern", "en": "to extend", "pos": "verb", "aux": "haben", "p2": "verlängert" },
+    { "de": "unterschreiben", "en": "to sign", "pos": "verb", "aux": "haben", "p2": "unterschrieben" },
+    { "de": "zuständig", "en": "responsible, in charge", "pos": "adj" },
+    { "de": "gültig", "en": "valid", "pos": "adj" }
+  ],
+  "mindmap": {
+    "label": "Genitiv",
+    "children": [
+      {
+        "label": "Articles",
+        "children": [
+          { "label": "des", "note": "m & n, noun + -s / -es" },
+          { "label": "der", "note": "f & plural" }
+        ]
+      },
+      {
+        "label": "Use",
+        "children": [
+          { "label": "possession", "note": "das Büro des Chefs" },
+          { "label": "names: Annas Antrag" },
+          { "label": "official language" }
+        ]
+      },
+      {
+        "label": "Prepositions",
+        "children": [
+          { "label": "wegen", "note": "because of" },
+          { "label": "trotz", "note": "despite" },
+          { "label": "während", "note": "during" }
+        ]
+      },
+      {
+        "label": "Indefinite",
+        "children": [ { "label": "eines / einer", "note": "m & n / f" } ]
+      },
+      {
+        "label": "Spoken vs. written",
+        "children": [ { "label": "wegen dem → wegen des", "note": "writing and Amt" } ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "mc", "q": "Das ist das Büro ___ Chefs.", "options": ["des", "dem", "den"], "answer": 0, "explain": "Possession → Genitiv. Chef is masculine: des Chefs." },
+    { "type": "mc", "q": "Die Adresse ___ Firma steht im Formular.", "options": ["des", "der", "die"], "answer": 1, "explain": "Firma is feminine; the Genitiv feminine article is der." },
+    { "type": "mc", "q": "Which sentence is correct in written German?", "options": ["Wegen dem Wetter kam er zu spät.", "Wegen des Wetters kam er zu spät.", "Wegen das Wetter kam er zu spät."], "answer": 1, "explain": "wegen takes the Genitiv: des Wetters. Wegen dem is common in speech, but not correct in writing." },
+    { "type": "gap", "q": "Wegen ___ Streiks kam der Zug zu spät.", "answer": ["des"], "explain": "wegen + Genitiv; Streik is masculine → des Streiks." },
+    { "type": "gap", "q": "Trotz ___ Regens gingen wir zum Amt.", "answer": ["des"], "explain": "trotz + Genitiv; Regen is masculine → des Regens." },
+    { "type": "gap", "q": "Während ___ Öffnungszeiten kann man ohne Termin kommen.", "answer": ["der"], "explain": "Öffnungszeiten is plural → Genitiv plural: der." },
+    { "type": "gap", "q": "Das ist der Ausweis mein___ Frau.", "answer": ["er"], "explain": "Frau is feminine, so the Genitiv possessive is meiner." },
+    { "type": "article", "word": "Formular", "answer": "das", "explain": "Formular is neuter: das Formular." },
+    { "type": "article", "word": "Anmeldung", "answer": "die", "explain": "Nouns ending in -ung are always feminine." },
+    { "type": "order", "words": ["Der", "Sachbearbeiter", "des", "Bürgeramts", "hat", "den", "Antrag", "geprüft"], "answer": "Der Sachbearbeiter des Bürgeramts hat den Antrag geprüft", "explain": "des Bürgeramts is the Genitiv attribute; it follows the noun it describes (Sachbearbeiter)." },
+    { "type": "order", "words": ["Wegen", "der", "hohen", "Gebühr", "habe", "ich", "mich", "beschwert"], "answer": "Wegen der hohen Gebühr habe ich mich beschwert", "explain": "wegen + Genitiv feminine (der hohen Gebühr) fills position 1, so the verb habe follows immediately." },
+    { "type": "match", "pairs": [["die Behörde", "public authority"], ["der Antrag", "application"], ["die Unterschrift", "signature"], ["die Gebühr", "fee"], ["der Aufenthaltstitel", "residence permit"]], "explain": "Key vocabulary for dealing with German offices." },
+    { "type": "translate", "en": "Because of my work, I have no time.", "answer": ["Wegen meiner Arbeit habe ich keine Zeit", "Ich habe wegen meiner Arbeit keine Zeit"], "explain": "wegen + Genitiv. Arbeit is feminine → meiner Arbeit." },
+    { "type": "translate", "en": "That is the passport of my colleague.", "answer": ["Das ist der Pass meines Kollegen", "Das ist der Reisepass meines Kollegen"], "explain": "Genitiv masculine: meines. Kollege is an n-Deklination noun, so the Genitiv is Kollegen (not Kollege-s)." }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Guten Tag, ich möchte die Verlängerung meines Aufenthaltstitels beantragen.", "en": "Hello, I would like to apply for an extension of my residence permit." },
+      { "de": "Ich habe alle Unterlagen dabei, auch die Bescheinigung meines Arbeitgebers.", "en": "I have all the documents with me, including my employer's certificate." },
+      { "de": "Wegen eines Krankheitsfalls konnte ich den Termin nicht wahrnehmen.", "en": "Because of a case of illness I couldn't keep the appointment." },
+      { "de": "Wann sind die Öffnungszeiten des Bürgeramts?", "en": "When are the opening hours of the citizens' office?" },
+      { "de": "Trotz des langen Wartens bin ich froh, dass alles geklappt hat.", "en": "Despite the long wait I'm glad that everything worked out." }
+    ],
+    "prompts": [
+      { "q": "Guten Tag, wie kann ich Ihnen helfen?", "qEn": "Hello, how can I help you? (clerk at the office)", "model": "Guten Tag, ich möchte meinen Aufenthaltstitel verlängern. Ich habe das Formular schon ausgefüllt und bringe auch die Bescheinigung meines Arbeitgebers mit. Ist Ihr Amt für die Verlängerung zuständig?", "hint": "Ich möchte … beantragen / verlängern. Hier ist die Bescheinigung meines Arbeitgebers." },
+      { "q": "Warum haben Sie die Frist nicht eingehalten?", "qEn": "Why did you not keep the deadline?", "model": "Wegen einer Dienstreise war ich im Ausland und konnte das Formular nicht rechtzeitig abgeben. Trotz meiner Bemühungen habe ich keinen früheren Termin bekommen. Es tut mir leid.", "hint": "Wegen meiner Dienstreise … / Trotz meiner Bemühungen …" },
+      { "q": "Was gefällt Ihnen an der deutschen Bürokratie nicht?", "qEn": "What do you dislike about German bureaucracy?", "model": "Wegen der vielen Formulare dauert alles oft sehr lange. Während der Öffnungszeiten muss man oft warten. Andererseits sind die Sachbearbeiter meistens freundlich und erklären den Ablauf des Verfahrens genau.", "hint": "Wegen der vielen …, Während der …" }
+    ]
+  }
+}

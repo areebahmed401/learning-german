@@ -1,0 +1,166 @@
+{
+  "id": "a1-07-akkusativ",
+  "level": "A1",
+  "title": "Akkusativ",
+  "concept": "The accusative case (den, einen)",
+  "wordlist": "Essen & Trinken",
+  "minutes": 25,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+A1+Akkusativ+den+einen",
+  "learn": [
+    {
+      "heading": "Subject and object",
+      "text": "In every sentence, the **subject** does the action (nominative) and the **direct object** receives it (accusative). Ask **Wen oder was?** to find the object: *Ich kaufe einen Kuchen.* Wen oder was kaufe ich? Einen Kuchen. German marks the object with a case change, but only the **masculine** article changes. Feminine, neuter and plural stay the same.",
+      "table": {
+        "head": ["", "masculine", "feminine", "neuter", "plural"],
+        "rows": [
+          ["Nominativ (the)", "der Kaffee", "die Milch", "das Brot", "die Brötchen"],
+          ["Akkusativ (the)", "den Kaffee", "die Milch", "das Brot", "die Brötchen"],
+          ["Nominativ (a)", "ein Kaffee", "eine Milch", "ein Brot", "– Brötchen"],
+          ["Akkusativ (a)", "einen Kaffee", "eine Milch", "ein Brot", "– Brötchen"]
+        ]
+      },
+      "examples": [
+        { "de": "Der Kaffee ist heiß. (subject)", "en": "The coffee is hot." },
+        { "de": "Ich trinke den Kaffee. (object)", "en": "I drink the coffee." },
+        { "de": "Er isst einen Apfel.", "en": "He eats an apple." }
+      ]
+    },
+    {
+      "heading": "Verbs that take an accusative object",
+      "text": "Many everyday verbs need an accusative object: **haben, brauchen, kaufen, essen, trinken, nehmen, suchen, möchten, sehen, lesen**. The verb **sein** does not: after *sein* both parts are nominative (*Das ist ein Kaffee.*). For polite orders, use **Ich möchte …** or **Ich hätte gern …** with the accusative: *Ich möchte einen Kaffee.*",
+      "table": {
+        "head": ["verb", "example"],
+        "rows": [
+          ["haben", "Ich habe einen Bruder."],
+          ["kaufen", "Ich kaufe einen Salat und ein Brot."],
+          ["nehmen", "Ich nehme den Bus."],
+          ["möchten", "Ich möchte eine Suppe."]
+        ]
+      },
+      "examples": [
+        { "de": "Ich brauche einen Löffel und eine Gabel.", "en": "I need a spoon and a fork." },
+        { "de": "Wir suchen einen Tisch für zwei Personen.", "en": "We are looking for a table for two." },
+        { "de": "Sie hat einen Bruder und eine Schwester.", "en": "She has a brother and a sister." }
+      ]
+    },
+    {
+      "heading": "Ordering at the bakery and in a café",
+      "text": "The accusative is what you use all day at the Bäcker, in the Mensa and at the Supermarkt. Most food words you order are objects: *Ich nehme ein Brötchen. Ich möchte einen Kaffee, bitte.* Pronouns change too: **er → ihn** (*Der Kaffee? Ich trinke ihn gern.*), but **sie** and **es** stay the same.",
+      "table": {
+        "head": ["Nominativ", "Akkusativ"],
+        "rows": [
+          ["ich · du", "mich · dich"],
+          ["er", "ihn"],
+          ["sie · es", "sie · es"],
+          ["wir · ihr", "uns · euch"]
+        ]
+      },
+      "examples": [
+        { "de": "Guten Tag, ich hätte gern ein Brötchen und einen Kaffee.", "en": "Hello, I would like a roll and a coffee." },
+        { "de": "Ich nehme das Vollkornbrot, bitte.", "en": "I'll take the wholegrain bread, please." },
+        { "de": "Der Käse? Ich esse ihn jeden Tag.", "en": "The cheese? I eat it every day." }
+      ]
+    }
+  ],
+  "tip": "Only masculine nouns change. So when you learn a masculine noun, learn it as \"der / den / ein / einen\". Practise a mini-phrase out loud: \"Ich möchte einen Kaffee.\" Then swap the noun.",
+  "words": [
+    { "de": "Essen", "en": "food; meal", "pos": "noun", "article": "das", "plural": "-" },
+    { "de": "Frühstück", "en": "breakfast", "pos": "noun", "article": "das", "plural": "Frühstücke" },
+    { "de": "Brot", "en": "bread", "pos": "noun", "article": "das", "plural": "Brote" },
+    { "de": "Brötchen", "en": "bread roll", "pos": "noun", "article": "das", "plural": "Brötchen" },
+    { "de": "Butter", "en": "butter", "pos": "noun", "article": "die", "plural": "-" },
+    { "de": "Käse", "en": "cheese", "pos": "noun", "article": "der", "plural": "-" },
+    { "de": "Wurst", "en": "sausage; cold cuts", "pos": "noun", "article": "die", "plural": "Würste" },
+    { "de": "Ei", "en": "egg", "pos": "noun", "article": "das", "plural": "Eier" },
+    { "de": "Apfel", "en": "apple", "pos": "noun", "article": "der", "plural": "Äpfel" },
+    { "de": "Banane", "en": "banana", "pos": "noun", "article": "die", "plural": "Bananen" },
+    { "de": "Fleisch", "en": "meat", "pos": "noun", "article": "das", "plural": "-" },
+    { "de": "Fisch", "en": "fish", "pos": "noun", "article": "der", "plural": "Fische" },
+    { "de": "Reis", "en": "rice", "pos": "noun", "article": "der", "plural": "-" },
+    { "de": "Gemüse", "en": "vegetables", "pos": "noun", "article": "das", "plural": "-" },
+    { "de": "Suppe", "en": "soup", "pos": "noun", "article": "die", "plural": "Suppen" },
+    { "de": "Kuchen", "en": "cake", "pos": "noun", "article": "der", "plural": "Kuchen" },
+    { "de": "Wasser", "en": "water", "pos": "noun", "article": "das", "plural": "-" },
+    { "de": "Milch", "en": "milk", "pos": "noun", "article": "die", "plural": "-" },
+    { "de": "Kaffee", "en": "coffee", "pos": "noun", "article": "der", "plural": "-" },
+    { "de": "Tee", "en": "tea", "pos": "noun", "article": "der", "plural": "-" },
+    { "de": "Saft", "en": "juice", "pos": "noun", "article": "der", "plural": "Säfte" },
+    { "de": "essen", "en": "to eat", "pos": "verb", "aux": "haben", "p2": "gegessen" },
+    { "de": "trinken", "en": "to drink", "pos": "verb", "aux": "haben", "p2": "getrunken" },
+    { "de": "nehmen", "en": "to take", "pos": "verb", "aux": "haben", "p2": "genommen" }
+  ],
+  "mindmap": {
+    "label": "Akkusativ",
+    "children": [
+      {
+        "label": "Object: Wen oder was?",
+        "children": [
+          { "label": "Ich kaufe einen Kuchen." },
+          { "label": "Subject = Nominativ", "note": "Der Kuchen ist gut." }
+        ]
+      },
+      {
+        "label": "Only masculine changes",
+        "children": [
+          { "label": "der → den" },
+          { "label": "ein → einen" },
+          { "label": "die · das · Plural", "note": "no change" }
+        ]
+      },
+      {
+        "label": "Verbs + Akkusativ",
+        "children": [
+          { "label": "haben · brauchen · kaufen" },
+          { "label": "essen · trinken · nehmen" },
+          { "label": "suchen · möchten · sehen" }
+        ]
+      },
+      {
+        "label": "Pronouns",
+        "children": [
+          { "label": "er → ihn", "note": "sie, es stay" },
+          { "label": "ich → mich · du → dich" },
+          { "label": "wir → uns · ihr → euch" }
+        ]
+      },
+      {
+        "label": "Ordering",
+        "children": [
+          { "label": "Ich möchte einen Kaffee." },
+          { "label": "Ich hätte gern ein Brötchen." },
+          { "label": "Ich nehme den Kuchen." }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "gap", "q": "Ich trinke ___ Kaffee. (der)", "answer": ["den"], "explain": "Kaffee is masculine and the object, so der → den." },
+    { "type": "gap", "q": "Ich möchte ___ Tee, bitte. (ein)", "answer": ["einen"], "explain": "Tee is masculine; möchten takes an accusative object: einen Tee." },
+    { "type": "gap", "q": "Wir kaufen ___ Brot. (das)", "answer": ["das"], "explain": "Neuter does not change in the accusative: das Brot." },
+    { "type": "gap", "q": "Sie isst ___ Banane. (eine)", "answer": ["eine"], "explain": "Feminine does not change: eine Banane." },
+    { "type": "gap", "q": "Der Käse ist gut. Ich esse ___ jeden Tag.", "answer": ["ihn"], "explain": "Pronoun for the masculine object: er → ihn." },
+    { "type": "mc", "q": "Which sentence is correct?", "options": ["Ich habe ein Bruder.", "Ich habe einen Bruder.", "Ich habe eine Bruder."], "answer": 1, "explain": "Bruder is masculine and the object of haben: einen Bruder." },
+    { "type": "mc", "q": "Which one is the accusative object? \"Der Mann kauft einen Kuchen.\"", "options": ["Der Mann", "einen Kuchen", "kauft"], "answer": 1, "explain": "Wen oder was kauft der Mann? Einen Kuchen. The subject is Der Mann." },
+    { "type": "mc", "q": "Where does the article NOT change in the accusative?", "options": ["der Apfel", "die Suppe", "der Saft"], "answer": 1, "explain": "Only masculine changes. Feminine die Suppe stays die Suppe." },
+    { "type": "article", "word": "Käse", "answer": "der", "explain": "Käse is masculine: der Käse (accusative: den Käse)." },
+    { "type": "article", "word": "Milch", "answer": "die", "explain": "Milch is feminine: die Milch." },
+    { "type": "match", "pairs": [["der Kaffee", "den Kaffee"], ["ein Apfel", "einen Apfel"], ["die Milch", "die Milch"], ["das Brot", "das Brot"], ["er", "ihn"]], "explain": "Only masculine forms change in the accusative." },
+    { "type": "order", "words": ["einen", "Kaffee", "Ich", "möchte"], "answer": "Ich möchte einen Kaffee", "explain": "Subject, verb in position 2, then the accusative object." },
+    { "type": "order", "words": ["nehme", "Ich", "ein Brötchen"], "answer": "Ich nehme ein Brötchen", "explain": "Neuter ein Brötchen stays the same as accusative." },
+    { "type": "translate", "en": "I would like a coffee and a roll, please.", "answer": ["Ich möchte einen Kaffee und ein Brötchen, bitte", "Ich hätte gern einen Kaffee und ein Brötchen, bitte", "Ich möchte bitte einen Kaffee und ein Brötchen"], "explain": "Kaffee is masculine → einen; Brötchen is neuter → ein." }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Guten Morgen! Ich hätte gern zwei Brötchen, bitte.", "en": "Good morning! I'd like two rolls, please." },
+      { "de": "Ich nehme einen Kaffee und ein Stück Kuchen.", "en": "I'll have a coffee and a piece of cake." },
+      { "de": "Ich esse jeden Tag ein Ei zum Frühstück.", "en": "I eat an egg for breakfast every day." },
+      { "de": "Haben Sie auch einen Tee?", "en": "Do you also have a tea?" },
+      { "de": "Ich brauche noch Milch und Käse.", "en": "I still need milk and cheese." }
+    ],
+    "prompts": [
+      { "q": "Guten Morgen! Was darf es sein?", "qEn": "Good morning! What would you like? (at the Bäcker)", "model": "Guten Morgen! Ich hätte gern drei Brötchen und ein Brot, bitte.", "hint": "Ich hätte gern … / Ich möchte …" },
+      { "q": "Was möchten Sie trinken?", "qEn": "What would you like to drink? (in a café)", "model": "Ich nehme einen Kaffee mit Milch, bitte.", "hint": "Ich nehme einen … / eine … / ein …" },
+      { "q": "Was isst du zum Frühstück?", "qEn": "What do you eat for breakfast? (in the WG kitchen)", "model": "Ich esse ein Brötchen mit Käse und trinke einen Tee.", "hint": "Ich esse … und trinke …" }
+    ]
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "id": "b1-06-um-zu-damit",
+  "level": "B1",
+  "title": "um … zu / damit",
+  "concept": "Expressing purpose",
+  "wordlist": "Lernen & Studium",
+  "minutes": 30,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+B1+um+zu+damit+purpose",
+  "learn": [
+    {
+      "heading": "um … zu: the same subject",
+      "text": "To say **why** or **for what purpose** you do something, use **um … zu + Infinitiv**. It answers the question **Wozu? / Wofür?** and is used when the **subject of both clauses is the same**. The *zu*-infinitive is at the end of the clause. For separable verbs, zu sits inside the verb: *um aufzustehen*.",
+      "examples": [
+        { "de": "Ich lerne jeden Tag Vokabeln, um besser Deutsch zu sprechen.", "en": "I learn vocabulary every day in order to speak German better." },
+        { "de": "Sie arbeitet nebenbei, um ihr Studium zu finanzieren.", "en": "She works on the side in order to pay for her studies." },
+        { "de": "Ich gehe in die Bibliothek, um für die Prüfung zu lernen.", "en": "I go to the library to study for the exam." }
+      ]
+    },
+    {
+      "heading": "damit: different subjects",
+      "text": "**Damit** introduces a subordinate clause with its **own subject**, so the verb goes to the end. Use it when the subject changes between the two clauses. If the subject is the same you may also use damit, but **um … zu** sounds more natural.",
+      "table": {
+        "head": ["", "um … zu", "damit"],
+        "rows": [
+          ["Subject", "same in both clauses", "usually different"],
+          ["Verb form", "zu + Infinitiv", "conjugated verb at the end"],
+          ["Example", "Ich übe, um die Prüfung zu bestehen.", "Er erklärt es langsam, damit wir es verstehen."]
+        ]
+      },
+      "examples": [
+        { "de": "Der Dozent spricht langsam, damit alle ihn verstehen.", "en": "The lecturer speaks slowly so that everyone understands him." },
+        { "de": "Ich schreibe die Wörter auf, damit ich sie nicht vergesse.", "en": "I write the words down so that I don't forget them." }
+      ]
+    },
+    {
+      "heading": "ohne … zu and (an)statt … zu",
+      "text": "Two more useful patterns work in the same way. **Ohne … zu** means *without doing something*, and **(an)statt … zu** means *instead of doing something*. If the subject differs, use **ohne dass** or **(an)statt dass**.",
+      "examples": [
+        { "de": "Er ging, ohne sich zu verabschieden.", "en": "He left without saying goodbye." },
+        { "de": "Statt zu lernen, schaute er Serien.", "en": "Instead of studying, he watched series." },
+        { "de": "Sie bestand die Prüfung, ohne viel gelernt zu haben.", "en": "She passed the exam without having studied much." }
+      ]
+    }
+  ],
+  "tip": "Ask 'Wozu?' (what for?). If you can answer with the same person doing both things, use um … zu. If another person is involved, use damit.",
+  "words": [
+    { "de": "Vorlesung", "en": "lecture", "pos": "noun", "article": "die", "plural": "Vorlesungen" },
+    { "de": "Seminar", "en": "seminar", "pos": "noun", "article": "das", "plural": "Seminare" },
+    { "de": "Prüfung", "en": "exam", "pos": "noun", "article": "die", "plural": "Prüfungen" },
+    { "de": "Note", "en": "grade", "pos": "noun", "article": "die", "plural": "Noten" },
+    { "de": "Hausarbeit", "en": "term paper", "pos": "noun", "article": "die", "plural": "Hausarbeiten" },
+    { "de": "Stundenplan", "en": "timetable", "pos": "noun", "article": "der", "plural": "Stundenpläne" },
+    { "de": "Stipendium", "en": "scholarship", "pos": "noun", "article": "das", "plural": "Stipendien" },
+    { "de": "Bibliothek", "en": "library", "pos": "noun", "article": "die", "plural": "Bibliotheken" },
+    { "de": "Kurs", "en": "course", "pos": "noun", "article": "der", "plural": "Kurse" },
+    { "de": "Fortbildung", "en": "further training", "pos": "noun", "article": "die", "plural": "Fortbildungen" },
+    { "de": "Wortschatz", "en": "vocabulary", "pos": "noun", "article": "der", "plural": "-" },
+    { "de": "Aussprache", "en": "pronunciation", "pos": "noun", "article": "die", "plural": "-" },
+    { "de": "Fehler", "en": "mistake", "pos": "noun", "article": "der", "plural": "Fehler" },
+    { "de": "lernen", "en": "to learn", "pos": "verb", "aux": "haben", "p2": "gelernt" },
+    { "de": "wiederholen", "en": "to repeat, to review", "pos": "verb", "aux": "haben", "p2": "wiederholt" },
+    { "de": "üben", "en": "to practise", "pos": "verb", "aux": "haben", "p2": "geübt" },
+    { "de": "sich konzentrieren", "en": "to concentrate", "pos": "verb", "aux": "haben", "p2": "konzentriert" },
+    { "de": "anmelden", "en": "to register, to sign up", "pos": "verb", "aux": "haben", "sep": "an", "p2": "angemeldet" },
+    { "de": "bestehen", "en": "to pass (an exam)", "pos": "verb", "aux": "haben", "p2": "bestanden" },
+    { "de": "durchfallen", "en": "to fail (an exam)", "pos": "verb", "aux": "sein", "sep": "durch", "p2": "durchgefallen" },
+    { "de": "fleißig", "en": "hard-working", "pos": "adj" },
+    { "de": "schwierig", "en": "difficult", "pos": "adj" }
+  ],
+  "mindmap": {
+    "label": "Purpose",
+    "children": [
+      {
+        "label": "um … zu",
+        "note": "same subject",
+        "children": [
+          { "label": "zu + Infinitiv at the end" },
+          { "label": "um aufzustehen", "note": "separable: one word" }
+        ]
+      },
+      {
+        "label": "damit",
+        "note": "different subject",
+        "children": [
+          { "label": "conjugated verb at the end" },
+          { "label": "Er erklärt es, damit wir es verstehen." }
+        ]
+      },
+      {
+        "label": "Question",
+        "children": [ { "label": "Wozu? Wofür?" } ]
+      },
+      {
+        "label": "ohne … zu",
+        "children": [ { "label": "without doing", "note": "ohne dass for new subject" } ]
+      },
+      {
+        "label": "statt … zu",
+        "children": [ { "label": "instead of doing" } ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "mc", "q": "Ich lerne jeden Tag Vokabeln, ___ besser Deutsch zu sprechen.", "options": ["um", "damit", "dass"], "answer": 0, "explain": "Same subject (I learn / I speak) and a zu-infinitive at the end → um … zu." },
+    { "type": "mc", "q": "Der Lehrer erklärt es noch einmal, ___ wir es verstehen.", "options": ["um", "damit", "zu"], "answer": 1, "explain": "The subject changes (der Lehrer / wir), so damit with a conjugated verb at the end." },
+    { "type": "mc", "q": "Which sentence is correct?", "options": ["Ich übe jeden Tag, um die Prüfung zu bestehen.", "Ich übe jeden Tag, damit die Prüfung zu bestehen.", "Ich übe jeden Tag, um ich die Prüfung bestehe."], "answer": 0, "explain": "um goes with zu + Infinitiv and no subject. damit would need a conjugated verb and its own subject." },
+    { "type": "gap", "q": "Ich gehe in die Bibliothek, ___ für die Prüfung zu lernen.", "answer": ["um"], "explain": "Same subject, purpose → um … zu." },
+    { "type": "gap", "q": "Ich schreibe die Wörter auf, ___ ich sie nicht vergesse.", "answer": ["damit"], "explain": "A conjugated verb (vergesse) with its own subject ich → damit." },
+    { "type": "gap", "q": "Sie arbeitet nebenbei, ___ ihr Studium zu finanzieren.", "answer": ["um"], "explain": "A zu-infinitive (zu finanzieren) follows, so um is needed." },
+    { "type": "article", "word": "Seminar", "answer": "das", "explain": "Nouns ending in -ar are often neuter: das Seminar." },
+    { "type": "article", "word": "Note", "answer": "die", "explain": "Most nouns ending in -e are feminine: die Note." },
+    { "type": "order", "words": ["Ich", "benutze", "eine", "App,", "um", "Vokabeln", "zu", "wiederholen"], "answer": "Ich benutze eine App, um Vokabeln zu wiederholen", "explain": "In the um-clause, zu + infinitive stands at the end." },
+    { "type": "order", "words": ["Der", "Dozent", "spricht", "langsam,", "damit", "alle", "ihn", "verstehen"], "answer": "Der Dozent spricht langsam, damit alle ihn verstehen", "explain": "damit sends the conjugated verb to the end of its clause." },
+    { "type": "match", "pairs": [["die Vorlesung", "lecture"], ["die Prüfung", "exam"], ["das Stipendium", "scholarship"], ["die Hausarbeit", "term paper"], ["der Stundenplan", "timetable"]], "explain": "Vocabulary for studying at a German university." },
+    { "type": "translate", "en": "I'm learning German in order to work in Germany.", "answer": ["Ich lerne Deutsch, um in Deutschland zu arbeiten"], "explain": "Same subject → um … zu with zu arbeiten at the end." },
+    { "type": "translate", "en": "She explains it slowly so that I understand it.", "answer": ["Sie erklärt es langsam, damit ich es verstehe", "Sie erklärt es mir langsam, damit ich es verstehe", "Sie erklärt es langsam, damit ich es verstehen kann"], "explain": "Different subjects (she / I) → damit, conjugated verb at the end." },
+    { "type": "translate", "en": "He left without saying goodbye.", "answer": ["Er ging, ohne sich zu verabschieden", "Er ging weg, ohne sich zu verabschieden", "Er ist gegangen, ohne sich zu verabschieden"], "explain": "ohne … zu + infinitive; the reflexive pronoun sich stays before zu." }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Ich lerne Deutsch, um in Deutschland zu arbeiten.", "en": "I learn German in order to work in Germany." },
+      { "de": "Ich höre jeden Tag einen Podcast, um meine Aussprache zu verbessern.", "en": "I listen to a podcast every day to improve my pronunciation." },
+      { "de": "Ich schreibe neue Wörter auf, damit ich sie nicht vergesse.", "en": "I write down new words so that I don't forget them." },
+      { "de": "Mein Kollege spricht langsam, damit ich ihn verstehe.", "en": "My co-worker speaks slowly so that I understand him." },
+      { "de": "Statt zu übersetzen, versuche ich direkt auf Deutsch zu denken.", "en": "Instead of translating, I try to think directly in German." }
+    ],
+    "prompts": [
+      { "q": "Wozu lernen Sie Deutsch?", "qEn": "What do you learn German for?", "model": "Ich lerne Deutsch, um in Deutschland als Ingenieur zu arbeiten. Außerdem möchte ich mit meinen Kollegen sprechen, damit ich mich im Team gut integriere.", "hint": "Ich lerne Deutsch, um … zu … / damit …" },
+      { "q": "Wie bereiten Sie sich auf eine Prüfung vor?", "qEn": "How do you prepare for an exam?", "model": "Ich mache einen Lernplan, um genug Zeit zu haben. Dann gehe ich in die Bibliothek, um mich zu konzentrieren. Manchmal frage ich einen Freund, damit er mich abfragt.", "hint": "Ich gehe …, um … zu … Ich bitte …, damit …" },
+      { "q": "Was machen Sie, damit Sie im Alltag mehr Deutsch sprechen?", "qEn": "What do you do so that you speak more German in everyday life?", "model": "Ich spreche mit den Verkäufern im Supermarkt Deutsch, anstatt Englisch zu benutzen. Außerdem gehe ich zu einem Sprachcafé, um neue Leute kennenzulernen.", "hint": "Ich …, um … zu … / Ich …, damit …" }
+    ]
+  }
+}

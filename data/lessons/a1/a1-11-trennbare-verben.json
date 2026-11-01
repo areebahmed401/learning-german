@@ -1,0 +1,161 @@
+{
+  "id": "a1-11-trennbare-verben",
+  "level": "A1",
+  "title": "Trennbare Verben",
+  "concept": "Separable verbs (aufstehen, einkaufen)",
+  "wordlist": "Tagesablauf",
+  "minutes": 25,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+A1+trennbare+Verben+separable+verbs",
+  "learn": [
+    {
+      "heading": "The prefix jumps to the end",
+      "text": "Many German verbs have a **prefix** that separates in a main clause. The verb part (**steht**) is conjugated and goes to position 2; the **prefix** (**auf**) goes to the **very end**. In the dictionary the verb is written together: *aufstehen*. The prefix always carries the stress: **AUF**stehen.",
+      "table": {
+        "head": ["infinitive", "sentence"],
+        "rows": [
+          ["aufstehen", "Ich stehe um sieben Uhr auf."],
+          ["einkaufen", "Wir kaufen am Samstag ein."],
+          ["anrufen", "Er ruft den Arzt an."],
+          ["fernsehen", "Sie sieht abends fern."]
+        ]
+      },
+      "examples": [
+        { "de": "Ich stehe jeden Tag um sechs Uhr auf.", "en": "I get up at six o'clock every day." },
+        { "de": "Meine Mitbewohnerin kauft samstags im Supermarkt ein.", "en": "My flatmate shops at the supermarket on Saturdays." },
+        { "de": "Der Zug fährt in zehn Minuten ab.", "en": "The train leaves in ten minutes." }
+      ]
+    },
+    {
+      "heading": "Common separable prefixes",
+      "text": "Learn these prefixes: **ab-, an-, auf-, aus-, ein-, mit-, vor-, zu-, zurück-, fern-**. Typical verbs: *anfangen, aufräumen, ausgehen, einsteigen, mitkommen, zurückkommen*. **Inseparable** prefixes (**be-, ge-, ver-, er-, ent-, zer-**) never separate: *Ich verstehe dich. Ich bekomme einen Brief.* In questions the prefix still goes to the end: *Wann stehst du auf?*",
+      "table": {
+        "head": ["separable (prefix at the end)", "inseparable (stays together)"],
+        "rows": [
+          ["Ich komme um acht an.", "Ich bekomme einen Brief."],
+          ["Der Kurs fängt um neun an.", "Ich verstehe das nicht."],
+          ["Wir steigen in Köln aus.", "Er erklärt die Regeln."]
+        ]
+      },
+      "examples": [
+        { "de": "Wann fängt der Deutschkurs an?", "en": "When does the German course start?" },
+        { "de": "Kommst du mit?", "en": "Are you coming along?" },
+        { "de": "Wir steigen am Hauptbahnhof aus.", "en": "We get off at the main station." }
+      ]
+    },
+    {
+      "heading": "With modal verbs: no separation",
+      "text": "With a modal verb the separable verb stays **together in the infinitive** at the end: *Ich muss um sechs aufstehen.* Be careful with the vowel change of verbs like *fahren* and *sehen*: **fährt ab**, **sieht fern**. In subordinate clauses (later) the verb also stays together, but at A1 you can focus on main clauses.",
+      "table": {
+        "head": ["", "example"],
+        "rows": [
+          ["Present", "Ich stehe früh auf."],
+          ["With modal verb", "Ich muss früh aufstehen."],
+          ["Question", "Stehst du früh auf?"],
+          ["Question word", "Wann stehst du auf?"]
+        ]
+      },
+      "examples": [
+        { "de": "Ich möchte heute früh ins Bett gehen und morgen früh aufstehen.", "en": "I want to go to bed early today and get up early tomorrow." },
+        { "de": "Kannst du bitte den Arzt anrufen?", "en": "Can you call the doctor, please?" }
+      ]
+    }
+  ],
+  "tip": "When you learn a separable verb, write the whole sentence, not the infinitive: \"Ich stehe um sieben auf.\" The sentence shows you where the prefix goes, and you practise the word order at the same time.",
+  "words": [
+    { "de": "Tagesablauf", "en": "daily routine", "pos": "noun", "article": "der", "plural": "Tagesabläufe" },
+    { "de": "Morgen", "en": "morning", "pos": "noun", "article": "der", "plural": "Morgen" },
+    { "de": "Mittag", "en": "noon; midday", "pos": "noun", "article": "der", "plural": "Mittage" },
+    { "de": "Nachmittag", "en": "afternoon", "pos": "noun", "article": "der", "plural": "Nachmittage" },
+    { "de": "Abend", "en": "evening", "pos": "noun", "article": "der", "plural": "Abende" },
+    { "de": "Nacht", "en": "night", "pos": "noun", "article": "die", "plural": "Nächte" },
+    { "de": "Mittagessen", "en": "lunch", "pos": "noun", "article": "das", "plural": "-" },
+    { "de": "Abendessen", "en": "dinner", "pos": "noun", "article": "das", "plural": "-" },
+    { "de": "aufstehen", "en": "to get up", "pos": "verb", "aux": "sein", "sep": "auf", "p2": "aufgestanden" },
+    { "de": "frühstücken", "en": "to have breakfast", "pos": "verb", "aux": "haben", "p2": "gefrühstückt" },
+    { "de": "duschen", "en": "to shower", "pos": "verb", "aux": "haben", "p2": "geduscht" },
+    { "de": "anfangen", "en": "to begin", "pos": "verb", "aux": "haben", "sep": "an", "p2": "angefangen" },
+    { "de": "ankommen", "en": "to arrive", "pos": "verb", "aux": "sein", "sep": "an", "p2": "angekommen" },
+    { "de": "abfahren", "en": "to depart", "pos": "verb", "aux": "sein", "sep": "ab", "p2": "abgefahren" },
+    { "de": "einsteigen", "en": "to get on; to board", "pos": "verb", "aux": "sein", "sep": "ein", "p2": "eingestiegen" },
+    { "de": "aussteigen", "en": "to get off", "pos": "verb", "aux": "sein", "sep": "aus", "p2": "ausgestiegen" },
+    { "de": "einkaufen", "en": "to shop", "pos": "verb", "aux": "haben", "sep": "ein", "p2": "eingekauft" },
+    { "de": "aufräumen", "en": "to tidy up", "pos": "verb", "aux": "haben", "sep": "auf", "p2": "aufgeräumt" },
+    { "de": "anrufen", "en": "to call (phone)", "pos": "verb", "aux": "haben", "sep": "an", "p2": "angerufen" },
+    { "de": "fernsehen", "en": "to watch TV", "pos": "verb", "aux": "haben", "sep": "fern", "p2": "ferngesehen" },
+    { "de": "mitkommen", "en": "to come along", "pos": "verb", "aux": "sein", "sep": "mit", "p2": "mitgekommen" },
+    { "de": "zurückkommen", "en": "to come back", "pos": "verb", "aux": "sein", "sep": "zurück", "p2": "zurückgekommen" },
+    { "de": "früh", "en": "early", "pos": "adv" },
+    { "de": "spät", "en": "late", "pos": "adv" },
+    { "de": "dann", "en": "then", "pos": "adv" }
+  ],
+  "mindmap": {
+    "label": "Trennbare Verben",
+    "children": [
+      {
+        "label": "Rule",
+        "children": [
+          { "label": "verb = position 2", "note": "steht" },
+          { "label": "prefix = end", "note": "auf" },
+          { "label": "Ich stehe früh auf." }
+        ]
+      },
+      {
+        "label": "Prefixes",
+        "children": [
+          { "label": "ab · an · auf · aus", "note": "abfahren, ankommen" },
+          { "label": "ein · mit · zu · vor", "note": "einkaufen, mitkommen" },
+          { "label": "zurück · fern", "note": "fernsehen" }
+        ]
+      },
+      {
+        "label": "Not separable",
+        "children": [
+          { "label": "be- ge- ver- er- ent-", "note": "bekommen, verstehen" }
+        ]
+      },
+      {
+        "label": "With modal verbs",
+        "children": [
+          { "label": "stays together", "note": "Ich muss aufstehen." }
+        ]
+      },
+      {
+        "label": "Questions",
+        "children": [
+          { "label": "Wann stehst du auf?" },
+          { "label": "Kommst du mit?" }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "gap", "q": "Ich stehe um sieben Uhr ___. (aufstehen)", "answer": ["auf"], "explain": "The prefix auf goes to the end of the main clause." },
+    { "type": "gap", "q": "Wir kaufen am Samstag ___. (einkaufen)", "answer": ["ein"], "explain": "einkaufen separates: kaufen … ein." },
+    { "type": "gap", "q": "Der Zug ___ um acht Uhr ab. (abfahren)", "answer": ["fährt"], "explain": "fahren changes a → ä with er/sie/es: fährt … ab." },
+    { "type": "gap", "q": "Kommst du ___? (mitkommen)", "answer": ["mit"], "explain": "In questions the prefix also goes to the end." },
+    { "type": "gap", "q": "Ich muss früh ___. (aufstehen)", "answer": ["aufstehen"], "explain": "With a modal verb the separable verb stays together in the infinitive." },
+    { "type": "mc", "q": "Which sentence is correct?", "options": ["Ich aufstehe um sechs Uhr.", "Ich stehe um sechs Uhr auf.", "Ich stehe auf um sechs Uhr."], "answer": 1, "explain": "Conjugated verb in position 2, prefix at the very end." },
+    { "type": "mc", "q": "Which verb is NOT separable?", "options": ["anrufen", "verstehen", "einsteigen"], "answer": 1, "explain": "ver- is an inseparable prefix: Ich verstehe das nicht." },
+    { "type": "mc", "q": "\"Der Kurs fängt um neun an.\" Which infinitive is it?", "options": ["fangen an", "anfangen", "angefangen"], "answer": 1, "explain": "The infinitive is anfangen; the prefix an goes to the end." },
+    { "type": "match", "pairs": [["aufstehen", "to get up"], ["einkaufen", "to shop"], ["ankommen", "to arrive"], ["abfahren", "to depart"], ["fernsehen", "to watch TV"]], "explain": "Separable verbs: prefix + verb. The prefix changes the meaning." },
+    { "type": "order", "words": ["stehe", "Ich", "um sieben Uhr", "auf"], "answer": "Ich stehe um sieben Uhr auf", "explain": "Verb in position 2 and the prefix auf at the very end." },
+    { "type": "order", "words": ["Wann", "du", "stehst", "auf"], "answer": "Wann stehst du auf", "explain": "W-question: question word, verb, subject, and then the prefix at the end." },
+    { "type": "order", "words": ["in Köln", "Wir", "aus", "steigen"], "answer": "Wir steigen in Köln aus", "explain": "steigen … aus: the prefix aus goes last." },
+    { "type": "translate", "en": "The train arrives at nine o'clock.", "answer": ["Der Zug kommt um neun Uhr an", "Der Zug kommt um neun an"], "explain": "ankommen is separable: kommt … an." },
+    { "type": "translate", "en": "I have to shop today.", "answer": ["Ich muss heute einkaufen", "Heute muss ich einkaufen"], "explain": "With the modal müssen, einkaufen stays together at the end." }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Ich stehe um halb sieben auf und dusche.", "en": "I get up at half past six and shower." },
+      { "de": "Dann frühstücke ich und fahre zur Arbeit.", "en": "Then I have breakfast and go to work." },
+      { "de": "Der Bus kommt um sieben Uhr zwanzig an.", "en": "The bus arrives at 7:20." },
+      { "de": "Abends kaufe ich ein und koche das Abendessen.", "en": "In the evening I go shopping and cook dinner." },
+      { "de": "Danach sehe ich ein bisschen fern.", "en": "After that I watch a bit of TV." }
+    ],
+    "prompts": [
+      { "q": "Wie sieht dein Tag aus? Wann stehst du auf?", "qEn": "What is your day like? When do you get up? (a coworker at lunch)", "model": "Ich stehe um sechs Uhr auf, dusche und frühstücke. Um acht Uhr fange ich bei der Arbeit an.", "hint": "Ich stehe um … auf. Dann … Um … fange ich an." },
+      { "q": "Wann fängt dein Deutschkurs an?", "qEn": "When is your German course starting? (a neighbour asks)", "model": "Mein Deutschkurs fängt um neun Uhr an und er endet um zwölf Uhr.", "hint": "Der Kurs fängt um … an." },
+      { "q": "Was machst du heute Abend?", "qEn": "What are you doing this evening? (a flatmate in the WG)", "model": "Zuerst kaufe ich ein, dann koche ich. Möchtest du mitkommen?", "hint": "Ich kaufe ein … / Ich rufe … an." }
+    ]
+  }
+}

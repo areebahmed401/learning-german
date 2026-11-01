@@ -1,0 +1,159 @@
+{
+  "id": "b1-01-praeteritum",
+  "level": "B1",
+  "title": "Präteritum",
+  "concept": "Simple past for storytelling and writing",
+  "wordlist": "Geschichten & Medien",
+  "minutes": 30,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+B1+Pr%C3%A4teritum+simple+past",
+  "learn": [
+    {
+      "heading": "Regular verbs: stem + -te",
+      "text": "The **Präteritum** is the simple past. It is used mostly in **writing and storytelling**: news, books, reports, fairy tales. Regular verbs take **-te** after the stem. Verbs whose stem ends in **-t or -d** (arbeiten, warten, antworten) add an extra **-e-**: *arbeitete*. The **ich** and **er/sie/es** forms are always identical.",
+      "table": {
+        "head": ["", "machen", "arbeiten"],
+        "rows": [
+          ["ich", "machte", "arbeitete"],
+          ["du", "machtest", "arbeitetest"],
+          ["er / sie / es", "machte", "arbeitete"],
+          ["wir", "machten", "arbeiteten"],
+          ["ihr", "machtet", "arbeitetet"],
+          ["sie / Sie", "machten", "arbeiteten"]
+        ]
+      },
+      "examples": [
+        { "de": "Letzten Sommer arbeitete ich bei einem Anlagenbauer.", "en": "Last summer I worked at a plant engineering company." },
+        { "de": "Die Journalistin berichtete über den Klimagipfel.", "en": "The journalist reported on the climate summit." },
+        { "de": "Wir warteten eine Stunde auf den Zug.", "en": "We waited an hour for the train." }
+      ]
+    },
+    {
+      "heading": "Irregular verbs: the stem changes",
+      "text": "Irregular (strong) verbs change their stem vowel and take **no -te**: *gehen → ging*. You have to learn them together with the Partizip II. The endings are: ich -, du **-st**, er/sie/es -, wir **-en**, ihr **-t**, sie **-en**: *ich ging, du gingst, wir gingen*.",
+      "table": {
+        "head": ["Infinitiv", "Präteritum (er/sie/es)", "Partizip II"],
+        "rows": [
+          ["gehen", "ging", "gegangen"],
+          ["kommen", "kam", "gekommen"],
+          ["sehen", "sah", "gesehen"],
+          ["lesen", "las", "gelesen"],
+          ["schreiben", "schrieb", "geschrieben"],
+          ["fahren", "fuhr", "gefahren"],
+          ["finden", "fand", "gefunden"],
+          ["bleiben", "blieb", "geblieben"]
+        ]
+      },
+      "examples": [
+        { "de": "Er las jeden Morgen die Zeitung.", "en": "He read the newspaper every morning." },
+        { "de": "Sie fuhren mit dem Zug nach Hamburg.", "en": "They went to Hamburg by train." },
+        { "de": "Ich fand die Serie ziemlich spannend.", "en": "I found the series quite exciting." }
+      ]
+    },
+    {
+      "heading": "sein, haben, modals and when to use it",
+      "text": "In **everyday speech** Germans use the Perfekt for most past events. But for **sein, haben and the modal verbs** the Präteritum is normal even when speaking: *war, hatte, konnte, musste, wollte, durfte, sollte* (modals lose the umlaut). Use the Präteritum for **stories, reports and emails**. Separable verbs split up: *Er rief mich an.*",
+      "examples": [
+        { "de": "Gestern war ich beim Amt, aber ich hatte keinen Termin.", "en": "Yesterday I was at the office, but I had no appointment." },
+        { "de": "Wir mussten zwei Stunden warten.", "en": "We had to wait two hours." },
+        { "de": "Der Chef rief mich am Freitag an.", "en": "The boss called me on Friday." },
+        { "de": "Als Kind wollte ich Ingenieur werden.", "en": "As a child I wanted to become an engineer." }
+      ]
+    }
+  ],
+  "tip": "Learn irregular verbs as a trio: gehen – ging – gegangen. Put all three forms on one Anki card, and read a short news article aloud each day: you will meet the Präteritum there constantly.",
+  "words": [
+    { "de": "Geschichte", "en": "story; history", "pos": "noun", "article": "die", "plural": "Geschichten" },
+    { "de": "Nachricht", "en": "news item; message", "pos": "noun", "article": "die", "plural": "Nachrichten" },
+    { "de": "Zeitung", "en": "newspaper", "pos": "noun", "article": "die", "plural": "Zeitungen" },
+    { "de": "Artikel", "en": "article", "pos": "noun", "article": "der", "plural": "Artikel" },
+    { "de": "Film", "en": "film", "pos": "noun", "article": "der", "plural": "Filme" },
+    { "de": "Serie", "en": "series", "pos": "noun", "article": "die", "plural": "Serien" },
+    { "de": "Sendung", "en": "programme, broadcast", "pos": "noun", "article": "die", "plural": "Sendungen" },
+    { "de": "Podcast", "en": "podcast", "pos": "noun", "article": "der", "plural": "Podcasts" },
+    { "de": "Schlagzeile", "en": "headline", "pos": "noun", "article": "die", "plural": "Schlagzeilen" },
+    { "de": "Märchen", "en": "fairy tale", "pos": "noun", "article": "das", "plural": "Märchen" },
+    { "de": "Ereignis", "en": "event", "pos": "noun", "article": "das", "plural": "Ereignisse" },
+    { "de": "Medien", "en": "media", "pos": "noun", "article": "die", "plural": "-", "note": "plural only" },
+    { "de": "Fernsehen", "en": "television (the medium)", "pos": "noun", "article": "das", "plural": "-" },
+    { "de": "erzählen", "en": "to tell, to narrate", "pos": "verb", "aux": "haben", "p2": "erzählt" },
+    { "de": "berichten", "en": "to report", "pos": "verb", "aux": "haben", "p2": "berichtet" },
+    { "de": "passieren", "en": "to happen", "pos": "verb", "aux": "sein", "p2": "passiert" },
+    { "de": "veröffentlichen", "en": "to publish", "pos": "verb", "aux": "haben", "p2": "veröffentlicht" },
+    { "de": "sich informieren", "en": "to get informed", "pos": "verb", "aux": "haben", "p2": "informiert" },
+    { "de": "lesen", "en": "to read", "pos": "verb", "aux": "haben", "p2": "gelesen" },
+    { "de": "sehen", "en": "to see, to watch", "pos": "verb", "aux": "haben", "p2": "gesehen" },
+    { "de": "spannend", "en": "exciting", "pos": "adj" },
+    { "de": "langweilig", "en": "boring", "pos": "adj" }
+  ],
+  "mindmap": {
+    "label": "Präteritum",
+    "children": [
+      {
+        "label": "Regular verbs",
+        "note": "stem + te",
+        "children": [
+          { "label": "machen → machte", "note": "ich = er/sie/es" },
+          { "label": "stem in -t/-d → -ete", "note": "arbeitete, wartete" }
+        ]
+      },
+      {
+        "label": "Irregular verbs",
+        "note": "new stem, no -te",
+        "children": [
+          { "label": "gehen – ging – gegangen" },
+          { "label": "lesen – las – gelesen" },
+          { "label": "endings: -st, -en, -t" }
+        ]
+      },
+      {
+        "label": "sein / haben / modals",
+        "note": "also used in speech",
+        "children": [
+          { "label": "war, hatte" },
+          { "label": "konnte, musste, wollte", "note": "no umlaut" }
+        ]
+      },
+      {
+        "label": "When to use it",
+        "children": [
+          { "label": "writing", "note": "news, reports, emails" },
+          { "label": "storytelling", "note": "books, fairy tales" },
+          { "label": "speech", "note": "Perfekt instead" }
+        ]
+      },
+      {
+        "label": "Separable verbs",
+        "children": [ { "label": "Er rief mich an.", "note": "prefix goes to the end" } ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "mc", "q": "Gestern ___ ich lange im Büro.", "options": ["arbeitete", "arbeitte", "arbeitet"], "answer": 0, "explain": "The stem arbeit- ends in -t, so an extra -e- is needed before the ending: arbeit-e-te." },
+    { "type": "mc", "q": "Letzten Sommer ___ wir nach Italien. (fahren)", "options": ["fuhren", "fahrten", "gefahren"], "answer": 0, "explain": "fahren is irregular: fuhr. With wir the ending is -en: wir fuhren." },
+    { "type": "gap", "q": "Letztes Jahr ___ wir in Spanien. (sein)", "answer": ["waren"], "explain": "sein → war; with wir the form is waren." },
+    { "type": "gap", "q": "Er ___ jeden Morgen die Zeitung. (lesen)", "answer": ["las"], "explain": "lesen is irregular: er las. The er/sie/es form has no ending." },
+    { "type": "gap", "q": "Ich ___ gestern leider keine Zeit. (haben)", "answer": ["hatte"], "explain": "haben → hatte. This form is also normal in spoken German." },
+    { "type": "gap", "q": "Am Samstag ___ wir arbeiten. (müssen)", "answer": ["mussten"], "explain": "Modal verbs lose the umlaut in the Präteritum: müssen → musste, wir mussten." },
+    { "type": "article", "word": "Schlagzeile", "answer": "die", "explain": "Most nouns ending in -e are feminine: die Schlagzeile." },
+    { "type": "order", "words": ["Der", "Ingenieur", "rief", "den", "Kunden", "an"], "answer": "Der Ingenieur rief den Kunden an", "explain": "The conjugated verb stays in position 2; the separable prefix an goes to the end." },
+    { "type": "order", "words": ["Am", "Montag", "kam", "der", "Techniker", "nicht"], "answer": "Am Montag kam der Techniker nicht", "explain": "After the time phrase Am Montag, the verb kam must be in position 2, before the subject." },
+    { "type": "match", "pairs": [["gehen", "ging"], ["kommen", "kam"], ["schreiben", "schrieb"], ["finden", "fand"], ["bleiben", "blieb"]], "explain": "These are irregular verbs: learn infinitive, Präteritum and Partizip II as one unit." },
+    { "type": "mc", "q": "You tell the baker what you did yesterday. What sounds most natural?", "options": ["Ich kaufte gestern zwei Brötchen.", "Ich habe gestern zwei Brötchen gekauft.", "Ich kaufe gestern zwei Brötchen."], "answer": 1, "explain": "In everyday speech the Perfekt is normal. The Präteritum of normal verbs is for writing and storytelling." },
+    { "type": "translate", "en": "I had no time yesterday.", "answer": ["Ich hatte gestern keine Zeit", "Gestern hatte ich keine Zeit"], "explain": "haben → hatte; keine Zeit because Zeit is feminine and negated with kein-." },
+    { "type": "translate", "en": "She told a funny story.", "answer": ["Sie erzählte eine lustige Geschichte", "Sie erzählte eine witzige Geschichte"], "explain": "erzählen is regular: erzählte. Geschichte is feminine, accusative: eine lustige Geschichte." }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Als ich nach Deutschland kam, sprach ich kaum Deutsch.", "en": "When I came to Germany, I hardly spoke any German." },
+      { "de": "Am ersten Tag fuhr ich mit der Bahn zur Arbeit.", "en": "On the first day I took the train to work." },
+      { "de": "Ich fand den Weg nicht und kam zu spät.", "en": "I did not find the way and arrived late." },
+      { "de": "Meine Kollegen waren aber sehr freundlich und halfen mir.", "en": "My co-workers were very friendly, though, and helped me." },
+      { "de": "Am Abend las ich noch einen Artikel über die Energiewende.", "en": "In the evening I read an article about the energy transition." }
+    ],
+    "prompts": [
+      { "q": "Erzähl von deinem ersten Arbeitstag in Deutschland. Was ist passiert?", "qEn": "Tell me about your first working day in Germany. What happened?", "model": "Am ersten Tag stellte mich mein Chef dem ganzen Team vor. Danach zeigte mir ein Kollege die Werkstatt und erklärte mir die Sicherheitsregeln. Am Nachmittag las ich die technischen Unterlagen und war ziemlich müde.", "hint": "Am ersten Tag … Danach … Am Nachmittag …" },
+      { "q": "Wie war dein letzter Urlaub? Erzähl eine kleine Geschichte.", "qEn": "How was your last holiday? Tell a short story.", "model": "Letzten Sommer fuhren wir mit dem Zug an die Ostsee. Das Wetter war leider schlecht, aber wir fanden ein gemütliches Café und blieben den ganzen Nachmittag dort.", "hint": "Letzten Sommer fuhr(en) … Wir waren … Wir fanden …" },
+      { "q": "Welchen Film oder welche Serie hast du zuletzt gesehen? Worum ging es?", "qEn": "Which film or series did you watch last? What was it about?", "model": "Ich sah eine Dokumentation über Windkraft in Norddeutschland. Sie zeigte, wie Ingenieure ein neues Windrad bauten. Ich fand sie sehr spannend.", "hint": "Es ging um … Ich fand den Film …" }
+    ]
+  }
+}

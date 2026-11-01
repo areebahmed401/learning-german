@@ -1,0 +1,137 @@
+{
+  "id": "b1-07-konnektoren",
+  "level": "B1",
+  "title": "obwohl, trotzdem, deshalb",
+  "concept": "Connectors for reason, contrast and consequence",
+  "wordlist": "Gesundheit & Sport",
+  "minutes": 30,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+B1+obwohl+trotzdem+deshalb+Konnektoren",
+  "learn": [
+    {
+      "heading": "Reason, contrast, consequence",
+      "text": "Connectors link ideas. There are two families with **different word order**. **Subordinating conjunctions** (*weil, obwohl*) send the verb to the **end** of their clause. **Adverb connectors** (*deshalb, deswegen, darum, trotzdem*) stand in **position 1**, and the verb comes right after them (position 2), then the subject.",
+      "table": {
+        "head": ["Meaning", "Subordinate clause (verb last)", "Adverb (verb 2nd)"],
+        "rows": [
+          ["reason / consequence", "weil ich krank bin", "deshalb gehe ich zum Arzt"],
+          ["contrast", "obwohl ich krank bin", "trotzdem gehe ich zur Arbeit"]
+        ]
+      },
+      "examples": [
+        { "de": "Ich bleibe zu Hause, weil ich Fieber habe.", "en": "I'm staying at home because I have a fever." },
+        { "de": "Ich habe Fieber, deshalb bleibe ich zu Hause.", "en": "I have a fever, so I'm staying at home." },
+        { "de": "Obwohl ich Fieber habe, gehe ich zur Arbeit.", "en": "Although I have a fever, I'm going to work." },
+        { "de": "Ich habe Fieber. Trotzdem gehe ich zur Arbeit.", "en": "I have a fever. Nevertheless I'm going to work." }
+      ]
+    },
+    {
+      "heading": "Which one fits the logic?",
+      "text": "**Weil** gives the cause, **deshalb** the result: *Er ist müde, weil er schlecht geschlafen hat. → Er hat schlecht geschlafen, deshalb ist er müde.* **Obwohl** and **trotzdem** express that something happens **against expectation**. The synonyms **deswegen** and **darum** work like deshalb. In a sentence with *obwohl* the subordinate clause can also come first; then the main verb follows the comma.",
+      "examples": [
+        { "de": "Er trainiert viel, obwohl er wenig Zeit hat.", "en": "He trains a lot although he has little time." },
+        { "de": "Der Arzt hat mir Ruhe empfohlen. Deswegen bin ich eine Woche zu Hause geblieben.", "en": "The doctor recommended rest. That's why I stayed at home for a week." },
+        { "de": "Obwohl es regnet, gehe ich joggen.", "en": "Although it is raining, I'm going jogging." }
+      ]
+    },
+    {
+      "heading": "Position 0: denn, aber, und, oder",
+      "text": "Some linking words do not change the word order at all. **Denn** (because), **aber**, **und**, **oder** and **sondern** stand in position 0: the sentence continues with the normal order **subject, verb**. *Denn* is more formal than *weil*.",
+      "examples": [
+        { "de": "Ich gehe heute nicht ins Fitnessstudio, denn ich habe Rückenschmerzen.", "en": "I'm not going to the gym today because I have back pain." },
+        { "de": "Ich bin müde, aber ich gehe trotzdem joggen.", "en": "I'm tired, but I'm going jogging anyway." }
+      ]
+    }
+  ],
+  "tip": "Count verbs: after weil / obwohl the verb is LAST. After deshalb / trotzdem / deswegen the verb is SECOND. After denn / aber / und the word order does not change.",
+  "words": [
+    { "de": "Gesundheit", "en": "health", "pos": "noun", "article": "die", "plural": "-" },
+    { "de": "Arzt", "en": "doctor (male)", "pos": "noun", "article": "der", "plural": "Ärzte" },
+    { "de": "Ärztin", "en": "doctor (female)", "pos": "noun", "article": "die", "plural": "Ärztinnen" },
+    { "de": "Termin", "en": "appointment", "pos": "noun", "article": "der", "plural": "Termine" },
+    { "de": "Rückenschmerzen", "en": "back pain", "pos": "noun", "article": "die", "plural": "-", "note": "plural only" },
+    { "de": "Erkältung", "en": "cold", "pos": "noun", "article": "die", "plural": "Erkältungen" },
+    { "de": "Fieber", "en": "fever", "pos": "noun", "article": "das", "plural": "-" },
+    { "de": "Krankenkasse", "en": "health insurer", "pos": "noun", "article": "die", "plural": "Krankenkassen" },
+    { "de": "Rezept", "en": "prescription", "pos": "noun", "article": "das", "plural": "Rezepte" },
+    { "de": "Krankschreibung", "en": "sick note", "pos": "noun", "article": "die", "plural": "Krankschreibungen" },
+    { "de": "Fitnessstudio", "en": "gym", "pos": "noun", "article": "das", "plural": "Fitnessstudios" },
+    { "de": "Ausdauer", "en": "stamina", "pos": "noun", "article": "die", "plural": "-" },
+    { "de": "Verletzung", "en": "injury", "pos": "noun", "article": "die", "plural": "Verletzungen" },
+    { "de": "trainieren", "en": "to train, to work out", "pos": "verb", "aux": "haben", "p2": "trainiert" },
+    { "de": "sich erholen", "en": "to recover, to rest", "pos": "verb", "aux": "haben", "p2": "erholt" },
+    { "de": "sich verletzen", "en": "to injure oneself", "pos": "verb", "aux": "haben", "p2": "verletzt" },
+    { "de": "joggen", "en": "to jog", "pos": "verb", "aux": "sein", "p2": "gejoggt" },
+    { "de": "untersuchen", "en": "to examine", "pos": "verb", "aux": "haben", "p2": "untersucht" },
+    { "de": "gesund", "en": "healthy", "pos": "adj" },
+    { "de": "krank", "en": "ill", "pos": "adj" },
+    { "de": "fit", "en": "fit", "pos": "adj" },
+    { "de": "anstrengend", "en": "exhausting", "pos": "adj" }
+  ],
+  "mindmap": {
+    "label": "Konnektoren",
+    "children": [
+      {
+        "label": "Reason",
+        "children": [
+          { "label": "weil", "note": "verb last" },
+          { "label": "denn", "note": "position 0" }
+        ]
+      },
+      {
+        "label": "Consequence",
+        "children": [
+          { "label": "deshalb, deswegen, darum", "note": "verb 2nd" }
+        ]
+      },
+      {
+        "label": "Contrast",
+        "children": [
+          { "label": "obwohl", "note": "verb last" },
+          { "label": "trotzdem", "note": "verb 2nd" },
+          { "label": "aber", "note": "position 0" }
+        ]
+      },
+      {
+        "label": "Word order",
+        "children": [
+          { "label": "subordinate: verb at the end" },
+          { "label": "adverb: connector + verb + subject" }
+        ]
+      },
+      {
+        "label": "Gesundheit & Sport",
+        "children": [ { "label": "Arzt, Termin, Fieber, trainieren" } ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "mc", "q": "Ich bin krank, ___ gehe ich heute zum Arzt.", "options": ["obwohl", "deshalb", "trotzdem"], "answer": 1, "explain": "Being ill is the reason, going to the doctor the consequence → deshalb, followed by the verb." },
+    { "type": "mc", "q": "Er hat Fieber, ___ geht er zur Arbeit.", "options": ["trotzdem", "obwohl", "deshalb"], "answer": 0, "explain": "Fever would normally keep you at home, so going to work is a contrast. The verb geht follows trotzdem directly." },
+    { "type": "mc", "q": "Which sentence is correct?", "options": ["Ich bin müde, deshalb ich gehe früh ins Bett.", "Ich bin müde, deshalb gehe ich früh ins Bett.", "Ich bin müde, deshalb ich früh ins Bett gehe."], "answer": 1, "explain": "After deshalb the verb must be in position 2: deshalb gehe ich." },
+    { "type": "gap", "q": "Sie trainiert fünfmal pro Woche, ___ sie keine Zeit hat.", "answer": ["obwohl"], "explain": "She trains despite having little time, so contrast with a verb-last clause: obwohl." },
+    { "type": "gap", "q": "Ich habe Rückenschmerzen, ___ ich viel am Schreibtisch sitze.", "answer": ["weil"], "explain": "Sitting at a desk is the cause of the back pain; the verb sitze is at the end → weil." },
+    { "type": "gap", "q": "Der Arzt hat mir Ruhe empfohlen. ___ bin ich eine Woche zu Hause geblieben.", "answer": ["Deshalb", "Deswegen", "Darum"], "explain": "The doctor's advice is the reason, staying at home the result. These adverbs take position 1 and the verb comes second." },
+    { "type": "article", "word": "Termin", "answer": "der", "explain": "Termin is masculine: der Termin (plural: die Termine)." },
+    { "type": "article", "word": "Verletzung", "answer": "die", "explain": "Nouns ending in -ung are always feminine." },
+    { "type": "order", "words": ["Obwohl", "es", "regnet,", "gehe", "ich", "joggen"], "answer": "Obwohl es regnet, gehe ich joggen", "explain": "After the subordinate clause (verb last), the main verb gehe comes right after the comma." },
+    { "type": "order", "words": ["Ich", "bin", "müde,", "trotzdem", "gehe", "ich", "ins", "Fitnessstudio"], "answer": "Ich bin müde, trotzdem gehe ich ins Fitnessstudio", "explain": "trotzdem is in position 1, so the verb gehe stands before the subject ich." },
+    { "type": "order", "words": ["Ich", "bleibe", "zu", "Hause,", "weil", "ich", "Fieber", "habe"], "answer": "Ich bleibe zu Hause, weil ich Fieber habe", "explain": "weil sends the verb habe to the end of its clause." },
+    { "type": "match", "pairs": [["die Erkältung", "cold"], ["das Rezept", "prescription"], ["die Krankenkasse", "health insurer"], ["die Verletzung", "injury"], ["die Ausdauer", "stamina"]], "explain": "Vocabulary for health and fitness." },
+    { "type": "translate", "en": "Although I'm tired, I'm going to the gym.", "answer": ["Obwohl ich müde bin, gehe ich ins Fitnessstudio"], "explain": "obwohl + verb at the end (bin), then the main clause starts with the verb gehe." },
+    { "type": "translate", "en": "I have a cold, that's why I'm staying at home.", "answer": ["Ich habe eine Erkältung, deshalb bleibe ich zu Hause", "Ich habe eine Erkältung, deswegen bleibe ich zu Hause", "Ich habe eine Erkältung, darum bleibe ich zu Hause"], "explain": "deshalb / deswegen / darum + verb in position 2." }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Ich war erkältet, deshalb bin ich zu Hause geblieben.", "en": "I had a cold, so I stayed at home." },
+      { "de": "Obwohl ich viel arbeite, gehe ich dreimal pro Woche ins Fitnessstudio.", "en": "Although I work a lot, I go to the gym three times a week." },
+      { "de": "Ich habe oft Rückenschmerzen, weil ich den ganzen Tag am Computer sitze.", "en": "I often have back pain because I sit at the computer all day." },
+      { "de": "Ich bin müde, trotzdem gehe ich noch joggen.", "en": "I'm tired, but I'm still going jogging." },
+      { "de": "Der Arzt hat mich krankgeschrieben, deswegen komme ich diese Woche nicht ins Büro.", "en": "The doctor signed me off sick, so I won't come to the office this week." }
+    ],
+    "prompts": [
+      { "q": "Guten Morgen, hier ist die Personalabteilung. Warum können Sie heute nicht zur Arbeit kommen?", "qEn": "Good morning, this is HR. Why can't you come to work today?", "model": "Guten Morgen, ich habe seit gestern Fieber und Husten. Deshalb war ich beim Arzt, und er hat mich bis Freitag krankgeschrieben. Die Bescheinigung schicke ich Ihnen heute noch.", "hint": "Ich habe …, deshalb … Ich bin krank, weil …" },
+      { "q": "Treibst du Sport? Warum, oder warum nicht?", "qEn": "Do you do sport? Why or why not?", "model": "Ja, ich gehe zweimal pro Woche ins Fitnessstudio, weil ich den ganzen Tag am Schreibtisch sitze. Manchmal bin ich nach der Arbeit müde, trotzdem versuche ich zu gehen.", "hint": "…, weil … / …, trotzdem …" },
+      { "q": "Was machst du für deine Gesundheit?", "qEn": "What do you do for your health?", "model": "Ich esse nicht viel Fleisch und gehe oft zu Fuß, obwohl der Weg zur Arbeit ziemlich lang ist. Außerdem schlafe ich genug, denn sonst kann ich mich nicht konzentrieren.", "hint": "obwohl …, denn … / deshalb …" }
+    ]
+  }
+}

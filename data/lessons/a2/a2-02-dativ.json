@@ -1,0 +1,142 @@
+{
+  "id": "a2-02-dativ",
+  "level": "A2",
+  "title": "Dativ",
+  "concept": "The dative case and dative verbs",
+  "wordlist": "Geschenke & Feiern",
+  "minutes": 30,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+A2+Dativ+dative+case+verbs",
+  "learn": [
+    {
+      "heading": "The dative articles",
+      "text": "The **Dativ** answers the question **wem?** (to whom?). It is the case of the **indirect object**, the person who receives something. Masculine and neuter change to **dem**, feminine to **der**, and in the plural it is **den** plus **-n** on the noun (if it does not already end in -n). The same endings apply to ein, kein and mein.",
+      "table": {
+        "head": ["", "masculine", "feminine", "neuter", "plural"],
+        "rows": [
+          ["Nominativ", "der / ein Freund", "die / eine Frau", "das / ein Kind", "die Kinder"],
+          ["Akkusativ", "den / einen Freund", "die / eine Frau", "das / ein Kind", "die Kinder"],
+          ["Dativ", "dem / einem Freund", "der / einer Frau", "dem / einem Kind", "den Kindern"],
+          ["Dativ (mein)", "meinem Freund", "meiner Frau", "meinem Kind", "meinen Kindern"]
+        ]
+      },
+      "examples": [
+        { "de": "Ich schenke meiner Mutter Blumen.", "en": "I give my mother flowers." },
+        { "de": "Wir gratulieren dem Chef zum Jubiläum.", "en": "We congratulate the boss on the anniversary." },
+        { "de": "Er hilft den Kindern bei den Hausaufgaben.", "en": "He helps the children with their homework." }
+      ]
+    },
+    {
+      "heading": "Verbs that always take the dative",
+      "text": "Some verbs have **only a dative object**, no accusative. Learn them with the person in the dative: **helfen, danken, gratulieren, gefallen, gehören, schmecken, passen, antworten**. With these verbs you do something *for* or *to* someone. Pronouns work the same way: *mir, dir, ihm, ihr, uns, euch, ihnen.*",
+      "examples": [
+        { "de": "Kannst du mir bitte helfen?", "en": "Can you please help me?" },
+        { "de": "Das Kleid gefällt meiner Schwester.", "en": "My sister likes the dress." },
+        { "de": "Der Kuchen schmeckt den Gästen sehr gut.", "en": "The guests like the cake a lot." },
+        { "de": "Das Fahrrad gehört meinem Nachbarn.", "en": "The bike belongs to my neighbour." }
+      ]
+    },
+    {
+      "heading": "Dativ and Akkusativ together",
+      "text": "Verbs like **schenken, geben, zeigen, schicken, bringen** take both: the **person in the dative**, the **thing in the accusative**. With two nouns the dative comes first. When one is a pronoun, the pronoun comes first. Two pronouns: **Akkusativ before Dativ**.",
+      "examples": [
+        { "de": "Ich schenke meinem Freund ein Buch.", "en": "I give my friend a book." },
+        { "de": "Ich schenke es meinem Freund.", "en": "I give it to my friend." },
+        { "de": "Ich schenke ihm ein Buch.", "en": "I give him a book." },
+        { "de": "Ich schenke es ihm.", "en": "I give it to him." }
+      ]
+    }
+  ],
+  "tip": "Ask 'wem?' for the dative, 'wen oder was?' for the accusative. Wem gebe ich das Geschenk? – Meiner Schwester. Wen sehe ich? – Meine Schwester.",
+  "words": [
+    { "de": "Geschenk", "en": "present, gift", "pos": "noun", "article": "das", "plural": "Geschenke" },
+    { "de": "Geburtstag", "en": "birthday", "pos": "noun", "article": "der", "plural": "Geburtstage" },
+    { "de": "Party", "en": "party", "pos": "noun", "article": "die", "plural": "Partys" },
+    { "de": "Einladung", "en": "invitation", "pos": "noun", "article": "die", "plural": "Einladungen" },
+    { "de": "Hochzeit", "en": "wedding", "pos": "noun", "article": "die", "plural": "Hochzeiten" },
+    { "de": "Blume", "en": "flower", "pos": "noun", "article": "die", "plural": "Blumen" },
+    { "de": "Kuchen", "en": "cake", "pos": "noun", "article": "der", "plural": "Kuchen" },
+    { "de": "Kerze", "en": "candle", "pos": "noun", "article": "die", "plural": "Kerzen" },
+    { "de": "Gast", "en": "visitor (at a party)", "pos": "noun", "article": "der", "plural": "Gäste" },
+    { "de": "Glückwunsch", "en": "congratulation", "pos": "noun", "article": "der", "plural": "Glückwünsche" },
+    { "de": "Karte", "en": "card", "pos": "noun", "article": "die", "plural": "Karten" },
+    { "de": "Überraschung", "en": "surprise", "pos": "noun", "article": "die", "plural": "Überraschungen" },
+    { "de": "Weihnachten", "en": "Christmas", "pos": "noun", "article": "das", "plural": "-", "note": "no plural" },
+    { "de": "schenken", "en": "to give (as a present)", "pos": "verb", "aux": "haben", "p2": "geschenkt" },
+    { "de": "gratulieren", "en": "to congratulate", "pos": "verb", "aux": "haben", "p2": "gratuliert" },
+    { "de": "einladen", "en": "to invite", "pos": "verb", "aux": "haben", "sep": "ein", "p2": "eingeladen" },
+    { "de": "feiern", "en": "to celebrate", "pos": "verb", "aux": "haben", "p2": "gefeiert" },
+    { "de": "gefallen", "en": "to please, to be liked", "pos": "verb", "aux": "haben", "p2": "gefallen" },
+    { "de": "helfen", "en": "to help", "pos": "verb", "aux": "haben", "p2": "geholfen" },
+    { "de": "danken", "en": "to thank", "pos": "verb", "aux": "haben", "p2": "gedankt" },
+    { "de": "gehören", "en": "to belong to", "pos": "verb", "aux": "haben", "p2": "gehört" },
+    { "de": "schmecken", "en": "to taste (good)", "pos": "verb", "aux": "haben", "p2": "geschmeckt" },
+    { "de": "mitbringen", "en": "to bring along", "pos": "verb", "aux": "haben", "sep": "mit", "p2": "mitgebracht" },
+    { "de": "Herzlichen Glückwunsch!", "en": "Congratulations!", "pos": "phrase" }
+  ],
+  "mindmap": {
+    "label": "Dativ",
+    "note": "wem?",
+    "children": [
+      {
+        "label": "Artikel",
+        "children": [
+          { "label": "m / n: dem, einem", "note": "dem Freund, dem Kind" },
+          { "label": "f: der, einer", "note": "der Frau" },
+          { "label": "Plural: den + -n", "note": "den Kindern" }
+        ]
+      },
+      {
+        "label": "Pronomen",
+        "children": [
+          { "label": "mir, dir, ihm, ihr", "note": "Hilf mir!" },
+          { "label": "uns, euch, ihnen" }
+        ]
+      },
+      {
+        "label": "Dativ-Verben",
+        "note": "only dative",
+        "children": [
+          { "label": "helfen, danken, gratulieren" },
+          { "label": "gefallen, gehören, schmecken" }
+        ]
+      },
+      {
+        "label": "Dativ + Akkusativ",
+        "children": [
+          { "label": "schenken, geben, zeigen, schicken" },
+          { "label": "Person (Dat) vor Sache (Akk)", "note": "meiner Mutter Blumen" },
+          { "label": "Pronomen: Akk vor Dat", "note": "Ich gebe es dir." }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "article", "word": "Geschenk", "answer": "das", "explain": "Nouns with the prefix Ge- are often neuter: das Geschenk." },
+    { "type": "article", "word": "Einladung", "answer": "die", "explain": "Nouns ending in -ung are always feminine." },
+    { "type": "gap", "q": "Ich schenke ___ Mutter Blumen.", "answer": ["meiner"], "explain": "Mutter is feminine, dative: meiner Mutter. The question is: wem schenke ich Blumen?" },
+    { "type": "gap", "q": "Ich helfe ___ Kindern bei den Hausaufgaben.", "answer": ["den", "meinen"], "explain": "helfen takes the dative. Plural dative: den Kindern, with -n on the noun." },
+    { "type": "gap", "q": "Das Kleid gefällt ___ sehr. (to me)", "answer": ["mir"], "explain": "gefallen takes the dative, so the pronoun is mir, not mich." },
+    { "type": "mc", "q": "Ich gratuliere ___ Freundin zum Geburtstag.", "options": ["der", "die", "den"], "answer": 0, "explain": "gratulieren is a dative verb; Freundin is feminine, so dative is der Freundin (zum Geburtstag also dative)." },
+    { "type": "mc", "q": "Which verb takes only the dative?", "options": ["kaufen", "helfen", "besuchen"], "answer": 1, "explain": "helfen has a dative object (jemandem helfen). Kaufen and besuchen take the accusative." },
+    { "type": "mc", "q": "Wir schenken ___ Opa ein Buch.", "options": ["dem", "den", "der"], "answer": 0, "explain": "Opa is masculine. The person who receives the book is in the dative: dem Opa." },
+    { "type": "order", "words": ["Ich", "schenke", "meiner Schwester", "ein Buch"], "answer": "Ich schenke meiner Schwester ein Buch", "explain": "Two objects: the person (dative) comes before the thing (accusative)." },
+    { "type": "order", "words": ["Das Essen", "schmeckt", "mir", "sehr gut"], "answer": "Das Essen schmeckt mir sehr gut", "explain": "schmecken takes the dative: the food tastes good to me (mir)." },
+    { "type": "match", "pairs": [["der Freund", "dem Freund"], ["die Kollegin", "der Kollegin"], ["das Kind", "dem Kind"], ["die Gäste", "den Gästen"]], "explain": "Masculine and neuter: dem. Feminine: der. Plural: den + n on the noun." },
+    { "type": "translate", "en": "Can you help me?", "answer": ["Kannst du mir helfen", "Kannst du mir bitte helfen", "Könntest du mir helfen"], "explain": "helfen + dative: mir. The infinitive goes to the end." },
+    { "type": "translate", "en": "I am giving my friend a present.", "answer": ["Ich schenke meinem Freund ein Geschenk", "Ich schenke meiner Freundin ein Geschenk", "Ich gebe meinem Freund ein Geschenk", "Ich gebe meiner Freundin ein Geschenk"], "explain": "The person is in the dative (meinem Freund / meiner Freundin), the present is in the accusative." }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Herzlichen Glückwunsch zum Geburtstag!", "en": "Happy birthday!" },
+      { "de": "Ich schenke meiner Mutter jedes Jahr Blumen.", "en": "I give my mother flowers every year." },
+      { "de": "Der Kuchen schmeckt mir wirklich gut.", "en": "The cake tastes really good to me." },
+      { "de": "Das Geschenk gefällt meinem Bruder sehr.", "en": "My brother likes the present a lot." },
+      { "de": "Ich danke dir für deine Hilfe.", "en": "I thank you for your help." }
+    ],
+    "prompts": [
+      { "q": "Deine Kollegin hat morgen Geburtstag. Was schenkst du ihr?", "qEn": "Your coworker has her birthday tomorrow. What do you give her?", "model": "Ich schenke ihr Blumen und eine Karte. Ich gratuliere ihr auch und wünsche ihr alles Gute.", "hint": "Ich schenke ihr … Ich gratuliere ihr …" },
+      { "q": "Du bist auf einer Party. Der Gastgeber fragt: Wie schmeckt dir der Kuchen?", "qEn": "You are at a party. The host asks: how do you like the cake?", "model": "Der Kuchen schmeckt mir sehr gut. Hast du das Rezept? Das gefällt auch meiner Freundin sicher.", "hint": "Der Kuchen schmeckt mir … Er gefällt mir …" },
+      { "q": "Dein Nachbar zieht um. Wie kannst du ihm helfen?", "qEn": "Your neighbour is moving. How can you help him?", "model": "Ich helfe dir gern. Ich kann dir die Kartons tragen und danach bringe ich dir Kaffee.", "hint": "Ich helfe dir … Ich bringe dir …" }
+    ]
+  }
+}

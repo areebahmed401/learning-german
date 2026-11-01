@@ -1,0 +1,57 @@
+/* Translator panel. Scoped under .tr; relies on the app's :root tokens. */
+.tr { font-family: var(--font); color: var(--text); }
+.tr *, .tr *::before, .tr *::after { box-sizing: border-box; }
+
+.tr .tr-search { display: flex; align-items: center; gap: 0.5rem; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 0 0.75rem; }
+.tr .tr-search:focus-within { border-color: var(--accent); }
+.tr .tr-input { flex: 1; min-width: 0; border: 0; outline: 0; background: transparent; color: var(--text); font: inherit; font-size: 1rem; padding: 0.7rem 0; }
+.tr .tr-input::placeholder { color: var(--muted); }
+.tr .tr-hint { color: var(--muted); font-size: 0.75rem; white-space: nowrap; }
+
+.tr .tr-status { margin: 0.5rem 0 0; color: var(--muted); font-size: 0.8rem; }
+.tr .tr-results { display: grid; grid-template-columns: minmax(0, 1fr); gap: 0.6rem; margin-top: 0.75rem; }
+.tr .tr-card { min-width: 0; }
+.tr .tr-empty { color: var(--muted); font-size: 0.9rem; padding: 0.5rem 0.25rem; }
+
+.tr .tr-card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 0.75rem 0.85rem; }
+.tr .tr-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 0.5rem; }
+.tr .tr-main { min-width: 0; }
+.tr .tr-title { font-size: 1.1rem; line-height: 1.3; overflow-wrap: anywhere; }
+.tr .tr-art { font-weight: 600; }
+.tr .tr-sub { color: var(--muted); font-size: 0.8rem; margin-left: 0.5rem; }
+.tr .tr-en { color: var(--muted); font-size: 0.9rem; margin-top: 0.1rem; overflow-wrap: anywhere; }
+.tr .g-der { color: var(--der); }
+.tr .g-die { color: var(--die); }
+.tr .g-das { color: var(--das); }
+
+.tr .tr-speak { flex: none; width: 2.25rem; height: 2.25rem; border: 0; border-radius: 50%; background: var(--accent-soft); color: var(--text); font-size: 1rem; cursor: pointer; }
+.tr .tr-speak:hover { filter: brightness(0.96); }
+
+.tr .tr-chips { display: flex; flex-wrap: wrap; align-items: center; gap: 0.35rem; margin-top: 0.5rem; }
+.tr .tr-chip { background: var(--surface-2); color: var(--muted); border-radius: 999px; padding: 0.1rem 0.55rem; font-size: 0.72rem; }
+.tr .tr-chip-src { background: var(--accent-soft); color: var(--text); }
+.tr .tr-chip-online { border: 1px dashed var(--line); background: transparent; }
+.tr .tr-toggle { margin-left: auto; border: 0; background: transparent; color: var(--accent); font: inherit; font-size: 0.82rem; cursor: pointer; padding: 0.2rem 0.1rem; }
+
+.tr .tr-body { margin-top: 0.6rem; font-size: 0.85rem; }
+.tr .tr-body[hidden], .tr .tr-pane[hidden], .tr .tr-status[hidden] { display: none; }
+.tr .tr-meta { color: var(--muted); font-size: 0.8rem; margin-bottom: 0.5rem; overflow-wrap: anywhere; }
+.tr .tr-meta b { color: var(--text); font-weight: 600; }
+
+.tr .tr-tabs { display: flex; flex-wrap: wrap; gap: 0.25rem; margin-bottom: 0.4rem; }
+.tr .tr-tab { flex: none; border: 0; border-radius: 999px; background: var(--surface-2); color: var(--muted); font: inherit; font-size: 0.78rem; padding: 0.25rem 0.65rem; cursor: pointer; }
+.tr .tr-tab.is-on { background: var(--accent-soft); color: var(--text); font-weight: 600; }
+
+.tr .tr-scroll { overflow-x: auto; }
+.tr .tr-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+.tr .tr-table th, .tr .tr-table td { text-align: left; padding: 0.3rem 0.5rem; border: 0; font-weight: 400; white-space: nowrap; }
+.tr .tr-table thead th { color: var(--muted); font-size: 0.75rem; }
+.tr .tr-table tbody th { color: var(--muted); width: 3.2rem; }
+.tr .tr-table tbody tr:nth-child(odd) { background: var(--surface-2); }
+.tr .tr-table td { overflow-wrap: anywhere; }
+
+@media (max-width: 400px) {
+  .tr .tr-hint { display: none; }
+  .tr .tr-card { padding: 0.65rem 0.7rem; }
+  .tr .tr-table th, .tr .tr-table td { padding: 0.3rem 0.35rem; }
+}

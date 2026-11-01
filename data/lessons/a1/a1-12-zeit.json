@@ -1,0 +1,168 @@
+{
+  "id": "a1-12-zeit",
+  "level": "A1",
+  "title": "Uhrzeit & Termine",
+  "concept": "Telling time; am, um, im",
+  "wordlist": "Zeit & Termine",
+  "minutes": 25,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+A1+Uhrzeit+time+am+um+im",
+  "learn": [
+    {
+      "heading": "Telling the time: official and everyday",
+      "text": "Ask **Wie spät ist es?** or **Wie viel Uhr ist es?** There are two systems. The **official** system (trains, offices, appointments, radio) uses the 24-hour clock: *dreizehn Uhr dreißig*. In **everyday** speech, Germans use 12 hours and say **halb** (half *before* the hour!), **Viertel nach / vor**, **nach / vor**. **halb drei** is 2:30, not 3:30.",
+      "table": {
+        "head": ["time", "official", "everyday"],
+        "rows": [
+          ["8:00", "acht Uhr", "acht Uhr"],
+          ["8:15", "acht Uhr fünfzehn", "Viertel nach acht"],
+          ["8:30", "acht Uhr dreißig", "halb neun"],
+          ["8:45", "acht Uhr fünfundvierzig", "Viertel vor neun"],
+          ["8:10", "acht Uhr zehn", "zehn nach acht"],
+          ["14:50", "vierzehn Uhr fünfzig", "zehn vor drei"]
+        ]
+      },
+      "examples": [
+        { "de": "Es ist halb drei.", "en": "It is half past two." },
+        { "de": "Der Zug fährt um 17:42 Uhr ab. (siebzehn Uhr zweiundvierzig)", "en": "The train leaves at 17:42." },
+        { "de": "Entschuldigung, wie spät ist es?", "en": "Excuse me, what time is it?" }
+      ]
+    },
+    {
+      "heading": "am, um, im: when?",
+      "text": "Three small prepositions answer **Wann?** Use **um** for clock times (*um acht Uhr*), **am** for days and parts of the day (*am Montag, am Morgen, am Wochenende*) and **im** for months and seasons (*im Mai, im Winter*). Exception: **in der Nacht**. For a period of time use **von … bis** (*von neun bis fünf*). Note the question *Wann?* uses no preposition; the answer does.",
+      "table": {
+        "head": ["preposition", "use", "examples"],
+        "rows": [
+          ["um", "clock time", "um 8 Uhr, um halb zehn"],
+          ["am", "days, parts of the day, date", "am Montag, am Abend, am 3. Mai"],
+          ["im", "months, seasons", "im Juni, im Sommer"],
+          ["von … bis", "period", "von Montag bis Freitag"]
+        ]
+      },
+      "examples": [
+        { "de": "Der Kurs beginnt am Montag um neun Uhr.", "en": "The course starts on Monday at nine o'clock." },
+        { "de": "Ich habe im Mai Urlaub.", "en": "I have holiday in May." },
+        { "de": "Die Praxis ist von acht bis zwölf Uhr geöffnet.", "en": "The practice is open from eight to twelve." }
+      ]
+    },
+    {
+      "heading": "Days, months and making appointments",
+      "text": "Days and months are all masculine (**der Montag, der Mai**), always capitalised. Use them to arrange a **Termin** at the doctor's, the Amt or with friends. Useful phrases: *Ich hätte gern einen Termin. Passt Ihnen Montag um zehn? Ja, das passt. Leider nicht, da habe ich keine Zeit.* Ask *Wann hast du Zeit?* and propose a time: *Wie wäre es mit Freitag?*",
+      "table": {
+        "head": ["days", "months"],
+        "rows": [
+          ["Montag · Dienstag · Mittwoch", "Januar · Februar · März · April"],
+          ["Donnerstag · Freitag", "Mai · Juni · Juli · August"],
+          ["Samstag · Sonntag", "September · Oktober · November · Dezember"]
+        ]
+      },
+      "examples": [
+        { "de": "Ich hätte gern einen Termin für nächste Woche.", "en": "I'd like an appointment for next week." },
+        { "de": "Passt Ihnen Dienstag um 14 Uhr?", "en": "Does Tuesday at 2 pm suit you?" },
+        { "de": "Heute ist Freitag, der zwölfte Oktober.", "en": "Today is Friday, the twelfth of October." }
+      ]
+    }
+  ],
+  "tip": "Before a call with the Amt or an Arzt, write down: Tag, Datum, Uhrzeit. Say it out loud: \"Am Dienstag, den zweiten Oktober, um halb elf.\" Prepared numbers make phone calls much less scary.",
+  "words": [
+    { "de": "Uhr", "en": "clock; o'clock", "pos": "noun", "article": "die", "plural": "Uhren" },
+    { "de": "Stunde", "en": "hour", "pos": "noun", "article": "die", "plural": "Stunden" },
+    { "de": "Minute", "en": "minute", "pos": "noun", "article": "die", "plural": "Minuten" },
+    { "de": "Viertel", "en": "quarter", "pos": "noun", "article": "das", "plural": "Viertel" },
+    { "de": "Tag", "en": "day", "pos": "noun", "article": "der", "plural": "Tage" },
+    { "de": "Woche", "en": "week", "pos": "noun", "article": "die", "plural": "Wochen" },
+    { "de": "Monat", "en": "month", "pos": "noun", "article": "der", "plural": "Monate" },
+    { "de": "Jahr", "en": "year", "pos": "noun", "article": "das", "plural": "Jahre" },
+    { "de": "Termin", "en": "appointment", "pos": "noun", "article": "der", "plural": "Termine" },
+    { "de": "Datum", "en": "date", "pos": "noun", "article": "das", "plural": "Daten" },
+    { "de": "Kalender", "en": "calendar", "pos": "noun", "article": "der", "plural": "Kalender" },
+    { "de": "Montag", "en": "Monday", "pos": "noun", "article": "der", "plural": "Montage" },
+    { "de": "Freitag", "en": "Friday", "pos": "noun", "article": "der", "plural": "Freitage" },
+    { "de": "Samstag", "en": "Saturday", "pos": "noun", "article": "der", "plural": "Samstage" },
+    { "de": "Sonntag", "en": "Sunday", "pos": "noun", "article": "der", "plural": "Sonntage" },
+    { "de": "heute", "en": "today", "pos": "adv" },
+    { "de": "morgen", "en": "tomorrow", "pos": "adv" },
+    { "de": "gestern", "en": "yesterday", "pos": "adv" },
+    { "de": "pünktlich", "en": "on time", "pos": "adj" },
+    { "de": "halb", "en": "half", "pos": "adj" },
+    { "de": "Wie spät ist es?", "en": "what time is it?", "pos": "phrase" },
+    { "de": "dauern", "en": "to last; to take (time)", "pos": "verb", "aux": "haben", "p2": "gedauert" },
+    { "de": "verschieben", "en": "to postpone; to move", "pos": "verb", "aux": "haben", "p2": "verschoben" },
+    { "de": "ausmachen", "en": "to arrange (a date)", "pos": "verb", "aux": "haben", "sep": "aus", "p2": "ausgemacht" }
+  ],
+  "mindmap": {
+    "label": "Zeit & Termine",
+    "children": [
+      {
+        "label": "Uhrzeit",
+        "children": [
+          { "label": "official", "note": "24 hours: vierzehn Uhr dreißig" },
+          { "label": "everyday", "note": "halb drei = 2:30" },
+          { "label": "Viertel nach / vor" }
+        ]
+      },
+      {
+        "label": "um",
+        "note": "clock time",
+        "children": [
+          { "label": "um acht Uhr" },
+          { "label": "um halb zehn" }
+        ]
+      },
+      {
+        "label": "am",
+        "note": "day, part of day",
+        "children": [
+          { "label": "am Montag" },
+          { "label": "am Abend · am Wochenende" },
+          { "label": "am 3. Mai", "note": "date" }
+        ]
+      },
+      {
+        "label": "im",
+        "note": "month, season",
+        "children": [
+          { "label": "im Mai · im Winter" }
+        ]
+      },
+      {
+        "label": "Termin",
+        "children": [
+          { "label": "Ich hätte gern einen Termin." },
+          { "label": "Passt Ihnen Montag um zehn?" },
+          { "label": "von … bis", "note": "von neun bis fünf" }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "gap", "q": "Der Kurs beginnt ___ neun Uhr.", "answer": ["um"], "explain": "Clock times take um." },
+    { "type": "gap", "q": "Wir treffen uns ___ Montag.", "answer": ["am"], "explain": "Days of the week take am." },
+    { "type": "gap", "q": "Ich habe ___ Mai Urlaub.", "answer": ["im"], "explain": "Months and seasons take im." },
+    { "type": "gap", "q": "Die Praxis ist ___ acht bis zwölf Uhr geöffnet.", "answer": ["von"], "explain": "A period of time is von … bis." },
+    { "type": "mc", "q": "Wie spät ist es? 14:30 Uhr in everyday language:", "options": ["halb drei", "halb vier", "Viertel nach zwei"], "answer": 0, "explain": "halb counts toward the next hour: 2:30 = halb drei." },
+    { "type": "mc", "q": "6:45 in everyday language:", "options": ["Viertel nach sechs", "Viertel vor sieben", "halb sieben"], "answer": 1, "explain": "Viertel vor sieben = quarter to seven." },
+    { "type": "mc", "q": "Which sentence is correct?", "options": ["Ich habe am Mai Urlaub.", "Ich habe im Mai Urlaub.", "Ich habe um Mai Urlaub."], "answer": 1, "explain": "Months take im." },
+    { "type": "article", "word": "Termin", "answer": "der", "explain": "Termin is masculine: der Termin." },
+    { "type": "article", "word": "Woche", "answer": "die", "explain": "Most nouns in -e are feminine: die Woche. (Days and months are masculine.)" },
+    { "type": "match", "pairs": [["Montag", "Monday"], ["Freitag", "Friday"], ["Samstag", "Saturday"], ["heute", "today"], ["gestern", "yesterday"]], "explain": "Days of the week are masculine; heute and gestern are adverbs without an article." },
+    { "type": "order", "words": ["Der Kurs", "um neun Uhr", "beginnt"], "answer": "Der Kurs beginnt um neun Uhr", "explain": "Subject, verb in position 2, then the time with um." },
+    { "type": "order", "words": ["habe", "Ich", "am Montag", "einen Termin"], "answer": "Ich habe am Montag einen Termin", "explain": "Time before the object is natural: am Montag, then einen Termin." },
+    { "type": "order", "words": ["ist", "Wie", "es", "spät"], "answer": "Wie spät ist es", "explain": "Standard question for the time." },
+    { "type": "translate", "en": "I have an appointment on Friday at half past ten.", "answer": ["Ich habe am Freitag um halb elf einen Termin", "Ich habe einen Termin am Freitag um halb elf", "Am Freitag um halb elf habe ich einen Termin"], "explain": "am for the day, um for the time; halb elf = 10:30." }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Entschuldigung, wie spät ist es?", "en": "Excuse me, what time is it?" },
+      { "de": "Es ist Viertel nach acht.", "en": "It is a quarter past eight." },
+      { "de": "Ich hätte gern einen Termin für nächste Woche.", "en": "I'd like an appointment for next week." },
+      { "de": "Passt Ihnen Mittwoch um halb zehn?", "en": "Is Wednesday at 9:30 good for you?" },
+      { "de": "Der Zug fährt um dreizehn Uhr vierzig ab.", "en": "The train leaves at 13:40." }
+    ],
+    "prompts": [
+      { "q": "Praxis Doktor Meier, guten Tag. Wie kann ich Ihnen helfen?", "qEn": "Doctor's office, hello. How can I help? (you phone to book an appointment)", "model": "Guten Tag, ich hätte gern einen Termin. Geht es am Donnerstag um zehn Uhr?", "hint": "Ich hätte gern einen Termin am … um …" },
+      { "q": "Wann beginnt dein Deutschkurs und wann ist er zu Ende?", "qEn": "What time is your German course, from start to finish? (a friend asks)", "model": "Mein Kurs beginnt um neun Uhr und ist um zwölf Uhr zu Ende.", "hint": "Der Kurs beginnt um … und endet um …" },
+      { "q": "Wann hast du Zeit? Wollen wir uns treffen?", "qEn": "When do you have time? Shall we meet? (a new coworker)", "model": "Am Samstag um drei Uhr habe ich Zeit. Passt dir das?", "hint": "Am … um … habe ich Zeit." }
+    ]
+  }
+}

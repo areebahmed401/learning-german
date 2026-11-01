@@ -1,0 +1,154 @@
+{
+  "id": "a2-08-adjektive",
+  "level": "A2",
+  "title": "Adjektivendungen",
+  "concept": "Adjective endings after der/ein/no article",
+  "wordlist": "Aussehen & Charakter",
+  "minutes": 30,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+A2+Adjektivendungen+adjective+endings",
+  "learn": [
+    {
+      "heading": "After der / die / das: mostly -e and -en",
+      "text": "An adjective **before a noun** gets an ending; after **sein** it gets none (*Der Mann ist nett*). After the definite article the article already shows the case, so the adjective takes only **-e** or **-en**. Pattern: **-e** in Nominativ singular and in Akkusativ for feminine and neuter; **-en** everywhere else.",
+      "table": {
+        "head": ["", "masculine", "feminine", "neuter", "plural"],
+        "rows": [
+          ["Nominativ", "der nette Mann", "die nette Frau", "das nette Kind", "die netten Leute"],
+          ["Akkusativ", "den netten Mann", "die nette Frau", "das nette Kind", "die netten Leute"],
+          ["Dativ", "dem netten Mann", "der netten Frau", "dem netten Kind", "den netten Leuten"]
+        ]
+      },
+      "examples": [
+        { "de": "Der neue Kollege ist sehr freundlich.", "en": "The new coworker is very friendly." },
+        { "de": "Ich kenne den jungen Mann nicht.", "en": "I do not know the young man." },
+        { "de": "Mit der netten Kollegin esse ich oft zu Mittag.", "en": "I often have lunch with the nice coworker." }
+      ]
+    },
+    {
+      "heading": "After ein / kein / mein: the article is missing a signal",
+      "text": "After **ein, kein, mein** etc. the article does not show the gender in three places: **ein Mann, ein Kind** (Nominativ) and **ein Kind** (Akkusativ). So the adjective supplies the signal: **-er** (masculine Nominativ) and **-es** (neuter Nominativ/Akkusativ). Everywhere else it is the same as after der: **-e** and **-en**. The plural of *ein* is *keine, meine*.",
+      "table": {
+        "head": ["", "masculine", "feminine", "neuter", "plural"],
+        "rows": [
+          ["Nominativ", "ein netter Mann", "eine nette Frau", "ein nettes Kind", "keine netten Leute"],
+          ["Akkusativ", "einen netten Mann", "eine nette Frau", "ein nettes Kind", "keine netten Leute"],
+          ["Dativ", "einem netten Mann", "einer netten Frau", "einem netten Kind", "keinen netten Leuten"]
+        ]
+      },
+      "examples": [
+        { "de": "Das ist ein freundliches Kind.", "en": "That is a friendly child." },
+        { "de": "Ich habe eine sehr nette Kollegin.", "en": "I have a very nice coworker." },
+        { "de": "Er trägt einen grauen Anzug und eine schwarze Brille.", "en": "He is wearing a grey suit and black glasses." }
+      ]
+    },
+    {
+      "heading": "Without an article: the adjective shows the case",
+      "text": "With no article (plural, or uncountable nouns like coffee or water) the adjective takes the endings of **der/die/das** itself: **-er, -e, -es, -e** and in the Dativ **-em, -er, -em, -en**. Only the Dativ plural ends in **-en**.",
+      "table": {
+        "head": ["", "masculine", "feminine", "neuter", "plural"],
+        "rows": [
+          ["Nominativ", "frischer Kaffee", "frische Milch", "frisches Wasser", "frische Brötchen"],
+          ["Akkusativ", "frischen Kaffee", "frische Milch", "frisches Wasser", "frische Brötchen"],
+          ["Dativ", "mit frischem Kaffee", "mit frischer Milch", "mit frischem Wasser", "mit frischen Brötchen"]
+        ]
+      },
+      "examples": [
+        { "de": "Sie hat lange, dunkle Haare.", "en": "She has long, dark hair." },
+        { "de": "Ich trinke gern heißen Tee.", "en": "I like drinking hot tea." }
+      ]
+    }
+  ],
+  "tip": "If you are unsure, -en is the safest guess: it is right in the whole Dativ, in the plural and in the masculine Akkusativ. Learn one chant sentence per table: der nette Mann, ein netter Mann, frischer Kaffee.",
+  "words": [
+    { "de": "Aussehen", "en": "appearance", "pos": "noun", "article": "das", "plural": "-", "note": "no plural" },
+    { "de": "Haar", "en": "hair", "pos": "noun", "article": "das", "plural": "Haare" },
+    { "de": "Auge", "en": "eye", "pos": "noun", "article": "das", "plural": "Augen" },
+    { "de": "Gesicht", "en": "face", "pos": "noun", "article": "das", "plural": "Gesichter" },
+    { "de": "Brille", "en": "glasses", "pos": "noun", "article": "die", "plural": "Brillen" },
+    { "de": "Bart", "en": "beard", "pos": "noun", "article": "der", "plural": "Bärte" },
+    { "de": "Charakter", "en": "character, personality", "pos": "noun", "article": "der", "plural": "Charaktere" },
+    { "de": "Humor", "en": "humour", "pos": "noun", "article": "der", "plural": "-", "note": "no plural" },
+    { "de": "aussehen", "en": "to look (like)", "pos": "verb", "aux": "haben", "sep": "aus", "p2": "ausgesehen" },
+    { "de": "tragen", "en": "to wear; to carry", "pos": "verb", "aux": "haben", "p2": "getragen" },
+    { "de": "wirken", "en": "to seem, to appear", "pos": "verb", "aux": "haben", "p2": "gewirkt" },
+    { "de": "groß", "en": "tall, big", "pos": "adj" },
+    { "de": "klein", "en": "short, small", "pos": "adj" },
+    { "de": "schlank", "en": "slim", "pos": "adj" },
+    { "de": "sportlich", "en": "sporty", "pos": "adj" },
+    { "de": "blond", "en": "blond", "pos": "adj" },
+    { "de": "dunkel", "en": "dark", "pos": "adj" },
+    { "de": "freundlich", "en": "friendly", "pos": "adj" },
+    { "de": "höflich", "en": "polite", "pos": "adj" },
+    { "de": "lustig", "en": "funny", "pos": "adj" },
+    { "de": "ruhig", "en": "calm, quiet", "pos": "adj" },
+    { "de": "schüchtern", "en": "shy", "pos": "adj" },
+    { "de": "fleißig", "en": "hard-working", "pos": "adj" },
+    { "de": "geduldig", "en": "patient", "pos": "adj" }
+  ],
+  "mindmap": {
+    "label": "Adjektivendungen",
+    "children": [
+      {
+        "label": "nach der / die / das",
+        "note": "-e oder -en",
+        "children": [
+          { "label": "Nom: -e", "note": "der nette Mann" },
+          { "label": "Akk: m -en, f/n -e", "note": "den netten Mann" },
+          { "label": "Dativ + Plural: -en", "note": "dem netten Mann" }
+        ]
+      },
+      {
+        "label": "nach ein / kein / mein",
+        "children": [
+          { "label": "m Nom: -er", "note": "ein netter Mann" },
+          { "label": "n Nom/Akk: -es", "note": "ein nettes Kind" },
+          { "label": "sonst wie nach der" }
+        ]
+      },
+      {
+        "label": "ohne Artikel",
+        "note": "adjective shows the case",
+        "children": [
+          { "label": "-er -e -es -e", "note": "frischer Kaffee" },
+          { "label": "Dativ: -em -er -em -en" }
+        ]
+      },
+      {
+        "label": "nach sein",
+        "children": [
+          { "label": "no ending", "note": "Der Mann ist nett." }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "gap", "q": "Das ist ein ___ Mann. (nett)", "answer": ["netter"], "explain": "ein + masculine Nominativ: the adjective shows the gender with -er." },
+    { "type": "gap", "q": "Ich kenne den ___ Mann nicht. (jung)", "answer": ["jungen"], "explain": "den + masculine Akkusativ: after the definite article the ending is -en." },
+    { "type": "gap", "q": "Sie hat lange ___ Haare. (blond)", "answer": ["blonde"], "explain": "No article, plural Akkusativ: -e (like die)." },
+    { "type": "gap", "q": "Wir wohnen in einer ___ Wohnung. (klein)", "answer": ["kleinen"], "explain": "in + Dativ feminine: einer kleinen Wohnung. Dativ always ends in -en after an article." },
+    { "type": "mc", "q": "Das ist ein ___ Kind.", "options": ["freundliches", "freundlicher", "freundliche"], "answer": 0, "explain": "ein + neuter Nominativ: the adjective needs -es (ein freundliches Kind)." },
+    { "type": "mc", "q": "Ich habe eine ___ Kollegin.", "options": ["nette", "netten", "netter"], "answer": 0, "explain": "eine + feminine Akkusativ: -e." },
+    { "type": "mc", "q": "Mit dem ___ Chef spreche ich morgen.", "options": ["neuen", "neue", "neuer"], "answer": 0, "explain": "mit + Dativ, dem + masculine: -en." },
+    { "type": "article", "word": "Bart", "answer": "der", "explain": "der Bart, plural die Bärte." },
+    { "type": "article", "word": "Brille", "answer": "die", "explain": "Most nouns ending in -e are feminine: die Brille." },
+    { "type": "order", "words": ["Meine neue Kollegin", "ist", "sehr", "freundlich"], "answer": "Meine neue Kollegin ist sehr freundlich", "explain": "After sein the adjective has no ending (freundlich). Before the noun it does: meine neue Kollegin." },
+    { "type": "order", "words": ["Der junge Mann", "trägt", "einen grauen Mantel"], "answer": "Der junge Mann trägt einen grauen Mantel", "explain": "Der junge Mann: Nominativ after der → -e. Einen grauen Mantel: Akkusativ masculine → -en." },
+    { "type": "match", "pairs": [["ein junger Mann", "a young man"], ["eine ruhige Frau", "a calm woman"], ["ein lustiges Kind", "a funny child"], ["die netten Kollegen", "the nice coworkers"], ["mit kaltem Wasser", "with cold water"]], "explain": "Notice -er (masc. Nom. after ein), -e (fem.), -es (neuter), -en (plural after die) and -em (Dativ without article)." },
+    { "type": "translate", "en": "She has long dark hair.", "answer": ["Sie hat lange dunkle Haare", "Sie hat lange, dunkle Haare"], "explain": "No article, plural Akkusativ → -e on both adjectives: lange dunkle Haare." },
+    { "type": "translate", "en": "My new coworker is very friendly.", "answer": ["Mein neuer Kollege ist sehr freundlich", "Meine neue Kollegin ist sehr freundlich"], "explain": "mein + masculine Nominativ → neuer; feminine → neue. After sein: freundlich, no ending." }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Meine neue Kollegin ist sehr freundlich und hilfsbereit.", "en": "My new coworker is very friendly and helpful." },
+      { "de": "Mein Chef ist ein ruhiger und geduldiger Mann.", "en": "My boss is a calm and patient man." },
+      { "de": "Sie hat lange dunkle Haare und trägt eine runde Brille.", "en": "She has long dark hair and wears round glasses." },
+      { "de": "Ich suche eine ruhige Wohnung mit einem großen Balkon.", "en": "I am looking for a quiet apartment with a big balcony." },
+      { "de": "Ich habe einen netten Mitbewohner, er ist sehr lustig.", "en": "I have a nice flatmate, he is very funny." }
+    ],
+    "prompts": [
+      { "q": "Beschreibe deinen Chef oder deine Chefin. Wie sieht er oder sie aus und wie ist der Charakter?", "qEn": "Describe your boss. What are his or her looks and character like?", "model": "Mein Chef ist ein großer Mann mit kurzen grauen Haaren. Er ist ein sehr ruhiger und höflicher Mensch.", "hint": "Er ist ein … Mann. Er hat … Haare." },
+      { "q": "Du suchst eine WG. Der Vermieter fragt: Was für ein Mitbewohner passt zu dir?", "qEn": "You are looking for a shared flat. The landlord asks: what kind of flatmate suits you?", "model": "Ich suche einen netten und ruhigen Mitbewohner. Eine saubere Küche und ein freundliches Gespräch sind mir wichtig.", "hint": "Ich suche einen … Mitbewohner / eine … Mitbewohnerin." },
+      { "q": "Beschreibe einen Freund oder eine Freundin so genau wie möglich.", "qEn": "Describe a friend as precisely as possible.", "model": "Meine Freundin Sara ist eine kleine, schlanke Frau mit langen blonden Haaren. Sie ist lustig, fleißig und hat einen guten Humor.", "hint": "Sie / Er ist ein / eine … Sie hat … Haare." }
+    ]
+  }
+}

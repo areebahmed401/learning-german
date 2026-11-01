@@ -1,0 +1,164 @@
+{
+  "id": "a1-01-hallo",
+  "level": "A1",
+  "title": "Hallo!",
+  "concept": "Greetings, alphabet & German sounds",
+  "wordlist": "Begrüßung",
+  "minutes": 25,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+A1+greetings+alphabet+pronunciation",
+  "learn": [
+    {
+      "heading": "Greetings: formal and informal",
+      "text": "German has two ways of saying \"you\": **du** (informal: friends, family, students, colleagues in many companies) and **Sie** (formal: strangers, offices, doctors, shops). When in doubt, start with **Sie**. Greetings depend on the time of day. In the south (Bavaria) you also hear **Servus** and **Grüß Gott**; in Aachen and the west, **Moin** and **Tach** are common.",
+      "table": {
+        "head": ["", "formal (Sie)", "informal (du)"],
+        "rows": [
+          ["Hello", "Guten Tag!", "Hallo! / Hi!"],
+          ["Morning / evening", "Guten Morgen! / Guten Abend!", "Morgen! / Abend!"],
+          ["How are you?", "Wie geht es Ihnen?", "Wie geht's dir?"],
+          ["Goodbye", "Auf Wiedersehen!", "Tschüss! / Bis später!"]
+        ]
+      },
+      "examples": [
+        { "de": "Guten Morgen, Frau Müller!", "en": "Good morning, Ms Müller!" },
+        { "de": "Hallo Tim, wie geht's dir?", "en": "Hi Tim, how are you?" },
+        { "de": "Danke, gut. Und Ihnen?", "en": "Fine, thanks. And you?" },
+        { "de": "Auf Wiedersehen und einen schönen Tag!", "en": "Goodbye and have a nice day!" }
+      ]
+    },
+    {
+      "heading": "Introducing yourself",
+      "text": "Use **Ich heiße …** or **Mein Name ist …** to give your name. Ask with **Wie heißen Sie?** (formal) or **Wie heißt du?** (informal). After you hear a name, say **Freut mich!** (nice to meet you). If you did not understand something, say **Wie bitte?** or **Können Sie das bitte wiederholen?** Nobody minds, and it is the best way to practise.",
+      "examples": [
+        { "de": "Ich heiße Ahmed. Und wie heißen Sie?", "en": "My name is Ahmed. And what is your name?" },
+        { "de": "Freut mich, Herr Schmidt.", "en": "Nice to meet you, Mr Schmidt." },
+        { "de": "Wie bitte? Noch einmal, bitte.", "en": "Pardon? Once more, please." }
+      ]
+    },
+    {
+      "heading": "The alphabet and key sounds",
+      "text": "German is written the way it is spoken, so learn a few sound rules and you can read almost anything. The letters **ä, ö, ü** are real letters, and **ß** (Eszett) is a sharp *s* after long vowels. Spell your name on the phone like this: A-H-M-E-D (ah · heh · em · eh · deh). The most important sounds are in the table.",
+      "table": {
+        "head": ["Spelling", "Sound", "Example"],
+        "rows": [
+          ["ei", "like English \"eye\"", "ein, nein, Zeit"],
+          ["ie", "long \"ee\"", "Dienstag, Bier, vier"],
+          ["ch", "soft after e/i (ich), rough after a/o/u (Buch)", "ich, Küche, acht"],
+          ["sch / sp- / st-", "\"sh\" (also at the start of sp, st)", "Schule, sprechen, Straße"],
+          ["ä", "like \"e\" in \"bed\"", "spät, Käse"],
+          ["ö / ü", "round your lips: say \"e\" with an \"o\" / \"ee\" with an \"oo\" mouth", "schön, über"],
+          ["z", "\"ts\"", "Zeit, zehn, Zug"],
+          ["w", "English \"v\"", "Wasser, wohnen"],
+          ["v", "English \"f\" (mostly)", "Vater, viel, von"]
+        ]
+      },
+      "examples": [
+        { "de": "Ich buchstabiere: M-Ü-L-L-E-R.", "en": "I spell: M-Ü-L-L-E-R." },
+        { "de": "Wie schreibt man das?", "en": "How do you write that?" }
+      ]
+    }
+  ],
+  "tip": "Say the greeting that fits the clock: Morgen until about 11, Tag during the day, Abend from about 6 pm. Greet shopkeepers and neighbours first: in Germany a short \"Guten Tag\" when you walk into a Bäcker or a waiting room is normal and polite.",
+  "words": [
+    { "de": "Hallo", "en": "hello", "pos": "phrase" },
+    { "de": "Guten Morgen", "en": "good morning", "pos": "phrase" },
+    { "de": "Guten Tag", "en": "good day / hello (formal)", "pos": "phrase" },
+    { "de": "Guten Abend", "en": "good evening", "pos": "phrase" },
+    { "de": "Gute Nacht", "en": "good night", "pos": "phrase" },
+    { "de": "Tschüss", "en": "bye (informal)", "pos": "phrase" },
+    { "de": "Auf Wiedersehen", "en": "goodbye (formal)", "pos": "phrase" },
+    { "de": "Bis bald", "en": "see you soon", "pos": "phrase" },
+    { "de": "Bis morgen", "en": "see you tomorrow", "pos": "phrase" },
+    { "de": "Wie geht's?", "en": "how are you? (informal)", "pos": "phrase" },
+    { "de": "Wie geht es Ihnen?", "en": "how are you? (formal)", "pos": "phrase" },
+    { "de": "Danke", "en": "thank you", "pos": "phrase" },
+    { "de": "Bitte", "en": "please; you're welcome", "pos": "phrase" },
+    { "de": "Entschuldigung", "en": "excuse me; sorry", "pos": "phrase" },
+    { "de": "Freut mich", "en": "nice to meet you", "pos": "phrase" },
+    { "de": "Wie bitte?", "en": "pardon?", "pos": "phrase" },
+    { "de": "Ich heiße …", "en": "my name is …", "pos": "phrase" },
+    { "de": "Sprechen Sie Englisch?", "en": "do you speak English?", "pos": "phrase" },
+    { "de": "Ja", "en": "yes", "pos": "adv" },
+    { "de": "Nein", "en": "no", "pos": "adv" },
+    { "de": "gut", "en": "good; well", "pos": "adj" },
+    { "de": "Herr", "en": "Mr; gentleman", "pos": "noun", "article": "der", "plural": "Herren" },
+    { "de": "Frau", "en": "Ms; woman", "pos": "noun", "article": "die", "plural": "Frauen" },
+    { "de": "Name", "en": "name", "pos": "noun", "article": "der", "plural": "Namen" }
+  ],
+  "mindmap": {
+    "label": "Hallo!",
+    "children": [
+      {
+        "label": "Formal · Sie",
+        "note": "strangers, offices, doctor",
+        "children": [
+          { "label": "Guten Tag", "note": "Guten Morgen / Abend" },
+          { "label": "Wie geht es Ihnen?" },
+          { "label": "Auf Wiedersehen" }
+        ]
+      },
+      {
+        "label": "Informal · du",
+        "note": "friends, WG, students",
+        "children": [
+          { "label": "Hallo / Hi" },
+          { "label": "Wie geht's dir?" },
+          { "label": "Tschüss / Bis bald" }
+        ]
+      },
+      {
+        "label": "Introduce yourself",
+        "children": [
+          { "label": "Ich heiße …" },
+          { "label": "Freut mich" },
+          { "label": "Wie bitte?", "note": "when you did not understand" }
+        ]
+      },
+      {
+        "label": "Sounds",
+        "children": [
+          { "label": "ei = eye, ie = ee", "note": "nein, vier" },
+          { "label": "ch and sch", "note": "ich, Buch, Schule" },
+          { "label": "z = ts, w = v, v = f", "note": "Zeit, Wasser, Vater" }
+        ]
+      },
+      {
+        "label": "Alphabet",
+        "children": [
+          { "label": "ä ö ü ß", "note": "real letters" },
+          { "label": "Spell your name", "note": "M-Ü-L-L-E-R" }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "mc", "q": "You enter a doctor's office at 10 am. What do you say?", "options": ["Hi!", "Guten Morgen!", "Gute Nacht!"], "answer": 1, "explain": "Gute Nacht is only for going to bed. At the doctor's use a formal greeting: Guten Morgen." },
+    { "type": "mc", "q": "Which sentence is informal (du)?", "options": ["Wie geht es Ihnen?", "Wie heißen Sie?", "Wie geht's dir?"], "answer": 2, "explain": "dir belongs to du. Ihnen and Sie are formal." },
+    { "type": "mc", "q": "How do you pronounce the ie in \"Dienstag\"?", "options": ["like English \"eye\"", "long \"ee\"", "like \"ye\""], "answer": 1, "explain": "ie is always a long ee sound; ei is the \"eye\" sound." },
+    { "type": "mc", "q": "A stranger speaks fast and you did not understand. What do you say?", "options": ["Wie bitte?", "Tschüss!", "Freut mich!"], "answer": 0, "explain": "Wie bitte? means \"pardon?\" and asks the person to repeat." },
+    { "type": "gap", "q": "Ich ___ Ahmed.", "answer": ["heiße"], "explain": "heißen with ich: ich heiße." },
+    { "type": "gap", "q": "Guten ___, Herr Schmidt! (it is 8 am)", "answer": ["Morgen"], "explain": "Until about 11 am you say Guten Morgen." },
+    { "type": "gap", "q": "Wie geht ___ Ihnen?", "answer": ["es"], "explain": "The formal question is Wie geht es Ihnen? Informal: Wie geht's dir?" },
+    { "type": "article", "word": "Herr", "answer": "der", "explain": "Male people are masculine: der Herr." },
+    { "type": "article", "word": "Frau", "answer": "die", "explain": "Female people are feminine: die Frau." },
+    { "type": "match", "pairs": [["Danke", "thank you"], ["Bitte", "please / you're welcome"], ["Entschuldigung", "excuse me"], ["Tschüss", "bye"], ["Freut mich", "nice to meet you"]], "explain": "These five phrases carry you through every shop and office." },
+    { "type": "order", "words": ["heiße", "Ich", "Ali"], "answer": "Ich heiße Ali", "explain": "In a statement the verb is in position 2: Ich (1) heiße (2) Ali." },
+    { "type": "order", "words": ["Wie", "heißen", "Sie"], "answer": "Wie heißen Sie", "explain": "A question word comes first, then the verb: Wie heißen Sie?" },
+    { "type": "translate", "en": "Good evening, nice to meet you.", "answer": ["Guten Abend, freut mich", "Guten Abend. Freut mich", "Guten Abend, schön Sie kennenzulernen"], "explain": "Guten Abend is the evening greeting; Freut mich is the standard reply when you meet someone." },
+    { "type": "translate", "en": "Do you speak English?", "answer": ["Sprechen Sie Englisch", "Sprichst du Englisch"], "explain": "Yes/no question: verb first. Formal: Sprechen Sie …? Informal: Sprichst du …?" }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Guten Tag! Ich heiße Ahmed.", "en": "Hello! My name is Ahmed." },
+      { "de": "Freut mich, Frau Weber.", "en": "Nice to meet you, Ms Weber." },
+      { "de": "Wie geht es Ihnen? Danke, gut.", "en": "How are you? Fine, thanks." },
+      { "de": "Entschuldigung, wie bitte?", "en": "Excuse me, pardon?" },
+      { "de": "Tschüss, bis morgen!", "en": "Bye, see you tomorrow!" }
+    ],
+    "prompts": [
+      { "q": "Guten Tag! Wie heißen Sie?", "qEn": "Hello! What is your name? (new neighbour in the Treppenhaus)", "model": "Guten Tag! Ich heiße Ahmed. Freut mich!", "hint": "Ich heiße … Freut mich!" },
+      { "q": "Hallo! Wie geht's dir?", "qEn": "Hi! How are you? (new roommate in the WG)", "model": "Hallo! Danke, gut. Und dir?", "hint": "Danke, gut. Und dir?" },
+      { "q": "Guten Morgen! Wie kann ich Ihnen helfen?", "qEn": "Good morning! How can I help you? (at the Bürgeramt)", "model": "Guten Morgen! Entschuldigung, sprechen Sie Englisch?", "hint": "Sprechen Sie Englisch?" }
+    ]
+  }
+}

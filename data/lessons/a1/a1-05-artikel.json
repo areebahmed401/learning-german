@@ -1,0 +1,159 @@
+{
+  "id": "a1-05-artikel",
+  "level": "A1",
+  "title": "Artikel & Genus",
+  "concept": "Articles and gender: der, die, das, ein, eine",
+  "wordlist": "Familie",
+  "minutes": 25,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+A1+articles+der+die+das",
+  "learn": [
+    {
+      "heading": "Every noun has a gender",
+      "text": "German nouns are **masculine**, **feminine** or **neuter**. The article shows the gender: **der** (masculine), **die** (feminine), **das** (neuter). In the plural, every noun takes **die**. Nouns are always written with a capital letter. Always learn a noun together with its article, as one unit: *der Tisch*, not just *Tisch*.",
+      "table": {
+        "head": ["", "masculine", "feminine", "neuter", "plural"],
+        "rows": [
+          ["definite (the)", "der Vater", "die Mutter", "das Kind", "die Eltern"],
+          ["indefinite (a)", "ein Vater", "eine Mutter", "ein Kind", "– Eltern"]
+        ]
+      },
+      "examples": [
+        { "de": "Das ist der Bruder von Anna.", "en": "That is Anna's brother." },
+        { "de": "Die Oma wohnt in München.", "en": "Grandma lives in Munich." },
+        { "de": "Das Baby schläft.", "en": "The baby is sleeping." }
+      ]
+    },
+    {
+      "heading": "ein & eine: a / an",
+      "text": "Use **ein** for masculine and neuter nouns and **eine** for feminine nouns. There is no plural form of *ein*: *Ich habe Geschwister.* When you mention something for the first time, use *ein/eine*; after that, use *der/die/das*.",
+      "examples": [
+        { "de": "Ich habe einen Bruder und eine Schwester.", "en": "I have a brother and a sister." },
+        { "de": "Da ist ein Kind. Das Kind spielt.", "en": "There is a child. The child is playing." },
+        { "de": "Hast du eine Tante in Berlin?", "en": "Do you have an aunt in Berlin?" }
+      ]
+    },
+    {
+      "heading": "Clues to the gender",
+      "text": "Gender is often random, but word endings give strong clues. Words ending in **-ung, -heit, -keit, -schaft, -ion** and most nouns ending in **-e** are feminine. Words ending in **-chen** and **-lein** are always neuter. In compound nouns, the **last word decides the gender**: *das Haus + die Tür = die Haustür*.",
+      "table": {
+        "head": ["der (m)", "die (f)", "das (n)"],
+        "rows": [
+          ["male people: der Vater, der Onkel", "female people: die Mutter, die Tante", "-chen / -lein: das Mädchen, das Brüderlein"],
+          ["days, months: der Montag, der Mai", "-ung, -heit, -keit: die Zeitung, die Freiheit", "infinitives used as nouns: das Essen"],
+          ["-er (people/tools): der Lehrer, der Computer", "most nouns in -e: die Familie, die Tasse", "young beings: das Kind, das Baby"]
+        ]
+      },
+      "examples": [
+        { "de": "Das Mädchen ist meine Cousine.", "en": "The girl is my (female) cousin." },
+        { "de": "Die Wohnung ist klein.", "en": "The apartment is small." }
+      ]
+    }
+  ],
+  "tip": "Colour-code every noun card in Anki: der = blue, die = red, das = green. Your brain remembers the colour along with the word. (This app uses the same colours.)",
+  "words": [
+    { "de": "Familie", "en": "family", "pos": "noun", "article": "die", "plural": "Familien" },
+    { "de": "Mutter", "en": "mother", "pos": "noun", "article": "die", "plural": "Mütter" },
+    { "de": "Vater", "en": "father", "pos": "noun", "article": "der", "plural": "Väter" },
+    { "de": "Eltern", "en": "parents", "pos": "noun", "article": "die", "plural": "-", "note": "plural only" },
+    { "de": "Kind", "en": "child", "pos": "noun", "article": "das", "plural": "Kinder" },
+    { "de": "Sohn", "en": "son", "pos": "noun", "article": "der", "plural": "Söhne" },
+    { "de": "Tochter", "en": "daughter", "pos": "noun", "article": "die", "plural": "Töchter" },
+    { "de": "Bruder", "en": "brother", "pos": "noun", "article": "der", "plural": "Brüder" },
+    { "de": "Schwester", "en": "sister", "pos": "noun", "article": "die", "plural": "Schwestern" },
+    { "de": "Geschwister", "en": "siblings", "pos": "noun", "article": "die", "plural": "-", "note": "plural only" },
+    { "de": "Großvater", "en": "grandfather", "pos": "noun", "article": "der", "plural": "Großväter" },
+    { "de": "Großmutter", "en": "grandmother", "pos": "noun", "article": "die", "plural": "Großmütter" },
+    { "de": "Oma", "en": "grandma", "pos": "noun", "article": "die", "plural": "Omas" },
+    { "de": "Opa", "en": "grandpa", "pos": "noun", "article": "der", "plural": "Opas" },
+    { "de": "Onkel", "en": "uncle", "pos": "noun", "article": "der", "plural": "Onkel" },
+    { "de": "Tante", "en": "aunt", "pos": "noun", "article": "die", "plural": "Tanten" },
+    { "de": "Cousin", "en": "cousin (male)", "pos": "noun", "article": "der", "plural": "Cousins" },
+    { "de": "Cousine", "en": "cousin (female)", "pos": "noun", "article": "die", "plural": "Cousinen" },
+    { "de": "Mann", "en": "man; husband", "pos": "noun", "article": "der", "plural": "Männer" },
+    { "de": "Frau", "en": "woman; wife", "pos": "noun", "article": "die", "plural": "Frauen" },
+    { "de": "Baby", "en": "baby", "pos": "noun", "article": "das", "plural": "Babys" },
+    { "de": "Mädchen", "en": "girl", "pos": "noun", "article": "das", "plural": "Mädchen" },
+    { "de": "Junge", "en": "boy", "pos": "noun", "article": "der", "plural": "Jungen" },
+    { "de": "verheiratet", "en": "married", "pos": "adj" },
+    { "de": "ledig", "en": "single (not married)", "pos": "adj" }
+  ],
+  "mindmap": {
+    "label": "Artikel",
+    "children": [
+      {
+        "label": "der · masculine",
+        "note": "blue",
+        "children": [
+          { "label": "male people", "note": "der Vater, der Onkel" },
+          { "label": "days, months, seasons", "note": "der Montag, der Winter" },
+          { "label": "-er people/tools", "note": "der Lehrer, der Computer" }
+        ]
+      },
+      {
+        "label": "die · feminine",
+        "note": "red",
+        "children": [
+          { "label": "female people", "note": "die Mutter, die Tante" },
+          { "label": "-ung -heit -keit -schaft -ion", "note": "die Zeitung, die Nation" },
+          { "label": "most nouns in -e", "note": "die Familie, die Tasse" }
+        ]
+      },
+      {
+        "label": "das · neuter",
+        "note": "green",
+        "children": [
+          { "label": "-chen / -lein", "note": "always neuter: das Mädchen" },
+          { "label": "young beings", "note": "das Kind, das Baby" },
+          { "label": "verbs as nouns", "note": "das Essen, das Lernen" }
+        ]
+      },
+      {
+        "label": "Plural · die",
+        "note": "every noun!",
+        "children": [ { "label": "die Kinder, die Eltern" } ]
+      },
+      {
+        "label": "ein / eine",
+        "children": [
+          { "label": "ein → der & das", "note": "ein Vater, ein Kind" },
+          { "label": "eine → die", "note": "eine Mutter" },
+          { "label": "no plural", "note": "Ich habe Geschwister." }
+        ]
+      },
+      {
+        "label": "Compound nouns",
+        "note": "last word decides",
+        "children": [ { "label": "das Haus + die Tür", "note": "→ die Haustür" } ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "article", "word": "Vater", "answer": "der", "explain": "Male people are masculine: der Vater." },
+    { "type": "article", "word": "Mädchen", "answer": "das", "explain": "Every noun ending in -chen is neuter, even when it means a girl." },
+    { "type": "article", "word": "Zeitung", "answer": "die", "explain": "Nouns ending in -ung are always feminine." },
+    { "type": "article", "word": "Familie", "answer": "die", "explain": "Most nouns ending in -e are feminine." },
+    { "type": "article", "word": "Kind", "answer": "das", "explain": "Young beings are often neuter: das Kind, das Baby." },
+    { "type": "mc", "q": "Ich habe ___ Schwester.", "options": ["ein", "eine", "einen"], "answer": 1, "explain": "Schwester is feminine (die Schwester) → eine." },
+    { "type": "mc", "q": "Which article do ALL plural nouns take?", "options": ["der", "die", "das"], "answer": 1, "explain": "Plural is always die: die Kinder, die Väter, die Mütter." },
+    { "type": "gap", "q": "Da ist ein Baby. ___ Baby schläft.", "answer": ["Das"], "explain": "Second mention → definite article. Baby is neuter: das Baby." },
+    { "type": "gap", "q": "Das ist ___ Onkel von Tim.", "answer": ["der"], "explain": "Onkel is masculine: der Onkel." },
+    { "type": "mc", "q": "das Haus + die Tür = ___ Haustür", "options": ["der", "die", "das"], "answer": 1, "explain": "In compounds the last word decides: die Tür → die Haustür." },
+    { "type": "match", "pairs": [["die Tochter", "daughter"], ["der Sohn", "son"], ["die Eltern", "parents"], ["die Geschwister", "siblings"], ["der Opa", "grandpa"]], "explain": "Learn each noun with its article as one unit." },
+    { "type": "order", "words": ["eine", "Ich", "Tante", "habe", "in Berlin"], "answer": "Ich habe eine Tante in Berlin", "explain": "Statement: subject, then the verb in position 2, then the rest." },
+    { "type": "translate", "en": "The grandmother lives in Hamburg.", "answer": ["Die Großmutter wohnt in Hamburg", "Die Oma wohnt in Hamburg"], "explain": "Großmutter is feminine → die. wohnen → sie wohnt." }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Das ist meine Familie.", "en": "This is my family." },
+      { "de": "Ich habe einen Bruder und eine Schwester.", "en": "I have a brother and a sister." },
+      { "de": "Meine Eltern wohnen in Pakistan.", "en": "My parents live in Pakistan." },
+      { "de": "Mein Bruder ist verheiratet und hat zwei Kinder.", "en": "My brother is married and has two children." },
+      { "de": "Die Tochter heißt Sara, der Sohn heißt Ali.", "en": "The daughter is called Sara, the son is called Ali." }
+    ],
+    "prompts": [
+      { "q": "Erzähl von deiner Familie. Hast du Geschwister?", "qEn": "Tell me about your family. Do you have siblings?", "model": "Ja, ich habe einen Bruder und zwei Schwestern. Mein Bruder wohnt in Lahore.", "hint": "Ich habe einen Bruder / eine Schwester / keine Geschwister." },
+      { "q": "Wo wohnen deine Eltern?", "qEn": "Where do your parents live?", "model": "Meine Eltern wohnen in Pakistan, aber meine Tante wohnt in Deutschland.", "hint": "Meine Eltern wohnen in …" },
+      { "q": "Bist du verheiratet?", "qEn": "Are you married?", "model": "Nein, ich bin ledig.", "hint": "Ja, ich bin verheiratet. / Nein, ich bin ledig." }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "id": "a2-03-dativ-praepositionen",
+  "level": "A2",
+  "title": "aus, bei, mit…",
+  "concept": "Dative prepositions",
+  "wordlist": "Verkehr & Unterwegs",
+  "minutes": 25,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+A2+Dativ+Pr%C3%A4positionen+aus+bei+mit+nach+seit+von+zu",
+  "learn": [
+    {
+      "heading": "Seven prepositions, always dative",
+      "text": "After **aus, bei, mit, nach, seit, von, zu** the noun is always in the **Dativ**, no exceptions. Learn them as a group. A classic memory line: *aus, bei, mit, nach, seit, von, zu – fährt der Dativ-Zug.*",
+      "table": {
+        "head": ["Preposition", "Meaning", "Example"],
+        "rows": [
+          ["aus", "out of, from (origin, material)", "Ich komme aus Pakistan."],
+          ["bei", "at (a person's place, a company)", "Ich arbeite bei Siemens."],
+          ["mit", "with; by (transport)", "Ich fahre mit dem Bus."],
+          ["nach", "to (cities, countries); after", "Nach der Arbeit gehe ich heim."],
+          ["seit", "since, for (time up to now)", "Ich wohne seit zwei Jahren hier."],
+          ["von", "from; of; by", "Das ist ein Brief von meiner Bank."],
+          ["zu", "to (people, places, events)", "Ich gehe zum Arzt."]
+        ]
+      },
+      "examples": [
+        { "de": "Ich fahre jeden Tag mit der U-Bahn zur Arbeit.", "en": "I take the underground to work every day." },
+        { "de": "Er kommt aus der Türkei und wohnt seit einem Jahr in Aachen.", "en": "He comes from Turkey and has lived in Aachen for a year." },
+        { "de": "Nach dem Meeting gehe ich zum Bahnhof.", "en": "After the meeting I go to the station." }
+      ]
+    },
+    {
+      "heading": "nach, zu or in?",
+      "text": "Use **nach** for cities, countries and without an article: *nach Berlin, nach Deutschland, nach Hause.* Use **zu** for people and for places like the doctor, the station, the bank: *zum Arzt, zur Bank.* And remember **zu Hause** = at home, **nach Hause** = (going) home. **seit** with the present tense says how long something has lasted: *Ich lerne seit einem Jahr Deutsch.*",
+      "examples": [
+        { "de": "Wir fahren im Sommer nach Pakistan.", "en": "We are going to Pakistan in the summer." },
+        { "de": "Ich muss heute noch zur Post.", "en": "I still have to go to the post office today." },
+        { "de": "Um sechs Uhr bin ich zu Hause.", "en": "At six o'clock I am at home." },
+        { "de": "Ich lerne seit einem Jahr Deutsch.", "en": "I have been learning German for a year." }
+      ]
+    },
+    {
+      "heading": "Contractions",
+      "text": "In everyday speech the preposition and the article are merged: **zu dem → zum**, **zu der → zur**, **bei dem → beim**, **von dem → vom**. Say *zum Arzt, zur Bank, beim Bäcker, vom Bahnhof.* In normal sentences always use the short form; the long form only appears when the article is stressed.",
+      "table": {
+        "head": ["long form", "short form", "example"],
+        "rows": [
+          ["zu dem", "zum", "Ich fahre zum Flughafen."],
+          ["zu der", "zur", "Ich gehe zur Haltestelle."],
+          ["bei dem", "beim", "Ich war gestern beim Zahnarzt."],
+          ["von dem", "vom", "Ich komme gerade vom Bahnhof."]
+        ]
+      },
+      "examples": [
+        { "de": "Wie komme ich zum Hauptbahnhof?", "en": "How do I get to the main station?" },
+        { "de": "Ich war gestern beim Bäcker.", "en": "I was at the baker's yesterday." }
+      ]
+    }
+  ],
+  "tip": "For any vehicle say 'mit + dem/der': mit dem Bus, mit der U-Bahn, mit dem Auto. The only exception is 'zu Fuß' (on foot).",
+  "words": [
+    { "de": "Bus", "en": "bus", "pos": "noun", "article": "der", "plural": "Busse" },
+    { "de": "Straßenbahn", "en": "tram", "pos": "noun", "article": "die", "plural": "Straßenbahnen" },
+    { "de": "U-Bahn", "en": "underground, subway", "pos": "noun", "article": "die", "plural": "U-Bahnen" },
+    { "de": "Haltestelle", "en": "stop (bus, tram)", "pos": "noun", "article": "die", "plural": "Haltestellen" },
+    { "de": "Gleis", "en": "platform, track", "pos": "noun", "article": "das", "plural": "Gleise" },
+    { "de": "Fahrrad", "en": "bicycle", "pos": "noun", "article": "das", "plural": "Fahrräder" },
+    { "de": "Auto", "en": "car", "pos": "noun", "article": "das", "plural": "Autos" },
+    { "de": "Ampel", "en": "traffic light", "pos": "noun", "article": "die", "plural": "Ampeln" },
+    { "de": "Kreuzung", "en": "crossroads, junction", "pos": "noun", "article": "die", "plural": "Kreuzungen" },
+    { "de": "Stau", "en": "traffic jam", "pos": "noun", "article": "der", "plural": "Staus" },
+    { "de": "Verspätung", "en": "delay", "pos": "noun", "article": "die", "plural": "Verspätungen" },
+    { "de": "Führerschein", "en": "driving licence", "pos": "noun", "article": "der", "plural": "Führerscheine" },
+    { "de": "Fahrplan", "en": "timetable", "pos": "noun", "article": "der", "plural": "Fahrpläne" },
+    { "de": "Weg", "en": "way, path", "pos": "noun", "article": "der", "plural": "Wege" },
+    { "de": "Ecke", "en": "corner", "pos": "noun", "article": "die", "plural": "Ecken" },
+    { "de": "abbiegen", "en": "to turn (left/right)", "pos": "verb", "aux": "sein", "sep": "ab", "p2": "abgebogen" },
+    { "de": "umsteigen", "en": "to change (trains)", "pos": "verb", "aux": "sein", "sep": "um", "p2": "umgestiegen" },
+    { "de": "laufen", "en": "to walk, to run", "pos": "verb", "aux": "sein", "p2": "gelaufen" },
+    { "de": "warten", "en": "to wait", "pos": "verb", "aux": "haben", "p2": "gewartet" },
+    { "de": "parken", "en": "to park", "pos": "verb", "aux": "haben", "p2": "geparkt" },
+    { "de": "geradeaus", "en": "straight ahead", "pos": "adv" },
+    { "de": "links", "en": "left", "pos": "adv" },
+    { "de": "rechts", "en": "right", "pos": "adv" },
+    { "de": "zu Fuß", "en": "on foot", "pos": "phrase" }
+  ],
+  "mindmap": {
+    "label": "Dativ-Präpositionen",
+    "note": "aus bei mit nach seit von zu",
+    "children": [
+      {
+        "label": "aus",
+        "children": [
+          { "label": "origin", "note": "aus Pakistan" },
+          { "label": "out of", "note": "aus dem Haus" }
+        ]
+      },
+      {
+        "label": "bei · mit",
+        "children": [
+          { "label": "bei: at a person/company", "note": "bei Siemens, beim Arzt" },
+          { "label": "mit: with / by transport", "note": "mit dem Bus" }
+        ]
+      },
+      {
+        "label": "nach · zu",
+        "children": [
+          { "label": "nach: cities, countries, Hause", "note": "nach Berlin" },
+          { "label": "zu: people and places", "note": "zum Arzt, zur Bank" },
+          { "label": "zu Hause = at home" }
+        ]
+      },
+      {
+        "label": "seit · von",
+        "children": [
+          { "label": "seit + present", "note": "seit einem Jahr" },
+          { "label": "von … bis", "note": "vom Bahnhof zum Büro" }
+        ]
+      },
+      {
+        "label": "Verschmelzung",
+        "children": [
+          { "label": "zum, zur, beim, vom" }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "mc", "q": "Ich fahre jeden Tag ___ dem Bus zur Arbeit.", "options": ["mit", "nach", "seit"], "answer": 0, "explain": "By transport: mit + dative (mit dem Bus)." },
+    { "type": "mc", "q": "Ich wohne ___ drei Jahren in Aachen.", "options": ["seit", "von", "bei"], "answer": 0, "explain": "seit + dative with the present tense: it started three years ago and still continues." },
+    { "type": "mc", "q": "Wir fahren im Sommer ___ Spanien.", "options": ["nach", "zu", "bei"], "answer": 0, "explain": "Countries and cities without an article take nach." },
+    { "type": "gap", "q": "Ich arbeite ___ Siemens.", "answer": ["bei"], "explain": "bei is used for working at a company: bei Siemens, bei der Bahn." },
+    { "type": "gap", "q": "Ich gehe heute ___ Arzt.", "answer": ["zum", "zu dem"], "explain": "People and places like the doctor take zu + dative. zu dem is shortened to zum." },
+    { "type": "gap", "q": "Er kommt ___ der Türkei.", "answer": ["aus"], "explain": "Origin of a person: aus + dative (aus der Türkei, aus dem Iran)." },
+    { "type": "gap", "q": "Ich komme gerade ___ Bahnhof.", "answer": ["vom", "von dem"], "explain": "von + dative. von dem is shortened to vom." },
+    { "type": "article", "word": "Haltestelle", "answer": "die", "explain": "Nouns ending in -stelle / -e are mostly feminine: die Haltestelle." },
+    { "type": "article", "word": "Fahrrad", "answer": "das", "explain": "das Fahrrad: the last part of the compound (das Rad) decides the gender." },
+    { "type": "order", "words": ["Ich", "fahre", "jeden Tag", "mit der U-Bahn", "zur Arbeit"], "answer": "Ich fahre jeden Tag mit der U-Bahn zur Arbeit", "explain": "Time, then means of transport (mit + dative), then the goal (zu + dative) after the verb in position 2." },
+    { "type": "order", "words": ["Nach dem Meeting", "gehe", "ich", "zum Bahnhof"], "answer": "Nach dem Meeting gehe ich zum Bahnhof", "explain": "Starting with nach dem Meeting puts the verb in position 2 and the subject after it." },
+    { "type": "match", "pairs": [["aus", "origin / out of"], ["mit", "with / by (transport)"], ["seit", "since / for (time)"], ["bei", "at (a person or firm)"], ["zu", "to (people, places)"]], "explain": "All of these always take the dative." },
+    { "type": "translate", "en": "I have been living in Aachen for two years.", "answer": ["Ich wohne seit zwei Jahren in Aachen", "Seit zwei Jahren wohne ich in Aachen"], "explain": "Use the present tense with seit + dative: seit zwei Jahren (dative plural with -n)." },
+    { "type": "translate", "en": "I go to the doctor by bike.", "answer": ["Ich fahre mit dem Fahrrad zum Arzt", "Ich fahre mit dem Rad zum Arzt"], "explain": "mit + dative for the bike, zu + dative for the doctor: zum Arzt." }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Ich fahre jeden Morgen mit dem Fahrrad zur Arbeit.", "en": "I cycle to work every morning." },
+      { "de": "Entschuldigung, wie komme ich zum Hauptbahnhof?", "en": "Excuse me, how do I get to the main station?" },
+      { "de": "Gehen Sie geradeaus und dann links.", "en": "Go straight ahead and then left." },
+      { "de": "Der Zug nach Köln hat zehn Minuten Verspätung.", "en": "The train to Cologne is ten minutes late." },
+      { "de": "Ich wohne seit zwei Jahren bei einer netten Familie.", "en": "I have lived with a nice family for two years." }
+    ],
+    "prompts": [
+      { "q": "Wie kommst du zur Arbeit? Wie lange brauchst du?", "qEn": "How do you get to work? How long is the journey?", "model": "Ich fahre mit der Straßenbahn zur Arbeit. Von meiner Wohnung zum Büro brauche ich ungefähr vierzig Minuten.", "hint": "Ich fahre mit dem / der … zur Arbeit." },
+      { "q": "Ein Tourist am Bahnhof fragt dich nach dem Weg zum Dom. Was sagst du?", "qEn": "A tourist at the station asks you the way to the cathedral. What do you say?", "model": "Gehen Sie hier geradeaus und an der Ampel links. Dann sehen Sie den Dom. Zu Fuß sind es zehn Minuten.", "hint": "Gehen Sie geradeaus / links / rechts." },
+      { "q": "Seit wann wohnst du in Deutschland und woher kommst du?", "qEn": "Since when have you lived in Germany and where do you come from?", "model": "Ich komme aus Pakistan und wohne seit zwei Jahren in Aachen. Ich arbeite bei einer Firma für Maschinenbau.", "hint": "Ich komme aus … Ich wohne seit … in …" }
+    ]
+  }
+}

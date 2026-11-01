@@ -1,0 +1,150 @@
+{
+  "id": "b1-04-passiv",
+  "level": "B1",
+  "title": "Passiv",
+  "concept": "Passive voice in present and past",
+  "wordlist": "Umwelt & Recycling",
+  "minutes": 30,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+B1+Passiv+passive+voice",
+  "learn": [
+    {
+      "heading": "Passiv Präsens: werden + Partizip II",
+      "text": "In the **Passiv** the action matters more than who does it. The object of the active sentence becomes the **subject**. Form: **werden** (conjugated, position 2) + **Partizip II** (at the end). Active *Man trennt den Müll* becomes *Der Müll wird getrennt*. This is the typical voice for **describing processes**, for example in technical texts.",
+      "table": {
+        "head": ["Aktiv", "Passiv"],
+        "rows": [
+          ["Man trennt den Müll.", "Der Müll wird getrennt."],
+          ["Die Stadt sammelt die Flaschen.", "Die Flaschen werden gesammelt."],
+          ["Man filtert die Luft.", "Die Luft wird gefiltert."]
+        ]
+      },
+      "examples": [
+        { "de": "Das Altglas wird in den Container geworfen.", "en": "The waste glass is thrown into the container." },
+        { "de": "In der Anlage wird das Kohlendioxid aus der Luft abgetrennt.", "en": "In the plant the carbon dioxide is separated from the air." },
+        { "de": "Die Flaschen werden im Supermarkt zurückgenommen.", "en": "The bottles are taken back in the supermarket." }
+      ]
+    },
+    {
+      "heading": "Passiv Präteritum: wurde + Partizip II",
+      "text": "For the past, put **werden** into the Präteritum: **wurde / wurden**. Like the Präteritum in general, this is the usual form for **writing and reports**. The Partizip II stays at the end.",
+      "table": {
+        "head": ["", "Präsens", "Präteritum"],
+        "rows": [
+          ["ich", "werde gefragt", "wurde gefragt"],
+          ["du", "wirst gefragt", "wurdest gefragt"],
+          ["er / sie / es", "wird gefragt", "wurde gefragt"],
+          ["wir / sie", "werden gefragt", "wurden gefragt"]
+        ]
+      },
+      "examples": [
+        { "de": "Früher wurde viel Plastik verbrannt.", "en": "In the past a lot of plastic was burned." },
+        { "de": "Das Windrad wurde 2015 gebaut.", "en": "The wind turbine was built in 2015." },
+        { "de": "Die Batterien wurden getrennt gesammelt.", "en": "The batteries were collected separately." }
+      ]
+    },
+    {
+      "heading": "von, durch and no agent at all",
+      "text": "Often the doer is not mentioned. If you want to name a **person or institution**, use **von + Dativ**. For a **cause or means** (something that is not a person acting on purpose), use **durch + Akkusativ**. A sentence without any real subject can use a placeholder *es* or just start with something else.",
+      "examples": [
+        { "de": "Das Gebäude wurde von einem Architekten aus Berlin geplant.", "en": "The building was designed by an architect from Berlin." },
+        { "de": "Der Müll wird von der Stadt abgeholt.", "en": "The waste is collected by the city." },
+        { "de": "Viele Pflanzen wurden durch die Hitze zerstört.", "en": "Many plants were destroyed by the heat." }
+      ]
+    }
+  ],
+  "tip": "Do not confuse werden in the Passiv (werden + Partizip II) with the future (werden + Infinitiv). Check the end of the sentence: a Partizip II (gebaut) means passive, an infinitive (bauen) means future.",
+  "words": [
+    { "de": "Müll", "en": "waste, rubbish", "pos": "noun", "article": "der", "plural": "-" },
+    { "de": "Mülltrennung", "en": "waste separation", "pos": "noun", "article": "die", "plural": "-" },
+    { "de": "Pfand", "en": "bottle deposit", "pos": "noun", "article": "das", "plural": "-" },
+    { "de": "Flasche", "en": "bottle", "pos": "noun", "article": "die", "plural": "Flaschen" },
+    { "de": "Glas", "en": "glass", "pos": "noun", "article": "das", "plural": "Gläser" },
+    { "de": "Papier", "en": "paper", "pos": "noun", "article": "das", "plural": "Papiere" },
+    { "de": "Plastik", "en": "plastic", "pos": "noun", "article": "das", "plural": "-" },
+    { "de": "Verpackung", "en": "packaging", "pos": "noun", "article": "die", "plural": "Verpackungen" },
+    { "de": "Umwelt", "en": "environment", "pos": "noun", "article": "die", "plural": "-" },
+    { "de": "Klimawandel", "en": "climate change", "pos": "noun", "article": "der", "plural": "-" },
+    { "de": "Treibhausgas", "en": "greenhouse gas", "pos": "noun", "article": "das", "plural": "Treibhausgase" },
+    { "de": "Kohlendioxid", "en": "carbon dioxide", "pos": "noun", "article": "das", "plural": "-" },
+    { "de": "Energie", "en": "energy", "pos": "noun", "article": "die", "plural": "Energien" },
+    { "de": "Windrad", "en": "wind turbine", "pos": "noun", "article": "das", "plural": "Windräder" },
+    { "de": "Solaranlage", "en": "solar power plant", "pos": "noun", "article": "die", "plural": "Solaranlagen" },
+    { "de": "recyceln", "en": "to recycle", "pos": "verb", "aux": "haben", "p2": "recycelt" },
+    { "de": "entsorgen", "en": "to dispose of", "pos": "verb", "aux": "haben", "p2": "entsorgt" },
+    { "de": "trennen", "en": "to separate", "pos": "verb", "aux": "haben", "p2": "getrennt" },
+    { "de": "sparen", "en": "to save", "pos": "verb", "aux": "haben", "p2": "gespart" },
+    { "de": "verbrauchen", "en": "to consume, to use up", "pos": "verb", "aux": "haben", "p2": "verbraucht" },
+    { "de": "herstellen", "en": "to produce, to manufacture", "pos": "verb", "aux": "haben", "sep": "her", "p2": "hergestellt" },
+    { "de": "umweltfreundlich", "en": "environmentally friendly", "pos": "adj" },
+    { "de": "nachhaltig", "en": "sustainable", "pos": "adj" }
+  ],
+  "mindmap": {
+    "label": "Passiv",
+    "children": [
+      {
+        "label": "Präsens",
+        "note": "werden + Partizip II",
+        "children": [
+          { "label": "Der Müll wird getrennt." },
+          { "label": "Die Flaschen werden gesammelt." }
+        ]
+      },
+      {
+        "label": "Präteritum",
+        "note": "wurde + Partizip II",
+        "children": [ { "label": "Das Windrad wurde 2015 gebaut." } ]
+      },
+      {
+        "label": "Active → Passive",
+        "children": [
+          { "label": "object becomes subject" },
+          { "label": "man disappears" }
+        ]
+      },
+      {
+        "label": "Who does it?",
+        "children": [
+          { "label": "von + Dativ", "note": "person, institution" },
+          { "label": "durch + Akkusativ", "note": "cause, means" },
+          { "label": "often not mentioned" }
+        ]
+      },
+      {
+        "label": "Use",
+        "children": [
+          { "label": "processes", "note": "technical texts" },
+          { "label": "rules, signs, news" }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "mc", "q": "Der Müll ___ jeden Dienstag abgeholt.", "options": ["wird", "werden", "ist"], "answer": 0, "explain": "Müll is singular, so werden becomes wird: Der Müll wird abgeholt." },
+    { "type": "mc", "q": "Man entsorgt die Batterien im Supermarkt. → Passiv:", "options": ["Die Batterien werden im Supermarkt entsorgt.", "Die Batterien wurden im Supermarkt entsorgen.", "Man wird die Batterien im Supermarkt entsorgt."], "answer": 0, "explain": "The accusative object becomes the subject (die Batterien, plural → werden), and man disappears." },
+    { "type": "mc", "q": "Das Gebäude wurde ___ einem Architekten geplant.", "options": ["von", "durch", "mit"], "answer": 0, "explain": "A person who acts on purpose is introduced by von + Dativ: von einem Architekten." },
+    { "type": "gap", "q": "Die Flaschen ___ im Supermarkt zurückgenommen.", "answer": ["werden"], "explain": "Flaschen is plural → werden + Partizip II (zurückgenommen)." },
+    { "type": "gap", "q": "Früher ___ viel Plastik verbrannt.", "answer": ["wurde"], "explain": "Past passive of a singular subject (viel Plastik): wurde + Partizip II." },
+    { "type": "gap", "q": "Die Solaranlage ___ 2019 auf dem Dach installiert.", "answer": ["wurde"], "explain": "Solaranlage is singular, and 2019 is in the past → wurde installiert." },
+    { "type": "article", "word": "Umwelt", "answer": "die", "explain": "Umwelt is feminine: die Umwelt (it also has no plural)." },
+    { "type": "article", "word": "Windrad", "answer": "das", "explain": "The last part decides: das Rad → das Windrad." },
+    { "type": "order", "words": ["Das", "Glas", "wird", "getrennt", "gesammelt"], "answer": "Das Glas wird getrennt gesammelt", "explain": "wird is in position 2; the Partizip II gesammelt goes to the end." },
+    { "type": "order", "words": ["In", "der", "Anlage", "wird", "das", "Kohlendioxid", "aus", "der", "Luft", "abgetrennt"], "answer": "In der Anlage wird das Kohlendioxid aus der Luft abgetrennt", "explain": "The place comes first, then wird in position 2; the separable verb abtrennen appears as one Partizip II at the end: abgetrennt." },
+    { "type": "match", "pairs": [["der Müll", "waste"], ["das Pfand", "bottle deposit"], ["recyceln", "to recycle"], ["entsorgen", "to dispose of"], ["die Verpackung", "packaging"]], "explain": "Everyday vocabulary around recycling in Germany." },
+    { "type": "translate", "en": "The old bottles are recycled.", "answer": ["Die alten Flaschen werden recycelt"], "explain": "Plural subject → werden + Partizip II: werden recycelt." },
+    { "type": "translate", "en": "The wind turbine was built in 2015.", "answer": ["Das Windrad wurde 2015 gebaut", "Das Windrad wurde im Jahr 2015 gebaut"], "explain": "Past passive with a singular subject: wurde + gebaut." }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "In Deutschland wird der Müll sehr genau getrennt.", "en": "In Germany waste is separated very carefully." },
+      { "de": "Die Pfandflaschen werden im Supermarkt zurückgenommen.", "en": "Deposit bottles are taken back in the supermarket." },
+      { "de": "Das Papier wird in die blaue Tonne geworfen.", "en": "The paper is thrown into the paper bin." },
+      { "de": "In der Anlage wird die Luft angesaugt und das Kohlendioxid gebunden.", "en": "In the plant the air is sucked in and the carbon dioxide is captured." },
+      { "de": "Früher wurden viele Verpackungen einfach verbrannt.", "en": "In the past many packages were simply burned." }
+    ],
+    "prompts": [
+      { "q": "Wie wird in deiner Stadt der Müll getrennt?", "qEn": "How is waste separated in your city?", "model": "Bei uns wird der Müll in vier Tonnen getrennt. Das Papier wird in die blaue Tonne geworfen, und der Biomüll wird von der Stadt einmal pro Woche abgeholt. Pfandflaschen werden im Supermarkt zurückgegeben.", "hint": "Bei uns wird … getrennt. … wird abgeholt." },
+      { "q": "Wie funktioniert eine Direct-Air-Capture-Anlage? Erklär den Prozess.", "qEn": "Describe the process in a Direct Air Capture plant.", "model": "Zuerst wird die Luft durch große Ventilatoren angesaugt. Dann wird das Kohlendioxid an einem Filter gebunden. Danach wird der Filter erhitzt, und das Kohlendioxid wird abgetrennt und gespeichert.", "hint": "Zuerst wird … angesaugt. Dann wird … gebunden. Danach wird …" },
+      { "q": "Was wird in Deutschland für den Klimaschutz getan?", "qEn": "What is being done for climate protection in Germany?", "model": "In Deutschland werden viele Windräder und Solaranlagen gebaut. Außerdem wird weniger Kohle verbrannt als früher, und alte Gebäude werden energetisch saniert.", "hint": "Es werden … gebaut / gefördert." }
+    ]
+  }
+}

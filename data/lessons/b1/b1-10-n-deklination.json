@@ -1,0 +1,149 @@
+{
+  "id": "b1-10-n-deklination",
+  "level": "B1",
+  "title": "n-Deklination",
+  "concept": "Weak masculine nouns (der Kollege → den Kollegen)",
+  "wordlist": "Menschen & Berufe",
+  "minutes": 30,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+B1+n-Deklination+weak+masculine+nouns",
+  "learn": [
+    {
+      "heading": "Weak masculine nouns",
+      "text": "A small group of **masculine nouns** add **-n or -en in every case except the nominative singular**. This is called the **n-Deklination**. So: *der Kollege* (Nominativ) but *den / dem / des Kollegen*. The plural also ends in -n or -en, so you never need an extra ending. The most frequent mistake is forgetting it after the accusative: ✗ *Ich kenne den Kollege* → ✓ *Ich kenne den Kollegen.*",
+      "table": {
+        "head": ["", "Kollege", "Mensch", "Herr"],
+        "rows": [
+          ["Nominativ", "der Kollege", "der Mensch", "der Herr"],
+          ["Akkusativ", "den Kollegen", "den Menschen", "den Herrn"],
+          ["Dativ", "dem Kollegen", "dem Menschen", "dem Herrn"],
+          ["Genitiv", "des Kollegen", "des Menschen", "des Herrn"],
+          ["Plural", "die Kollegen", "die Menschen", "die Herren"]
+        ]
+      },
+      "examples": [
+        { "de": "Ich habe den Kollegen gestern angerufen.", "en": "I called the colleague yesterday." },
+        { "de": "Wir haben mit dem Kunden gesprochen.", "en": "We spoke with the customer." },
+        { "de": "Das ist das Handy des Studenten.", "en": "That is the student's phone." }
+      ]
+    },
+    {
+      "heading": "Which nouns belong to the group?",
+      "text": "Learn the typical types. All are **masculine** and most are **people or animals**. Common endings: **-e** (der Kollege), **-ant, -ent, -ist, -at** (Praktikant, Student, Journalist, Kandidat), **-graf / -loge / -arch** and a few single words (**der Mensch, der Herr, der Nachbar**). Watch out: **der Name → den Namen, des Namens** has an extra -s in the Genitiv.",
+      "table": {
+        "head": ["Type", "Examples"],
+        "rows": [
+          ["-e (people, animals)", "der Kunde, der Experte, der Biologe, der Löwe"],
+          ["-ant / -ent", "der Praktikant, der Student, der Assistent"],
+          ["-ist / -at", "der Polizist, der Journalist, der Kandidat"],
+          ["-graf / -loge", "der Fotograf, der Soziologe"],
+          ["single words", "der Mensch, der Herr, der Nachbar"]
+        ]
+      },
+      "examples": [
+        { "de": "Die Firma sucht einen erfahrenen Architekten.", "en": "The company is looking for an experienced architect." },
+        { "de": "Der Chef hat den Kandidaten eingeladen.", "en": "The boss invited the candidate." }
+      ]
+    },
+    {
+      "heading": "Not every person is weak",
+      "text": "Most masculine job names do **not** follow the pattern, especially those ending in **-er** and **-eur**: *der Lehrer → den Lehrer, der Techniker → den Techniker, der Ingenieur → den Ingenieur*. The best way to know is to learn the noun in the dictionary form, which shows the Genitiv and plural: *Kollege, -n, -n* or *Experte, -n, -n*. After prepositions the same rules apply: *für den Kunden, mit dem Praktikanten, von einem Experten*.",
+      "examples": [
+        { "de": "Ich arbeite mit einem Experten für Wärmepumpen zusammen.", "en": "I work with an expert for heat pumps." },
+        { "de": "Wir haben den Ingenieur gefragt, aber der Techniker war nicht da.", "en": "We asked the engineer, but the technician wasn't there." },
+        { "de": "Sie hilft dem neuen Praktikanten.", "en": "She helps the new intern." }
+      ]
+    }
+  ],
+  "tip": "Say it as a chunk: 'den Kollegen, dem Kunden, des Studenten'. If a masculine person ends in -e, -ant, -ent or -ist, add -(e)n after the nominative singular, as a rule of thumb.",
+  "words": [
+    { "de": "Kollege", "en": "co-worker", "pos": "noun", "article": "der", "plural": "Kollegen", "note": "n-Deklination" },
+    { "de": "Kunde", "en": "customer", "pos": "noun", "article": "der", "plural": "Kunden", "note": "n-Deklination" },
+    { "de": "Student", "en": "student", "pos": "noun", "article": "der", "plural": "Studenten", "note": "n-Deklination" },
+    { "de": "Praktikant", "en": "intern", "pos": "noun", "article": "der", "plural": "Praktikanten", "note": "n-Deklination" },
+    { "de": "Kandidat", "en": "candidate", "pos": "noun", "article": "der", "plural": "Kandidaten", "note": "n-Deklination" },
+    { "de": "Experte", "en": "expert", "pos": "noun", "article": "der", "plural": "Experten", "note": "n-Deklination" },
+    { "de": "Nachbar", "en": "neighbour", "pos": "noun", "article": "der", "plural": "Nachbarn", "note": "n-Deklination" },
+    { "de": "Mensch", "en": "person, human being", "pos": "noun", "article": "der", "plural": "Menschen", "note": "n-Deklination" },
+    { "de": "Herr", "en": "gentleman; Mr", "pos": "noun", "article": "der", "plural": "Herren", "note": "n-Deklination: den Herrn" },
+    { "de": "Architekt", "en": "architect", "pos": "noun", "article": "der", "plural": "Architekten", "note": "n-Deklination" },
+    { "de": "Biologe", "en": "biologist", "pos": "noun", "article": "der", "plural": "Biologen", "note": "n-Deklination" },
+    { "de": "Fotograf", "en": "photographer", "pos": "noun", "article": "der", "plural": "Fotografen", "note": "n-Deklination" },
+    { "de": "Polizist", "en": "police officer", "pos": "noun", "article": "der", "plural": "Polizisten", "note": "n-Deklination" },
+    { "de": "Journalist", "en": "journalist", "pos": "noun", "article": "der", "plural": "Journalisten", "note": "n-Deklination" },
+    { "de": "Ingenieur", "en": "engineer", "pos": "noun", "article": "der", "plural": "Ingenieure", "note": "regular, no -n" },
+    { "de": "Techniker", "en": "technician", "pos": "noun", "article": "der", "plural": "Techniker", "note": "regular, no -n" },
+    { "de": "Elektriker", "en": "electrician", "pos": "noun", "article": "der", "plural": "Elektriker", "note": "regular, no -n" },
+    { "de": "Mitarbeiter", "en": "employee", "pos": "noun", "article": "der", "plural": "Mitarbeiter", "note": "regular, no -n" },
+    { "de": "Beruf", "en": "profession", "pos": "noun", "article": "der", "plural": "Berufe" },
+    { "de": "erfahren", "en": "experienced", "pos": "adj" },
+    { "de": "zuverlässig", "en": "reliable", "pos": "adj" }
+  ],
+  "mindmap": {
+    "label": "n-Deklination",
+    "children": [
+      {
+        "label": "Rule",
+        "children": [
+          { "label": "-(e)n in all cases", "note": "except Nominativ Singular" },
+          { "label": "only masculine nouns" }
+        ]
+      },
+      {
+        "label": "Typical endings",
+        "children": [
+          { "label": "-e", "note": "Kollege, Kunde, Experte" },
+          { "label": "-ent / -ant", "note": "Student, Praktikant" },
+          { "label": "-ist / -at", "note": "Journalist, Kandidat" }
+        ]
+      },
+      {
+        "label": "Single words",
+        "children": [
+          { "label": "der Mensch, der Herr, der Nachbar" },
+          { "label": "der Name → des Namens", "note": "extra -s" }
+        ]
+      },
+      {
+        "label": "Not weak",
+        "children": [ { "label": "-er and -eur", "note": "Techniker, Ingenieur" } ]
+      },
+      {
+        "label": "Examples",
+        "children": [
+          { "label": "den Kollegen anrufen" },
+          { "label": "mit dem Kunden sprechen" }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "mc", "q": "Ich kenne den ___ schon lange.", "options": ["Kollege", "Kollegen", "Kolleges"], "answer": 1, "explain": "Kollege is an n-noun. In the accusative singular it gets -n: den Kollegen." },
+    { "type": "mc", "q": "Which noun does NOT follow the n-Deklination?", "options": ["der Kollege", "der Ingenieur", "der Kunde"], "answer": 1, "explain": "Ingenieur is a regular masculine noun: den Ingenieur. Kollege and Kunde are weak nouns." },
+    { "type": "gap", "q": "Wir haben mit dem ___ gesprochen. (der Kunde)", "answer": ["Kunden"], "explain": "After mit the dative is used. n-nouns add -n in the dative: dem Kunden." },
+    { "type": "gap", "q": "Ich habe den neuen ___ gefragt. (der Praktikant)", "answer": ["Praktikanten"], "explain": "Accusative singular of an n-noun: Praktikant → Praktikanten." },
+    { "type": "gap", "q": "Das ist das Handy des ___. (der Student)", "answer": ["Studenten"], "explain": "Genitiv of Student is Studenten (n-noun)." },
+    { "type": "gap", "q": "Der Chef hat den ___ eingeladen. (der Kandidat)", "answer": ["Kandidaten"], "explain": "Accusative singular: den Kandidaten. -at nouns are weak." },
+    { "type": "article", "word": "Mensch", "answer": "der", "explain": "Mensch is masculine: der Mensch (n-noun: den Menschen)." },
+    { "type": "article", "word": "Beruf", "answer": "der", "explain": "Beruf is masculine: der Beruf (plural: die Berufe)." },
+    { "type": "order", "words": ["Ich", "habe", "den", "Kollegen", "gestern", "angerufen"], "answer": "Ich habe den Kollegen gestern angerufen", "explain": "anrufen takes the accusative, so the n-noun shows -n: den Kollegen." },
+    { "type": "order", "words": ["Die", "Firma", "sucht", "einen", "erfahrenen", "Architekten"], "answer": "Die Firma sucht einen erfahrenen Architekten", "explain": "Architekt is an n-noun; the accusative gets -en: einen Architekten." },
+    { "type": "match", "pairs": [["der Experte", "expert"], ["der Praktikant", "intern"], ["der Mitarbeiter", "employee"], ["der Kunde", "customer"], ["der Nachbar", "neighbour"]], "explain": "Vocabulary for people at work." },
+    { "type": "translate", "en": "I know the new colleague.", "answer": ["Ich kenne den neuen Kollegen"], "explain": "kennen takes the accusative; n-noun Kollege → den neuen Kollegen." },
+    { "type": "translate", "en": "She helps the customer.", "answer": ["Sie hilft dem Kunden"], "explain": "helfen takes the dative; n-noun Kunde → dem Kunden." },
+    { "type": "translate", "en": "I work with an expert.", "answer": ["Ich arbeite mit einem Experten"], "explain": "mit + dative; n-noun Experte → einem Experten." }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Ich arbeite mit einem Kollegen aus Spanien zusammen.", "en": "I work together with a co-worker from Spain." },
+      { "de": "Den Kunden kenne ich seit zwei Jahren.", "en": "I have known the customer for two years." },
+      { "de": "Wir suchen einen erfahrenen Experten für Wärmetauscher.", "en": "We are looking for an experienced expert for heat exchangers." },
+      { "de": "Ich habe dem Praktikanten die Anlage gezeigt.", "en": "I showed the intern the plant." },
+      { "de": "Mein Nachbar ist Journalist und schreibt über Klimapolitik.", "en": "My neighbour is a journalist and writes about climate policy." }
+    ],
+    "prompts": [
+      { "q": "Stell uns bitte deine Kollegen vor. Mit wem arbeitest du zusammen?", "qEn": "Please introduce your co-workers. Who do you work with?", "model": "Ich arbeite mit einem Kollegen aus Spanien und einer Kollegin aus Polen zusammen. Den Kollegen kenne ich schon lange, und dem neuen Praktikanten erkläre ich gerade die Anlage.", "hint": "Ich arbeite mit einem Kollegen … Ich kenne den … seit …" },
+      { "q": "Beschreibe deinen Beruf. Mit welchen Menschen hast du zu tun?", "qEn": "Describe your job. What kind of people do you deal with?", "model": "Ich bin Maschinenbauingenieur. Jeden Tag spreche ich mit Kunden, Technikern und Experten. Ich muss den Kunden die Technik verständlich erklären, und ich frage oft den Techniker um Rat.", "hint": "Ich spreche mit Kunden / Experten. Ich frage den …" },
+      { "q": "Beim Vorstellungsgespräch: Wie arbeiten Sie im Team?", "qEn": "In a job interview: How do you work in a team?", "model": "Ich höre meinen Kollegen gut zu und helfe dem Team, wenn jemand ein Problem hat. Außerdem erkläre ich Praktikanten und neuen Mitarbeitern gern, wie die Prozesse funktionieren.", "hint": "Ich helfe dem Kollegen / dem Praktikanten …" }
+    ]
+  }
+}
