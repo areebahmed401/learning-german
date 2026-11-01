@@ -1,9 +1,11 @@
 // Learner progress, kept in localStorage. Every read/write is guarded:
 // private windows or blocked storage just mean progress isn't remembered.
+import { day as srsDay } from './srs.js';
+
 const KEY = 'lg-progress-v1';
 export const PASS = 0.7;
 
-const blank = () => ({ lessons: {}, checkpoints: {}, speakDays: [], version: 1 });
+const blank = () => ({ lessons: {}, checkpoints: {}, speakDays: [], cards: {}, cardDays: [], version: 1 });
 let state = load();
 
 function load() {
@@ -72,15 +74,29 @@ export function stepFraction(id) {
   return Math.min(Object.keys(l.steps).length, 5) / 5;
 }
 
-export function speakStreak() {
-  const days = new Set(state.speakDays);
+function streak(list, fmt) {
+  const days = new Set(list);
   let n = 0;
   const d = new Date();
   // today not practised yet still keeps yesterday's streak alive
-  if (!days.has(d.toISOString().slice(0, 10))) d.setDate(d.getDate() - 1);
-  while (days.has(d.toISOString().slice(0, 10))) { n++; d.setDate(d.getDate() - 1); }
+  if (!days.has(fmt(d))) d.setDate(d.getDate() - 1);
+  while (days.has(fmt(d))) { n++; d.setDate(d.getDate() - 1); }
   return n;
 }
+
+export const speakStreak = () => streak(state.speakDays, (d) => d.toISOString().slice(0, 10));
+
+/* ---------- Flashcards (scheduling lives in srs.js) ---------- */
+export const cards = () => state.cards;
+export const openedLessons = () => Object.keys(state.lessons);
+
+export function setCard(key, card, today) {
+  state.cards[key] = card;
+  if (!state.cardDays.includes(today)) state.cardDays.push(today);
+  save();
+}
+
+export const cardStreak = () => streak(state.cardDays, srsDay);
 
 export function wordsLearned() {
   return Object.values(state.lessons).reduce((s, l) => s + (l.done ? l.wordCount || 0 : 0), 0);

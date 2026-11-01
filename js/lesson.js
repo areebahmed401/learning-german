@@ -76,7 +76,7 @@ function goetheNote(lesson) {
   return h('span.chip.accent', { title: 'Words from the official Goethe-Zertifikat word lists' }, `Goethe ${lesson.level} · ${n}/${lesson.words.length}`);
 }
 
-function wordForms(w) {
+export function wordForms(w) {
   if (w.pos === 'noun') return w.plural && w.plural !== '-' ? `die ${w.plural}` : w.note || 'no plural';
   if (w.pos === 'verb') return [w.aux === 'sein' ? 'ist' : 'hat', w.p2].filter(Boolean).join(' ') + (w.sep ? ` · trennbar (${w.sep}-)` : '');
   return w.note || '';

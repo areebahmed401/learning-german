@@ -1,7 +1,8 @@
-// App shell: router, theme, settings menu, translator panel, checkpoint quizzes.
+// App shell: router (#/road, #/lesson, #/checkpoint, #/cards), theme, settings menu, translator panel, checkpoint quizzes.
 import { h, getRoadmap, getJSON, lessonURL, shuffle, toast } from './util.js';
 import { renderRoad } from './road.js';
 import { renderLesson } from './lesson.js';
+import { renderCards } from './cards.js';
 import { runQuiz } from './exercises.js';
 import * as progress from './progress.js';
 import * as anki from './anki.js';
@@ -14,9 +15,13 @@ async function route() {
   const parts = path.split('/').filter(Boolean);
   const params = Object.fromEntries(new URLSearchParams(query));
   document.querySelectorAll('.sheet, .sheet-backdrop, .peek, .mm-modal-backdrop').forEach((e) => e.remove());
+  document.body.classList.toggle('on-cards', parts[0] === 'cards'); // the translator button would cover the card buttons
   try {
     if (parts[0] === 'lesson' && parts[1]) {
       await renderLesson(view, parts[1], parts[2]);
+      window.scrollTo(0, 0);
+    } else if (parts[0] === 'cards') {
+      await renderCards(view);
       window.scrollTo(0, 0);
     } else if (parts[0] === 'checkpoint' && parts[1]) {
       await renderCheckpoint(view, parts[1].toUpperCase());
