@@ -1,8 +1,10 @@
-// App shell: router (#/road, #/lesson, #/checkpoint, #/cards), theme, settings menu, translator panel, checkpoint quizzes.
+// App shell: router (#/road, #/lesson, #/checkpoint, #/cards, #/quiz, #/settings), theme, settings menu, translator panel, checkpoint quizzes.
 import { h, getRoadmap, getJSON, lessonURL, shuffle, toast } from './util.js';
 import { renderRoad } from './road.js';
 import { renderLesson } from './lesson.js';
 import { renderCards } from './cards.js';
+import { renderQuiz } from './quiz.js';
+import { renderSettings } from './settings.js';
 import { runQuiz } from './exercises.js';
 import * as progress from './progress.js';
 import * as anki from './anki.js';
@@ -15,13 +17,19 @@ async function route() {
   const parts = path.split('/').filter(Boolean);
   const params = Object.fromEntries(new URLSearchParams(query));
   document.querySelectorAll('.sheet, .sheet-backdrop, .peek, .mm-modal-backdrop').forEach((e) => e.remove());
-  document.body.classList.toggle('on-cards', parts[0] === 'cards'); // the translator button would cover the card buttons
+  document.body.classList.toggle('on-cards', ['cards', 'quiz'].includes(parts[0])); // the translator button would cover the answer buttons
   try {
     if (parts[0] === 'lesson' && parts[1]) {
       await renderLesson(view, parts[1], parts[2]);
       window.scrollTo(0, 0);
     } else if (parts[0] === 'cards') {
       await renderCards(view);
+      window.scrollTo(0, 0);
+    } else if (parts[0] === 'quiz') {
+      await renderQuiz(view);
+      window.scrollTo(0, 0);
+    } else if (parts[0] === 'settings') {
+      await renderSettings(view);
       window.scrollTo(0, 0);
     } else if (parts[0] === 'checkpoint' && parts[1]) {
       await renderCheckpoint(view, parts[1].toUpperCase());
@@ -84,6 +92,7 @@ menu.addEventListener('click', async (e) => {
   const act = e.target.closest('button')?.dataset.act;
   if (!act) return;
   setMenu(false);
+  if (act === 'settings') location.hash = '#/settings';
   if (act === 'export') progress.exportFile();
   if (act === 'reset' && confirm('Reset all progress on this device? Save a progress file first if you want to keep it.')) {
     progress.reset();
@@ -125,6 +134,9 @@ const openDrawer = () => {
   document.querySelector('#translator input')?.focus();
 };
 document.getElementById('fab').onclick = openDrawer;
+// desktop: fold the panel away (⟩) and bring it back from the edge tab
+document.getElementById('side-collapse').onclick = () => trBtn.click();
+document.getElementById('side-rail').onclick = () => { trBtn.click(); document.querySelector('#translator input')?.focus(); };
 document.getElementById('side-close').onclick = () => document.body.classList.remove('drawer-open');
 window.addEventListener('lg:lookup', () => {
   if (mobile.matches) openDrawer();

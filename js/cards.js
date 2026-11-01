@@ -6,19 +6,29 @@ import { wordForms } from './lesson.js';
 import * as progress from './progress.js';
 import * as srs from './srs.js';
 
-const PREFS = 'lg-cards-prefs';
-const loadPrefs = () => { try { return { scope: 'mine', reverse: false, ...JSON.parse(localStorage.getItem(PREFS)) }; } catch { return { scope: 'mine', reverse: false }; } };
-const savePrefs = (p) => { try { localStorage.setItem(PREFS, JSON.stringify(p)); } catch {} };
-
-/** Words for the chosen scope: "mine" = every lesson you've opened, or one whole level. */
-async function wordPool(scope) {
-  const road = await getRoadmap();
+/**
+ * Words for a deck, easiest level first:
+ * 'level' = every lesson word and Goethe-tagged dictionary word up to your level,
+ * 'mine' = the lessons you've opened, or a level id = that level only.
+ */
+async function wordPool(deck, road, myLevel) {
+  const order = road.levels.map((l) => l.id);
+  const upTo = order.slice(0, order.indexOf(myLevel) + 1);
+  const wanted = deck === 'level' ? upTo : deck === 'mine' ? order : [deck];
   const opened = new Set(progress.openedLessons());
-  const ids = road.levels.flatMap((lv) => (lv.milestones || [])
-    .filter((m) => (scope === 'mine' ? opened.has(m.id) : lv.id === scope))
-    .map((m) => [lv.id, m.id]));
+  const ids = road.levels.filter((lv) => wanted.includes(lv.id)).flatMap((lv) => (lv.milestones || [])
+    .filter((m) => deck !== 'mine' || opened.has(m.id)).map((m) => [lv.id, m.id]));
   const lessons = await Promise.all(ids.map(([lv, id]) => getJSON(lessonURL(lv, id)).catch(() => null)));
-  return lessons.filter(Boolean).flatMap((l) => l.words.map((w) => ({ ...w, level: l.level })));
+  const words = lessons.filter(Boolean).flatMap((l) => l.words.map((w) => ({ ...w, level: l.level })));
+  if (deck !== 'mine') {
+    // the translator's dictionary words, by Goethe level (untagged ones count as B2)
+    const core = await getJSON('data/dictionary/core.json').catch(() => []);
+    for (const w of core) {
+      const lv = w.goethe || 'B2';
+      if (wanted.includes(lv)) words.push({ ...w, level: lv });
+    }
+  }
+  return words.sort((a, b) => order.indexOf(a.level) - order.indexOf(b.level)); // stable: lessons stay first in a level
 }
 
 let keyHandler = null;
@@ -26,22 +36,23 @@ let keyHandler = null;
 /** extra: new words allowed beyond today's limit ("+10 more"). */
 export async function renderCards(view, extra = 0) {
   document.title = 'Karten · Deutschweg';
-  const prefs = loadPrefs();
+  const prefs = progress.settings();
   const road = await getRoadmap();
+  const myLevel = progress.currentLevel(road);
   const levels = road.levels.filter((l) => l.milestones?.length).map((l) => l.id);
-  const words = await wordPool(prefs.scope);
+  const words = await wordPool(prefs.deck, road, myLevel);
   const today = srs.day();
-  const queue = srs.buildQueue(words, progress.cards(), today, srs.NEW_PER_DAY + extra);
+  const queue = srs.buildQueue(words, progress.cards(), today, prefs.newCards + extra);
   const unseen = words.filter((w) => !progress.cards()[srs.cardKey(w)]).length;
   const due = queue.filter((w) => progress.cards()[srs.cardKey(w)]).length;
 
-  const scopeBtn = (id, label) => h(`button.btn.small${prefs.scope === id ? '.primary' : ''}`, {
-    type: 'button', 'aria-pressed': String(prefs.scope === id),
-    onclick: () => { savePrefs({ ...prefs, scope: id }); renderCards(view); },
+  const scopeBtn = (id, label) => h(`button.btn.small${prefs.deck === id ? '.primary' : ''}`, {
+    type: 'button', 'aria-pressed': String(prefs.deck === id),
+    onclick: () => { progress.setSettings({ deck: id }); renderCards(view); },
   }, label);
   const reverse = h('label.cards-switch', h('input', {
     type: 'checkbox', checked: prefs.reverse,
-    onchange: (e) => { savePrefs({ ...prefs, reverse: e.target.checked }); },
+    onchange: (e) => progress.setSettings({ reverse: e.target.checked }),
   }), ' English → Deutsch');
 
   const stage = h('section');
@@ -52,7 +63,7 @@ export async function renderCards(view, extra = 0) {
       stat(due, 'due today'), stat(queue.length - due, 'new today'),
       stat(Object.values(progress.cards()).filter((c) => c.box >= 3).length, 'well known'),
       stat(`${progress.cardStreak()} 🔥`, 'day streak')),
-    h('div.cards-tools', h('div.cards-scope', scopeBtn('mine', 'My lessons'), levels.map((l) => scopeBtn(l, l))), reverse),
+    h('div.cards-tools', h('div.cards-scope', scopeBtn('level', `My level (${myLevel})`), scopeBtn('mine', 'My lessons'), levels.map((l) => scopeBtn(l, l))), reverse),
     stage,
     hardList()));
 
@@ -66,7 +77,8 @@ export async function renderCards(view, extra = 0) {
       unseen ? h('button.btn', { type: 'button', onclick: () => renderCards(view, extra + 10) }, `+10 more new words (${unseen} left)`) : null)));
   } else {
     stage.append(h('div.card.cards-start',
-      h('p', h('b', `${queue.length} cards`), ` ready: ${due} to review, ${queue.length - due} new.`),
+      h('p', h('b', `${queue.length} cards`), ` ready: ${due} to review, ${queue.length - due} new. `,
+        h('span.muted', `${words.length} words in this deck · ${prefs.newCards} new a day (⚙ Settings)`)),
       h('button.btn.primary', { type: 'button', onclick: () => run(stage, shuffle(queue.slice(0, due))
         .concat(queue.slice(due)), reverse.querySelector('input').checked, view) }, 'Start')));
   }
@@ -85,6 +97,7 @@ function hardList() {
 /** One session: show cards until the queue is empty; a missed card goes back into the queue. */
 function run(stage, queue, reverse, view) {
   const today = srs.day();
+  const autoplay = canSpeak && progress.settings().autoplay;
   const missed = new Set();
   let knew = 0;
   let flipped = false;
@@ -108,6 +121,7 @@ function run(stage, queue, reverse, view) {
     counter.textContent = `${queue.length} left · ✓ ${knew} · ✗ ${missed.size}` + (missed.has(srs.cardKey(w)) ? ' · again' : '');
     card.className = 'flash';
     card.replaceChildren(h('div.flash-side', reverse ? english(w) : german(w)), h('div.flash-hint.muted', 'tap to flip'));
+    if (!reverse && autoplay) speak(say(w));
     actions.replaceChildren(flipBtn);
     flipBtn.focus();
   }
@@ -121,7 +135,7 @@ function run(stage, queue, reverse, view) {
     // the question stays on top (faded), the answer comes in below it
     card.replaceChildren(h('div.flash-side', reverse ? english(w) : german(w)),
       h('div.flash-back', reverse ? german(w) : english(w), forms ? h('div.flash-forms', forms) : null, h('span.chip', w.level)));
-    if (reverse && canSpeak) speak(say(w));
+    if (reverse && autoplay) speak(say(w));
     actions.replaceChildren(no, yes);
     yes.focus();
   }
