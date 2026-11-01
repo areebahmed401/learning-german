@@ -1,0 +1,163 @@
+{
+  "id": "c1-10-wortbildung",
+  "level": "C1",
+  "title": "Wortbildung",
+  "concept": "Word formation: prefixes, suffixes, umfahren vs. umfahren",
+  "wordlist": "Wortbildung",
+  "minutes": 35,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+C1+Wortbildung+trennbare+untrennbare+Verben",
+  "learn": [
+    {
+      "heading": "Two-way prefixes: um-, über-, durch-, unter-, wieder-",
+      "text": "Five prefixes can be **separable or inseparable**, and the meaning changes with it. **Separable**: the prefix is stressed (*ÚMfahren*), usually literal and physical, and the Partizip II has **-ge-** inside (*um**ge**fahren*). **Inseparable**: the stem is stressed (*umFÄHren*), usually figurative, the verb stays in one piece and the Partizip II has **no ge-** (*umfahren*). Always listen for the stress, it tells you which verb you have.",
+      "table": {
+        "head": ["Verb", "Separable (stress on prefix)", "Inseparable (stress on stem)"],
+        "rows": [
+          ["umfahren", "Er fährt das Schild um. → hat es umgefahren (knock over)", "Er umfährt den Stau. → hat ihn umfahren (drive around)"],
+          ["übersetzen", "Die Fähre setzt uns über. → übergesetzt (ferry across)", "Sie übersetzt den Vertrag. → übersetzt (translate)"],
+          ["umgehen", "Er geht gut mit Kunden um. → ist umgegangen (deal with)", "Man umgeht die Regel. → hat umgangen (avoid, bypass)"],
+          ["unterstellen", "Er stellt das Auto unter. → untergestellt (park under cover)", "Sie unterstellt mir Absicht. → unterstellt (insinuate)"]
+        ]
+      },
+      "examples": [
+        { "de": "Der Lkw hat beim Rückwärtsfahren einen Zaun umgefahren.", "en": "The truck knocked over a fence while reversing." },
+        { "de": "Wir haben die Baustelle großräumig umfahren.", "en": "We drove around the construction site at a wide distance." },
+        { "de": "Diese Firma umgeht die Vorschriften.", "en": "This company circumvents the regulations." },
+        { "de": "Er geht sehr professionell mit schwierigen Kunden um.", "en": "He handles difficult customers very professionally." }
+      ]
+    },
+    {
+      "heading": "Verb prefixes that never separate",
+      "text": "Some prefixes are **always inseparable**: **ver-, ent-, zer-, be-, er-, miss-, ge-**. They are never stressed and the Partizip II never gets a **ge-**. They often change the meaning in a predictable way: *ver-* (change, or something went wrong), *ent-* (away, start), *zer-* (into pieces), *be-* (makes a verb take an object), *er-* (reaching a result), *miss-* (wrongly).",
+      "table": {
+        "head": ["Prefix", "Typical idea", "Example (Partizip II)"],
+        "rows": [
+          ["ver-", "change, improve, go wrong", "verbessern → verbessert"],
+          ["ent-", "away, start, develop", "entwickeln → entwickelt"],
+          ["zer-", "into pieces", "zerstören → zerstört"],
+          ["be-", "makes verb transitive", "bearbeiten → bearbeitet"],
+          ["er-", "reach a result", "erreichen → erreicht"],
+          ["miss-", "wrongly", "missverstehen → missverstanden"]
+        ]
+      },
+      "examples": [
+        { "de": "Wir haben den Prozess in den letzten Monaten verbessert.", "en": "We have improved the process in recent months." },
+        { "de": "Das Team entwickelt eine neue Software für die Steuerung.", "en": "The team is developing new software for the control system." },
+        { "de": "Der Sturm hat mehrere Leitungen zerstört.", "en": "The storm destroyed several cables." }
+      ]
+    },
+    {
+      "heading": "Suffixes build nouns and adjectives",
+      "text": "Suffixes tell you the **word class and the gender**. **-ung, -heit, -keit, -schaft** make feminine nouns (*die Entwicklung, die Möglichkeit*). **-er** makes a person or tool, masculine (*der Mitarbeiter*). **-bar** means *can be done*, **-los** means *without*, **-ig** and **-lich** make adjectives. Knowing these building blocks lets you guess new words and their article.",
+      "table": {
+        "head": ["Suffix", "Result", "Example"],
+        "rows": [
+          ["-ung", "die + noun from a verb", "entwickeln → die Entwicklung"],
+          ["-heit / -keit", "die + noun from an adjective", "möglich → die Möglichkeit"],
+          ["-bar", "adjective, can be …", "lesen → lesbar"],
+          ["-los", "adjective, without …", "die Kosten → kostenlos"],
+          ["-ig / -lich", "adjective", "die Vorsicht → vorsichtig, der Freund → freundlich"],
+          ["-er", "der + person or tool", "arbeiten → der Arbeiter"]
+        ]
+      },
+      "examples": [
+        { "de": "Die Entwicklung der Software hat zwei Jahre gedauert.", "en": "The development of the software took two years." },
+        { "de": "Die Schrift auf dem Plan ist kaum lesbar.", "en": "The writing on the plan is barely legible." },
+        { "de": "Das Testprogramm ist kostenlos, aber nicht unbegrenzt nutzbar.", "en": "The trial programme is free, but cannot be used without limit." }
+      ]
+    }
+  ],
+  "tip": "Say the verb aloud and listen: ÚMfahren (stress first, ge- inside: umgefahren) means knock over; umFÄHren (stress on the stem, no ge-: umfahren) means drive around. Suffix shortcut: -ung, -heit, -keit are always die.",
+  "words": [
+    { "de": "umfahren", "en": "to knock over (with a vehicle)", "pos": "verb", "aux": "haben", "sep": "um", "p2": "umgefahren" },
+    { "de": "ein Hindernis umfahren", "en": "to drive around an obstacle", "pos": "phrase" },
+    { "de": "überweisen", "en": "to transfer (money)", "pos": "verb", "aux": "haben", "p2": "überwiesen" },
+    { "de": "übersetzen", "en": "to translate", "pos": "verb", "aux": "haben", "p2": "übersetzt" },
+    { "de": "unterschreiben", "en": "to sign", "pos": "verb", "aux": "haben", "p2": "unterschrieben" },
+    { "de": "unterbrechen", "en": "to interrupt", "pos": "verb", "aux": "haben", "p2": "unterbrochen" },
+    { "de": "durchführen", "en": "to carry out", "pos": "verb", "aux": "haben", "sep": "durch", "p2": "durchgeführt" },
+    { "de": "durchlesen", "en": "to read through", "pos": "verb", "aux": "haben", "sep": "durch", "p2": "durchgelesen" },
+    { "de": "umsteigen", "en": "to change (trains, buses)", "pos": "verb", "aux": "sein", "sep": "um", "p2": "umgestiegen" },
+    { "de": "umziehen", "en": "to move (house)", "pos": "verb", "aux": "sein", "sep": "um", "p2": "umgezogen" },
+    { "de": "wiederholen", "en": "to repeat", "pos": "verb", "aux": "haben", "p2": "wiederholt" },
+    { "de": "wiedersehen", "en": "to see again", "pos": "verb", "aux": "haben", "sep": "wieder", "p2": "wiedergesehen" },
+    { "de": "überprüfen", "en": "to check, to verify", "pos": "verb", "aux": "haben", "p2": "überprüft" },
+    { "de": "entwickeln", "en": "to develop", "pos": "verb", "aux": "haben", "p2": "entwickelt" },
+    { "de": "verbessern", "en": "to improve", "pos": "verb", "aux": "haben", "p2": "verbessert" },
+    { "de": "zerstören", "en": "to destroy", "pos": "verb", "aux": "haben", "p2": "zerstört" },
+    { "de": "lesbar", "en": "legible, readable", "pos": "adj" },
+    { "de": "kostenlos", "en": "free of charge", "pos": "adj" },
+    { "de": "zuverlässig", "en": "reliable", "pos": "adj" },
+    { "de": "Entwicklung", "en": "development", "pos": "noun", "article": "die", "plural": "Entwicklungen" },
+    { "de": "Möglichkeit", "en": "possibility, option", "pos": "noun", "article": "die", "plural": "Möglichkeiten" },
+    { "de": "Lösung", "en": "solution", "pos": "noun", "article": "die", "plural": "Lösungen" }
+  ],
+  "mindmap": {
+    "label": "Wortbildung",
+    "children": [
+      {
+        "label": "Trennbar",
+        "note": "Betonung vorn, ge- innen",
+        "children": [
+          { "label": "umfahren: er fährt um, umgefahren", "note": "knock over" },
+          { "label": "durchführen, umsteigen, wiedersehen" }
+        ]
+      },
+      {
+        "label": "Untrennbar",
+        "note": "Betonung auf dem Stamm, kein ge-",
+        "children": [
+          { "label": "umfahren: er umfährt, umfahren", "note": "drive around" },
+          { "label": "überweisen, übersetzen, unterschreiben, wiederholen" }
+        ]
+      },
+      {
+        "label": "Immer untrennbar",
+        "children": [
+          { "label": "ver- / ent- / zer-" },
+          { "label": "be- / er- / miss-" }
+        ]
+      },
+      {
+        "label": "Suffixe",
+        "children": [
+          { "label": "-ung, -heit, -keit = die" },
+          { "label": "-bar, -los, -ig, -lich = Adjektiv" }
+        ]
+      },
+      {
+        "label": "Wortbildung",
+        "children": [ { "label": "Entwicklung, Möglichkeit, Lösung" } ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "mc", "q": "Der Fahrer hat beim Rückwärtsfahren das Verkehrsschild ___.", "options": ["umgefahren", "umfahren", "umgefahrt"], "answer": 0, "explain": "He knocked the sign over: separable umfahren, stress on um-, so Partizip II is umgefahren with ge- inside." },
+    { "type": "mc", "q": "Wir haben die Baustelle großräumig ___.", "options": ["umgefahren", "umfahren", "umfährt"], "answer": 1, "explain": "Here we drove around the site: inseparable umfahren, stress on the stem, no ge- in the Partizip II." },
+    { "type": "mc", "q": "Der Vertrag ist gestern von beiden Seiten ___ worden.", "options": ["unterschrieben", "untergeschrieben", "unterschreibt"], "answer": 0, "explain": "unterschreiben is inseparable (stress on -schrei-), so the Partizip II is unterschrieben without ge-." },
+    { "type": "gap", "q": "Sie hat den Bericht ins Englische ___. (übersetzen)", "answer": ["übersetzt"], "explain": "Translate = inseparable übersetzen: Partizip II übersetzt, no ge-." },
+    { "type": "gap", "q": "Ich bin in Köln in den ICE ___. (umsteigen)", "answer": ["umgestiegen"], "explain": "umsteigen is separable and forms the perfect with sein: ist umgestiegen." },
+    { "type": "gap", "q": "Die Bank hat das Geld gestern auf Ihr Konto ___. (überweisen)", "answer": ["überwiesen"], "explain": "überweisen is inseparable, so no ge-: überwiesen (strong verb)." },
+    { "type": "gap", "q": "Die Probeversion der Software ist völlig ___. (ohne Kosten)", "answer": ["kostenlos"], "explain": "-los means without: die Kosten + -los = kostenlos." },
+    { "type": "article", "word": "Entwicklung", "answer": "die", "explain": "Nouns with the suffix -ung are always feminine: die Entwicklung." },
+    { "type": "article", "word": "Möglichkeit", "answer": "die", "explain": "Nouns with the suffix -keit are always feminine: die Möglichkeit." },
+    { "type": "order", "words": ["Der Lkw", "hat", "beim Rückwärtsfahren", "den Zaun", "umgefahren"], "answer": "Der Lkw hat beim Rückwärtsfahren den Zaun umgefahren", "explain": "In the perfect tense the Partizip II (umgefahren) goes to the end; hat is in second position." },
+    { "type": "match", "pairs": [["zer-", "into pieces"], ["-los", "without"], ["-bar", "can be done"], ["miss-", "wrongly"], ["-ung", "makes a feminine noun from a verb"]], "explain": "Meaning of common prefixes and suffixes." },
+    { "type": "translate", "en": "He drove around the traffic jam.", "answer": ["Er hat den Stau umfahren", "Er umfuhr den Stau", "Er umfährt den Stau"], "explain": "Driving around = inseparable umfahren: Partizip II umfahren, past tense umfuhr." },
+    { "type": "translate", "en": "I signed the contract yesterday.", "answer": ["Ich habe den Vertrag gestern unterschrieben", "Ich habe gestern den Vertrag unterschrieben", "Ich unterschrieb gestern den Vertrag", "Ich unterschrieb den Vertrag gestern"], "explain": "unterschreiben is inseparable: haben + unterschrieben, no ge-." }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Wir haben die Baustelle großräumig umfahren.", "en": "We drove around the construction site at a wide distance." },
+      { "de": "Der Lkw hat beim Rückwärtsfahren den Zaun umgefahren.", "en": "The truck knocked over the fence while reversing." },
+      { "de": "Ich habe den Vertrag gestern unterschrieben.", "en": "I signed the contract yesterday." },
+      { "de": "Die Bank hat das Geld heute Morgen überwiesen.", "en": "The bank transferred the money this morning." },
+      { "de": "Wir sind in Frankfurt umgestiegen.", "en": "We changed trains in Frankfurt." }
+    ],
+    "prompts": [
+      { "q": "Sie kommen zu spät und erklären, warum. Es gab einen Stau.", "qEn": "You are late and explain why. There was a traffic jam.", "model": "Entschuldigung für die Verspätung. Auf der Autobahn gab es einen Stau, deshalb habe ich ihn über die Landstraße umfahren. Leider gab es auch dort eine Baustelle. Ich hoffe, ich habe nichts Wichtiges verpasst.", "hint": "umfahren, Partizip II ohne ge-" },
+      { "q": "Ihr Kollege fragt, was Sie heute erledigt haben. Antworten Sie mit mindestens drei Verben.", "qEn": "Your colleague asks what you got done today. Answer with at least three verbs.", "model": "Ich habe den Bericht durchgelesen und ins Englische übersetzt. Danach habe ich die Rechnung überwiesen und die Unterlagen unterschrieben. Morgen führe ich den Test durch.", "hint": "durchlesen / übersetzen / überweisen / unterschreiben / durchführen" },
+      { "q": "Ein Freund fragt, wie Sie zur Arbeit kommen. Erklären Sie die Strecke.", "qEn": "A friend asks how you get to work. Explain the route.", "model": "Ich fahre mit der S-Bahn bis zum Hauptbahnhof und steige dort in die U-Bahn um. Wenn es einen Streik gibt, ziehe ich die Möglichkeit in Betracht, mit dem Rad zu fahren. Mit dem Rad ist der Weg kostenlos, aber im Winter nicht immer angenehm.", "hint": "umsteigen (sein), Möglichkeit, kostenlos" }
+    ]
+  }
+}

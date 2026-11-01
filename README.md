@@ -33,4 +33,4 @@ Lessons are JSON files in `data/lessons/<level>/`; the road order is `data/roadm
 ## Phases
 1. App, translator, speaking practice, Anki export, A1 + A2 + B1 lessons ✓
 2. B2 lessons (13 milestones) ✓
-3. C1 lessons
+3. C1 lessons (13 milestones) ✓

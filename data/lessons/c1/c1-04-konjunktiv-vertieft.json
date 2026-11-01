@@ -1,0 +1,159 @@
+{
+  "id": "c1-04-konjunktiv-vertieft",
+  "level": "C1",
+  "title": "Konjunktiv vertieft",
+  "concept": "hätte machen müssen, and Konjunktiv I in formal texts",
+  "wordlist": "Recht & Verträge",
+  "minutes": 40,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+C1+Konjunktiv+2+Modalverben+Vergangenheit+Konjunktiv+1",
+  "learn": [
+    {
+      "heading": "Modalverben im Konjunktiv II der Vergangenheit",
+      "text": "For regret, criticism or missed options with a modal verb, use **hätte + Infinitiv + Modalverb-Infinitiv**: *Ich hätte die Frist beachten müssen.* The modal appears as an **infinitive** (never as Partizip II), so you get a double infinitive. In a subordinate clause, **hätte stands before** the double infinitive: *dass ich es hätte prüfen müssen*.",
+      "table": {
+        "head": ["Gegenwart", "Vergangenheit"],
+        "rows": [
+          ["Ich müsste die Frist beachten.", "Ich hätte die Frist beachten müssen."],
+          ["Er könnte fristlos kündigen.", "Er hätte fristlos kündigen können."],
+          ["Sie dürfte nicht unterschreiben.", "Sie hätte nicht unterschreiben dürfen."],
+          ["Wir sollten den Vertrag prüfen.", "Wir hätten den Vertrag prüfen sollen."]
+        ]
+      },
+      "examples": [
+        { "de": "Wir hätten den Vertrag vorher genauer prüfen müssen.", "en": "We should have checked the contract more carefully beforehand." },
+        { "de": "Ich hätte nicht sofort unterschreiben dürfen.", "en": "I should not have signed right away." },
+        { "de": "Er sagte, dass er die Klausel hätte lesen müssen.", "en": "He said that he should have read the clause." },
+        { "de": "Der Mieter hätte früher kündigen können.", "en": "The tenant could have given notice earlier." }
+      ]
+    },
+    {
+      "heading": "Konjunktiv I in Rechtstexten und Berichten",
+      "text": "B2 taught you Konjunktiv I for reported speech. In legal and formal texts it is the **standard**: protocols, court reports, newspapers. Use **er sei, sie habe, es werde** to show that someone else's claim is reported. If the Konjunktiv I form equals the Indikativ (*sie haben, wir sind*), use the **Konjunktiv II** instead (*sie hätten, wir wären*). Konjunktiv I also appears in fixed formal wording: *Gegeben sei …*, *Man beachte …*",
+      "table": {
+        "head": ["Funktion", "Beispiel"],
+        "rows": [
+          ["Bericht über eine Aussage", "Der Kläger gab an, er habe den Vertrag nie erhalten."],
+          ["Ersatzform (Konj. II)", "Die Zeugen sagten, sie hätten nichts gesehen."],
+          ["Aussage über ein Dokument", "Die Anwältin sagt, im Vertrag stehe, die Laufzeit betrage zwei Jahre."],
+          ["formelle Annahme", "Gegeben sei ein Vertrag mit zwei Jahren Laufzeit."]
+        ]
+      },
+      "examples": [
+        { "de": "Der Kläger gab an, er habe den Vertrag nie erhalten.", "en": "The plaintiff stated that he had never received the contract." },
+        { "de": "Die Zeugen sagten, sie hätten nichts gesehen.", "en": "The witnesses said they had not seen anything." },
+        { "de": "Die Vermieterin erklärte, die Heizung sei nicht defekt.", "en": "The landlady explained that the heating was not defective." },
+        { "de": "Der Anwalt betonte, der Vertrag sei wirksam abgeschlossen worden.", "en": "The lawyer stressed that the contract had been validly concluded." }
+      ]
+    },
+    {
+      "heading": "Vorsichtig formulieren: dürfte, wäre zu, Passiv + Modalverb",
+      "text": "Lawyers and engineers avoid being too sure. **Konjunktiv II** softens a statement: *Die Frist dürfte abgelaufen sein* (probably). *wäre … zu prüfen* is a polite passive. For missed duties in the passive use **hätte … werden müssen**: *Der Vertrag hätte schriftlich geschlossen werden müssen.* These forms sound confident and professional in meetings.",
+      "table": {
+        "head": ["Konstruktion", "Beispiel"],
+        "rows": [
+          ["dürfte + Infinitiv (wohl)", "Die Frist dürfte abgelaufen sein."],
+          ["wäre … zu + Infinitiv", "Die Klausel wäre rechtlich zu prüfen."],
+          ["hätte … werden müssen", "Der Vertrag hätte schriftlich geschlossen werden müssen."],
+          ["könnte man argumentieren", "Man könnte argumentieren, dass die Haftung entfällt."]
+        ]
+      },
+      "examples": [
+        { "de": "Die Frist dürfte bereits abgelaufen sein.", "en": "The deadline has probably already expired." },
+        { "de": "Die Klausel wäre rechtlich noch einmal zu prüfen.", "en": "The clause would have to be reviewed legally once more." },
+        { "de": "Der Vertrag hätte schriftlich abgeschlossen werden müssen.", "en": "The contract should have been concluded in writing." },
+        { "de": "Man könnte argumentieren, dass die Haftung hier entfällt.", "en": "One could argue that liability does not apply here." }
+      ]
+    }
+  ],
+  "tip": "Regret with a modal = hätte + Infinitiv + Modal-Infinitiv (no Partizip II). Reporting in formal texts = Konjunktiv I (er habe, sie sei); if it looks like the Indikativ, switch to Konjunktiv II.",
+  "words": [
+    { "de": "Vertrag", "en": "contract", "pos": "noun", "article": "der", "plural": "Verträge" },
+    { "de": "Kündigung", "en": "termination, notice", "pos": "noun", "article": "die", "plural": "Kündigungen" },
+    { "de": "Klausel", "en": "clause", "pos": "noun", "article": "die", "plural": "Klauseln" },
+    { "de": "Haftung", "en": "liability", "pos": "noun", "article": "die", "plural": "-" },
+    { "de": "Schadensersatz", "en": "compensation, damages", "pos": "noun", "article": "der", "plural": "-" },
+    { "de": "Mieter", "en": "tenant", "pos": "noun", "article": "der", "plural": "Mieter" },
+    { "de": "Kläger", "en": "plaintiff", "pos": "noun", "article": "der", "plural": "Kläger" },
+    { "de": "Verstoß", "en": "violation, breach", "pos": "noun", "article": "der", "plural": "Verstöße" },
+    { "de": "Verpflichtung", "en": "obligation", "pos": "noun", "article": "die", "plural": "Verpflichtungen" },
+    { "de": "Vereinbarung", "en": "agreement", "pos": "noun", "article": "die", "plural": "Vereinbarungen" },
+    { "de": "Urteil", "en": "judgment, verdict", "pos": "noun", "article": "das", "plural": "Urteile" },
+    { "de": "Laufzeit", "en": "term, duration", "pos": "noun", "article": "die", "plural": "Laufzeiten" },
+    { "de": "Mangel", "en": "defect", "pos": "noun", "article": "der", "plural": "Mängel" },
+    { "de": "unterzeichnen", "en": "to sign", "pos": "verb", "aux": "haben", "p2": "unterzeichnet" },
+    { "de": "kündigen", "en": "to terminate, to give notice", "pos": "verb", "aux": "haben", "p2": "gekündigt" },
+    { "de": "verstoßen", "en": "to violate (gegen)", "pos": "verb", "aux": "haben", "p2": "verstoßen" },
+    { "de": "haften", "en": "to be liable", "pos": "verb", "aux": "haben", "p2": "gehaftet" },
+    { "de": "anfechten", "en": "to contest, to challenge", "pos": "verb", "aux": "haben", "sep": "an", "p2": "angefochten" },
+    { "de": "einhalten", "en": "to comply with, to keep", "pos": "verb", "aux": "haben", "sep": "ein", "p2": "eingehalten" },
+    { "de": "abschließen", "en": "to conclude (a contract)", "pos": "verb", "aux": "haben", "sep": "ab", "p2": "abgeschlossen" },
+    { "de": "sich verpflichten", "en": "to commit oneself", "pos": "verb", "aux": "haben", "p2": "verpflichtet" },
+    { "de": "rechtswidrig", "en": "unlawful", "pos": "adj" },
+    { "de": "verbindlich", "en": "binding", "pos": "adj" },
+    { "de": "wirksam", "en": "effective, valid", "pos": "adj" }
+  ],
+  "mindmap": {
+    "label": "Konjunktiv vertieft",
+    "children": [
+      {
+        "label": "Modal + Vergangenheit",
+        "note": "hätte + Inf + Modal-Inf",
+        "children": [
+          { "label": "Ich hätte prüfen müssen" },
+          { "label": "Nebensatz: dass ich es hätte prüfen müssen", "note": "hätte vor dem Doppelinfinitiv" }
+        ]
+      },
+      {
+        "label": "Konjunktiv I",
+        "note": "Recht, Presse, Protokoll",
+        "children": [
+          { "label": "er sei, sie habe, es werde" },
+          { "label": "gleich wie Indikativ?", "note": "dann Konjunktiv II: sie hätten" }
+        ]
+      },
+      {
+        "label": "Vorsichtig formulieren",
+        "children": [
+          { "label": "dürfte … sein", "note": "wohl" },
+          { "label": "wäre … zu prüfen", "note": "höflich-passiv" }
+        ]
+      },
+      {
+        "label": "Passiv + Modal",
+        "children": [
+          { "label": "hätte … werden müssen" }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "mc", "q": "Ich hätte die Frist beachten ___.", "options": ["müssen", "gemusst", "musste"], "answer": 0, "explain": "With hätte + Infinitiv the modal stays an infinitive (double infinitive), never gemusst." },
+    { "type": "mc", "q": "Er sagt, dass er den Vertrag ___.", "options": ["hätte lesen müssen", "lesen müssen hätte", "hätte müssen lesen"], "answer": 0, "explain": "In a subordinate clause hätte stands in front of the double infinitive: hätte lesen müssen." },
+    { "type": "mc", "q": "Der Kläger sagte, er ___ den Vertrag nie erhalten.", "options": ["hat", "habe", "hatte"], "answer": 1, "explain": "Reported speech in a legal text uses Konjunktiv I: er habe." },
+    { "type": "mc", "q": "Die Zeugen sagten, sie ___ nichts gesehen.", "options": ["haben", "hätten", "habe"], "answer": 1, "explain": "sie haben equals the Indikativ, so the Ersatzform Konjunktiv II is used: sie hätten." },
+    { "type": "gap", "q": "Wir ___ den Vertrag vorher prüfen sollen. (Konjunktiv II von haben)", "answer": ["hätten"], "explain": "Missed duty in the past: hätten + prüfen sollen." },
+    { "type": "gap", "q": "Der Mieter erklärte, die Wohnung ___ mangelhaft. (Konjunktiv I von sein)", "answer": ["sei"], "explain": "Konjunktiv I of sein in the third person singular: sei." },
+    { "type": "gap", "q": "Der Vertrag hätte schriftlich abgeschlossen werden ___.", "answer": ["müssen"], "explain": "Passive with modal in Konjunktiv II past: hätte … werden müssen." },
+    { "type": "gap", "q": "Gegeben ___ ein Vertrag mit einer Laufzeit von zwei Jahren.", "answer": ["sei"], "explain": "Formal assumption (e.g. in exercises or legal reasoning) uses Konjunktiv I: Gegeben sei …" },
+    { "type": "article", "word": "Verstoß", "answer": "der", "explain": "Verstoß is a masculine stem noun (from verstoßen): der Verstoß, die Verstöße." },
+    { "type": "order", "words": ["Ich", "hätte", "die Klausel", "genauer", "prüfen", "müssen"], "answer": "Ich hätte die Klausel genauer prüfen müssen", "explain": "In a main clause hätte is in position 2; the double infinitive prüfen müssen stands at the end." },
+    { "type": "order", "words": ["Er", "sagte", "er", "habe", "die Frist", "nicht gekannt"], "answer": "Er sagte er habe die Frist nicht gekannt", "explain": "Reported speech with Konjunktiv I habe; kennen has the irregular Partizip II gekannt." },
+    { "type": "match", "pairs": [["hätte prüfen müssen", "should have checked"], ["hätte kündigen können", "could have given notice"], ["hätte nicht unterschreiben dürfen", "should not have signed"], ["dürfte abgelaufen sein", "has probably expired"], ["wäre zu prüfen", "would have to be checked"]], "explain": "Typical Konjunktiv II forms in legal and contract talk." },
+    { "type": "translate", "en": "We should have read the contract more carefully.", "answer": ["Wir hätten den Vertrag genauer lesen sollen", "Wir hätten den Vertrag sorgfältiger lesen sollen", "Wir hätten den Vertrag genauer durchlesen sollen", "Wir hätten den Vertrag sorgfältiger durchlesen sollen"], "explain": "Missed duty with sollen: hätten + lesen sollen (double infinitive)." },
+    { "type": "translate", "en": "The plaintiff stated that he had not received the contract.", "answer": ["Der Kläger gab an, er habe den Vertrag nicht erhalten", "Der Kläger erklärte, er habe den Vertrag nicht erhalten", "Der Kläger sagte, er habe den Vertrag nicht erhalten", "Der Kläger gab an, dass er den Vertrag nicht erhalten habe", "Der Kläger erklärte, dass er den Vertrag nicht erhalten habe"], "explain": "Reported speech in a formal text: Konjunktiv I habe + erhalten, with or without dass." }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Wir hätten den Vertrag vorher genauer prüfen müssen.", "en": "We should have checked the contract more carefully beforehand." },
+      { "de": "Ich hätte nicht sofort unterschreiben dürfen.", "en": "I should not have signed right away." },
+      { "de": "Der Kläger gab an, er habe den Vertrag nie erhalten.", "en": "The plaintiff stated that he had never received the contract." },
+      { "de": "Die Frist dürfte bereits abgelaufen sein.", "en": "The deadline has probably already expired." },
+      { "de": "Die Klausel wäre rechtlich noch einmal zu prüfen.", "en": "The clause would have to be reviewed legally once more." }
+    ],
+    "prompts": [
+      { "q": "Sie haben einen Mietvertrag zu schnell unterschrieben. Erklären Sie Ihrem Kollegen, was Sie anders hätten machen sollen.", "qEn": "You signed a rental contract too quickly. Tell your colleague what you should have done differently.", "model": "Ich hätte den Mietvertrag nicht sofort unterschreiben dürfen. Ich hätte die Klauseln genauer lesen müssen. Besonders die Kündigungsfrist hätte ich vorher klären sollen. Dann hätte ich jetzt keine Probleme.", "hint": "Ich hätte … müssen / sollen / nicht … dürfen" },
+      { "q": "Ihr Vermieter hat im Gespräch einiges behauptet. Berichten Sie in der Teamsitzung, was er gesagt hat.", "qEn": "Your landlord claimed several things. Report in the team meeting what he said.", "model": "Der Vermieter sagte, die Heizung sei in Ordnung. Er erklärte, er habe den Schaden nicht bemerkt. Außerdem meinte er, wir hätten die Miete zu spät bezahlt. Das stimmt natürlich nicht.", "hint": "Er sagte, er habe … / sie seien … / wir hätten …" },
+      { "q": "Geben Sie eine vorsichtige Einschätzung zu einer Vertragsklausel ab.", "qEn": "Give a careful assessment of a contract clause.", "model": "Die Klausel dürfte rechtlich schwierig sein. Man könnte argumentieren, dass sie den Mieter benachteiligt. Sie wäre also noch einmal zu prüfen. Der Vertrag hätte meiner Meinung nach klarer formuliert werden müssen.", "hint": "Die Klausel dürfte … / Man könnte argumentieren, dass …" }
+    ]
+  }
+}

@@ -361,34 +361,84 @@
       "name": "Fachkundig",
       "goal": "Express yourself fluently and precisely at work, at university and in society.",
       "youtube": "https://www.youtube.com/results?search_query=German+C1+grammar",
-      "planned": [
+      "milestones": [
         {
+          "id": "c1-01-partizipialattribute",
           "title": "Erweiterte Partizipialattribute",
-          "concept": "die vom Ingenieur geplante Anlage"
+          "concept": "Extended participial attributes: die vom Ingenieur geplante Anlage",
+          "wordlist": "Ingenieurwesen & Technik"
         },
         {
+          "id": "c1-02-nominalstil",
           "title": "Nominalstil vs. Verbalstil",
-          "concept": "Switching between registers"
+          "concept": "Switching between noun-heavy written style and verb-based spoken style",
+          "wordlist": "Verwaltung & Behörden"
         },
         {
+          "id": "c1-03-als-ob",
+          "title": "als ob, als wäre",
+          "concept": "Unreal comparisons with Konjunktiv II: als ob, als wenn, als + verb",
+          "wordlist": "Eindrücke & Wahrnehmung"
+        },
+        {
+          "id": "c1-04-konjunktiv-vertieft",
           "title": "Konjunktiv vertieft",
-          "concept": "als ob, als wäre; advanced Konjunktiv I/II"
+          "concept": "hätte machen müssen, and Konjunktiv I in formal texts",
+          "wordlist": "Recht & Verträge"
         },
         {
+          "id": "c1-05-passiv-vertieft",
+          "title": "Passiv vertieft",
+          "concept": "Passive Perfekt (ist gebaut worden) and passive without a subject (es wird gearbeitet)",
+          "wordlist": "Medizin & Gesundheit"
+        },
+        {
+          "id": "c1-06-modalpartikeln",
           "title": "Modalpartikeln",
-          "concept": "doch, mal, ja, eben, halt, wohl"
+          "concept": "Modal particles: doch, mal, ja, eben, halt, wohl, schon",
+          "wordlist": "Alltagsgespräche"
         },
         {
+          "id": "c1-07-redewendungen",
           "title": "Redewendungen",
-          "concept": "Idioms and fixed expressions"
+          "concept": "Idioms and fixed expressions",
+          "wordlist": "Redewendungen & Sprichwörter"
         },
         {
+          "id": "c1-08-konzessiv",
+          "title": "Konzessive Konnektoren",
+          "concept": "Concession and contrast: wenngleich, zwar … aber, nichtsdestotrotz, es sei denn",
+          "wordlist": "Debatte & Meinung"
+        },
+        {
+          "id": "c1-09-formelle-praepositionen",
+          "title": "Formelle Präpositionen",
+          "concept": "Formal prepositions with Genitiv: angesichts, hinsichtlich, aufgrund, infolge, mittels",
+          "wordlist": "Wirtschaft & Finanzen"
+        },
+        {
+          "id": "c1-10-wortbildung",
+          "title": "Wortbildung",
+          "concept": "Word formation: prefixes, suffixes, umfahren vs. umfahren",
+          "wordlist": "Wortbildung"
+        },
+        {
+          "id": "c1-11-wissenschaftlich",
           "title": "Wissenschaftliches Schreiben",
-          "concept": "Academic and technical writing"
+          "concept": "Academic writing: hedging, citing, structuring an argument",
+          "wordlist": "Studium & Forschung"
         },
         {
+          "id": "c1-12-register",
           "title": "Register & Stil",
-          "concept": "Formal, informal and professional tone"
+          "concept": "Formal, neutral and informal tone in emails and complaints",
+          "wordlist": "Beruf & Kommunikation"
+        },
+        {
+          "id": "c1-13-praesentieren",
+          "title": "Präsentieren & Diskutieren",
+          "concept": "Phrases for presentations, chairing a discussion and stating your position",
+          "wordlist": "Präsentation & Diskussion"
         }
       ]
     }

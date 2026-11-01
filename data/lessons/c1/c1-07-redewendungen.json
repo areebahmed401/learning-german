@@ -1,0 +1,148 @@
+{
+  "id": "c1-07-redewendungen",
+  "level": "C1",
+  "title": "Redewendungen",
+  "concept": "Idioms and fixed expressions",
+  "wordlist": "Redewendungen & Sprichwörter",
+  "minutes": 40,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+C1+Redewendungen+Sprichw%C3%B6rter+idioms",
+  "learn": [
+    {
+      "heading": "Was ist eine Redewendung?",
+      "text": "A **Redewendung** (idiom) has a meaning that you cannot get by adding up its words. The wording is **fixed**: do not swap words. The grammar still works normally, so the verb is conjugated and the tense can change: *Ich habe Schwein gehabt.* Germans use idioms all the time, at work, in the WG and with friends. Learn each one as a whole phrase with its situation.",
+      "table": {
+        "head": ["Redewendung", "Wörtlich", "Bedeutung"],
+        "rows": [
+          ["Ich verstehe nur Bahnhof.", "I only understand train station.", "I don't understand anything."],
+          ["Das ist nicht mein Bier.", "That is not my beer.", "That's not my business."],
+          ["Er hat Tomaten auf den Augen.", "He has tomatoes on his eyes.", "He doesn't see the obvious."],
+          ["Du hast Schwein gehabt.", "You had pig.", "You were lucky."]
+        ]
+      },
+      "examples": [
+        { "de": "Bei dem Vertrag verstehe ich nur Bahnhof.", "en": "I don't understand a thing about this contract." },
+        { "de": "Du hast den Nagel auf den Kopf getroffen: Genau das ist das Problem.", "en": "You hit the nail on the head: that is exactly the problem." },
+        { "de": "Ich habe dir die Daumen gedrückt, und du hast bestanden!", "en": "I crossed my fingers for you, and you passed!" }
+      ]
+    },
+    {
+      "heading": "Redewendungen im Alltag einsetzen",
+      "text": "Most idioms are **informal** or neutral, so they fit best in conversations with colleagues, flatmates and friends. Keep the fixed noun and verb, but adapt the person and tense. With separable or reflexive parts, follow normal grammar: *Er redet um den heißen Brei herum.* In a formal letter or a job interview, use one or two at most.",
+      "examples": [
+        { "de": "Das ist nicht mein Bier, das muss die Personalabteilung entscheiden.", "en": "That's not my business, HR has to decide that." },
+        { "de": "Lass uns das bitte unter vier Augen besprechen.", "en": "Let's discuss this in private, please." },
+        { "de": "Entschuldigung, ich habe gerade den Faden verloren.", "en": "Sorry, I just lost my train of thought." },
+        { "de": "Ich habe die Nase voll von dem Chaos in der Küche.", "en": "I'm fed up with the mess in the kitchen." }
+      ]
+    },
+    {
+      "heading": "Sprichwörter und Register",
+      "text": "A **Sprichwort** (proverb) is a complete sentence that never changes. It gives advice or a general truth, often with a smile. Use it to comment on a situation, not to explain something. Check the **register**: some idioms are jokes among friends, some are fine at work.",
+      "table": {
+        "head": ["Register", "Beispiel", "Wo?"],
+        "rows": [
+          ["umgangssprachlich", "Das ist mir Wurst.", "friends, WG"],
+          ["neutral", "unter vier Augen", "also at work"],
+          ["Sprichwort", "Übung macht den Meister.", "to encourage, with a smile"]
+        ]
+      },
+      "examples": [
+        { "de": "Aller Anfang ist schwer, aber Übung macht den Meister.", "en": "Every beginning is hard, but practice makes perfect." },
+        { "de": "Der Bus ist heute zu spät, dabei ist er sonst immer pünktlich. Ausnahmen bestätigen die Regel.", "en": "The bus is late today, although it is usually always on time. The exception proves the rule." },
+        { "de": "Morgenstund hat Gold im Mund, deshalb beginnt die Schicht schon um sechs.", "en": "The early bird catches the worm, which is why the shift starts at six." }
+      ]
+    }
+  ],
+  "tip": "Never translate an idiom word by word, and never change its words. Learn it with a picture: nicht mein Bier = a beer that belongs to someone else. Pick one new idiom per week and use it three times.",
+  "words": [
+    { "de": "Das ist nicht mein Bier.", "en": "lit. that is not my beer = that's not my business", "pos": "phrase" },
+    { "de": "nur Bahnhof verstehen", "en": "lit. to understand only train station = to not understand a thing", "pos": "phrase" },
+    { "de": "den Nagel auf den Kopf treffen", "en": "lit. to hit the nail on the head = to say exactly the right thing", "pos": "phrase" },
+    { "de": "die Daumen drücken", "en": "lit. to press the thumbs = to keep one's fingers crossed", "pos": "phrase" },
+    { "de": "Tomaten auf den Augen haben", "en": "lit. to have tomatoes on one's eyes = to overlook the obvious", "pos": "phrase" },
+    { "de": "zwei Fliegen mit einer Klappe schlagen", "en": "lit. to hit two flies with one swat = to kill two birds with one stone", "pos": "phrase" },
+    { "de": "Schwein haben", "en": "lit. to have pig = to be lucky", "pos": "phrase" },
+    { "de": "Hals- und Beinbruch!", "en": "lit. break your neck and leg = good luck!", "pos": "phrase" },
+    { "de": "ein Kinderspiel", "en": "lit. a children's game = very easy", "pos": "phrase" },
+    { "de": "Das ist mir Wurst.", "en": "lit. that is sausage to me = I don't care", "pos": "phrase" },
+    { "de": "Da liegt der Hund begraben.", "en": "lit. the dog is buried there = that's the real problem", "pos": "phrase" },
+    { "de": "den Faden verlieren", "en": "lit. to lose the thread = to lose one's train of thought", "pos": "phrase" },
+    { "de": "auf dem Schlauch stehen", "en": "lit. to stand on the hose = to be slow on the uptake", "pos": "phrase" },
+    { "de": "die Nase voll haben", "en": "lit. to have a full nose = to be fed up", "pos": "phrase" },
+    { "de": "unter vier Augen", "en": "lit. under four eyes = in private, one-to-one", "pos": "phrase" },
+    { "de": "ein Tropfen auf den heißen Stein", "en": "lit. a drop on the hot stone = a drop in the ocean", "pos": "phrase" },
+    { "de": "um den heißen Brei herumreden", "en": "lit. to talk around the hot porridge = to beat around the bush", "pos": "phrase" },
+    { "de": "mit der Tür ins Haus fallen", "en": "lit. to fall into the house with the door = to come out with it too bluntly", "pos": "phrase" },
+    { "de": "das Eis brechen", "en": "lit. to break the ice = to break the ice", "pos": "phrase" },
+    { "de": "Übung macht den Meister.", "en": "lit. practice makes the master = practice makes perfect", "pos": "phrase" },
+    { "de": "Aller Anfang ist schwer.", "en": "lit. every beginning is hard = every beginning is hard", "pos": "phrase" },
+    { "de": "Ausnahmen bestätigen die Regel.", "en": "lit. exceptions confirm the rule = the exception proves the rule", "pos": "phrase" },
+    { "de": "Morgenstund hat Gold im Mund.", "en": "lit. the morning hour has gold in its mouth = the early bird catches the worm", "pos": "phrase" }
+  ],
+  "mindmap": {
+    "label": "Redewendungen",
+    "children": [
+      {
+        "label": "Bedeutung ≠ Wörter",
+        "children": [
+          { "label": "nur Bahnhof verstehen", "note": "I understand nothing" },
+          { "label": "nicht mein Bier", "note": "not my business" },
+          { "label": "Tomaten auf den Augen", "note": "overlooking the obvious" }
+        ]
+      },
+      {
+        "label": "Glück & Erfolg",
+        "children": [
+          { "label": "Schwein haben", "note": "lucky pig" },
+          { "label": "Daumen drücken", "note": "crossed fingers" },
+          { "label": "Hals- und Beinbruch", "note": "good luck" }
+        ]
+      },
+      {
+        "label": "Gespräch & Meinung",
+        "children": [
+          { "label": "Nagel auf den Kopf", "note": "exactly right" },
+          { "label": "um den heißen Brei", "note": "beating around the bush" },
+          { "label": "unter vier Augen", "note": "private" }
+        ]
+      },
+      {
+        "label": "Sprichwörter",
+        "children": [
+          { "label": "Übung macht den Meister" },
+          { "label": "Aller Anfang ist schwer" }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "mc", "q": "Ich habe dir fest die ___ gedrückt, und es hat geklappt!", "options": ["Daumen", "Füße", "Hände"], "answer": 0, "explain": "The idiom is die Daumen drücken: to keep one's fingers crossed." },
+    { "type": "mc", "q": "Was bedeutet 'Ich verstehe nur Bahnhof'?", "options": ["I'm at the train station.", "I don't understand anything.", "I'm in a hurry."], "answer": 1, "explain": "Nur Bahnhof verstehen means you understand nothing. It has nothing to do with trains." },
+    { "type": "mc", "q": "Ein Kollege sagt: 'Da liegt der Hund begraben.' Was meint er?", "options": ["That is the real cause of the problem.", "The dog is lost.", "That is very easy."], "answer": 0, "explain": "Da liegt der Hund begraben points to the real reason or the core of a problem." },
+    { "type": "gap", "q": "Das ist nicht mein ___, das entscheidet die Chefin.", "answer": ["Bier"], "explain": "Das ist nicht mein Bier = that's not my business." },
+    { "type": "gap", "q": "Du hast den Nagel auf den ___ getroffen.", "answer": ["Kopf"], "explain": "Den Nagel auf den Kopf treffen = to say exactly the right thing." },
+    { "type": "gap", "q": "Ich habe die ___ voll von dem Lärm in der Nachbarschaft.", "answer": ["Nase"], "explain": "Die Nase voll haben = to be fed up with something." },
+    { "type": "gap", "q": "Lass uns das lieber unter vier ___ besprechen.", "answer": ["Augen"], "explain": "Unter vier Augen = in private (two people, four eyes)." },
+    { "type": "gap", "q": "Mit dem Umzug haben wir zwei Fliegen mit einer ___ geschlagen.", "answer": ["Klappe"], "explain": "Zwei Fliegen mit einer Klappe schlagen = to achieve two things at once." },
+    { "type": "article", "word": "Schlauch", "answer": "der", "explain": "Schlauch is masculine: der Schlauch, plural die Schläuche. The idiom is auf dem Schlauch stehen (dative)." },
+    { "type": "order", "words": ["Ich", "habe", "den", "Faden", "verloren"], "answer": "Ich habe den Faden verloren", "explain": "The idiom den Faden verlieren is used in the Perfekt: habe in position 2 and verloren at the end." },
+    { "type": "order", "words": ["Er", "redet", "um", "den", "heißen", "Brei", "herum"], "answer": "Er redet um den heißen Brei herum", "explain": "Herumreden is separable: redet stays in position 2 and herum goes to the end." },
+    { "type": "match", "pairs": [["Schwein haben", "to be lucky"], ["auf dem Schlauch stehen", "to be slow on the uptake"], ["Tomaten auf den Augen haben", "to overlook the obvious"], ["ein Kinderspiel", "very easy"], ["Hals- und Beinbruch", "good luck"]], "explain": "Real meaning of the idioms, not the literal translation." },
+    { "type": "translate", "en": "That is not my business. (use the idiom)", "answer": ["Das ist nicht mein Bier"], "explain": "The idiom is fixed: nicht mein Bier." },
+    { "type": "translate", "en": "I'm fed up with the noise. (use the idiom)", "answer": ["Ich habe die Nase voll vom Lärm", "Ich habe die Nase voll von dem Lärm", "Ich habe vom Lärm die Nase voll", "Ich habe von dem Lärm die Nase voll"], "explain": "Die Nase voll haben + von + Dativ (vom Lärm)." }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Bei dem Vertrag verstehe ich nur Bahnhof.", "en": "I don't understand a thing about this contract." },
+      { "de": "Du hast den Nagel auf den Kopf getroffen.", "en": "You hit the nail on the head." },
+      { "de": "Ich drücke dir die Daumen für das Vorstellungsgespräch.", "en": "I'll keep my fingers crossed for your job interview." },
+      { "de": "Lass uns das bitte unter vier Augen besprechen.", "en": "Let's discuss this in private, please." },
+      { "de": "Aller Anfang ist schwer, aber Übung macht den Meister.", "en": "Every beginning is hard, but practice makes perfect." }
+    ],
+    "prompts": [
+      { "q": "Ein Kollege hält morgen eine wichtige Präsentation. Wünschen Sie ihm Glück.", "qEn": "A colleague gives an important presentation tomorrow. Wish him luck.", "model": "Hals- und Beinbruch für morgen! Ich drücke dir die Daumen. Du bist gut vorbereitet, für dich ist das ein Kinderspiel.", "hint": "Hals- und Beinbruch / Daumen drücken" },
+      { "q": "In einer Besprechung haben Sie den Faden verloren. Bitten Sie höflich um eine Wiederholung.", "qEn": "In a meeting you lost the thread. Politely ask for a repeat.", "model": "Entschuldigung, ich habe gerade den Faden verloren. Können Sie den letzten Punkt noch einmal kurz wiederholen? Ich habe da leider ein bisschen auf dem Schlauch gestanden.", "hint": "den Faden verlieren / auf dem Schlauch stehen" },
+      { "q": "Erzählen Sie von einem Moment, in dem Sie Glück hatten.", "qEn": "Tell about a moment when you were lucky.", "model": "Neulich habe ich Schwein gehabt: Mein Zug ist ausgefallen, aber ein Kollege hat mich im Auto mitgenommen. So habe ich zwei Fliegen mit einer Klappe geschlagen: Ich war pünktlich im Büro, und wir konnten unterwegs das Projekt besprechen.", "hint": "Schwein haben / zwei Fliegen mit einer Klappe" }
+    ]
+  }
+}

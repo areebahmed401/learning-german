@@ -15,7 +15,7 @@ Personal German study app (A1 → C1) for one learner. They use the **Learn Germ
 - `js/lesson.js`: lesson steps learn · words · mindmap · practice · speak
 - `js/exercises.js`, `js/mindmap.js`, `js/speech.js`, `js/progress.js`, `js/anki.js`
 - `js/translator/`: verbformen-style lookup (`panel.js` UI, `dictionary.js`, `conjugate.js`, `decline.js`, `online.js`)
-- `data/roadmap.json`: levels → milestones (lesson ids in road order); B2/C1 have `planned` concepts
+- `data/roadmap.json`: levels → milestones (lesson ids in road order). A level can list `planned` concepts (shown locked) instead of milestones until its lessons exist
 - `data/lessons/<level>/<id>.json`: one lesson per file; the file name is `<id>.json`
 - `data/dictionary/core.json`, `data/dictionary/strong-verbs.json`: translator data
 

@@ -1,0 +1,163 @@
+{
+  "id": "c1-09-formelle-praepositionen",
+  "level": "C1",
+  "title": "Formelle Präpositionen",
+  "concept": "Formal prepositions with Genitiv: angesichts, hinsichtlich, aufgrund, infolge, mittels",
+  "wordlist": "Wirtschaft & Finanzen",
+  "minutes": 35,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+C1+Genitiv+Pr%C3%A4positionen+angesichts+aufgrund+hinsichtlich",
+  "learn": [
+    {
+      "heading": "Reason, view and topic: angesichts, aufgrund, hinsichtlich",
+      "text": "You already know **wegen, trotz, während** from B1. At C1 you need their more formal relatives, which appear in reports, contracts, bank letters and official emails. They all take the **Genitiv**. **Angesichts** introduces a situation you have to react to, **aufgrund** gives a cause, and **hinsichtlich** names the topic you are talking about. They replace a whole clause (*weil …, da …, was … betrifft*) with one compact phrase.",
+      "table": {
+        "head": ["Präposition + Genitiv", "Function", "Meaning"],
+        "rows": [
+          ["angesichts der Lage", "situation that forces a reaction", "in view of, given"],
+          ["aufgrund der Kosten", "cause (written style)", "due to, because of"],
+          ["hinsichtlich der Preise", "topic or aspect", "regarding, with respect to"],
+          ["bezüglich Ihres Antrags", "topic (letters, offices)", "concerning, with reference to"]
+        ]
+      },
+      "examples": [
+        { "de": "Angesichts der steigenden Zinsen verschieben wir die Investition.", "en": "Given the rising interest rates, we are postponing the investment." },
+        { "de": "Aufgrund des hohen Auftragsvolumens kommt es zu Lieferverzögerungen.", "en": "Due to the high order volume, there are delivery delays." },
+        { "de": "Hinsichtlich der Kosten sind wir uns noch nicht einig.", "en": "Regarding the costs, we have not yet agreed." },
+        { "de": "Bezüglich Ihres Antrags benötigen wir noch weitere Unterlagen.", "en": "Regarding your application, we still need further documents." }
+      ]
+    },
+    {
+      "heading": "Result, means, purpose: infolge, mittels, zwecks and more",
+      "text": "The next group is typical of written German. **Infolge** points to a result (often a negative event), **mittels** names a tool or method, **zwecks** a purpose, **seitens** the side an action comes from, **anlässlich** an occasion and **zugunsten** the person who benefits. Before a noun **without an article** the Genitiv ending is not visible (*mittels Software*). With a bare plural, many speakers use **von** instead (*aufgrund von Lieferengpässen*).",
+      "table": {
+        "head": ["Präposition + Genitiv", "Function", "Example"],
+        "rows": [
+          ["infolge", "result", "infolge der Krise"],
+          ["mittels", "means, tool", "mittels einer Software"],
+          ["zwecks", "purpose", "zwecks Prüfung"],
+          ["seitens", "side, party", "seitens der Bank"],
+          ["anlässlich", "occasion", "anlässlich des Jubiläums"],
+          ["zugunsten", "beneficiary", "zugunsten der Kunden"]
+        ]
+      },
+      "examples": [
+        { "de": "Infolge der Wirtschaftskrise sank der Umsatz um zwanzig Prozent.", "en": "As a result of the economic crisis, sales fell by twenty percent." },
+        { "de": "Die Daten werden mittels einer speziellen Software ausgewertet.", "en": "The data is analysed by means of special software." },
+        { "de": "Seitens der Bank gibt es keine Einwände gegen den Kredit.", "en": "On the part of the bank there are no objections to the loan." },
+        { "de": "Aufgrund von Lieferengpässen verzögert sich die Produktion.", "en": "Due to supply bottlenecks, production is delayed." }
+      ]
+    },
+    {
+      "heading": "From clause to phrase: nominal style",
+      "text": "Formal German packs information into **nouns** instead of clauses. A *weil*-clause with a verb becomes a prepositional phrase with an **adjective + noun** in the Genitiv. This makes sentences shorter and more official, but it is also harder to say aloud, so use it in writing and in prepared statements. In a spoken meeting *wegen* or *weil* is often more natural.",
+      "table": {
+        "head": ["Clause", "Prepositional phrase"],
+        "rows": [
+          ["Weil die Preise gestiegen sind, …", "Aufgrund der gestiegenen Preise …"],
+          ["Da die Nachfrage sinkt, …", "Angesichts der sinkenden Nachfrage …"],
+          ["Was die Qualität betrifft, …", "Hinsichtlich der Qualität …"],
+          ["Indem man eine Tabelle benutzt, …", "Mittels einer Tabelle …"]
+        ]
+      },
+      "examples": [
+        { "de": "Aufgrund der gestiegenen Energiepreise erhöhen wir die Preise.", "en": "Due to the increased energy prices, we are raising our prices." },
+        { "de": "Der Vertrag wurde zugunsten der Kunden angepasst.", "en": "The contract was adjusted in favour of the customers." },
+        { "de": "Anlässlich des Firmenjubiläums gibt es eine kleine Feier.", "en": "On the occasion of the company anniversary there is a small party." }
+      ]
+    }
+  ],
+  "tip": "Think of the little word that follows: angesichts, aufgrund, hinsichtlich all end in -s or -t and all ask for the Genitiv (der, des, der, der). When you want to sound formal, swap weil + verb for aufgrund + des/der + noun.",
+  "words": [
+    { "de": "angesichts", "en": "in view of, given (+Gen)", "pos": "prep" },
+    { "de": "hinsichtlich", "en": "regarding, with respect to (+Gen)", "pos": "prep" },
+    { "de": "aufgrund", "en": "due to, because of (+Gen)", "pos": "prep" },
+    { "de": "infolge", "en": "as a result of (+Gen)", "pos": "prep" },
+    { "de": "mittels", "en": "by means of (+Gen)", "pos": "prep" },
+    { "de": "seitens", "en": "on the part of (+Gen)", "pos": "prep" },
+    { "de": "zwecks", "en": "for the purpose of (+Gen)", "pos": "prep" },
+    { "de": "anlässlich", "en": "on the occasion of (+Gen)", "pos": "prep" },
+    { "de": "bezüglich", "en": "concerning (+Gen)", "pos": "prep" },
+    { "de": "zugunsten", "en": "in favour of (+Gen)", "pos": "prep" },
+    { "de": "Rendite", "en": "return, yield", "pos": "noun", "article": "die", "plural": "Renditen" },
+    { "de": "Bilanz", "en": "balance sheet", "pos": "noun", "article": "die", "plural": "Bilanzen" },
+    { "de": "Umsatz", "en": "sales, turnover", "pos": "noun", "article": "der", "plural": "Umsätze" },
+    { "de": "Gewinn", "en": "profit", "pos": "noun", "article": "der", "plural": "Gewinne" },
+    { "de": "Verlust", "en": "loss", "pos": "noun", "article": "der", "plural": "Verluste" },
+    { "de": "Kredit", "en": "loan, credit", "pos": "noun", "article": "der", "plural": "Kredite" },
+    { "de": "Zins", "en": "interest (rate)", "pos": "noun", "article": "der", "plural": "Zinsen" },
+    { "de": "Rücklage", "en": "reserve, savings", "pos": "noun", "article": "die", "plural": "Rücklagen" },
+    { "de": "Konjunktur", "en": "economic cycle, economy", "pos": "noun", "article": "die", "plural": "Konjunkturen" },
+    { "de": "Haftung", "en": "liability", "pos": "noun", "article": "die", "plural": "-" },
+    { "de": "Steuererklärung", "en": "tax return", "pos": "noun", "article": "die", "plural": "Steuererklärungen" },
+    { "de": "Nachfrage", "en": "demand", "pos": "noun", "article": "die", "plural": "Nachfragen" }
+  ],
+  "mindmap": {
+    "label": "Formelle Präpositionen",
+    "children": [
+      {
+        "label": "Grund & Lage",
+        "note": "weil + Verb wird zu Präposition + Nomen",
+        "children": [
+          { "label": "angesichts + Gen", "note": "Angesicht = face: you face the situation" },
+          { "label": "aufgrund + Gen / von" },
+          { "label": "infolge + Gen" }
+        ]
+      },
+      {
+        "label": "Thema",
+        "children": [
+          { "label": "hinsichtlich + Gen" },
+          { "label": "bezüglich + Gen" }
+        ]
+      },
+      {
+        "label": "Mittel & Zweck",
+        "children": [
+          { "label": "mittels + Gen" },
+          { "label": "zwecks + Gen" }
+        ]
+      },
+      {
+        "label": "Beteiligte & Anlass",
+        "children": [
+          { "label": "seitens + Gen" },
+          { "label": "zugunsten + Gen" },
+          { "label": "anlässlich + Gen" }
+        ]
+      },
+      {
+        "label": "Wirtschaft & Finanzen",
+        "children": [ { "label": "Umsatz, Gewinn, Verlust, Bilanz, Kredit, Zins, Rendite" } ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "mc", "q": "___ der steigenden Zinsen verschieben wir den Kauf.", "options": ["Angesichts", "Mittels", "Zwecks"], "answer": 0, "explain": "angesichts introduces a situation you react to (in view of). mittels is a tool and zwecks a purpose." },
+    { "type": "mc", "q": "Die Zahlen wurden ___ einer neuen Software ausgewertet.", "options": ["mittels", "infolge", "anlässlich"], "answer": 0, "explain": "mittels names the tool or method (by means of). infolge would mean a result, anlässlich an occasion." },
+    { "type": "mc", "q": "___ des Firmenjubiläums gibt es am Freitag eine Feier.", "options": ["Hinsichtlich", "Anlässlich", "Aufgrund"], "answer": 1, "explain": "anlässlich = on the occasion of. A celebration belongs to an occasion, not to a cause." },
+    { "type": "gap", "q": "Infolge ___ Krise sank der Umsatz deutlich.", "answer": ["der"], "explain": "infolge takes the Genitiv; die Krise is feminine, so the Genitiv article is der." },
+    { "type": "gap", "q": "Seitens ___ Bank gibt es keine Einwände gegen den Kredit.", "answer": ["der"], "explain": "seitens + Genitiv; die Bank is feminine, so the Genitiv article is der." },
+    { "type": "gap", "q": "Der Vertrag wurde zugunsten ___ Kunden geändert.", "answer": ["des"], "explain": "zugunsten + Genitiv; der Kunde is masculine and weak, so the Genitiv is des Kunden." },
+    { "type": "gap", "q": "Aufgrund ___ Lieferengpässen verzögert sich die Produktion.", "answer": ["von"], "explain": "A plural noun without an article shows no Genitiv ending, so German uses von: aufgrund von Lieferengpässen." },
+    { "type": "article", "word": "Rendite", "answer": "die", "explain": "Rendite is feminine: die Rendite, plural die Renditen. Nouns ending in -e are mostly feminine." },
+    { "type": "article", "word": "Zins", "answer": "der", "explain": "der Zins, plural die Zinsen. In everyday talk you almost always hear the plural: die Zinsen." },
+    { "type": "order", "words": ["müssen wir", "Angesichts der Lage", "überdenken", "unsere Planung"], "answer": "Angesichts der Lage müssen wir unsere Planung überdenken", "explain": "The prepositional phrase fills position 1, so the conjugated verb (müssen) comes second and the infinitive überdenken goes to the end." },
+    { "type": "match", "pairs": [["angesichts", "in view of"], ["hinsichtlich", "regarding"], ["aufgrund", "due to"], ["infolge", "as a result of"], ["mittels", "by means of"]], "explain": "The five core formal prepositions, all with the Genitiv." },
+    { "type": "translate", "en": "In view of the current situation, we are postponing the investment.", "answer": ["Angesichts der aktuellen Lage verschieben wir die Investition", "Angesichts der aktuellen Situation verschieben wir die Investition", "Wir verschieben die Investition angesichts der aktuellen Lage", "Wir verschieben die Investition angesichts der aktuellen Situation"], "explain": "angesichts + Genitiv (der aktuellen Lage). After the opening phrase the verb comes second." },
+    { "type": "translate", "en": "Due to the high costs, the bank rejected the loan.", "answer": ["Aufgrund der hohen Kosten hat die Bank den Kredit abgelehnt", "Aufgrund der hohen Kosten lehnte die Bank den Kredit ab", "Wegen der hohen Kosten hat die Bank den Kredit abgelehnt", "Wegen der hohen Kosten lehnte die Bank den Kredit ab"], "explain": "aufgrund + Genitiv plural (der hohen Kosten). ablehnen is separable: hat abgelehnt in the perfect, lehnte … ab in the past." }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Angesichts der aktuellen Lage müssen wir unsere Planung überdenken.", "en": "In view of the current situation we have to rethink our planning." },
+      { "de": "Aufgrund der gestiegenen Zinsen haben wir den Kredit neu verhandelt.", "en": "Due to the increased interest rates we renegotiated the loan." },
+      { "de": "Hinsichtlich der Kosten sind wir uns noch nicht ganz einig.", "en": "Regarding the costs we have not quite agreed yet." },
+      { "de": "Infolge der Krise ist der Umsatz stark zurückgegangen.", "en": "As a result of the crisis, sales dropped sharply." },
+      { "de": "Seitens der Bank gibt es keine Einwände gegen unseren Antrag.", "en": "The bank has no objections to our application." }
+    ],
+    "prompts": [
+      { "q": "Ein Kunde fragt, warum die Lieferung später kommt. Erklären Sie es formell.", "qEn": "A customer asks why the delivery is late. Explain formally.", "model": "Aufgrund von Lieferengpässen bei unserem Zulieferer verzögert sich die Produktion. Angesichts dieser Lage rechnen wir mit einer Verspätung von etwa zwei Wochen. Hinsichtlich der Kosten entstehen für Sie keine Nachteile.", "hint": "aufgrund von / angesichts / hinsichtlich" },
+      { "q": "Sie sprechen mit Ihrer Bank über einen Kredit für ein Projekt. Was sagen Sie?", "qEn": "You talk to your bank about a loan for a project. What do you say?", "model": "Bezüglich meines Antrags möchte ich nachfragen, wie der Stand ist. Angesichts der niedrigen Zinsen wäre ein Kredit für uns günstig. Seitens meines Arbeitgebers gibt es eine schriftliche Bestätigung über mein Einkommen.", "hint": "bezüglich / angesichts / seitens" },
+      { "q": "Im Meeting fragt der Chef, warum der Umsatz gesunken ist. Antworten Sie.", "qEn": "In the meeting your boss asks why sales have fallen. Answer.", "model": "Infolge der schwachen Konjunktur ist die Nachfrage gesunken. Hinsichtlich der Zahlen kann ich Ihnen die Bilanz zeigen. Mittels einer neuen Auswertung können wir die Ursachen genauer analysieren.", "hint": "infolge / hinsichtlich / mittels" }
+    ]
+  }
+}
