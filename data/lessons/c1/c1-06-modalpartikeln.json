@@ -1,0 +1,147 @@
+{
+  "id": "c1-06-modalpartikeln",
+  "level": "C1",
+  "title": "Modalpartikeln",
+  "concept": "Modal particles: doch, mal, ja, eben, halt, wohl, schon",
+  "wordlist": "Alltagsgespräche",
+  "minutes": 40,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+C1+Modalpartikeln+doch+mal+ja+eben+halt+wohl+schon",
+  "learn": [
+    {
+      "heading": "doch, mal, ja: freundlich und weich",
+      "text": "**Modalpartikeln** are small unstressed words in the middle of a sentence. They do not change the facts, they show the speaker's **attitude**: friendly, surprised, resigned. They usually cannot be translated word for word, but a German sentence without them often sounds cold or blunt. They stand in the **Mittelfeld**, never in position 1, and cannot be negated.",
+      "table": {
+        "head": ["Partikel", "Wirkung", "Beispiel"],
+        "rows": [
+          ["doch", "friendly push, or a reminder", "Komm doch rein!"],
+          ["mal", "softens a request or suggestion", "Kannst du mal helfen?"],
+          ["ja", "shared knowledge, or surprise", "Das ist ja toll!"]
+        ]
+      },
+      "examples": [
+        { "de": "Komm doch mal vorbei, dann trinken wir einen Kaffee.", "en": "Come over sometime, and we'll have a coffee." },
+        { "de": "Kannst du mal kurz die Tür aufmachen?", "en": "Could you open the door for a second?" },
+        { "de": "Es ist ja schon spät, wir sollten gehen.", "en": "It's already late, as you know, so we should go." }
+      ]
+    },
+    {
+      "heading": "eben, halt, wohl, schon",
+      "text": "**Eben** and **halt** both say *that's just how it is*; they express acceptance. *Eben* is neutral, *halt* is more casual. **Wohl** marks an **assumption** (*probably*). **Schon** reassures (*it will be fine*) or admits a point before adding a *but*. The meaning depends on the situation and on your tone of voice.",
+      "examples": [
+        { "de": "Der Zug hat Verspätung, da müssen wir halt warten.", "en": "The train is late, so we simply have to wait." },
+        { "de": "Er hat sich noch nicht gemeldet, er ist wohl krank.", "en": "He hasn't been in touch yet, he's probably ill." },
+        { "de": "Keine Sorge, das wird schon klappen.", "en": "Don't worry, it will work out." },
+        { "de": "Das ist eben so, daran können wir nichts ändern.", "en": "That's just how it is, we can't change it." }
+      ]
+    },
+    {
+      "heading": "Betont oder unbetont?",
+      "text": "Most particles have a twin: a normal word with the same spelling. As a **particle** the word is **unstressed** and sits in the middle of the sentence. As a normal word it is **stressed**. Listen for it: *DOCH!* as an answer is a contradiction (*yes, I do!*), while *komm doch mit* is a gentle invitation. Use particles in speech and chats, but rarely in formal letters.",
+      "table": {
+        "head": ["Wort", "Betont (normales Wort)", "Unbetont (Partikel)"],
+        "rows": [
+          ["doch", "Doch, ich habe Zeit!", "Komm doch mit!"],
+          ["ja", "Ja, gern.", "Das ist ja nett!"],
+          ["schon", "Er ist schon da. (already)", "Das schaffst du schon."],
+          ["eben", "Ich bin eben angekommen. (just now)", "Das ist eben so."],
+          ["mal", "Ich war mal in Berlin. (once)", "Hilf mir mal."]
+        ]
+      },
+      "examples": [
+        { "de": "Du hast keine Zeit? – Doch, ich habe Zeit!", "en": "You have no time? – Yes, I do have time!" },
+        { "de": "Sag ruhig Bescheid, wenn du Hilfe brauchst.", "en": "Just let me know if you need help." },
+        { "de": "Wo warst du denn so lange?", "en": "Where have you been for so long, then?" }
+      ]
+    }
+  ],
+  "tip": "Particles are the music of German: they carry feelings, not facts. Take them out and the grammar stays correct, but the tone gets cold. Try one per sentence in speech, no more.",
+  "words": [
+    { "de": "doch", "en": "particle: friendly push; also: yes, I do", "pos": "adv" },
+    { "de": "mal", "en": "particle: softens a request; also: once", "pos": "adv" },
+    { "de": "ja", "en": "particle: as you know, surprise; also: yes", "pos": "adv" },
+    { "de": "eben", "en": "particle: just how it is; also: just now", "pos": "adv" },
+    { "de": "halt", "en": "particle: that's just how it is (casual)", "pos": "adv" },
+    { "de": "wohl", "en": "particle: probably", "pos": "adv" },
+    { "de": "schon", "en": "particle: reassurance; also: already", "pos": "adv" },
+    { "de": "denn", "en": "particle in questions: then, ever", "pos": "adv" },
+    { "de": "bloß", "en": "particle: (in warnings) just, ever", "pos": "adv" },
+    { "de": "eigentlich", "en": "actually, by the way", "pos": "adv" },
+    { "de": "vielleicht", "en": "particle: (in exclamations) really, what a", "pos": "adv" },
+    { "de": "ruhig", "en": "particle: go ahead, feel free to", "pos": "adv" },
+    { "de": "Na ja", "en": "well, oh well", "pos": "phrase" },
+    { "de": "Keine Ahnung", "en": "no idea", "pos": "phrase" },
+    { "de": "Ach so", "en": "oh, I see", "pos": "phrase" },
+    { "de": "Mal sehen", "en": "we'll see", "pos": "phrase" },
+    { "de": "Kein Problem", "en": "no problem", "pos": "phrase" },
+    { "de": "sich melden", "en": "to get in touch, to report", "pos": "verb", "aux": "haben", "p2": "gemeldet" },
+    { "de": "vorbeikommen", "en": "to come over, to drop by", "pos": "verb", "aux": "sein", "sep": "vorbei", "p2": "vorbeigekommen" },
+    { "de": "sich verabreden", "en": "to arrange to meet", "pos": "verb", "aux": "haben", "p2": "verabredet" },
+    { "de": "absagen", "en": "to cancel, to decline", "pos": "verb", "aux": "haben", "sep": "ab", "p2": "abgesagt" },
+    { "de": "quatschen", "en": "to chat (casual)", "pos": "verb", "aux": "haben", "p2": "gequatscht" }
+  ],
+  "mindmap": {
+    "label": "Modalpartikeln",
+    "children": [
+      {
+        "label": "Freundlich & weich",
+        "children": [
+          { "label": "doch", "note": "friendly push: Komm doch rein!" },
+          { "label": "mal", "note": "softens: Kannst du mal helfen?" },
+          { "label": "ja", "note": "as you know / surprise" }
+        ]
+      },
+      {
+        "label": "Haltung",
+        "children": [
+          { "label": "eben / halt", "note": "that's just how it is" },
+          { "label": "wohl", "note": "probably" },
+          { "label": "schon", "note": "it will be fine" }
+        ]
+      },
+      {
+        "label": "Regeln",
+        "children": [
+          { "label": "unbetont", "note": "stressed = normal word" },
+          { "label": "Mittelfeld", "note": "never position 1" },
+          { "label": "nicht negierbar" }
+        ]
+      },
+      {
+        "label": "Alltagsgespräche",
+        "children": [ { "label": "Na ja, Keine Ahnung, Mal sehen, vorbeikommen, quatschen" } ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "mc", "q": "Komm ___ mal vorbei, dann quatschen wir!", "options": ["doch", "wohl", "eben"], "answer": 0, "explain": "A friendly invitation uses doch: it softens the imperative and sounds welcoming." },
+    { "type": "mc", "q": "Er hat sich nicht gemeldet. Er ist ___ krank.", "options": ["wohl", "eben", "mal"], "answer": 0, "explain": "Wohl marks an assumption: he is probably ill. It says 'I think so' without being sure." },
+    { "type": "mc", "q": "Der Zug ist ausgefallen. Wir müssen ___ warten.", "options": ["ja", "halt", "wohl"], "answer": 1, "explain": "Halt expresses resignation: nothing can be changed, we simply have to wait." },
+    { "type": "gap", "q": "Du hast keine Zeit? – ___, ich habe Zeit!", "answer": ["Doch"], "explain": "Here doch is stressed and is a contradiction of a negative statement (yes, I do). It is not a particle." },
+    { "type": "gap", "q": "Keine Sorge, das klappt ___.", "answer": ["schon"], "explain": "Unstressed schon reassures: it will work out, don't worry." },
+    { "type": "gap", "q": "Kannst du ___ kurz die Tür aufmachen?", "answer": ["mal"], "explain": "Mal softens a request. It makes it sound light and friendly." },
+    { "type": "gap", "q": "Du weißt ___, dass ich morgen früh arbeiten muss.", "answer": ["ja", "doch"], "explain": "Ja and doch both remind the listener of shared knowledge (as you know). Ja is a little more neutral, doch a little more insistent." },
+    { "type": "article", "word": "Verabredung", "answer": "die", "explain": "Nouns ending in -ung are feminine: die Verabredung, plural die Verabredungen." },
+    { "type": "order", "words": ["Das", "wird", "schon", "klappen"], "answer": "Das wird schon klappen", "explain": "The particle schon stands in the Mittelfeld, after the verb wird and before the infinitive." },
+    { "type": "order", "words": ["Komm", "doch", "mal", "vorbei"], "answer": "Komm doch mal vorbei", "explain": "In an imperative the particles doch mal come right after the verb, and the separable prefix vorbei goes to the end." },
+    { "type": "order", "words": ["Dann", "müssen", "wir", "halt", "warten"], "answer": "Dann müssen wir halt warten", "explain": "Halt stays in the Mittelfeld, after the subject and before the infinitive at the end." },
+    { "type": "match", "pairs": [["doch (Partikel)", "friendly push or reminder"], ["mal", "softens a request"], ["eben / halt", "that's just how it is"], ["wohl", "probably"], ["ja", "as you know, surprise"]], "explain": "Core meanings of the main modal particles." },
+    { "type": "translate", "en": "He is probably still at work.", "answer": ["Er ist wohl noch bei der Arbeit", "Er ist wohl noch auf der Arbeit", "Er ist wohl noch im Büro", "Er ist wohl noch in der Arbeit"], "explain": "Wohl marks an assumption and stands in the Mittelfeld, after the verb ist." },
+    { "type": "translate", "en": "Then we simply have to wait.", "answer": ["Dann müssen wir halt warten", "Dann müssen wir eben warten", "Wir müssen dann halt warten", "Wir müssen dann eben warten"], "explain": "Halt and eben both show acceptance: we cannot change it." }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Komm doch mal vorbei, dann trinken wir einen Kaffee.", "en": "Come over sometime, then we'll have a coffee." },
+      { "de": "Das ist ja nett von dir!", "en": "That's really nice of you!" },
+      { "de": "Dann müssen wir halt einen anderen Termin finden.", "en": "Then we'll simply have to find another date." },
+      { "de": "Er ist wohl noch im Meeting.", "en": "He is probably still in the meeting." },
+      { "de": "Keine Sorge, das schaffst du schon.", "en": "Don't worry, you'll manage." },
+      { "de": "Sag ruhig Bescheid, wenn du Hilfe brauchst.", "en": "Just let me know if you need help." }
+    ],
+    "prompts": [
+      { "q": "Ein neuer Kollege kennt noch niemanden. Laden Sie ihn freundlich zum Mittagessen ein.", "qEn": "A new colleague doesn't know anyone yet. Invite him to lunch in a friendly way.", "model": "Hey, du bist ja neu hier. Komm doch mal mit zum Mittagessen, wir gehen meistens zusammen in die Kantine. Da kannst du die anderen gleich kennenlernen. Sag ruhig Bescheid, wenn du Lust hast.", "hint": "doch mal / ja / ruhig" },
+      { "q": "Ihr Mitbewohner hat die Küche nicht aufgeräumt. Sagen Sie es freundlich.", "qEn": "Your flatmate has not tidied the kitchen. Say it in a friendly way.", "model": "Du, könntest du bitte mal die Küche aufräumen? Ich weiß ja, dass du viel zu tun hast, aber wir haben das doch so abgemacht. Es wäre nett, wenn du das heute noch machen könntest.", "hint": "mal / ja / doch" },
+      { "q": "Ihr Freund hat morgen ein Vorstellungsgespräch und ist nervös. Muntern Sie ihn auf.", "qEn": "Your friend has a job interview tomorrow and is nervous. Cheer him up.", "model": "Mach dir keine Sorgen, das klappt schon. Du hast dich ja gut vorbereitet. Wenn du ruhig bleibst, schaffst du das schon. Ruf mich ruhig an, wenn du vorher noch reden willst.", "hint": "schon / ja / ruhig" },
+      { "q": "Ein Kollege fragt: Wo bleibt denn Frau Weber? Antworten Sie.", "qEn": "A colleague asks where Ms Weber is. Answer.", "model": "Keine Ahnung. Sie ist wohl noch im Zug, es gab ja heute Morgen Störungen auf der Strecke. Wir fangen einfach schon mal an, und sie kommt dann halt später dazu.", "hint": "wohl / ja / halt" }
+    ]
+  }
+}

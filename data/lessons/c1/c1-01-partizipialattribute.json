@@ -1,0 +1,168 @@
+{
+  "id": "c1-01-partizipialattribute",
+  "level": "C1",
+  "title": "Erweiterte Partizipialattribute",
+  "concept": "Extended participial attributes: die vom Ingenieur geplante Anlage",
+  "wordlist": "Ingenieurwesen & Technik",
+  "minutes": 40,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+C1+erweitertes+Partizipialattribut",
+  "learn": [
+    {
+      "heading": "Aufbau: Relativsatz wird Attribut",
+      "text": "A **Partizipialattribut** packs a whole relative clause in front of the noun. The frame is: **article + extensions + participle (with adjective ending) + noun**. Everything between the article and the participle belongs to the participle: agent, place, time, adverbs. Typical in technical reports, manuals and contracts.",
+      "table": {
+        "head": ["Relativsatz", "Partizipialattribut"],
+        "rows": [
+          ["die Anlage, die vom Ingenieur geplant wurde", "die vom Ingenieur geplante Anlage"],
+          ["das Bauteil, das in Stuttgart gefertigt wurde", "das in Stuttgart gefertigte Bauteil"],
+          ["der Prototyp, der im Labor getestet wurde", "der im Labor getestete Prototyp"],
+          ["die Maschine, die ständig Daten liefert", "die ständig Daten liefernde Maschine"]
+        ]
+      },
+      "examples": [
+        { "de": "Die vom Ingenieur geplante Anlage geht im Mai in Betrieb.", "en": "The plant planned by the engineer goes into operation in May." },
+        { "de": "Wir verwenden nur im Werk gefertigte Bauteile.", "en": "We only use components manufactured at the plant." },
+        { "de": "Mit dem im Labor getesteten Prototyp sind wir zufrieden.", "en": "We are happy with the prototype tested in the lab." },
+        { "de": "Die ständig Daten liefernde Maschine hilft bei der Wartung.", "en": "The machine that constantly delivers data helps with maintenance." }
+      ]
+    },
+    {
+      "heading": "Partizip I und II mit Zusätzen",
+      "text": "**Partizip I** is active and simultaneous (*laufende Maschine*). **Partizip II** is passive (*geplante Anlage*) or, with intransitive verbs that take *sein*, active and completed (*ausgefallener Motor*). Reflexive pronouns and objects stay inside the extension. The participle carries the **adjective ending**, so check article and case.",
+      "table": {
+        "head": ["Relativsatz", "Attribut", "Partizip"],
+        "rows": [
+          ["die Maschine, die rund um die Uhr läuft", "die rund um die Uhr laufende Maschine", "Partizip I"],
+          ["der Kunde, der sich über die Verzögerung beschwert", "der sich über die Verzögerung beschwerende Kunde", "Partizip I"],
+          ["die Nachfrage, die in den letzten Jahren gestiegen ist", "die in den letzten Jahren gestiegene Nachfrage", "Partizip II (aktiv)"],
+          ["der Motor, der gestern ausgefallen ist", "der gestern ausgefallene Motor", "Partizip II (aktiv)"]
+        ]
+      },
+      "examples": [
+        { "de": "Der sich über die Lieferzeit beschwerende Kunde wartet im Büro.", "en": "The customer complaining about the delivery time is waiting in the office." },
+        { "de": "Die in den letzten Jahren stark gestiegene Nachfrage überfordert den Zulieferer.", "en": "The demand, which has risen sharply in recent years, overwhelms the supplier." },
+        { "de": "Der gestern ausgefallene Motor wurde noch am Abend ausgetauscht.", "en": "The motor that failed yesterday was replaced the same evening." }
+      ]
+    },
+    {
+      "heading": "zu + Partizip I: muss/kann werden",
+      "text": "**zu + Partizip I** replaces a passive with *müssen* or *können*: *die zu prüfende Anlage* = *die Anlage, die geprüft werden muss*. With separable verbs, **zu** sits inside the verb: *auszutauschen → das auszutauschende Bauteil*. In a meeting, long attributes are hard to say and to follow: write them, but **speak with a relative clause**.",
+      "table": {
+        "head": ["Attribut", "Relativsatz"],
+        "rows": [
+          ["die zu prüfende Anlage", "die Anlage, die geprüft werden muss"],
+          ["das kaum zu lösende Problem", "das Problem, das kaum gelöst werden kann"],
+          ["das auszutauschende Bauteil", "das Bauteil, das ausgetauscht werden muss"],
+          ["die nicht zu unterschätzenden Risiken", "die Risiken, die nicht unterschätzt werden dürfen"]
+        ]
+      },
+      "examples": [
+        { "de": "Die zu prüfende Anlage steht noch in der Halle.", "en": "The plant that has to be checked is still in the hall." },
+        { "de": "Das auszutauschende Bauteil liegt im Lager.", "en": "The component to be replaced is in the warehouse." },
+        { "de": "Wir müssen die nicht zu unterschätzenden Risiken im Meeting ansprechen.", "en": "We have to raise the risks, which must not be underestimated, in the meeting." },
+        { "de": "Im Meeting sage ich lieber: Die Anlage, die wir prüfen müssen, steht noch in der Halle.", "en": "In the meeting I prefer to say: The plant that we have to check is still in the hall." }
+      ]
+    }
+  ],
+  "tip": "Read it like a bracket: article … participle + noun. Everything inside the bracket belongs to the participle. To decode, jump to the participle, ask who did what, and rebuild the relative clause. When speaking, unpack it again.",
+  "words": [
+    { "de": "Anlage", "en": "plant, facility", "pos": "noun", "article": "die", "plural": "Anlagen" },
+    { "de": "Bauteil", "en": "component", "pos": "noun", "article": "das", "plural": "Bauteile" },
+    { "de": "Werkstoff", "en": "material", "pos": "noun", "article": "der", "plural": "Werkstoffe" },
+    { "de": "Belastung", "en": "load, stress", "pos": "noun", "article": "die", "plural": "Belastungen" },
+    { "de": "Toleranz", "en": "tolerance", "pos": "noun", "article": "die", "plural": "Toleranzen" },
+    { "de": "Entwurf", "en": "draft, design", "pos": "noun", "article": "der", "plural": "Entwürfe" },
+    { "de": "Wartung", "en": "maintenance", "pos": "noun", "article": "die", "plural": "Wartungen" },
+    { "de": "Prototyp", "en": "prototype", "pos": "noun", "article": "der", "plural": "Prototypen" },
+    { "de": "Konstruktion", "en": "construction, design", "pos": "noun", "article": "die", "plural": "Konstruktionen" },
+    { "de": "Zulieferer", "en": "supplier", "pos": "noun", "article": "der", "plural": "Zulieferer" },
+    { "de": "Ausfall", "en": "failure, breakdown", "pos": "noun", "article": "der", "plural": "Ausfälle" },
+    { "de": "Schaltplan", "en": "circuit diagram", "pos": "noun", "article": "der", "plural": "Schaltpläne" },
+    { "de": "Inbetriebnahme", "en": "commissioning", "pos": "noun", "article": "die", "plural": "Inbetriebnahmen" },
+    { "de": "konstruieren", "en": "to design, to construct", "pos": "verb", "aux": "haben", "p2": "konstruiert" },
+    { "de": "entwerfen", "en": "to design, to draft", "pos": "verb", "aux": "haben", "p2": "entworfen" },
+    { "de": "fertigen", "en": "to manufacture", "pos": "verb", "aux": "haben", "p2": "gefertigt" },
+    { "de": "einbauen", "en": "to install, to fit", "pos": "verb", "aux": "haben", "sep": "ein", "p2": "eingebaut" },
+    { "de": "ausfallen", "en": "to fail, to break down", "pos": "verb", "aux": "sein", "sep": "aus", "p2": "ausgefallen" },
+    { "de": "nachrüsten", "en": "to retrofit", "pos": "verb", "aux": "haben", "sep": "nach", "p2": "nachgerüstet" },
+    { "de": "austauschen", "en": "to replace, to swap", "pos": "verb", "aux": "haben", "sep": "aus", "p2": "ausgetauscht" },
+    { "de": "belasten", "en": "to load, to put stress on", "pos": "verb", "aux": "haben", "p2": "belastet" },
+    { "de": "belastbar", "en": "resilient, able to bear load", "pos": "adj" },
+    { "de": "störungsanfällig", "en": "prone to faults", "pos": "adj" },
+    { "de": "wartungsarm", "en": "low-maintenance", "pos": "adj" }
+  ],
+  "mindmap": {
+    "label": "Partizipialattribut",
+    "children": [
+      {
+        "label": "Aufbau",
+        "note": "Klammer um die Erweiterung",
+        "children": [
+          { "label": "Artikel + Zusätze + Partizip + Nomen" },
+          { "label": "Endung am Partizip", "note": "wie beim Adjektiv" }
+        ]
+      },
+      {
+        "label": "Partizip I",
+        "note": "aktiv, gleichzeitig",
+        "children": [
+          { "label": "die laufende Maschine" },
+          { "label": "= die Maschine, die läuft" }
+        ]
+      },
+      {
+        "label": "Partizip II",
+        "note": "passiv oder abgeschlossen",
+        "children": [
+          { "label": "die geplante Anlage" },
+          { "label": "der ausgefallene Motor", "note": "sein-Verb: aktiv" }
+        ]
+      },
+      {
+        "label": "zu + Partizip I",
+        "note": "muss / kann werden",
+        "children": [
+          { "label": "die zu prüfende Anlage" },
+          { "label": "das auszutauschende Bauteil", "note": "zu steckt im Verb" }
+        ]
+      },
+      {
+        "label": "Im Gespräch",
+        "note": "zurück zum Relativsatz",
+        "children": [
+          { "label": "schreiben: Attribut, sprechen: Relativsatz" }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "mc", "q": "Die Anlage, die vom Ingenieur geplant wurde → ___", "options": ["die vom Ingenieur geplante Anlage", "die vom Ingenieur planende Anlage", "die vom Ingenieur geplanten Anlage"], "answer": 0, "explain": "The relative clause is passive (wurde geplant), so Partizip II geplant + -e (feminine nominative after die)." },
+    { "type": "mc", "q": "Der Motor, der ständig Wärme erzeugt → ___", "options": ["der ständig Wärme erzeugte Motor", "der ständig Wärme erzeugende Motor", "der ständig Wärme zu erzeugende Motor"], "answer": 1, "explain": "The motor does the action itself, and it happens now: Partizip I erzeugend + -e." },
+    { "type": "mc", "q": "Das Problem ist schwer zu lösen. → ___", "options": ["das schwer zu lösende Problem", "das schwer gelöste Problem", "das schwer lösende Problem"], "answer": 0, "explain": "Possibility in the passive (kann gelöst werden) = zu + Partizip I + ending." },
+    { "type": "mc", "q": "Welcher Relativsatz passt zu „die gestern ausgefallene Maschine“?", "options": ["die Maschine, die gestern ausgefallen ist", "die Maschine, die gestern ausgefallen wurde", "die Maschine, die gestern ausfällt"], "answer": 0, "explain": "ausfallen is an intransitive sein-verb: Partizip II is active and completed (ist ausgefallen), not passive." },
+    { "type": "gap", "q": "Die vom Werk ___ Bauteile sind fehlerfrei. (liefern)", "answer": ["gelieferten"], "explain": "Passive and finished: Partizip II geliefert. Nominative plural after die takes -en." },
+    { "type": "gap", "q": "Wir brauchen eine regelmäßig ___ Anlage. (warten)", "answer": ["gewartete"], "explain": "Passive and finished: Partizip II gewartet + -e after eine (feminine accusative)." },
+    { "type": "gap", "q": "Die rund um die Uhr ___ Maschine verbraucht viel Strom. (laufen)", "answer": ["laufende"], "explain": "The machine is running now: Partizip I laufend + -e." },
+    { "type": "gap", "q": "Das ist ein nicht zu ___ Risiko. (unterschätzen)", "answer": ["unterschätzendes"], "explain": "zu + Partizip I of unterschätzen (inseparable): unterschätzend + -es after ein (neuter nominative)." },
+    { "type": "article", "word": "Werkstoff", "answer": "der", "explain": "Werkstoff is masculine like its base word Stoff: der Werkstoff, die Werkstoffe." },
+    { "type": "order", "words": ["geliefert", "Die vom Ingenieur geplante Anlage", "wird", "nächste Woche"], "answer": "Die vom Ingenieur geplante Anlage wird nächste Woche geliefert", "explain": "The whole participle phrase counts as one block in front of the verb; the participle of the passive goes to the end." },
+    { "type": "order", "words": ["bestanden", "Der im Werk gefertigte Prototyp", "alle Tests", "hat"], "answer": "Der im Werk gefertigte Prototyp hat alle Tests bestanden", "explain": "The attribute stays in front of Prototyp; the finite verb hat is in second position and bestanden at the end." },
+    { "type": "match", "pairs": [["die zu prüfende Anlage", "the plant that has to be checked"], ["das kaum zu lösende Problem", "the problem that can hardly be solved"], ["die ausgefallene Maschine", "the machine that has broken down"], ["die laufende Maschine", "the machine that is running"], ["das gefertigte Bauteil", "the component that was manufactured"]], "explain": "Partizip I = ongoing, Partizip II = finished or passive, zu + Partizip I = must/can be done." },
+    { "type": "translate", "en": "The prototype built by our team works reliably.", "answer": ["Der von unserem Team gebaute Prototyp funktioniert zuverlässig", "Der von unserem Team konstruierte Prototyp funktioniert zuverlässig", "Der von unserem Team gebaute Prototyp arbeitet zuverlässig", "Der von unserem Team konstruierte Prototyp arbeitet zuverlässig"], "explain": "Passive and finished: von unserem Team + gebaute/konstruierte + noun, all in front of Prototyp." },
+    { "type": "translate", "en": "The component to be replaced is in the warehouse.", "answer": ["Das auszutauschende Bauteil liegt im Lager", "Das zu ersetzende Bauteil liegt im Lager", "Das auszutauschende Bauteil ist im Lager", "Das zu ersetzende Bauteil ist im Lager"], "explain": "zu + Partizip I: auszutauschend (zu inside the separable verb) or zu ersetzend, both + -e." }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Die vom Ingenieur geplante Anlage geht im Mai in Betrieb.", "en": "The plant planned by the engineer goes into operation in May." },
+      { "de": "Die im Werk gefertigten Bauteile entsprechen den Toleranzen.", "en": "The components manufactured at the plant meet the tolerances." },
+      { "de": "Die rund um die Uhr laufende Maschine muss regelmäßig gewartet werden.", "en": "The machine running around the clock has to be serviced regularly." },
+      { "de": "Das schwer zu lösende Problem betrifft die Wartung.", "en": "The problem that is hard to solve concerns maintenance." },
+      { "de": "Wir müssen das ausgefallene Bauteil noch heute austauschen.", "en": "We have to replace the failed component today." }
+    ],
+    "prompts": [
+      { "q": "Beschreiben Sie eine Maschine oder Anlage an Ihrem Arbeitsplatz.", "qEn": "Describe a machine or plant at your workplace.", "model": "Bei uns steht eine rund um die Uhr laufende Anlage. Sie wurde vor zwei Jahren konstruiert und ist ziemlich wartungsarm. Die im Werk gefertigten Bauteile müssen aber regelmäßig geprüft werden. Zum Glück ist die Anlage sehr belastbar.", "hint": "eine … laufende Anlage, die im Werk gefertigten Bauteile" },
+      { "q": "Ihr Kollege versteht Ihren langen Satz nicht. Sagen Sie ihn einfacher: „Die vom Zulieferer gelieferten, noch zu prüfenden Bauteile liegen im Lager.“", "qEn": "Your colleague does not understand your long sentence. Say it more simply.", "model": "Entschuldigung, ich sage es einfacher: Der Zulieferer hat Bauteile geliefert. Wir müssen sie noch prüfen. Sie liegen im Lager.", "hint": "Relativsatz oder zwei kurze Sätze" },
+      { "q": "Der Chef fragt nach dem Stand der Anlage. Berichten Sie.", "qEn": "Your boss asks about the status of the plant. Report.", "model": "Die Anlage, die wir letzte Woche eingebaut haben, läuft jetzt stabil. Das ausgefallene Bauteil haben wir gestern ausgetauscht. Offen ist noch die Inbetriebnahme, die für Montag geplant ist.", "hint": "Die Anlage, die … / das Bauteil, das …" }
+    ]
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "id": "c1-03-als-ob",
+  "level": "C1",
+  "title": "als ob, als wäre",
+  "concept": "Unreal comparisons with Konjunktiv II: als ob, als wenn, als + verb",
+  "wordlist": "Eindrücke & Wahrnehmung",
+  "minutes": 40,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+C1+als+ob+als+wenn+Konjunktiv+2",
+  "learn": [
+    {
+      "heading": "als ob + Konjunktiv II",
+      "text": "**als ob** introduces a comparison that is **unreal, doubtful or only an impression**: the thing is *not* really so. The verb stands at the end of the clause and is in the **Konjunktiv II**. The tense shows the time relation: present form for \"at the same time\", past form (**hätte / wäre + Partizip II**) for something earlier.",
+      "table": {
+        "head": ["Zeit", "Form", "Beispiel"],
+        "rows": [
+          ["gleichzeitig", "als ob + wäre / hätte / wüsste", "Er spricht, als ob er der Chef wäre."],
+          ["vorher", "als ob + Partizip II + hätte / wäre", "Sie sieht aus, als ob sie nicht geschlafen hätte."],
+          ["Möglichkeit", "als ob + Infinitiv + würde", "Es sieht aus, als ob es gleich regnen würde."]
+        ]
+      },
+      "examples": [
+        { "de": "Er tut so, als ob er den Fehler nicht bemerkt hätte.", "en": "He acts as if he had not noticed the mistake." },
+        { "de": "Der Kollege redet, als ob er alles besser wüsste.", "en": "The colleague talks as if he knew everything better." },
+        { "de": "Es fühlt sich an, als ob wir schon Stunden im Meeting säßen.", "en": "It feels as if we had been sitting in the meeting for hours." },
+        { "de": "Sie sieht aus, als ob sie nicht geschlafen hätte.", "en": "She looks as if she had not slept." }
+      ]
+    },
+    {
+      "heading": "als wenn und als + Verb",
+      "text": "Three variants mean the same. **als ob** and **als wenn** are subordinate clauses (verb at the end). With **als alone**, the conjugated verb jumps **directly behind als**, and *ob / wenn* disappear. This short form sounds elegant and is very common in writing and in good speech.",
+      "table": {
+        "head": ["Variante", "Wortstellung", "Beispiel"],
+        "rows": [
+          ["als ob", "Verb am Ende", "Es sieht aus, als ob es regnen würde."],
+          ["als wenn", "Verb am Ende", "Es sieht aus, als wenn es regnen würde."],
+          ["als + Verb", "Verb direkt nach als", "Es sieht aus, als würde es regnen."],
+          ["als + Verb", "mit Hilfsverb", "Er spricht, als wäre er der Chef."]
+        ]
+      },
+      "examples": [
+        { "de": "Es sieht aus, als würde es gleich regnen.", "en": "It looks as if it were going to rain soon." },
+        { "de": "Er spricht, als wäre er der Chef.", "en": "He speaks as if he were the boss." },
+        { "de": "Sie arbeitet, als hätte sie nie etwas anderes getan.", "en": "She works as if she had never done anything else." },
+        { "de": "Er tut so, als wenn nichts passiert wäre.", "en": "He acts as if nothing had happened." }
+      ]
+    },
+    {
+      "heading": "Typische Auslöser und Alltag",
+      "text": "The clause is usually triggered by verbs of **impression and perception**: *aussehen, klingen, wirken, sich anfühlen, so tun, den Eindruck machen*. In everyday speech many people use the **Indikativ** when the impression could be true: *Es sieht aus, als ob es regnet.* Konjunktiv II is the safe choice at work and in exams. A short exclamation is also typical: *Als ob ich das nicht wüsste!* (As if I didn't know!)",
+      "table": {
+        "head": ["Auslöser", "Beispiel"],
+        "rows": [
+          ["so tun, als ob", "Er tut so, als ob er nichts wüsste."],
+          ["aussehen, als ob", "Das Angebot sieht aus, als wäre es zu billig."],
+          ["klingen, als ob", "Die Maschine klingt, als wäre sie defekt."],
+          ["sich anfühlen, als ob", "Es fühlt sich an, als hätte ich Fieber."],
+          ["den Eindruck machen, als ob", "Sie macht den Eindruck, als wäre sie überfordert."]
+        ]
+      },
+      "examples": [
+        { "de": "Das Angebot sieht aus, als wäre es zu billig.", "en": "The offer looks as if it were too cheap." },
+        { "de": "Die Maschine klingt, als wäre sie defekt.", "en": "The machine sounds as if it were defective." },
+        { "de": "Als ob ich das nicht wüsste!", "en": "As if I didn't know that!" },
+        { "de": "Es sieht aus, als ob es regnet.", "en": "It looks like it's raining. (spoken, Indikativ)" }
+      ]
+    }
+  ],
+  "tip": "als ob pushes the verb to the end; without ob the verb jumps up behind als. Both want Konjunktiv II: als ob er wüsste = als wüsste er. The impression is not the fact.",
+  "words": [
+    { "de": "Eindruck", "en": "impression", "pos": "noun", "article": "der", "plural": "Eindrücke" },
+    { "de": "Wahrnehmung", "en": "perception", "pos": "noun", "article": "die", "plural": "Wahrnehmungen" },
+    { "de": "Anschein", "en": "appearance, semblance", "pos": "noun", "article": "der", "plural": "-" },
+    { "de": "Vorstellung", "en": "idea, imagination", "pos": "noun", "article": "die", "plural": "Vorstellungen" },
+    { "de": "Stimmung", "en": "mood, atmosphere", "pos": "noun", "article": "die", "plural": "Stimmungen" },
+    { "de": "Atmosphäre", "en": "atmosphere", "pos": "noun", "article": "die", "plural": "Atmosphären" },
+    { "de": "Gesichtsausdruck", "en": "facial expression", "pos": "noun", "article": "der", "plural": "Gesichtsausdrücke" },
+    { "de": "Täuschung", "en": "illusion, deception", "pos": "noun", "article": "die", "plural": "Täuschungen" },
+    { "de": "Geräusch", "en": "noise, sound", "pos": "noun", "article": "das", "plural": "Geräusche" },
+    { "de": "Vermutung", "en": "assumption, suspicion", "pos": "noun", "article": "die", "plural": "Vermutungen" },
+    { "de": "wirken", "en": "to seem, to appear", "pos": "verb", "aux": "haben", "p2": "gewirkt" },
+    { "de": "aussehen", "en": "to look, to appear", "pos": "verb", "aux": "haben", "sep": "aus", "p2": "ausgesehen" },
+    { "de": "klingen", "en": "to sound", "pos": "verb", "aux": "haben", "p2": "geklungen" },
+    { "de": "scheinen", "en": "to seem", "pos": "verb", "aux": "haben", "p2": "geschienen" },
+    { "de": "vortäuschen", "en": "to feign, to pretend", "pos": "verb", "aux": "haben", "sep": "vor", "p2": "vorgetäuscht" },
+    { "de": "sich anfühlen", "en": "to feel (like)", "pos": "verb", "aux": "haben", "sep": "an", "p2": "angefühlt" },
+    { "de": "vorkommen", "en": "to seem (to someone)", "pos": "verb", "aux": "sein", "sep": "vor", "p2": "vorgekommen" },
+    { "de": "sich einbilden", "en": "to imagine, to fancy", "pos": "verb", "aux": "haben", "sep": "ein", "p2": "eingebildet" },
+    { "de": "auffallen", "en": "to stand out, to be noticed", "pos": "verb", "aux": "sein", "sep": "auf", "p2": "aufgefallen" },
+    { "de": "wahrnehmen", "en": "to perceive, to notice", "pos": "verb", "aux": "haben", "sep": "wahr", "p2": "wahrgenommen" },
+    { "de": "offensichtlich", "en": "obvious", "pos": "adj" },
+    { "de": "merkwürdig", "en": "strange, odd", "pos": "adj" },
+    { "de": "vertraut", "en": "familiar", "pos": "adj" },
+    { "de": "anscheinend", "en": "apparently", "pos": "adv" }
+  ],
+  "mindmap": {
+    "label": "als ob / als wäre",
+    "children": [
+      {
+        "label": "Formen",
+        "note": "drei Varianten, ein Sinn",
+        "children": [
+          { "label": "als ob …", "note": "Verb am Ende" },
+          { "label": "als wenn …", "note": "Verb am Ende" },
+          { "label": "als wäre …", "note": "Verb direkt nach als" }
+        ]
+      },
+      {
+        "label": "Zeitform",
+        "children": [
+          { "label": "gleichzeitig", "note": "als ob er Chef wäre" },
+          { "label": "vorher", "note": "als ob er geschlafen hätte" }
+        ]
+      },
+      {
+        "label": "Auslöser",
+        "note": "Eindruck & Wahrnehmung",
+        "children": [
+          { "label": "so tun, aussehen, klingen" },
+          { "label": "wirken, sich anfühlen" }
+        ]
+      },
+      {
+        "label": "Gesprochen",
+        "note": "oft Indikativ, aber Konj. II ist sicher",
+        "children": [
+          { "label": "Als ob ich das nicht wüsste!" }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "mc", "q": "Er tut so, als ob er alles ___.", "options": ["wüsste", "wissen", "wusste"], "answer": 0, "explain": "als ob is unreal, so Konjunktiv II: wüsste (from wissen)." },
+    { "type": "mc", "q": "Sie sieht aus, als ob sie die ganze Nacht nicht ___ hätte.", "options": ["schlafen", "geschlafen", "schläft"], "answer": 1, "explain": "Something earlier is unreal: Partizip II geschlafen + hätte at the end." },
+    { "type": "mc", "q": "Welcher Satz hat die richtige Wortstellung?", "options": ["Es sieht aus, als würde es gleich regnen.", "Es sieht aus, als es würde gleich regnen.", "Es sieht aus, als ob würde es gleich regnen."], "answer": 0, "explain": "Without ob, the verb jumps directly behind als. With ob, the verb goes to the end." },
+    { "type": "mc", "q": "„Er tut so, als wäre er krank.“ bedeutet:", "options": ["Er ist nicht wirklich krank.", "Er ist wirklich krank.", "Er war krank."], "answer": 0, "explain": "als wäre expresses an unreal comparison: he pretends, but he is not ill." },
+    { "type": "gap", "q": "Die Maschine klingt, als ob sie kaputt ___.", "answer": ["wäre"], "explain": "Unreal impression at the same time: Konjunktiv II wäre." },
+    { "type": "gap", "q": "Er tut so, als ___ er den Fehler nicht bemerkt hätte.", "answer": ["ob", "wenn"], "explain": "als ob and als wenn both introduce a subordinate clause with the verb at the end." },
+    { "type": "gap", "q": "Sie wirkt, als ___ sie sich gut auf das Gespräch vorbereitet.", "answer": ["hätte"], "explain": "Without ob, the conjugated verb follows directly: als hätte sie sich vorbereitet (Konjunktiv II)." },
+    { "type": "gap", "q": "Es kommt mir vor, als ob ich dich schon ewig ___. (kennen)", "answer": ["kennen würde", "kennte"], "explain": "Konjunktiv II of kennen: the würde-form kennen würde is common; kennte is rare and formal." },
+    { "type": "article", "word": "Eindruck", "answer": "der", "explain": "Eindruck is a masculine stem noun (from drücken): der Eindruck, die Eindrücke." },
+    { "type": "order", "words": ["Es", "sieht", "aus", "als", "würde", "es", "gleich", "regnen"], "answer": "Es sieht aus als würde es gleich regnen", "explain": "In the short form the verb würde stands directly after als, before the subject es." },
+    { "type": "order", "words": ["Er", "spricht", "als", "ob", "er", "der", "Chef", "wäre"], "answer": "Er spricht als ob er der Chef wäre", "explain": "With als ob the clause is subordinate, so wäre stands at the very end." },
+    { "type": "match", "pairs": [["so tun, als ob", "to act as if"], ["aussehen, als ob", "to look as if"], ["klingen, als ob", "to sound as if"], ["sich anfühlen, als ob", "to feel as if"], ["wirken, als ob", "to seem as if"]], "explain": "Verbs of impression that often introduce an unreal comparison." },
+    { "type": "translate", "en": "He acts as if he had not read the contract.", "answer": ["Er tut so, als ob er den Vertrag nicht gelesen hätte", "Er tut so, als hätte er den Vertrag nicht gelesen", "Er tut so, als wenn er den Vertrag nicht gelesen hätte"], "explain": "Earlier and unreal: Partizip II gelesen + hätte. With als ob the verb is last, with als alone hätte comes right after als." },
+    { "type": "translate", "en": "It sounds as if the engine were broken.", "answer": ["Es klingt, als ob der Motor kaputt wäre", "Es klingt, als wäre der Motor kaputt", "Es klingt, als wenn der Motor kaputt wäre"], "explain": "Konjunktiv II wäre; the verb is last after als ob, directly after als in the short form." }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Er tut so, als ob er den Fehler nicht bemerkt hätte.", "en": "He acts as if he had not noticed the mistake." },
+      { "de": "Es sieht aus, als würde es gleich regnen.", "en": "It looks as if it were going to rain soon." },
+      { "de": "Die Kollegin wirkt, als wäre sie völlig erschöpft.", "en": "The colleague seems as if she were completely exhausted." },
+      { "de": "Es fühlt sich an, als hätte ich den ganzen Tag nur Meetings gehabt.", "en": "It feels as if I had had nothing but meetings all day." },
+      { "de": "Du redest, als ob du das Projekt schon abgeschlossen hättest.", "en": "You talk as if you had already completed the project." }
+    ],
+    "prompts": [
+      { "q": "Beschreiben Sie Ihren ersten Eindruck von Ihrem Arbeitsplatz in Deutschland.", "qEn": "Describe your first impression of your workplace in Germany.", "model": "Am ersten Tag wirkte alles sehr geordnet, als ob jeder genau wüsste, was er tun muss. Die Atmosphäre war ruhig, aber freundlich. Es kam mir vor, als wäre ich schon lange dort. Nur die Sprache klang manchmal so schnell, als würden alle zugleich reden.", "hint": "wirken, als ob … / es kam mir vor, als wäre …" },
+      { "q": "Ein Kollege verhält sich seltsam. Was fällt Ihnen auf?", "qEn": "A colleague behaves oddly. What do you notice?", "model": "Mein Kollege tut seit Tagen so, als hätte er keine Zeit für uns. Er sieht aus, als hätte er schlecht geschlafen. Vielleicht hat er Stress. Es wirkt, als wäre er mit dem Projekt überfordert.", "hint": "er tut so, als hätte … / er sieht aus, als …" },
+      { "q": "Wie haben Sie sich gefühlt, als Sie nach Deutschland gezogen sind?", "qEn": "How did you feel when you moved to Germany?", "model": "Am Anfang fühlte es sich an, als wäre ich in einer ganz anderen Welt. Alles war neu: die Sprache, das Essen, die Behörden. Ich hatte das Gefühl, als müsste ich jeden Tag etwas Neues lernen. Heute kommt es mir vor, als wäre ich schon immer hier gewesen.", "hint": "es fühlte sich an, als wäre … / als müsste ich …" }
+    ]
+  }
+}

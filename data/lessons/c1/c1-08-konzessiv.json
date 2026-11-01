@@ -1,0 +1,140 @@
+{
+  "id": "c1-08-konzessiv",
+  "level": "C1",
+  "title": "Konzessive Konnektoren",
+  "concept": "Concession and contrast: wenngleich, zwar … aber, nichtsdestotrotz, es sei denn",
+  "wordlist": "Debatte & Meinung",
+  "minutes": 40,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+C1+wenngleich+zwar+aber+nichtsdestotrotz+es+sei+denn+Konnektoren",
+  "learn": [
+    {
+      "heading": "wenngleich, obgleich, wohingegen",
+      "text": "**Wenngleich** and **obgleich** mean *although* like *obwohl*, but sound more formal and are typical in written and prepared speech. **Wohingegen** expresses a **contrast** (*whereas*). All three are subordinating conjunctions: the verb goes to the **end**. When the subordinate clause comes first, the main clause starts with its verb: *Wenngleich es teuer ist, halte ich es für sinnvoll.*",
+      "examples": [
+        { "de": "Wenngleich das Projekt teuer ist, halte ich es für sinnvoll.", "en": "Although the project is expensive, I think it makes sense." },
+        { "de": "Die Mehrheit stimmte zu, wohingegen die Minderheit Bedenken äußerte.", "en": "The majority agreed, whereas the minority voiced concerns." },
+        { "de": "Er blieb bei seiner Meinung, obgleich die Zahlen dagegensprachen.", "en": "He stuck to his opinion although the figures spoke against it." }
+      ]
+    },
+    {
+      "heading": "zwar … aber, nichtsdestotrotz, allerdings",
+      "text": "**Zwar … aber** admits a point, then turns: *yes, but*. **Zwar** can stand in position 1 or in the middle field; **aber** sits in position 0 and does not change the word order. **Nichtsdestotrotz** (*nevertheless*) and **allerdings** (*however, though*) are adverbs: they take position 1 and the verb comes second. *Allerdings* may also stand after the verb. Compare the verb positions in the table.",
+      "table": {
+        "head": ["Konnektor", "Typ", "Verbstellung"],
+        "rows": [
+          ["wenngleich, obgleich, wohingegen", "Konjunktion", "end of the clause"],
+          ["zwar … aber", "zwar adverb, aber position 0", "normal (verb second)"],
+          ["nichtsdestotrotz, allerdings", "Adverb", "second, right after the adverb"]
+        ]
+      },
+      "examples": [
+        { "de": "Das Angebot ist zwar günstig, aber die Qualität überzeugt mich nicht.", "en": "The offer is cheap, admittedly, but the quality doesn't convince me." },
+        { "de": "Der Plan hat Schwächen. Nichtsdestotrotz unterstütze ich ihn.", "en": "The plan has weaknesses. Nevertheless I support it." },
+        { "de": "Ich verstehe deinen Standpunkt. Allerdings sehe ich das anders.", "en": "I understand your point of view. However, I see it differently." }
+      ]
+    },
+    {
+      "heading": "es sei denn (, dass)",
+      "text": "**Es sei denn** means *unless*. It introduces the **only exception** to what you just said. It is a fixed Konjunktiv I form. After *es sei denn* and a comma, the clause has normal **verb-second** order: *…, es sei denn, der Test schlägt fehl.* With **dass** the verb goes to the end: *…, es sei denn, dass der Test fehlschlägt.* Put a comma before it.",
+      "examples": [
+        { "de": "Wir starten am Montag, es sei denn, der Test schlägt fehl.", "en": "We start on Monday unless the test fails." },
+        { "de": "Ich komme zur WG-Party, es sei denn, ich muss länger arbeiten.", "en": "I'll come to the flat party unless I have to work late." },
+        { "de": "Die Maschine läuft stabil, es sei denn, dass die Temperatur über 80 Grad steigt.", "en": "The machine runs stably unless the temperature rises above 80 degrees." }
+      ]
+    }
+  ],
+  "tip": "Concession = 'yes, but'. Zwar is the yes, aber is the but. Formal wenngleich is obwohl in a suit. Es sei denn = unless, one exception only.",
+  "words": [
+    { "de": "Ansicht", "en": "opinion, view", "pos": "noun", "article": "die", "plural": "Ansichten" },
+    { "de": "Debatte", "en": "debate", "pos": "noun", "article": "die", "plural": "Debatten" },
+    { "de": "Einschränkung", "en": "restriction, reservation", "pos": "noun", "article": "die", "plural": "Einschränkungen" },
+    { "de": "Zugeständnis", "en": "concession", "pos": "noun", "article": "das", "plural": "Zugeständnisse" },
+    { "de": "Widerspruch", "en": "contradiction, objection", "pos": "noun", "article": "der", "plural": "Widersprüche" },
+    { "de": "Mehrheit", "en": "majority", "pos": "noun", "article": "die", "plural": "Mehrheiten" },
+    { "de": "Minderheit", "en": "minority", "pos": "noun", "article": "die", "plural": "Minderheiten" },
+    { "de": "Zweifel", "en": "doubt", "pos": "noun", "article": "der", "plural": "Zweifel" },
+    { "de": "Haltung", "en": "attitude, stance", "pos": "noun", "article": "die", "plural": "Haltungen" },
+    { "de": "einräumen", "en": "to concede, to admit", "pos": "verb", "aux": "haben", "sep": "ein", "p2": "eingeräumt" },
+    { "de": "zugeben", "en": "to admit", "pos": "verb", "aux": "haben", "sep": "zu", "p2": "zugegeben" },
+    { "de": "bezweifeln", "en": "to doubt", "pos": "verb", "aux": "haben", "p2": "bezweifelt" },
+    { "de": "relativieren", "en": "to put into perspective", "pos": "verb", "aux": "haben", "p2": "relativiert" },
+    { "de": "hinterfragen", "en": "to question critically", "pos": "verb", "aux": "haben", "p2": "hinterfragt" },
+    { "de": "widerlegen", "en": "to refute", "pos": "verb", "aux": "haben", "p2": "widerlegt" },
+    { "de": "beharren", "en": "to insist (on)", "pos": "verb", "aux": "haben", "p2": "beharrt" },
+    { "de": "sich äußern", "en": "to express one's opinion", "pos": "verb", "aux": "haben", "p2": "geäußert" },
+    { "de": "umstritten", "en": "controversial", "pos": "adj" },
+    { "de": "berechtigt", "en": "justified", "pos": "adj" },
+    { "de": "fragwürdig", "en": "questionable", "pos": "adj" },
+    { "de": "wenngleich", "en": "although (formal)", "pos": "conj" },
+    { "de": "wohingegen", "en": "whereas", "pos": "conj" },
+    { "de": "es sei denn", "en": "unless", "pos": "conj" },
+    { "de": "nichtsdestotrotz", "en": "nevertheless", "pos": "adv" },
+    { "de": "allerdings", "en": "however, though", "pos": "adv" }
+  ],
+  "mindmap": {
+    "label": "Konzessiv & Kontrast",
+    "children": [
+      {
+        "label": "Nebensatz (Verb am Ende)",
+        "children": [
+          { "label": "wenngleich / obgleich", "note": "formal obwohl" },
+          { "label": "wohingegen", "note": "whereas: contrast" }
+        ]
+      },
+      {
+        "label": "zwar … aber",
+        "children": [
+          { "label": "zwar", "note": "the yes: admits a point" },
+          { "label": "aber", "note": "the but: position 0" }
+        ]
+      },
+      {
+        "label": "Adverbien (Verb an 2. Stelle)",
+        "children": [
+          { "label": "nichtsdestotrotz", "note": "nevertheless" },
+          { "label": "allerdings", "note": "however" }
+        ]
+      },
+      {
+        "label": "es sei denn",
+        "children": [
+          { "label": "unless", "note": "one exception" },
+          { "label": "+ Verb 2. / + dass: Verb am Ende" }
+        ]
+      },
+      {
+        "label": "Debatte & Meinung",
+        "children": [ { "label": "einräumen, bezweifeln, relativieren, widerlegen, Zugeständnis" } ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "mc", "q": "___ das Projekt teuer ist, halte ich es für sinnvoll.", "options": ["Wenngleich", "Nichtsdestotrotz", "Zwar"], "answer": 0, "explain": "Wenngleich is a subordinating conjunction (although) and sends the verb ist to the end. The other two do not do that." },
+    { "type": "mc", "q": "Der Plan hat Schwächen. ___ unterstütze ich ihn.", "options": ["Nichtsdestotrotz", "Wenngleich", "Wohingegen"], "answer": 0, "explain": "A new main sentence with the verb in second position (unterstütze) needs an adverb: nichtsdestotrotz. The other two would send the verb to the end." },
+    { "type": "mc", "q": "Which sentence is correct?", "options": ["Das Angebot ist zwar günstig, aber die Qualität überzeugt mich nicht.", "Das Angebot ist zwar günstig, aber überzeugt die Qualität mich nicht.", "Das Angebot ist zwar günstig, aber die Qualität mich nicht überzeugt."], "answer": 0, "explain": "Aber is in position 0 and does not change the word order. The following clause is a normal main clause with the verb in second position." },
+    { "type": "gap", "q": "Wir starten am Montag, es sei ___, der Test schlägt fehl.", "answer": ["denn"], "explain": "Es sei denn = unless. It is a fixed expression." },
+    { "type": "gap", "q": "Die Mehrheit stimmte zu, ___ die Minderheit Bedenken äußerte.", "answer": ["wohingegen"], "explain": "Wohingegen expresses a contrast (whereas) and sends the verb äußerte to the end." },
+    { "type": "gap", "q": "Das Angebot ist ___ günstig, aber die Qualität überzeugt mich nicht.", "answer": ["zwar"], "explain": "Zwar … aber admits a point and then adds the 'but'." },
+    { "type": "gap", "q": "Ich verstehe deinen Standpunkt. ___ sehe ich das anders.", "answer": ["Allerdings", "Dennoch", "Trotzdem", "Nichtsdestotrotz", "Gleichwohl"], "explain": "A sentence adverb in position 1 limits what was just said; the verb sehe is second. Allerdings fits best." },
+    { "type": "article", "word": "Zugeständnis", "answer": "das", "explain": "Nouns ending in -nis are neuter: das Zugeständnis, plural die Zugeständnisse." },
+    { "type": "order", "words": ["Wenngleich", "das Projekt", "teuer ist,", "halte", "ich", "es", "für sinnvoll"], "answer": "Wenngleich das Projekt teuer ist, halte ich es für sinnvoll", "explain": "After the wenngleich clause (verb last) the main clause starts with its verb halte, and the subject ich follows." },
+    { "type": "order", "words": ["Der Plan", "hat", "Schwächen.", "Nichtsdestotrotz", "unterstütze", "ich", "ihn"], "answer": "Der Plan hat Schwächen. Nichtsdestotrotz unterstütze ich ihn", "explain": "Nichtsdestotrotz is an adverb in position 1, so the verb unterstütze is second." },
+    { "type": "match", "pairs": [["wenngleich", "although (formal)"], ["wohingegen", "whereas"], ["es sei denn", "unless"], ["nichtsdestotrotz", "nevertheless"], ["einräumen", "to concede"]], "explain": "Meaning of the concessive connectors and one key verb." },
+    { "type": "translate", "en": "Although the offer is cheap, it doesn't convince me.", "answer": ["Wenngleich das Angebot günstig ist, überzeugt es mich nicht", "Obgleich das Angebot günstig ist, überzeugt es mich nicht", "Obwohl das Angebot günstig ist, überzeugt es mich nicht", "Wenngleich das Angebot billig ist, überzeugt es mich nicht"], "explain": "Wenngleich / obgleich / obwohl send the verb ist to the end; the main clause then starts with its verb." },
+    { "type": "translate", "en": "We will meet on Friday unless the client cancels.", "answer": ["Wir treffen uns am Freitag, es sei denn, der Kunde sagt ab", "Wir treffen uns am Freitag, es sei denn, dass der Kunde absagt"], "explain": "Es sei denn is followed by verb-second order (sagt ab), or by dass with the verb at the end (absagt)." }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Wenngleich ich Ihren Standpunkt verstehe, kann ich dem Vorschlag nicht zustimmen.", "en": "Although I understand your point of view, I cannot agree to the proposal." },
+      { "de": "Der Plan ist zwar mutig, aber er ist auch riskant.", "en": "The plan is bold, admittedly, but it is also risky." },
+      { "de": "Das Ergebnis ist nicht perfekt. Nichtsdestotrotz können wir damit arbeiten.", "en": "The result is not perfect. Nevertheless we can work with it." },
+      { "de": "Wir verschieben das Treffen nicht, es sei denn, die Chefin ist krank.", "en": "We won't postpone the meeting unless the boss is ill." },
+      { "de": "Die einen wollen sparen, wohingegen die anderen investieren möchten.", "en": "Some want to save, whereas others want to invest." }
+    ],
+    "prompts": [
+      { "q": "Ein Kollege möchte das Teammeeting auf Freitagnachmittag legen. Sie sind nicht begeistert. Antworten Sie höflich mit einem Zugeständnis.", "qEn": "A colleague wants to put the team meeting on Friday afternoon. You are not enthusiastic. Reply politely with a concession.", "model": "Ich verstehe, dass Freitag für viele gut passt. Allerdings gehen einige von uns schon früh ins Wochenende. Wir können das Meeting auf Freitagvormittag legen, es sei denn, jemand hat dann Kundentermine. Das ist zwar nicht ideal, aber ein guter Kompromiss.", "hint": "allerdings / es sei denn / zwar … aber" },
+      { "q": "Diskutieren Sie: Sollen Autos aus dem Stadtzentrum verbannt werden? Räumen Sie ein Gegenargument ein.", "qEn": "Discuss whether cars should be banned from the city centre. Concede a counter-argument.", "model": "Ich bin grundsätzlich dafür, wenngleich ich verstehe, dass Handwerker auf ihr Auto angewiesen sind. Die Luft wird zwar besser, aber die Geschäfte könnten Kunden verlieren. Nichtsdestotrotz überwiegen für mich die Vorteile, es sei denn, der öffentliche Nahverkehr wird nicht ausgebaut.", "hint": "wenngleich / zwar … aber / nichtsdestotrotz" },
+      { "q": "In Ihrer WG möchte jemand eine Katze anschaffen. Geben Sie Ihre Meinung.", "qEn": "In your flat share someone wants to get a cat. Give your opinion.", "model": "Ich gebe zu, dass eine Katze schön wäre. Zwar würde ich mich freuen, aber die Wohnung ist ziemlich klein. Wir können es probieren, es sei denn, jemand ist allergisch. Die einen wünschen sich ein Tier, wohingegen die anderen ihre Ruhe brauchen.", "hint": "zugeben / zwar … aber / es sei denn / wohingegen" }
+    ]
+  }
+}

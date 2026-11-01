@@ -1,0 +1,137 @@
+{
+  "id": "c1-05-passiv-vertieft",
+  "level": "C1",
+  "title": "Passiv vertieft",
+  "concept": "Passive Perfekt (ist gebaut worden) and passive without a subject (es wird gearbeitet)",
+  "wordlist": "Medizin & Gesundheit",
+  "minutes": 40,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+C1+Passiv+Perfekt+worden+Passiv+ohne+Subjekt",
+  "learn": [
+    {
+      "heading": "Passiv Perfekt: ist … worden",
+      "text": "The Vorgangspassiv in the perfect uses **sein** (not haben) + **Partizip II** + **worden**. Do not mix it up with **geworden**: *worden* is only the passive helper, *geworden* is the full verb *werden*. In the Plusquamperfekt use **war … worden**. The Partizip II and *worden* stand together at the end of a main clause.",
+      "table": {
+        "head": ["Zeit", "Form", "Beispiel"],
+        "rows": [
+          ["Präsens", "wird + Partizip II", "Der Patient wird operiert."],
+          ["Präteritum", "wurde + Partizip II", "Der Patient wurde operiert."],
+          ["Perfekt", "ist + Partizip II + worden", "Der Patient ist operiert worden."],
+          ["Plusquamperfekt", "war + Partizip II + worden", "Der Patient war operiert worden."]
+        ]
+      },
+      "examples": [
+        { "de": "Der Patient ist gestern operiert worden.", "en": "The patient was operated on yesterday." },
+        { "de": "Mir ist ein neues Medikament verschrieben worden.", "en": "I have been prescribed a new medication." },
+        { "de": "Der Befund war schon verschickt worden, als ich in der Praxis anrief.", "en": "The results had already been sent when I called the practice." }
+      ]
+    },
+    {
+      "heading": "Passiv ohne Subjekt",
+      "text": "Some verbs have no accusative object, for example **helfen** (+Dat), **arbeiten** or **tanzen**. They can still form a passive, but there is **no subject**. At the start of the sentence stands either a dummy **es** or another element (place, time, dative). When another element is in position 1, the **es** disappears: *Hier wird nicht geraucht.* A dative stays dative: *Dem Patienten wird geholfen.* This form is typical for rules, signs and descriptions of processes.",
+      "examples": [
+        { "de": "Auf der Station wird rund um die Uhr gearbeitet.", "en": "People work around the clock on the ward." },
+        { "de": "Dem Patienten wurde sofort geholfen.", "en": "The patient was helped straight away." },
+        { "de": "Im Wartezimmer ist viel gelacht worden.", "en": "There was a lot of laughing in the waiting room." },
+        { "de": "Es wird gebeten, das Handy auszuschalten.", "en": "You are requested to switch off your phone." }
+      ]
+    },
+    {
+      "heading": "Passiv-Alternativen in Arztbriefen und Anleitungen",
+      "text": "Formal texts avoid long passive chains. Three common alternatives have a passive meaning: **sich lassen + Infinitiv** (*can be done*), **sein + zu + Infinitiv** (*must be done*) and **man**. They sound more natural in speech, and *sein + zu* is very common in package leaflets and instructions.",
+      "examples": [
+        { "de": "Die Wunde lässt sich gut behandeln.", "en": "The wound can be treated well." },
+        { "de": "Die Tablette ist nüchtern einzunehmen.", "en": "The tablet is to be taken on an empty stomach." },
+        { "de": "Man hat mich sofort ins Krankenhaus eingewiesen.", "en": "I was admitted to hospital immediately." }
+      ]
+    }
+  ],
+  "tip": "Passive Perfekt = sein + Partizip II + worden. Count three: ist, operiert, worden. If you want to say someone became something, use geworden. Without an accusative object there is no subject, so the verb stays in the 3rd person singular (wird, wurde).",
+  "words": [
+    { "de": "Arztbrief", "en": "doctor's letter", "pos": "noun", "article": "der", "plural": "Arztbriefe" },
+    { "de": "Befund", "en": "(test) result, findings", "pos": "noun", "article": "der", "plural": "Befunde" },
+    { "de": "Diagnose", "en": "diagnosis", "pos": "noun", "article": "die", "plural": "Diagnosen" },
+    { "de": "Behandlung", "en": "treatment", "pos": "noun", "article": "die", "plural": "Behandlungen" },
+    { "de": "Überweisung", "en": "referral", "pos": "noun", "article": "die", "plural": "Überweisungen" },
+    { "de": "Rezept", "en": "prescription", "pos": "noun", "article": "das", "plural": "Rezepte" },
+    { "de": "Nebenwirkung", "en": "side effect", "pos": "noun", "article": "die", "plural": "Nebenwirkungen" },
+    { "de": "Krankenhaus", "en": "hospital", "pos": "noun", "article": "das", "plural": "Krankenhäuser" },
+    { "de": "Untersuchung", "en": "examination", "pos": "noun", "article": "die", "plural": "Untersuchungen" },
+    { "de": "Verletzung", "en": "injury", "pos": "noun", "article": "die", "plural": "Verletzungen" },
+    { "de": "Impfung", "en": "vaccination", "pos": "noun", "article": "die", "plural": "Impfungen" },
+    { "de": "Krankschreibung", "en": "sick note", "pos": "noun", "article": "die", "plural": "Krankschreibungen" },
+    { "de": "Patient", "en": "patient", "pos": "noun", "article": "der", "plural": "Patienten" },
+    { "de": "Wunde", "en": "wound", "pos": "noun", "article": "die", "plural": "Wunden" },
+    { "de": "operieren", "en": "to operate on", "pos": "verb", "aux": "haben", "p2": "operiert" },
+    { "de": "untersuchen", "en": "to examine", "pos": "verb", "aux": "haben", "p2": "untersucht" },
+    { "de": "verschreiben", "en": "to prescribe", "pos": "verb", "aux": "haben", "p2": "verschrieben" },
+    { "de": "einweisen", "en": "to admit (to hospital)", "pos": "verb", "aux": "haben", "sep": "ein", "p2": "eingewiesen" },
+    { "de": "überweisen", "en": "to refer (to a specialist)", "pos": "verb", "aux": "haben", "p2": "überwiesen" },
+    { "de": "entlassen", "en": "to discharge", "pos": "verb", "aux": "haben", "p2": "entlassen" },
+    { "de": "aufnehmen", "en": "to admit, to take in", "pos": "verb", "aux": "haben", "sep": "auf", "p2": "aufgenommen" },
+    { "de": "sich erholen", "en": "to recover", "pos": "verb", "aux": "haben", "p2": "erholt" },
+    { "de": "chronisch", "en": "chronic", "pos": "adj" },
+    { "de": "ansteckend", "en": "contagious", "pos": "adj" }
+  ],
+  "mindmap": {
+    "label": "Passiv vertieft",
+    "children": [
+      {
+        "label": "Passiv Perfekt",
+        "children": [
+          { "label": "ist + Partizip II + worden", "note": "ist, operiert, worden" },
+          { "label": "war … worden", "note": "Plusquamperfekt" },
+          { "label": "worden ≠ geworden", "note": "geworden = full verb werden" }
+        ]
+      },
+      {
+        "label": "Passiv ohne Subjekt",
+        "children": [
+          { "label": "es wird gearbeitet", "note": "dummy es in position 1" },
+          { "label": "Hier wird geraucht", "note": "no es if another element is first" },
+          { "label": "Dativ bleibt", "note": "Dem Patienten wird geholfen" }
+        ]
+      },
+      {
+        "label": "Alternativen",
+        "children": [
+          { "label": "sich lassen + Infinitiv", "note": "can be done" },
+          { "label": "sein + zu + Infinitiv", "note": "must be done" },
+          { "label": "man", "note": "everyday speech" }
+        ]
+      },
+      {
+        "label": "Medizin & Gesundheit",
+        "children": [ { "label": "Befund, Diagnose, Rezept, Überweisung, operieren, entlassen" } ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "mc", "q": "Der Patient ist gestern operiert ___.", "options": ["worden", "geworden", "wurde"], "answer": 0, "explain": "The passive Perfekt is sein + Partizip II + worden. Geworden belongs to the full verb werden." },
+    { "type": "mc", "q": "Which sentence is correct?", "options": ["Auf der Station ist viel gelacht worden.", "Auf der Station ist viel gelacht geworden.", "Auf der Station wird viel gelacht worden."], "answer": 0, "explain": "Passive without a subject in the Perfekt: ist + Partizip II + worden. The other two mix up geworden or the tenses." },
+    { "type": "mc", "q": "Which sentence is correct?", "options": ["Der Patient wurde sofort geholfen.", "Dem Patienten wurde sofort geholfen.", "Dem Patienten wurden sofort geholfen."], "answer": 1, "explain": "Helfen takes the dative, and the dative stays in the passive. There is no subject, so the verb stays in the 3rd person singular: wurde." },
+    { "type": "gap", "q": "Die Überweisung ist schon ausgestellt ___.", "answer": ["worden"], "explain": "Passive Perfekt: sein + Partizip II + worden." },
+    { "type": "gap", "q": "In der Praxis ___ nicht telefoniert.", "answer": ["wird"], "explain": "Passive without a subject in the Präsens: wird + Partizip II. The place stands in position 1, so no es is needed." },
+    { "type": "gap", "q": "Gestern ___ im Krankenhaus bis spät in die Nacht gearbeitet.", "answer": ["wurde"], "explain": "Präteritum passive without a subject: wurde + Partizip II. Arbeiten has no object, so there is no subject." },
+    { "type": "article", "word": "Befund", "answer": "der", "explain": "Befund is masculine: der Befund, plural die Befunde." },
+    { "type": "article", "word": "Krankenhaus", "answer": "das", "explain": "Krankenhaus is neuter (das Haus): das Krankenhaus, plural die Krankenhäuser." },
+    { "type": "order", "words": ["Der Befund", "ist", "gestern", "verschickt", "worden"], "answer": "Der Befund ist gestern verschickt worden", "explain": "Passive Perfekt: ist in position 2, Partizip II and worden together at the end." },
+    { "type": "order", "words": ["Dem Patienten", "wurde", "sofort", "geholfen"], "answer": "Dem Patienten wurde sofort geholfen", "explain": "The dative object stays in position 1 and the verb wurde is second. There is no subject." },
+    { "type": "match", "pairs": [["ist operiert worden", "has been operated on"], ["war entlassen worden", "had been discharged"], ["Hier wird nicht geraucht.", "Smoking is not allowed here."], ["Es wurde viel gelacht.", "There was a lot of laughing."], ["lässt sich behandeln", "can be treated"]], "explain": "Passive forms and alternatives with a passive meaning." },
+    { "type": "translate", "en": "The patient has been admitted to hospital.", "answer": ["Der Patient ist ins Krankenhaus eingewiesen worden", "Der Patient ist in das Krankenhaus eingewiesen worden", "Der Patient ist ins Krankenhaus aufgenommen worden", "Der Patient ist in das Krankenhaus aufgenommen worden"], "explain": "Passive Perfekt: ist + Partizip II + worden. Separable verbs build the Partizip II with -ge-: eingewiesen, aufgenommen." },
+    { "type": "translate", "en": "There was a lot of laughing in the waiting room.", "answer": ["Im Wartezimmer wurde viel gelacht", "Es wurde im Wartezimmer viel gelacht", "Im Wartezimmer ist viel gelacht worden"], "explain": "Passive without a subject. With the place in position 1 there is no es: Im Wartezimmer wurde viel gelacht." }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Der Befund ist bereits an meinen Hausarzt geschickt worden.", "en": "The results have already been sent to my GP." },
+      { "de": "In der Notaufnahme wird rund um die Uhr gearbeitet.", "en": "People work around the clock in the emergency room." },
+      { "de": "Mir ist sofort geholfen worden.", "en": "I was helped right away." },
+      { "de": "Die Wunde ist gestern noch genäht worden.", "en": "The wound was stitched yesterday." },
+      { "de": "Nach der Operation bin ich zwei Tage lang überwacht worden.", "en": "After the operation I was monitored for two days." }
+    ],
+    "prompts": [
+      { "q": "Der Arzt fragt: Was ist bei der Untersuchung im Krankenhaus gemacht worden? Berichten Sie.", "qEn": "The doctor asks what was done during the examination at the hospital. Report.", "model": "Zuerst bin ich gewogen und gemessen worden, dann ist mir Blut abgenommen worden. Danach bin ich geröntgt worden. Mir wurde alles genau erklärt, und es wurde eine Überweisung zum Orthopäden ausgestellt.", "hint": "ist … worden / wurde / es wurde" },
+      { "q": "Ihr Chef fragt, warum Sie letzte Woche gefehlt haben. Erklären Sie es.", "qEn": "Your boss asks why you were absent last week. Explain.", "model": "Ich war letzte Woche krank. Ich bin am Montag untersucht worden, und mir ist ein Medikament verschrieben worden. Mir wurde geraten, eine Woche zu Hause zu bleiben. Die Krankschreibung ist direkt an die Firma geschickt worden.", "hint": "untersuchen / verschreiben / Krankschreibung" },
+      { "q": "Ein Freund ist im Krankenhaus. Erzählen Sie einem Kollegen, was passiert ist.", "qEn": "A friend is in hospital. Tell a colleague what happened.", "model": "Mein Freund ist am Dienstag ins Krankenhaus eingewiesen worden. Er ist sofort untersucht worden, und die Diagnose ist noch am selben Tag gestellt worden. Am Mittwoch wurde er operiert. Zum Glück geht es ihm besser, und er wird bald entlassen.", "hint": "einweisen / operieren / entlassen" }
+    ]
+  }
+}

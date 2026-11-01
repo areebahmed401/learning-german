@@ -1,0 +1,168 @@
+{
+  "id": "c1-13-praesentieren",
+  "level": "C1",
+  "title": "Präsentieren & Diskutieren",
+  "concept": "Phrases for presentations, chairing a discussion and stating your position",
+  "wordlist": "Präsentation & Diskussion",
+  "minutes": 35,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+C1+Pr%C3%A4sentation+Diskussion+Redemittel",
+  "learn": [
+    {
+      "heading": "Structuring a presentation",
+      "text": "A good presentation has a visible shape: **Einstieg**, **Gliederung**, **Hauptteil**, **Fazit** and a clean **Schluss**. Say where you are, because listeners cannot see the structure. Use short, spoken sentences, not written nominal style. In a meeting at work, 5 to 10 minutes is typical, so each part needs only one or two good phrases.",
+      "table": {
+        "head": ["Part", "Phrase"],
+        "rows": [
+          ["Opening", "Guten Morgen zusammen, ich möchte Ihnen heute unser neues Projekt vorstellen."],
+          ["Outline", "Mein Vortrag besteht aus drei Teilen."],
+          ["Visual", "Wie Sie auf dieser Folie sehen, …"],
+          ["Transition", "Das bringt mich zum nächsten Punkt."],
+          ["Summary", "Zusammenfassend lässt sich sagen, dass …"],
+          ["Closing", "Vielen Dank für Ihre Aufmerksamkeit. Ich freue mich auf Ihre Fragen."]
+        ]
+      },
+      "examples": [
+        { "de": "Mein Vortrag besteht aus drei Teilen: Zuerst die Ausgangslage, dann die Lösung, zuletzt die Kosten.", "en": "My talk has three parts: first the starting point, then the solution, finally the costs." },
+        { "de": "Wie Sie auf dieser Folie sehen, ist der Umsatz im letzten Quartal gestiegen.", "en": "As you can see on this slide, sales rose in the last quarter." },
+        { "de": "Das bringt mich zum nächsten Punkt, den Kosten.", "en": "That brings me to the next point, the costs." },
+        { "de": "Ich fasse die wichtigsten Punkte kurz zusammen.", "en": "I will briefly summarise the main points." }
+      ]
+    },
+    {
+      "heading": "Chairing a discussion",
+      "text": "The **Moderator** keeps order and makes sure everyone speaks. The key skills are giving the floor, interrupting politely, bringing the group back to the topic and summarising. Use **Konjunktiv II** and **darf ich** to stay polite. A good moderator never takes sides.",
+      "table": {
+        "head": ["Function", "Phrase"],
+        "rows": [
+          ["Give the floor", "Herr Keller, möchten Sie dazu etwas sagen?"],
+          ["Interrupt politely", "Darf ich Sie kurz unterbrechen?"],
+          ["Back to the topic", "Lassen Sie uns zum Thema zurückkehren."],
+          ["Summarise", "Ich fasse kurz zusammen: …"],
+          ["Manage time", "Wir haben nur noch zehn Minuten."]
+        ]
+      },
+      "examples": [
+        { "de": "Frau Weber, möchten Sie dazu einen Wortbeitrag leisten?", "en": "Ms Weber, would you like to contribute to this?" },
+        { "de": "Darf ich Sie kurz unterbrechen? Wir haben nur noch zehn Minuten.", "en": "May I interrupt you briefly? We only have ten minutes left." },
+        { "de": "Lassen Sie uns bitte zum Thema zurückkehren.", "en": "Let us please return to the topic." }
+      ]
+    },
+    {
+      "heading": "Stating your position",
+      "text": "Use **ich-based openers** (*Ich bin der Meinung, dass …*) or the formal **Meiner Ansicht nach …**. After *dass* the verb goes to the end. To disagree politely, **soften first** (*Da haben Sie einen Punkt, aber …*) and give a reason. Direct *Nein, das stimmt nicht* feels aggressive. **Widersprechen** takes the **Dativ** (*Ich muss Ihnen widersprechen*), as does **zustimmen**.",
+      "table": {
+        "head": ["Position", "Phrase"],
+        "rows": [
+          ["Opinion", "Meiner Ansicht nach sollten wir die Entscheidung verschieben."],
+          ["Agree", "Da stimme ich Ihnen zu."],
+          ["Partly agree", "Da haben Sie einen Punkt, aber …"],
+          ["Disagree", "Da muss ich Ihnen widersprechen, weil …"],
+          ["Weigh up", "Einerseits …, andererseits …"]
+        ]
+      },
+      "examples": [
+        { "de": "Ich bin der Meinung, dass wir mehr Zeit für die Tests brauchen.", "en": "I am of the opinion that we need more time for testing." },
+        { "de": "Da haben Sie einen Punkt, aber die Kosten sind zu hoch.", "en": "You have a point there, but the costs are too high." },
+        { "de": "Da muss ich Ihnen leider widersprechen, weil die Daten etwas anderes zeigen.", "en": "I am afraid I have to disagree, because the data shows something else." },
+        { "de": "Dem Vorschlag haben alle Kollegen zugestimmt.", "en": "All colleagues agreed to the proposal." }
+      ]
+    }
+  ],
+  "tip": "Prepare one phrase per move and say it aloud: Opening, Transition, Summary, Closing. In discussion: agree with zustimmen, disagree with widersprechen, and both take the Dativ (Ihnen). Speaking practice beats reading: record yourself once a day.",
+  "words": [
+    { "de": "Folie", "en": "slide", "pos": "noun", "article": "die", "plural": "Folien" },
+    { "de": "Zielgruppe", "en": "target group, audience", "pos": "noun", "article": "die", "plural": "Zielgruppen" },
+    { "de": "Einstieg", "en": "opening, introduction", "pos": "noun", "article": "der", "plural": "Einstiege" },
+    { "de": "Gliederung", "en": "outline, structure", "pos": "noun", "article": "die", "plural": "Gliederungen" },
+    { "de": "Überleitung", "en": "transition", "pos": "noun", "article": "die", "plural": "Überleitungen" },
+    { "de": "Zwischenfrage", "en": "question during a talk", "pos": "noun", "article": "die", "plural": "Zwischenfragen" },
+    { "de": "Einwand", "en": "objection", "pos": "noun", "article": "der", "plural": "Einwände" },
+    { "de": "Wortbeitrag", "en": "contribution (to a discussion)", "pos": "noun", "article": "der", "plural": "Wortbeiträge" },
+    { "de": "Standpunkt", "en": "position, point of view", "pos": "noun", "article": "der", "plural": "Standpunkte" },
+    { "de": "Moderator", "en": "chair, moderator", "pos": "noun", "article": "der", "plural": "Moderatoren" },
+    { "de": "vorstellen", "en": "to present, to introduce", "pos": "verb", "aux": "haben", "sep": "vor", "p2": "vorgestellt" },
+    { "de": "hervorheben", "en": "to emphasise, to highlight", "pos": "verb", "aux": "haben", "sep": "hervor", "p2": "hervorgehoben" },
+    { "de": "zusammenfassen", "en": "to summarise", "pos": "verb", "aux": "haben", "sep": "zusammen", "p2": "zusammengefasst" },
+    { "de": "eingehen", "en": "to address (auf + Akk)", "pos": "verb", "aux": "sein", "sep": "ein", "p2": "eingegangen" },
+    { "de": "zustimmen", "en": "to agree (+Dat)", "pos": "verb", "aux": "haben", "sep": "zu", "p2": "zugestimmt" },
+    { "de": "widersprechen", "en": "to contradict, to disagree (+Dat)", "pos": "verb", "aux": "haben", "p2": "widersprochen" },
+    { "de": "Das bringt mich zum nächsten Punkt", "en": "That brings me to the next point", "pos": "phrase" },
+    { "de": "Meiner Ansicht nach", "en": "in my opinion", "pos": "phrase" },
+    { "de": "Da muss ich Ihnen widersprechen", "en": "I have to disagree with you", "pos": "phrase" },
+    { "de": "Darf ich kurz unterbrechen?", "en": "May I briefly interrupt?", "pos": "phrase" },
+    { "de": "Vielen Dank für Ihre Aufmerksamkeit", "en": "Thank you for your attention", "pos": "phrase" },
+    { "de": "Ich komme zum Schluss", "en": "I am coming to the end", "pos": "phrase" }
+  ],
+  "mindmap": {
+    "label": "Präsentieren & Diskutieren",
+    "children": [
+      {
+        "label": "Präsentation",
+        "note": "Einstieg → Gliederung → Hauptteil → Fazit",
+        "children": [
+          { "label": "Ich möchte Ihnen … vorstellen" },
+          { "label": "Wie Sie auf dieser Folie sehen" },
+          { "label": "Das bringt mich zum nächsten Punkt" }
+        ]
+      },
+      {
+        "label": "Moderieren",
+        "children": [
+          { "label": "das Wort geben" },
+          { "label": "Darf ich kurz unterbrechen?" },
+          { "label": "Ich fasse kurz zusammen" }
+        ]
+      },
+      {
+        "label": "Position beziehen",
+        "children": [
+          { "label": "Meiner Ansicht nach …" },
+          { "label": "zustimmen / widersprechen", "note": "beide mit Dativ: Ihnen" },
+          { "label": "Da haben Sie einen Punkt, aber …" }
+        ]
+      },
+      {
+        "label": "Schluss",
+        "children": [
+          { "label": "Ich komme zum Schluss" },
+          { "label": "Vielen Dank für Ihre Aufmerksamkeit" }
+        ]
+      },
+      {
+        "label": "Präsentation & Diskussion",
+        "children": [ { "label": "Folie, Gliederung, Einwand, Wortbeitrag, Standpunkt" } ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "mc", "q": "Welcher Satz leitet zum nächsten Punkt über?", "options": ["Das bringt mich zum nächsten Punkt.", "Vielen Dank für Ihre Aufmerksamkeit.", "Da muss ich Ihnen widersprechen."], "answer": 0, "explain": "A transition connects two parts. The other two sentences close the talk or express disagreement." },
+    { "type": "mc", "q": "Darf ich Sie kurz ___?", "options": ["unterbrechen", "unterbrochen", "zu unterbrechen"], "answer": 0, "explain": "After a modal verb (darf) the infinitive without zu goes to the end." },
+    { "type": "mc", "q": "Da muss ich Ihnen leider ___.", "options": ["widersprechen", "widerspreche Sie", "widersprochen"], "answer": 0, "explain": "widersprechen takes the Dativ (Ihnen); after the modal verb muss the infinitive stays at the end." },
+    { "type": "gap", "q": "Wie Sie auf dieser Folie ___, ist der Umsatz gestiegen.", "answer": ["sehen"], "explain": "Wie Sie sehen: plural/polite Sie uses the infinitive form sehen." },
+    { "type": "gap", "q": "Ich möchte kurz auf Ihre Frage ___. (eingehen)", "answer": ["eingehen"], "explain": "eingehen auf + Akkusativ; after a modal verb the infinitive goes to the end." },
+    { "type": "gap", "q": "___ Ansicht nach ist das Budget zu knapp.", "answer": ["Meiner"], "explain": "meiner Ansicht nach: nach follows the Dativ noun (die Ansicht → der Ansicht, feminine Dativ: meiner)." },
+    { "type": "gap", "q": "Dem Vorschlag haben alle Kollegen ___. (zustimmen)", "answer": ["zugestimmt"], "explain": "zustimmen is separable and takes the Dativ: haben zugestimmt." },
+    { "type": "article", "word": "Folie", "answer": "die", "explain": "die Folie, plural die Folien." },
+    { "type": "article", "word": "Einwand", "answer": "der", "explain": "der Einwand, plural die Einwände with an umlaut." },
+    { "type": "order", "words": ["Ich möchte", "Ihnen heute", "unser neues Projekt", "vorstellen"], "answer": "Ich möchte Ihnen heute unser neues Projekt vorstellen", "explain": "With a modal verb (möchte) the infinitive vorstellen stands at the end; the separable verb stays in one piece." },
+    { "type": "match", "pairs": [["Darf ich kurz unterbrechen?", "interrupt politely"], ["Ich fasse kurz zusammen", "summarise"], ["Da stimme ich Ihnen zu", "agree"], ["Da muss ich Ihnen widersprechen", "disagree"], ["Vielen Dank für Ihre Aufmerksamkeit", "close a presentation"]], "explain": "Phrases for each move in a presentation or discussion." },
+    { "type": "translate", "en": "I would like to briefly summarise the main points.", "answer": ["Ich möchte die wichtigsten Punkte kurz zusammenfassen", "Ich möchte kurz die wichtigsten Punkte zusammenfassen", "Ich möchte die Hauptpunkte kurz zusammenfassen", "Ich möchte kurz die Hauptpunkte zusammenfassen"], "explain": "möchte + infinitive at the end: zusammenfassen stays in one piece after a modal verb." },
+    { "type": "translate", "en": "In my opinion, we should postpone the decision.", "answer": ["Meiner Ansicht nach sollten wir die Entscheidung verschieben", "Meiner Meinung nach sollten wir die Entscheidung verschieben", "Meiner Ansicht nach sollten wir die Entscheidung vertagen", "Meiner Meinung nach sollten wir die Entscheidung vertagen", "Meiner Ansicht nach sollten wir die Entscheidung aufschieben", "Meiner Meinung nach sollten wir die Entscheidung aufschieben"], "explain": "After the opening phrase the verb comes second (sollten wir); the infinitive goes to the end." }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Guten Morgen zusammen, ich möchte Ihnen heute unser neues Projekt vorstellen.", "en": "Good morning everyone, today I would like to present our new project to you." },
+      { "de": "Mein Vortrag besteht aus drei Teilen.", "en": "My talk has three parts." },
+      { "de": "Wie Sie auf dieser Folie sehen, ist der Umsatz gestiegen.", "en": "As you can see on this slide, sales have risen." },
+      { "de": "Das bringt mich zum nächsten Punkt, den Kosten.", "en": "That brings me to the next point, the costs." },
+      { "de": "Da bin ich anderer Meinung, weil die Daten etwas anderes zeigen.", "en": "I have a different opinion there, because the data shows something else." },
+      { "de": "Vielen Dank für Ihre Aufmerksamkeit, ich freue mich auf Ihre Fragen.", "en": "Thank you for your attention, I look forward to your questions." }
+    ],
+    "prompts": [
+      { "q": "Eröffnen Sie eine kurze Präsentation über ein Projekt in Ihrer Abteilung.", "qEn": "Open a short presentation about a project in your department.", "model": "Guten Morgen zusammen, vielen Dank, dass Sie gekommen sind. Ich möchte Ihnen heute unser neues Projekt vorstellen. Mein Vortrag besteht aus drei Teilen: zuerst die Ausgangslage, dann die Lösung und zuletzt die Kosten. Fragen beantworte ich gern am Ende.", "hint": "vorstellen / Mein Vortrag besteht aus / Fragen am Ende" },
+      { "q": "Sie leiten ein Meeting. Ein Kollege redet sehr lange. Unterbrechen Sie ihn höflich.", "qEn": "You chair a meeting. A colleague talks for a very long time. Interrupt him politely.", "model": "Herr Keller, darf ich Sie kurz unterbrechen? Vielen Dank für Ihren Wortbeitrag. Wir haben nur noch zehn Minuten, und ich möchte auch Frau Weber das Wort geben. Lassen Sie uns bitte zum Thema zurückkehren.", "hint": "Darf ich unterbrechen? / Wortbeitrag / das Wort geben" },
+      { "q": "Ein Kollege schlägt vor, das Projekt zu verschieben. Sie sind dagegen. Nehmen Sie Stellung.", "qEn": "A colleague suggests postponing the project. You disagree. State your position.", "model": "Da haben Sie einen Punkt, aber ich bin der Meinung, dass wir jetzt handeln müssen. Da muss ich Ihnen leider widersprechen, weil die Kosten später höher sein werden. Einerseits ist das Risiko groß, andererseits verlieren wir Kunden, wenn wir warten.", "hint": "Da haben Sie einen Punkt / widersprechen / einerseits … andererseits" },
+      { "q": "Beenden Sie Ihre Präsentation und fassen Sie die wichtigsten Punkte zusammen.", "qEn": "End your presentation and summarise the main points.", "model": "Ich komme zum Schluss. Zusammenfassend lässt sich sagen, dass unser Konzept günstiger und zuverlässiger ist. Ich habe insbesondere die Kosten hervorgehoben. Vielen Dank für Ihre Aufmerksamkeit, ich freue mich auf Ihre Fragen.", "hint": "Ich komme zum Schluss / zusammenfassend / hervorheben" }
+    ]
+  }
+}

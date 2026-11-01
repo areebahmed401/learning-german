@@ -1,0 +1,163 @@
+{
+  "id": "c1-12-register",
+  "level": "C1",
+  "title": "Register & Stil",
+  "concept": "Formal, neutral and informal tone in emails and complaints",
+  "wordlist": "Beruf & Kommunikation",
+  "minutes": 35,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+C1+formelle+E-Mail+Beschwerde+schreiben+Register",
+  "learn": [
+    {
+      "heading": "Three registers: formal, neutral, informal",
+      "text": "German has clear levels of style. **Formal** is used with offices, banks, customers and your boss's boss: **Sie**, full sentences, polite Konjunktiv II. **Neutral** is the everyday work tone with colleagues you do not know well. **Informal** is **du**, short sentences and chat language. Switching down too early is a bigger mistake than staying formal for a while. When in doubt, follow the tone of the other person.",
+      "table": {
+        "head": ["Situation", "Formal", "Neutral", "Informal"],
+        "rows": [
+          ["Greeting", "Sehr geehrte Frau Weber,", "Guten Tag Frau Weber,", "Hallo Anna,"],
+          ["Request", "Ich wäre Ihnen dankbar, wenn Sie … könnten.", "Können Sie mir bitte … schicken?", "Schick mir das mal."],
+          ["Apology", "Ich bitte um Entschuldigung für die Unannehmlichkeiten.", "Entschuldigung für die Verspätung.", "Sorry, bin zu spät."],
+          ["Closing", "Mit freundlichen Grüßen", "Viele Grüße", "Bis bald"]
+        ]
+      },
+      "examples": [
+        { "de": "Sehr geehrte Damen und Herren, ich wende mich an Sie, weil ich eine Frage zu meiner Rechnung habe.", "en": "Dear Sir or Madam, I am contacting you because I have a question about my invoice." },
+        { "de": "Hallo zusammen, kurze Rückmeldung zum Termin am Donnerstag.", "en": "Hi everyone, quick feedback on Thursday's appointment." },
+        { "de": "Hi Tom, kannst du mir die Datei schicken?", "en": "Hi Tom, can you send me the file?" }
+      ]
+    },
+    {
+      "heading": "What makes a text formal",
+      "text": "Formal style is built from a few tools. Use **Konjunktiv II** for politeness (*Könnten Sie …?*), **Passiv** and **impersonal forms**, **Nomen** instead of verbs, and **precise verbs** instead of everyday ones: *erhalten* instead of *kriegen*, *mitteilen* instead of *sagen*, *bitten um* instead of *wollen*. Avoid contractions (*hab, gibts*) and filler words. In speech, you can use the same tools, but keep sentences shorter.",
+      "table": {
+        "head": ["Informal", "Formal"],
+        "rows": [
+          ["Ich hab das Paket nicht gekriegt.", "Ich habe das Paket nicht erhalten."],
+          ["Könnt ihr mal schauen?", "Könnten Sie dies bitte prüfen?"],
+          ["Meldet euch bis Freitag.", "Ich bitte um Rückmeldung bis Freitag."],
+          ["Das nervt mich.", "Ich bin mit dem Ablauf unzufrieden."],
+          ["Ich will wissen, wann das kommt.", "Ich möchte mich erkundigen, wann die Lieferung eintrifft."]
+        ]
+      },
+      "examples": [
+        { "de": "Ich habe die Rechnung bis heute nicht erhalten.", "en": "I have not received the invoice to this day." },
+        { "de": "Könnten Sie mir bitte mitteilen, bis wann die Lieferung eintrifft?", "en": "Could you please let me know by when the delivery will arrive?" },
+        { "de": "Ich möchte mich erkundigen, wie der Stand meines Antrags ist.", "en": "I would like to ask what the status of my application is." }
+      ]
+    },
+    {
+      "heading": "Writing a complaint that works",
+      "text": "A good complaint is **polite but firm**. Use a clear Betreff, state the facts first (date, order number), then say what is wrong and what you expect. Set a **Frist**. Do not attack people. Attack the problem. Phrases like *Ich muss leider bemängeln, dass …* or *Ich bitte Sie, … umgehend zu ersetzen* are strict without being rude.",
+      "table": {
+        "head": ["Part", "Phrase"],
+        "rows": [
+          ["Betreff", "Reklamation der Bestellung Nr. 4711"],
+          ["Fact", "Die Lieferung ist beschädigt angekommen."],
+          ["Complaint", "Ich muss leider bemängeln, dass das Gerät nicht funktioniert."],
+          ["Demand", "Ich bitte Sie, das Gerät umgehend zu ersetzen."],
+          ["Deadline", "Ich bitte um Rückmeldung bis zum 15. März."],
+          ["Closing", "Mit freundlichen Grüßen"]
+        ]
+      },
+      "examples": [
+        { "de": "Am 3. März habe ich bei Ihnen einen Laptop bestellt, der beschädigt angekommen ist.", "en": "On 3 March I ordered a laptop from you, which arrived damaged." },
+        { "de": "Ich muss leider bemängeln, dass der Bildschirm einen Defekt hat.", "en": "I have to point out, unfortunately, that the screen has a defect." },
+        { "de": "Ich bitte Sie, mir das Gerät umgehend zu ersetzen oder den Betrag zu erstatten.", "en": "I ask you to replace the device promptly or refund the amount." }
+      ]
+    }
+  ],
+  "tip": "Formal tone = Sie + Konjunktiv II + precise verbs. Quick swap list: kriegen → erhalten, sagen → mitteilen, wollen → möchten, nachfragen → sich erkundigen. And always end a complaint with a Frist.",
+  "words": [
+    { "de": "Anliegen", "en": "concern, request", "pos": "noun", "article": "das", "plural": "Anliegen" },
+    { "de": "Beschwerde", "en": "complaint", "pos": "noun", "article": "die", "plural": "Beschwerden" },
+    { "de": "Reklamation", "en": "complaint about goods", "pos": "noun", "article": "die", "plural": "Reklamationen" },
+    { "de": "Betreff", "en": "subject line", "pos": "noun", "article": "der", "plural": "Betreffe" },
+    { "de": "Anrede", "en": "form of address, salutation", "pos": "noun", "article": "die", "plural": "Anreden" },
+    { "de": "Frist", "en": "deadline, time limit", "pos": "noun", "article": "die", "plural": "Fristen" },
+    { "de": "Mangel", "en": "defect, shortcoming", "pos": "noun", "article": "der", "plural": "Mängel" },
+    { "de": "Ansprechpartner", "en": "contact person", "pos": "noun", "article": "der", "plural": "Ansprechpartner" },
+    { "de": "Rückmeldung", "en": "feedback, reply", "pos": "noun", "article": "die", "plural": "Rückmeldungen" },
+    { "de": "bemängeln", "en": "to criticise, to complain about", "pos": "verb", "aux": "haben", "p2": "bemängelt" },
+    { "de": "reklamieren", "en": "to complain about goods", "pos": "verb", "aux": "haben", "p2": "reklamiert" },
+    { "de": "sich beschweren", "en": "to complain (über + Akk)", "pos": "verb", "aux": "haben", "p2": "beschwert" },
+    { "de": "bedauern", "en": "to regret", "pos": "verb", "aux": "haben", "p2": "bedauert" },
+    { "de": "sich erkundigen", "en": "to enquire (nach + Dat)", "pos": "verb", "aux": "haben", "p2": "erkundigt" },
+    { "de": "zusichern", "en": "to assure, to guarantee", "pos": "verb", "aux": "haben", "sep": "zu", "p2": "zugesichert" },
+    { "de": "einfordern", "en": "to demand, to call in", "pos": "verb", "aux": "haben", "sep": "ein", "p2": "eingefordert" },
+    { "de": "verbindlich", "en": "binding, firm", "pos": "adj" },
+    { "de": "umgehend", "en": "immediately, promptly", "pos": "adv" },
+    { "de": "Sehr geehrte Damen und Herren", "en": "Dear Sir or Madam", "pos": "phrase" },
+    { "de": "Mit freundlichen Grüßen", "en": "Yours sincerely, Kind regards (formal)", "pos": "phrase" },
+    { "de": "Ich wende mich an Sie", "en": "I am contacting you", "pos": "phrase" },
+    { "de": "Viele Grüße", "en": "Kind regards (neutral)", "pos": "phrase" }
+  ],
+  "mindmap": {
+    "label": "Register & Stil",
+    "children": [
+      {
+        "label": "Formell",
+        "note": "Sie + Konjunktiv II",
+        "children": [
+          { "label": "Sehr geehrte …, Mit freundlichen Grüßen" },
+          { "label": "Ich wäre Ihnen dankbar, wenn …" },
+          { "label": "erhalten, mitteilen, sich erkundigen" }
+        ]
+      },
+      {
+        "label": "Neutral",
+        "children": [
+          { "label": "Guten Tag …, Viele Grüße" },
+          { "label": "Können Sie mir bitte …?" }
+        ]
+      },
+      {
+        "label": "Informell",
+        "children": [
+          { "label": "Hallo …, Bis bald" },
+          { "label": "du, kurze Sätze" }
+        ]
+      },
+      {
+        "label": "Beschwerde",
+        "note": "höflich, aber bestimmt",
+        "children": [
+          { "label": "Betreff → Fakt → Mangel → Forderung → Frist" },
+          { "label": "Ich muss leider bemängeln, dass …" }
+        ]
+      },
+      {
+        "label": "Beruf & Kommunikation",
+        "children": [ { "label": "Anliegen, Beschwerde, Frist, Mangel, Rückmeldung" } ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "mc", "q": "Welche Anrede passt zu einer E-Mail an eine unbekannte Behörde?", "options": ["Hallo zusammen,", "Sehr geehrte Damen und Herren,", "Hi,"], "answer": 1, "explain": "To an unknown office use the formal salutation: Sehr geehrte Damen und Herren." },
+    { "type": "mc", "q": "Welche Variante ist formell?", "options": ["Ich hab die Rechnung nicht gekriegt.", "Ich habe die Rechnung nicht erhalten.", "Die Rechnung kam bei mir nicht an."], "answer": 1, "explain": "erhalten is the formal verb for kriegen, and hab is a spoken contraction." },
+    { "type": "mc", "q": "Ich ___ Ihnen dankbar, wenn Sie mir die Unterlagen zusenden könnten.", "options": ["wäre", "bin", "war"], "answer": 0, "explain": "Konjunktiv II (wäre) makes the request polite and indirect." },
+    { "type": "gap", "q": "Ich wende mich ___ Sie, weil ich eine Frage zu meinem Vertrag habe.", "answer": ["an"], "explain": "sich wenden an + Akkusativ: the preposition is fixed." },
+    { "type": "gap", "q": "Wir bedauern die Unannehmlichkeiten und bitten Sie ___ Entschuldigung.", "answer": ["um"], "explain": "bitten um + Akkusativ: the preposition is fixed." },
+    { "type": "gap", "q": "Ich möchte mich über die lange Wartezeit ___.", "answer": ["beschweren"], "explain": "sich beschweren über + Akkusativ; after a modal verb the infinitive goes to the end." },
+    { "type": "gap", "q": "Die Firma hat uns die Lieferung bis Freitag ___. (zusichern)", "answer": ["zugesichert"], "explain": "zusichern is separable: the -ge- goes inside, so zugesichert." },
+    { "type": "article", "word": "Mangel", "answer": "der", "explain": "der Mangel, plural die Mängel with an umlaut." },
+    { "type": "article", "word": "Frist", "answer": "die", "explain": "die Frist, plural die Fristen." },
+    { "type": "order", "words": ["um umgehende", "Ich bitte Sie", "Rückmeldung"], "answer": "Ich bitte Sie um umgehende Rückmeldung", "explain": "bitten um + Akkusativ: Ich bitte Sie um + adjective + noun." },
+    { "type": "order", "words": ["muss ich", "Leider", "bemängeln", "die Qualität"], "answer": "Leider muss ich die Qualität bemängeln", "explain": "Leider in position 1, then the modal verb, the subject, the object and the infinitive at the end." },
+    { "type": "match", "pairs": [["Viele Grüße", "neutral closing"], ["Mit freundlichen Grüßen", "formal closing"], ["Bis bald", "informal closing"], ["Hallo Anna,", "informal greeting"], ["Sehr geehrte Frau Weber,", "formal greeting"]], "explain": "Match the phrase to the register." },
+    { "type": "translate", "en": "I would be grateful for a prompt reply.", "answer": ["Ich wäre Ihnen für eine umgehende Antwort dankbar", "Ich wäre Ihnen dankbar für eine umgehende Antwort", "Für eine umgehende Antwort wäre ich Ihnen dankbar", "Ich wäre Ihnen für eine schnelle Antwort dankbar", "Ich wäre Ihnen dankbar für eine schnelle Antwort", "Ich wäre Ihnen für eine zeitnahe Rückmeldung dankbar", "Ich wäre Ihnen dankbar für eine umgehende Rückmeldung", "Ich wäre Ihnen für eine baldige Antwort dankbar"], "explain": "Konjunktiv II (wäre) + dankbar + für + Akkusativ makes a polite formal request." },
+    { "type": "translate", "en": "Unfortunately, the delivery arrived damaged.", "answer": ["Leider ist die Lieferung beschädigt angekommen", "Die Lieferung ist leider beschädigt angekommen", "Leider kam die Lieferung beschädigt an", "Die Lieferung kam leider beschädigt an"], "explain": "ankommen is separable and forms the perfect with sein: ist angekommen." }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Sehr geehrte Damen und Herren, ich wende mich an Sie, weil ich eine Frage zu meiner Rechnung habe.", "en": "Dear Sir or Madam, I am contacting you because I have a question about my invoice." },
+      { "de": "Ich habe das Paket bis heute nicht erhalten.", "en": "I have not received the parcel to this day." },
+      { "de": "Ich muss leider bemängeln, dass das Gerät nicht funktioniert.", "en": "Unfortunately I have to point out that the device does not work." },
+      { "de": "Ich bitte Sie, mir das Gerät umgehend zu ersetzen.", "en": "I ask you to replace the device promptly." },
+      { "de": "Ich bitte um Rückmeldung bis zum fünfzehnten März.", "en": "I ask for a reply by 15 March." }
+    ],
+    "prompts": [
+      { "q": "Sie rufen beim Kundenservice an: Ihr Laptop kam beschädigt an. Formulieren Sie Ihre Beschwerde.", "qEn": "You call customer service: your laptop arrived damaged. State your complaint.", "model": "Guten Tag, mein Name ist Khan. Ich habe am dritten März einen Laptop bei Ihnen bestellt. Leider ist die Lieferung beschädigt angekommen, und ich muss leider bemängeln, dass der Bildschirm einen Defekt hat. Ich bitte Sie, das Gerät umgehend zu ersetzen oder den Betrag zu erstatten.", "hint": "Mangel / bemängeln / umgehend / ersetzen" },
+      { "q": "Ihr Vermieter hat die Heizung noch nicht repariert. Rufen Sie ihn höflich an und fordern Sie eine Lösung.", "qEn": "Your landlord has not yet repaired the heating. Politely call him and demand a solution.", "model": "Guten Tag Herr Becker, ich rufe wegen der Heizung an. Ich habe den Defekt bereits vor zwei Wochen gemeldet. Ich wäre Ihnen dankbar, wenn Sie bis Freitag einen Termin zusichern könnten. Ich bitte um eine verbindliche Rückmeldung.", "hint": "wäre dankbar / zusichern / verbindlich / Rückmeldung" },
+      { "q": "Schreiben Sie dem Kollegen aus der Nachbarabteilung eine kurze, neutrale Nachricht, um nach dem Stand zu fragen.", "qEn": "Write a short, neutral message to a colleague in a neighbouring department asking about the status.", "model": "Guten Tag Herr Schmidt, ich wollte mich kurz erkundigen, wie der Stand beim Bericht ist. Können Sie mir bitte bis morgen eine Rückmeldung geben? Vielen Dank und viele Grüße", "hint": "sich erkundigen / Rückmeldung / Viele Grüße" }
+    ]
+  }
+}

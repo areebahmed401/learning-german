@@ -1,0 +1,165 @@
+{
+  "id": "c1-11-wissenschaftlich",
+  "level": "C1",
+  "title": "Wissenschaftliches Schreiben",
+  "concept": "Academic writing: hedging, citing, structuring an argument",
+  "wordlist": "Studium & Forschung",
+  "minutes": 35,
+  "youtube": "https://www.youtube.com/results?search_query=Learn+German+C1+wissenschaftliches+Schreiben+Hausarbeit+Formulierungen",
+  "learn": [
+    {
+      "heading": "Hedging: write carefully, not absolutely",
+      "text": "Academic German avoids absolute claims. Instead of *Das beweist …* you say that something **points to** a conclusion. The tools are **modal verbs in Konjunktiv II** (*dürfte, könnte*), verbs like **scheinen** and **deuten auf**, and adverbs such as **vermutlich** or **tendenziell**. This is not weakness. It shows that you know the limits of your data, which every Betreuer expects in a Bachelor or Master thesis.",
+      "table": {
+        "head": ["Absolute claim", "Hedged version"],
+        "rows": [
+          ["Das beweist, dass …", "Das deutet darauf hin, dass …"],
+          ["Das ist die Ursache.", "Das dürfte die Ursache sein."],
+          ["Alle Nutzer bevorzugen …", "Die meisten Nutzer bevorzugen tendenziell …"],
+          ["Die Studie zeigt …", "Die Studie scheint zu zeigen …"],
+          ["Es ist klar, dass …", "Es spricht vieles dafür, dass …"]
+        ]
+      },
+      "examples": [
+        { "de": "Die Messwerte deuten darauf hin, dass der Sensor fehlerhaft ist.", "en": "The measurements suggest that the sensor is faulty." },
+        { "de": "Die Ursache dürfte in der Software liegen.", "en": "The cause is probably in the software." },
+        { "de": "Meines Erachtens weist die Methode einige Schwächen auf.", "en": "In my view, the method has some weaknesses." }
+      ]
+    },
+    {
+      "heading": "Citing sources and reporting what others say",
+      "text": "Every claim needs a source. You can cite with **laut**, **nach**, or a **Dativ phrase with zufolge**, which stands after its noun (*dem Autor zufolge*). You can also report with a verb such as **betonen, darlegen, hinweisen auf** and put the content in **Konjunktiv I** (*sei, habe, könne*) to show that the idea is the author's, not yours. The Konjunktiv I is typical in academic and news texts, so recognise it even if you use it sparingly.",
+      "table": {
+        "head": ["Phrase", "Example"],
+        "rows": [
+          ["laut + Name", "Laut Schmidt (2019) haben die Emissionen zugenommen."],
+          ["Name + zufolge", "Dem Autor zufolge ist die Methode veraltet."],
+          ["wie + Name + Verb", "Wie Müller (2020) zeigt, …"],
+          ["Name + betont, + Konjunktiv I", "Müller betont, die Methode sei zuverlässig."],
+          ["Name + weist darauf hin, dass …", "Weber weist darauf hin, dass die Stichprobe klein war."]
+        ]
+      },
+      "examples": [
+        { "de": "Müller (2020) betont, die Methode sei zuverlässig.", "en": "Müller (2020) stresses that the method is reliable." },
+        { "de": "Dem Autor zufolge ist die Datenlage unklar.", "en": "According to the author, the data situation is unclear." },
+        { "de": "Alle Quellen müssen im Literaturverzeichnis korrekt zitiert werden.", "en": "All sources have to be cited correctly in the bibliography." }
+      ]
+    },
+    {
+      "heading": "Structuring an argument",
+      "text": "A good text has a clear line: **Einleitung** (Fragestellung), **Hauptteil** (These, Belege, Gegenargumente) and **Schluss** (Fazit). Connectors guide the reader. Most of them stand in position 1, so the **verb follows in position 2** (*Daher ist die Methode ungeeignet*). Use each connector for its function, and do not start every sentence with the same one.",
+      "table": {
+        "head": ["Function", "Connector", "Example"],
+        "rows": [
+          ["Start", "zunächst, erstens", "Zunächst wird die Fragestellung erläutert."],
+          ["Add", "außerdem, darüber hinaus, zudem", "Darüber hinaus ist die Methode teuer."],
+          ["Contrast", "hingegen, jedoch, einerseits … andererseits", "Die Kosten sind hoch, die Qualität hingegen gut."],
+          ["Concession", "dennoch, allerdings", "Allerdings ist die Stichprobe klein."],
+          ["Result", "folglich, somit, daher", "Folglich sind die Ergebnisse nur begrenzt aussagekräftig."],
+          ["End", "abschließend, zusammenfassend", "Abschließend lässt sich festhalten, dass …"]
+        ]
+      },
+      "examples": [
+        { "de": "Zunächst wird die Fragestellung der Arbeit erläutert.", "en": "First, the research question of the paper is explained." },
+        { "de": "Einerseits ist die Methode günstig, andererseits liefert sie nur ungenaue Werte.", "en": "On the one hand the method is cheap, on the other hand it gives only imprecise values." },
+        { "de": "Abschließend lässt sich festhalten, dass die Hypothese bestätigt wurde.", "en": "In conclusion it can be stated that the hypothesis was confirmed." }
+      ]
+    }
+  ],
+  "tip": "Before each sentence ask: is this a fact (cite it), my opinion (hedge it) or a link to the last sentence (add a connector)? Three tools: laut/zufolge, dürfte/deutet darauf hin, and one connector per paragraph start.",
+  "words": [
+    { "de": "Hypothese", "en": "hypothesis", "pos": "noun", "article": "die", "plural": "Hypothesen" },
+    { "de": "These", "en": "thesis, claim", "pos": "noun", "article": "die", "plural": "Thesen" },
+    { "de": "Studie", "en": "study", "pos": "noun", "article": "die", "plural": "Studien" },
+    { "de": "Quelle", "en": "source", "pos": "noun", "article": "die", "plural": "Quellen" },
+    { "de": "Beleg", "en": "piece of evidence, reference", "pos": "noun", "article": "der", "plural": "Belege" },
+    { "de": "Fragestellung", "en": "research question", "pos": "noun", "article": "die", "plural": "Fragestellungen" },
+    { "de": "Ergebnis", "en": "result", "pos": "noun", "article": "das", "plural": "Ergebnisse" },
+    { "de": "Fazit", "en": "conclusion, summing up", "pos": "noun", "article": "das", "plural": "Fazits" },
+    { "de": "Literaturverzeichnis", "en": "bibliography", "pos": "noun", "article": "das", "plural": "Literaturverzeichnisse" },
+    { "de": "Betreuer", "en": "supervisor", "pos": "noun", "article": "der", "plural": "Betreuer" },
+    { "de": "belegen", "en": "to prove with evidence", "pos": "verb", "aux": "haben", "p2": "belegt" },
+    { "de": "untersuchen", "en": "to examine, to investigate", "pos": "verb", "aux": "haben", "p2": "untersucht" },
+    { "de": "zitieren", "en": "to cite, to quote", "pos": "verb", "aux": "haben", "p2": "zitiert" },
+    { "de": "darlegen", "en": "to set out, to explain", "pos": "verb", "aux": "haben", "sep": "dar", "p2": "dargelegt" },
+    { "de": "hinweisen", "en": "to point out (auf + Akk)", "pos": "verb", "aux": "haben", "sep": "hin", "p2": "hingewiesen" },
+    { "de": "berücksichtigen", "en": "to take into account", "pos": "verb", "aux": "haben", "p2": "berücksichtigt" },
+    { "de": "ableiten", "en": "to derive", "pos": "verb", "aux": "haben", "sep": "ab", "p2": "abgeleitet" },
+    { "de": "meines Erachtens", "en": "in my view", "pos": "phrase" },
+    { "de": "dem Autor zufolge", "en": "according to the author", "pos": "phrase" },
+    { "de": "einerseits … andererseits", "en": "on the one hand … on the other", "pos": "phrase" },
+    { "de": "vermutlich", "en": "presumably, probably", "pos": "adv" },
+    { "de": "tendenziell", "en": "tending to, as a tendency", "pos": "adv" }
+  ],
+  "mindmap": {
+    "label": "Wissenschaftliches Schreiben",
+    "children": [
+      {
+        "label": "Vorsichtig formulieren",
+        "note": "nie beweisen, lieber andeuten",
+        "children": [
+          { "label": "dürfte, könnte, scheint zu" },
+          { "label": "deutet darauf hin, dass" },
+          { "label": "vermutlich, tendenziell" }
+        ]
+      },
+      {
+        "label": "Zitieren",
+        "children": [
+          { "label": "laut + Name" },
+          { "label": "dem Autor zufolge", "note": "zufolge steht hinter dem Nomen" },
+          { "label": "Konjunktiv I: er betone, es sei" }
+        ]
+      },
+      {
+        "label": "Aufbau",
+        "children": [
+          { "label": "Einleitung: Fragestellung" },
+          { "label": "Hauptteil: These, Beleg" },
+          { "label": "Schluss: Fazit" }
+        ]
+      },
+      {
+        "label": "Konnektoren",
+        "children": [
+          { "label": "zunächst, außerdem, hingegen" },
+          { "label": "folglich, abschließend" }
+        ]
+      },
+      {
+        "label": "Studium & Forschung",
+        "children": [ { "label": "Hypothese, Studie, Quelle, Beleg, Ergebnis" } ]
+      }
+    ]
+  },
+  "exercises": [
+    { "type": "mc", "q": "Die Ursache ___ in der Software liegen. (vorsichtig)", "options": ["dürfte", "darf", "dürfen"], "answer": 0, "explain": "dürfte (Konjunktiv II) expresses a careful assumption: probably. darf means permission." },
+    { "type": "mc", "q": "Müller (2020) betont, die Methode ___ zuverlässig.", "options": ["sei", "war", "sein"], "answer": 0, "explain": "Indirect speech uses Konjunktiv I: er sei. It marks the statement as the author's, not yours." },
+    { "type": "mc", "q": "Die Stichprobe war klein. ___ sind die Ergebnisse nur begrenzt aussagekräftig.", "options": ["Folglich", "Hingegen", "Zunächst"], "answer": 0, "explain": "The second sentence is a result of the first, so a result connector (folglich) fits. Position 1 + verb in position 2." },
+    { "type": "gap", "q": "Die Daten weisen ___ hin, dass die Nachfrage steigt.", "answer": ["darauf"], "explain": "hinweisen auf + Akkusativ; with a dass-clause the pronoun darauf anticipates it." },
+    { "type": "gap", "q": "Dem Autor ___ ist die Methode veraltet.", "answer": ["zufolge"], "explain": "zufolge follows its noun (dem Autor zufolge) and means according to." },
+    { "type": "gap", "q": "Alle Quellen müssen korrekt ___ werden. (zitieren)", "answer": ["zitiert"], "explain": "Passive with müssen: Partizip II zitiert + werden." },
+    { "type": "gap", "q": "Die Hypothese wurde durch die neuen Daten ___. (belegen)", "answer": ["belegt"], "explain": "Passive past: wurde belegt. belegen is inseparable, so no ge-." },
+    { "type": "article", "word": "Fazit", "answer": "das", "explain": "das Fazit, plural die Fazits (also Fazite)." },
+    { "type": "article", "word": "Beleg", "answer": "der", "explain": "der Beleg, plural die Belege." },
+    { "type": "order", "words": ["ist", "Dem Autor zufolge", "nicht zuverlässig", "die Methode"], "answer": "Dem Autor zufolge ist die Methode nicht zuverlässig", "explain": "Dem Autor zufolge fills position 1, so the verb ist is second, then the subject." },
+    { "type": "order", "words": ["wird", "die Fragestellung", "Zunächst", "erläutert"], "answer": "Zunächst wird die Fragestellung erläutert", "explain": "Zunächst in position 1, then the verb wird, then the subject, and the Partizip II at the end." },
+    { "type": "match", "pairs": [["These", "a claim you argue for"], ["Beleg", "piece of evidence"], ["Fazit", "conclusion"], ["Fragestellung", "research question"], ["Literaturverzeichnis", "bibliography"]], "explain": "Key words for structuring a paper." },
+    { "type": "translate", "en": "The results suggest that the method is reliable.", "answer": ["Die Ergebnisse deuten darauf hin, dass die Methode zuverlässig ist", "Die Ergebnisse legen nahe, dass die Methode zuverlässig ist"], "explain": "darauf hindeuten / nahelegen are hedged verbs, and the dass-clause sends the verb to the end." },
+    { "type": "translate", "en": "In my view, the study has weaknesses.", "answer": ["Meines Erachtens hat die Studie Schwächen", "Meines Erachtens weist die Studie Schwächen auf", "Meiner Meinung nach hat die Studie Schwächen", "Meiner Meinung nach weist die Studie Schwächen auf"], "explain": "meines Erachtens (Genitiv of das Erachten) is a formal way to give your view; the verb follows in position 2." }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Die Messwerte deuten darauf hin, dass der Sensor fehlerhaft ist.", "en": "The measurements suggest that the sensor is faulty." },
+      { "de": "Meines Erachtens weist die Methode einige Schwächen auf.", "en": "In my view the method has some weaknesses." },
+      { "de": "Dem Autor zufolge ist die Datenlage unklar.", "en": "According to the author the data situation is unclear." },
+      { "de": "Zunächst möchte ich die Fragestellung kurz erläutern.", "en": "First I would like to briefly explain the research question." },
+      { "de": "Abschließend lässt sich festhalten, dass die Hypothese bestätigt wurde.", "en": "In conclusion it can be stated that the hypothesis was confirmed." }
+    ],
+    "prompts": [
+      { "q": "Sie besprechen mit Ihrem Betreuer das Thema Ihrer Masterarbeit. Stellen Sie Ihre Fragestellung vor.", "qEn": "You discuss your master's thesis topic with your supervisor. Present your research question.", "model": "Meine Fragestellung lautet, wie sich Schwingungen auf die Lebensdauer von Bauteilen auswirken. Meine Hypothese ist, dass höhere Frequenzen tendenziell zu schnellerem Verschleiß führen. Ich möchte sie mittels mehrerer Versuche untersuchen.", "hint": "Fragestellung / Hypothese / tendenziell / untersuchen" },
+      { "q": "Ihr Betreuer fragt, auf welche Quellen Sie sich stützen. Antworten Sie.", "qEn": "Your supervisor asks which sources you rely on. Answer.", "model": "Ich stütze mich vor allem auf die Studie von Müller aus dem Jahr 2020. Dem Autor zufolge ist die Methode zuverlässig, aber ich habe Bedenken wegen der kleinen Stichprobe. Ich werde deshalb auch weitere Quellen berücksichtigen.", "hint": "dem Autor zufolge / Studie / berücksichtigen" },
+      { "q": "Geben Sie in einem Seminar kurz Ihr Fazit zu einer Studie.", "qEn": "Give a short conclusion about a study in a seminar.", "model": "Zusammenfassend lässt sich sagen, dass die Studie interessante Ergebnisse liefert. Einerseits ist die Methode günstig, andererseits ist die Datenlage unklar. Meines Erachtens dürften weitere Untersuchungen nötig sein.", "hint": "zusammenfassend / einerseits … andererseits / dürfte" }
+    ]
+  }
+}
