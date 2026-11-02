@@ -54,6 +54,8 @@ export async function renderSettings(view) {
         ? `Reviews are always shown. Adaptive starts here and is at ${progress.adaptState().cards.newCards} now; changing this restarts it.`
         : 'Reviews are always shown. With adaptive on, this is the starting point.',
         select(s.newCards, [5, 10, 15, 20, 25, 30, 40, 50].map((n) => [n, String(n)]), (v) => set({ newCards: Number(v) }))),
+      field('More new cards per click', 'When today\u2019s new cards are done, "+ more new words" adds this many and starts straight away.',
+        select(s.moreCards, [5, 10, 15, 20, 25, 30, 40, 50].map((n) => [n, String(n)]), (v) => set({ moreCards: Number(v) }))),
       field('Deck', '"My level" = every word up to your level (Alltag places + dictionary). Pick one place in Karten.',
         select(s.deck, [['level', 'My level'], ['mine', 'Places I have opened'], ...levels.map((l) => [l, `${l} only`]),
           ...(s.deck.startsWith('place:') ? [[s.deck, 'One place (picked in Karten)']] : [])], (v) => set({ deck: v }))),

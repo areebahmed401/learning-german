@@ -151,6 +151,7 @@ export const speakStreak = () => streak(state.speakDays, (d) => d.toISOString().
 export const DEFAULT_SETTINGS = {
   level: 'auto', // 'auto' = the level of your current stop on the road, or 'A1' … 'C1'
   newCards: 15, // new flashcards per day
+  moreCards: 10, // new words added per "+ more" click once today's limit is used up
   deck: 'level', // 'level' = all words up to your level, 'mine' = opened lessons, or one level id
   reverse: false, // cards English → German
   autoplay: true, // read the German aloud when a card flips
@@ -158,6 +159,13 @@ export const DEFAULT_SETTINGS = {
   adaptive: true, // adapt.js: new cards, quiz mix and level follow how you do
 };
 export const settings = () => ({ ...DEFAULT_SETTINGS, ...state.settings });
+
+/** New cards added today beyond the daily limit ("+ more"); saved, so it survives leaving the page. */
+export const extraCards = (today) => (state.adapt.extra?.day === today ? state.adapt.extra.n : 0);
+export function addExtraCards(today, n) {
+  state.adapt.extra = { day: today, n: extraCards(today) + n };
+  save();
+}
 export function setSettings(patch) {
   state.settings = { ...state.settings, ...patch };
   if ('newCards' in patch) state.adapt.cards = null; // a number you set yourself is the new starting point
