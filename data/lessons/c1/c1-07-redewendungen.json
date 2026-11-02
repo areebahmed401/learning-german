@@ -3,7 +3,6 @@
   "level": "C1",
   "title": "Redewendungen",
   "concept": "Idioms and fixed expressions",
-  "wordlist": "Redewendungen & Sprichwörter",
   "minutes": 40,
   "youtube": "https://www.youtube.com/results?search_query=Learn+German+C1+Redewendungen+Sprichw%C3%B6rter+idioms",
   "learn": [
@@ -54,31 +53,6 @@
     }
   ],
   "tip": "Never translate an idiom word by word, and never change its words. Learn it with a picture: nicht mein Bier = a beer that belongs to someone else. Pick one new idiom per week and use it three times.",
-  "words": [
-    { "de": "Das ist nicht mein Bier.", "en": "lit. that is not my beer = that's not my business", "pos": "phrase" },
-    { "de": "nur Bahnhof verstehen", "en": "lit. to understand only train station = to not understand a thing", "pos": "phrase" },
-    { "de": "den Nagel auf den Kopf treffen", "en": "lit. to hit the nail on the head = to say exactly the right thing", "pos": "phrase" },
-    { "de": "die Daumen drücken", "en": "lit. to press the thumbs = to keep one's fingers crossed", "pos": "phrase" },
-    { "de": "Tomaten auf den Augen haben", "en": "lit. to have tomatoes on one's eyes = to overlook the obvious", "pos": "phrase" },
-    { "de": "zwei Fliegen mit einer Klappe schlagen", "en": "lit. to hit two flies with one swat = to kill two birds with one stone", "pos": "phrase" },
-    { "de": "Schwein haben", "en": "lit. to have pig = to be lucky", "pos": "phrase" },
-    { "de": "Hals- und Beinbruch!", "en": "lit. break your neck and leg = good luck!", "pos": "phrase" },
-    { "de": "ein Kinderspiel", "en": "lit. a children's game = very easy", "pos": "phrase" },
-    { "de": "Das ist mir Wurst.", "en": "lit. that is sausage to me = I don't care", "pos": "phrase" },
-    { "de": "Da liegt der Hund begraben.", "en": "lit. the dog is buried there = that's the real problem", "pos": "phrase" },
-    { "de": "den Faden verlieren", "en": "lit. to lose the thread = to lose one's train of thought", "pos": "phrase" },
-    { "de": "auf dem Schlauch stehen", "en": "lit. to stand on the hose = to be slow on the uptake", "pos": "phrase" },
-    { "de": "die Nase voll haben", "en": "lit. to have a full nose = to be fed up", "pos": "phrase" },
-    { "de": "unter vier Augen", "en": "lit. under four eyes = in private, one-to-one", "pos": "phrase" },
-    { "de": "ein Tropfen auf den heißen Stein", "en": "lit. a drop on the hot stone = a drop in the ocean", "pos": "phrase" },
-    { "de": "um den heißen Brei herumreden", "en": "lit. to talk around the hot porridge = to beat around the bush", "pos": "phrase" },
-    { "de": "mit der Tür ins Haus fallen", "en": "lit. to fall into the house with the door = to come out with it too bluntly", "pos": "phrase" },
-    { "de": "das Eis brechen", "en": "lit. to break the ice = to break the ice", "pos": "phrase" },
-    { "de": "Übung macht den Meister.", "en": "lit. practice makes the master = practice makes perfect", "pos": "phrase" },
-    { "de": "Aller Anfang ist schwer.", "en": "lit. every beginning is hard = every beginning is hard", "pos": "phrase" },
-    { "de": "Ausnahmen bestätigen die Regel.", "en": "lit. exceptions confirm the rule = the exception proves the rule", "pos": "phrase" },
-    { "de": "Morgenstund hat Gold im Mund.", "en": "lit. the morning hour has gold in its mouth = the early bird catches the worm", "pos": "phrase" }
-  ],
   "mindmap": {
     "label": "Redewendungen",
     "children": [

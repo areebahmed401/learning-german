@@ -3,7 +3,6 @@
   "level": "B1",
   "title": "Passiv",
   "concept": "Passive voice in present and past",
-  "wordlist": "Umwelt & Recycling",
   "minutes": 30,
   "youtube": "https://www.youtube.com/results?search_query=Learn+German+B1+Passiv+passive+voice",
   "learn": [
@@ -53,31 +52,6 @@
     }
   ],
   "tip": "Do not confuse werden in the Passiv (werden + Partizip II) with the future (werden + Infinitiv). Check the end of the sentence: a Partizip II (gebaut) means passive, an infinitive (bauen) means future.",
-  "words": [
-    { "de": "Müll", "en": "waste, rubbish", "pos": "noun", "article": "der", "plural": "-", "goethe": "A2" },
-    { "de": "Abfall", "en": "waste", "pos": "noun", "article": "der", "plural": "Abfälle", "goethe": "B1" },
-    { "de": "Natur", "en": "nature", "pos": "noun", "article": "die", "plural": "-", "goethe": "A2" },
-    { "de": "Flasche", "en": "bottle", "pos": "noun", "article": "die", "plural": "Flaschen", "goethe": "A1" },
-    { "de": "Glas", "en": "glass", "pos": "noun", "article": "das", "plural": "Gläser", "goethe": "A1" },
-    { "de": "Papier", "en": "paper", "pos": "noun", "article": "das", "plural": "Papiere", "goethe": "A1" },
-    { "de": "Plastik", "en": "plastic", "pos": "noun", "article": "das", "plural": "-", "goethe": "B1" },
-    { "de": "Wasser", "en": "water", "pos": "noun", "article": "das", "plural": "-", "goethe": "A1" },
-    { "de": "Umwelt", "en": "environment", "pos": "noun", "article": "die", "plural": "-", "goethe": "A1" },
-    { "de": "Klima", "en": "climate", "pos": "noun", "article": "das", "plural": "-", "goethe": "A1" },
-    { "de": "Gas", "en": "gas", "pos": "noun", "article": "das", "plural": "Gase", "goethe": "B1" },
-    { "de": "Luft", "en": "air", "pos": "noun", "article": "die", "plural": "-", "goethe": "B1" },
-    { "de": "Energie", "en": "energy", "pos": "noun", "article": "die", "plural": "Energien", "goethe": "B1" },
-    { "de": "Wind", "en": "wind", "pos": "noun", "article": "der", "plural": "Winde", "goethe": "A1" },
-    { "de": "Sonne", "en": "sun", "pos": "noun", "article": "die", "plural": "Sonnen", "goethe": "A1" },
-    { "de": "schützen", "en": "to protect", "pos": "verb", "aux": "haben", "p2": "geschützt", "goethe": "B1" },
-    { "de": "entsorgen", "en": "to dispose of", "pos": "verb", "aux": "haben", "p2": "entsorgt", "goethe": "B1" },
-    { "de": "trennen", "en": "to separate", "pos": "verb", "aux": "haben", "p2": "getrennt", "goethe": "B1" },
-    { "de": "sparen", "en": "to save", "pos": "verb", "aux": "haben", "p2": "gespart", "goethe": "A2" },
-    { "de": "verbrauchen", "en": "to consume, to use up", "pos": "verb", "aux": "haben", "p2": "verbraucht", "goethe": "B1" },
-    { "de": "herstellen", "en": "to produce, to manufacture", "pos": "verb", "aux": "haben", "sep": "her", "p2": "hergestellt", "goethe": "A2" },
-    { "de": "verschmutzen", "en": "to pollute", "pos": "verb", "aux": "haben", "p2": "verschmutzt", "goethe": "B1" },
-    { "de": "Strom", "en": "electricity, current", "pos": "noun", "article": "der", "plural": "Ströme", "goethe": "B1" }
-  ],
   "mindmap": {
     "label": "Passiv",
     "children": [

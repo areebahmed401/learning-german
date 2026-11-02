@@ -3,7 +3,6 @@
   "level": "A1",
   "title": "Imperativ",
   "concept": "Giving instructions and requests",
-  "wordlist": "Beim Arzt",
   "minutes": 25,
   "youtube": "https://www.youtube.com/results?search_query=Learn+German+A1+Imperativ+commands+instructions",
   "learn": [
@@ -57,28 +56,6 @@
     }
   ],
   "tip": "Role-play the doctor's visit in the mirror: you say the symptom, then you play the doctor and give three instructions in the Sie-form. Rewriting each as a du-command trains the second form as well.",
-  "words": [
-    { "de": "Arzt", "en": "doctor (male)", "pos": "noun", "article": "der", "plural": "Ärzte", "goethe": "A1" },
-    { "de": "Ärztin", "en": "doctor (female)", "pos": "noun", "article": "die", "plural": "Ärztinnen", "goethe": "A1" },
-    { "de": "Praxis", "en": "doctor's practice", "pos": "noun", "article": "die", "plural": "Praxen", "goethe": "A1" },
-    { "de": "Doktor", "en": "doctor (title)", "pos": "noun", "article": "der", "plural": "Doktoren", "goethe": "A1" },
-    { "de": "Medikament", "en": "medicine", "pos": "noun", "article": "das", "plural": "Medikamente", "goethe": "A1" },
-    { "de": "Arm", "en": "arm", "pos": "noun", "article": "der", "plural": "Arme", "goethe": "A1" },
-    { "de": "Bein", "en": "leg", "pos": "noun", "article": "das", "plural": "Beine", "goethe": "A1" },
-    { "de": "Auge", "en": "eye", "pos": "noun", "article": "das", "plural": "Augen", "goethe": "A1" },
-    { "de": "Kopf", "en": "head", "pos": "noun", "article": "der", "plural": "Köpfe", "goethe": "A1" },
-    { "de": "Bauch", "en": "belly; stomach", "pos": "noun", "article": "der", "plural": "Bäuche", "goethe": "A1" },
-    { "de": "Mund", "en": "mouth", "pos": "noun", "article": "der", "plural": "Münder", "goethe": "A1" },
-    { "de": "Fuß", "en": "foot", "pos": "noun", "article": "der", "plural": "Füße", "goethe": "A1" },
-    { "de": "Fieber", "en": "fever", "pos": "noun", "article": "das", "plural": "-", "goethe": "A1" },
-    { "de": "Hand", "en": "hand", "pos": "noun", "article": "die", "plural": "Hände", "goethe": "A1" },
-    { "de": "helfen", "en": "to help", "pos": "verb", "aux": "haben", "p2": "geholfen", "goethe": "A1" },
-    { "de": "bleiben", "en": "to stay", "pos": "verb", "aux": "sein", "p2": "geblieben", "goethe": "A1" },
-    { "de": "warten", "en": "to wait", "pos": "verb", "aux": "haben", "p2": "gewartet", "goethe": "A1" },
-    { "de": "krank", "en": "ill; sick", "pos": "adj", "goethe": "A1" },
-    { "de": "müde", "en": "tired", "pos": "adj", "goethe": "A1" },
-    { "de": "bitte", "en": "please", "pos": "adv", "goethe": "A1" }
-  ],
   "mindmap": {
     "label": "Imperativ",
     "children": [

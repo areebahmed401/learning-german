@@ -1,0 +1,282 @@
+{
+  "id": "recht",
+  "icon": "⚖️",
+  "title": "Verträge & Recht",
+  "en": "Contracts & law",
+  "intro": "You sign a phone or gym contract, rent a flat, cancel on time and insure yourself. When something goes wrong, you complain, object in writing or ask a lawyer.",
+  "areas": [
+    {
+      "name": "Verträge abschließen",
+      "en": "signing contracts (phone, gym)",
+      "words": [
+        { "de": "Vertrag", "en": "contract", "pos": "noun", "article": "der", "plural": "Verträge", "level": "A2", "goethe": "A2" },
+        { "de": "Laufzeit", "en": "term, duration", "pos": "noun", "article": "die", "plural": "Laufzeiten", "level": "B2" },
+        { "de": "Vereinbarung", "en": "agreement", "pos": "noun", "article": "die", "plural": "Vereinbarungen", "level": "C1" },
+        { "de": "Klausel", "en": "clause", "pos": "noun", "article": "die", "plural": "Klauseln", "level": "C1" },
+        { "de": "unterzeichnen", "en": "to sign", "pos": "verb", "aux": "haben", "p2": "unterzeichnet", "level": "C1" },
+        { "de": "abschließen", "en": "to conclude (a contract)", "pos": "verb", "aux": "haben", "sep": "ab", "p2": "abgeschlossen", "level": "A2", "goethe": "A2" },
+        { "de": "sich verpflichten", "en": "to commit oneself", "pos": "verb", "aux": "haben", "p2": "verpflichtet", "level": "C1" },
+        { "de": "verbindlich", "en": "binding", "pos": "adj", "level": "C1" },
+        { "de": "wirksam", "en": "effective, valid", "pos": "adj", "level": "C1" },
+        { "de": "Mindestlaufzeit", "en": "minimum term", "pos": "noun", "article": "die", "plural": "Mindestlaufzeiten", "level": "B2" },
+        { "de": "Tarif", "en": "tariff, plan", "pos": "noun", "article": "der", "plural": "Tarife", "level": "B1" },
+        { "de": "Mitgliedschaft", "en": "membership", "pos": "noun", "article": "die", "plural": "Mitgliedschaften", "level": "B1" },
+        { "de": "Gebühr", "en": "fee", "pos": "noun", "article": "die", "plural": "Gebühren", "level": "B1", "goethe": "B1" },
+        { "de": "Verlängerung", "en": "extension, renewal", "pos": "noun", "article": "die", "plural": "Verlängerungen", "level": "B2" },
+        { "de": "Unterschrift", "en": "signature", "pos": "noun", "article": "die", "plural": "Unterschriften", "level": "A1", "goethe": "A1" },
+        { "de": "verlängern", "en": "to extend, to renew", "pos": "verb", "aux": "haben", "p2": "verlängert", "level": "B1", "goethe": "B1" },
+        { "de": "automatisch", "en": "automatic", "pos": "adj", "level": "A1", "goethe": "A1" }
+      ]
+    },
+    {
+      "name": "Miete",
+      "en": "renting a flat",
+      "words": [
+        { "de": "Mieter", "en": "tenant", "pos": "noun", "article": "der", "plural": "Mieter", "level": "B1", "goethe": "B1" },
+        { "de": "Verpflichtung", "en": "obligation", "pos": "noun", "article": "die", "plural": "Verpflichtungen", "level": "C1" },
+        { "de": "einhalten", "en": "to comply with, to keep", "pos": "verb", "aux": "haben", "sep": "ein", "p2": "eingehalten", "level": "C1" },
+        { "de": "Mietvertrag", "en": "rental agreement", "pos": "noun", "article": "der", "plural": "Mietverträge", "level": "B1", "goethe": "B1" },
+        { "de": "Vermieter", "en": "landlord", "pos": "noun", "article": "der", "plural": "Vermieter", "level": "A1", "goethe": "A1" },
+        { "de": "Kaution", "en": "deposit", "pos": "noun", "article": "die", "plural": "Kautionen", "level": "B1" },
+        { "de": "Nebenkosten", "en": "additional costs, service charges", "pos": "noun", "article": "die", "plural": "-", "level": "B1", "note": "plural only" },
+        { "de": "Mieterhöhung", "en": "rent increase", "pos": "noun", "article": "die", "plural": "Mieterhöhungen", "level": "B2" }
+      ]
+    },
+    {
+      "name": "Kündigung & Frist",
+      "en": "cancellation and deadlines",
+      "words": [
+        { "de": "Kündigung", "en": "termination, notice", "pos": "noun", "article": "die", "plural": "Kündigungen", "level": "B1", "goethe": "B1" },
+        { "de": "kündigen", "en": "to terminate, to give notice", "pos": "verb", "aux": "haben", "p2": "gekündigt", "level": "A2", "goethe": "A2" },
+        { "de": "anfechten", "en": "to contest, to challenge", "pos": "verb", "aux": "haben", "sep": "an", "p2": "angefochten", "level": "C1" },
+        { "de": "Frist", "en": "deadline, time limit", "pos": "noun", "article": "die", "plural": "Fristen", "level": "B1", "goethe": "B1" },
+        { "de": "Einschreiben", "en": "registered letter", "pos": "noun", "article": "das", "plural": "Einschreiben", "level": "B1", "goethe": "B1" },
+        { "de": "Widerruf", "en": "revocation, withdrawal", "pos": "noun", "article": "der", "plural": "Widerrufe", "level": "C1" },
+        { "de": "Bestätigung", "en": "confirmation", "pos": "noun", "article": "die", "plural": "Bestätigungen", "level": "B1", "goethe": "B1" },
+        { "de": "widerrufen", "en": "to revoke, to withdraw", "pos": "verb", "aux": "haben", "p2": "widerrufen", "level": "C1" },
+        { "de": "fristgerecht", "en": "within the deadline", "pos": "adj", "level": "C1" },
+        { "de": "schriftlich", "en": "in writing", "pos": "adj", "level": "A2", "goethe": "A2" }
+      ]
+    },
+    {
+      "name": "Versicherung & Schaden",
+      "en": "insurance and damage",
+      "words": [
+        { "de": "Haftung", "en": "liability", "pos": "noun", "article": "die", "plural": "-", "level": "C1" },
+        { "de": "haften", "en": "to be liable", "pos": "verb", "aux": "haben", "p2": "gehaftet", "level": "C1" },
+        { "de": "Schadensersatz", "en": "compensation, damages", "pos": "noun", "article": "der", "plural": "-", "level": "C1" },
+        { "de": "Versicherung", "en": "insurance", "pos": "noun", "article": "die", "plural": "Versicherungen", "level": "B1", "goethe": "B1" },
+        { "de": "Haftpflichtversicherung", "en": "liability insurance", "pos": "noun", "article": "die", "plural": "Haftpflichtversicherungen", "level": "B1" },
+        { "de": "Hausratversicherung", "en": "home contents insurance", "pos": "noun", "article": "die", "plural": "Hausratversicherungen", "level": "B2" },
+        { "de": "Krankenversicherung", "en": "health insurance", "pos": "noun", "article": "die", "plural": "Krankenversicherungen", "level": "A2" },
+        { "de": "Schaden", "en": "damage", "pos": "noun", "article": "der", "plural": "Schäden", "level": "B1", "goethe": "B1" },
+        { "de": "Schadensmeldung", "en": "damage report, claim", "pos": "noun", "article": "die", "plural": "Schadensmeldungen", "level": "B2" },
+        { "de": "Beitrag", "en": "premium, contribution", "pos": "noun", "article": "der", "plural": "Beiträge", "level": "B1", "goethe": "B1" },
+        { "de": "versichern", "en": "to insure", "pos": "verb", "aux": "haben", "p2": "versichert", "level": "B1", "goethe": "B1" }
+      ]
+    },
+    {
+      "name": "Beschwerde & Widerspruch",
+      "en": "complaint and objection",
+      "words": [
+        { "de": "Mangel", "en": "defect", "pos": "noun", "article": "der", "plural": "Mängel", "level": "B1", "goethe": "B1" },
+        { "de": "Verstoß", "en": "violation, breach", "pos": "noun", "article": "der", "plural": "Verstöße", "level": "C1" },
+        { "de": "verstoßen", "en": "to violate (gegen)", "pos": "verb", "aux": "haben", "p2": "verstoßen", "level": "C1" },
+        { "de": "Widerspruch", "en": "objection", "pos": "noun", "article": "der", "plural": "Widersprüche", "level": "B2" },
+        { "de": "Einspruch", "en": "objection, appeal", "pos": "noun", "article": "der", "plural": "Einsprüche", "level": "B2" },
+        { "de": "Verbraucherzentrale", "en": "consumer advice centre", "pos": "noun", "article": "die", "plural": "Verbraucherzentralen", "level": "B2" },
+        { "de": "Garantie", "en": "guarantee, warranty", "pos": "noun", "article": "die", "plural": "Garantien", "level": "B1", "goethe": "B1" },
+        { "de": "Rechnung", "en": "invoice, bill", "pos": "noun", "article": "die", "plural": "Rechnungen", "level": "A1", "goethe": "A1" },
+        { "de": "Mahnung", "en": "reminder (for payment)", "pos": "noun", "article": "die", "plural": "Mahnungen", "level": "B1", "goethe": "B1" },
+        { "de": "einlegen", "en": "to lodge, to file", "pos": "verb", "aux": "haben", "sep": "ein", "p2": "eingelegt", "level": "B2" },
+        { "de": "erstatten", "en": "to refund, to reimburse", "pos": "verb", "aux": "haben", "p2": "erstattet", "level": "B2" },
+        { "de": "sich wehren", "en": "to defend oneself", "pos": "verb", "aux": "haben", "p2": "gewehrt", "level": "B2" }
+      ]
+    },
+    {
+      "name": "Anwalt & Gericht",
+      "en": "lawyer and court",
+      "words": [
+        { "de": "Kläger", "en": "plaintiff", "pos": "noun", "article": "der", "plural": "Kläger", "level": "C1" },
+        { "de": "Urteil", "en": "judgment, verdict", "pos": "noun", "article": "das", "plural": "Urteile", "level": "B1", "goethe": "B1" },
+        { "de": "rechtswidrig", "en": "unlawful", "pos": "adj", "level": "C1" },
+        { "de": "Anwalt", "en": "lawyer (male)", "pos": "noun", "article": "der", "plural": "Anwälte", "level": "B1", "goethe": "B1" },
+        { "de": "Rechtsanwältin", "en": "lawyer (female)", "pos": "noun", "article": "die", "plural": "Rechtsanwältinnen", "level": "B2" },
+        { "de": "Rechtsberatung", "en": "legal advice", "pos": "noun", "article": "die", "plural": "Rechtsberatungen", "level": "B2" },
+        { "de": "Gericht", "en": "court", "pos": "noun", "article": "das", "plural": "Gerichte", "level": "A2", "goethe": "A2" },
+        { "de": "Klage", "en": "lawsuit", "pos": "noun", "article": "die", "plural": "Klagen", "level": "B2" },
+        { "de": "Recht", "en": "right, law", "pos": "noun", "article": "das", "plural": "Rechte", "level": "A2", "goethe": "A2" },
+        { "de": "Pflicht", "en": "duty, obligation", "pos": "noun", "article": "die", "plural": "Pflichten", "level": "B1", "goethe": "B1" },
+        { "de": "Anspruch", "en": "claim, entitlement", "pos": "noun", "article": "der", "plural": "Ansprüche", "level": "B1", "goethe": "B1" },
+        { "de": "klagen", "en": "to sue", "pos": "verb", "aux": "haben", "p2": "geklagt", "level": "B1", "goethe": "B1" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "de": "Der Vertrag läuft zwei Jahre.", "en": "The contract runs for two years.", "who": "staff", "level": "B1" },
+    { "de": "Bitte unterschreiben Sie hier.", "en": "Please sign here.", "who": "staff", "level": "A2" },
+    { "de": "Sie können bis drei Monate vor Vertragsende kündigen.", "en": "You can cancel up to three months before the contract ends.", "who": "staff", "level": "B2" },
+    { "de": "Wir brauchen Ihre Kündigung per Einschreiben.", "en": "We need your cancellation by registered letter.", "who": "staff", "level": "B2" },
+    { "de": "Ich möchte meinen Vertrag kündigen.", "en": "I would like to cancel my contract.", "who": "you", "level": "B1" },
+    { "de": "Wie lang ist die Kündigungsfrist?", "en": "How long is the notice period?", "who": "you", "level": "B1" },
+    { "de": "Wie lange ist die Mindestlaufzeit?", "en": "How long is the minimum term?", "who": "you", "level": "B2" },
+    { "de": "Verlängert sich der Vertrag automatisch?", "en": "Does the contract renew automatically?", "who": "you", "level": "B2" },
+    { "de": "Bitte bestätigen Sie mir die Kündigung schriftlich.", "en": "Please confirm the cancellation to me in writing.", "who": "you", "level": "B2" },
+    { "de": "Ich widerrufe den Vertrag schriftlich.", "en": "I am revoking the contract in writing.", "who": "you", "level": "B2" },
+    { "de": "Ich lege Widerspruch gegen diese Rechnung ein.", "en": "I am filing an objection to this invoice.", "who": "you", "level": "B2" },
+    { "de": "Ich habe eine Haftpflichtversicherung.", "en": "I have liability insurance.", "who": "you", "level": "B1" },
+    { "de": "Ich möchte einen Schaden melden.", "en": "I would like to report damage.", "who": "you", "level": "B1" },
+    { "de": "Ich brauche eine Rechtsberatung.", "en": "I need legal advice.", "who": "you", "level": "B2" }
+  ],
+  "exercises": [
+    { "type": "article", "word": "Vertrag", "answer": "der", "explain": "Vertrag is masculine: der Vertrag, die Verträge." },
+    { "type": "article", "word": "Kündigung", "answer": "die", "explain": "Nouns ending in -ung are feminine: die Kündigung." },
+    { "type": "article", "word": "Gericht", "answer": "das", "explain": "Gericht is neuter: das Gericht, die Gerichte." },
+    { "type": "article", "word": "Frist", "answer": "die", "explain": "Frist is feminine: die Frist, die Fristen." },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "der Vertrag",
+          "contract"
+        ],
+        [
+          "die Frist",
+          "deadline"
+        ],
+        [
+          "die Klausel",
+          "clause"
+        ],
+        [
+          "der Schaden",
+          "damage"
+        ],
+        [
+          "das Urteil",
+          "verdict"
+        ]
+      ],
+      "explain": "Key nouns around contracts and disputes, each with its article."
+    },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "kündigen",
+          "to terminate"
+        ],
+        [
+          "unterzeichnen",
+          "to sign"
+        ],
+        [
+          "haften",
+          "to be liable"
+        ],
+        [
+          "widerrufen",
+          "to revoke"
+        ],
+        [
+          "einhalten",
+          "to comply with"
+        ]
+      ],
+      "explain": "Verbs you meet in contracts and letters."
+    },
+    {
+      "type": "gap",
+      "q": "Ich möchte den Vertrag ___.",
+      "answer": [
+        "kündigen"
+      ],
+      "explain": "Möchte takes the infinitive at the end: ich möchte kündigen."
+    },
+    {
+      "type": "gap",
+      "q": "Die Kündigung muss ___ erfolgen.",
+      "answer": [
+        "schriftlich"
+      ],
+      "explain": "Schriftlich means in writing; many contracts only accept a written cancellation."
+    },
+    {
+      "type": "gap",
+      "q": "Er hat gegen die Vereinbarung ___.",
+      "answer": [
+        "verstoßen"
+      ],
+      "explain": "Verstoßen gegen takes haben; the Partizip II is verstoßen, without ge-."
+    },
+    {
+      "type": "translate",
+      "en": "I want to cancel my gym membership.",
+      "answer": [
+        "Ich möchte meine Mitgliedschaft im Fitnessstudio kündigen.",
+        "Ich will meine Mitgliedschaft im Fitnessstudio kündigen.",
+        "Ich möchte meine Mitgliedschaft kündigen."
+      ],
+      "explain": "Die Mitgliedschaft is feminine, so meine Mitgliedschaft; the infinitive kündigen goes to the end."
+    },
+    {
+      "type": "translate",
+      "en": "What is the notice period?",
+      "answer": [
+        "Wie lang ist die Kündigungsfrist?",
+        "Wie lange ist die Kündigungsfrist?",
+        "Was ist die Kündigungsfrist?"
+      ],
+      "explain": "Wie lang(e) asks for a duration; die Kündigungsfrist is feminine."
+    },
+    {
+      "type": "mc",
+      "q": "Which insurance pays if you accidentally damage something that belongs to another person?",
+      "options": [
+        "Haftpflichtversicherung",
+        "Hausratversicherung",
+        "Krankenversicherung"
+      ],
+      "answer": 0,
+      "explain": "Haftpflicht covers damage you cause to others; Hausrat covers your own belongings and Kranken your health."
+    },
+    {
+      "type": "mc",
+      "q": "What does \"Widerspruch einlegen\" mean?",
+      "options": [
+        "To formally object to a decision or bill",
+        "To sign a new contract",
+        "To pay an invoice early"
+      ],
+      "answer": 0,
+      "explain": "Widerspruch einlegen means to lodge a formal objection, usually in writing and within a deadline."
+    },
+    {
+      "type": "order",
+      "words": [
+        "den",
+        "Ich",
+        "kündigen",
+        "Vertrag",
+        "möchte"
+      ],
+      "answer": "Ich möchte den Vertrag kündigen",
+      "explain": "The modal verb is in second place and the infinitive kündigen goes to the end."
+    }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Ich möchte meinen Vertrag kündigen.", "en": "I would like to cancel my contract." },
+      { "de": "Wie lang ist die Kündigungsfrist?", "en": "How long is the notice period?" },
+      { "de": "Verlängert sich der Vertrag automatisch?", "en": "Does the contract renew automatically?" },
+      { "de": "Bitte bestätigen Sie mir die Kündigung schriftlich.", "en": "Please confirm the cancellation to me in writing." },
+      { "de": "Ich lege Widerspruch gegen diese Rechnung ein.", "en": "I am filing an objection to this invoice." }
+    ],
+    "prompts": [
+      { "q": "Guten Tag, wie kann ich Ihnen helfen?", "qEn": "Hello, how can I help you? (calling your mobile provider)", "model": "Guten Tag, ich möchte meinen Handyvertrag kündigen. Bis wann ist das möglich, und wie lang ist die Kündigungsfrist?", "hint": "Say what you want and ask about the deadline." },
+      { "q": "Ihre Mitgliedschaft läuft noch fünf Monate. Warum möchten Sie kündigen?", "qEn": "Your membership still runs for five months. Why do you want to cancel? (gym)", "model": "Ich ziehe in eine andere Stadt um. Bitte bestätigen Sie mir die Kündigung schriftlich.", "hint": "Give a reason and ask for written confirmation." },
+      { "q": "Was ist passiert?", "qEn": "What happened? (reporting damage to your insurer)", "model": "Ich habe aus Versehen das Handy einer Freundin beschädigt. Ich habe eine Haftpflichtversicherung und möchte den Schaden melden.", "hint": "Describe the damage and your insurance." },
+      { "q": "Warum sind Sie mit der Rechnung nicht einverstanden?", "qEn": "Why do you not agree with the invoice?", "model": "Die Rechnung enthält eine Gebühr, die nicht im Vertrag steht. Ich lege deshalb Widerspruch ein und bitte um eine Erstattung.", "hint": "Object politely and ask for a refund." }
+    ]
+  }
+}

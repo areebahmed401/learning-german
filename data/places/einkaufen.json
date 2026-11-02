@@ -1,0 +1,350 @@
+{
+  "id": "einkaufen",
+  "icon": "👕",
+  "title": "Einkaufen in der Stadt",
+  "en": "Shopping in town",
+  "intro": "You look for clothes, ask for another size, try things on, return what does not fit and buy gifts for birthdays and parties. You also describe how people look and what they are like.",
+  "areas": [
+    {
+      "name": "Kleidung",
+      "en": "clothes",
+      "words": [
+        { "de": "Jacke", "en": "jacket", "pos": "noun", "article": "die", "plural": "Jacken", "level": "A1", "goethe": "A1" },
+        { "de": "Schuh", "en": "shoe", "pos": "noun", "article": "der", "plural": "Schuhe", "level": "A1", "goethe": "A1" },
+        { "de": "tragen", "en": "to wear; to carry", "pos": "verb", "aux": "haben", "p2": "getragen", "level": "A2", "goethe": "A2" },
+        { "de": "Kleidung", "en": "clothing", "pos": "noun", "article": "die", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "Hose", "en": "trousers", "pos": "noun", "article": "die", "plural": "Hosen", "level": "A2", "goethe": "A2" },
+        { "de": "Pullover", "en": "jumper", "pos": "noun", "article": "der", "plural": "Pullover", "level": "A2", "goethe": "A2" },
+        { "de": "T-Shirt", "en": "T-shirt", "pos": "noun", "article": "das", "plural": "T-Shirts", "level": "A1", "goethe": "A1" },
+        { "de": "Hemd", "en": "shirt", "pos": "noun", "article": "das", "plural": "Hemden", "level": "A2", "goethe": "A2" },
+        { "de": "Kleid", "en": "dress", "pos": "noun", "article": "das", "plural": "Kleider", "level": "A2", "goethe": "A2" },
+        { "de": "Rock", "en": "skirt", "pos": "noun", "article": "der", "plural": "Röcke", "level": "A2", "goethe": "A2" },
+        { "de": "Mantel", "en": "coat", "pos": "noun", "article": "der", "plural": "Mäntel", "level": "A2", "goethe": "A2" },
+        { "de": "Socke", "en": "sock", "pos": "noun", "article": "die", "plural": "Socken", "level": "B1", "goethe": "B1" },
+        { "de": "Mütze", "en": "cap, hat", "pos": "noun", "article": "die", "plural": "Mützen", "level": "A2", "goethe": "A2" },
+        { "de": "Schal", "en": "scarf", "pos": "noun", "article": "der", "plural": "Schals", "level": "B1" },
+        { "de": "Gürtel", "en": "belt", "pos": "noun", "article": "der", "plural": "Gürtel", "level": "A2" },
+        { "de": "Baumwolle", "en": "cotton", "pos": "noun", "article": "die", "plural": "-", "level": "B1" },
+        { "de": "Größe", "en": "size", "pos": "noun", "article": "die", "plural": "Größen", "level": "A1", "goethe": "A1" },
+        { "de": "Laden", "en": "shop", "pos": "noun", "article": "der", "plural": "Läden", "level": "A1", "goethe": "A1" }
+      ]
+    },
+    {
+      "name": "Anprobe & Umtausch",
+      "en": "fitting room, returns and paying",
+      "words": [
+        { "de": "gefallen", "en": "to please, to be liked", "pos": "verb", "aux": "haben", "p2": "gefallen", "level": "A1", "goethe": "A1" },
+        { "de": "gehören", "en": "to belong to", "pos": "verb", "aux": "haben", "p2": "gehört", "level": "A1", "goethe": "A1" },
+        { "de": "helfen", "en": "to help", "pos": "verb", "aux": "haben", "p2": "geholfen", "level": "A1", "goethe": "A1" },
+        { "de": "Umkleidekabine", "en": "fitting room", "pos": "noun", "article": "die", "plural": "Umkleidekabinen", "level": "B1" },
+        { "de": "Kasse", "en": "checkout, till", "pos": "noun", "article": "die", "plural": "Kassen", "level": "A1", "goethe": "A1" },
+        { "de": "Quittung", "en": "receipt", "pos": "noun", "article": "die", "plural": "Quittungen", "level": "B1", "goethe": "B1" },
+        { "de": "Kassenbon", "en": "till receipt", "pos": "noun", "article": "der", "plural": "Kassenbons", "level": "B1" },
+        { "de": "Preis", "en": "price", "pos": "noun", "article": "der", "plural": "Preise", "level": "A1", "goethe": "A1" },
+        { "de": "Angebot", "en": "offer, special offer", "pos": "noun", "article": "das", "plural": "Angebote", "level": "A1", "goethe": "A1" },
+        { "de": "Schlussverkauf", "en": "end-of-season sale", "pos": "noun", "article": "der", "plural": "Schlussverkäufe", "level": "B2" },
+        { "de": "Gutschein", "en": "voucher", "pos": "noun", "article": "der", "plural": "Gutscheine", "level": "A2" },
+        { "de": "Rückgabe", "en": "return", "pos": "noun", "article": "die", "plural": "Rückgaben", "level": "B2" },
+        { "de": "Verkäufer", "en": "sales assistant (male)", "pos": "noun", "article": "der", "plural": "Verkäufer", "level": "A1", "goethe": "A1" },
+        { "de": "Verkäuferin", "en": "sales assistant (female)", "pos": "noun", "article": "die", "plural": "Verkäuferinnen", "level": "A1", "goethe": "A1" },
+        { "de": "anprobieren", "en": "to try on", "pos": "verb", "aux": "haben", "sep": "an", "p2": "anprobiert", "level": "B1", "goethe": "B1" },
+        { "de": "umtauschen", "en": "to exchange", "pos": "verb", "aux": "haben", "sep": "um", "p2": "umgetauscht", "level": "B1", "goethe": "B1" },
+        { "de": "zurückgeben", "en": "to return", "pos": "verb", "aux": "haben", "sep": "zurück", "p2": "zurückgegeben", "level": "A2", "goethe": "A2" },
+        { "de": "passen", "en": "to fit, to suit", "pos": "verb", "aux": "haben", "p2": "gepasst", "level": "A2", "goethe": "A2" },
+        { "de": "reduziert", "en": "reduced, on sale", "pos": "adj", "level": "B1", "goethe": "B1" },
+        { "de": "eng", "en": "tight, narrow", "pos": "adj", "level": "A2", "goethe": "A2" }
+      ]
+    },
+    {
+      "name": "Farben & Muster",
+      "en": "colours and patterns",
+      "words": [
+        { "de": "Farbe", "en": "colour", "pos": "noun", "article": "die", "plural": "Farben", "level": "A1", "goethe": "A1" },
+        { "de": "rot", "en": "red", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "blau", "en": "blue", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "grün", "en": "green", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "gelb", "en": "yellow", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "schwarz", "en": "black", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "weiß", "en": "white", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "grau", "en": "grey", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "braun", "en": "brown", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "neu", "en": "new", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "alt", "en": "old", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "hell", "en": "light", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "bunt", "en": "colourful", "pos": "adj", "level": "A2", "goethe": "A2" },
+        { "de": "gestreift", "en": "striped", "pos": "adj", "level": "B1" },
+        { "de": "kariert", "en": "checked", "pos": "adj", "level": "B1" },
+        { "de": "gemustert", "en": "patterned", "pos": "adj", "level": "B2" },
+        { "de": "einfarbig", "en": "plain, one-coloured", "pos": "adj", "level": "B2" },
+        { "de": "rosa", "en": "pink", "pos": "adj", "level": "A2", "goethe": "A2" },
+        { "de": "lila", "en": "purple", "pos": "adj", "level": "A2", "goethe": "A2" },
+        { "de": "orange", "en": "orange", "pos": "adj", "level": "A2", "goethe": "A2" }
+      ]
+    },
+    {
+      "name": "Taschen & Dinge",
+      "en": "bags and personal things",
+      "words": [
+        { "de": "Handy", "en": "mobile phone", "pos": "noun", "article": "das", "plural": "Handys", "level": "A1", "goethe": "A1" },
+        { "de": "Computer", "en": "computer", "pos": "noun", "article": "der", "plural": "Computer", "level": "A1", "goethe": "A1" },
+        { "de": "Tasche", "en": "bag", "pos": "noun", "article": "die", "plural": "Taschen", "level": "A1", "goethe": "A1" },
+        { "de": "Koffer", "en": "suitcase", "pos": "noun", "article": "der", "plural": "Koffer", "level": "A1", "goethe": "A1" },
+        { "de": "Pass", "en": "passport", "pos": "noun", "article": "der", "plural": "Pässe", "level": "A1", "goethe": "A1" },
+        { "de": "Ausweis", "en": "ID card", "pos": "noun", "article": "der", "plural": "Ausweise", "level": "A1", "goethe": "A1" },
+        { "de": "Schlüssel", "en": "key", "pos": "noun", "article": "der", "plural": "Schlüssel", "level": "A1", "goethe": "A1" },
+        { "de": "Kugelschreiber", "en": "ballpoint pen", "pos": "noun", "article": "der", "plural": "Kugelschreiber", "level": "A1", "goethe": "A1" },
+        { "de": "Auto", "en": "car", "pos": "noun", "article": "das", "plural": "Autos", "level": "A1", "goethe": "A1" },
+        { "de": "Fahrrad", "en": "bicycle", "pos": "noun", "article": "das", "plural": "Fahrräder", "level": "A1", "goethe": "A1" },
+        { "de": "Rucksack", "en": "backpack", "pos": "noun", "article": "der", "plural": "Rucksäcke", "level": "A2", "goethe": "A2" },
+        { "de": "Geldbeutel", "en": "wallet", "pos": "noun", "article": "der", "plural": "Geldbeutel", "level": "A2" },
+        { "de": "Regenschirm", "en": "umbrella", "pos": "noun", "article": "der", "plural": "Regenschirme", "level": "A2", "goethe": "A2" },
+        { "de": "Uhr", "en": "watch, clock", "pos": "noun", "article": "die", "plural": "Uhren", "level": "A1", "goethe": "A1" },
+        { "de": "Handschuh", "en": "glove", "pos": "noun", "article": "der", "plural": "Handschuhe", "level": "B1" }
+      ]
+    },
+    {
+      "name": "Geschenke & Feiern",
+      "en": "gifts and celebrations",
+      "words": [
+        { "de": "Geschenk", "en": "present, gift", "pos": "noun", "article": "das", "plural": "Geschenke", "level": "A1", "goethe": "A1" },
+        { "de": "Geburtstag", "en": "birthday", "pos": "noun", "article": "der", "plural": "Geburtstage", "level": "A1", "goethe": "A1" },
+        { "de": "Party", "en": "party", "pos": "noun", "article": "die", "plural": "Partys", "level": "A1", "goethe": "A1" },
+        { "de": "Einladung", "en": "invitation", "pos": "noun", "article": "die", "plural": "Einladungen", "level": "A1", "goethe": "A1" },
+        { "de": "Hochzeit", "en": "wedding", "pos": "noun", "article": "die", "plural": "Hochzeiten", "level": "A1", "goethe": "A1" },
+        { "de": "Blume", "en": "flower", "pos": "noun", "article": "die", "plural": "Blumen", "level": "A1", "goethe": "A1" },
+        { "de": "Kuchen", "en": "cake", "pos": "noun", "article": "der", "plural": "Kuchen", "level": "A1", "goethe": "A1" },
+        { "de": "Torte", "en": "cake, gateau", "pos": "noun", "article": "die", "plural": "Torten", "level": "A2", "goethe": "A2" },
+        { "de": "Gast", "en": "visitor (at a party)", "pos": "noun", "article": "der", "plural": "Gäste", "level": "A1", "goethe": "A1" },
+        { "de": "Glückwunsch", "en": "congratulation", "pos": "noun", "article": "der", "plural": "Glückwünsche", "level": "A1", "goethe": "A1" },
+        { "de": "Karte", "en": "card", "pos": "noun", "article": "die", "plural": "Karten", "level": "A1", "goethe": "A1" },
+        { "de": "Fest", "en": "celebration, party", "pos": "noun", "article": "das", "plural": "Feste", "level": "A2", "goethe": "A2" },
+        { "de": "Weihnachten", "en": "Christmas", "pos": "noun", "article": "das", "plural": "-", "note": "no plural", "level": "A2", "goethe": "A2" },
+        { "de": "schenken", "en": "to give (as a present)", "pos": "verb", "aux": "haben", "p2": "geschenkt", "level": "A2", "goethe": "A2" },
+        { "de": "gratulieren", "en": "to congratulate", "pos": "verb", "aux": "haben", "p2": "gratuliert", "level": "A1", "goethe": "A1" },
+        { "de": "einladen", "en": "to invite", "pos": "verb", "aux": "haben", "sep": "ein", "p2": "eingeladen", "level": "A1", "goethe": "A1" },
+        { "de": "feiern", "en": "to celebrate", "pos": "verb", "aux": "haben", "p2": "gefeiert", "level": "A1", "goethe": "A1" },
+        { "de": "mitbringen", "en": "to bring along", "pos": "verb", "aux": "haben", "sep": "mit", "p2": "mitgebracht", "level": "A1", "goethe": "A1" },
+        { "de": "Herzlichen Glückwunsch!", "en": "Congratulations!", "pos": "phrase", "level": "A1", "goethe": "A1" },
+        { "de": "danken", "en": "to thank", "pos": "verb", "aux": "haben", "p2": "gedankt", "level": "A1", "goethe": "A1" },
+        { "de": "schmecken", "en": "to taste (good)", "pos": "verb", "aux": "haben", "p2": "geschmeckt", "level": "A1", "goethe": "A1" }
+      ]
+    },
+    {
+      "name": "Aussehen",
+      "en": "appearance",
+      "words": [
+        { "de": "Aussehen", "en": "appearance", "pos": "noun", "article": "das", "plural": "-", "note": "no plural", "level": "A1", "goethe": "A1" },
+        { "de": "Haar", "en": "hair", "pos": "noun", "article": "das", "plural": "Haare", "level": "A1", "goethe": "A1" },
+        { "de": "Auge", "en": "eye", "pos": "noun", "article": "das", "plural": "Augen", "level": "A1", "goethe": "A1" },
+        { "de": "Gesicht", "en": "face", "pos": "noun", "article": "das", "plural": "Gesichter", "level": "A2", "goethe": "A2" },
+        { "de": "Brille", "en": "glasses", "pos": "noun", "article": "die", "plural": "Brillen", "level": "A2", "goethe": "A2" },
+        { "de": "Mund", "en": "mouth", "pos": "noun", "article": "der", "plural": "Münder", "level": "A1", "goethe": "A1" },
+        { "de": "Ohr", "en": "ear", "pos": "noun", "article": "das", "plural": "Ohren", "level": "A2", "goethe": "A2" },
+        { "de": "Mensch", "en": "person, human", "pos": "noun", "article": "der", "plural": "Menschen", "level": "A1", "goethe": "A1" },
+        { "de": "aussehen", "en": "to look (like)", "pos": "verb", "aux": "haben", "sep": "aus", "p2": "ausgesehen", "level": "A1", "goethe": "A1" },
+        { "de": "groß", "en": "tall, big", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "klein", "en": "short, small", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "dünn", "en": "thin", "pos": "adj", "level": "A2", "goethe": "A2" },
+        { "de": "sportlich", "en": "sporty", "pos": "adj", "level": "A2", "goethe": "A2" },
+        { "de": "blond", "en": "blond", "pos": "adj", "level": "A2", "goethe": "A2" },
+        { "de": "dunkel", "en": "dark", "pos": "adj", "level": "A2", "goethe": "A2" },
+        { "de": "hübsch", "en": "pretty", "pos": "adj", "level": "A2", "goethe": "A2" },
+        { "de": "Bart", "en": "beard", "pos": "noun", "article": "der", "plural": "Bärte", "level": "B1", "goethe": "B1" },
+        { "de": "lockig", "en": "curly", "pos": "adj", "level": "B1" },
+        { "de": "schlank", "en": "slim", "pos": "adj", "level": "B1", "goethe": "B1" },
+        { "de": "kurz", "en": "short", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "lang", "en": "long", "pos": "adj", "level": "A1", "goethe": "A1" }
+      ]
+    },
+    {
+      "name": "Charakter",
+      "en": "character and personality",
+      "words": [
+        { "de": "witzig", "en": "funny", "pos": "adj", "level": "A2", "goethe": "A2" },
+        { "de": "freundlich", "en": "friendly", "pos": "adj", "level": "A2", "goethe": "A2" },
+        { "de": "lustig", "en": "funny", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "ruhig", "en": "calm, quiet", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "klug", "en": "clever", "pos": "adj", "level": "A2", "goethe": "A2" },
+        { "de": "fleißig", "en": "hard-working", "pos": "adj", "level": "A2", "goethe": "A2" },
+        { "de": "nett", "en": "nice, kind", "pos": "adj", "level": "A2", "goethe": "A2" },
+        { "de": "Charakter", "en": "character", "pos": "noun", "article": "der", "plural": "Charaktere", "level": "B1" },
+        { "de": "sympathisch", "en": "likeable", "pos": "adj", "level": "A2", "goethe": "A2" },
+        { "de": "ehrlich", "en": "honest", "pos": "adj", "level": "B1", "goethe": "B1" },
+        { "de": "höflich", "en": "polite", "pos": "adj", "level": "B1", "goethe": "B1" },
+        { "de": "schüchtern", "en": "shy", "pos": "adj", "level": "B1" },
+        { "de": "offen", "en": "open, outgoing", "pos": "adj", "level": "A2", "goethe": "A2" },
+        { "de": "geduldig", "en": "patient", "pos": "adj", "level": "B1" },
+        { "de": "ungeduldig", "en": "impatient", "pos": "adj", "level": "B1" },
+        { "de": "großzügig", "en": "generous", "pos": "adj", "level": "B2" },
+        { "de": "humorvoll", "en": "humorous", "pos": "adj", "level": "B2" },
+        { "de": "faul", "en": "lazy", "pos": "adj", "level": "A2", "goethe": "A2" },
+        { "de": "zuverlässig", "en": "reliable", "pos": "adj", "level": "B1", "goethe": "B1" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "de": "Kann ich Ihnen helfen?", "en": "Can I help you?", "who": "staff", "level": "A1" },
+    { "de": "Haben Sie das auch in Blau?", "en": "Do you have this in blue too?", "who": "you", "level": "A1" },
+    { "de": "Haben Sie das in Größe 38?", "en": "Do you have this in size 38?", "who": "you", "level": "A2" },
+    { "de": "Kann ich das anprobieren?", "en": "Can I try this on?", "who": "you", "level": "A2" },
+    { "de": "Die Umkleidekabinen sind dort hinten.", "en": "The fitting rooms are back there.", "who": "staff", "level": "A2" },
+    { "de": "Wo ist die Umkleidekabine?", "en": "Where is the fitting room?", "who": "you", "level": "A2" },
+    { "de": "Passt die Größe?", "en": "Does the size fit?", "who": "staff", "level": "A2" },
+    { "de": "Das ist mir zu eng.", "en": "That is too tight for me.", "who": "you", "level": "A2" },
+    { "de": "Das passt mir leider nicht.", "en": "Unfortunately it does not fit me.", "who": "you", "level": "A2" },
+    { "de": "Zahlen Sie bar oder mit Karte?", "en": "Are you paying cash or by card?", "who": "staff", "level": "A2" },
+    { "de": "Ich möchte das umtauschen.", "en": "I would like to exchange this.", "who": "you", "level": "B1" },
+    { "de": "Haben Sie den Kassenbon dabei?", "en": "Do you have the receipt with you?", "who": "staff", "level": "B1" },
+    { "de": "Sie können es innerhalb von vierzehn Tagen umtauschen.", "en": "You can exchange it within fourteen days.", "who": "staff", "level": "B1" },
+    { "de": "Ich suche ein Geschenk zum Geburtstag.", "en": "I am looking for a birthday gift.", "who": "you", "level": "A2" },
+    { "de": "Können Sie es bitte als Geschenk einpacken?", "en": "Could you please gift-wrap it?", "who": "you", "level": "B1" }
+  ],
+  "exercises": [
+    { "type": "article", "word": "Hose", "answer": "die", "explain": "Hose ends in -e and is feminine: die Hose, die Hosen." },
+    { "type": "article", "word": "Mantel", "answer": "der", "explain": "Mantel is masculine: der Mantel, die Mäntel." },
+    { "type": "article", "word": "Kleid", "answer": "das", "explain": "Kleid is neuter: das Kleid, die Kleider." },
+    { "type": "article", "word": "Geschenk", "answer": "das", "explain": "Geschenk is neuter: das Geschenk, die Geschenke." },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "die Hose",
+          "trousers"
+        ],
+        [
+          "das Hemd",
+          "shirt"
+        ],
+        [
+          "der Rock",
+          "skirt"
+        ],
+        [
+          "die Mütze",
+          "cap"
+        ]
+      ],
+      "explain": "Four pieces of clothing, each with its article."
+    },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "die Umkleidekabine",
+          "fitting room"
+        ],
+        [
+          "der Kassenbon",
+          "receipt"
+        ],
+        [
+          "der Gutschein",
+          "voucher"
+        ],
+        [
+          "der Schlussverkauf",
+          "end-of-season sale"
+        ],
+        [
+          "die Größe",
+          "size"
+        ]
+      ],
+      "explain": "Words you need in a shop."
+    },
+    {
+      "type": "gap",
+      "q": "Darf ich die Jacke ___?",
+      "answer": [
+        "anprobieren"
+      ],
+      "explain": "Darf takes the infinitive at the end: anprobieren means to try on."
+    },
+    {
+      "type": "gap",
+      "q": "Die Hose ist zu eng. Sie ___ mir nicht.",
+      "answer": [
+        "passt"
+      ],
+      "explain": "Passen is regular: sie passt mir nicht, with the person in the dative."
+    },
+    {
+      "type": "gap",
+      "q": "Ich möchte den Pullover ___, er ist zu groß.",
+      "answer": [
+        "umtauschen",
+        "zurückgeben"
+      ],
+      "explain": "Möchte takes the infinitive at the end: umtauschen or zurückgeben."
+    },
+    {
+      "type": "translate",
+      "en": "Do you have this in blue?",
+      "answer": [
+        "Haben Sie das in Blau?",
+        "Haben Sie das auch in Blau?",
+        "Haben Sie es in Blau?",
+        "Hast du das in Blau?"
+      ],
+      "explain": "Haben Sie + das + in + colour: a colour used as a noun is capitalised."
+    },
+    {
+      "type": "translate",
+      "en": "I like the red jacket.",
+      "answer": [
+        "Mir gefällt die rote Jacke.",
+        "Die rote Jacke gefällt mir.",
+        "Ich mag die rote Jacke."
+      ],
+      "explain": "Gefallen takes the dative: the thing is the subject, the person is mir."
+    },
+    {
+      "type": "mc",
+      "q": "The cashier says: \"Haben Sie den Kassenbon dabei?\" What should you show?",
+      "options": [
+        "Your receipt",
+        "Your passport",
+        "Your key"
+      ],
+      "answer": 0,
+      "explain": "Der Kassenbon is the till receipt, which you need for an exchange."
+    },
+    {
+      "type": "mc",
+      "q": "It is your friend's birthday. What do you say?",
+      "options": [
+        "Herzlichen Glückwunsch zum Geburtstag!",
+        "Guten Appetit!",
+        "Gute Reise!"
+      ],
+      "answer": 0,
+      "explain": "Herzlichen Glückwunsch zum Geburtstag! is the standard birthday wish."
+    },
+    {
+      "type": "order",
+      "words": [
+        "die",
+        "Umkleidekabine",
+        "Wo",
+        "ist"
+      ],
+      "answer": "Wo ist die Umkleidekabine",
+      "explain": "A question word comes first, then the verb ist, then the subject."
+    }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Haben Sie das auch in einer anderen Größe?", "en": "Do you have this in another size too?" },
+      { "de": "Kann ich das bitte anprobieren?", "en": "Can I try this on, please?" },
+      { "de": "Das passt mir leider nicht.", "en": "Unfortunately it does not fit me." },
+      { "de": "Ich möchte diese Hose umtauschen.", "en": "I would like to exchange these trousers." },
+      { "de": "Alles Gute zum Geburtstag!", "en": "Happy birthday!" }
+    ],
+    "prompts": [
+      { "q": "Guten Tag, kann ich Ihnen helfen?", "qEn": "Good day, can I help you? (shop assistant)", "model": "Ja, ich suche eine Jacke in Blau, Größe M.", "hint": "Say what you are looking for: item, colour, size." },
+      { "q": "Und, passt die Größe?", "qEn": "And, does the size fit?", "model": "Nein, sie ist leider zu eng. Haben Sie eine Größe größer?", "hint": "Say it is too tight and ask for a bigger size." },
+      { "q": "Möchten Sie den Pullover umtauschen oder einen Gutschein?", "qEn": "Would you like to exchange the jumper or get a voucher?", "model": "Ich möchte lieber einen Gutschein, bitte. Hier ist der Kassenbon.", "hint": "Choose the voucher and show the receipt." },
+      { "q": "Wie sieht die Person aus, die Sie suchen?", "qEn": "What does the person you are looking for look like? (service desk)", "model": "Sie ist groß, hat kurze dunkle Haare und trägt eine blaue Jacke.", "hint": "Describe height, hair and clothes." }
+    ]
+  }
+}

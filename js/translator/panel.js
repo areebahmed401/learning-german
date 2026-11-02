@@ -100,7 +100,7 @@ function hasForms(e) {
 
 function chipsHtml(e) {
   const chips = [];
-  if (e.source === 'lesson') chips.push(`<span class="tr-chip tr-chip-src">${esc(e.level ? e.level + ' lesson' : 'lesson')}</span>`);
+  if (e.source === 'place') chips.push(`<span class="tr-chip tr-chip-src">${esc([e.level, e.placeTitle].filter(Boolean).join(' · '))}</span>`);
   else if (e.source === 'core') chips.push('<span class="tr-chip tr-chip-src">core</span>');
   if (e.goethe) chips.push(`<span class="tr-chip">Goethe ${esc(e.goethe)}</span>`);
   else chips.push('<span class="tr-chip tr-chip-online">online</span>');

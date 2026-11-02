@@ -3,7 +3,6 @@
   "level": "A1",
   "title": "Trennbare Verben",
   "concept": "Separable verbs (aufstehen, einkaufen)",
-  "wordlist": "Tagesablauf",
   "minutes": 25,
   "youtube": "https://www.youtube.com/results?search_query=Learn+German+A1+trennbare+Verben+separable+verbs",
   "learn": [
@@ -61,33 +60,6 @@
     }
   ],
   "tip": "When you learn a separable verb, write the whole sentence, not the infinitive: \"Ich stehe um sieben auf.\" The sentence shows you where the prefix goes, and you practise the word order at the same time.",
-  "words": [
-    { "de": "Tagesablauf", "en": "daily routine", "pos": "noun", "article": "der", "plural": "Tagesabläufe", "goethe": "A1" },
-    { "de": "Morgen", "en": "morning", "pos": "noun", "article": "der", "plural": "Morgen", "goethe": "A1" },
-    { "de": "Mittag", "en": "noon; midday", "pos": "noun", "article": "der", "plural": "Mittage", "goethe": "A1" },
-    { "de": "Nachmittag", "en": "afternoon", "pos": "noun", "article": "der", "plural": "Nachmittage", "goethe": "A1" },
-    { "de": "Abend", "en": "evening", "pos": "noun", "article": "der", "plural": "Abende", "goethe": "A1" },
-    { "de": "Nacht", "en": "night", "pos": "noun", "article": "die", "plural": "Nächte", "goethe": "A1" },
-    { "de": "Frühstück", "en": "breakfast", "pos": "noun", "article": "das", "plural": "Frühstücke", "goethe": "A1" },
-    { "de": "Pause", "en": "break", "pos": "noun", "article": "die", "plural": "Pausen", "goethe": "A1" },
-    { "de": "aufstehen", "en": "to get up", "pos": "verb", "aux": "sein", "sep": "auf", "p2": "aufgestanden", "goethe": "A1" },
-    { "de": "frühstücken", "en": "to have breakfast", "pos": "verb", "aux": "haben", "p2": "gefrühstückt", "goethe": "A1" },
-    { "de": "duschen", "en": "to shower", "pos": "verb", "aux": "haben", "p2": "geduscht", "goethe": "A1" },
-    { "de": "anfangen", "en": "to begin", "pos": "verb", "aux": "haben", "sep": "an", "p2": "angefangen", "goethe": "A1" },
-    { "de": "ankommen", "en": "to arrive", "pos": "verb", "aux": "sein", "sep": "an", "p2": "angekommen", "goethe": "A1" },
-    { "de": "abfahren", "en": "to depart", "pos": "verb", "aux": "sein", "sep": "ab", "p2": "abgefahren", "goethe": "A1" },
-    { "de": "einsteigen", "en": "to get on; to board", "pos": "verb", "aux": "sein", "sep": "ein", "p2": "eingestiegen", "goethe": "A1" },
-    { "de": "aussteigen", "en": "to get off", "pos": "verb", "aux": "sein", "sep": "aus", "p2": "ausgestiegen", "goethe": "A1" },
-    { "de": "einkaufen", "en": "to shop", "pos": "verb", "aux": "haben", "sep": "ein", "p2": "eingekauft", "goethe": "A1" },
-    { "de": "aufhören", "en": "to stop", "pos": "verb", "aux": "haben", "sep": "auf", "p2": "aufgehört", "goethe": "A1" },
-    { "de": "anrufen", "en": "to call (phone)", "pos": "verb", "aux": "haben", "sep": "an", "p2": "angerufen", "goethe": "A1" },
-    { "de": "fernsehen", "en": "to watch TV", "pos": "verb", "aux": "haben", "sep": "fern", "p2": "ferngesehen", "goethe": "A1" },
-    { "de": "mitkommen", "en": "to come along", "pos": "verb", "aux": "sein", "sep": "mit", "p2": "mitgekommen", "goethe": "A1" },
-    { "de": "mitnehmen", "en": "to take along", "pos": "verb", "aux": "haben", "sep": "mit", "p2": "mitgenommen", "goethe": "A1" },
-    { "de": "jetzt", "en": "now", "pos": "adv", "goethe": "A1" },
-    { "de": "spät", "en": "late", "pos": "adv", "goethe": "A1" },
-    { "de": "dann", "en": "then", "pos": "adv", "goethe": "A1" }
-  ],
   "mindmap": {
     "label": "Trennbare Verben",
     "children": [

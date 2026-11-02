@@ -3,7 +3,6 @@
   "level": "B2",
   "title": "was, wo, wer & mit dem",
   "concept": "Relative clauses with prepositions, was/wo/wer",
-  "wordlist": "Gesellschaft & Zusammenleben",
   "minutes": 35,
   "youtube": "https://www.youtube.com/results?search_query=Learn+German+B2+Relativs%C3%A4tze+was+wo+wer+Pr%C3%A4position",
   "learn": [
@@ -55,29 +54,6 @@
     }
   ],
   "tip": "Two questions decide everything: 1) Is there a real noun? Then use der / die / das / denen with its preposition in front. 2) Only alles, etwas, nichts, a superlative or a whole clause? Then use was, or wo(r) + preposition.",
-  "words": [
-    { "de": "Gesellschaft", "en": "society", "pos": "noun", "article": "die", "plural": "Gesellschaften" },
-    { "de": "Nachbarschaft", "en": "neighbourhood, neighbours", "pos": "noun", "article": "die", "plural": "Nachbarschaften" },
-    { "de": "Gemeinschaft", "en": "community", "pos": "noun", "article": "die", "plural": "Gemeinschaften" },
-    { "de": "Ehrenamt", "en": "voluntary work", "pos": "noun", "article": "das", "plural": "Ehrenämter" },
-    { "de": "Verein", "en": "club, association", "pos": "noun", "article": "der", "plural": "Vereine" },
-    { "de": "Spende", "en": "donation", "pos": "noun", "article": "die", "plural": "Spenden" },
-    { "de": "Mieter", "en": "tenant", "pos": "noun", "article": "der", "plural": "Mieter" },
-    { "de": "Bürger", "en": "citizen", "pos": "noun", "article": "der", "plural": "Bürger" },
-    { "de": "Integration", "en": "integration", "pos": "noun", "article": "die", "plural": "-" },
-    { "de": "Gleichberechtigung", "en": "equal rights", "pos": "noun", "article": "die", "plural": "-" },
-    { "de": "Vorurteil", "en": "prejudice", "pos": "noun", "article": "das", "plural": "Vorurteile" },
-    { "de": "Zusammenhalt", "en": "cohesion, solidarity", "pos": "noun", "article": "der", "plural": "-" },
-    { "de": "sich engagieren", "en": "to get involved, to be committed", "pos": "verb", "aux": "haben", "p2": "engagiert" },
-    { "de": "sich beteiligen", "en": "to take part (an + Dat)", "pos": "verb", "aux": "haben", "p2": "beteiligt" },
-    { "de": "unterstützen", "en": "to support", "pos": "verb", "aux": "haben", "p2": "unterstützt" },
-    { "de": "zusammenleben", "en": "to live together", "pos": "verb", "aux": "haben", "sep": "zusammen", "p2": "zusammengelebt" },
-    { "de": "fördern", "en": "to promote, to support", "pos": "verb", "aux": "haben", "p2": "gefördert" },
-    { "de": "benachteiligen", "en": "to disadvantage", "pos": "verb", "aux": "haben", "p2": "benachteiligt" },
-    { "de": "gerecht", "en": "fair, just", "pos": "adj" },
-    { "de": "solidarisch", "en": "supportive, in solidarity", "pos": "adj" },
-    { "de": "vielfältig", "en": "diverse", "pos": "adj" }
-  ],
   "mindmap": {
     "label": "Relativsätze plus",
     "children": [

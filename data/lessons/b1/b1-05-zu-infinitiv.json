@@ -3,7 +3,6 @@
   "level": "B1",
   "title": "Infinitiv mit zu",
   "concept": "Infinitive clauses: Ich habe vor, … zu …",
-  "wordlist": "Bewerbung",
   "minutes": 30,
   "youtube": "https://www.youtube.com/results?search_query=Learn+German+B1+Infinitiv+mit+zu+Infinitivsatz",
   "learn": [
@@ -46,30 +45,6 @@
     }
   ],
   "tip": "The test: can you replace the zu-clause with a dass-clause and keep the same subject? 'Ich hoffe, zu gewinnen' = 'Ich hoffe, dass ich gewinne'. If the subjects differ, you must use dass.",
-  "words": [
-    { "de": "Bewerbung", "en": "application", "pos": "noun", "article": "die", "plural": "Bewerbungen", "goethe": "A2" },
-    { "de": "Anzeige", "en": "advertisement", "pos": "noun", "article": "die", "plural": "Anzeigen", "goethe": "A1" },
-    { "de": "Vorstellungsgespräch", "en": "job interview", "pos": "noun", "article": "das", "plural": "Vorstellungsgespräche", "goethe": "B1" },
-    { "de": "Arbeitszeit", "en": "working hours", "pos": "noun", "article": "die", "plural": "Arbeitszeiten", "goethe": "B1" },
-    { "de": "Unterlagen", "en": "documents, papers", "pos": "noun", "article": "die", "plural": "-", "note": "plural only", "goethe": "B1" },
-    { "de": "Gehalt", "en": "salary", "pos": "noun", "article": "das", "plural": "Gehälter", "goethe": "A2" },
-    { "de": "Vertrag", "en": "contract", "pos": "noun", "article": "der", "plural": "Verträge", "goethe": "A2" },
-    { "de": "Fähigkeit", "en": "ability, skill", "pos": "noun", "article": "die", "plural": "Fähigkeiten", "goethe": "A1" },
-    { "de": "Qualifikation", "en": "qualification", "pos": "noun", "article": "die", "plural": "Qualifikationen", "goethe": "B1" },
-    { "de": "Voraussetzung", "en": "requirement", "pos": "noun", "article": "die", "plural": "Voraussetzungen", "goethe": "B1" },
-    { "de": "Interesse", "en": "interest", "pos": "noun", "article": "das", "plural": "Interessen", "goethe": "A2" },
-    { "de": "Einladung", "en": "invitation", "pos": "noun", "article": "die", "plural": "Einladungen", "goethe": "A1" },
-    { "de": "Angebot", "en": "offer", "pos": "noun", "article": "das", "plural": "Angebote", "goethe": "A1" },
-    { "de": "Antwort", "en": "answer", "pos": "noun", "article": "die", "plural": "Antworten", "goethe": "A1" },
-    { "de": "sich bewerben", "en": "to apply", "pos": "verb", "aux": "haben", "p2": "beworben", "goethe": "A2" },
-    { "de": "einladen", "en": "to invite", "pos": "verb", "aux": "haben", "sep": "ein", "p2": "eingeladen", "goethe": "A1" },
-    { "de": "zusagen", "en": "to accept; to confirm", "pos": "verb", "aux": "haben", "sep": "zu", "p2": "zugesagt", "goethe": "B1" },
-    { "de": "absagen", "en": "to decline; to cancel", "pos": "verb", "aux": "haben", "sep": "ab", "p2": "abgesagt", "goethe": "B1" },
-    { "de": "mitbringen", "en": "to bring along", "pos": "verb", "aux": "haben", "sep": "mit", "p2": "mitgebracht", "goethe": "A1" },
-    { "de": "Chef", "en": "boss", "pos": "noun", "article": "der", "plural": "Chefs", "goethe": "A1" },
-    { "de": "Kollege", "en": "colleague", "pos": "noun", "article": "der", "plural": "Kollegen", "goethe": "A1" },
-    { "de": "flexibel", "en": "flexible", "pos": "adj", "goethe": "B1" }
-  ],
   "mindmap": {
     "label": "Infinitiv mit zu",
     "children": [

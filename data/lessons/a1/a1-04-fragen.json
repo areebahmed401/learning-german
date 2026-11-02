@@ -3,7 +3,6 @@
   "level": "A1",
   "title": "Fragen stellen",
   "concept": "W-questions and yes/no questions",
-  "wordlist": "Zahlen",
   "minutes": 25,
   "youtube": "https://www.youtube.com/results?search_query=Learn+German+A1+W-Fragen+questions+numbers",
   "learn": [
@@ -65,32 +64,6 @@
     }
   ],
   "tip": "Say your own phone number out loud in German, digit by digit, every day. At the Amt or a call centre they will ask for it, and numbers are the first thing that goes wrong when you are nervous.",
-  "words": [
-    { "de": "null", "en": "zero", "pos": "num", "goethe": "A1" },
-    { "de": "eins", "en": "one", "pos": "num", "goethe": "A1" },
-    { "de": "zwei", "en": "two", "pos": "num", "goethe": "A1" },
-    { "de": "drei", "en": "three", "pos": "num", "goethe": "A1" },
-    { "de": "vier", "en": "four", "pos": "num", "goethe": "A1" },
-    { "de": "fünf", "en": "five", "pos": "num", "goethe": "A1" },
-    { "de": "sechs", "en": "six", "pos": "num", "goethe": "A1" },
-    { "de": "sieben", "en": "seven", "pos": "num", "goethe": "A1" },
-    { "de": "acht", "en": "eight", "pos": "num", "goethe": "A1" },
-    { "de": "neun", "en": "nine", "pos": "num", "goethe": "A1" },
-    { "de": "zehn", "en": "ten", "pos": "num", "goethe": "A1" },
-    { "de": "elf", "en": "eleven", "pos": "num", "goethe": "A1" },
-    { "de": "zwölf", "en": "twelve", "pos": "num", "goethe": "A1" },
-    { "de": "fünfzehn", "en": "fifteen", "pos": "num", "goethe": "A1" },
-    { "de": "zwanzig", "en": "twenty", "pos": "num", "goethe": "A1" },
-    { "de": "dreißig", "en": "thirty", "pos": "num", "goethe": "A1" },
-    { "de": "hundert", "en": "one hundred", "pos": "num", "goethe": "A1" },
-    { "de": "tausend", "en": "one thousand", "pos": "num", "goethe": "A1" },
-    { "de": "Postleitzahl", "en": "postcode", "pos": "noun", "article": "die", "plural": "Postleitzahlen", "goethe": "A1" },
-    { "de": "Nummer", "en": "number (house, room)", "pos": "noun", "article": "die", "plural": "Nummern", "goethe": "A1" },
-    { "de": "Vorwahl", "en": "area code", "pos": "noun", "article": "die", "plural": "Vorwahlen", "goethe": "A1" },
-    { "de": "Alter", "en": "age", "pos": "noun", "article": "das", "plural": "-", "goethe": "A1" },
-    { "de": "Euro", "en": "euro", "pos": "noun", "article": "der", "plural": "Euro", "goethe": "A1" },
-    { "de": "fragen", "en": "to ask", "pos": "verb", "aux": "haben", "p2": "gefragt", "goethe": "A1" }
-  ],
   "mindmap": {
     "label": "Fragen",
     "children": [

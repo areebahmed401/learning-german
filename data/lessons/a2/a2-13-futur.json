@@ -3,7 +3,6 @@
   "level": "A2",
   "title": "Futur I",
   "concept": "Talking about the future and plans",
-  "wordlist": "Zukunft & Pläne",
   "minutes": 25,
   "youtube": "https://www.youtube.com/results?search_query=Learn+German+A2+Futur+I+werden+Infinitiv+Pl%C3%A4ne",
   "learn": [
@@ -48,33 +47,6 @@
     }
   ],
   "tip": "Say your plans out loud every Sunday evening: 'Diese Woche werde ich …' plus three infinitives. Practice one sentence with werden and two with the present and a time word.",
-  "words": [
-    { "de": "Leben", "en": "life", "pos": "noun", "article": "das", "plural": "-", "goethe": "A1" },
-    { "de": "Plan", "en": "plan", "pos": "noun", "article": "der", "plural": "Pläne", "goethe": "A1" },
-    { "de": "Ziel", "en": "goal, aim", "pos": "noun", "article": "das", "plural": "Ziele", "goethe": "A2" },
-    { "de": "Traum", "en": "dream", "pos": "noun", "article": "der", "plural": "Träume", "goethe": "A2" },
-    { "de": "Wunsch", "en": "wish", "pos": "noun", "article": "der", "plural": "Wünsche", "goethe": "A2" },
-    { "de": "Erfolg", "en": "success", "pos": "noun", "article": "der", "plural": "Erfolge", "goethe": "A2" },
-    { "de": "Prüfung", "en": "exam", "pos": "noun", "article": "die", "plural": "Prüfungen", "goethe": "A1" },
-    { "de": "Umzug", "en": "move (to a new home)", "pos": "noun", "article": "der", "plural": "Umzüge", "goethe": "A2" },
-    { "de": "Haus", "en": "house", "pos": "noun", "article": "das", "plural": "Häuser", "goethe": "A1" },
-    { "de": "Ausbildung", "en": "vocational training", "pos": "noun", "article": "die", "plural": "Ausbildungen", "goethe": "A1" },
-    { "de": "Heimat", "en": "home, homeland", "pos": "noun", "article": "die", "plural": "-", "goethe": "A1" },
-    { "de": "werden", "en": "to become; will", "pos": "verb", "aux": "sein", "p2": "geworden", "goethe": "A1" },
-    { "de": "planen", "en": "to plan", "pos": "verb", "aux": "haben", "p2": "geplant", "goethe": "A2" },
-    { "de": "heiraten", "en": "to marry", "pos": "verb", "aux": "haben", "p2": "geheiratet", "goethe": "A1" },
-    { "de": "erreichen", "en": "to reach, to achieve", "pos": "verb", "aux": "haben", "p2": "erreicht", "goethe": "A2" },
-    { "de": "ausziehen", "en": "to move out", "pos": "verb", "aux": "sein", "sep": "aus", "p2": "ausgezogen", "goethe": "A1" },
-    { "de": "schaffen", "en": "to manage, to make it", "pos": "verb", "aux": "haben", "p2": "geschafft", "goethe": "A2" },
-    { "de": "bestehen", "en": "to pass (an exam)", "pos": "verb", "aux": "haben", "p2": "bestanden", "goethe": "A2" },
-    { "de": "sparen", "en": "to save (money)", "pos": "verb", "aux": "haben", "p2": "gespart", "goethe": "A2" },
-    { "de": "hoffen", "en": "to hope", "pos": "verb", "aux": "haben", "p2": "gehofft", "goethe": "A2" },
-    { "de": "bald", "en": "soon", "pos": "adv", "goethe": "A1" },
-    { "de": "später", "en": "later", "pos": "adv", "goethe": "A1" },
-    { "de": "vielleicht", "en": "maybe", "pos": "adv", "goethe": "A1" },
-    { "de": "sicher", "en": "certainly", "pos": "adv", "goethe": "A2" },
-    { "de": "nächstes Jahr", "en": "next year", "pos": "phrase", "goethe": "A2" }
-  ],
   "mindmap": {
     "label": "Futur I",
     "children": [

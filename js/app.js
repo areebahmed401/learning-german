@@ -1,5 +1,5 @@
 // App shell: router (#/road, #/alltag, #/place, #/lesson, #/checkpoint, #/cards, #/quiz, #/settings), theme, settings menu, translator panel, checkpoint quizzes.
-import { h, getRoadmap, getJSON, lessonURL, shuffle, toast } from './util.js';
+import { h, getRoadmap, getJSON, lessonURL, shuffle, toast, getAlltag, getPlace, placeWords } from './util.js';
 import { renderRoad } from './road.js';
 import { renderLesson } from './lesson.js';
 import { renderPlace } from './place.js';
@@ -106,13 +106,17 @@ menu.addEventListener('click', async (e) => {
     toast('Progress reset');
   }
   if (act === 'anki-all') {
-    const road = await getRoadmap();
+    const alltag = await getAlltag();
     const rows = [];
-    for (const lv of road.levels)
-      for (const m of lv.milestones || []) {
-        const l = await getJSON(lessonURL(lv.id, m.id)).catch(() => null);
-        if (l) rows.push(...anki.lessonRows(l));
+    const byKey = new Map(); // a word met in several places is one note, tagged with every place
+    for (const s of alltag.chapters.flatMap((c) => c.stops)) {
+      const p = await getPlace(s.id).catch(() => null);
+      for (const r of p ? anki.placeRows(p, placeWords(p)) : []) {
+        const k = `${r.word.article || ''} ${r.word.de}`;
+        if (byKey.has(k)) byKey.get(k).tags.push(r.tags[0]);
+        else { byKey.set(k, r); rows.push(r); }
       }
+    }
     anki.download(rows, 'deutschweg-all-words.txt');
     toast(`${rows.length} words exported for Anki`);
   }

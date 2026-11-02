@@ -3,7 +3,6 @@
   "level": "C1",
   "title": "Nominalstil vs. Verbalstil",
   "concept": "Switching between noun-heavy written style and verb-based spoken style",
-  "wordlist": "Verwaltung & Behörden",
   "minutes": 40,
   "youtube": "https://www.youtube.com/results?search_query=Learn+German+C1+Nominalstil+Verbalstil+Funktionsverbgef%C3%BCge",
   "learn": [
@@ -69,33 +68,6 @@
     }
   ],
   "tip": "Written = nouns + Genitiv (aufgrund der Verzögerung). Spoken = verbs + wir/Sie (weil es länger dauert). Same meaning, two registers: ask who the actor is and put them back as the subject.",
-  "words": [
-    { "de": "Antrag", "en": "application", "pos": "noun", "article": "der", "plural": "Anträge" },
-    { "de": "Bescheid", "en": "official notice, decision", "pos": "noun", "article": "der", "plural": "Bescheide" },
-    { "de": "Frist", "en": "deadline", "pos": "noun", "article": "die", "plural": "Fristen" },
-    { "de": "Zuständigkeit", "en": "responsibility, jurisdiction", "pos": "noun", "article": "die", "plural": "Zuständigkeiten" },
-    { "de": "Genehmigung", "en": "permit, approval", "pos": "noun", "article": "die", "plural": "Genehmigungen" },
-    { "de": "Nachweis", "en": "proof, evidence", "pos": "noun", "article": "der", "plural": "Nachweise" },
-    { "de": "Widerspruch", "en": "objection", "pos": "noun", "article": "der", "plural": "Widersprüche" },
-    { "de": "Behörde", "en": "authority, public office", "pos": "noun", "article": "die", "plural": "Behörden" },
-    { "de": "Sachbearbeiter", "en": "case worker", "pos": "noun", "article": "der", "plural": "Sachbearbeiter" },
-    { "de": "Gebühr", "en": "fee", "pos": "noun", "article": "die", "plural": "Gebühren" },
-    { "de": "Vorschrift", "en": "regulation, rule", "pos": "noun", "article": "die", "plural": "Vorschriften" },
-    { "de": "Anspruch", "en": "entitlement, claim", "pos": "noun", "article": "der", "plural": "Ansprüche" },
-    { "de": "Verfahren", "en": "procedure, proceedings", "pos": "noun", "article": "das", "plural": "Verfahren" },
-    { "de": "Bearbeitung", "en": "processing", "pos": "noun", "article": "die", "plural": "Bearbeitungen" },
-    { "de": "beantragen", "en": "to apply for", "pos": "verb", "aux": "haben", "p2": "beantragt" },
-    { "de": "genehmigen", "en": "to approve", "pos": "verb", "aux": "haben", "p2": "genehmigt" },
-    { "de": "vorlegen", "en": "to submit, to present", "pos": "verb", "aux": "haben", "sep": "vor", "p2": "vorgelegt" },
-    { "de": "einlegen", "en": "to lodge, to file (an objection)", "pos": "verb", "aux": "haben", "sep": "ein", "p2": "eingelegt" },
-    { "de": "erlöschen", "en": "to expire, to lapse", "pos": "verb", "aux": "sein", "p2": "erloschen" },
-    { "de": "bewilligen", "en": "to grant", "pos": "verb", "aux": "haben", "p2": "bewilligt" },
-    { "de": "ablehnen", "en": "to reject", "pos": "verb", "aux": "haben", "sep": "ab", "p2": "abgelehnt" },
-    { "de": "nachreichen", "en": "to submit later", "pos": "verb", "aux": "haben", "sep": "nach", "p2": "nachgereicht" },
-    { "de": "zuständig", "en": "responsible, competent", "pos": "adj" },
-    { "de": "fristgerecht", "en": "within the deadline", "pos": "adj" },
-    { "de": "erforderlich", "en": "required, necessary", "pos": "adj" }
-  ],
   "mindmap": {
     "label": "Nominalstil ↔ Verbalstil",
     "children": [

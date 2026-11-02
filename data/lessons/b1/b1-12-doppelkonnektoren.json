@@ -3,7 +3,6 @@
   "level": "B1",
   "title": "sowohl … als auch",
   "concept": "Two-part connectors",
-  "wordlist": "Reisen & Kultur",
   "minutes": 30,
   "youtube": "https://www.youtube.com/results?search_query=Learn+German+B1+Doppelkonnektoren+sowohl+als+auch+weder+noch",
   "learn": [
@@ -44,30 +43,6 @@
     }
   ],
   "tip": "Speak in pairs: whenever you give an opinion, finish with 'einerseits … andererseits' or 'zwar … aber'. Examiners and interviewers love balanced answers.",
-  "words": [
-    { "de": "Reise", "en": "trip, journey", "pos": "noun", "article": "die", "plural": "Reisen", "goethe": "A1" },
-    { "de": "Sehenswürdigkeit", "en": "sight, attraction", "pos": "noun", "article": "die", "plural": "Sehenswürdigkeiten", "goethe": "A1" },
-    { "de": "Reiseführer", "en": "guidebook; tour guide", "pos": "noun", "article": "der", "plural": "Reiseführer", "goethe": "A1" },
-    { "de": "Unterkunft", "en": "accommodation", "pos": "noun", "article": "die", "plural": "Unterkünfte", "goethe": "A1" },
-    { "de": "Fahrkarte", "en": "ticket (train, bus)", "pos": "noun", "article": "die", "plural": "Fahrkarten", "goethe": "A1" },
-    { "de": "Verspätung", "en": "delay", "pos": "noun", "article": "die", "plural": "Verspätungen", "goethe": "A2" },
-    { "de": "Gepäck", "en": "luggage", "pos": "noun", "article": "das", "plural": "-", "goethe": "A1" },
-    { "de": "Ausflug", "en": "excursion", "pos": "noun", "article": "der", "plural": "Ausflüge", "goethe": "A1" },
-    { "de": "Tradition", "en": "tradition", "pos": "noun", "article": "die", "plural": "Traditionen", "goethe": "B1" },
-    { "de": "Grenze", "en": "border", "pos": "noun", "article": "die", "plural": "Grenzen", "goethe": "B1" },
-    { "de": "Museum", "en": "museum", "pos": "noun", "article": "das", "plural": "Museen", "goethe": "A1" },
-    { "de": "Ausstellung", "en": "exhibition", "pos": "noun", "article": "die", "plural": "Ausstellungen", "goethe": "A2" },
-    { "de": "Konzert", "en": "concert", "pos": "noun", "article": "das", "plural": "Konzerte", "goethe": "A2" },
-    { "de": "Fest", "en": "festival, celebration", "pos": "noun", "article": "das", "plural": "Feste", "goethe": "A2" },
-    { "de": "buchen", "en": "to book", "pos": "verb", "aux": "haben", "p2": "gebucht", "goethe": "A2" },
-    { "de": "besichtigen", "en": "to visit, to tour", "pos": "verb", "aux": "haben", "p2": "besichtigt", "goethe": "A1" },
-    { "de": "verreisen", "en": "to go away on a trip", "pos": "verb", "aux": "sein", "p2": "verreist", "goethe": "A2" },
-    { "de": "ankommen", "en": "to arrive", "pos": "verb", "aux": "sein", "sep": "an", "p2": "angekommen", "goethe": "A1" },
-    { "de": "abfahren", "en": "to depart", "pos": "verb", "aux": "sein", "sep": "ab", "p2": "abgefahren", "goethe": "A1" },
-    { "de": "umsteigen", "en": "to change (trains)", "pos": "verb", "aux": "sein", "sep": "um", "p2": "umgestiegen", "goethe": "A2" },
-    { "de": "Urlaub", "en": "holiday", "pos": "noun", "article": "der", "plural": "Urlaube", "goethe": "A1" },
-    { "de": "typisch", "en": "typical", "pos": "adj", "goethe": "A2" }
-  ],
   "mindmap": {
     "label": "Doppelkonnektoren",
     "children": [

@@ -1,0 +1,272 @@
+{
+  "id": "bahnhof",
+  "icon": "🚆",
+  "title": "Bahnhof & unterwegs",
+  "en": "Station & getting around",
+  "intro": "You buy a ticket, find your platform, change trains and ask the way in town. Announcements are fast, but the phrases repeat every day.",
+  "areas": [
+    {
+      "name": "Fahrkarten",
+      "en": "tickets",
+      "words": [
+        { "de": "Bahnhof", "en": "train station", "pos": "noun", "article": "der", "plural": "Bahnhöfe", "level": "A1", "goethe": "A1" },
+        { "de": "Fahrkarte", "en": "ticket (for travel)", "pos": "noun", "article": "die", "plural": "Fahrkarten", "level": "A1", "goethe": "A1" },
+        { "de": "Fahrkartenautomat", "en": "ticket machine", "pos": "noun", "article": "der", "plural": "Fahrkartenautomaten", "level": "A2", "goethe": "A2" },
+        { "de": "Fahrschein", "en": "ticket (bus, tram, U-Bahn)", "pos": "noun", "article": "der", "plural": "Fahrscheine", "level": "B1", "goethe": "B1" },
+        { "de": "Deutschlandticket", "en": "Deutschlandticket (monthly pass for local and regional transport)", "pos": "noun", "article": "das", "plural": "Deutschlandtickets", "level": "A2" },
+        { "de": "Einzelfahrkarte", "en": "single ticket", "pos": "noun", "article": "die", "plural": "Einzelfahrkarten", "level": "A2" },
+        { "de": "Tageskarte", "en": "day ticket", "pos": "noun", "article": "die", "plural": "Tageskarten", "level": "A2" },
+        { "de": "Monatskarte", "en": "monthly pass", "pos": "noun", "article": "die", "plural": "Monatskarten", "level": "A2" },
+        { "de": "Ermäßigung", "en": "discount, concession", "pos": "noun", "article": "die", "plural": "Ermäßigungen", "level": "A2", "goethe": "A2" },
+        { "de": "Kontrolleur", "en": "ticket inspector", "pos": "noun", "article": "der", "plural": "Kontrolleure", "level": "B1" },
+        { "de": "kaufen", "en": "to buy", "pos": "verb", "aux": "haben", "p2": "gekauft", "level": "A1", "goethe": "A1" },
+        { "de": "entwerten", "en": "to validate (a ticket)", "pos": "verb", "aux": "haben", "p2": "entwertet", "level": "A2" }
+      ]
+    },
+    {
+      "name": "Gleis & Zug",
+      "en": "platform and train",
+      "words": [
+        { "de": "Zug", "en": "train", "pos": "noun", "article": "der", "plural": "Züge", "level": "A1", "goethe": "A1" },
+        { "de": "Gleis", "en": "platform, track", "pos": "noun", "article": "das", "plural": "Gleise", "level": "A1", "goethe": "A1" },
+        { "de": "Fahrplan", "en": "timetable", "pos": "noun", "article": "der", "plural": "Fahrpläne", "level": "A2", "goethe": "A2" },
+        { "de": "Verspätung", "en": "delay", "pos": "noun", "article": "die", "plural": "Verspätungen", "level": "A2", "goethe": "A2" },
+        { "de": "umsteigen", "en": "to change (trains)", "pos": "verb", "aux": "sein", "sep": "um", "p2": "umgestiegen", "level": "A2", "goethe": "A2" },
+        { "de": "warten", "en": "to wait", "pos": "verb", "aux": "haben", "p2": "gewartet", "level": "A1", "goethe": "A1" },
+        { "de": "Bahnsteig", "en": "platform (the structure you stand on)", "pos": "noun", "article": "der", "plural": "Bahnsteige", "level": "A1", "goethe": "A1" },
+        { "de": "Hauptbahnhof", "en": "main station", "pos": "noun", "article": "der", "plural": "Hauptbahnhöfe", "level": "B1", "goethe": "B1" },
+        { "de": "Abfahrt", "en": "departure", "pos": "noun", "article": "die", "plural": "Abfahrten", "level": "A1", "goethe": "A1" },
+        { "de": "Ankunft", "en": "arrival", "pos": "noun", "article": "die", "plural": "Ankünfte", "level": "A1", "goethe": "A1" },
+        { "de": "Anschluss", "en": "connection (to another train)", "pos": "noun", "article": "der", "plural": "Anschlüsse", "level": "A1", "goethe": "A1" },
+        { "de": "Ausfall", "en": "cancellation", "pos": "noun", "article": "der", "plural": "Ausfälle", "level": "B1" },
+        { "de": "Durchsage", "en": "announcement", "pos": "noun", "article": "die", "plural": "Durchsagen", "level": "A1", "goethe": "A1" },
+        { "de": "Reservierung", "en": "seat reservation", "pos": "noun", "article": "die", "plural": "Reservierungen", "level": "B1", "goethe": "B1" },
+        { "de": "Sitzplatz", "en": "seat", "pos": "noun", "article": "der", "plural": "Sitzplätze", "level": "B1", "goethe": "B1" },
+        { "de": "Wagen", "en": "carriage, car", "pos": "noun", "article": "der", "plural": "Wagen", "level": "A2", "goethe": "A2" },
+        { "de": "Regionalbahn", "en": "regional train", "pos": "noun", "article": "die", "plural": "Regionalbahnen", "level": "B1", "goethe": "B1" },
+        { "de": "Zugbegleiter", "en": "train conductor", "pos": "noun", "article": "der", "plural": "Zugbegleiter", "level": "B1" },
+        { "de": "abfahren", "en": "to depart", "pos": "verb", "aux": "sein", "sep": "ab", "p2": "abgefahren", "level": "A1", "goethe": "A1" },
+        { "de": "ankommen", "en": "to arrive", "pos": "verb", "aux": "sein", "sep": "an", "p2": "angekommen", "level": "A1", "goethe": "A1" }
+      ]
+    },
+    {
+      "name": "U-Bahn, Bus & Tram",
+      "en": "local transport",
+      "words": [
+        { "de": "U-Bahn", "en": "underground, subway", "pos": "noun", "article": "die", "plural": "U-Bahnen", "level": "A1", "goethe": "A1" },
+        { "de": "Bus", "en": "bus", "pos": "noun", "article": "der", "plural": "Busse", "level": "A1", "goethe": "A1" },
+        { "de": "Straßenbahn", "en": "tram", "pos": "noun", "article": "die", "plural": "Straßenbahnen", "level": "A1", "goethe": "A1" },
+        { "de": "Haltestelle", "en": "bus / tram stop", "pos": "noun", "article": "die", "plural": "Haltestellen", "level": "A1", "goethe": "A1" },
+        { "de": "Taxi", "en": "taxi", "pos": "noun", "article": "das", "plural": "Taxis", "level": "A1", "goethe": "A1" },
+        { "de": "S-Bahn", "en": "suburban train", "pos": "noun", "article": "die", "plural": "S-Bahnen", "level": "A1", "goethe": "A1" },
+        { "de": "Linie", "en": "line, route", "pos": "noun", "article": "die", "plural": "Linien", "level": "A2", "goethe": "A2" },
+        { "de": "Richtung", "en": "direction", "pos": "noun", "article": "die", "plural": "Richtungen", "level": "B1", "goethe": "B1" },
+        { "de": "Endstation", "en": "last stop, terminus", "pos": "noun", "article": "die", "plural": "Endstationen", "level": "B1" },
+        { "de": "Fahrer", "en": "driver", "pos": "noun", "article": "der", "plural": "Fahrer", "level": "A1", "goethe": "A1" },
+        { "de": "einsteigen", "en": "to get on, to board", "pos": "verb", "aux": "sein", "sep": "ein", "p2": "eingestiegen", "level": "A1", "goethe": "A1" },
+        { "de": "aussteigen", "en": "to get off", "pos": "verb", "aux": "sein", "sep": "aus", "p2": "ausgestiegen", "level": "A1", "goethe": "A1" },
+        { "de": "fahren", "en": "to go (by vehicle), to drive", "pos": "verb", "aux": "sein", "p2": "gefahren", "level": "A1", "goethe": "A1" }
+      ]
+    },
+    {
+      "name": "Den Weg fragen",
+      "en": "asking the way",
+      "words": [
+        { "de": "Stadt", "en": "city; town", "pos": "noun", "article": "die", "plural": "Städte", "level": "A1", "goethe": "A1" },
+        { "de": "Mitte", "en": "middle, centre", "pos": "noun", "article": "die", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "Straße", "en": "street", "pos": "noun", "article": "die", "plural": "Straßen", "level": "A1", "goethe": "A1" },
+        { "de": "Weg", "en": "way; path", "pos": "noun", "article": "der", "plural": "Wege", "level": "A1", "goethe": "A1" },
+        { "de": "Ecke", "en": "corner", "pos": "noun", "article": "die", "plural": "Ecken", "level": "A1", "goethe": "A1" },
+        { "de": "Eingang", "en": "entrance", "pos": "noun", "article": "der", "plural": "Eingänge", "level": "A1", "goethe": "A1" },
+        { "de": "Platz", "en": "square; seat", "pos": "noun", "article": "der", "plural": "Plätze", "level": "A1", "goethe": "A1" },
+        { "de": "Kreuzung", "en": "crossroads, junction", "pos": "noun", "article": "die", "plural": "Kreuzungen", "level": "A2", "goethe": "A2" },
+        { "de": "Ampel", "en": "traffic light", "pos": "noun", "article": "die", "plural": "Ampeln", "level": "A2", "goethe": "A2" },
+        { "de": "geradeaus", "en": "straight ahead", "pos": "adv", "level": "A1", "goethe": "A1" },
+        { "de": "links", "en": "left", "pos": "adv", "level": "A1", "goethe": "A1" },
+        { "de": "rechts", "en": "right", "pos": "adv", "level": "A1", "goethe": "A1" },
+        { "de": "weit", "en": "far", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "dort", "en": "there", "pos": "adv", "level": "A1", "goethe": "A1" },
+        { "de": "zu Fuß", "en": "on foot", "pos": "phrase", "level": "A1", "goethe": "A1" },
+        { "de": "gehen", "en": "to go; to walk", "pos": "verb", "aux": "sein", "p2": "gegangen", "level": "A1", "goethe": "A1" },
+        { "de": "finden", "en": "to find", "pos": "verb", "aux": "haben", "p2": "gefunden", "level": "A1", "goethe": "A1" },
+        { "de": "laufen", "en": "to run, to walk", "pos": "verb", "aux": "sein", "p2": "gelaufen", "level": "A1", "goethe": "A1" },
+        { "de": "Post", "en": "post office", "pos": "noun", "article": "die", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "Bank", "en": "bank", "pos": "noun", "article": "die", "plural": "Banken", "level": "A1", "goethe": "A1" },
+        { "de": "Apotheke", "en": "pharmacy", "pos": "noun", "article": "die", "plural": "Apotheken", "level": "A1", "goethe": "A1" },
+        { "de": "Stadtplan", "en": "city map", "pos": "noun", "article": "der", "plural": "Stadtpläne", "level": "A1", "goethe": "A1" },
+        { "de": "abbiegen", "en": "to turn (left, right)", "pos": "verb", "aux": "sein", "sep": "ab", "p2": "abgebogen", "level": "B1", "goethe": "B1" }
+      ]
+    },
+    {
+      "name": "Auto & Fahrrad",
+      "en": "car and bike",
+      "words": [
+        { "de": "Autobahn", "en": "motorway", "pos": "noun", "article": "die", "plural": "Autobahnen", "level": "A1", "goethe": "A1" },
+        { "de": "Fahrrad", "en": "bicycle", "pos": "noun", "article": "das", "plural": "Fahrräder", "level": "A1", "goethe": "A1" },
+        { "de": "Auto", "en": "car", "pos": "noun", "article": "das", "plural": "Autos", "level": "A1", "goethe": "A1" },
+        { "de": "Verkehr", "en": "traffic", "pos": "noun", "article": "der", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "Führerschein", "en": "driving licence", "pos": "noun", "article": "der", "plural": "Führerscheine", "level": "A2", "goethe": "A2" },
+        { "de": "parken", "en": "to park", "pos": "verb", "aux": "haben", "p2": "geparkt", "level": "A2", "goethe": "A2" },
+        { "de": "Flughafen", "en": "airport", "pos": "noun", "article": "der", "plural": "Flughäfen", "level": "A1", "goethe": "A1" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "de": "Eine Fahrkarte nach Köln, bitte.", "en": "One ticket to Cologne, please.", "who": "you", "level": "A1" },
+    { "de": "Wann fährt der nächste Zug nach München?", "en": "When does the next train to Munich leave?", "who": "you", "level": "A2" },
+    { "de": "Von welchem Gleis fährt der Zug ab?", "en": "Which platform does the train leave from?", "who": "you", "level": "A2" },
+    { "de": "Muss ich umsteigen?", "en": "Do I have to change trains?", "who": "you", "level": "A2" },
+    { "de": "Gilt das Deutschlandticket auch in der S-Bahn?", "en": "Is the Deutschlandticket also valid on the S-Bahn?", "who": "you", "level": "B1" },
+    { "de": "Entschuldigung, wie komme ich zur Haltestelle?", "en": "Excuse me, how do I get to the stop?", "who": "you", "level": "A2" },
+    { "de": "Der Zug hat zwanzig Minuten Verspätung.", "en": "The train is twenty minutes late.", "who": "staff", "level": "A2" },
+    { "de": "Der Zug fällt heute leider aus.", "en": "The train is cancelled today, I am afraid.", "who": "staff", "level": "B1" },
+    { "de": "Ihre Fahrkarte, bitte.", "en": "Your ticket, please.", "who": "staff", "level": "A1" },
+    { "de": "Bitte entwerten Sie Ihren Fahrschein.", "en": "Please validate your ticket.", "who": "staff", "level": "A2" },
+    { "de": "Nehmen Sie die Linie 5 Richtung Hauptbahnhof.", "en": "Take line 5 towards the main station.", "who": "staff", "level": "A2" },
+    { "de": "Gehen Sie hier geradeaus und dann links.", "en": "Go straight ahead here and then left.", "who": "staff", "level": "A1" },
+    { "de": "Nächster Halt: Marienplatz.", "en": "Next stop: Marienplatz.", "who": "staff", "level": "A2" },
+    { "de": "Ist dieser Platz noch frei?", "en": "Is this seat still free?", "who": "you", "level": "A2" }
+  ],
+  "exercises": [
+    { "type": "article", "word": "Bahnsteig", "answer": "der", "explain": "Bahnsteig is masculine: der Bahnsteig, die Bahnsteige." },
+    { "type": "article", "word": "Fahrkarte", "answer": "die", "explain": "Compounds take the gender of the last part: die Karte, so die Fahrkarte." },
+    { "type": "article", "word": "Gleis", "answer": "das", "explain": "Gleis is neuter: das Gleis, die Gleise." },
+    { "type": "article", "word": "Haltestelle", "answer": "die", "explain": "Nouns ending in -stelle follow die Stelle, which is feminine: die Haltestelle." },
+    { "type": "article", "word": "Fahrplan", "answer": "der", "explain": "Plan is masculine, so der Fahrplan." },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "der Fahrplan",
+          "timetable"
+        ],
+        [
+          "das Gleis",
+          "platform, track"
+        ],
+        [
+          "die Verspätung",
+          "delay"
+        ],
+        [
+          "die Haltestelle",
+          "stop"
+        ],
+        [
+          "der Fahrschein",
+          "ticket"
+        ]
+      ],
+      "explain": "Words you see on boards and tickets, each with its article."
+    },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "umsteigen",
+          "to change trains"
+        ],
+        [
+          "entwerten",
+          "to validate a ticket"
+        ],
+        [
+          "einsteigen",
+          "to get on"
+        ],
+        [
+          "aussteigen",
+          "to get off"
+        ],
+        [
+          "abbiegen",
+          "to turn"
+        ]
+      ],
+      "explain": "Verbs for getting around town."
+    },
+    {
+      "type": "gap",
+      "q": "Ich muss in Köln ___.",
+      "answer": [
+        "umsteigen"
+      ],
+      "explain": "Muss takes the infinitive at the end: ich muss umsteigen."
+    },
+    {
+      "type": "gap",
+      "q": "Der Zug hat zehn Minuten ___.",
+      "answer": [
+        "Verspätung"
+      ],
+      "explain": "Fixed phrase: Der Zug hat Verspätung (delay is feminine)."
+    },
+    {
+      "type": "gap",
+      "q": "Gehen Sie hier ___ und dann links.",
+      "answer": [
+        "geradeaus"
+      ],
+      "explain": "Geradeaus means straight ahead."
+    },
+    {
+      "type": "translate",
+      "en": "Which platform does the train to Munich leave from?",
+      "answer": [
+        "Von welchem Gleis fährt der Zug nach München ab?",
+        "Auf welchem Gleis fährt der Zug nach München ab?",
+        "Von welchem Gleis fährt der Zug nach München?",
+        "Auf welchem Gleis fährt der Zug nach München?"
+      ],
+      "explain": "Von + Dativ: von welchem Gleis; abfahren is separable, so ab goes to the end."
+    },
+    {
+      "type": "translate",
+      "en": "I would like a ticket to Hamburg.",
+      "answer": [
+        "Ich möchte eine Fahrkarte nach Hamburg.",
+        "Ich hätte gern eine Fahrkarte nach Hamburg.",
+        "Ich möchte ein Ticket nach Hamburg."
+      ],
+      "explain": "Ich möchte + Akkusativ: eine Fahrkarte (feminine) and nach + city."
+    },
+    {
+      "type": "mc",
+      "q": "The announcement says: \"Der Zug fällt heute aus.\" What does it mean?",
+      "options": [
+        "The train is cancelled today.",
+        "The train is early today.",
+        "The train is full today."
+      ],
+      "answer": 0,
+      "explain": "Ausfallen means to be cancelled: der Zug fällt aus."
+    },
+    {
+      "type": "order",
+      "words": [
+        "Wo",
+        "fährt",
+        "der",
+        "Zug",
+        "ab"
+      ],
+      "answer": "Wo fährt der Zug ab",
+      "explain": "Question word first, then the verb fährt, then the subject; the separable prefix ab goes last."
+    }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Eine Fahrkarte nach Hamburg, bitte.", "en": "One ticket to Hamburg, please." },
+      { "de": "Wann fährt der nächste Zug?", "en": "When does the next train leave?" },
+      { "de": "Von welchem Gleis fährt der Zug ab?", "en": "Which platform does the train leave from?" },
+      { "de": "Muss ich umsteigen?", "en": "Do I have to change?" },
+      { "de": "Wie komme ich zur Haltestelle?", "en": "How do I get to the stop?" }
+    ],
+    "prompts": [
+      { "q": "Guten Tag, wohin möchten Sie fahren?", "qEn": "Good day, where would you like to go? (ticket counter)", "model": "Ich möchte nach Hamburg. Eine Fahrkarte, bitte.", "hint": "Name your destination and ask for a ticket." },
+      { "q": "Möchten Sie eine Einzelfahrkarte oder eine Tageskarte?", "qEn": "Would you like a single ticket or a day ticket?", "model": "Eine Einzelfahrkarte, bitte. Was kostet sie?", "hint": "Choose one and ask the price." },
+      { "q": "Der Zug fährt von Gleis 7.", "qEn": "The train leaves from platform 7.", "model": "Danke. Muss ich umsteigen?", "hint": "Thank them and ask about changing trains." },
+      { "q": "Kann ich Ihnen helfen? Sie sehen verloren aus.", "qEn": "Can I help you? You look lost. (a passer-by)", "model": "Ja, bitte. Wie komme ich zur Haltestelle der U-Bahn?", "hint": "Ask for the way to the U-Bahn stop." }
+    ]
+  }
+}

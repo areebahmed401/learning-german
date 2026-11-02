@@ -1,0 +1,388 @@
+{
+  "id": "reisen",
+  "icon": "🌳",
+  "title": "Freizeit & Reisen",
+  "en": "Leisure & travel",
+  "intro": "You plan weekend trips, book a room, visit sights, check the weather and tell people what you experienced. These words carry you from the booking page to the holiday photos.",
+  "areas": [
+    {
+      "name": "Reise planen & buchen",
+      "en": "planning and booking a trip",
+      "words": [
+        { "de": "Reise", "en": "trip, journey", "pos": "noun", "article": "die", "plural": "Reisen", "level": "A1", "goethe": "A1" },
+        { "de": "Urlaub", "en": "holiday, vacation", "pos": "noun", "article": "der", "plural": "Urlaube", "level": "A1", "goethe": "A1" },
+        { "de": "Ferien", "en": "holidays (school)", "pos": "noun", "article": "die", "plural": "-", "note": "plural only", "level": "A2", "goethe": "A2" },
+        { "de": "Koffer", "en": "suitcase", "pos": "noun", "article": "der", "plural": "Koffer", "level": "A1", "goethe": "A1" },
+        { "de": "Gepäck", "en": "luggage", "pos": "noun", "article": "das", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "Flughafen", "en": "airport", "pos": "noun", "article": "der", "plural": "Flughäfen", "level": "A1", "goethe": "A1" },
+        { "de": "Bahnhof", "en": "train station", "pos": "noun", "article": "der", "plural": "Bahnhöfe", "level": "A1", "goethe": "A1" },
+        { "de": "Fahrkarte", "en": "ticket (train, bus)", "pos": "noun", "article": "die", "plural": "Fahrkarten", "level": "A1", "goethe": "A1" },
+        { "de": "Hotel", "en": "hotel", "pos": "noun", "article": "das", "plural": "Hotels", "level": "A1", "goethe": "A1" },
+        { "de": "Unterkunft", "en": "accommodation", "pos": "noun", "article": "die", "plural": "Unterkünfte", "level": "A1", "goethe": "A1" },
+        { "de": "Reiseführer", "en": "guidebook; tour guide", "pos": "noun", "article": "der", "plural": "Reiseführer", "level": "A1", "goethe": "A1" },
+        { "de": "Verspätung", "en": "delay", "pos": "noun", "article": "die", "plural": "Verspätungen", "level": "A2", "goethe": "A2" },
+        { "de": "Grenze", "en": "border", "pos": "noun", "article": "die", "plural": "Grenzen", "level": "B1", "goethe": "B1" },
+        { "de": "verreisen", "en": "to go away on a trip", "pos": "verb", "aux": "sein", "p2": "verreist", "level": "A2", "goethe": "A2" },
+        { "de": "fliegen", "en": "to fly", "pos": "verb", "aux": "sein", "p2": "geflogen", "level": "A1", "goethe": "A1" },
+        { "de": "buchen", "en": "to book", "pos": "verb", "aux": "haben", "p2": "gebucht", "level": "A2", "goethe": "A2" },
+        { "de": "ankommen", "en": "to arrive", "pos": "verb", "aux": "sein", "sep": "an", "p2": "angekommen", "level": "A1", "goethe": "A1" },
+        { "de": "abfahren", "en": "to depart", "pos": "verb", "aux": "sein", "sep": "ab", "p2": "abgefahren", "level": "A1", "goethe": "A1" },
+        { "de": "einsteigen", "en": "to get on, to board", "pos": "verb", "aux": "sein", "sep": "ein", "p2": "eingestiegen", "level": "A1", "goethe": "A1" },
+        { "de": "aussteigen", "en": "to get off", "pos": "verb", "aux": "sein", "sep": "aus", "p2": "ausgestiegen", "level": "A1", "goethe": "A1" },
+        { "de": "umsteigen", "en": "to change (trains)", "pos": "verb", "aux": "sein", "sep": "um", "p2": "umgestiegen", "level": "A2", "goethe": "A2" },
+        { "de": "packen", "en": "to pack", "pos": "verb", "aux": "haben", "p2": "gepackt", "level": "A2", "goethe": "A2" },
+        { "de": "übernachten", "en": "to stay overnight", "pos": "verb", "aux": "haben", "p2": "übernachtet", "level": "A1", "goethe": "A1" },
+        { "de": "unterwegs", "en": "on the way, out and about", "pos": "adv", "level": "A2", "goethe": "A2" },
+        { "de": "Reisebüro", "en": "travel agency", "pos": "noun", "article": "das", "plural": "Reisebüros", "level": "A1", "goethe": "A1" },
+        { "de": "Reiseziel", "en": "destination", "pos": "noun", "article": "das", "plural": "Reiseziele", "level": "B1" },
+        { "de": "Zimmer", "en": "room", "pos": "noun", "article": "das", "plural": "Zimmer", "level": "A1", "goethe": "A1" },
+        { "de": "Doppelzimmer", "en": "double room", "pos": "noun", "article": "das", "plural": "Doppelzimmer", "level": "A1", "goethe": "A1" },
+        { "de": "Jugendherberge", "en": "youth hostel", "pos": "noun", "article": "die", "plural": "Jugendherbergen", "level": "A2", "goethe": "A2" },
+        { "de": "Rucksack", "en": "backpack", "pos": "noun", "article": "der", "plural": "Rucksäcke", "level": "A2", "goethe": "A2" },
+        { "de": "reservieren", "en": "to reserve", "pos": "verb", "aux": "haben", "p2": "reserviert", "level": "A2", "goethe": "A2" },
+        { "de": "stornieren", "en": "to cancel (a booking)", "pos": "verb", "aux": "haben", "p2": "storniert", "level": "B2" }
+      ]
+    },
+    {
+      "name": "Wochenende & Ausflug",
+      "en": "weekend and day trips",
+      "words": [
+        { "de": "Wochenende", "en": "weekend", "pos": "noun", "article": "das", "plural": "Wochenenden", "level": "A1", "goethe": "A1" },
+        { "de": "Ausflug", "en": "day trip, excursion", "pos": "noun", "article": "der", "plural": "Ausflüge", "level": "A1", "goethe": "A1" },
+        { "de": "Besuch", "en": "visit; visitor", "pos": "noun", "article": "der", "plural": "Besuche", "level": "A1", "goethe": "A1" },
+        { "de": "Garten", "en": "garden", "pos": "noun", "article": "der", "plural": "Gärten", "level": "A1", "goethe": "A1" },
+        { "de": "Geburtstag", "en": "birthday", "pos": "noun", "article": "der", "plural": "Geburtstage", "level": "A1", "goethe": "A1" },
+        { "de": "Geschenk", "en": "present; gift", "pos": "noun", "article": "das", "plural": "Geschenke", "level": "A1", "goethe": "A1" },
+        { "de": "machen", "en": "to do; to make", "pos": "verb", "aux": "haben", "p2": "gemacht", "level": "A1", "goethe": "A1" },
+        { "de": "spielen", "en": "to play", "pos": "verb", "aux": "haben", "p2": "gespielt", "level": "A1", "goethe": "A1" },
+        { "de": "kochen", "en": "to cook", "pos": "verb", "aux": "haben", "p2": "gekocht", "level": "A1", "goethe": "A1" },
+        { "de": "essen", "en": "to eat", "pos": "verb", "aux": "haben", "p2": "gegessen", "level": "A1", "goethe": "A1" },
+        { "de": "sehen", "en": "to see", "pos": "verb", "aux": "haben", "p2": "gesehen", "level": "A1", "goethe": "A1" },
+        { "de": "treffen", "en": "to meet", "pos": "verb", "aux": "haben", "p2": "getroffen", "level": "A1", "goethe": "A1" },
+        { "de": "schlafen", "en": "to sleep", "pos": "verb", "aux": "haben", "p2": "geschlafen", "level": "A1", "goethe": "A1" },
+        { "de": "waschen", "en": "to wash", "pos": "verb", "aux": "haben", "p2": "gewaschen", "level": "A1", "goethe": "A1" },
+        { "de": "besuchen", "en": "to visit", "pos": "verb", "aux": "haben", "p2": "besucht", "level": "A1", "goethe": "A1" },
+        { "de": "telefonieren", "en": "to phone", "pos": "verb", "aux": "haben", "p2": "telefoniert", "level": "A1", "goethe": "A1" },
+        { "de": "gehen", "en": "to go; to walk", "pos": "verb", "aux": "sein", "p2": "gegangen", "level": "A1", "goethe": "A1" },
+        { "de": "fahren", "en": "to drive, to go (by vehicle)", "pos": "verb", "aux": "sein", "p2": "gefahren", "level": "A1", "goethe": "A1" },
+        { "de": "bleiben", "en": "to stay", "pos": "verb", "aux": "sein", "p2": "geblieben", "level": "A1", "goethe": "A1" },
+        { "de": "aufstehen", "en": "to get up", "pos": "verb", "aux": "sein", "sep": "auf", "p2": "aufgestanden", "level": "A1", "goethe": "A1" },
+        { "de": "schon", "en": "already; yet", "pos": "adv", "level": "A1", "goethe": "A1" },
+        { "de": "leider", "en": "unfortunately", "pos": "adv", "level": "A1", "goethe": "A1" },
+        { "de": "Spaziergang", "en": "walk", "pos": "noun", "article": "der", "plural": "Spaziergänge", "level": "A2", "goethe": "A2" },
+        { "de": "Radtour", "en": "bike ride", "pos": "noun", "article": "die", "plural": "Radtouren", "level": "B1" },
+        { "de": "Fahrrad", "en": "bicycle", "pos": "noun", "article": "das", "plural": "Fahrräder", "level": "A1", "goethe": "A1" },
+        { "de": "Picknick", "en": "picnic", "pos": "noun", "article": "das", "plural": "Picknicks", "level": "B1", "goethe": "B1" },
+        { "de": "grillen", "en": "to barbecue", "pos": "verb", "aux": "haben", "p2": "gegrillt", "level": "A1", "goethe": "A1" },
+        { "de": "ausschlafen", "en": "to sleep in", "pos": "verb", "aux": "haben", "sep": "aus", "p2": "ausgeschlafen", "level": "B1" }
+      ]
+    },
+    {
+      "name": "Sehenswürdigkeiten & Kultur",
+      "en": "sights and culture",
+      "words": [
+        { "de": "Sehenswürdigkeit", "en": "sight, attraction", "pos": "noun", "article": "die", "plural": "Sehenswürdigkeiten", "level": "A1", "goethe": "A1" },
+        { "de": "besichtigen", "en": "to visit, to sightsee", "pos": "verb", "aux": "haben", "p2": "besichtigt", "level": "A1", "goethe": "A1" },
+        { "de": "Museum", "en": "museum", "pos": "noun", "article": "das", "plural": "Museen", "level": "A1", "goethe": "A1" },
+        { "de": "Ausstellung", "en": "exhibition", "pos": "noun", "article": "die", "plural": "Ausstellungen", "level": "A2", "goethe": "A2" },
+        { "de": "Konzert", "en": "concert", "pos": "noun", "article": "das", "plural": "Konzerte", "level": "A2", "goethe": "A2" },
+        { "de": "Fest", "en": "festival, celebration", "pos": "noun", "article": "das", "plural": "Feste", "level": "A2", "goethe": "A2" },
+        { "de": "Tradition", "en": "tradition", "pos": "noun", "article": "die", "plural": "Traditionen", "level": "B1", "goethe": "B1" },
+        { "de": "typisch", "en": "typical", "pos": "adj", "level": "A2", "goethe": "A2" },
+        { "de": "Altstadt", "en": "old town", "pos": "noun", "article": "die", "plural": "Altstädte", "level": "B1" },
+        { "de": "Schloss", "en": "castle, palace", "pos": "noun", "article": "das", "plural": "Schlösser", "level": "A2", "goethe": "A2" },
+        { "de": "Kirche", "en": "church", "pos": "noun", "article": "die", "plural": "Kirchen", "level": "A2", "goethe": "A2" },
+        { "de": "Dom", "en": "cathedral", "pos": "noun", "article": "der", "plural": "Dome", "level": "A1", "goethe": "A1" },
+        { "de": "Führung", "en": "guided tour", "pos": "noun", "article": "die", "plural": "Führungen", "level": "A1", "goethe": "A1" },
+        { "de": "Eintritt", "en": "admission", "pos": "noun", "article": "der", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "Stadtplan", "en": "city map", "pos": "noun", "article": "der", "plural": "Stadtpläne", "level": "A1", "goethe": "A1" },
+        { "de": "Theater", "en": "theatre", "pos": "noun", "article": "das", "plural": "Theater", "level": "A2", "goethe": "A2" },
+        { "de": "berühmt", "en": "famous", "pos": "adj", "level": "A2", "goethe": "A2" },
+        { "de": "sehenswert", "en": "worth seeing", "pos": "adj", "level": "B2" }
+      ]
+    },
+    {
+      "name": "Wetter & Jahreszeiten",
+      "en": "weather and seasons",
+      "words": [
+        { "de": "Wetter", "en": "weather", "pos": "noun", "article": "das", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "Sonne", "en": "sun", "pos": "noun", "article": "die", "plural": "Sonnen", "level": "A1", "goethe": "A1" },
+        { "de": "Regen", "en": "rain", "pos": "noun", "article": "der", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "Schnee", "en": "snow", "pos": "noun", "article": "der", "plural": "-", "note": "no plural", "level": "A2", "goethe": "A2" },
+        { "de": "Wind", "en": "wind", "pos": "noun", "article": "der", "plural": "Winde", "level": "A1", "goethe": "A1" },
+        { "de": "Wolke", "en": "cloud", "pos": "noun", "article": "die", "plural": "Wolken", "level": "A2", "goethe": "A2" },
+        { "de": "Gewitter", "en": "thunderstorm", "pos": "noun", "article": "das", "plural": "Gewitter", "level": "A2", "goethe": "A2" },
+        { "de": "Klima", "en": "climate", "pos": "noun", "article": "das", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "Grad", "en": "degree", "pos": "noun", "article": "der", "plural": "Grad", "level": "A1", "goethe": "A1" },
+        { "de": "Himmel", "en": "sky; heaven", "pos": "noun", "article": "der", "plural": "-", "note": "no plural (in this sense)", "level": "A2", "goethe": "A2" },
+        { "de": "regnen", "en": "to rain", "pos": "verb", "aux": "haben", "p2": "geregnet", "level": "A1", "goethe": "A1" },
+        { "de": "schneien", "en": "to snow", "pos": "verb", "aux": "haben", "p2": "geschneit", "level": "A2", "goethe": "A2" },
+        { "de": "scheinen", "en": "to shine", "pos": "verb", "aux": "haben", "p2": "geschienen", "level": "A1", "goethe": "A1" },
+        { "de": "warm", "en": "warm", "pos": "adj", "level": "A2", "goethe": "A2" },
+        { "de": "kalt", "en": "cold", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "heiß", "en": "hot", "pos": "adj", "level": "A2", "goethe": "A2" },
+        { "de": "nass", "en": "wet", "pos": "adj", "level": "A2", "goethe": "A2" },
+        { "de": "windig", "en": "windy", "pos": "adj", "level": "A2", "goethe": "A2" },
+        { "de": "Frühling", "en": "spring", "pos": "noun", "article": "der", "plural": "Frühlinge", "level": "A1", "goethe": "A1" },
+        { "de": "Temperatur", "en": "temperature", "pos": "noun", "article": "die", "plural": "Temperaturen", "level": "B1", "goethe": "B1" },
+        { "de": "Wettervorhersage", "en": "weather forecast", "pos": "noun", "article": "die", "plural": "Wettervorhersagen", "level": "B1", "goethe": "B1" },
+        { "de": "Sommer", "en": "summer", "pos": "noun", "article": "der", "plural": "Sommer", "level": "A1", "goethe": "A1" },
+        { "de": "Herbst", "en": "autumn", "pos": "noun", "article": "der", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "Winter", "en": "winter", "pos": "noun", "article": "der", "plural": "Winter", "level": "A1", "goethe": "A1" },
+        { "de": "Nebel", "en": "fog", "pos": "noun", "article": "der", "plural": "-", "level": "B1", "goethe": "B1" },
+        { "de": "Sturm", "en": "storm", "pos": "noun", "article": "der", "plural": "Stürme", "level": "B1", "goethe": "B1" },
+        { "de": "sonnig", "en": "sunny", "pos": "adj", "level": "A2", "goethe": "A2" },
+        { "de": "wolkig", "en": "cloudy", "pos": "adj", "level": "A2" }
+      ]
+    },
+    {
+      "name": "Natur & Landschaft",
+      "en": "nature and landscape",
+      "words": [
+        { "de": "Strand", "en": "beach", "pos": "noun", "article": "der", "plural": "Strände", "level": "A2", "goethe": "A2" },
+        { "de": "Berg", "en": "mountain", "pos": "noun", "article": "der", "plural": "Berge", "level": "A2", "goethe": "A2" },
+        { "de": "Wald", "en": "forest", "pos": "noun", "article": "der", "plural": "Wälder", "level": "A2", "goethe": "A2" },
+        { "de": "See", "en": "lake", "pos": "noun", "article": "der", "plural": "Seen", "level": "A1", "goethe": "A1" },
+        { "de": "Fluss", "en": "river", "pos": "noun", "article": "der", "plural": "Flüsse", "level": "A2", "goethe": "A2" },
+        { "de": "Meer", "en": "sea", "pos": "noun", "article": "das", "plural": "Meere", "level": "A1", "goethe": "A1" },
+        { "de": "Natur", "en": "nature", "pos": "noun", "article": "die", "plural": "-", "level": "A2", "goethe": "A2" },
+        { "de": "Landschaft", "en": "landscape", "pos": "noun", "article": "die", "plural": "Landschaften", "level": "A2", "goethe": "A2" },
+        { "de": "Insel", "en": "island", "pos": "noun", "article": "die", "plural": "Inseln", "level": "A2", "goethe": "A2" },
+        { "de": "Küste", "en": "coast", "pos": "noun", "article": "die", "plural": "Küsten", "level": "B1", "goethe": "B1" },
+        { "de": "Tal", "en": "valley", "pos": "noun", "article": "das", "plural": "Täler", "level": "B1", "goethe": "B1" },
+        { "de": "Wiese", "en": "meadow", "pos": "noun", "article": "die", "plural": "Wiesen", "level": "B1", "goethe": "B1" },
+        { "de": "Baum", "en": "tree", "pos": "noun", "article": "der", "plural": "Bäume", "level": "A1", "goethe": "A1" },
+        { "de": "Blume", "en": "flower", "pos": "noun", "article": "die", "plural": "Blumen", "level": "A1", "goethe": "A1" },
+        { "de": "Wanderweg", "en": "hiking trail", "pos": "noun", "article": "der", "plural": "Wanderwege", "level": "B1" },
+        { "de": "Aussicht", "en": "view", "pos": "noun", "article": "die", "plural": "Aussichten", "level": "B1", "goethe": "B1" }
+      ]
+    },
+    {
+      "name": "Erinnerungen",
+      "en": "memories",
+      "words": [
+        { "de": "Erinnerung", "en": "memory", "pos": "noun", "article": "die", "plural": "Erinnerungen", "level": "B1", "goethe": "B1" },
+        { "de": "Kindheit", "en": "childhood", "pos": "noun", "article": "die", "plural": "-", "level": "B1", "goethe": "B1" },
+        { "de": "Jugend", "en": "youth", "pos": "noun", "article": "die", "plural": "-", "level": "A2", "goethe": "A2" },
+        { "de": "Erlebnis", "en": "experience, event", "pos": "noun", "article": "das", "plural": "Erlebnisse", "level": "B1", "goethe": "B1" },
+        { "de": "Heimat", "en": "home country, home region", "pos": "noun", "article": "die", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "Vergangenheit", "en": "past", "pos": "noun", "article": "die", "plural": "-", "level": "B1", "goethe": "B1" },
+        { "de": "Foto", "en": "photo", "pos": "noun", "article": "das", "plural": "Fotos", "level": "A1", "goethe": "A1" },
+        { "de": "Überraschung", "en": "surprise", "pos": "noun", "article": "die", "plural": "Überraschungen", "level": "B1", "goethe": "B1" },
+        { "de": "Spielplatz", "en": "playground", "pos": "noun", "article": "der", "plural": "Spielplätze", "level": "B1", "goethe": "B1" },
+        { "de": "Hochzeit", "en": "wedding", "pos": "noun", "article": "die", "plural": "Hochzeiten", "level": "A1", "goethe": "A1" },
+        { "de": "Großeltern", "en": "grandparents", "pos": "noun", "article": "die", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "Alter", "en": "age", "pos": "noun", "article": "das", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "sich erinnern", "en": "to remember", "pos": "verb", "aux": "haben", "p2": "erinnert", "note": "sich erinnern an + Akk", "level": "A2", "goethe": "A2" },
+        { "de": "vergessen", "en": "to forget", "pos": "verb", "aux": "haben", "p2": "vergessen", "level": "A2", "goethe": "A2" },
+        { "de": "feiern", "en": "to celebrate", "pos": "verb", "aux": "haben", "p2": "gefeiert", "level": "A1", "goethe": "A1" },
+        { "de": "vermissen", "en": "to miss", "pos": "verb", "aux": "haben", "p2": "vermisst", "level": "B1", "goethe": "B1" },
+        { "de": "damals", "en": "back then", "pos": "adv", "level": "A2", "goethe": "A2" },
+        { "de": "früher", "en": "in the past, formerly", "pos": "adv", "level": "A1", "goethe": "A1" },
+        { "de": "plötzlich", "en": "suddenly", "pos": "adv", "level": "A2", "goethe": "A2" },
+        { "de": "Souvenir", "en": "souvenir", "pos": "noun", "article": "das", "plural": "Souvenirs", "level": "B1", "goethe": "B1" },
+        { "de": "Fotoalbum", "en": "photo album", "pos": "noun", "article": "das", "plural": "Fotoalben", "level": "B1" },
+        { "de": "erzählen", "en": "to tell", "pos": "verb", "aux": "haben", "p2": "erzählt", "level": "A1", "goethe": "A1" },
+        { "de": "sich verabschieden", "en": "to say goodbye", "pos": "verb", "aux": "haben", "p2": "verabschiedet", "level": "B1", "goethe": "B1" }
+      ]
+    },
+    {
+      "name": "Eindrücke",
+      "en": "impressions",
+      "words": [
+        { "de": "Eindruck", "en": "impression", "pos": "noun", "article": "der", "plural": "Eindrücke", "level": "B1", "goethe": "B1" },
+        { "de": "Wahrnehmung", "en": "perception", "pos": "noun", "article": "die", "plural": "Wahrnehmungen", "level": "C1" },
+        { "de": "Anschein", "en": "appearance, semblance", "pos": "noun", "article": "der", "plural": "-", "level": "C1" },
+        { "de": "Vorstellung", "en": "idea, imagination", "pos": "noun", "article": "die", "plural": "Vorstellungen", "level": "B1", "goethe": "B1" },
+        { "de": "Stimmung", "en": "mood, atmosphere", "pos": "noun", "article": "die", "plural": "Stimmungen", "level": "B1", "goethe": "B1" },
+        { "de": "Atmosphäre", "en": "atmosphere", "pos": "noun", "article": "die", "plural": "Atmosphären", "level": "C1" },
+        { "de": "Gesichtsausdruck", "en": "facial expression", "pos": "noun", "article": "der", "plural": "Gesichtsausdrücke", "level": "C1" },
+        { "de": "Täuschung", "en": "illusion, deception", "pos": "noun", "article": "die", "plural": "Täuschungen", "level": "C1" },
+        { "de": "Geräusch", "en": "noise, sound", "pos": "noun", "article": "das", "plural": "Geräusche", "level": "B1", "goethe": "B1" },
+        { "de": "Vermutung", "en": "assumption, suspicion", "pos": "noun", "article": "die", "plural": "Vermutungen", "level": "B2" },
+        { "de": "wirken", "en": "to seem, to appear", "pos": "verb", "aux": "haben", "p2": "gewirkt", "level": "B1", "goethe": "B1" },
+        { "de": "aussehen", "en": "to look, to appear", "pos": "verb", "aux": "haben", "sep": "aus", "p2": "ausgesehen", "level": "A1", "goethe": "A1" },
+        { "de": "klingen", "en": "to sound", "pos": "verb", "aux": "haben", "p2": "geklungen", "level": "B1", "goethe": "B1" },
+        { "de": "vortäuschen", "en": "to feign, to pretend", "pos": "verb", "aux": "haben", "sep": "vor", "p2": "vorgetäuscht", "level": "C1" },
+        { "de": "sich anfühlen", "en": "to feel (like)", "pos": "verb", "aux": "haben", "sep": "an", "p2": "angefühlt", "level": "C1" },
+        { "de": "vorkommen", "en": "to seem (to someone)", "pos": "verb", "aux": "sein", "sep": "vor", "p2": "vorgekommen", "level": "A2", "goethe": "A2" },
+        { "de": "sich einbilden", "en": "to imagine, to fancy", "pos": "verb", "aux": "haben", "sep": "ein", "p2": "eingebildet", "level": "C1" },
+        { "de": "auffallen", "en": "to stand out, to be noticed", "pos": "verb", "aux": "sein", "sep": "auf", "p2": "aufgefallen", "level": "B1", "goethe": "B1" },
+        { "de": "wahrnehmen", "en": "to perceive, to notice", "pos": "verb", "aux": "haben", "sep": "wahr", "p2": "wahrgenommen", "level": "C1" },
+        { "de": "offensichtlich", "en": "obvious", "pos": "adj", "level": "C1" },
+        { "de": "merkwürdig", "en": "strange, odd", "pos": "adj", "level": "B1", "goethe": "B1" },
+        { "de": "vertraut", "en": "familiar", "pos": "adj", "level": "B1", "goethe": "B1" },
+        { "de": "anscheinend", "en": "apparently", "pos": "adv", "level": "C1" },
+        { "de": "beeindrucken", "en": "to impress", "pos": "verb", "aux": "haben", "p2": "beeindruckt", "level": "B2" },
+        { "de": "beeindruckend", "en": "impressive", "pos": "adj", "level": "B2" },
+        { "de": "fremd", "en": "foreign, strange", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "einzigartig", "en": "unique", "pos": "adj", "level": "B2" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "de": "Ich möchte ein Zimmer für zwei Nächte buchen.", "en": "I would like to book a room for two nights.", "who": "you", "level": "A2" },
+    { "de": "Für wann möchten Sie das Zimmer?", "en": "For when would you like the room?", "who": "staff", "level": "A2" },
+    { "de": "Das Frühstück ist im Preis inbegriffen.", "en": "Breakfast is included in the price.", "who": "staff", "level": "B1" },
+    { "de": "Wann muss ich das Zimmer verlassen?", "en": "When do I have to check out?", "who": "you", "level": "B1" },
+    { "de": "Wie komme ich am besten zum Schloss?", "en": "What is the best way to get to the castle?", "who": "you", "level": "A2" },
+    { "de": "Was kostet der Eintritt?", "en": "How much is admission?", "who": "you", "level": "A2" },
+    { "de": "Die nächste Führung beginnt um 14 Uhr.", "en": "The next guided tour starts at 2 pm.", "who": "staff", "level": "B1" },
+    { "de": "Hier ist Fotografieren erlaubt.", "en": "Taking photos is allowed here.", "who": "staff", "level": "B1" },
+    { "de": "Wie wird das Wetter am Wochenende?", "en": "What will the weather be like at the weekend?", "who": "you", "level": "A2" },
+    { "de": "Morgen soll es regnen.", "en": "It is supposed to rain tomorrow.", "who": "staff", "level": "A2" },
+    { "de": "Es sind nur fünf Grad und es ist windig.", "en": "It is only five degrees and it is windy.", "who": "you", "level": "A2" },
+    { "de": "Wir sind am Samstag an den See gefahren.", "en": "On Saturday we went to the lake.", "who": "you", "level": "A2" },
+    { "de": "Der Ausflug hat mir sehr gut gefallen.", "en": "I really liked the trip.", "who": "you", "level": "A2" },
+    { "de": "Früher habe ich oft meine Großeltern besucht.", "en": "I used to visit my grandparents often.", "who": "you", "level": "B1" },
+    { "de": "Die Stadt hat einen sehr freundlichen Eindruck auf mich gemacht.", "en": "The city made a very friendly impression on me.", "who": "you", "level": "B2" }
+  ],
+  "exercises": [
+    { "type": "article", "word": "Reisebüro", "answer": "das", "explain": "Büro is neuter, so the compound is das Reisebüro." },
+    { "type": "article", "word": "Landschaft", "answer": "die", "explain": "Nouns ending in -schaft are feminine: die Landschaft." },
+    { "type": "article", "word": "Eintritt", "answer": "der", "explain": "Eintritt is masculine and has no plural: der Eintritt." },
+    { "type": "article", "word": "Temperatur", "answer": "die", "explain": "Nouns ending in -ur are feminine: die Temperatur." },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "die Altstadt",
+          "old town"
+        ],
+        [
+          "das Schloss",
+          "castle"
+        ],
+        [
+          "die Führung",
+          "guided tour"
+        ],
+        [
+          "der Eintritt",
+          "admission"
+        ]
+      ],
+      "explain": "Four words you meet at a sight."
+    },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "der Nebel",
+          "fog"
+        ],
+        [
+          "der Sturm",
+          "storm"
+        ],
+        [
+          "das Gewitter",
+          "thunderstorm"
+        ],
+        [
+          "der Schnee",
+          "snow"
+        ],
+        [
+          "die Wolke",
+          "cloud"
+        ]
+      ],
+      "explain": "Weather words, each with its article."
+    },
+    {
+      "type": "gap",
+      "q": "Wir haben ein Zimmer im Hotel ___.",
+      "answer": [
+        "gebucht"
+      ],
+      "explain": "Buchen forms the perfect with haben: wir haben gebucht."
+    },
+    {
+      "type": "gap",
+      "q": "Morgen ___ es den ganzen Tag.",
+      "answer": [
+        "regnet"
+      ],
+      "explain": "Regnen is used with es: es regnet."
+    },
+    {
+      "type": "gap",
+      "q": "Wir sind gestern am Bahnhof ___.",
+      "answer": [
+        "angekommen"
+      ],
+      "explain": "Ankommen is a verb of movement and uses sein: wir sind angekommen."
+    },
+    {
+      "type": "translate",
+      "en": "What will the weather be like tomorrow?",
+      "answer": [
+        "Wie wird das Wetter morgen?",
+        "Wie wird morgen das Wetter?",
+        "Wie ist morgen das Wetter?",
+        "Wie ist das Wetter morgen?"
+      ],
+      "explain": "Wie wird + subject asks about the future state of the weather."
+    },
+    {
+      "type": "translate",
+      "en": "We visited the castle and took many photos.",
+      "answer": [
+        "Wir haben das Schloss besichtigt und viele Fotos gemacht.",
+        "Wir haben das Schloss besucht und viele Fotos gemacht."
+      ],
+      "explain": "Both verbs use haben; das Schloss is neuter and stays das as the object."
+    },
+    {
+      "type": "mc",
+      "q": "At the hotel: \"Das Frühstück ist im Preis inbegriffen.\" What does this mean?",
+      "options": [
+        "Breakfast costs extra.",
+        "Breakfast is included in the price.",
+        "There is no breakfast."
+      ],
+      "answer": 1,
+      "explain": "Inbegriffen means included, so you do not pay extra for breakfast."
+    },
+    {
+      "type": "mc",
+      "q": "Which sentence describes a memory of your childhood?",
+      "options": [
+        "Früher habe ich oft am Fluss gespielt.",
+        "Morgen fahre ich nach Berlin.",
+        "Jetzt regnet es."
+      ],
+      "answer": 0,
+      "explain": "Früher plus the perfect tense talks about the past."
+    },
+    {
+      "type": "order",
+      "words": [
+        "Schloss",
+        "Wie",
+        "zum",
+        "ich",
+        "komme"
+      ],
+      "answer": "Wie komme ich zum Schloss",
+      "explain": "A question with a question word: Wie, then the verb, then the subject; zum = zu dem, and Schloss is neuter."
+    }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Ich möchte ein Zimmer für zwei Nächte buchen.", "en": "I would like to book a room for two nights." },
+      { "de": "Was kostet der Eintritt?", "en": "How much is admission?" },
+      { "de": "Wie wird das Wetter am Wochenende?", "en": "What will the weather be like at the weekend?" },
+      { "de": "Wir sind am Samstag an den See gefahren.", "en": "On Saturday we went to the lake." },
+      { "de": "Der Ausflug hat mir sehr gut gefallen.", "en": "I really liked the trip." },
+      { "de": "Früher habe ich oft meine Großeltern besucht.", "en": "I used to visit my grandparents often." }
+    ],
+    "prompts": [
+      { "q": "Guten Tag, was kann ich für Sie tun?", "qEn": "Good day, what can I do for you? (hotel reception)", "model": "Guten Tag. Ich habe ein Zimmer für zwei Nächte reserviert. Mein Name ist ...", "hint": "Say you have a reservation, for how long, and give your name." },
+      { "q": "Was habt ihr am Wochenende gemacht?", "qEn": "What did you do at the weekend? (a colleague asks)", "model": "Wir sind mit dem Zug in die Altstadt gefahren. Wir haben das Schloss besichtigt und viele Fotos gemacht.", "hint": "Use the perfect tense: two things you did." },
+      { "q": "Wie war dein Urlaub?", "qEn": "How was your holiday?", "model": "Er war sehr schön. Das Wetter war gut, und die Landschaft hat mir sehr gefallen.", "hint": "Say how it was and one thing you liked." },
+      { "q": "Möchten Sie an der Führung teilnehmen?", "qEn": "Would you like to join the guided tour? (at a museum desk)", "model": "Ja, gern. Wann beginnt die nächste Führung, und was kostet sie?", "hint": "Say yes and ask the time and the price." }
+    ]
+  }
+}

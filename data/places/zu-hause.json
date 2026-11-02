@@ -18,7 +18,15 @@
         { "de": "Balkon", "en": "balcony", "pos": "noun", "article": "der", "plural": "Balkone", "level": "A1", "goethe": "A1" },
         { "de": "Keller", "en": "cellar, basement", "pos": "noun", "article": "der", "plural": "Keller", "level": "A2", "goethe": "A2" },
         { "de": "WG", "en": "shared flat", "pos": "noun", "article": "die", "plural": "WGs", "level": "B1", "goethe": "B1" },
-        { "de": "Mitbewohner", "en": "flatmate", "pos": "noun", "article": "der", "plural": "Mitbewohner", "level": "A2" }
+        { "de": "Mitbewohner", "en": "flatmate", "pos": "noun", "article": "der", "plural": "Mitbewohner", "level": "A2" },
+        { "de": "Haus", "en": "house", "pos": "noun", "article": "das", "plural": "Häuser", "level": "A1", "goethe": "A1" },
+        { "de": "Tür", "en": "door", "pos": "noun", "article": "die", "plural": "Türen", "level": "A1", "goethe": "A1" },
+        { "de": "Fenster", "en": "window", "pos": "noun", "article": "das", "plural": "Fenster", "level": "A1", "goethe": "A1" },
+        { "de": "Garten", "en": "garden", "pos": "noun", "article": "der", "plural": "Gärten", "level": "A1", "goethe": "A1" },
+        { "de": "Treppe", "en": "stairs", "pos": "noun", "article": "die", "plural": "Treppen", "level": "A1", "goethe": "A1" },
+        { "de": "Aufzug", "en": "lift", "pos": "noun", "article": "der", "plural": "Aufzüge", "level": "A1", "goethe": "A1" },
+        { "de": "Wand", "en": "wall", "pos": "noun", "article": "die", "plural": "Wände", "level": "A2", "goethe": "A2" },
+        { "de": "Boden", "en": "floor, ground", "pos": "noun", "article": "der", "plural": "Böden", "level": "A2", "goethe": "A2" }
       ]
     },
     {
@@ -81,7 +89,7 @@
         { "de": "Müll", "en": "rubbish", "pos": "noun", "article": "der", "plural": "-", "level": "A2", "goethe": "A2" },
         { "de": "Restmüll", "en": "general waste", "pos": "noun", "article": "der", "plural": "-", "level": "B1" },
         { "de": "Biomüll", "en": "organic waste", "pos": "noun", "article": "der", "plural": "-", "level": "B1" },
-        { "de": "Gelbe Sack", "en": "yellow bag for plastic and packaging", "pos": "noun", "article": "der", "plural": "Gelbe Säcke", "level": "B1" },
+        { "de": "Gelbe Sack", "en": "yellow bag for plastic and packaging", "pos": "noun", "article": "der", "plural": "Gelbe Säcke", "level": "A2", "goethe": "A2" },
         { "de": "Altpapier", "en": "waste paper", "pos": "noun", "article": "das", "plural": "-", "level": "B1", "goethe": "B1" },
         { "de": "Altglas", "en": "waste glass", "pos": "noun", "article": "das", "plural": "-", "level": "B1" },
         { "de": "Pfand", "en": "deposit (on bottles)", "pos": "noun", "article": "das", "plural": "-", "level": "A2" },
@@ -89,7 +97,12 @@
         { "de": "Mülltonne", "en": "wheelie bin", "pos": "noun", "article": "die", "plural": "Mülltonnen", "level": "B1", "goethe": "B1" },
         { "de": "wegwerfen", "en": "to throw away", "pos": "verb", "aux": "haben", "sep": "weg", "p2": "weggeworfen", "level": "A2", "goethe": "A2" },
         { "de": "trennen", "en": "to separate, to sort", "pos": "verb", "aux": "haben", "p2": "getrennt", "level": "B1", "goethe": "B1" },
-        { "de": "entsorgen", "en": "to dispose of", "pos": "verb", "aux": "haben", "p2": "entsorgt", "level": "B1", "goethe": "B1" }
+        { "de": "entsorgen", "en": "to dispose of", "pos": "verb", "aux": "haben", "p2": "entsorgt", "level": "B1", "goethe": "B1" },
+        { "de": "Abfall", "en": "waste", "pos": "noun", "article": "der", "plural": "Abfälle", "level": "B1", "goethe": "B1" },
+        { "de": "Flasche", "en": "bottle", "pos": "noun", "article": "die", "plural": "Flaschen", "level": "A1", "goethe": "A1" },
+        { "de": "Glas", "en": "glass", "pos": "noun", "article": "das", "plural": "Gläser", "level": "A1", "goethe": "A1" },
+        { "de": "Papier", "en": "paper", "pos": "noun", "article": "das", "plural": "Papiere", "level": "A1", "goethe": "A1" },
+        { "de": "Plastik", "en": "plastic", "pos": "noun", "article": "das", "plural": "-", "level": "B1", "goethe": "B1" }
       ]
     },
     {
@@ -101,13 +114,93 @@
         { "de": "Hausmeister", "en": "caretaker", "pos": "noun", "article": "der", "plural": "Hausmeister", "level": "A2", "goethe": "A2" },
         { "de": "Vermieter", "en": "landlord", "pos": "noun", "article": "der", "plural": "Vermieter", "level": "A1", "goethe": "A1" },
         { "de": "Miete", "en": "rent", "pos": "noun", "article": "die", "plural": "Mieten", "level": "A1", "goethe": "A1" },
-        { "de": "Nebenkosten", "en": "service charges (utilities)", "pos": "noun", "article": "die", "plural": "Nebenkosten", "level": "B1" },
+        { "de": "Nebenkosten", "en": "service charges (utilities)", "pos": "noun", "article": "die", "plural": "-", "level": "B1" },
         { "de": "Mietvertrag", "en": "rental contract", "pos": "noun", "article": "der", "plural": "Mietverträge", "level": "B1", "goethe": "B1" },
-        { "de": "Ruhezeit", "en": "quiet hours", "pos": "noun", "article": "die", "plural": "Ruhezeiten", "level": "B2" },
+        { "de": "Ruhezeit", "en": "quiet hours", "pos": "noun", "article": "die", "plural": "Ruhezeiten", "level": "B1" },
         { "de": "Lärm", "en": "noise", "pos": "noun", "article": "der", "plural": "-", "level": "B1", "goethe": "B1" },
         { "de": "Treppenhaus", "en": "stairwell", "pos": "noun", "article": "das", "plural": "Treppenhäuser", "level": "B1", "goethe": "B1" },
         { "de": "Schlüssel", "en": "key", "pos": "noun", "article": "der", "plural": "Schlüssel", "level": "A1", "goethe": "A1" },
         { "de": "stören", "en": "to disturb", "pos": "verb", "aux": "haben", "p2": "gestört", "level": "A2", "goethe": "A2" }
+      ]
+    },
+    {
+      "name": "Einrichten",
+      "en": "furnishing and placing things",
+      "words": [
+        { "de": "Bild", "en": "picture", "pos": "noun", "article": "das", "plural": "Bilder", "level": "A1", "goethe": "A1" },
+        { "de": "Möbel", "en": "furniture", "pos": "noun", "article": "die", "plural": "-", "note": "plural only", "level": "A1", "goethe": "A1" },
+        { "de": "stellen", "en": "to put (upright)", "pos": "verb", "aux": "haben", "p2": "gestellt", "level": "A1", "goethe": "A1" },
+        { "de": "stehen", "en": "to stand", "pos": "verb", "aux": "haben", "p2": "gestanden", "level": "A1", "goethe": "A1" },
+        { "de": "legen", "en": "to lay, to put (flat)", "pos": "verb", "aux": "haben", "p2": "gelegt", "level": "A1", "goethe": "A1" },
+        { "de": "liegen", "en": "to lie, to be located (flat)", "pos": "verb", "aux": "haben", "p2": "gelegen", "level": "A1", "goethe": "A1" },
+        { "de": "hängen", "en": "to hang (position)", "pos": "verb", "aux": "haben", "p2": "gehangen", "note": "hang something up: hängen → gehängt", "level": "A2", "goethe": "A2" },
+        { "de": "groß", "en": "big", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "klein", "en": "small", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "einrichten", "en": "to furnish", "pos": "verb", "aux": "haben", "sep": "ein", "p2": "eingerichtet", "level": "B1", "goethe": "B1" },
+        { "de": "Teppich", "en": "carpet, rug", "pos": "noun", "article": "der", "plural": "Teppiche", "level": "B1", "goethe": "B1" },
+        { "de": "Vorhang", "en": "curtain", "pos": "noun", "article": "der", "plural": "Vorhänge", "level": "B1" },
+        { "de": "Steckdose", "en": "socket", "pos": "noun", "article": "die", "plural": "Steckdosen", "level": "B1", "goethe": "B1" }
+      ]
+    },
+    {
+      "name": "Tagesablauf",
+      "en": "daily routine",
+      "words": [
+        { "de": "Tagesablauf", "en": "daily routine", "pos": "noun", "article": "der", "plural": "Tagesabläufe", "level": "A1", "goethe": "A1" },
+        { "de": "Morgen", "en": "morning", "pos": "noun", "article": "der", "plural": "Morgen", "level": "A1", "goethe": "A1" },
+        { "de": "Mittag", "en": "noon; midday", "pos": "noun", "article": "der", "plural": "Mittage", "level": "A1", "goethe": "A1" },
+        { "de": "Nachmittag", "en": "afternoon", "pos": "noun", "article": "der", "plural": "Nachmittage", "level": "A1", "goethe": "A1" },
+        { "de": "Abend", "en": "evening", "pos": "noun", "article": "der", "plural": "Abende", "level": "A1", "goethe": "A1" },
+        { "de": "Nacht", "en": "night", "pos": "noun", "article": "die", "plural": "Nächte", "level": "A1", "goethe": "A1" },
+        { "de": "Frühstück", "en": "breakfast", "pos": "noun", "article": "das", "plural": "Frühstücke", "level": "A1", "goethe": "A1" },
+        { "de": "Pause", "en": "break", "pos": "noun", "article": "die", "plural": "Pausen", "level": "A1", "goethe": "A1" },
+        { "de": "aufstehen", "en": "to get up", "pos": "verb", "aux": "sein", "sep": "auf", "p2": "aufgestanden", "level": "A1", "goethe": "A1" },
+        { "de": "frühstücken", "en": "to have breakfast", "pos": "verb", "aux": "haben", "p2": "gefrühstückt", "level": "A1", "goethe": "A1" },
+        { "de": "duschen", "en": "to shower", "pos": "verb", "aux": "haben", "p2": "geduscht", "level": "A1", "goethe": "A1" },
+        { "de": "fernsehen", "en": "to watch TV", "pos": "verb", "aux": "haben", "sep": "fern", "p2": "ferngesehen", "level": "A1", "goethe": "A1" },
+        { "de": "jetzt", "en": "now", "pos": "adv", "level": "A1", "goethe": "A1" },
+        { "de": "spät", "en": "late", "pos": "adv", "level": "A1", "goethe": "A1" },
+        { "de": "dann", "en": "then", "pos": "adv", "level": "A1", "goethe": "A1" },
+        { "de": "Feierabend", "en": "end of the working day", "pos": "noun", "article": "der", "plural": "-", "level": "A1", "goethe": "A1" }
+      ]
+    },
+    {
+      "name": "Wege & Termine",
+      "en": "getting around and appointments",
+      "words": [
+        { "de": "anfangen", "en": "to begin", "pos": "verb", "aux": "haben", "sep": "an", "p2": "angefangen", "level": "A1", "goethe": "A1" },
+        { "de": "aufhören", "en": "to stop", "pos": "verb", "aux": "haben", "sep": "auf", "p2": "aufgehört", "level": "A1", "goethe": "A1" },
+        { "de": "ankommen", "en": "to arrive", "pos": "verb", "aux": "sein", "sep": "an", "p2": "angekommen", "level": "A1", "goethe": "A1" },
+        { "de": "abfahren", "en": "to depart", "pos": "verb", "aux": "sein", "sep": "ab", "p2": "abgefahren", "level": "A1", "goethe": "A1" },
+        { "de": "einsteigen", "en": "to get on; to board", "pos": "verb", "aux": "sein", "sep": "ein", "p2": "eingestiegen", "level": "A1", "goethe": "A1" },
+        { "de": "aussteigen", "en": "to get off", "pos": "verb", "aux": "sein", "sep": "aus", "p2": "ausgestiegen", "level": "A1", "goethe": "A1" },
+        { "de": "einkaufen", "en": "to shop", "pos": "verb", "aux": "haben", "sep": "ein", "p2": "eingekauft", "level": "A1", "goethe": "A1" },
+        { "de": "anrufen", "en": "to call (phone)", "pos": "verb", "aux": "haben", "sep": "an", "p2": "angerufen", "level": "A1", "goethe": "A1" },
+        { "de": "mitkommen", "en": "to come along", "pos": "verb", "aux": "sein", "sep": "mit", "p2": "mitgekommen", "level": "A1", "goethe": "A1" },
+        { "de": "mitnehmen", "en": "to take along", "pos": "verb", "aux": "haben", "sep": "mit", "p2": "mitgenommen", "level": "A1", "goethe": "A1" },
+        { "de": "abholen", "en": "to pick up", "pos": "verb", "aux": "haben", "sep": "ab", "p2": "abgeholt", "level": "A1", "goethe": "A1" },
+        { "de": "zurückkommen", "en": "to come back", "pos": "verb", "aux": "sein", "sep": "zurück", "p2": "zurückgekommen", "level": "B1", "goethe": "B1" }
+      ]
+    },
+    {
+      "name": "Umwelt & Energie",
+      "en": "environment and energy",
+      "words": [
+        { "de": "Natur", "en": "nature", "pos": "noun", "article": "die", "plural": "-", "level": "A2", "goethe": "A2" },
+        { "de": "Umwelt", "en": "environment", "pos": "noun", "article": "die", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "Klima", "en": "climate", "pos": "noun", "article": "das", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "Luft", "en": "air", "pos": "noun", "article": "die", "plural": "-", "level": "B1", "goethe": "B1" },
+        { "de": "Energie", "en": "energy", "pos": "noun", "article": "die", "plural": "Energien", "level": "B1", "goethe": "B1" },
+        { "de": "Wind", "en": "wind", "pos": "noun", "article": "der", "plural": "Winde", "level": "A1", "goethe": "A1" },
+        { "de": "Sonne", "en": "sun", "pos": "noun", "article": "die", "plural": "Sonnen", "level": "A1", "goethe": "A1" },
+        { "de": "Gas", "en": "gas", "pos": "noun", "article": "das", "plural": "Gase", "level": "B1", "goethe": "B1" },
+        { "de": "Strom", "en": "electricity, current", "pos": "noun", "article": "der", "plural": "Ströme", "level": "B1", "goethe": "B1" },
+        { "de": "Wasser", "en": "water", "pos": "noun", "article": "das", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "schützen", "en": "to protect", "pos": "verb", "aux": "haben", "p2": "geschützt", "level": "B1", "goethe": "B1" },
+        { "de": "sparen", "en": "to save", "pos": "verb", "aux": "haben", "p2": "gespart", "level": "A2", "goethe": "A2" },
+        { "de": "verbrauchen", "en": "to consume, to use up", "pos": "verb", "aux": "haben", "p2": "verbraucht", "level": "B1", "goethe": "B1" },
+        { "de": "herstellen", "en": "to produce, to manufacture", "pos": "verb", "aux": "haben", "sep": "her", "p2": "hergestellt", "level": "A2", "goethe": "A2" },
+        { "de": "verschmutzen", "en": "to pollute", "pos": "verb", "aux": "haben", "p2": "verschmutzt", "level": "B1", "goethe": "B1" }
       ]
     }
   ],

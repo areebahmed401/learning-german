@@ -3,7 +3,6 @@
   "level": "C1",
   "title": "Formelle Präpositionen",
   "concept": "Formal prepositions with Genitiv: angesichts, hinsichtlich, aufgrund, infolge, mittels",
-  "wordlist": "Wirtschaft & Finanzen",
   "minutes": 35,
   "youtube": "https://www.youtube.com/results?search_query=Learn+German+C1+Genitiv+Pr%C3%A4positionen+angesichts+aufgrund+hinsichtlich",
   "learn": [
@@ -67,30 +66,6 @@
     }
   ],
   "tip": "Think of the little word that follows: angesichts, aufgrund, hinsichtlich all end in -s or -t and all ask for the Genitiv (der, des, der, der). When you want to sound formal, swap weil + verb for aufgrund + des/der + noun.",
-  "words": [
-    { "de": "angesichts", "en": "in view of, given (+Gen)", "pos": "prep" },
-    { "de": "hinsichtlich", "en": "regarding, with respect to (+Gen)", "pos": "prep" },
-    { "de": "aufgrund", "en": "due to, because of (+Gen)", "pos": "prep" },
-    { "de": "infolge", "en": "as a result of (+Gen)", "pos": "prep" },
-    { "de": "mittels", "en": "by means of (+Gen)", "pos": "prep" },
-    { "de": "seitens", "en": "on the part of (+Gen)", "pos": "prep" },
-    { "de": "zwecks", "en": "for the purpose of (+Gen)", "pos": "prep" },
-    { "de": "anlässlich", "en": "on the occasion of (+Gen)", "pos": "prep" },
-    { "de": "bezüglich", "en": "concerning (+Gen)", "pos": "prep" },
-    { "de": "zugunsten", "en": "in favour of (+Gen)", "pos": "prep" },
-    { "de": "Rendite", "en": "return, yield", "pos": "noun", "article": "die", "plural": "Renditen" },
-    { "de": "Bilanz", "en": "balance sheet", "pos": "noun", "article": "die", "plural": "Bilanzen" },
-    { "de": "Umsatz", "en": "sales, turnover", "pos": "noun", "article": "der", "plural": "Umsätze" },
-    { "de": "Gewinn", "en": "profit", "pos": "noun", "article": "der", "plural": "Gewinne" },
-    { "de": "Verlust", "en": "loss", "pos": "noun", "article": "der", "plural": "Verluste" },
-    { "de": "Kredit", "en": "loan, credit", "pos": "noun", "article": "der", "plural": "Kredite" },
-    { "de": "Zins", "en": "interest (rate)", "pos": "noun", "article": "der", "plural": "Zinsen" },
-    { "de": "Rücklage", "en": "reserve, savings", "pos": "noun", "article": "die", "plural": "Rücklagen" },
-    { "de": "Konjunktur", "en": "economic cycle, economy", "pos": "noun", "article": "die", "plural": "Konjunkturen" },
-    { "de": "Haftung", "en": "liability", "pos": "noun", "article": "die", "plural": "-" },
-    { "de": "Steuererklärung", "en": "tax return", "pos": "noun", "article": "die", "plural": "Steuererklärungen" },
-    { "de": "Nachfrage", "en": "demand", "pos": "noun", "article": "die", "plural": "Nachfragen" }
-  ],
   "mindmap": {
     "label": "Formelle Präpositionen",
     "children": [

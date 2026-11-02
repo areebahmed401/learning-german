@@ -3,7 +3,6 @@
   "level": "C1",
   "title": "Konzessive Konnektoren",
   "concept": "Concession and contrast: wenngleich, zwar … aber, nichtsdestotrotz, es sei denn",
-  "wordlist": "Debatte & Meinung",
   "minutes": 40,
   "youtube": "https://www.youtube.com/results?search_query=Learn+German+C1+wenngleich+zwar+aber+nichtsdestotrotz+es+sei+denn+Konnektoren",
   "learn": [
@@ -44,33 +43,6 @@
     }
   ],
   "tip": "Concession = 'yes, but'. Zwar is the yes, aber is the but. Formal wenngleich is obwohl in a suit. Es sei denn = unless, one exception only.",
-  "words": [
-    { "de": "Ansicht", "en": "opinion, view", "pos": "noun", "article": "die", "plural": "Ansichten" },
-    { "de": "Debatte", "en": "debate", "pos": "noun", "article": "die", "plural": "Debatten" },
-    { "de": "Einschränkung", "en": "restriction, reservation", "pos": "noun", "article": "die", "plural": "Einschränkungen" },
-    { "de": "Zugeständnis", "en": "concession", "pos": "noun", "article": "das", "plural": "Zugeständnisse" },
-    { "de": "Widerspruch", "en": "contradiction, objection", "pos": "noun", "article": "der", "plural": "Widersprüche" },
-    { "de": "Mehrheit", "en": "majority", "pos": "noun", "article": "die", "plural": "Mehrheiten" },
-    { "de": "Minderheit", "en": "minority", "pos": "noun", "article": "die", "plural": "Minderheiten" },
-    { "de": "Zweifel", "en": "doubt", "pos": "noun", "article": "der", "plural": "Zweifel" },
-    { "de": "Haltung", "en": "attitude, stance", "pos": "noun", "article": "die", "plural": "Haltungen" },
-    { "de": "einräumen", "en": "to concede, to admit", "pos": "verb", "aux": "haben", "sep": "ein", "p2": "eingeräumt" },
-    { "de": "zugeben", "en": "to admit", "pos": "verb", "aux": "haben", "sep": "zu", "p2": "zugegeben" },
-    { "de": "bezweifeln", "en": "to doubt", "pos": "verb", "aux": "haben", "p2": "bezweifelt" },
-    { "de": "relativieren", "en": "to put into perspective", "pos": "verb", "aux": "haben", "p2": "relativiert" },
-    { "de": "hinterfragen", "en": "to question critically", "pos": "verb", "aux": "haben", "p2": "hinterfragt" },
-    { "de": "widerlegen", "en": "to refute", "pos": "verb", "aux": "haben", "p2": "widerlegt" },
-    { "de": "beharren", "en": "to insist (on)", "pos": "verb", "aux": "haben", "p2": "beharrt" },
-    { "de": "sich äußern", "en": "to express one's opinion", "pos": "verb", "aux": "haben", "p2": "geäußert" },
-    { "de": "umstritten", "en": "controversial", "pos": "adj" },
-    { "de": "berechtigt", "en": "justified", "pos": "adj" },
-    { "de": "fragwürdig", "en": "questionable", "pos": "adj" },
-    { "de": "wenngleich", "en": "although (formal)", "pos": "conj" },
-    { "de": "wohingegen", "en": "whereas", "pos": "conj" },
-    { "de": "es sei denn", "en": "unless", "pos": "conj" },
-    { "de": "nichtsdestotrotz", "en": "nevertheless", "pos": "adv" },
-    { "de": "allerdings", "en": "however, though", "pos": "adv" }
-  ],
   "mindmap": {
     "label": "Konzessiv & Kontrast",
     "children": [

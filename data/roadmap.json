@@ -9,92 +9,77 @@
         {
           "id": "a1-01-hallo",
           "title": "Hallo!",
-          "concept": "Greetings, alphabet & German sounds",
-          "wordlist": "Begrüßung"
+          "concept": "Greetings, alphabet & German sounds"
         },
         {
           "id": "a1-02-sein-haben",
           "title": "sein & haben",
-          "concept": "Personal pronouns, sein & haben",
-          "wordlist": "Länder & Sprachen"
+          "concept": "Personal pronouns, sein & haben"
         },
         {
           "id": "a1-03-praesens",
           "title": "Präsens & Satzbau",
-          "concept": "Present tense and verb-second word order",
-          "wordlist": "Hobbys & Alltag"
+          "concept": "Present tense and verb-second word order"
         },
         {
           "id": "a1-04-fragen",
           "title": "Fragen stellen",
-          "concept": "W-questions and yes/no questions",
-          "wordlist": "Zahlen"
+          "concept": "W-questions and yes/no questions"
         },
         {
           "id": "a1-05-artikel",
           "title": "Artikel & Genus",
-          "concept": "Articles and gender: der, die, das, ein, eine",
-          "wordlist": "Familie"
+          "concept": "Articles and gender: der, die, das, ein, eine"
         },
         {
           "id": "a1-06-plural",
           "title": "Plural",
-          "concept": "Plural forms of nouns",
-          "wordlist": "Wohnung & Möbel"
+          "concept": "Plural forms of nouns"
         },
         {
           "id": "a1-07-akkusativ",
           "title": "Akkusativ",
-          "concept": "The accusative case (den, einen)",
-          "wordlist": "Essen & Trinken"
+          "concept": "The accusative case (den, einen)"
         },
         {
           "id": "a1-08-negation",
           "title": "nicht & kein",
-          "concept": "Negation with nicht and kein",
-          "wordlist": "Einkaufen"
+          "concept": "Negation with nicht and kein"
         },
         {
           "id": "a1-09-possessiv",
           "title": "mein, dein, sein…",
-          "concept": "Possessive articles",
-          "wordlist": "Sachen & Farben"
+          "concept": "Possessive articles"
         },
         {
           "id": "a1-10-modalverben",
           "title": "Modalverben",
-          "concept": "können, müssen, wollen, dürfen, sollen, möchten",
-          "wordlist": "Freizeit"
+          "concept": "können, müssen, wollen, dürfen, sollen, möchten"
         },
         {
           "id": "a1-11-trennbare-verben",
           "title": "Trennbare Verben",
-          "concept": "Separable verbs (aufstehen, einkaufen)",
-          "wordlist": "Tagesablauf"
+          "concept": "Separable verbs (aufstehen, einkaufen)"
         },
         {
           "id": "a1-12-zeit",
           "title": "Uhrzeit & Termine",
-          "concept": "Telling time; am, um, im",
-          "wordlist": "Zeit & Termine"
+          "concept": "Telling time; am, um, im"
         },
         {
           "id": "a1-13-akk-praepositionen",
           "title": "für, ohne, durch…",
-          "concept": "Accusative prepositions",
-          "wordlist": "Stadt & Wege"
+          "concept": "Accusative prepositions"
         },
         {
           "id": "a1-14-imperativ",
           "title": "Imperativ",
-          "concept": "Giving instructions and requests",
-          "wordlist": "Beim Arzt"
+          "concept": "Giving instructions and requests"
         },
         {
           "id": "a1-15-perfekt-intro",
           "title": "Perfekt: Einstieg",
-          "concept": "Talking about the past with the Perfekt",
-          "wordlist": "Wochenende"
+          "concept": "Talking about the past with the Perfekt"
         }
       ]
     },
@@ -107,80 +92,67 @@
         {
           "id": "a2-01-perfekt",
           "title": "Perfekt komplett",
-          "concept": "Perfekt with haben/sein and irregular participles",
-          "wordlist": "Reisen"
+          "concept": "Perfekt with haben/sein and irregular participles"
         },
         {
           "id": "a2-02-dativ",
           "title": "Dativ",
-          "concept": "The dative case and dative verbs",
-          "wordlist": "Geschenke & Feiern"
+          "concept": "The dative case and dative verbs"
         },
         {
           "id": "a2-03-dativ-praepositionen",
           "title": "aus, bei, mit…",
-          "concept": "Dative prepositions",
-          "wordlist": "Verkehr & Unterwegs"
+          "concept": "Dative prepositions"
         },
         {
           "id": "a2-04-wechselpraepositionen",
           "title": "Wechselpräpositionen",
-          "concept": "Two-way prepositions; stellen/stehen, legen/liegen",
-          "wordlist": "Wohnung einrichten"
+          "concept": "Two-way prepositions; stellen/stehen, legen/liegen"
         },
         {
           "id": "a2-05-pronomen",
           "title": "Pronomen",
-          "concept": "Personal pronouns in all cases",
-          "wordlist": "Freunde & Beziehungen"
+          "concept": "Personal pronouns in all cases"
         },
         {
           "id": "a2-06-praeteritum-basis",
           "title": "war, hatte, konnte",
-          "concept": "Präteritum of sein, haben and modal verbs",
-          "wordlist": "Kindheit & Schule"
+          "concept": "Präteritum of sein, haben and modal verbs"
         },
         {
           "id": "a2-07-nebensaetze",
           "title": "weil, dass, wenn",
-          "concept": "Subordinate clauses: verb at the end",
-          "wordlist": "Arbeit & Beruf"
+          "concept": "Subordinate clauses: verb at the end"
         },
         {
           "id": "a2-08-adjektive",
           "title": "Adjektivendungen",
-          "concept": "Adjective endings after der/ein/no article",
-          "wordlist": "Aussehen & Charakter"
+          "concept": "Adjective endings after der/ein/no article"
         },
         {
           "id": "a2-09-komparativ",
           "title": "Komparativ & Superlativ",
-          "concept": "Comparing things",
-          "wordlist": "Wetter & Natur"
+          "concept": "Comparing things"
         },
         {
           "id": "a2-10-reflexiv",
           "title": "Reflexive Verben",
-          "concept": "sich waschen, sich freuen, sich erinnern",
-          "wordlist": "Körper & Gesundheit"
+          "concept": "sich waschen, sich freuen, sich erinnern"
         },
         {
           "id": "a2-11-wo-da",
           "title": "worauf? darauf!",
-          "concept": "Verbs with prepositions; wo- and da-words",
-          "wordlist": "Gefühle & Meinungen"
+          "concept": "Verbs with prepositions; wo- and da-words"
         },
         {
           "id": "a2-12-hoeflich",
           "title": "Ich hätte gern…",
-          "concept": "Polite Konjunktiv II: würde, hätte, könnte",
-          "wordlist": "Restaurant & Service"
+          "concept": "Polite Konjunktiv II: würde, hätte, könnte"
         },
         {
           "id": "a2-13-futur",
           "title": "Futur I",
-          "concept": "Talking about the future and plans",
-          "wordlist": "Zukunft & Pläne"
+          "concept": "Talking about the future and plans"
         }
       ]
     },
@@ -193,80 +165,67 @@
         {
           "id": "b1-01-praeteritum",
           "title": "Präteritum",
-          "concept": "Simple past for storytelling and writing",
-          "wordlist": "Geschichten & Medien"
+          "concept": "Simple past for storytelling and writing"
         },
         {
           "id": "b1-02-plusquamperfekt",
           "title": "Plusquamperfekt",
-          "concept": "Past perfect and nachdem",
-          "wordlist": "Lebenslauf"
+          "concept": "Past perfect and nachdem"
         },
         {
           "id": "b1-03-relativsaetze",
           "title": "Relativsätze",
-          "concept": "Relative clauses: der, die, das, dem, den, dessen",
-          "wordlist": "Wohnen & Nachbarschaft"
+          "concept": "Relative clauses: der, die, das, dem, den, dessen"
         },
         {
           "id": "b1-04-passiv",
           "title": "Passiv",
-          "concept": "Passive voice in present and past",
-          "wordlist": "Umwelt & Recycling"
+          "concept": "Passive voice in present and past"
         },
         {
           "id": "b1-05-zu-infinitiv",
           "title": "Infinitiv mit zu",
-          "concept": "Infinitive clauses: Ich habe vor, … zu …",
-          "wordlist": "Bewerbung"
+          "concept": "Infinitive clauses: Ich habe vor, … zu …"
         },
         {
           "id": "b1-06-um-zu-damit",
           "title": "um … zu / damit",
-          "concept": "Expressing purpose",
-          "wordlist": "Lernen & Studium"
+          "concept": "Expressing purpose"
         },
         {
           "id": "b1-07-konnektoren",
           "title": "obwohl, trotzdem, deshalb",
-          "concept": "Connectors for reason, contrast and consequence",
-          "wordlist": "Gesundheit & Sport"
+          "concept": "Connectors for reason, contrast and consequence"
         },
         {
           "id": "b1-08-temporalsaetze",
           "title": "als, wenn, während",
-          "concept": "Time clauses: als, wenn, während, bevor, bis, seit",
-          "wordlist": "Erinnerungen"
+          "concept": "Time clauses: als, wenn, während, bevor, bis, seit"
         },
         {
           "id": "b1-09-genitiv",
           "title": "Genitiv",
-          "concept": "Genitive case; wegen, trotz, während",
-          "wordlist": "Behörden & Ämter"
+          "concept": "Genitive case; wegen, trotz, während"
         },
         {
           "id": "b1-10-n-deklination",
           "title": "n-Deklination",
-          "concept": "Weak masculine nouns (der Kollege → den Kollegen)",
-          "wordlist": "Menschen & Berufe"
+          "concept": "Weak masculine nouns (der Kollege → den Kollegen)"
         },
         {
           "id": "b1-11-verben-praepositionen",
           "title": "Verben mit Präpositionen",
-          "concept": "warten auf, sich interessieren für, denken an",
-          "wordlist": "Kommunikation"
+          "concept": "warten auf, sich interessieren für, denken an"
         },
         {
           "id": "b1-12-doppelkonnektoren",
           "title": "sowohl … als auch",
-          "concept": "Two-part connectors",
-          "wordlist": "Reisen & Kultur"
+          "concept": "Two-part connectors"
         },
         {
           "id": "b1-13-konjunktiv2",
           "title": "Wenn ich … wäre",
-          "concept": "Konjunktiv II: wishes, advice and unreal conditions",
-          "wordlist": "Träume & Wünsche"
+          "concept": "Konjunktiv II: wishes, advice and unreal conditions"
         }
       ]
     },
@@ -279,80 +238,67 @@
         {
           "id": "b2-01-passiv-modal",
           "title": "Passiv mit Modalverben",
-          "concept": "Passive with modal verbs and Zustandspassiv (ist geöffnet)",
-          "wordlist": "Technik & Industrie"
+          "concept": "Passive with modal verbs and Zustandspassiv (ist geöffnet)"
         },
         {
           "id": "b2-02-passiversatz",
           "title": "lässt sich machen",
-          "concept": "Passive alternatives: sich lassen, -bar, sein + zu",
-          "wordlist": "Energie & Klima"
+          "concept": "Passive alternatives: sich lassen, -bar, sein + zu"
         },
         {
           "id": "b2-03-konjunktiv1",
           "title": "Konjunktiv I",
-          "concept": "Reported speech (indirekte Rede)",
-          "wordlist": "Nachrichten & Politik"
+          "concept": "Reported speech (indirekte Rede)"
         },
         {
           "id": "b2-04-konjunktiv2-vergangenheit",
           "title": "Hätte ich nur…",
-          "concept": "Konjunktiv II past: hätte gemacht, wäre gegangen",
-          "wordlist": "Entscheidungen im Leben"
+          "concept": "Konjunktiv II past: hätte gemacht, wäre gegangen"
         },
         {
           "id": "b2-05-modalverben-subjektiv",
           "title": "Er soll reich sein",
-          "concept": "Modal verbs for assumptions and hearsay",
-          "wordlist": "Vermutungen & Gerüchte"
+          "concept": "Modal verbs for assumptions and hearsay"
         },
         {
           "id": "b2-06-futur2",
           "title": "Futur II",
-          "concept": "Future perfect and assumptions about the past",
-          "wordlist": "Digitalisierung & KI"
+          "concept": "Future perfect and assumptions about the past"
         },
         {
           "id": "b2-07-partizipien",
           "title": "Partizipien als Adjektive",
-          "concept": "Participles as adjectives: der lachende Mann, das gekochte Ei",
-          "wordlist": "Wissenschaft & Forschung"
+          "concept": "Participles as adjectives: der lachende Mann, das gekochte Ei"
         },
         {
           "id": "b2-08-nominalisierung",
           "title": "Nominalisierung",
-          "concept": "Turning verbs and clauses into nouns",
-          "wordlist": "Berichte & Präsentationen"
+          "concept": "Turning verbs and clauses into nouns"
         },
         {
           "id": "b2-09-konnektoren",
           "title": "je … desto, indem, zumal",
-          "concept": "Advanced connectors: indem, sofern, zumal, je … desto",
-          "wordlist": "Argumentieren & Diskutieren"
+          "concept": "Advanced connectors: indem, sofern, zumal, je … desto"
         },
         {
           "id": "b2-10-nomen-verb",
           "title": "Nomen-Verb-Verbindungen",
-          "concept": "Fixed noun-verb phrases: eine Entscheidung treffen",
-          "wordlist": "Verhandlungen & Meetings"
+          "concept": "Fixed noun-verb phrases: eine Entscheidung treffen"
         },
         {
           "id": "b2-11-relativsaetze-plus",
           "title": "was, wo, wer & mit dem",
-          "concept": "Relative clauses with prepositions, was/wo/wer",
-          "wordlist": "Gesellschaft & Zusammenleben"
+          "concept": "Relative clauses with prepositions, was/wo/wer"
         },
         {
           "id": "b2-12-adjektive-praepositionen",
           "title": "stolz auf, abhängig von",
-          "concept": "Adjectives with fixed prepositions",
-          "wordlist": "Gefühle & Persönlichkeit"
+          "concept": "Adjectives with fixed prepositions"
         },
         {
           "id": "b2-13-ohne-statt",
           "title": "ohne … zu, statt … zu",
-          "concept": "ohne/statt/anstatt + zu and ohne dass/anstatt dass",
-          "wordlist": "Work-Life-Balance"
+          "concept": "ohne/statt/anstatt + zu and ohne dass/anstatt dass"
         }
       ]
     },
@@ -365,80 +311,67 @@
         {
           "id": "c1-01-partizipialattribute",
           "title": "Erweiterte Partizipialattribute",
-          "concept": "Extended participial attributes: die vom Ingenieur geplante Anlage",
-          "wordlist": "Ingenieurwesen & Technik"
+          "concept": "Extended participial attributes: die vom Ingenieur geplante Anlage"
         },
         {
           "id": "c1-02-nominalstil",
           "title": "Nominalstil vs. Verbalstil",
-          "concept": "Switching between noun-heavy written style and verb-based spoken style",
-          "wordlist": "Verwaltung & Behörden"
+          "concept": "Switching between noun-heavy written style and verb-based spoken style"
         },
         {
           "id": "c1-03-als-ob",
           "title": "als ob, als wäre",
-          "concept": "Unreal comparisons with Konjunktiv II: als ob, als wenn, als + verb",
-          "wordlist": "Eindrücke & Wahrnehmung"
+          "concept": "Unreal comparisons with Konjunktiv II: als ob, als wenn, als + verb"
         },
         {
           "id": "c1-04-konjunktiv-vertieft",
           "title": "Konjunktiv vertieft",
-          "concept": "hätte machen müssen, and Konjunktiv I in formal texts",
-          "wordlist": "Recht & Verträge"
+          "concept": "hätte machen müssen, and Konjunktiv I in formal texts"
         },
         {
           "id": "c1-05-passiv-vertieft",
           "title": "Passiv vertieft",
-          "concept": "Passive Perfekt (ist gebaut worden) and passive without a subject (es wird gearbeitet)",
-          "wordlist": "Medizin & Gesundheit"
+          "concept": "Passive Perfekt (ist gebaut worden) and passive without a subject (es wird gearbeitet)"
         },
         {
           "id": "c1-06-modalpartikeln",
           "title": "Modalpartikeln",
-          "concept": "Modal particles: doch, mal, ja, eben, halt, wohl, schon",
-          "wordlist": "Alltagsgespräche"
+          "concept": "Modal particles: doch, mal, ja, eben, halt, wohl, schon"
         },
         {
           "id": "c1-07-redewendungen",
           "title": "Redewendungen",
-          "concept": "Idioms and fixed expressions",
-          "wordlist": "Redewendungen & Sprichwörter"
+          "concept": "Idioms and fixed expressions"
         },
         {
           "id": "c1-08-konzessiv",
           "title": "Konzessive Konnektoren",
-          "concept": "Concession and contrast: wenngleich, zwar … aber, nichtsdestotrotz, es sei denn",
-          "wordlist": "Debatte & Meinung"
+          "concept": "Concession and contrast: wenngleich, zwar … aber, nichtsdestotrotz, es sei denn"
         },
         {
           "id": "c1-09-formelle-praepositionen",
           "title": "Formelle Präpositionen",
-          "concept": "Formal prepositions with Genitiv: angesichts, hinsichtlich, aufgrund, infolge, mittels",
-          "wordlist": "Wirtschaft & Finanzen"
+          "concept": "Formal prepositions with Genitiv: angesichts, hinsichtlich, aufgrund, infolge, mittels"
         },
         {
           "id": "c1-10-wortbildung",
           "title": "Wortbildung",
-          "concept": "Word formation: prefixes, suffixes, umfahren vs. umfahren",
-          "wordlist": "Wortbildung"
+          "concept": "Word formation: prefixes, suffixes, umfahren vs. umfahren"
         },
         {
           "id": "c1-11-wissenschaftlich",
           "title": "Wissenschaftliches Schreiben",
-          "concept": "Academic writing: hedging, citing, structuring an argument",
-          "wordlist": "Studium & Forschung"
+          "concept": "Academic writing: hedging, citing, structuring an argument"
         },
         {
           "id": "c1-12-register",
           "title": "Register & Stil",
-          "concept": "Formal, neutral and informal tone in emails and complaints",
-          "wordlist": "Beruf & Kommunikation"
+          "concept": "Formal, neutral and informal tone in emails and complaints"
         },
         {
           "id": "c1-13-praesentieren",
           "title": "Präsentieren & Diskutieren",
-          "concept": "Phrases for presentations, chairing a discussion and stating your position",
-          "wordlist": "Präsentation & Diskussion"
+          "concept": "Phrases for presentations, chairing a discussion and stating your position"
         }
       ]
     }

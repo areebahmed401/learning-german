@@ -3,7 +3,6 @@
   "level": "B1",
   "title": "Wenn ich … wäre",
   "concept": "Konjunktiv II: wishes, advice and unreal conditions",
-  "wordlist": "Träume & Wünsche",
   "minutes": 30,
   "youtube": "https://www.youtube.com/results?search_query=Learn+German+B1+Konjunktiv+II+w%C3%A4re+h%C3%A4tte+w%C3%BCrde",
   "learn": [
@@ -48,31 +47,6 @@
     }
   ],
   "tip": "Learn five chunks and you can already do 90 percent of what you need: Ich wäre gern … / Ich hätte gern … / Könnten Sie …? / An deiner Stelle würde ich … / Wenn ich … hätte, würde ich …",
-  "words": [
-    { "de": "Traum", "en": "dream", "pos": "noun", "article": "der", "plural": "Träume", "goethe": "A2" },
-    { "de": "Wunsch", "en": "wish", "pos": "noun", "article": "der", "plural": "Wünsche", "goethe": "A2" },
-    { "de": "Ziel", "en": "goal", "pos": "noun", "article": "das", "plural": "Ziele", "goethe": "A2" },
-    { "de": "Zukunft", "en": "future", "pos": "noun", "article": "die", "plural": "-", "goethe": "B1" },
-    { "de": "Glück", "en": "luck; happiness", "pos": "noun", "article": "das", "plural": "-", "goethe": "A1" },
-    { "de": "Erfolg", "en": "success", "pos": "noun", "article": "der", "plural": "Erfolge", "goethe": "A2" },
-    { "de": "Chance", "en": "opportunity", "pos": "noun", "article": "die", "plural": "Chancen", "goethe": "B1" },
-    { "de": "Plan", "en": "plan", "pos": "noun", "article": "der", "plural": "Pläne", "goethe": "A1" },
-    { "de": "Hoffnung", "en": "hope", "pos": "noun", "article": "die", "plural": "Hoffnungen", "goethe": "B1" },
-    { "de": "Karriere", "en": "career", "pos": "noun", "article": "die", "plural": "Karrieren", "goethe": "B1" },
-    { "de": "Rente", "en": "pension", "pos": "noun", "article": "die", "plural": "Renten", "goethe": "B1" },
-    { "de": "Freiheit", "en": "freedom", "pos": "noun", "article": "die", "plural": "Freiheiten", "goethe": "B1" },
-    { "de": "Erfindung", "en": "invention", "pos": "noun", "article": "die", "plural": "Erfindungen", "goethe": "B1" },
-    { "de": "träumen", "en": "to dream", "pos": "verb", "aux": "haben", "p2": "geträumt", "goethe": "A2" },
-    { "de": "wünschen", "en": "to wish", "pos": "verb", "aux": "haben", "p2": "gewünscht", "goethe": "A2" },
-    { "de": "hoffen", "en": "to hope", "pos": "verb", "aux": "haben", "p2": "gehofft", "goethe": "A2" },
-    { "de": "erreichen", "en": "to achieve, to reach", "pos": "verb", "aux": "haben", "p2": "erreicht", "goethe": "A2" },
-    { "de": "möglich", "en": "possible", "pos": "adj", "goethe": "A1" },
-    { "de": "vorhaben", "en": "to plan, to intend", "pos": "verb", "aux": "haben", "sep": "vor", "p2": "vorgehabt", "goethe": "B1" },
-    { "de": "aufgeben", "en": "to give up", "pos": "verb", "aux": "haben", "sep": "auf", "p2": "aufgegeben", "goethe": "B1" },
-    { "de": "realistisch", "en": "realistic", "pos": "adj", "goethe": "B1" },
-    { "de": "Mut", "en": "courage", "pos": "noun", "article": "der", "plural": "-", "goethe": "B1" },
-    { "de": "glücklich", "en": "happy", "pos": "adj", "goethe": "A1" }
-  ],
   "mindmap": {
     "label": "Konjunktiv II",
     "children": [

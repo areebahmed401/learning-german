@@ -3,7 +3,6 @@
   "level": "B2",
   "title": "ohne … zu, statt … zu",
   "concept": "ohne/statt/anstatt + zu and ohne dass/anstatt dass",
-  "wordlist": "Work-Life-Balance",
   "minutes": 30,
   "youtube": "https://www.youtube.com/results?search_query=Learn+German+B2+ohne+zu+statt+zu+ohne+dass+anstatt+dass",
   "learn": [
@@ -42,30 +41,6 @@
     }
   ],
   "tip": "One subject → ohne ... zu / (an)statt ... zu. Two different subjects → ohne dass / (an)statt dass. With a separable verb, zu goes in the middle: abzuschalten, auszuruhen.",
-  "words": [
-    { "de": "Freizeit", "en": "free time", "pos": "noun", "article": "die", "plural": "-" },
-    { "de": "Feierabend", "en": "end of the working day", "pos": "noun", "article": "der", "plural": "Feierabende" },
-    { "de": "Überstunde", "en": "overtime hour", "pos": "noun", "article": "die", "plural": "Überstunden" },
-    { "de": "Urlaub", "en": "holiday, leave", "pos": "noun", "article": "der", "plural": "Urlaube" },
-    { "de": "Homeoffice", "en": "working from home", "pos": "noun", "article": "das", "plural": "Homeoffices" },
-    { "de": "Stress", "en": "stress", "pos": "noun", "article": "der", "plural": "-" },
-    { "de": "Erholung", "en": "recovery, rest", "pos": "noun", "article": "die", "plural": "-" },
-    { "de": "Gleitzeit", "en": "flexitime", "pos": "noun", "article": "die", "plural": "-" },
-    { "de": "Arbeitsbelastung", "en": "workload", "pos": "noun", "article": "die", "plural": "Arbeitsbelastungen" },
-    { "de": "Wochenende", "en": "weekend", "pos": "noun", "article": "das", "plural": "Wochenenden" },
-    { "de": "Ausgleich", "en": "balance, compensation", "pos": "noun", "article": "der", "plural": "-" },
-    { "de": "Auszeit", "en": "break, time out", "pos": "noun", "article": "die", "plural": "Auszeiten" },
-    { "de": "abschalten", "en": "to switch off, to relax", "pos": "verb", "aux": "haben", "sep": "ab", "p2": "abgeschaltet" },
-    { "de": "sich entspannen", "en": "to relax", "pos": "verb", "aux": "haben", "p2": "entspannt" },
-    { "de": "sich ausruhen", "en": "to rest", "pos": "verb", "aux": "haben", "sep": "aus", "p2": "ausgeruht" },
-    { "de": "sich erholen", "en": "to recover", "pos": "verb", "aux": "haben", "p2": "erholt" },
-    { "de": "Überstunden machen", "en": "to work overtime", "pos": "phrase" },
-    { "de": "Grenzen setzen", "en": "to set boundaries", "pos": "phrase" },
-    { "de": "erreichbar", "en": "reachable, available", "pos": "adj" },
-    { "de": "gestresst", "en": "stressed", "pos": "adj" },
-    { "de": "ausgeglichen", "en": "balanced, even-tempered", "pos": "adj" },
-    { "de": "flexibel", "en": "flexible", "pos": "adj" }
-  ],
   "mindmap": {
     "label": "ohne / statt",
     "children": [

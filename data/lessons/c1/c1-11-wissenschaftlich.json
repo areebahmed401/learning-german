@@ -3,7 +3,6 @@
   "level": "C1",
   "title": "Wissenschaftliches Schreiben",
   "concept": "Academic writing: hedging, citing, structuring an argument",
-  "wordlist": "Studium & Forschung",
   "minutes": 35,
   "youtube": "https://www.youtube.com/results?search_query=Learn+German+C1+wissenschaftliches+Schreiben+Hausarbeit+Formulierungen",
   "learn": [
@@ -67,30 +66,6 @@
     }
   ],
   "tip": "Before each sentence ask: is this a fact (cite it), my opinion (hedge it) or a link to the last sentence (add a connector)? Three tools: laut/zufolge, dürfte/deutet darauf hin, and one connector per paragraph start.",
-  "words": [
-    { "de": "Hypothese", "en": "hypothesis", "pos": "noun", "article": "die", "plural": "Hypothesen" },
-    { "de": "These", "en": "thesis, claim", "pos": "noun", "article": "die", "plural": "Thesen" },
-    { "de": "Studie", "en": "study", "pos": "noun", "article": "die", "plural": "Studien" },
-    { "de": "Quelle", "en": "source", "pos": "noun", "article": "die", "plural": "Quellen" },
-    { "de": "Beleg", "en": "piece of evidence, reference", "pos": "noun", "article": "der", "plural": "Belege" },
-    { "de": "Fragestellung", "en": "research question", "pos": "noun", "article": "die", "plural": "Fragestellungen" },
-    { "de": "Ergebnis", "en": "result", "pos": "noun", "article": "das", "plural": "Ergebnisse" },
-    { "de": "Fazit", "en": "conclusion, summing up", "pos": "noun", "article": "das", "plural": "Fazits" },
-    { "de": "Literaturverzeichnis", "en": "bibliography", "pos": "noun", "article": "das", "plural": "Literaturverzeichnisse" },
-    { "de": "Betreuer", "en": "supervisor", "pos": "noun", "article": "der", "plural": "Betreuer" },
-    { "de": "belegen", "en": "to prove with evidence", "pos": "verb", "aux": "haben", "p2": "belegt" },
-    { "de": "untersuchen", "en": "to examine, to investigate", "pos": "verb", "aux": "haben", "p2": "untersucht" },
-    { "de": "zitieren", "en": "to cite, to quote", "pos": "verb", "aux": "haben", "p2": "zitiert" },
-    { "de": "darlegen", "en": "to set out, to explain", "pos": "verb", "aux": "haben", "sep": "dar", "p2": "dargelegt" },
-    { "de": "hinweisen", "en": "to point out (auf + Akk)", "pos": "verb", "aux": "haben", "sep": "hin", "p2": "hingewiesen" },
-    { "de": "berücksichtigen", "en": "to take into account", "pos": "verb", "aux": "haben", "p2": "berücksichtigt" },
-    { "de": "ableiten", "en": "to derive", "pos": "verb", "aux": "haben", "sep": "ab", "p2": "abgeleitet" },
-    { "de": "meines Erachtens", "en": "in my view", "pos": "phrase" },
-    { "de": "dem Autor zufolge", "en": "according to the author", "pos": "phrase" },
-    { "de": "einerseits … andererseits", "en": "on the one hand … on the other", "pos": "phrase" },
-    { "de": "vermutlich", "en": "presumably, probably", "pos": "adv" },
-    { "de": "tendenziell", "en": "tending to, as a tendency", "pos": "adv" }
-  ],
   "mindmap": {
     "label": "Wissenschaftliches Schreiben",
     "children": [

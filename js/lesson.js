@@ -1,14 +1,13 @@
-// Lesson view: Lernen · Wörter · Mindmap · Üben · Sprechen, one step at a time.
+// Lesson view: Lernen · Mindmap · Üben · Sprechen, one step at a time. Words live on the Alltag road (place.js).
 import { h, md, nounHTML, getLesson, getRoadmap, sayBtn, toast } from './util.js';
 import { speak, listen, compare, canListen, canSpeak } from './speech.js';
 import { runQuiz } from './exercises.js';
 import { renderMindmap } from './mindmap.js';
 import { openMindmapModal } from './mindmap-modal.js';
 import * as progress from './progress.js';
-import * as anki from './anki.js';
 
 export const STEPS = [
-  ['learn', 'Lernen'], ['words', 'Wörter'], ['mindmap', 'Mindmap'], ['practice', 'Üben'], ['speak', 'Sprechen'],
+  ['learn', 'Lernen'], ['mindmap', 'Mindmap'], ['practice', 'Üben'], ['speak', 'Sprechen'],
 ];
 
 export async function renderLesson(view, id, step = 'learn') {
@@ -28,7 +27,7 @@ export async function renderLesson(view, id, step = 'learn') {
   const head = h('header.lesson-head',
     h('a.back', { href: `#/road?at=${id}` }, '← Zurück zur Straße'),
     h('h1', lesson.title),
-    h('p', lesson.concept, ' · ', h('span.chip.accent', lesson.level), ' ', h('span.chip', `🗂 ${lesson.wordlist}`), ' ', h('span.chip', `⏱ ${lesson.minutes} min`)),
+    h('p', lesson.concept, ' · ', h('span.chip.accent', lesson.level), ' ', h('span.chip', `⏱ ${lesson.minutes} min`)),
   );
   const tabs = h('nav.steps', { 'aria-label': 'Lesson steps' },
     STEPS.map(([s, label], i) => h('a', {
@@ -47,7 +46,7 @@ export async function renderLesson(view, id, step = 'learn') {
   );
 
   view.replaceChildren(h('article.lesson', head, tabs, body, nav));
-  ({ learn, words, mindmap, practice, speak: speakStep })[step](body, lesson, skipTo);
+  ({ learn, mindmap, practice, speak: speakStep })[step](body, lesson, skipTo);
 }
 
 function learn(body, lesson) {
@@ -69,16 +68,6 @@ function learn(body, lesson) {
     h('div.muted', { style: 'font-size:.85rem' }, 'Opens YouTube in a new tab.'))));
 }
 
-const GOETHE_LEVELS = ['A1', 'A2', 'B1'];
-
-function goetheNote(lesson) {
-  if (!GOETHE_LEVELS.includes(lesson.level)) {
-    return h('span.chip', { title: 'The Goethe-Institut publishes official word lists for A1, A2 and B1 only' }, `No Goethe list for ${lesson.level}`);
-  }
-  const n = lesson.words.filter((w) => w.goethe).length;
-  return h('span.chip.accent', { title: 'Words from the official Goethe-Zertifikat word lists' }, `Goethe ${lesson.level} · ${n}/${lesson.words.length}`);
-}
-
 export function wordForms(w) {
   if (w.pos === 'noun') return w.plural && w.plural !== '-' ? `die ${w.plural}` : w.note || 'no plural';
   if (w.pos === 'verb') return [w.aux === 'sein' ? 'ist' : 'hat', w.p2].filter(Boolean).join(' ') + (w.sep ? ` · trennbar (${w.sep}-)` : '');
@@ -98,30 +87,6 @@ export function wordRow(w, extra = null) {
     h('span.en', w.en));
 }
 
-function words(body, lesson) {
-  const wrap = h('div.card');
-  const list = h('ul.wordlist', lesson.words.map((w) => wordRow(w)));
-  const hide = h('button.btn.small', {
-    type: 'button', 'aria-pressed': 'false',
-    onclick: () => {
-      const on = wrap.classList.toggle('hide-en');
-      hide.setAttribute('aria-pressed', on);
-      hide.textContent = on ? '👁 Show English' : '🙈 Hide English';
-    },
-  }, '🙈 Hide English');
-  wrap.append(
-    h('div.words-tools',
-      h('strong', `🗂 ${lesson.wordlist}`), h('span.muted', `${lesson.words.length} words`), goetheNote(lesson), h('span.spacer'),
-      hide,
-      h('button.btn.small', {
-        type: 'button', title: 'Download a file to import into Anki (File → Import)',
-        onclick: () => { anki.download(anki.lessonRows(lesson), `deutschweg-${lesson.id}.txt`); toast('Anki file saved: import it in Anki via File → Import'); },
-      }, '⬇ Anki')),
-    h('p.muted', { style: 'font-size:.85rem;margin:0 0 8px' }, 'Tap a word to see all its forms in the translator.'),
-    list);
-  body.append(wrap);
-}
-
 function mindmap(body, lesson) {
   const wrap = h('div.mindmap-wrap');
   body.append(
@@ -138,7 +103,7 @@ function practice(body, lesson, skipTo) {
     label,
     onFinish: ({ score, wrong, right, total }) => {
       // a mistakes-only review keeps the full-lesson score; it only shrinks the mistake list
-      if (subset.length === items.length) progress.recordPractice(lesson.id, score, wrong, lesson.words.length);
+      if (subset.length === items.length) progress.recordPractice(lesson.id, score, wrong);
       else progress.setMistakes(lesson.id, wrong);
       const pass = score >= progress.PASS;
       body.replaceChildren(h('div.card', h(`div.result${pass ? '' : '.fail'}`,

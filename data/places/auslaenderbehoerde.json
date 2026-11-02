@@ -26,11 +26,11 @@
       "name": "Unterlagen",
       "en": "documents to bring",
       "words": [
-        { "de": "Unterlagen", "en": "documents, papers", "pos": "noun", "article": "die", "plural": "Unterlagen", "level": "B1", "goethe": "B1" },
+        { "de": "Unterlagen", "en": "documents, papers", "pos": "noun", "article": "die", "plural": "-", "level": "B1", "goethe": "B1" },
         { "de": "Reisepass", "en": "passport", "pos": "noun", "article": "der", "plural": "Reisepässe", "level": "A1" },
-        { "de": "Meldebescheinigung", "en": "registration certificate", "pos": "noun", "article": "die", "plural": "Meldebescheinigungen", "level": "B2" },
+        { "de": "Meldebescheinigung", "en": "registration certificate", "pos": "noun", "article": "die", "plural": "Meldebescheinigungen", "level": "B1" },
         { "de": "Mietvertrag", "en": "rental contract", "pos": "noun", "article": "der", "plural": "Mietverträge", "level": "B1", "goethe": "B1" },
-        { "de": "Krankenversicherung", "en": "health insurance", "pos": "noun", "article": "die", "plural": "Krankenversicherungen", "level": "B1" },
+        { "de": "Krankenversicherung", "en": "health insurance", "pos": "noun", "article": "die", "plural": "Krankenversicherungen", "level": "A2" },
         { "de": "Finanzierungsnachweis", "en": "proof of financial means", "pos": "noun", "article": "der", "plural": "Finanzierungsnachweise", "level": "B2" },
         { "de": "Sperrkonto", "en": "blocked account", "pos": "noun", "article": "das", "plural": "Sperrkonten", "level": "B2" },
         { "de": "Immatrikulationsbescheinigung", "en": "certificate of enrolment", "pos": "noun", "article": "die", "plural": "Immatrikulationsbescheinigungen", "level": "C1" },
@@ -89,6 +89,31 @@
         { "de": "erteilen", "en": "to grant, to issue", "pos": "verb", "aux": "haben", "p2": "erteilt", "level": "C1" },
         { "de": "gültig", "en": "valid", "pos": "adj", "level": "A1", "goethe": "A1" },
         { "de": "befristet", "en": "limited in time", "pos": "adj", "level": "B2" }
+      ]
+    },
+    {
+      "name": "Behördensprache",
+      "en": "official language",
+      "words": [
+        { "de": "Zuständigkeit", "en": "responsibility, jurisdiction", "pos": "noun", "article": "die", "plural": "Zuständigkeiten", "level": "C1" },
+        { "de": "Genehmigung", "en": "permit, approval", "pos": "noun", "article": "die", "plural": "Genehmigungen", "level": "C1" },
+        { "de": "Nachweis", "en": "proof, evidence", "pos": "noun", "article": "der", "plural": "Nachweise", "level": "A1", "goethe": "A1" },
+        { "de": "Widerspruch", "en": "objection", "pos": "noun", "article": "der", "plural": "Widersprüche", "level": "B2" },
+        { "de": "Behörde", "en": "authority, public office", "pos": "noun", "article": "die", "plural": "Behörden", "level": "B1", "goethe": "B1" },
+        { "de": "Vorschrift", "en": "regulation, rule", "pos": "noun", "article": "die", "plural": "Vorschriften", "level": "B1", "goethe": "B1" },
+        { "de": "Anspruch", "en": "entitlement, claim", "pos": "noun", "article": "der", "plural": "Ansprüche", "level": "B1", "goethe": "B1" },
+        { "de": "Verfahren", "en": "procedure, proceedings", "pos": "noun", "article": "das", "plural": "Verfahren", "level": "C1" },
+        { "de": "Bearbeitung", "en": "processing", "pos": "noun", "article": "die", "plural": "Bearbeitungen", "level": "C1" },
+        { "de": "genehmigen", "en": "to approve", "pos": "verb", "aux": "haben", "p2": "genehmigt", "level": "B1", "goethe": "B1" },
+        { "de": "vorlegen", "en": "to submit, to present", "pos": "verb", "aux": "haben", "sep": "vor", "p2": "vorgelegt", "level": "C1" },
+        { "de": "einlegen", "en": "to lodge, to file (an objection)", "pos": "verb", "aux": "haben", "sep": "ein", "p2": "eingelegt", "level": "B2" },
+        { "de": "erlöschen", "en": "to expire, to lapse", "pos": "verb", "aux": "sein", "p2": "erloschen", "level": "C1" },
+        { "de": "bewilligen", "en": "to grant", "pos": "verb", "aux": "haben", "p2": "bewilligt", "level": "C1" },
+        { "de": "ablehnen", "en": "to reject", "pos": "verb", "aux": "haben", "sep": "ab", "p2": "abgelehnt", "level": "B1", "goethe": "B1" },
+        { "de": "nachreichen", "en": "to submit later", "pos": "verb", "aux": "haben", "sep": "nach", "p2": "nachgereicht", "level": "C1" },
+        { "de": "zuständig", "en": "responsible, competent", "pos": "adj", "level": "B1", "goethe": "B1" },
+        { "de": "fristgerecht", "en": "within the deadline", "pos": "adj", "level": "C1" },
+        { "de": "erforderlich", "en": "required, necessary", "pos": "adj", "level": "B1", "goethe": "B1" }
       ]
     }
   ],

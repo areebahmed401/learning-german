@@ -3,7 +3,6 @@
   "level": "C1",
   "title": "Modalpartikeln",
   "concept": "Modal particles: doch, mal, ja, eben, halt, wohl, schon",
-  "wordlist": "Alltagsgespräche",
   "minutes": 40,
   "youtube": "https://www.youtube.com/results?search_query=Learn+German+C1+Modalpartikeln+doch+mal+ja+eben+halt+wohl+schon",
   "learn": [
@@ -55,30 +54,6 @@
     }
   ],
   "tip": "Particles are the music of German: they carry feelings, not facts. Take them out and the grammar stays correct, but the tone gets cold. Try one per sentence in speech, no more.",
-  "words": [
-    { "de": "doch", "en": "particle: friendly push; also: yes, I do", "pos": "adv" },
-    { "de": "mal", "en": "particle: softens a request; also: once", "pos": "adv" },
-    { "de": "ja", "en": "particle: as you know, surprise; also: yes", "pos": "adv" },
-    { "de": "eben", "en": "particle: just how it is; also: just now", "pos": "adv" },
-    { "de": "halt", "en": "particle: that's just how it is (casual)", "pos": "adv" },
-    { "de": "wohl", "en": "particle: probably", "pos": "adv" },
-    { "de": "schon", "en": "particle: reassurance; also: already", "pos": "adv" },
-    { "de": "denn", "en": "particle in questions: then, ever", "pos": "adv" },
-    { "de": "bloß", "en": "particle: (in warnings) just, ever", "pos": "adv" },
-    { "de": "eigentlich", "en": "actually, by the way", "pos": "adv" },
-    { "de": "vielleicht", "en": "particle: (in exclamations) really, what a", "pos": "adv" },
-    { "de": "ruhig", "en": "particle: go ahead, feel free to", "pos": "adv" },
-    { "de": "Na ja", "en": "well, oh well", "pos": "phrase" },
-    { "de": "Keine Ahnung", "en": "no idea", "pos": "phrase" },
-    { "de": "Ach so", "en": "oh, I see", "pos": "phrase" },
-    { "de": "Mal sehen", "en": "we'll see", "pos": "phrase" },
-    { "de": "Kein Problem", "en": "no problem", "pos": "phrase" },
-    { "de": "sich melden", "en": "to get in touch, to report", "pos": "verb", "aux": "haben", "p2": "gemeldet" },
-    { "de": "vorbeikommen", "en": "to come over, to drop by", "pos": "verb", "aux": "sein", "sep": "vorbei", "p2": "vorbeigekommen" },
-    { "de": "sich verabreden", "en": "to arrange to meet", "pos": "verb", "aux": "haben", "p2": "verabredet" },
-    { "de": "absagen", "en": "to cancel, to decline", "pos": "verb", "aux": "haben", "sep": "ab", "p2": "abgesagt" },
-    { "de": "quatschen", "en": "to chat (casual)", "pos": "verb", "aux": "haben", "p2": "gequatscht" }
-  ],
   "mindmap": {
     "label": "Modalpartikeln",
     "children": [

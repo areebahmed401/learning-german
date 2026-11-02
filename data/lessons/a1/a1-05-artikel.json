@@ -3,7 +3,6 @@
   "level": "A1",
   "title": "Artikel & Genus",
   "concept": "Articles and gender: der, die, das, ein, eine",
-  "wordlist": "Familie",
   "minutes": 25,
   "youtube": "https://www.youtube.com/results?search_query=Learn+German+A1+articles+der+die+das",
   "learn": [
@@ -50,33 +49,6 @@
     }
   ],
   "tip": "Colour-code every noun card in Anki: der = blue, die = red, das = green. Your brain remembers the colour along with the word. (This app uses the same colours.)",
-  "words": [
-    { "de": "Familie", "en": "family", "pos": "noun", "article": "die", "plural": "Familien", "goethe": "A1" },
-    { "de": "Mutter", "en": "mother", "pos": "noun", "article": "die", "plural": "Mütter", "goethe": "A1" },
-    { "de": "Vater", "en": "father", "pos": "noun", "article": "der", "plural": "Väter", "goethe": "A1" },
-    { "de": "Eltern", "en": "parents", "pos": "noun", "article": "die", "plural": "-", "note": "plural only", "goethe": "A1" },
-    { "de": "Kind", "en": "child", "pos": "noun", "article": "das", "plural": "Kinder", "goethe": "A1" },
-    { "de": "Sohn", "en": "son", "pos": "noun", "article": "der", "plural": "Söhne", "goethe": "A1" },
-    { "de": "Tochter", "en": "daughter", "pos": "noun", "article": "die", "plural": "Töchter", "goethe": "A1" },
-    { "de": "Bruder", "en": "brother", "pos": "noun", "article": "der", "plural": "Brüder", "goethe": "A1" },
-    { "de": "Schwester", "en": "sister", "pos": "noun", "article": "die", "plural": "Schwestern", "goethe": "A1" },
-    { "de": "Geschwister", "en": "siblings", "pos": "noun", "article": "die", "plural": "-", "note": "plural only", "goethe": "A1" },
-    { "de": "Großvater", "en": "grandfather", "pos": "noun", "article": "der", "plural": "Großväter", "goethe": "A1" },
-    { "de": "Großmutter", "en": "grandmother", "pos": "noun", "article": "die", "plural": "Großmütter", "goethe": "A1" },
-    { "de": "Oma", "en": "grandma", "pos": "noun", "article": "die", "plural": "Omas", "goethe": "A1" },
-    { "de": "Opa", "en": "grandpa", "pos": "noun", "article": "der", "plural": "Opas", "goethe": "A1" },
-    { "de": "Verwandte", "en": "relative", "pos": "noun", "article": "der", "plural": "Verwandten", "goethe": "A1" },
-    { "de": "Ehefrau", "en": "wife", "pos": "noun", "article": "die", "plural": "Ehefrauen", "goethe": "A1" },
-    { "de": "Ehemann", "en": "husband", "pos": "noun", "article": "der", "plural": "Ehemänner", "goethe": "A1" },
-    { "de": "Großeltern", "en": "grandparents", "pos": "noun", "article": "die", "plural": "-", "goethe": "A1" },
-    { "de": "Mann", "en": "man; husband", "pos": "noun", "article": "der", "plural": "Männer", "goethe": "A1" },
-    { "de": "Frau", "en": "woman; wife", "pos": "noun", "article": "die", "plural": "Frauen", "goethe": "A1" },
-    { "de": "Baby", "en": "baby", "pos": "noun", "article": "das", "plural": "Babys", "goethe": "A1" },
-    { "de": "Mädchen", "en": "girl", "pos": "noun", "article": "das", "plural": "Mädchen", "goethe": "A1" },
-    { "de": "Junge", "en": "boy", "pos": "noun", "article": "der", "plural": "Jungen", "goethe": "A1" },
-    { "de": "verheiratet", "en": "married", "pos": "adj", "goethe": "A1" },
-    { "de": "ledig", "en": "single (not married)", "pos": "adj", "goethe": "A1" }
-  ],
   "mindmap": {
     "label": "Artikel",
     "children": [

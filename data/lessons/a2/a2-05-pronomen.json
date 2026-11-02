@@ -3,7 +3,6 @@
   "level": "A2",
   "title": "Pronomen",
   "concept": "Personal pronouns in all cases",
-  "wordlist": "Freunde & Beziehungen",
   "minutes": 25,
   "youtube": "https://www.youtube.com/results?search_query=Learn+German+A2+Personalpronomen+Nominativ+Akkusativ+Dativ",
   "learn": [
@@ -56,32 +55,6 @@
     }
   ],
   "tip": "Ihn and ihm both start with ih-: the Akkusativ is the shorter form (ihn), the Dativ ends in -m (ihm), just like dem. Think: m = Dativ for mir, ihm, dem.",
-  "words": [
-    { "de": "Freund", "en": "friend (male); boyfriend", "pos": "noun", "article": "der", "plural": "Freunde", "goethe": "A1" },
-    { "de": "Freundin", "en": "friend (female); girlfriend", "pos": "noun", "article": "die", "plural": "Freundinnen", "goethe": "A1" },
-    { "de": "Nachbar", "en": "neighbour (male)", "pos": "noun", "article": "der", "plural": "Nachbarn", "goethe": "A2" },
-    { "de": "Nachbarin", "en": "neighbour (female)", "pos": "noun", "article": "die", "plural": "Nachbarinnen", "goethe": "A2" },
-    { "de": "Kollege", "en": "coworker (male)", "pos": "noun", "article": "der", "plural": "Kollegen", "goethe": "A1" },
-    { "de": "Kollegin", "en": "coworker (female)", "pos": "noun", "article": "die", "plural": "Kolleginnen", "goethe": "A1" },
-    { "de": "Gast", "en": "guest", "pos": "noun", "article": "der", "plural": "Gäste", "goethe": "A1" },
-    { "de": "Partner", "en": "partner", "pos": "noun", "article": "der", "plural": "Partner", "goethe": "A1" },
-    { "de": "Liebe", "en": "love", "pos": "noun", "article": "die", "plural": "-", "goethe": "A1" },
-    { "de": "Treffen", "en": "meeting, get-together", "pos": "noun", "article": "das", "plural": "Treffen", "goethe": "A1" },
-    { "de": "Problem", "en": "problem", "pos": "noun", "article": "das", "plural": "Probleme", "goethe": "A1" },
-    { "de": "Hilfe", "en": "help", "pos": "noun", "article": "die", "plural": "-", "goethe": "A1" },
-    { "de": "kennenlernen", "en": "to get to know, to meet", "pos": "verb", "aux": "haben", "sep": "kennen", "p2": "kennengelernt", "goethe": "A1" },
-    { "de": "treffen", "en": "to meet", "pos": "verb", "aux": "haben", "p2": "getroffen", "goethe": "A1" },
-    { "de": "anrufen", "en": "to call, to phone", "pos": "verb", "aux": "haben", "sep": "an", "p2": "angerufen", "goethe": "A1" },
-    { "de": "besuchen", "en": "to visit", "pos": "verb", "aux": "haben", "p2": "besucht", "goethe": "A1" },
-    { "de": "sich verlieben", "en": "to fall in love", "pos": "verb", "aux": "haben", "p2": "verliebt", "goethe": "A2" },
-    { "de": "heiraten", "en": "to marry", "pos": "verb", "aux": "haben", "p2": "geheiratet", "goethe": "A1" },
-    { "de": "streiten", "en": "to quarrel", "pos": "verb", "aux": "haben", "p2": "gestritten", "goethe": "A2" },
-    { "de": "abholen", "en": "to pick up", "pos": "verb", "aux": "haben", "sep": "ab", "p2": "abgeholt", "goethe": "A1" },
-    { "de": "nett", "en": "nice", "pos": "adj", "goethe": "A2" },
-    { "de": "sympathisch", "en": "likeable, pleasant", "pos": "adj", "goethe": "A2" },
-    { "de": "witzig", "en": "funny", "pos": "adj", "goethe": "A2" },
-    { "de": "zusammen", "en": "together", "pos": "adv", "goethe": "A1" }
-  ],
   "mindmap": {
     "label": "Personalpronomen",
     "children": [

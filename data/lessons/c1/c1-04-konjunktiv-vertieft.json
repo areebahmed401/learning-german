@@ -3,7 +3,6 @@
   "level": "C1",
   "title": "Konjunktiv vertieft",
   "concept": "hätte machen müssen, and Konjunktiv I in formal texts",
-  "wordlist": "Recht & Verträge",
   "minutes": 40,
   "youtube": "https://www.youtube.com/results?search_query=Learn+German+C1+Konjunktiv+2+Modalverben+Vergangenheit+Konjunktiv+1",
   "learn": [
@@ -66,32 +65,6 @@
     }
   ],
   "tip": "Regret with a modal = hätte + Infinitiv + Modal-Infinitiv (no Partizip II). Reporting in formal texts = Konjunktiv I (er habe, sie sei); if it looks like the Indikativ, switch to Konjunktiv II.",
-  "words": [
-    { "de": "Vertrag", "en": "contract", "pos": "noun", "article": "der", "plural": "Verträge" },
-    { "de": "Kündigung", "en": "termination, notice", "pos": "noun", "article": "die", "plural": "Kündigungen" },
-    { "de": "Klausel", "en": "clause", "pos": "noun", "article": "die", "plural": "Klauseln" },
-    { "de": "Haftung", "en": "liability", "pos": "noun", "article": "die", "plural": "-" },
-    { "de": "Schadensersatz", "en": "compensation, damages", "pos": "noun", "article": "der", "plural": "-" },
-    { "de": "Mieter", "en": "tenant", "pos": "noun", "article": "der", "plural": "Mieter" },
-    { "de": "Kläger", "en": "plaintiff", "pos": "noun", "article": "der", "plural": "Kläger" },
-    { "de": "Verstoß", "en": "violation, breach", "pos": "noun", "article": "der", "plural": "Verstöße" },
-    { "de": "Verpflichtung", "en": "obligation", "pos": "noun", "article": "die", "plural": "Verpflichtungen" },
-    { "de": "Vereinbarung", "en": "agreement", "pos": "noun", "article": "die", "plural": "Vereinbarungen" },
-    { "de": "Urteil", "en": "judgment, verdict", "pos": "noun", "article": "das", "plural": "Urteile" },
-    { "de": "Laufzeit", "en": "term, duration", "pos": "noun", "article": "die", "plural": "Laufzeiten" },
-    { "de": "Mangel", "en": "defect", "pos": "noun", "article": "der", "plural": "Mängel" },
-    { "de": "unterzeichnen", "en": "to sign", "pos": "verb", "aux": "haben", "p2": "unterzeichnet" },
-    { "de": "kündigen", "en": "to terminate, to give notice", "pos": "verb", "aux": "haben", "p2": "gekündigt" },
-    { "de": "verstoßen", "en": "to violate (gegen)", "pos": "verb", "aux": "haben", "p2": "verstoßen" },
-    { "de": "haften", "en": "to be liable", "pos": "verb", "aux": "haben", "p2": "gehaftet" },
-    { "de": "anfechten", "en": "to contest, to challenge", "pos": "verb", "aux": "haben", "sep": "an", "p2": "angefochten" },
-    { "de": "einhalten", "en": "to comply with, to keep", "pos": "verb", "aux": "haben", "sep": "ein", "p2": "eingehalten" },
-    { "de": "abschließen", "en": "to conclude (a contract)", "pos": "verb", "aux": "haben", "sep": "ab", "p2": "abgeschlossen" },
-    { "de": "sich verpflichten", "en": "to commit oneself", "pos": "verb", "aux": "haben", "p2": "verpflichtet" },
-    { "de": "rechtswidrig", "en": "unlawful", "pos": "adj" },
-    { "de": "verbindlich", "en": "binding", "pos": "adj" },
-    { "de": "wirksam", "en": "effective, valid", "pos": "adj" }
-  ],
   "mindmap": {
     "label": "Konjunktiv vertieft",
     "children": [

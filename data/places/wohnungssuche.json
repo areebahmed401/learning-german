@@ -1,0 +1,286 @@
+{
+  "id": "wohnungssuche",
+  "icon": "🔑",
+  "title": "Wohnungssuche",
+  "en": "Flat hunting",
+  "intro": "You read flat ads, go to a viewing, talk to the landlord and sign a rental contract. A few abbreviations (Kaltmiete, Warmmiete, NK) and the deposit rules decide most of what you pay.",
+  "areas": [
+    {
+      "name": "Anzeigen",
+      "en": "listings and ads",
+      "words": [
+        { "de": "Wohnung", "en": "flat, apartment", "pos": "noun", "article": "die", "plural": "Wohnungen", "level": "A1", "goethe": "A1" },
+        { "de": "Miete", "en": "rent", "pos": "noun", "article": "die", "plural": "Mieten", "level": "A1", "goethe": "A1" },
+        { "de": "mieten", "en": "to rent (as a tenant)", "pos": "verb", "aux": "haben", "p2": "gemietet", "level": "A1", "goethe": "A1" },
+        { "de": "vermieten", "en": "to rent out", "pos": "verb", "aux": "haben", "p2": "vermietet", "level": "A1", "goethe": "A1" },
+        { "de": "Anzeige", "en": "ad, listing", "pos": "noun", "article": "die", "plural": "Anzeigen", "level": "A1", "goethe": "A1" },
+        { "de": "WG", "en": "shared flat (WG)", "pos": "noun", "article": "die", "plural": "WGs", "level": "B1", "goethe": "B1" },
+        { "de": "Zimmer", "en": "room", "pos": "noun", "article": "das", "plural": "Zimmer", "level": "A1", "goethe": "A1" },
+        { "de": "Kaltmiete", "en": "base rent (without utilities)", "pos": "noun", "article": "die", "plural": "Kaltmieten", "level": "B1" },
+        { "de": "Warmmiete", "en": "total rent (incl. heating and utilities)", "pos": "noun", "article": "die", "plural": "Warmmieten", "level": "B1" },
+        { "de": "Nebenkosten", "en": "service charges, utilities (NK)", "pos": "noun", "article": "die", "plural": "-", "note": "plural only", "level": "B1" },
+        { "de": "Quadratmeter", "en": "square metre", "pos": "noun", "article": "der", "plural": "Quadratmeter", "level": "A1", "goethe": "A1" },
+        { "de": "Altbau", "en": "old building (pre-war)", "pos": "noun", "article": "der", "plural": "Altbauten", "level": "B1", "goethe": "B1" },
+        { "de": "Neubau", "en": "new building", "pos": "noun", "article": "der", "plural": "Neubauten", "level": "B2" },
+        { "de": "Einbauküche", "en": "fitted kitchen", "pos": "noun", "article": "die", "plural": "Einbauküchen", "level": "B2" },
+        { "de": "Mitbewohner", "en": "flatmate", "pos": "noun", "article": "der", "plural": "Mitbewohner", "level": "A2" },
+        { "de": "Untermiete", "en": "subletting", "pos": "noun", "article": "die", "plural": "-", "level": "B2" },
+        { "de": "möbliert", "en": "furnished", "pos": "adj", "level": "B1", "goethe": "B1" },
+        { "de": "frei", "en": "free, available", "pos": "adj", "level": "A1", "goethe": "A1" }
+      ]
+    },
+    {
+      "name": "Besichtigung",
+      "en": "viewing the flat",
+      "words": [
+        { "de": "Balkon", "en": "balcony", "pos": "noun", "article": "der", "plural": "Balkone", "level": "A1", "goethe": "A1" },
+        { "de": "Keller", "en": "cellar, basement", "pos": "noun", "article": "der", "plural": "Keller", "level": "A2", "goethe": "A2" },
+        { "de": "Stockwerk", "en": "floor, storey", "pos": "noun", "article": "das", "plural": "Stockwerke", "level": "A2", "goethe": "A2" },
+        { "de": "Aufzug", "en": "lift, elevator", "pos": "noun", "article": "der", "plural": "Aufzüge", "level": "A1", "goethe": "A1" },
+        { "de": "Treppenhaus", "en": "stairwell", "pos": "noun", "article": "das", "plural": "Treppenhäuser", "level": "B1", "goethe": "B1" },
+        { "de": "Heizung", "en": "heating", "pos": "noun", "article": "die", "plural": "Heizungen", "level": "A2", "goethe": "A2" },
+        { "de": "Besichtigung", "en": "viewing", "pos": "noun", "article": "die", "plural": "Besichtigungen", "level": "B1" },
+        { "de": "Termin", "en": "appointment", "pos": "noun", "article": "der", "plural": "Termine", "level": "A1", "goethe": "A1" },
+        { "de": "Makler", "en": "estate agent", "pos": "noun", "article": "der", "plural": "Makler", "level": "B1" },
+        { "de": "Etage", "en": "floor, storey", "pos": "noun", "article": "die", "plural": "Etagen", "level": "B1", "goethe": "B1" },
+        { "de": "Erdgeschoss", "en": "ground floor", "pos": "noun", "article": "das", "plural": "Erdgeschosse", "level": "A2", "goethe": "A2" },
+        { "de": "Dachgeschoss", "en": "top floor, attic flat", "pos": "noun", "article": "das", "plural": "Dachgeschosse", "level": "B2" },
+        { "de": "Abstellraum", "en": "storage room", "pos": "noun", "article": "der", "plural": "Abstellräume", "level": "B2" },
+        { "de": "Parkplatz", "en": "parking space", "pos": "noun", "article": "der", "plural": "Parkplätze", "level": "A2", "goethe": "A2" },
+        { "de": "Lage", "en": "location", "pos": "noun", "article": "die", "plural": "Lagen", "level": "B1", "goethe": "B1" },
+        { "de": "besichtigen", "en": "to view (a flat, a sight)", "pos": "verb", "aux": "haben", "p2": "besichtigt", "level": "A1", "goethe": "A1" }
+      ]
+    },
+    {
+      "name": "Mietvertrag & Kaution",
+      "en": "contract, deposit, credit check",
+      "words": [
+        { "de": "Mietvertrag", "en": "rental contract", "pos": "noun", "article": "der", "plural": "Mietverträge", "level": "B1", "goethe": "B1" },
+        { "de": "Vertrag", "en": "contract", "pos": "noun", "article": "der", "plural": "Verträge", "level": "A2", "goethe": "A2" },
+        { "de": "Mieter", "en": "tenant", "pos": "noun", "article": "der", "plural": "Mieter", "level": "B1", "goethe": "B1" },
+        { "de": "Vermieter", "en": "landlord", "pos": "noun", "article": "der", "plural": "Vermieter", "level": "A1", "goethe": "A1" },
+        { "de": "Kaution", "en": "deposit", "pos": "noun", "article": "die", "plural": "Kautionen", "level": "B1" },
+        { "de": "Schufa", "en": "Schufa (credit agency or report)", "pos": "noun", "article": "die", "plural": "-", "note": "credit report; often asked for by landlords", "level": "B1" },
+        { "de": "Einkommensnachweis", "en": "proof of income", "pos": "noun", "article": "der", "plural": "Einkommensnachweise", "level": "B2" },
+        { "de": "Selbstauskunft", "en": "tenant self-disclosure form", "pos": "noun", "article": "die", "plural": "Selbstauskünfte", "level": "B2" },
+        { "de": "Bürgschaft", "en": "guarantee, surety", "pos": "noun", "article": "die", "plural": "Bürgschaften", "level": "B2" },
+        { "de": "Kündigung", "en": "notice (of termination)", "pos": "noun", "article": "die", "plural": "Kündigungen", "level": "B1", "goethe": "B1" },
+        { "de": "Kündigungsfrist", "en": "notice period", "pos": "noun", "article": "die", "plural": "Kündigungsfristen", "level": "B2" },
+        { "de": "Mieterhöhung", "en": "rent increase", "pos": "noun", "article": "die", "plural": "Mieterhöhungen", "level": "B2" },
+        { "de": "Nebenkostenabrechnung", "en": "utilities statement", "pos": "noun", "article": "die", "plural": "Nebenkostenabrechnungen", "level": "B2" },
+        { "de": "unterschreiben", "en": "to sign", "pos": "verb", "aux": "haben", "p2": "unterschrieben", "level": "A1", "goethe": "A1" },
+        { "de": "kündigen", "en": "to give notice, to terminate", "pos": "verb", "aux": "haben", "p2": "gekündigt", "level": "A2", "goethe": "A2" }
+      ]
+    },
+    {
+      "name": "Einzug & Umzug",
+      "en": "moving in and out",
+      "words": [
+        { "de": "Umzug", "en": "move (house)", "pos": "noun", "article": "der", "plural": "Umzüge", "level": "A2", "goethe": "A2" },
+        { "de": "einziehen", "en": "to move in", "pos": "verb", "aux": "sein", "sep": "ein", "p2": "eingezogen", "level": "A2", "goethe": "A2" },
+        { "de": "ausziehen", "en": "to move out", "pos": "verb", "aux": "sein", "sep": "aus", "p2": "ausgezogen", "level": "A1", "goethe": "A1" },
+        { "de": "umziehen", "en": "to move (house)", "pos": "verb", "aux": "sein", "sep": "um", "p2": "umgezogen", "level": "A1", "goethe": "A1" },
+        { "de": "auspacken", "en": "to unpack", "pos": "verb", "aux": "haben", "sep": "aus", "p2": "ausgepackt", "level": "A2", "goethe": "A2" },
+        { "de": "renovieren", "en": "to renovate", "pos": "verb", "aux": "haben", "p2": "renoviert", "level": "A2", "goethe": "A2" },
+        { "de": "Umzugskarton", "en": "moving box", "pos": "noun", "article": "der", "plural": "Umzugskartons", "level": "B1" },
+        { "de": "Übergabeprotokoll", "en": "handover record", "pos": "noun", "article": "das", "plural": "Übergabeprotokolle", "level": "B2" },
+        { "de": "Schlüsselübergabe", "en": "handing over the keys", "pos": "noun", "article": "die", "plural": "Schlüsselübergaben", "level": "B2" },
+        { "de": "Schlüssel", "en": "key", "pos": "noun", "article": "der", "plural": "Schlüssel", "level": "A1", "goethe": "A1" },
+        { "de": "Anmeldung", "en": "registration", "pos": "noun", "article": "die", "plural": "Anmeldungen", "level": "A1", "goethe": "A1" },
+        { "de": "Wohnsitz", "en": "place of residence", "pos": "noun", "article": "der", "plural": "Wohnsitze", "level": "B1", "goethe": "B1" },
+        { "de": "Nachsendeauftrag", "en": "mail forwarding order", "pos": "noun", "article": "der", "plural": "Nachsendeaufträge", "level": "B2" },
+        { "de": "Zählerstand", "en": "meter reading", "pos": "noun", "article": "der", "plural": "Zählerstände", "level": "B2" },
+        { "de": "Renovierung", "en": "renovation", "pos": "noun", "article": "die", "plural": "Renovierungen", "level": "B1", "goethe": "B1" },
+        { "de": "Mangel", "en": "defect", "pos": "noun", "article": "der", "plural": "Mängel", "level": "B1", "goethe": "B1" }
+      ]
+    },
+    {
+      "name": "Nachbarschaft",
+      "en": "the neighbourhood",
+      "words": [
+        { "de": "Nachbar", "en": "neighbour", "pos": "noun", "article": "der", "plural": "Nachbarn", "note": "n-Deklination: den Nachbarn", "level": "A2", "goethe": "A2" },
+        { "de": "Lärm", "en": "noise", "pos": "noun", "article": "der", "plural": "-", "level": "B1", "goethe": "B1" },
+        { "de": "Hausordnung", "en": "house rules", "pos": "noun", "article": "die", "plural": "Hausordnungen", "level": "B1", "goethe": "B1" },
+        { "de": "ruhig", "en": "quiet", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "laut", "en": "loud", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "Nachbarschaft", "en": "neighbourhood, neighbours", "pos": "noun", "article": "die", "plural": "-", "level": "B1" },
+        { "de": "Viertel", "en": "district, quarter", "pos": "noun", "article": "das", "plural": "Viertel", "level": "A1", "goethe": "A1" },
+        { "de": "Innenstadt", "en": "city centre", "pos": "noun", "article": "die", "plural": "Innenstädte", "level": "B1", "goethe": "B1" },
+        { "de": "Haltestelle", "en": "stop (bus, tram)", "pos": "noun", "article": "die", "plural": "Haltestellen", "level": "A1", "goethe": "A1" },
+        { "de": "Spielplatz", "en": "playground", "pos": "noun", "article": "der", "plural": "Spielplätze", "level": "B1", "goethe": "B1" },
+        { "de": "Park", "en": "park", "pos": "noun", "article": "der", "plural": "Parks", "level": "A1", "goethe": "A1" },
+        { "de": "Ruhezeit", "en": "quiet hours", "pos": "noun", "article": "die", "plural": "Ruhezeiten", "level": "B1" },
+        { "de": "Verkehrsanbindung", "en": "transport links", "pos": "noun", "article": "die", "plural": "Verkehrsanbindungen", "level": "B2" },
+        { "de": "Einkaufsmöglichkeit", "en": "shopping facility", "pos": "noun", "article": "die", "plural": "Einkaufsmöglichkeiten", "level": "B2" },
+        { "de": "zentral", "en": "central", "pos": "adj", "level": "B1", "goethe": "B1" },
+        { "de": "stören", "en": "to disturb", "pos": "verb", "aux": "haben", "p2": "gestört", "level": "A2", "goethe": "A2" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "de": "Ist die Wohnung noch frei?", "en": "Is the flat still available?", "who": "you", "level": "A1" },
+    { "de": "Ich interessiere mich für Ihre Anzeige.", "en": "I am interested in your ad.", "who": "you", "level": "B1" },
+    { "de": "Kann ich die Wohnung am Samstag besichtigen?", "en": "Can I view the flat on Saturday?", "who": "you", "level": "A2" },
+    { "de": "Ist das die Kaltmiete oder die Warmmiete?", "en": "Is that the base rent or the total rent?", "who": "you", "level": "B1" },
+    { "de": "Wie hoch sind die Nebenkosten?", "en": "How high are the service charges?", "who": "you", "level": "B1" },
+    { "de": "Wie hoch ist die Kaution?", "en": "How high is the deposit?", "who": "you", "level": "B1" },
+    { "de": "Sind Haustiere erlaubt?", "en": "Are pets allowed?", "who": "you", "level": "B1" },
+    { "de": "Wann kann ich einziehen?", "en": "When can I move in?", "who": "you", "level": "A2" },
+    { "de": "Wo soll ich unterschreiben?", "en": "Where should I sign?", "who": "you", "level": "A2" },
+    { "de": "Bitte bringen Sie eine Schufa-Auskunft mit.", "en": "Please bring a Schufa credit report.", "who": "staff", "level": "B1" },
+    { "de": "Das Zimmer ist ab dem Ersten des Monats frei.", "en": "The room is available from the first of the month.", "who": "staff", "level": "B1" },
+    { "de": "Die Kaution beträgt drei Monatskaltmieten.", "en": "The deposit is three months' base rent.", "who": "staff", "level": "B2" },
+    { "de": "Bitte unterschreiben Sie hier.", "en": "Please sign here.", "who": "staff", "level": "A2" },
+    { "de": "Wir melden uns bis Ende der Woche bei Ihnen.", "en": "We will get back to you by the end of the week.", "who": "staff", "level": "B1" }
+  ],
+  "exercises": [
+    { "type": "article", "word": "Kaution", "answer": "die", "explain": "Nouns ending in -ion are feminine: die Kaution, die Kautionen." },
+    { "type": "article", "word": "Mietvertrag", "answer": "der", "explain": "Compound nouns take the gender of the last word: der Vertrag, so der Mietvertrag." },
+    { "type": "article", "word": "Heizung", "answer": "die", "explain": "Nouns ending in -ung are feminine: die Heizung, die Heizungen." },
+    { "type": "article", "word": "Quadratmeter", "answer": "der", "explain": "Quadratmeter is masculine: der Quadratmeter, die Quadratmeter." },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "der Vermieter",
+          "landlord"
+        ],
+        [
+          "die Kaution",
+          "deposit"
+        ],
+        [
+          "die Kaltmiete",
+          "rent without utilities"
+        ],
+        [
+          "die Nebenkosten",
+          "service charges"
+        ],
+        [
+          "der Umzug",
+          "move (house)"
+        ]
+      ],
+      "explain": "Words you read in almost every flat ad and contract."
+    },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "besichtigen",
+          "to view (a flat)"
+        ],
+        [
+          "einziehen",
+          "to move in"
+        ],
+        [
+          "ausziehen",
+          "to move out"
+        ],
+        [
+          "unterschreiben",
+          "to sign"
+        ],
+        [
+          "kündigen",
+          "to give notice"
+        ]
+      ],
+      "explain": "Verbs for the steps from viewing to moving out."
+    },
+    {
+      "type": "gap",
+      "q": "Die ___ ist die Miete ohne Nebenkosten.",
+      "answer": [
+        "Kaltmiete"
+      ],
+      "explain": "The Kaltmiete is the base rent; Warmmiete adds heating and utilities."
+    },
+    {
+      "type": "gap",
+      "q": "Am Samstag möchte ich die Wohnung ___.",
+      "answer": [
+        "besichtigen"
+      ],
+      "explain": "After möchte the second verb goes to the end in the infinitive: besichtigen."
+    },
+    {
+      "type": "gap",
+      "q": "Wir haben den Vertrag gestern ___.",
+      "answer": [
+        "unterschrieben"
+      ],
+      "explain": "Perfect with haben; unterschreiben has the Partizip II unterschrieben (no ge-)."
+    },
+    {
+      "type": "translate",
+      "en": "How high is the deposit?",
+      "answer": [
+        "Wie hoch ist die Kaution?"
+      ],
+      "explain": "Wie hoch ist + die Kaution, which is feminine."
+    },
+    {
+      "type": "translate",
+      "en": "I want to move in next month.",
+      "answer": [
+        "Ich möchte nächsten Monat einziehen.",
+        "Ich will nächsten Monat einziehen.",
+        "Ich möchte im nächsten Monat einziehen.",
+        "Ich will im nächsten Monat einziehen."
+      ],
+      "explain": "The modal verb is in position 2; einziehen stays in the infinitive at the end."
+    },
+    {
+      "type": "mc",
+      "q": "The ad says \"600 € warm\". What does warm mean?",
+      "options": [
+        "The flat has a warm colour.",
+        "The rent includes heating and other service charges.",
+        "Only the heating is free."
+      ],
+      "answer": 1,
+      "explain": "Warm means Warmmiete: base rent plus Nebenkosten such as heating."
+    },
+    {
+      "type": "mc",
+      "q": "Which word means the person who pays rent for a flat?",
+      "options": [
+        "der Vermieter",
+        "der Mieter",
+        "der Makler"
+      ],
+      "answer": 1,
+      "explain": "Der Mieter rents the flat; der Vermieter owns and lets it; der Makler is the agent."
+    },
+    {
+      "type": "order",
+      "words": [
+        "die",
+        "Ist",
+        "noch",
+        "Wohnung",
+        "frei"
+      ],
+      "answer": "Ist die Wohnung noch frei",
+      "explain": "A yes/no question starts with the verb: Ist die Wohnung noch frei?"
+    }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Ist die Wohnung noch frei?", "en": "Is the flat still available?" },
+      { "de": "Wie hoch sind die Nebenkosten?", "en": "How high are the service charges?" },
+      { "de": "Ich interessiere mich für das Zimmer.", "en": "I am interested in the room." },
+      { "de": "Kann ich die Wohnung besichtigen?", "en": "Can I view the flat?" },
+      { "de": "Wann kann ich einziehen?", "en": "When can I move in?" }
+    ],
+    "prompts": [
+      { "q": "Guten Tag! Sie sind wegen der Wohnung hier. Wie gefällt sie Ihnen?", "qEn": "Good day! You are here about the flat. How do you like it?", "model": "Guten Tag. Die Wohnung gefällt mir sehr gut. Sie ist hell und ruhig.", "hint": "Say two things you like." },
+      { "q": "Haben Sie eine Schufa-Auskunft dabei?", "qEn": "Do you have a Schufa credit report with you?", "model": "Ja, hier ist meine Schufa-Auskunft. Einen Einkommensnachweis habe ich auch dabei.", "hint": "Hand over your papers politely." },
+      { "q": "Die Kaltmiete beträgt 550 Euro. Dazu kommen 150 Euro Nebenkosten.", "qEn": "The base rent is 550 euros. Plus 150 euros service charges.", "model": "Dann zahle ich 700 Euro warm. Ist die Heizung in den Nebenkosten enthalten?", "hint": "Add it up and ask about heating." },
+      { "q": "Haben Sie noch Fragen?", "qEn": "Do you have any more questions?", "model": "Ja, wie hoch ist die Kaution, und darf ich Haustiere halten?", "hint": "Ask about the deposit and one more thing." }
+    ]
+  }
+}

@@ -1,0 +1,420 @@
+{
+  "id": "bewerbung",
+  "icon": "💼",
+  "title": "Arbeit & Bewerbung",
+  "en": "Work & job applications",
+  "intro": "You read a job ad, write a CV and cover letter, survive the interview and sign a contract. Then you meet colleagues, talk about your profession and make plans for the future.",
+  "areas": [
+    {
+      "name": "Stellenanzeige",
+      "en": "job ad",
+      "words": [
+        { "de": "Anzeige", "en": "advertisement", "pos": "noun", "article": "die", "plural": "Anzeigen", "level": "A1", "goethe": "A1" },
+        { "de": "Stelle", "en": "job, position", "pos": "noun", "article": "die", "plural": "Stellen", "level": "A1", "goethe": "A1" },
+        { "de": "Job", "en": "job", "pos": "noun", "article": "der", "plural": "Jobs", "level": "A1", "goethe": "A1" },
+        { "de": "Arbeitsplatz", "en": "workplace, job", "pos": "noun", "article": "der", "plural": "Arbeitsplätze", "level": "A1", "goethe": "A1" },
+        { "de": "Voraussetzung", "en": "requirement", "pos": "noun", "article": "die", "plural": "Voraussetzungen", "level": "B1", "goethe": "B1" },
+        { "de": "Qualifikation", "en": "qualification", "pos": "noun", "article": "die", "plural": "Qualifikationen", "level": "B1", "goethe": "B1" },
+        { "de": "Angebot", "en": "offer", "pos": "noun", "article": "das", "plural": "Angebote", "level": "A1", "goethe": "A1" },
+        { "de": "Arbeitszeit", "en": "working hours", "pos": "noun", "article": "die", "plural": "Arbeitszeiten", "level": "B1", "goethe": "B1" },
+        { "de": "flexibel", "en": "flexible", "pos": "adj", "level": "B1", "goethe": "B1" },
+        { "de": "Stellenangebot", "en": "job offer, vacancy", "pos": "noun", "article": "das", "plural": "Stellenangebote", "level": "B1" },
+        { "de": "Stellenbeschreibung", "en": "job description", "pos": "noun", "article": "die", "plural": "Stellenbeschreibungen", "level": "B2" },
+        { "de": "Aufgabe", "en": "task, duty", "pos": "noun", "article": "die", "plural": "Aufgaben", "level": "A1", "goethe": "A1" },
+        { "de": "Anforderung", "en": "requirement", "pos": "noun", "article": "die", "plural": "Anforderungen", "level": "B2" },
+        { "de": "Bewerbungsfrist", "en": "application deadline", "pos": "noun", "article": "die", "plural": "Bewerbungsfristen", "level": "B2" },
+        { "de": "Branche", "en": "industry, sector", "pos": "noun", "article": "die", "plural": "Branchen", "level": "B2" },
+        { "de": "suchen", "en": "to look for", "pos": "verb", "aux": "haben", "p2": "gesucht", "level": "A1", "goethe": "A1" },
+        { "de": "ausschreiben", "en": "to advertise (a job)", "pos": "verb", "aux": "haben", "sep": "aus", "p2": "ausgeschrieben", "level": "C1" }
+      ]
+    },
+    {
+      "name": "Lebenslauf & Ausbildung",
+      "en": "CV and education",
+      "words": [
+        { "de": "Lebenslauf", "en": "CV, résumé", "pos": "noun", "article": "der", "plural": "Lebensläufe", "level": "B1", "goethe": "B1" },
+        { "de": "Ausbildung", "en": "vocational training", "pos": "noun", "article": "die", "plural": "Ausbildungen", "level": "A1", "goethe": "A1" },
+        { "de": "Studium", "en": "university studies", "pos": "noun", "article": "das", "plural": "Studien", "level": "A1", "goethe": "A1" },
+        { "de": "Abschluss", "en": "degree, qualification", "pos": "noun", "article": "der", "plural": "Abschlüsse", "level": "B1", "goethe": "B1" },
+        { "de": "Abitur", "en": "high-school diploma", "pos": "noun", "article": "das", "plural": "-", "level": "A2", "goethe": "A2" },
+        { "de": "Zeugnis", "en": "certificate; reference", "pos": "noun", "article": "das", "plural": "Zeugnisse", "level": "A2", "goethe": "A2" },
+        { "de": "Praktikum", "en": "internship", "pos": "noun", "article": "das", "plural": "Praktika", "level": "A1", "goethe": "A1" },
+        { "de": "Erfahrung", "en": "experience", "pos": "noun", "article": "die", "plural": "Erfahrungen", "level": "A2", "goethe": "A2" },
+        { "de": "Fähigkeit", "en": "ability, skill", "pos": "noun", "article": "die", "plural": "Fähigkeiten", "level": "A1", "goethe": "A1" },
+        { "de": "studieren", "en": "to study (at university)", "pos": "verb", "aux": "haben", "p2": "studiert", "level": "A1", "goethe": "A1" },
+        { "de": "abschließen", "en": "to complete, to graduate", "pos": "verb", "aux": "haben", "sep": "ab", "p2": "abgeschlossen", "level": "A2", "goethe": "A2" },
+        { "de": "berufstätig", "en": "employed, working", "pos": "adj", "level": "B1", "goethe": "B1" },
+        { "de": "bereits", "en": "already", "pos": "adv", "level": "B1", "goethe": "B1" },
+        { "de": "vorher", "en": "beforehand", "pos": "adv", "level": "A2", "goethe": "A2" },
+        { "de": "erfahren", "en": "experienced", "pos": "adj", "level": "B1", "goethe": "B1" },
+        { "de": "Praktikant", "en": "intern", "pos": "noun", "article": "der", "plural": "Praktikanten", "note": "n-Deklination", "level": "B1", "goethe": "B1" },
+        { "de": "Student", "en": "student", "pos": "noun", "article": "der", "plural": "Studenten", "note": "n-Deklination", "level": "A1", "goethe": "A1" },
+        { "de": "Prüfung", "en": "exam", "pos": "noun", "article": "die", "plural": "Prüfungen", "level": "A1", "goethe": "A1" },
+        { "de": "bestehen", "en": "to pass (an exam)", "pos": "verb", "aux": "haben", "p2": "bestanden", "level": "A2", "goethe": "A2" },
+        { "de": "Unterlagen", "en": "documents, papers", "pos": "noun", "article": "die", "plural": "-", "note": "plural only", "level": "B1", "goethe": "B1" },
+        { "de": "Berufserfahrung", "en": "work experience", "pos": "noun", "article": "die", "plural": "-", "level": "B1" },
+        { "de": "Sprachkenntnisse", "en": "language skills", "pos": "noun", "article": "die", "plural": "-", "level": "A2", "note": "plural only", "goethe": "A2" },
+        { "de": "Kenntnis", "en": "knowledge, skill", "pos": "noun", "article": "die", "plural": "Kenntnisse", "level": "B1" },
+        { "de": "Referenz", "en": "reference", "pos": "noun", "article": "die", "plural": "Referenzen", "level": "A1", "goethe": "A1" },
+        { "de": "Muttersprache", "en": "first language", "pos": "noun", "article": "die", "plural": "Muttersprachen", "level": "B1", "goethe": "B1" },
+        { "de": "tabellarisch", "en": "in table form", "pos": "adj", "level": "B2" }
+      ]
+    },
+    {
+      "name": "Bewerbung schreiben",
+      "en": "writing the application",
+      "words": [
+        { "de": "Bewerbung", "en": "job application", "pos": "noun", "article": "die", "plural": "Bewerbungen", "level": "A2", "goethe": "A2" },
+        { "de": "sich bewerben", "en": "to apply (for a job)", "pos": "verb", "aux": "haben", "p2": "beworben", "level": "A2", "goethe": "A2" },
+        { "de": "schicken", "en": "to send", "pos": "verb", "aux": "haben", "p2": "geschickt", "level": "A1", "goethe": "A1" },
+        { "de": "Antwort", "en": "answer", "pos": "noun", "article": "die", "plural": "Antworten", "level": "A1", "goethe": "A1" },
+        { "de": "Einladung", "en": "invitation", "pos": "noun", "article": "die", "plural": "Einladungen", "level": "A1", "goethe": "A1" },
+        { "de": "einladen", "en": "to invite", "pos": "verb", "aux": "haben", "sep": "ein", "p2": "eingeladen", "level": "A1", "goethe": "A1" },
+        { "de": "zusagen", "en": "to accept; to confirm", "pos": "verb", "aux": "haben", "sep": "zu", "p2": "zugesagt", "level": "B1", "goethe": "B1" },
+        { "de": "absagen", "en": "to decline; to cancel", "pos": "verb", "aux": "haben", "sep": "ab", "p2": "abgesagt", "level": "B1", "goethe": "B1" },
+        { "de": "Interesse", "en": "interest", "pos": "noun", "article": "das", "plural": "Interessen", "level": "A2", "goethe": "A2" },
+        { "de": "Anschreiben", "en": "cover letter", "pos": "noun", "article": "das", "plural": "Anschreiben", "level": "B1" },
+        { "de": "Bewerbungsschreiben", "en": "letter of application", "pos": "noun", "article": "das", "plural": "Bewerbungsschreiben", "level": "B2" },
+        { "de": "Anhang", "en": "attachment", "pos": "noun", "article": "der", "plural": "Anhänge", "level": "B1" },
+        { "de": "Absage", "en": "rejection", "pos": "noun", "article": "die", "plural": "Absagen", "level": "B1" },
+        { "de": "Zusage", "en": "acceptance, confirmation", "pos": "noun", "article": "die", "plural": "Zusagen", "level": "B1" },
+        { "de": "Motivation", "en": "motivation", "pos": "noun", "article": "die", "plural": "-", "level": "B2" },
+        { "de": "hochladen", "en": "to upload", "pos": "verb", "aux": "haben", "sep": "hoch", "p2": "hochgeladen", "level": "B1", "goethe": "B1" },
+        { "de": "unterschreiben", "en": "to sign", "pos": "verb", "aux": "haben", "p2": "unterschrieben", "level": "A1", "goethe": "A1" },
+        { "de": "motiviert", "en": "motivated", "pos": "adj", "level": "B1" }
+      ]
+    },
+    {
+      "name": "Vorstellungsgespräch",
+      "en": "job interview",
+      "words": [
+        { "de": "Vorstellungsgespräch", "en": "job interview", "pos": "noun", "article": "das", "plural": "Vorstellungsgespräche", "level": "B1", "goethe": "B1" },
+        { "de": "Termin", "en": "appointment, deadline", "pos": "noun", "article": "der", "plural": "Termine", "level": "A1", "goethe": "A1" },
+        { "de": "vereinbaren", "en": "to arrange, to agree on", "pos": "verb", "aux": "haben", "p2": "vereinbart", "level": "A2", "goethe": "A2" },
+        { "de": "mitbringen", "en": "to bring along", "pos": "verb", "aux": "haben", "sep": "mit", "p2": "mitgebracht", "level": "A1", "goethe": "A1" },
+        { "de": "zuverlässig", "en": "reliable", "pos": "adj", "level": "B1", "goethe": "B1" },
+        { "de": "Kandidat", "en": "candidate", "pos": "noun", "article": "der", "plural": "Kandidaten", "note": "n-Deklination", "level": "B1", "goethe": "B1" },
+        { "de": "Personalabteilung", "en": "HR department", "pos": "noun", "article": "die", "plural": "Personalabteilungen", "level": "B2" },
+        { "de": "Gesprächspartner", "en": "person you talk to", "pos": "noun", "article": "der", "plural": "Gesprächspartner", "level": "B2" },
+        { "de": "Probezeit", "en": "probation period", "pos": "noun", "article": "die", "plural": "Probezeiten", "level": "B2" },
+        { "de": "Gehaltsvorstellung", "en": "salary expectation", "pos": "noun", "article": "die", "plural": "Gehaltsvorstellungen", "level": "C1" },
+        { "de": "Stärke", "en": "strength", "pos": "noun", "article": "die", "plural": "Stärken", "level": "B1" },
+        { "de": "Schwäche", "en": "weakness", "pos": "noun", "article": "die", "plural": "Schwächen", "level": "B1" },
+        { "de": "Rückfrage", "en": "follow-up question", "pos": "noun", "article": "die", "plural": "Rückfragen", "level": "B2" },
+        { "de": "sich vorstellen", "en": "to introduce oneself", "pos": "verb", "aux": "haben", "sep": "vor", "p2": "vorgestellt", "level": "A1", "goethe": "A1" },
+        { "de": "sich vorbereiten", "en": "to prepare", "pos": "verb", "aux": "haben", "sep": "vor", "p2": "vorbereitet", "level": "A2", "goethe": "A2" },
+        { "de": "überzeugen", "en": "to convince", "pos": "verb", "aux": "haben", "p2": "überzeugt", "level": "B1", "goethe": "B1" },
+        { "de": "erwarten", "en": "to expect", "pos": "verb", "aux": "haben", "p2": "erwartet", "level": "B1", "goethe": "B1" },
+        { "de": "antworten", "en": "to answer", "pos": "verb", "aux": "haben", "p2": "geantwortet", "level": "A1", "goethe": "A1" },
+        { "de": "pünktlich", "en": "on time, punctual", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "freundlich", "en": "friendly", "pos": "adj", "level": "A2", "goethe": "A2" }
+      ]
+    },
+    {
+      "name": "Vertrag & Gehalt",
+      "en": "contract and pay",
+      "words": [
+        { "de": "Vertrag", "en": "contract", "pos": "noun", "article": "der", "plural": "Verträge", "level": "A2", "goethe": "A2" },
+        { "de": "Gehalt", "en": "salary", "pos": "noun", "article": "das", "plural": "Gehälter", "level": "A2", "goethe": "A2" },
+        { "de": "verdienen", "en": "to earn", "pos": "verb", "aux": "haben", "p2": "verdient", "level": "A1", "goethe": "A1" },
+        { "de": "kündigen", "en": "to quit; to give notice", "pos": "verb", "aux": "haben", "p2": "gekündigt", "level": "A2", "goethe": "A2" },
+        { "de": "Arbeitsvertrag", "en": "employment contract", "pos": "noun", "article": "der", "plural": "Arbeitsverträge", "level": "B1" },
+        { "de": "Gehaltsabrechnung", "en": "payslip", "pos": "noun", "article": "die", "plural": "Gehaltsabrechnungen", "level": "B2" },
+        { "de": "Urlaubstag", "en": "day of leave", "pos": "noun", "article": "der", "plural": "Urlaubstage", "level": "B1" },
+        { "de": "Kündigungsfrist", "en": "notice period", "pos": "noun", "article": "die", "plural": "Kündigungsfristen", "level": "B2" },
+        { "de": "Überstunde", "en": "overtime hour", "pos": "noun", "article": "die", "plural": "Überstunden", "level": "B1", "goethe": "B1" },
+        { "de": "Teilzeit", "en": "part-time work", "pos": "noun", "article": "die", "plural": "-", "level": "B1", "goethe": "B1" },
+        { "de": "Vollzeit", "en": "full-time work", "pos": "noun", "article": "die", "plural": "-", "level": "B1", "goethe": "B1" },
+        { "de": "Werkstudent", "en": "working student", "pos": "noun", "article": "der", "plural": "Werkstudenten", "level": "B2", "note": "n-Deklination" },
+        { "de": "Minijob", "en": "mini-job (small monthly earnings limit)", "pos": "noun", "article": "der", "plural": "Minijobs", "level": "B1" },
+        { "de": "Steuer", "en": "tax", "pos": "noun", "article": "die", "plural": "Steuern", "level": "B1", "goethe": "B1" },
+        { "de": "Sozialversicherung", "en": "social insurance", "pos": "noun", "article": "die", "plural": "Sozialversicherungen", "level": "B2" },
+        { "de": "Betriebsrat", "en": "works council", "pos": "noun", "article": "der", "plural": "Betriebsräte", "level": "B1", "goethe": "B1" },
+        { "de": "brutto", "en": "gross", "pos": "adj", "level": "B1" },
+        { "de": "netto", "en": "net", "pos": "adj", "level": "B1" },
+        { "de": "befristet", "en": "fixed-term", "pos": "adj", "level": "B2" },
+        { "de": "unbefristet", "en": "permanent, open-ended", "pos": "adj", "level": "B2" }
+      ]
+    },
+    {
+      "name": "Berufe",
+      "en": "professions",
+      "words": [
+        { "de": "Beruf", "en": "profession, occupation", "pos": "noun", "article": "der", "plural": "Berufe", "level": "A1", "goethe": "A1" },
+        { "de": "Mechaniker", "en": "mechanic", "pos": "noun", "article": "der", "plural": "Mechaniker", "level": "A2", "goethe": "A2" },
+        { "de": "Architekt", "en": "architect", "pos": "noun", "article": "der", "plural": "Architekten", "note": "n-Deklination", "level": "B1", "goethe": "B1" },
+        { "de": "Fotograf", "en": "photographer", "pos": "noun", "article": "der", "plural": "Fotografen", "note": "n-Deklination", "level": "B1", "goethe": "B1" },
+        { "de": "Polizist", "en": "police officer", "pos": "noun", "article": "der", "plural": "Polizisten", "note": "n-Deklination", "level": "A2", "goethe": "A2" },
+        { "de": "Journalist", "en": "journalist", "pos": "noun", "article": "der", "plural": "Journalisten", "note": "n-Deklination", "level": "A2", "goethe": "A2" },
+        { "de": "Ingenieur", "en": "engineer", "pos": "noun", "article": "der", "plural": "Ingenieure", "note": "regular, no -n", "level": "B1", "goethe": "B1" },
+        { "de": "Techniker", "en": "technician", "pos": "noun", "article": "der", "plural": "Techniker", "note": "regular, no -n", "level": "A2", "goethe": "A2" },
+        { "de": "Fachmann", "en": "specialist", "pos": "noun", "article": "der", "plural": "Fachleute", "level": "B1", "goethe": "B1" },
+        { "de": "Experte", "en": "expert", "pos": "noun", "article": "der", "plural": "Experten", "note": "n-Deklination", "level": "B1", "goethe": "B1" },
+        { "de": "Lehrer", "en": "teacher (male)", "pos": "noun", "article": "der", "plural": "Lehrer", "level": "A1", "goethe": "A1" },
+        { "de": "Elektriker", "en": "electrician", "pos": "noun", "article": "der", "plural": "Elektriker", "level": "B1" },
+        { "de": "Informatiker", "en": "computer scientist", "pos": "noun", "article": "der", "plural": "Informatiker", "level": "B1" },
+        { "de": "Krankenpfleger", "en": "nurse (male)", "pos": "noun", "article": "der", "plural": "Krankenpfleger", "level": "A2", "goethe": "A2" },
+        { "de": "Verkäufer", "en": "sales assistant (male)", "pos": "noun", "article": "der", "plural": "Verkäufer", "level": "A1", "goethe": "A1" },
+        { "de": "Handwerker", "en": "craftsman, tradesperson", "pos": "noun", "article": "der", "plural": "Handwerker", "level": "A2", "goethe": "A2" },
+        { "de": "Programmierer", "en": "programmer (male)", "pos": "noun", "article": "der", "plural": "Programmierer", "level": "B1" }
+      ]
+    },
+    {
+      "name": "Kollegen & Chefs",
+      "en": "colleagues and bosses",
+      "words": [
+        { "de": "Chef", "en": "boss (male)", "pos": "noun", "article": "der", "plural": "Chefs", "level": "A1", "goethe": "A1" },
+        { "de": "Chefin", "en": "boss (female)", "pos": "noun", "article": "die", "plural": "Chefinnen", "level": "A1", "goethe": "A1" },
+        { "de": "Kollege", "en": "colleague", "pos": "noun", "article": "der", "plural": "Kollegen", "level": "A1", "goethe": "A1" },
+        { "de": "Kunde", "en": "customer (male)", "pos": "noun", "article": "der", "plural": "Kunden", "level": "A1", "goethe": "A1" },
+        { "de": "Mitarbeiter", "en": "employee", "pos": "noun", "article": "der", "plural": "Mitarbeiter", "note": "regular, no -n", "level": "A2", "goethe": "A2" },
+        { "de": "Mensch", "en": "person, human being", "pos": "noun", "article": "der", "plural": "Menschen", "note": "n-Deklination", "level": "A1", "goethe": "A1" },
+        { "de": "Herr", "en": "gentleman; Mr", "pos": "noun", "article": "der", "plural": "Herren", "note": "n-Deklination: den Herrn", "level": "A1", "goethe": "A1" },
+        { "de": "Nachbar", "en": "neighbour", "pos": "noun", "article": "der", "plural": "Nachbarn", "note": "n-Deklination", "level": "A2", "goethe": "A2" },
+        { "de": "Team", "en": "team", "pos": "noun", "article": "das", "plural": "Teams", "level": "A2", "goethe": "A2" },
+        { "de": "Abteilung", "en": "department", "pos": "noun", "article": "die", "plural": "Abteilungen", "level": "A2", "goethe": "A2" },
+        { "de": "Teamleiter", "en": "team leader", "pos": "noun", "article": "der", "plural": "Teamleiter", "level": "B2" },
+        { "de": "Geschäftsführer", "en": "managing director", "pos": "noun", "article": "der", "plural": "Geschäftsführer", "level": "C1" },
+        { "de": "Arbeitgeber", "en": "employer", "pos": "noun", "article": "der", "plural": "Arbeitgeber", "level": "B1" },
+        { "de": "Arbeitnehmer", "en": "employee (in the legal sense)", "pos": "noun", "article": "der", "plural": "Arbeitnehmer", "level": "B1", "goethe": "B1" }
+      ]
+    },
+    {
+      "name": "Arbeitsalltag",
+      "en": "everyday working life",
+      "words": [
+        { "de": "Büro", "en": "office", "pos": "noun", "article": "das", "plural": "Büros", "level": "A1", "goethe": "A1" },
+        { "de": "Firma", "en": "company", "pos": "noun", "article": "die", "plural": "Firmen", "level": "A1", "goethe": "A1" },
+        { "de": "Projekt", "en": "project", "pos": "noun", "article": "das", "plural": "Projekte", "level": "A2", "goethe": "A2" },
+        { "de": "Konferenz", "en": "conference", "pos": "noun", "article": "die", "plural": "Konferenzen", "level": "A1", "goethe": "A1" },
+        { "de": "Feierabend", "en": "end of the working day", "pos": "noun", "article": "der", "plural": "-", "note": "no plural", "level": "A1", "goethe": "A1" },
+        { "de": "anfangen", "en": "to begin, to start", "pos": "verb", "aux": "haben", "sep": "an", "p2": "angefangen", "level": "A1", "goethe": "A1" },
+        { "de": "teilnehmen", "en": "to take part", "pos": "verb", "aux": "haben", "sep": "teil", "p2": "teilgenommen", "level": "A2", "goethe": "A2" },
+        { "de": "interessant", "en": "interesting", "pos": "adj", "level": "A2", "goethe": "A2" },
+        { "de": "Pause", "en": "break", "pos": "noun", "article": "die", "plural": "Pausen", "level": "A1", "goethe": "A1" },
+        { "de": "Schicht", "en": "shift", "pos": "noun", "article": "die", "plural": "Schichten", "level": "B2" },
+        { "de": "Kantine", "en": "canteen", "pos": "noun", "article": "die", "plural": "Kantinen", "level": "B1", "goethe": "B1" },
+        { "de": "Krankmeldung", "en": "sick note, notice of sick leave", "pos": "noun", "article": "die", "plural": "Krankmeldungen", "level": "B2" },
+        { "de": "arbeiten", "en": "to work", "pos": "verb", "aux": "haben", "p2": "gearbeitet", "level": "A1", "goethe": "A1" },
+        { "de": "pendeln", "en": "to commute", "pos": "verb", "aux": "sein", "p2": "gependelt", "level": "B2" }
+      ]
+    },
+    {
+      "name": "Zukunft & Pläne",
+      "en": "future and plans",
+      "words": [
+        { "de": "Leben", "en": "life", "pos": "noun", "article": "das", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "Plan", "en": "plan", "pos": "noun", "article": "der", "plural": "Pläne", "level": "A1", "goethe": "A1" },
+        { "de": "Ziel", "en": "goal, aim", "pos": "noun", "article": "das", "plural": "Ziele", "level": "A2", "goethe": "A2" },
+        { "de": "Traum", "en": "dream", "pos": "noun", "article": "der", "plural": "Träume", "level": "A2", "goethe": "A2" },
+        { "de": "Wunsch", "en": "wish", "pos": "noun", "article": "der", "plural": "Wünsche", "level": "A2", "goethe": "A2" },
+        { "de": "Erfolg", "en": "success", "pos": "noun", "article": "der", "plural": "Erfolge", "level": "A2", "goethe": "A2" },
+        { "de": "planen", "en": "to plan", "pos": "verb", "aux": "haben", "p2": "geplant", "level": "A2", "goethe": "A2" },
+        { "de": "hoffen", "en": "to hope", "pos": "verb", "aux": "haben", "p2": "gehofft", "level": "A2", "goethe": "A2" },
+        { "de": "erreichen", "en": "to reach, to achieve", "pos": "verb", "aux": "haben", "p2": "erreicht", "level": "A2", "goethe": "A2" },
+        { "de": "schaffen", "en": "to manage, to make it", "pos": "verb", "aux": "haben", "p2": "geschafft", "level": "A2", "goethe": "A2" },
+        { "de": "sparen", "en": "to save (money)", "pos": "verb", "aux": "haben", "p2": "gespart", "level": "A2", "goethe": "A2" },
+        { "de": "bald", "en": "soon", "pos": "adv", "level": "A1", "goethe": "A1" },
+        { "de": "später", "en": "later", "pos": "adv", "level": "A1", "goethe": "A1" },
+        { "de": "vielleicht", "en": "maybe", "pos": "adv", "level": "A1", "goethe": "A1" },
+        { "de": "sicher", "en": "certainly", "pos": "adv", "level": "A2", "goethe": "A2" },
+        { "de": "nächstes Jahr", "en": "next year", "pos": "phrase", "level": "A2", "goethe": "A2" },
+        { "de": "werden", "en": "to become; will", "pos": "verb", "aux": "sein", "p2": "geworden", "level": "A1", "goethe": "A1" },
+        { "de": "Zukunft", "en": "future", "pos": "noun", "article": "die", "plural": "-", "level": "B1", "goethe": "B1" },
+        { "de": "Karriere", "en": "career", "pos": "noun", "article": "die", "plural": "Karrieren", "level": "B1", "goethe": "B1" },
+        { "de": "Weiterbildung", "en": "further training", "pos": "noun", "article": "die", "plural": "Weiterbildungen", "level": "B1", "goethe": "B1" },
+        { "de": "Chance", "en": "chance, opportunity", "pos": "noun", "article": "die", "plural": "Chancen", "level": "B1", "goethe": "B1" },
+        { "de": "sich weiterbilden", "en": "to continue one's training", "pos": "verb", "aux": "haben", "sep": "weiter", "p2": "weitergebildet", "level": "B2" },
+        { "de": "träumen", "en": "to dream", "pos": "verb", "aux": "haben", "p2": "geträumt", "level": "A2", "goethe": "A2" },
+        { "de": "selbstständig", "en": "self-employed, independent", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "Ausland", "en": "abroad", "pos": "noun", "article": "das", "plural": "-", "level": "A1", "goethe": "A1" }
+      ]
+    },
+    {
+      "name": "Umzug & Neuanfang",
+      "en": "moving and a fresh start",
+      "words": [
+        { "de": "Umzug", "en": "move (to a new home)", "pos": "noun", "article": "der", "plural": "Umzüge", "level": "A2", "goethe": "A2" },
+        { "de": "Haus", "en": "house", "pos": "noun", "article": "das", "plural": "Häuser", "level": "A1", "goethe": "A1" },
+        { "de": "Heimat", "en": "home, homeland", "pos": "noun", "article": "die", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "heiraten", "en": "to marry", "pos": "verb", "aux": "haben", "p2": "geheiratet", "level": "A1", "goethe": "A1" },
+        { "de": "ausziehen", "en": "to move out", "pos": "verb", "aux": "sein", "sep": "aus", "p2": "ausgezogen", "level": "A1", "goethe": "A1" },
+        { "de": "umziehen", "en": "to move (house)", "pos": "verb", "aux": "sein", "sep": "um", "p2": "umgezogen", "level": "A1", "goethe": "A1" },
+        { "de": "wechseln", "en": "to change, to switch", "pos": "verb", "aux": "haben", "p2": "gewechselt", "level": "A2", "goethe": "A2" },
+        { "de": "Neuanfang", "en": "fresh start", "pos": "noun", "article": "der", "plural": "Neuanfänge", "level": "B2" },
+        { "de": "Wohnort", "en": "place of residence", "pos": "noun", "article": "der", "plural": "Wohnorte", "level": "A2", "goethe": "A2" },
+        { "de": "Arbeitsweg", "en": "way to work, commute", "pos": "noun", "article": "der", "plural": "Arbeitswege", "level": "B2" },
+        { "de": "sich einleben", "en": "to settle in", "pos": "verb", "aux": "haben", "sep": "ein", "p2": "eingelebt", "level": "B2" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "de": "Erzählen Sie mir bitte etwas über sich.", "en": "Please tell me something about yourself.", "who": "staff", "level": "B1" },
+    { "de": "Warum möchten Sie bei uns arbeiten?", "en": "Why would you like to work for us?", "who": "staff", "level": "B1" },
+    { "de": "Welche Erfahrungen bringen Sie mit?", "en": "What experience do you bring?", "who": "staff", "level": "B1" },
+    { "de": "Wann könnten Sie bei uns anfangen?", "en": "When could you start with us?", "who": "staff", "level": "B1" },
+    { "de": "Haben Sie noch Fragen an uns?", "en": "Do you have any questions for us?", "who": "staff", "level": "A2" },
+    { "de": "Wir melden uns Ende der Woche bei Ihnen.", "en": "We will get back to you at the end of the week.", "who": "staff", "level": "B1" },
+    { "de": "Die Probezeit dauert sechs Monate.", "en": "The probation period lasts six months.", "who": "staff", "level": "B2" },
+    { "de": "Ich bewerbe mich um die ausgeschriebene Stelle.", "en": "I am applying for the advertised position.", "who": "you", "level": "B1" },
+    { "de": "Ich habe drei Jahre Berufserfahrung.", "en": "I have three years of work experience.", "who": "you", "level": "B1" },
+    { "de": "Ich arbeite gern im Team.", "en": "I like working in a team.", "who": "you", "level": "A2" },
+    { "de": "Wie viele Urlaubstage gibt es im Jahr?", "en": "How many days of leave are there per year?", "who": "you", "level": "A2" },
+    { "de": "Ich würde gern in Teilzeit arbeiten.", "en": "I would like to work part-time.", "who": "you", "level": "B1" },
+    { "de": "Vielen Dank für die Einladung zum Gespräch.", "en": "Thank you for the invitation to the interview.", "who": "you", "level": "B1" },
+    { "de": "Meine Stärke ist, dass ich zuverlässig bin.", "en": "My strength is that I am reliable.", "who": "you", "level": "B1" }
+  ],
+  "exercises": [
+    { "type": "article", "word": "Bewerbung", "answer": "die", "explain": "Nouns ending in -ung are feminine: die Bewerbung, die Bewerbungen." },
+    { "type": "article", "word": "Lebenslauf", "answer": "der", "explain": "Lebenslauf is masculine: der Lebenslauf, die Lebensläufe." },
+    { "type": "article", "word": "Gehalt", "answer": "das", "explain": "Gehalt is neuter: das Gehalt, die Gehälter." },
+    { "type": "article", "word": "Vertrag", "answer": "der", "explain": "Vertrag is masculine: der Vertrag, die Verträge." },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "der Lebenslauf",
+          "CV"
+        ],
+        [
+          "die Stelle",
+          "job position"
+        ],
+        [
+          "das Gehalt",
+          "salary"
+        ],
+        [
+          "die Absage",
+          "rejection"
+        ],
+        [
+          "das Praktikum",
+          "internship"
+        ]
+      ],
+      "explain": "Core nouns of the application process, each with its article."
+    },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "sich bewerben",
+          "to apply"
+        ],
+        [
+          "einladen",
+          "to invite"
+        ],
+        [
+          "zusagen",
+          "to accept"
+        ],
+        [
+          "kündigen",
+          "to give notice"
+        ],
+        [
+          "verdienen",
+          "to earn"
+        ]
+      ],
+      "explain": "Verbs you need from the application to the contract."
+    },
+    {
+      "type": "gap",
+      "q": "Ich möchte mich um diese Stelle ___.",
+      "answer": [
+        "bewerben"
+      ],
+      "explain": "Möchte takes the infinitive at the end: ich möchte mich bewerben."
+    },
+    {
+      "type": "gap",
+      "q": "Die Firma hat mich zum Vorstellungsgespräch ___.",
+      "answer": [
+        "eingeladen"
+      ],
+      "explain": "Perfect tense with haben: einladen becomes eingeladen (ein- stays in front of ge-)."
+    },
+    {
+      "type": "gap",
+      "q": "Ich habe mein Studium letztes Jahr ___.",
+      "answer": [
+        "abgeschlossen"
+      ],
+      "explain": "Abschließen is separable: Partizip II is abgeschlossen, perfect with haben."
+    },
+    {
+      "type": "translate",
+      "en": "I have applied for the job.",
+      "answer": [
+        "Ich habe mich um die Stelle beworben.",
+        "Ich habe mich auf die Stelle beworben.",
+        "Ich habe mich um den Job beworben.",
+        "Ich habe mich für die Stelle beworben."
+      ],
+      "explain": "Sich bewerben is reflexive and uses haben in the perfect: ich habe mich beworben (um/auf + Akkusativ)."
+    },
+    {
+      "type": "translate",
+      "en": "When can you start?",
+      "answer": [
+        "Wann können Sie anfangen?",
+        "Wann können Sie bei uns anfangen?",
+        "Wann kannst du anfangen?"
+      ],
+      "explain": "Wann, then the modal können in second place, and anfangen at the end."
+    },
+    {
+      "type": "mc",
+      "q": "The firm invites you to an interview on Monday. Which reply accepts?",
+      "options": [
+        "Vielen Dank, ich komme gern am Montag.",
+        "Leider muss ich absagen.",
+        "Ich kündige."
+      ],
+      "answer": 0,
+      "explain": "The first sentence thanks them and confirms the date; absagen declines and kündigen means to quit."
+    },
+    {
+      "type": "mc",
+      "q": "What is the \"Probezeit\" in a work contract?",
+      "options": [
+        "A trial period at the start of the job",
+        "A break during the working day",
+        "Unpaid holiday"
+      ],
+      "answer": 0,
+      "explain": "Probezeit is the trial period (often up to six months) in which notice periods are short."
+    },
+    {
+      "type": "order",
+      "words": [
+        "bewerbe",
+        "Ich",
+        "mich",
+        "um",
+        "die",
+        "Stelle"
+      ],
+      "answer": "Ich bewerbe mich um die Stelle",
+      "explain": "Subject, verb in second place, then the reflexive pronoun and the rest."
+    }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Ich bewerbe mich um die ausgeschriebene Stelle.", "en": "I am applying for the advertised position." },
+      { "de": "Ich habe drei Jahre Berufserfahrung.", "en": "I have three years of work experience." },
+      { "de": "Ich arbeite gern im Team und bin zuverlässig.", "en": "I like working in a team and I am reliable." },
+      { "de": "Wie viele Urlaubstage gibt es im Jahr?", "en": "How many days of leave are there per year?" },
+      { "de": "Vielen Dank für die Einladung zum Gespräch.", "en": "Thank you for the invitation to the interview." }
+    ],
+    "prompts": [
+      { "q": "Erzählen Sie mir bitte etwas über sich.", "qEn": "Tell me something about yourself. (job interview)", "model": "Ich habe Maschinenbau studiert und neben dem Studium in einem Betrieb gearbeitet. Jetzt suche ich eine feste Stelle, in der ich Neues lernen kann.", "hint": "Say what you studied, what you did, and what you are looking for." },
+      { "q": "Warum möchten Sie bei uns arbeiten?", "qEn": "Why would you like to work for us?", "model": "Ihre Firma ist in meiner Branche bekannt, und die Aufgaben in der Anzeige passen genau zu meinen Kenntnissen. Außerdem arbeite ich gern im Team.", "hint": "Link the ad to your skills." },
+      { "q": "Was ist Ihre größte Stärke?", "qEn": "What is your biggest strength?", "model": "Ich bin sehr zuverlässig und lerne schnell. Wenn ich eine Aufgabe übernehme, erledige ich sie pünktlich.", "hint": "Name one strength and give a reason." },
+      { "q": "Wie stellen Sie sich Ihr Gehalt vor?", "qEn": "What salary do you have in mind?", "model": "Ich stelle mir ein Gehalt nach Tarif vor. Darüber können wir gern sprechen, wenn Sie mir das Angebot schicken.", "hint": "Stay polite and open to negotiation." }
+    ]
+  }
+}

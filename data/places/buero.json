@@ -1,0 +1,409 @@
+{
+  "id": "buero",
+  "icon": "🏢",
+  "title": "Im Büro",
+  "en": "At the office",
+  "intro": "You write formal e-mails, join meetings and negotiations, give a short presentation and look after machines and parts. Office German is polite, precise and full of fixed phrases.",
+  "areas": [
+    {
+      "name": "Schreibtisch & Büroalltag",
+      "en": "desk and daily routine",
+      "words": [
+        { "de": "Schreibtisch", "en": "desk", "pos": "noun", "article": "der", "plural": "Schreibtische", "level": "B1", "goethe": "B1" },
+        { "de": "Drucker", "en": "printer", "pos": "noun", "article": "der", "plural": "Drucker", "level": "A1", "goethe": "A1" },
+        { "de": "Kopierer", "en": "photocopier", "pos": "noun", "article": "der", "plural": "Kopierer", "level": "B1", "goethe": "B1" },
+        { "de": "Bildschirm", "en": "screen", "pos": "noun", "article": "der", "plural": "Bildschirme", "level": "B1", "goethe": "B1" },
+        { "de": "Passwort", "en": "password", "pos": "noun", "article": "das", "plural": "Passwörter", "level": "A2", "goethe": "A2" },
+        { "de": "Kalender", "en": "calendar", "pos": "noun", "article": "der", "plural": "Kalender", "level": "A2", "goethe": "A2" },
+        { "de": "Unterschrift", "en": "signature", "pos": "noun", "article": "die", "plural": "Unterschriften", "level": "A1", "goethe": "A1" },
+        { "de": "Telefonat", "en": "phone call", "pos": "noun", "article": "das", "plural": "Telefonate", "level": "B2" },
+        { "de": "Geräusch", "en": "noise, sound", "pos": "noun", "article": "das", "plural": "Geräusche", "level": "B1", "goethe": "B1" },
+        { "de": "zurückrufen", "en": "to call back", "pos": "verb", "aux": "haben", "sep": "zurück", "p2": "zurückgerufen", "level": "B1", "goethe": "B1" },
+        { "de": "ausdrucken", "en": "to print out", "pos": "verb", "aux": "haben", "sep": "aus", "p2": "ausgedruckt", "level": "B1", "goethe": "B1" },
+        { "de": "erledigen", "en": "to take care of, to get done", "pos": "verb", "aux": "haben", "p2": "erledigt", "level": "B1", "goethe": "B1" }
+      ]
+    },
+    {
+      "name": "E-Mails schreiben",
+      "en": "writing e-mails",
+      "words": [
+        { "de": "Betreff", "en": "subject line", "pos": "noun", "article": "der", "plural": "Betreffe", "level": "C1" },
+        { "de": "Anrede", "en": "form of address, salutation", "pos": "noun", "article": "die", "plural": "Anreden", "level": "A1", "goethe": "A1" },
+        { "de": "Anliegen", "en": "concern, request", "pos": "noun", "article": "das", "plural": "Anliegen", "level": "C1" },
+        { "de": "Ansprechpartner", "en": "contact person", "pos": "noun", "article": "der", "plural": "Ansprechpartner", "level": "C1" },
+        { "de": "Rückmeldung", "en": "feedback, reply", "pos": "noun", "article": "die", "plural": "Rückmeldungen", "level": "B1", "goethe": "B1" },
+        { "de": "Frist", "en": "deadline, time limit", "pos": "noun", "article": "die", "plural": "Fristen", "level": "B1", "goethe": "B1" },
+        { "de": "umgehend", "en": "immediately, promptly", "pos": "adv", "level": "C1" },
+        { "de": "verbindlich", "en": "binding, firm", "pos": "adj", "level": "C1" },
+        { "de": "zusichern", "en": "to assure, to guarantee", "pos": "verb", "aux": "haben", "sep": "zu", "p2": "zugesichert", "level": "C1" },
+        { "de": "einfordern", "en": "to demand, to call in", "pos": "verb", "aux": "haben", "sep": "ein", "p2": "eingefordert", "level": "C1" },
+        { "de": "sich erkundigen", "en": "to enquire (nach + Dat)", "pos": "verb", "aux": "haben", "p2": "erkundigt", "level": "B1", "goethe": "B1" },
+        { "de": "bedauern", "en": "to regret", "pos": "verb", "aux": "haben", "p2": "bedauert", "level": "C1" },
+        { "de": "Sehr geehrte Damen und Herren", "en": "Dear Sir or Madam", "pos": "phrase", "level": "A1", "goethe": "A1" },
+        { "de": "Mit freundlichen Grüßen", "en": "Yours sincerely, Kind regards (formal)", "pos": "phrase", "level": "A1", "goethe": "A1" },
+        { "de": "Ich wende mich an Sie", "en": "I am contacting you", "pos": "phrase", "level": "C1" },
+        { "de": "Viele Grüße", "en": "Kind regards (neutral)", "pos": "phrase", "level": "A1", "goethe": "A1" },
+        { "de": "E-Mail", "en": "e-mail", "pos": "noun", "article": "die", "plural": "E-Mails", "level": "A1", "goethe": "A1" },
+        { "de": "Absender", "en": "sender", "pos": "noun", "article": "der", "plural": "Absender", "level": "A1", "goethe": "A1" },
+        { "de": "Empfänger", "en": "recipient", "pos": "noun", "article": "der", "plural": "Empfänger", "level": "A1", "goethe": "A1" },
+        { "de": "weiterleiten", "en": "to forward", "pos": "verb", "aux": "haben", "sep": "weiter", "p2": "weitergeleitet", "level": "B2" }
+      ]
+    },
+    {
+      "name": "Beschwerden",
+      "en": "complaints",
+      "words": [
+        { "de": "Beschwerde", "en": "complaint", "pos": "noun", "article": "die", "plural": "Beschwerden", "level": "B1" },
+        { "de": "Reklamation", "en": "complaint about goods", "pos": "noun", "article": "die", "plural": "Reklamationen", "level": "C1" },
+        { "de": "Mangel", "en": "defect, shortcoming", "pos": "noun", "article": "der", "plural": "Mängel", "level": "B1", "goethe": "B1" },
+        { "de": "bemängeln", "en": "to criticise, to complain about", "pos": "verb", "aux": "haben", "p2": "bemängelt", "level": "C1" },
+        { "de": "reklamieren", "en": "to complain about goods", "pos": "verb", "aux": "haben", "p2": "reklamiert", "level": "B2" },
+        { "de": "sich beschweren", "en": "to complain (über + Akk)", "pos": "verb", "aux": "haben", "p2": "beschwert", "level": "A2", "goethe": "A2" },
+        { "de": "Ersatz", "en": "replacement", "pos": "noun", "article": "der", "plural": "-", "level": "B1", "goethe": "B1" },
+        { "de": "Umtausch", "en": "exchange (of goods)", "pos": "noun", "article": "der", "plural": "-", "level": "B1", "goethe": "B1" },
+        { "de": "Lieferverzug", "en": "delayed delivery", "pos": "noun", "article": "der", "plural": "-", "level": "C1" },
+        { "de": "beanstanden", "en": "to object to, to find fault with", "pos": "verb", "aux": "haben", "p2": "beanstandet", "level": "C1" }
+      ]
+    },
+    {
+      "name": "Besprechung & Verhandlung",
+      "en": "meetings and negotiation",
+      "words": [
+        { "de": "Besprechung", "en": "meeting, discussion", "pos": "noun", "article": "die", "plural": "Besprechungen", "level": "B1", "goethe": "B1" },
+        { "de": "Tagesordnung", "en": "agenda", "pos": "noun", "article": "die", "plural": "Tagesordnungen", "level": "B2" },
+        { "de": "Protokoll", "en": "minutes, record", "pos": "noun", "article": "das", "plural": "Protokolle", "level": "B2" },
+        { "de": "Verhandlung", "en": "negotiation", "pos": "noun", "article": "die", "plural": "Verhandlungen", "level": "B2" },
+        { "de": "Angebot", "en": "offer", "pos": "noun", "article": "das", "plural": "Angebote", "level": "A1", "goethe": "A1" },
+        { "de": "Einwand", "en": "objection", "pos": "noun", "article": "der", "plural": "Einwände", "level": "B2" },
+        { "de": "Zwischenfrage", "en": "question during a talk", "pos": "noun", "article": "die", "plural": "Zwischenfragen", "level": "C1" },
+        { "de": "Wortbeitrag", "en": "contribution (to a discussion)", "pos": "noun", "article": "der", "plural": "Wortbeiträge", "level": "C1" },
+        { "de": "Standpunkt", "en": "position, point of view", "pos": "noun", "article": "der", "plural": "Standpunkte", "level": "B1", "goethe": "B1" },
+        { "de": "Moderator", "en": "chair, moderator", "pos": "noun", "article": "der", "plural": "Moderatoren", "level": "B1", "goethe": "B1" },
+        { "de": "zustimmen", "en": "to agree (+Dat)", "pos": "verb", "aux": "haben", "sep": "zu", "p2": "zugestimmt", "level": "B1", "goethe": "B1" },
+        { "de": "widersprechen", "en": "to contradict, to disagree (+Dat)", "pos": "verb", "aux": "haben", "p2": "widersprochen", "level": "B1", "goethe": "B1" },
+        { "de": "Da muss ich Ihnen widersprechen", "en": "I have to disagree with you", "pos": "phrase", "level": "B1", "goethe": "B1" },
+        { "de": "Darf ich kurz unterbrechen?", "en": "May I briefly interrupt?", "pos": "phrase", "level": "B1", "goethe": "B1" },
+        { "de": "Meiner Ansicht nach", "en": "in my opinion", "pos": "phrase", "level": "C1" },
+        { "de": "Teilnehmer", "en": "participant", "pos": "noun", "article": "der", "plural": "Teilnehmer", "level": "B1", "goethe": "B1" },
+        { "de": "Vorschlag", "en": "proposal, suggestion", "pos": "noun", "article": "der", "plural": "Vorschläge", "level": "A2", "goethe": "A2" },
+        { "de": "Kompromiss", "en": "compromise", "pos": "noun", "article": "der", "plural": "Kompromisse", "level": "B1", "goethe": "B1" },
+        { "de": "Rabatt", "en": "discount", "pos": "noun", "article": "der", "plural": "Rabatte", "level": "B1", "goethe": "B1" },
+        { "de": "verhandeln", "en": "to negotiate", "pos": "verb", "aux": "haben", "p2": "verhandelt", "level": "B2" },
+        { "de": "vorschlagen", "en": "to propose", "pos": "verb", "aux": "haben", "sep": "vor", "p2": "vorgeschlagen", "level": "B1", "goethe": "B1" },
+        { "de": "verschieben", "en": "to postpone, to move", "pos": "verb", "aux": "haben", "p2": "verschoben", "level": "A2", "goethe": "A2" }
+      ]
+    },
+    {
+      "name": "Feste Wendungen",
+      "en": "fixed business phrases",
+      "words": [
+        { "de": "eine Entscheidung treffen", "en": "to make a decision", "pos": "phrase", "level": "B1", "goethe": "B1" },
+        { "de": "in Kauf nehmen", "en": "to accept (a drawback)", "pos": "phrase", "level": "B1", "goethe": "B1" },
+        { "de": "zur Verfügung stellen", "en": "to provide, to make available", "pos": "phrase", "level": "A1", "goethe": "A1" },
+        { "de": "Rücksicht nehmen auf", "en": "to show consideration for (+Akk)", "pos": "phrase", "level": "B1", "goethe": "B1" },
+        { "de": "in Frage kommen", "en": "to be possible, to be an option", "pos": "phrase", "level": "A1", "goethe": "A1" },
+        { "de": "zum Ausdruck bringen", "en": "to express", "pos": "phrase", "level": "B1", "goethe": "B1" },
+        { "de": "eine Rolle spielen", "en": "to play a role", "pos": "phrase", "level": "B1", "goethe": "B1" },
+        { "de": "Kritik üben an", "en": "to criticise (+Dat)", "pos": "phrase", "level": "B1", "goethe": "B1" },
+        { "de": "einen Beitrag leisten zu", "en": "to contribute to (+Dat)", "pos": "phrase", "level": "B1", "goethe": "B1" },
+        { "de": "in Betracht ziehen", "en": "to consider", "pos": "phrase", "level": "B2" },
+        { "de": "Stellung nehmen zu", "en": "to comment on (+Dat)", "pos": "phrase", "level": "B2" },
+        { "de": "zur Kenntnis nehmen", "en": "to take note of", "pos": "phrase", "level": "B2" },
+        { "de": "Einfluss nehmen auf", "en": "to influence (+Akk)", "pos": "phrase", "level": "B1", "goethe": "B1" },
+        { "de": "Verantwortung übernehmen für", "en": "to take responsibility for (+Akk)", "pos": "phrase", "level": "B1", "goethe": "B1" },
+        { "de": "einen Vorschlag unterbreiten", "en": "to submit a proposal", "pos": "phrase", "level": "B2" },
+        { "de": "Bedenken äußern", "en": "to voice concerns", "pos": "phrase", "level": "B2" },
+        { "de": "zur Diskussion stellen", "en": "to put up for discussion", "pos": "phrase", "level": "B1", "goethe": "B1" },
+        { "de": "auf dem Laufenden halten", "en": "to keep informed", "pos": "phrase", "level": "B2" },
+        { "de": "Rücksprache halten", "en": "to consult, to check back", "pos": "phrase", "level": "B2" }
+      ]
+    },
+    {
+      "name": "Präsentation",
+      "en": "presentation",
+      "words": [
+        { "de": "Folie", "en": "slide", "pos": "noun", "article": "die", "plural": "Folien", "level": "B1", "goethe": "B1" },
+        { "de": "Zielgruppe", "en": "target group, audience", "pos": "noun", "article": "die", "plural": "Zielgruppen", "level": "C1" },
+        { "de": "Einstieg", "en": "opening, introduction", "pos": "noun", "article": "der", "plural": "Einstiege", "level": "C1" },
+        { "de": "Gliederung", "en": "outline, structure", "pos": "noun", "article": "die", "plural": "Gliederungen", "level": "B2" },
+        { "de": "Überleitung", "en": "transition", "pos": "noun", "article": "die", "plural": "Überleitungen", "level": "C1" },
+        { "de": "vorstellen", "en": "to present, to introduce", "pos": "verb", "aux": "haben", "sep": "vor", "p2": "vorgestellt", "level": "A1", "goethe": "A1" },
+        { "de": "hervorheben", "en": "to emphasise, to highlight", "pos": "verb", "aux": "haben", "sep": "hervor", "p2": "hervorgehoben", "level": "C1" },
+        { "de": "zusammenfassen", "en": "to summarise", "pos": "verb", "aux": "haben", "sep": "zusammen", "p2": "zusammengefasst", "level": "B1", "goethe": "B1" },
+        { "de": "eingehen", "en": "to address (auf + Akk)", "pos": "verb", "aux": "sein", "sep": "ein", "p2": "eingegangen", "level": "C1" },
+        { "de": "Das bringt mich zum nächsten Punkt", "en": "That brings me to the next point", "pos": "phrase", "level": "A2", "goethe": "A2" },
+        { "de": "Vielen Dank für Ihre Aufmerksamkeit", "en": "Thank you for your attention", "pos": "phrase", "level": "C1" },
+        { "de": "Ich komme zum Schluss", "en": "I am coming to the end", "pos": "phrase", "level": "A1", "goethe": "A1" },
+        { "de": "Präsentation", "en": "presentation", "pos": "noun", "article": "die", "plural": "Präsentationen", "level": "B1", "goethe": "B1" },
+        { "de": "Vortrag", "en": "talk, lecture", "pos": "noun", "article": "der", "plural": "Vorträge", "level": "B1", "goethe": "B1" },
+        { "de": "Beamer", "en": "projector", "pos": "noun", "article": "der", "plural": "Beamer", "level": "B1" },
+        { "de": "Diagramm", "en": "chart, diagram", "pos": "noun", "article": "das", "plural": "Diagramme", "level": "B2" },
+        { "de": "Ergebnis", "en": "result", "pos": "noun", "article": "das", "plural": "Ergebnisse", "level": "A1", "goethe": "A1" },
+        { "de": "Fazit", "en": "conclusion", "pos": "noun", "article": "das", "plural": "Fazits", "level": "C1" }
+      ]
+    },
+    {
+      "name": "Work-Life-Balance",
+      "en": "work-life balance",
+      "words": [
+        { "de": "Freizeit", "en": "free time", "pos": "noun", "article": "die", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "Feierabend", "en": "end of the working day", "pos": "noun", "article": "der", "plural": "Feierabende", "level": "A1", "goethe": "A1" },
+        { "de": "Überstunde", "en": "overtime hour", "pos": "noun", "article": "die", "plural": "Überstunden", "level": "B1", "goethe": "B1" },
+        { "de": "Urlaub", "en": "holiday, leave", "pos": "noun", "article": "der", "plural": "Urlaube", "level": "A1", "goethe": "A1" },
+        { "de": "Homeoffice", "en": "working from home", "pos": "noun", "article": "das", "plural": "Homeoffices", "level": "B2" },
+        { "de": "Stress", "en": "stress", "pos": "noun", "article": "der", "plural": "-", "level": "A2", "goethe": "A2" },
+        { "de": "Erholung", "en": "recovery, rest", "pos": "noun", "article": "die", "plural": "-", "level": "B1", "goethe": "B1" },
+        { "de": "Gleitzeit", "en": "flexitime", "pos": "noun", "article": "die", "plural": "-", "level": "B2" },
+        { "de": "Arbeitsbelastung", "en": "workload", "pos": "noun", "article": "die", "plural": "Arbeitsbelastungen", "level": "B2" },
+        { "de": "Wochenende", "en": "weekend", "pos": "noun", "article": "das", "plural": "Wochenenden", "level": "A1", "goethe": "A1" },
+        { "de": "Ausgleich", "en": "balance, compensation", "pos": "noun", "article": "der", "plural": "-", "level": "B2" },
+        { "de": "Auszeit", "en": "break, time out", "pos": "noun", "article": "die", "plural": "Auszeiten", "level": "B2" },
+        { "de": "abschalten", "en": "to switch off, to relax", "pos": "verb", "aux": "haben", "sep": "ab", "p2": "abgeschaltet", "level": "B2" },
+        { "de": "sich entspannen", "en": "to relax", "pos": "verb", "aux": "haben", "p2": "entspannt", "level": "B1" },
+        { "de": "sich ausruhen", "en": "to rest", "pos": "verb", "aux": "haben", "sep": "aus", "p2": "ausgeruht", "level": "A2", "goethe": "A2" },
+        { "de": "sich erholen", "en": "to recover", "pos": "verb", "aux": "haben", "p2": "erholt", "level": "B1", "goethe": "B1" },
+        { "de": "Überstunden machen", "en": "to work overtime", "pos": "phrase", "level": "B1", "goethe": "B1" },
+        { "de": "Grenzen setzen", "en": "to set boundaries", "pos": "phrase", "level": "B1", "goethe": "B1" },
+        { "de": "erreichbar", "en": "reachable, available", "pos": "adj", "level": "B2" },
+        { "de": "gestresst", "en": "stressed", "pos": "adj", "level": "B2" },
+        { "de": "ausgeglichen", "en": "balanced, even-tempered", "pos": "adj", "level": "B2" },
+        { "de": "flexibel", "en": "flexible", "pos": "adj", "level": "B1", "goethe": "B1" },
+        { "de": "Ruhe", "en": "calm, quiet", "pos": "noun", "article": "die", "plural": "-", "level": "A2", "goethe": "A2" },
+        { "de": "Mittagspause", "en": "lunch break", "pos": "noun", "article": "die", "plural": "Mittagspausen", "level": "A1", "goethe": "A1" },
+        { "de": "Zeitdruck", "en": "time pressure", "pos": "noun", "article": "der", "plural": "-", "level": "C1" },
+        { "de": "Erschöpfung", "en": "exhaustion", "pos": "noun", "article": "die", "plural": "-", "level": "C1" }
+      ]
+    },
+    {
+      "name": "Technik & Wartung",
+      "en": "technology and maintenance",
+      "words": [
+        { "de": "Maschine", "en": "machine", "pos": "noun", "article": "die", "plural": "Maschinen", "level": "A1", "goethe": "A1" },
+        { "de": "Anlage", "en": "plant, facility", "pos": "noun", "article": "die", "plural": "Anlagen", "level": "B1", "goethe": "B1" },
+        { "de": "Wartung", "en": "maintenance", "pos": "noun", "article": "die", "plural": "Wartungen", "level": "B2" },
+        { "de": "Fertigung", "en": "manufacturing", "pos": "noun", "article": "die", "plural": "-", "level": "B2" },
+        { "de": "Werkstück", "en": "workpiece", "pos": "noun", "article": "das", "plural": "Werkstücke", "level": "B2" },
+        { "de": "Bauteil", "en": "component", "pos": "noun", "article": "das", "plural": "Bauteile", "level": "B2" },
+        { "de": "Schraube", "en": "screw", "pos": "noun", "article": "die", "plural": "Schrauben", "level": "B2" },
+        { "de": "Pumpe", "en": "pump", "pos": "noun", "article": "die", "plural": "Pumpen", "level": "B2" },
+        { "de": "Störung", "en": "malfunction", "pos": "noun", "article": "die", "plural": "Störungen", "level": "B1", "goethe": "B1" },
+        { "de": "Qualitätskontrolle", "en": "quality control", "pos": "noun", "article": "die", "plural": "Qualitätskontrollen", "level": "B2" },
+        { "de": "Lieferung", "en": "delivery", "pos": "noun", "article": "die", "plural": "Lieferungen", "level": "B1", "goethe": "B1" },
+        { "de": "Ersatzteil", "en": "spare part", "pos": "noun", "article": "das", "plural": "Ersatzteile", "level": "B2" },
+        { "de": "reparieren", "en": "to repair", "pos": "verb", "aux": "haben", "p2": "repariert", "level": "A1", "goethe": "A1" },
+        { "de": "warten", "en": "to service, to maintain", "pos": "verb", "aux": "haben", "p2": "gewartet", "level": "A1", "goethe": "A1" },
+        { "de": "austauschen", "en": "to replace, to exchange", "pos": "verb", "aux": "haben", "sep": "aus", "p2": "ausgetauscht", "level": "A2", "goethe": "A2" },
+        { "de": "prüfen", "en": "to check, to test", "pos": "verb", "aux": "haben", "p2": "geprüft", "level": "A2", "goethe": "A2" },
+        { "de": "einbauen", "en": "to install, to fit", "pos": "verb", "aux": "haben", "sep": "ein", "p2": "eingebaut", "level": "B2" },
+        { "de": "liefern", "en": "to deliver", "pos": "verb", "aux": "haben", "p2": "geliefert", "level": "A2", "goethe": "A2" },
+        { "de": "fehlerhaft", "en": "faulty", "pos": "adj", "level": "B2" },
+        { "de": "zuverlässig", "en": "reliable", "pos": "adj", "level": "B1", "goethe": "B1" },
+        { "de": "defekt", "en": "defective, broken", "pos": "adj", "level": "B2" },
+        { "de": "Werkzeug", "en": "tool", "pos": "noun", "article": "das", "plural": "Werkzeuge", "level": "B1", "goethe": "B1" },
+        { "de": "Sensor", "en": "sensor", "pos": "noun", "article": "der", "plural": "Sensoren", "level": "B2" },
+        { "de": "Steuerung", "en": "control system", "pos": "noun", "article": "die", "plural": "Steuerungen", "level": "C1" },
+        { "de": "Hersteller", "en": "manufacturer", "pos": "noun", "article": "der", "plural": "Hersteller", "level": "B1", "goethe": "B1" }
+      ]
+    },
+    {
+      "name": "Entwicklung & Konstruktion",
+      "en": "development and design",
+      "words": [
+        { "de": "Werkstoff", "en": "material", "pos": "noun", "article": "der", "plural": "Werkstoffe", "level": "C1" },
+        { "de": "Belastung", "en": "load, stress", "pos": "noun", "article": "die", "plural": "Belastungen", "level": "C1" },
+        { "de": "Toleranz", "en": "tolerance", "pos": "noun", "article": "die", "plural": "Toleranzen", "level": "C1" },
+        { "de": "Entwurf", "en": "draft, design", "pos": "noun", "article": "der", "plural": "Entwürfe", "level": "C1" },
+        { "de": "Prototyp", "en": "prototype", "pos": "noun", "article": "der", "plural": "Prototypen", "level": "C1" },
+        { "de": "Konstruktion", "en": "construction, design", "pos": "noun", "article": "die", "plural": "Konstruktionen", "level": "C1" },
+        { "de": "Zulieferer", "en": "supplier", "pos": "noun", "article": "der", "plural": "Zulieferer", "level": "C1" },
+        { "de": "Ausfall", "en": "failure, breakdown", "pos": "noun", "article": "der", "plural": "Ausfälle", "level": "B1" },
+        { "de": "Schaltplan", "en": "circuit diagram", "pos": "noun", "article": "der", "plural": "Schaltpläne", "level": "C1" },
+        { "de": "Inbetriebnahme", "en": "commissioning", "pos": "noun", "article": "die", "plural": "Inbetriebnahmen", "level": "C1" },
+        { "de": "konstruieren", "en": "to design, to construct", "pos": "verb", "aux": "haben", "p2": "konstruiert", "level": "C1" },
+        { "de": "entwerfen", "en": "to design, to draft", "pos": "verb", "aux": "haben", "p2": "entworfen", "level": "C1" },
+        { "de": "fertigen", "en": "to manufacture", "pos": "verb", "aux": "haben", "p2": "gefertigt", "level": "B1", "goethe": "B1" },
+        { "de": "ausfallen", "en": "to fail, to break down", "pos": "verb", "aux": "sein", "sep": "aus", "p2": "ausgefallen", "level": "B1", "goethe": "B1" },
+        { "de": "nachrüsten", "en": "to retrofit", "pos": "verb", "aux": "haben", "sep": "nach", "p2": "nachgerüstet", "level": "C1" },
+        { "de": "belasten", "en": "to load, to put stress on", "pos": "verb", "aux": "haben", "p2": "belastet", "level": "C1" },
+        { "de": "belastbar", "en": "resilient, able to bear load", "pos": "adj", "level": "C1" },
+        { "de": "störungsanfällig", "en": "prone to faults", "pos": "adj", "level": "C1" },
+        { "de": "wartungsarm", "en": "low-maintenance", "pos": "adj", "level": "C1" },
+        { "de": "Zeichnung", "en": "drawing", "pos": "noun", "article": "die", "plural": "Zeichnungen", "level": "B1", "goethe": "B1" },
+        { "de": "Messung", "en": "measurement", "pos": "noun", "article": "die", "plural": "Messungen", "level": "B2" },
+        { "de": "Berechnung", "en": "calculation", "pos": "noun", "article": "die", "plural": "Berechnungen", "level": "B2" },
+        { "de": "Versuch", "en": "experiment, test", "pos": "noun", "article": "der", "plural": "Versuche", "level": "B1", "goethe": "B1" },
+        { "de": "Software", "en": "software", "pos": "noun", "article": "die", "plural": "-", "level": "B1", "goethe": "B1" },
+        { "de": "Datenbank", "en": "database", "pos": "noun", "article": "die", "plural": "Datenbanken", "level": "B2" },
+        { "de": "testen", "en": "to test", "pos": "verb", "aux": "haben", "p2": "getestet", "level": "B1", "goethe": "B1" },
+        { "de": "messen", "en": "to measure", "pos": "verb", "aux": "haben", "p2": "gemessen", "level": "B1", "goethe": "B1" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "de": "Haben Sie meine E-Mail von gestern gesehen?", "en": "Did you see my e-mail from yesterday?", "who": "staff", "level": "A2" },
+    { "de": "Können wir den Termin auf Donnerstag verschieben?", "en": "Can we move the appointment to Thursday?", "who": "staff", "level": "B1" },
+    { "de": "Ich schicke Ihnen das Protokoll bis morgen.", "en": "I will send you the minutes by tomorrow.", "who": "staff", "level": "B2" },
+    { "de": "Das Angebot gilt bis Ende des Monats.", "en": "The offer is valid until the end of the month.", "who": "staff", "level": "B2" },
+    { "de": "Ab Montag bin ich im Urlaub und nicht erreichbar.", "en": "From Monday I am on leave and not reachable.", "who": "staff", "level": "B2" },
+    { "de": "Die Anlage ist seit heute Morgen ausgefallen.", "en": "The plant has been down since this morning.", "who": "staff", "level": "B2" },
+    { "de": "Sehr geehrte Damen und Herren, ich wende mich an Sie wegen einer Rechnung.", "en": "Dear Sir or Madam, I am contacting you about an invoice.", "who": "you", "level": "C1" },
+    { "de": "Ich schicke Ihnen die Unterlagen im Anhang.", "en": "I am sending you the documents attached.", "who": "you", "level": "B1" },
+    { "de": "Könnten Sie mir bitte kurz Rückmeldung geben?", "en": "Could you please give me brief feedback?", "who": "you", "level": "B2" },
+    { "de": "Darf ich kurz unterbrechen?", "en": "May I briefly interrupt?", "who": "you", "level": "B2" },
+    { "de": "Ich möchte zwei Punkte hervorheben.", "en": "I would like to highlight two points.", "who": "you", "level": "B2" },
+    { "de": "Heute arbeite ich im Homeoffice.", "en": "Today I am working from home.", "who": "you", "level": "B1" },
+    { "de": "Ab 17 Uhr bin ich nicht mehr erreichbar.", "en": "After 5 p.m. I am no longer reachable.", "who": "you", "level": "B2" },
+    { "de": "Bis wann brauchen Sie das Angebot?", "en": "By when do you need the offer?", "who": "you", "level": "B1" }
+  ],
+  "exercises": [
+    { "type": "article", "word": "Besprechung", "answer": "die", "explain": "Nouns ending in -ung are feminine: die Besprechung." },
+    { "type": "article", "word": "Protokoll", "answer": "das", "explain": "Protokoll is neuter: das Protokoll, die Protokolle." },
+    { "type": "article", "word": "Homeoffice", "answer": "das", "explain": "Homeoffice follows das Büro: das Homeoffice." },
+    { "type": "article", "word": "Schreibtisch", "answer": "der", "explain": "Compound nouns take the gender of the last word: der Tisch, so der Schreibtisch." },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "die Tagesordnung",
+          "agenda"
+        ],
+        [
+          "das Protokoll",
+          "minutes"
+        ],
+        [
+          "die Folie",
+          "slide"
+        ],
+        [
+          "die Frist",
+          "deadline"
+        ],
+        [
+          "der Betreff",
+          "subject line"
+        ]
+      ],
+      "explain": "Words for meetings and e-mails, each with its article."
+    },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "die Wartung",
+          "maintenance"
+        ],
+        [
+          "das Ersatzteil",
+          "spare part"
+        ],
+        [
+          "die Störung",
+          "malfunction"
+        ],
+        [
+          "der Prototyp",
+          "prototype"
+        ],
+        [
+          "die Lieferung",
+          "delivery"
+        ]
+      ],
+      "explain": "Technical nouns you meet in an industrial office."
+    },
+    {
+      "type": "gap",
+      "q": "Darf ich kurz ___?",
+      "answer": [
+        "unterbrechen"
+      ],
+      "explain": "Darf takes the infinitive at the end: Darf ich kurz unterbrechen?"
+    },
+    {
+      "type": "gap",
+      "q": "Wir müssen die defekte Pumpe ___.",
+      "answer": [
+        "austauschen"
+      ],
+      "explain": "Müssen takes the infinitive at the end: austauschen, to replace."
+    },
+    {
+      "type": "gap",
+      "q": "Mit freundlichen ___",
+      "answer": [
+        "Grüßen"
+      ],
+      "explain": "The formal closing is Mit freundlichen Grüßen (dative plural after mit)."
+    },
+    {
+      "type": "translate",
+      "en": "The machine has failed.",
+      "answer": [
+        "Die Maschine ist ausgefallen.",
+        "Die Maschine ist ausgefallen"
+      ],
+      "explain": "Ausfallen is a verb of change and takes sein in the perfect: ist ausgefallen."
+    },
+    {
+      "type": "translate",
+      "en": "Please send me the minutes by Friday.",
+      "answer": [
+        "Bitte schicken Sie mir das Protokoll bis Freitag.",
+        "Schicken Sie mir bitte das Protokoll bis Freitag.",
+        "Bitte senden Sie mir das Protokoll bis Freitag."
+      ],
+      "explain": "Polite request with the formal Sie; das Protokoll is neuter, so it stays das in the accusative."
+    },
+    {
+      "type": "mc",
+      "q": "Which greeting fits a formal e-mail to an unknown company?",
+      "options": [
+        "Hallo zusammen,",
+        "Sehr geehrte Damen und Herren,",
+        "Liebe Grüße,"
+      ],
+      "answer": 1,
+      "explain": "Sehr geehrte Damen und Herren is the standard formal salutation when you do not know the name."
+    },
+    {
+      "type": "mc",
+      "q": "Which sentence means \"I have to disagree with you\"?",
+      "options": [
+        "Da muss ich Ihnen widersprechen.",
+        "Das bringt mich zum nächsten Punkt.",
+        "Vielen Dank für Ihre Aufmerksamkeit."
+      ],
+      "answer": 0,
+      "explain": "Widersprechen means to contradict; the other two sentences move on or end a talk."
+    },
+    {
+      "type": "order",
+      "words": [
+        "Besprechung",
+        "um",
+        "Die",
+        "Uhr",
+        "beginnt",
+        "zehn"
+      ],
+      "answer": "Die Besprechung beginnt um zehn Uhr",
+      "explain": "Subject, verb in second place, then the time."
+    }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Sehr geehrte Damen und Herren, ich wende mich an Sie wegen einer Rechnung.", "en": "Dear Sir or Madam, I am contacting you about an invoice." },
+      { "de": "Ich schicke Ihnen die Unterlagen im Anhang.", "en": "I am sending you the documents attached." },
+      { "de": "Darf ich kurz unterbrechen?", "en": "May I briefly interrupt?" },
+      { "de": "Ich möchte zwei Punkte hervorheben.", "en": "I would like to highlight two points." },
+      { "de": "Vielen Dank für Ihre Aufmerksamkeit.", "en": "Thank you for your attention." }
+    ],
+    "prompts": [
+      { "q": "Wie ist der Stand beim Projekt?", "qEn": "What is the status of the project? (team meeting)", "model": "Wir liegen im Zeitplan. Die Konstruktion ist fertig, und nächste Woche beginnen wir mit den ersten Tests.", "hint": "Give a short status report." },
+      { "q": "Das Angebot ist uns zu teuer. Können Sie uns beim Preis entgegenkommen?", "qEn": "The offer is too expensive for us. Can you come down on the price? (negotiation)", "model": "Ich verstehe Ihren Standpunkt. Bei einer größeren Bestellung kann ich Ihnen einen Rabatt von fünf Prozent anbieten.", "hint": "Offer a compromise." },
+      { "q": "Beginnen Sie bitte mit Ihrer Präsentation.", "qEn": "Please start your presentation.", "model": "Vielen Dank. Heute möchte ich Ihnen unser neues Bauteil vorstellen. Zuerst zeige ich Ihnen den Entwurf, dann die Testergebnisse.", "hint": "Welcome the audience and give an outline." },
+      { "q": "Warum können Sie die Frist nicht einhalten?", "qEn": "Why can you not meet the deadline? (call with a client)", "model": "Leider gibt es eine Störung bei unserem Zulieferer. Ich bedaure das und kann Ihnen die Lieferung für nächsten Dienstag zusichern.", "hint": "Apologise and give a new date." }
+    ]
+  }
+}
