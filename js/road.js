@@ -85,8 +85,8 @@ function alltagStats(list, current) {
 
 /** Switch between the two roads; sits in the pinned header. */
 const roadTabs = (mode) => h('nav.road-tabs', { 'aria-label': 'Roads' },
-  h(`a${mode === 'grammar' ? '.on' : ''}`, { href: '#/road', 'aria-current': mode === 'grammar' ? 'page' : null }, '📘 Grammatik'),
-  h(`a${mode === 'alltag' ? '.on' : ''}`, { href: '#/alltag', 'aria-current': mode === 'alltag' ? 'page' : null }, '🗺 Alltag · Wörter'));
+  h(`a.grammar${mode === 'grammar' ? '.on' : ''}`, { href: '#/road', 'aria-current': mode === 'grammar' ? 'page' : null }, '📘 Grammatik'),
+  h(`a.alltag${mode === 'alltag' ? '.on' : ''}`, { href: '#/alltag', 'aria-current': mode === 'alltag' ? 'page' : null }, '🗺 Alltag · Wörter'));
 
 function stats(road, list, current) {
   const ms = list.filter((x) => x.kind === 'ms');
@@ -122,7 +122,7 @@ export async function renderRoad(view, { at, mode = 'grammar' } = {}) {
   const { list, current } = alltag ? alltagItems(alltag) : items(road);
   const zones = alltag ? alltag.chapters.map((c) => [c.id, c.name]) : road.levels.map((lv) => [lv.id, lv.id]);
 
-  const page = h('div.road-page');
+  const page = h(`div.road-page${alltag ? '.alltag-theme' : ''}`);
   const wrap = h('div.road');
   page.append(
     h('div.road-top', roadTabs(mode), alltag ? alltagStats(list, current) : stats(road, list, current), today(road)), // all stay pinned while you scroll
@@ -335,7 +335,7 @@ const escClose = (e) => e.key === 'Escape' && closeSheet();
 async function sheet(x) {
   closeSheet();
   unpeek();
-  const card = h('div.sheet', { role: 'dialog', 'aria-modal': 'true' });
+  const card = h(`div.sheet${x.mode === 'alltag' ? '.alltag-theme' : ''}`, { role: 'dialog', 'aria-modal': 'true' });
   document.body.append(h('div.sheet-backdrop', { onclick: closeSheet }), card);
   document.addEventListener('keydown', escClose);
   const close = h('button.btn', { type: 'button', onclick: closeSheet }, 'Schließen');
