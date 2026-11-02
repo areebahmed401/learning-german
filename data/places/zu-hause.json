@@ -1,0 +1,263 @@
+{
+  "id": "zu-hause",
+  "icon": "🛋️",
+  "title": "Zu Hause",
+  "en": "At home",
+  "intro": "Your room, flat or shared flat is where you practise German every day. Learn the rooms, the furniture, the chores and especially how to sort rubbish, because Germans take it seriously.",
+  "areas": [
+    {
+      "name": "Zimmer",
+      "en": "rooms",
+      "words": [
+        { "de": "Wohnung", "en": "flat, apartment", "pos": "noun", "article": "die", "plural": "Wohnungen", "level": "A1", "goethe": "A1" },
+        { "de": "Zimmer", "en": "room", "pos": "noun", "article": "das", "plural": "Zimmer", "level": "A1", "goethe": "A1" },
+        { "de": "Wohnzimmer", "en": "living room", "pos": "noun", "article": "das", "plural": "Wohnzimmer", "level": "A2", "goethe": "A2" },
+        { "de": "Schlafzimmer", "en": "bedroom", "pos": "noun", "article": "das", "plural": "Schlafzimmer", "level": "A1", "goethe": "A1" },
+        { "de": "Küche", "en": "kitchen", "pos": "noun", "article": "die", "plural": "Küchen", "level": "A1", "goethe": "A1" },
+        { "de": "Flur", "en": "hallway", "pos": "noun", "article": "der", "plural": "Flure", "level": "B1", "goethe": "B1" },
+        { "de": "Balkon", "en": "balcony", "pos": "noun", "article": "der", "plural": "Balkone", "level": "A1", "goethe": "A1" },
+        { "de": "Keller", "en": "cellar, basement", "pos": "noun", "article": "der", "plural": "Keller", "level": "A2", "goethe": "A2" },
+        { "de": "WG", "en": "shared flat", "pos": "noun", "article": "die", "plural": "WGs", "level": "B1", "goethe": "B1" },
+        { "de": "Mitbewohner", "en": "flatmate", "pos": "noun", "article": "der", "plural": "Mitbewohner", "level": "A2" }
+      ]
+    },
+    {
+      "name": "Möbel",
+      "en": "furniture",
+      "words": [
+        { "de": "Bett", "en": "bed", "pos": "noun", "article": "das", "plural": "Betten", "level": "A1", "goethe": "A1" },
+        { "de": "Tisch", "en": "table", "pos": "noun", "article": "der", "plural": "Tische", "level": "A1", "goethe": "A1" },
+        { "de": "Stuhl", "en": "chair", "pos": "noun", "article": "der", "plural": "Stühle", "level": "A2", "goethe": "A2" },
+        { "de": "Schrank", "en": "wardrobe, cupboard", "pos": "noun", "article": "der", "plural": "Schränke", "level": "A1", "goethe": "A1" },
+        { "de": "Sofa", "en": "sofa", "pos": "noun", "article": "das", "plural": "Sofas", "level": "A1", "goethe": "A1" },
+        { "de": "Lampe", "en": "lamp", "pos": "noun", "article": "die", "plural": "Lampen", "level": "A2", "goethe": "A2" },
+        { "de": "Regal", "en": "shelf", "pos": "noun", "article": "das", "plural": "Regale", "level": "A2", "goethe": "A2" },
+        { "de": "Schreibtisch", "en": "desk", "pos": "noun", "article": "der", "plural": "Schreibtische", "level": "B1", "goethe": "B1" },
+        { "de": "Kissen", "en": "pillow, cushion", "pos": "noun", "article": "das", "plural": "Kissen", "level": "B1", "goethe": "B1" },
+        { "de": "Decke", "en": "blanket", "pos": "noun", "article": "die", "plural": "Decken", "level": "B1", "goethe": "B1" },
+        { "de": "Matratze", "en": "mattress", "pos": "noun", "article": "die", "plural": "Matratzen", "level": "B1" }
+      ]
+    },
+    {
+      "name": "Bad & Küche",
+      "en": "bathroom and kitchen",
+      "words": [
+        { "de": "Bad", "en": "bathroom", "pos": "noun", "article": "das", "plural": "Bäder", "level": "A1", "goethe": "A1" },
+        { "de": "Toilette", "en": "toilet", "pos": "noun", "article": "die", "plural": "Toiletten", "level": "A1", "goethe": "A1" },
+        { "de": "Dusche", "en": "shower", "pos": "noun", "article": "die", "plural": "Duschen", "level": "A1", "goethe": "A1" },
+        { "de": "Handtuch", "en": "towel", "pos": "noun", "article": "das", "plural": "Handtücher", "level": "A2", "goethe": "A2" },
+        { "de": "Seife", "en": "soap", "pos": "noun", "article": "die", "plural": "Seifen", "level": "A2", "goethe": "A2" },
+        { "de": "Zahnbürste", "en": "toothbrush", "pos": "noun", "article": "die", "plural": "Zahnbürsten", "level": "B1", "goethe": "B1" },
+        { "de": "Spiegel", "en": "mirror", "pos": "noun", "article": "der", "plural": "Spiegel", "level": "B1", "goethe": "B1" },
+        { "de": "Waschbecken", "en": "washbasin, sink", "pos": "noun", "article": "das", "plural": "Waschbecken", "level": "B1" },
+        { "de": "Kühlschrank", "en": "fridge", "pos": "noun", "article": "der", "plural": "Kühlschränke", "level": "A1", "goethe": "A1" },
+        { "de": "Herd", "en": "cooker, stove", "pos": "noun", "article": "der", "plural": "Herde", "level": "A1", "goethe": "A1" },
+        { "de": "Waschmaschine", "en": "washing machine", "pos": "noun", "article": "die", "plural": "Waschmaschinen", "level": "A1", "goethe": "A1" },
+        { "de": "Spülmaschine", "en": "dishwasher", "pos": "noun", "article": "die", "plural": "Spülmaschinen", "level": "B1" }
+      ]
+    },
+    {
+      "name": "Hausarbeit",
+      "en": "housework",
+      "words": [
+        { "de": "putzen", "en": "to clean", "pos": "verb", "aux": "haben", "p2": "geputzt", "level": "A2", "goethe": "A2" },
+        { "de": "aufräumen", "en": "to tidy up", "pos": "verb", "aux": "haben", "sep": "auf", "p2": "aufgeräumt", "level": "A2", "goethe": "A2" },
+        { "de": "abwaschen", "en": "to wash up", "pos": "verb", "aux": "haben", "sep": "ab", "p2": "abgewaschen", "level": "B1", "goethe": "B1" },
+        { "de": "waschen", "en": "to wash", "pos": "verb", "aux": "haben", "p2": "gewaschen", "level": "A1", "goethe": "A1" },
+        { "de": "aufhängen", "en": "to hang up", "pos": "verb", "aux": "haben", "sep": "auf", "p2": "aufgehängt", "level": "B1", "goethe": "B1" },
+        { "de": "lüften", "en": "to air (a room)", "pos": "verb", "aux": "haben", "p2": "gelüftet", "level": "B1" },
+        { "de": "Wäsche", "en": "laundry", "pos": "noun", "article": "die", "plural": "-", "level": "A2", "goethe": "A2" },
+        { "de": "Staubsauger", "en": "vacuum cleaner", "pos": "noun", "article": "der", "plural": "Staubsauger", "level": "A2" },
+        { "de": "Besen", "en": "broom", "pos": "noun", "article": "der", "plural": "Besen", "level": "B1" },
+        { "de": "Putzmittel", "en": "cleaning product", "pos": "noun", "article": "das", "plural": "Putzmittel", "level": "B1" },
+        { "de": "Wäscheständer", "en": "clothes airer", "pos": "noun", "article": "der", "plural": "Wäscheständer", "level": "B2" },
+        { "de": "Putzplan", "en": "cleaning rota", "pos": "noun", "article": "der", "plural": "Putzpläne", "level": "B2" }
+      ]
+    },
+    {
+      "name": "Mülltrennung",
+      "en": "sorting rubbish",
+      "words": [
+        { "de": "Müll", "en": "rubbish", "pos": "noun", "article": "der", "plural": "-", "level": "A2", "goethe": "A2" },
+        { "de": "Restmüll", "en": "general waste", "pos": "noun", "article": "der", "plural": "-", "level": "B1" },
+        { "de": "Biomüll", "en": "organic waste", "pos": "noun", "article": "der", "plural": "-", "level": "B1" },
+        { "de": "Gelbe Sack", "en": "yellow bag for plastic and packaging", "pos": "noun", "article": "der", "plural": "Gelbe Säcke", "level": "B1" },
+        { "de": "Altpapier", "en": "waste paper", "pos": "noun", "article": "das", "plural": "-", "level": "B1", "goethe": "B1" },
+        { "de": "Altglas", "en": "waste glass", "pos": "noun", "article": "das", "plural": "-", "level": "B1" },
+        { "de": "Pfand", "en": "deposit (on bottles)", "pos": "noun", "article": "das", "plural": "-", "level": "A2" },
+        { "de": "Mülleimer", "en": "rubbish bin", "pos": "noun", "article": "der", "plural": "Mülleimer", "level": "A2" },
+        { "de": "Mülltonne", "en": "wheelie bin", "pos": "noun", "article": "die", "plural": "Mülltonnen", "level": "B1", "goethe": "B1" },
+        { "de": "wegwerfen", "en": "to throw away", "pos": "verb", "aux": "haben", "sep": "weg", "p2": "weggeworfen", "level": "A2", "goethe": "A2" },
+        { "de": "trennen", "en": "to separate, to sort", "pos": "verb", "aux": "haben", "p2": "getrennt", "level": "B1", "goethe": "B1" },
+        { "de": "entsorgen", "en": "to dispose of", "pos": "verb", "aux": "haben", "p2": "entsorgt", "level": "B1", "goethe": "B1" }
+      ]
+    },
+    {
+      "name": "Hausordnung",
+      "en": "house rules and neighbours",
+      "words": [
+        { "de": "Hausordnung", "en": "house rules", "pos": "noun", "article": "die", "plural": "Hausordnungen", "level": "B1", "goethe": "B1" },
+        { "de": "Nachbar", "en": "neighbour", "pos": "noun", "article": "der", "plural": "Nachbarn", "level": "A2", "goethe": "A2" },
+        { "de": "Hausmeister", "en": "caretaker", "pos": "noun", "article": "der", "plural": "Hausmeister", "level": "A2", "goethe": "A2" },
+        { "de": "Vermieter", "en": "landlord", "pos": "noun", "article": "der", "plural": "Vermieter", "level": "A1", "goethe": "A1" },
+        { "de": "Miete", "en": "rent", "pos": "noun", "article": "die", "plural": "Mieten", "level": "A1", "goethe": "A1" },
+        { "de": "Nebenkosten", "en": "service charges (utilities)", "pos": "noun", "article": "die", "plural": "Nebenkosten", "level": "B1" },
+        { "de": "Mietvertrag", "en": "rental contract", "pos": "noun", "article": "der", "plural": "Mietverträge", "level": "B1", "goethe": "B1" },
+        { "de": "Ruhezeit", "en": "quiet hours", "pos": "noun", "article": "die", "plural": "Ruhezeiten", "level": "B2" },
+        { "de": "Lärm", "en": "noise", "pos": "noun", "article": "der", "plural": "-", "level": "B1", "goethe": "B1" },
+        { "de": "Treppenhaus", "en": "stairwell", "pos": "noun", "article": "das", "plural": "Treppenhäuser", "level": "B1", "goethe": "B1" },
+        { "de": "Schlüssel", "en": "key", "pos": "noun", "article": "der", "plural": "Schlüssel", "level": "A1", "goethe": "A1" },
+        { "de": "stören", "en": "to disturb", "pos": "verb", "aux": "haben", "p2": "gestört", "level": "A2", "goethe": "A2" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "de": "Bitte denken Sie an die Ruhezeiten.", "en": "Please keep to the quiet hours.", "who": "staff", "level": "B1" },
+    { "de": "Nach zweiundzwanzig Uhr bitte leise sein.", "en": "Please be quiet after 10 p.m.", "who": "staff", "level": "A2" },
+    { "de": "Der Müll wird dienstags abgeholt.", "en": "The rubbish is collected on Tuesdays.", "who": "staff", "level": "B1" },
+    { "de": "Die Nebenkosten sind in der Miete nicht enthalten.", "en": "The service charges are not included in the rent.", "who": "staff", "level": "B1" },
+    { "de": "Ich schaue mir die Heizung morgen an.", "en": "I'll take a look at the heating tomorrow.", "who": "staff", "level": "B1" },
+    { "de": "Das Papier gehört in die blaue Tonne.", "en": "Paper goes in the blue bin.", "who": "staff", "level": "A2" },
+    { "de": "Wer ist heute mit Putzen dran?", "en": "Whose turn is it to clean today?", "who": "you", "level": "A2" },
+    { "de": "Die Waschmaschine ist kaputt.", "en": "The washing machine is broken.", "who": "you", "level": "A2" },
+    { "de": "Darf ich morgen Abend ein paar Freunde einladen?", "en": "May I invite a few friends tomorrow evening?", "who": "you", "level": "A2" },
+    { "de": "Kannst du bitte die Musik leiser machen?", "en": "Can you please turn the music down?", "who": "you", "level": "A2" },
+    { "de": "Wohin gehört die Plastikflasche?", "en": "Where does the plastic bottle go?", "who": "you", "level": "A2" },
+    { "de": "Wo kann ich meine Pfandflaschen abgeben?", "en": "Where can I return my deposit bottles?", "who": "you", "level": "B1" },
+    { "de": "Entschuldigung, ich habe meinen Schlüssel vergessen.", "en": "Sorry, I forgot my key.", "who": "you", "level": "A2" },
+    { "de": "Wann kommt der Hausmeister?", "en": "When is the caretaker coming?", "who": "you", "level": "A2" },
+    { "de": "Ich muss noch den Müll runterbringen.", "en": "I still have to take the rubbish down.", "who": "you", "level": "A2" }
+  ],
+  "exercises": [
+    { "type": "article", "word": "Küche", "answer": "die", "explain": "Most nouns ending in -e are feminine: die Küche." },
+    { "type": "article", "word": "Bett", "answer": "das", "explain": "Bett is neuter: das Bett, die Betten." },
+    { "type": "article", "word": "Schrank", "answer": "der", "explain": "Schrank is masculine: der Schrank, die Schränke." },
+    { "type": "article", "word": "Mülleimer", "answer": "der", "explain": "Compound nouns take the gender of the last word: der Eimer, so der Mülleimer." },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "der Schrank",
+          "wardrobe"
+        ],
+        [
+          "das Regal",
+          "shelf"
+        ],
+        [
+          "die Dusche",
+          "shower"
+        ],
+        [
+          "das Handtuch",
+          "towel"
+        ]
+      ],
+      "explain": "Furniture and bathroom nouns with their articles."
+    },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "Restmüll",
+          "general waste"
+        ],
+        [
+          "Altpapier",
+          "waste paper"
+        ],
+        [
+          "Biomüll",
+          "organic waste"
+        ],
+        [
+          "Altglas",
+          "waste glass"
+        ],
+        [
+          "Pfand",
+          "bottle deposit"
+        ]
+      ],
+      "explain": "The main rubbish categories in Germany."
+    },
+    {
+      "type": "gap",
+      "q": "Alte Zeitungen gehören ins ___.",
+      "answer": [
+        "Altpapier"
+      ],
+      "explain": "Newspapers are paper, so they go in the Altpapier."
+    },
+    {
+      "type": "gap",
+      "q": "Nach 22 Uhr beginnt die ___.",
+      "answer": [
+        "Ruhezeit"
+      ],
+      "explain": "The quiet hours are die Ruhezeit."
+    },
+    {
+      "type": "gap",
+      "q": "Ich muss heute noch das Bad ___.",
+      "answer": [
+        "putzen"
+      ],
+      "explain": "Muss takes the infinitive at the end: das Bad putzen."
+    },
+    {
+      "type": "translate",
+      "en": "Where is the rubbish bin?",
+      "answer": [
+        "Wo ist der Mülleimer?"
+      ],
+      "explain": "Wo ist + der Mülleimer, which is masculine."
+    },
+    {
+      "type": "translate",
+      "en": "The neighbour is too loud.",
+      "answer": [
+        "Der Nachbar ist zu laut.",
+        "Der Nachbar ist zu laut"
+      ],
+      "explain": "Der Nachbar is masculine; zu laut means too loud."
+    },
+    {
+      "type": "mc",
+      "q": "You have an empty bottle with Pfand. What do you do?",
+      "options": [
+        "Take it back to the shop for the deposit",
+        "Put it in the Restmüll",
+        "Pour it down the toilet"
+      ],
+      "answer": 0,
+      "explain": "Pfand is a deposit you get back when you return the bottle to a shop's machine."
+    },
+    {
+      "type": "order",
+      "words": [
+        "kommt",
+        "Der",
+        "Hausmeister",
+        "morgen"
+      ],
+      "answer": "Der Hausmeister kommt morgen",
+      "explain": "Subject first, then the verb in second place, then the time."
+    }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Wer ist heute mit Putzen dran?", "en": "Whose turn is it to clean today?" },
+      { "de": "Kannst du bitte die Musik leiser machen?", "en": "Can you please turn the music down?" },
+      { "de": "Wohin gehört die Plastikflasche?", "en": "Where does the plastic bottle go?" },
+      { "de": "Die Waschmaschine ist kaputt.", "en": "The washing machine is broken." },
+      { "de": "Ich muss noch den Müll runterbringen.", "en": "I still have to take the rubbish down." }
+    ],
+    "prompts": [
+      { "q": "Hallo, ich bin dein neuer Nachbar. Wohnst du schon lange hier?", "qEn": "Hello, I'm your new neighbour. Have you lived here long?", "model": "Hallo, nein, ich wohne erst seit zwei Wochen hier. Ich bin Student und studiere hier an der Uni.", "hint": "Use seit + dative." },
+      { "q": "Du hast gestern Abend sehr laut Musik gehört. Das war ein Problem.", "qEn": "You played music very loudly last night. That was a problem.", "model": "Das tut mir leid. Das passiert nicht wieder. Ich mache die Musik ab zweiundzwanzig Uhr leiser.", "hint": "Apologise and promise to be quieter." },
+      { "q": "Wo wirfst du die Plastikverpackung weg?", "qEn": "Where do you throw away the plastic packaging?", "model": "Die Plastikverpackung kommt in den Gelben Sack. Das Papier kommt in die blaue Tonne.", "hint": "Name two bins." },
+      { "q": "Was ist kaputt?", "qEn": "What is broken? (you call the caretaker)", "model": "Die Heizung im Bad ist kaputt. Können Sie bitte morgen vorbeikommen?", "hint": "Say what and ask for a visit." }
+    ]
+  }
+}

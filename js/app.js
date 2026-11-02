@@ -1,7 +1,8 @@
-// App shell: router (#/road, #/lesson, #/checkpoint, #/cards, #/quiz, #/settings), theme, settings menu, translator panel, checkpoint quizzes.
+// App shell: router (#/road, #/alltag, #/place, #/lesson, #/checkpoint, #/cards, #/quiz, #/settings), theme, settings menu, translator panel, checkpoint quizzes.
 import { h, getRoadmap, getJSON, lessonURL, shuffle, toast } from './util.js';
 import { renderRoad } from './road.js';
 import { renderLesson } from './lesson.js';
+import { renderPlace } from './place.js';
 import { renderCards } from './cards.js';
 import { renderQuiz } from './quiz.js';
 import { renderSettings } from './settings.js';
@@ -22,6 +23,11 @@ async function route() {
     if (parts[0] === 'lesson' && parts[1]) {
       await renderLesson(view, parts[1], parts[2]);
       window.scrollTo(0, 0);
+    } else if (parts[0] === 'place' && parts[1]) {
+      await renderPlace(view, parts[1], parts[2]);
+      window.scrollTo(0, 0);
+    } else if (parts[0] === 'alltag') {
+      await renderRoad(view, { ...params, mode: 'alltag' });
     } else if (parts[0] === 'cards') {
       await renderCards(view);
       window.scrollTo(0, 0);

@@ -56,6 +56,10 @@ export function getJSON(url) {
 }
 
 export const getRoadmap = () => getJSON('data/roadmap.json');
+export const getAlltag = () => getJSON('data/alltag.json');
+export const getPlace = (id) => getJSON(`data/places/${id}.json`);
+/** Every word of a place, each with its area name (the spot where you meet it). */
+export const placeWords = (place) => place.areas.flatMap((a) => a.words.map((w) => ({ ...w, area: a.name })));
 export const lessonURL = (level, id) => `data/lessons/${level.toLowerCase()}/${id}.json`;
 
 export async function getLesson(id) {

@@ -85,17 +85,22 @@ export function wordForms(w) {
   return w.note || '';
 }
 
-function words(body, lesson) {
-  const wrap = h('div.card');
-  const list = h('ul.wordlist', lesson.words.map((w) => h('li',
+/** One word: audio, the word (tap → translator), its forms and badges, the English. Also used by place.js. */
+export function wordRow(w, extra = null) {
+  return h('li',
     canSpeak ? sayBtn(w.pos === 'noun' && w.article ? `${w.article} ${w.de}` : w.de, speak) : h('span'),
     h('div',
       h('button.w', {
         type: 'button', title: 'See all forms in the translator', html: nounHTML(w),
         onclick: () => window.dispatchEvent(new CustomEvent('lg:lookup', { detail: { word: w.de } })),
       }),
-      h('span.forms', wordForms(w), w.goethe ? h('span.goethe', { title: `On the official Goethe-Zertifikat ${w.goethe} word list` }, `Goethe ${w.goethe}`) : null)),
-    h('span.en', w.en))));
+      h('span.forms', wordForms(w), extra, w.goethe ? h('span.goethe', { title: `On the official Goethe-Zertifikat ${w.goethe} word list` }, `Goethe ${w.goethe}`) : null)),
+    h('span.en', w.en));
+}
+
+function words(body, lesson) {
+  const wrap = h('div.card');
+  const list = h('ul.wordlist', lesson.words.map((w) => wordRow(w)));
   const hide = h('button.btn.small', {
     type: 'button', 'aria-pressed': 'false',
     onclick: () => {
@@ -210,7 +215,7 @@ function saidIt() {
   return h('button.btn.small', { type: 'button', onclick: (e) => { progress.recordSpeak(); e.target.textContent = '✓ Gesagt'; e.target.disabled = true; } }, '✓ I said it');
 }
 
-function speakStep(body, lesson) {
+export function speakStep(body, lesson) {
   if (!canListen) body.append(h('div.notice', 'Mic transcription works in Chrome and Edge. Here you can still listen and repeat out loud. Tap “I said it” to count it.'));
   body.append(h('div.card',
     h('h2', '1 · Hören & Nachsprechen'),

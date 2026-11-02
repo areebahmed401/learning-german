@@ -6,7 +6,7 @@ import { KEEP_ANSWERS } from './adapt.js';
 const KEY = 'lg-progress-v1';
 export const PASS = 0.7;
 
-const blank = () => ({ lessons: {}, checkpoints: {}, speakDays: [], cards: {}, cardDays: [], cardStats: {}, quiz: { days: {}, mistakes: [], answers: [] }, adapt: {}, settings: {}, version: 1 });
+const blank = () => ({ lessons: {}, places: {}, checkpoints: {}, speakDays: [], cards: {}, cardDays: [], cardStats: {}, quiz: { days: {}, mistakes: [], answers: [] }, adapt: {}, settings: {}, version: 1 });
 let state = load();
 
 function load() {
@@ -82,6 +82,42 @@ export function recordSpeak() {
 }
 
 export const lessonState = (id) => state.lessons[id];
+
+/* ---------- Alltag road: places (words by where you meet them), same shape as lessons ---------- */
+const place = (id) => (state.places[id] ??= { steps: {}, best: 0, done: false, mistakes: [] });
+export const placeState = (id) => state.places[id];
+
+export function markPlaceStep(id, step) {
+  const p = place(id);
+  if (!p.steps[step]) { p.steps[step] = true; save(); }
+}
+
+export function recordPlacePractice(id, score, mistakes) {
+  const p = place(id);
+  p.best = Math.max(p.best, score);
+  p.mistakes = mistakes;
+  if (score >= PASS) p.done = true;
+  save();
+  return p;
+}
+
+export function setPlaceMistakes(id, mistakes) {
+  place(id).mistakes = mistakes;
+  save();
+}
+
+/** 'done' | 'progress' | 'new' */
+export function placeStatus(id) {
+  const p = state.places[id];
+  if (!p) return 'new';
+  if (p.done) return 'done';
+  return Object.keys(p.steps).length || p.best ? 'progress' : 'new';
+}
+
+export const placeFraction = (id) => {
+  const p = state.places[id];
+  return !p ? 0 : p.done ? 1 : Math.min(Object.keys(p.steps).length, 4) / 4;
+};
 export const checkpointState = (level) => state.checkpoints[level];
 
 /** 'done' | 'progress' | 'new' */

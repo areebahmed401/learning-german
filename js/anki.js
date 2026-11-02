@@ -31,6 +31,12 @@ export function download(rows, filename) {
   setTimeout(() => URL.revokeObjectURL(a.href), 1000);
 }
 
+export const placeRows = (place, words) =>
+  words.map((word) => ({
+    word,
+    tags: [`Deutschweg::Alltag::${place.id}`, word.level && `Deutschweg::${word.level}`, word.goethe && `Goethe::${word.goethe}`].filter(Boolean),
+  }));
+
 export const lessonRows = (lesson) =>
   lesson.words.map((word) => ({
     word,

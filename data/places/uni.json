@@ -1,0 +1,260 @@
+{
+  "id": "uni",
+  "icon": "🎓",
+  "title": "Uni",
+  "en": "University",
+  "intro": "You enrol, pay the semester fee, get your student ID and then find your way between lecture halls, the Mensa and the library. Much of the paperwork happens in the Sekretariat and the Prüfungsamt.",
+  "areas": [
+    {
+      "name": "Immatrikulation",
+      "en": "enrolment",
+      "words": [
+        { "de": "Immatrikulation", "en": "enrolment", "pos": "noun", "article": "die", "plural": "Immatrikulationen", "level": "B2" },
+        { "de": "Bewerbung", "en": "application", "pos": "noun", "article": "die", "plural": "Bewerbungen", "level": "A2", "goethe": "A2" },
+        { "de": "Zulassung", "en": "admission", "pos": "noun", "article": "die", "plural": "Zulassungen", "level": "B2" },
+        { "de": "Studiengang", "en": "degree programme", "pos": "noun", "article": "der", "plural": "Studiengänge", "level": "B1" },
+        { "de": "Fach", "en": "subject", "pos": "noun", "article": "das", "plural": "Fächer", "level": "A2", "goethe": "A2" },
+        { "de": "Bachelor", "en": "bachelor's degree", "pos": "noun", "article": "der", "plural": "Bachelor", "level": "B1" },
+        { "de": "Master", "en": "master's degree", "pos": "noun", "article": "der", "plural": "Master", "level": "B1" },
+        { "de": "Semester", "en": "semester", "pos": "noun", "article": "das", "plural": "Semester", "level": "B1", "goethe": "B1" },
+        { "de": "Anmeldung", "en": "registration", "pos": "noun", "article": "die", "plural": "Anmeldungen", "level": "A1", "goethe": "A1" },
+        { "de": "Matrikelnummer", "en": "student number", "pos": "noun", "article": "die", "plural": "Matrikelnummern", "level": "B2" },
+        { "de": "einschreiben", "en": "to enrol", "pos": "verb", "aux": "haben", "sep": "ein", "p2": "eingeschrieben", "level": "B1", "goethe": "B1" }
+      ]
+    },
+    {
+      "name": "Studierendensekretariat",
+      "en": "semester fee and student ID",
+      "words": [
+        { "de": "Semesterbeitrag", "en": "semester fee", "pos": "noun", "article": "der", "plural": "Semesterbeiträge", "level": "B2" },
+        { "de": "Studierendenausweis", "en": "student ID card", "pos": "noun", "article": "der", "plural": "Studierendenausweise", "level": "B2" },
+        { "de": "Semesterticket", "en": "semester travel pass", "pos": "noun", "article": "das", "plural": "Semestertickets", "level": "B2" },
+        { "de": "Studienbescheinigung", "en": "enrolment certificate", "pos": "noun", "article": "die", "plural": "Studienbescheinigungen", "level": "B2" },
+        { "de": "Rückmeldung", "en": "re-registration for the next semester", "pos": "noun", "article": "die", "plural": "Rückmeldungen", "level": "B1", "goethe": "B1" },
+        { "de": "Studentenwerk", "en": "student services organisation", "pos": "noun", "article": "das", "plural": "Studentenwerke", "level": "B2" },
+        { "de": "Gebühr", "en": "fee", "pos": "noun", "article": "die", "plural": "Gebühren", "level": "B1", "goethe": "B1" },
+        { "de": "Sekretariat", "en": "office, secretariat", "pos": "noun", "article": "das", "plural": "Sekretariate", "level": "A2", "goethe": "A2" },
+        { "de": "Rabatt", "en": "discount", "pos": "noun", "article": "der", "plural": "Rabatte", "level": "B1", "goethe": "B1" },
+        { "de": "überweisen", "en": "to transfer (money)", "pos": "verb", "aux": "haben", "p2": "überwiesen", "level": "A1", "goethe": "A1" },
+        { "de": "aufladen", "en": "to top up, to charge", "pos": "verb", "aux": "haben", "sep": "auf", "p2": "aufgeladen", "level": "B1", "goethe": "B1" }
+      ]
+    },
+    {
+      "name": "Campus",
+      "en": "campus buildings",
+      "words": [
+        { "de": "Campus", "en": "campus", "pos": "noun", "article": "der", "plural": "Campusse", "level": "B1" },
+        { "de": "Hörsaal", "en": "lecture hall", "pos": "noun", "article": "der", "plural": "Hörsäle", "level": "B1" },
+        { "de": "Mensa", "en": "student canteen", "pos": "noun", "article": "die", "plural": "Mensen", "level": "B1", "goethe": "B1" },
+        { "de": "Bibliothek", "en": "library", "pos": "noun", "article": "die", "plural": "Bibliotheken", "level": "A2", "goethe": "A2" },
+        { "de": "Gebäude", "en": "building", "pos": "noun", "article": "das", "plural": "Gebäude", "level": "A2", "goethe": "A2" },
+        { "de": "Raum", "en": "room", "pos": "noun", "article": "der", "plural": "Räume", "level": "A1", "goethe": "A1" },
+        { "de": "Cafeteria", "en": "cafeteria", "pos": "noun", "article": "die", "plural": "Cafeterien", "level": "A2", "goethe": "A2" },
+        { "de": "Lesesaal", "en": "reading room", "pos": "noun", "article": "der", "plural": "Lesesäle", "level": "B2" },
+        { "de": "Fahrradständer", "en": "bike rack", "pos": "noun", "article": "der", "plural": "Fahrradständer", "level": "B2" },
+        { "de": "Eingang", "en": "entrance", "pos": "noun", "article": "der", "plural": "Eingänge", "level": "A1", "goethe": "A1" },
+        { "de": "Aufzug", "en": "lift", "pos": "noun", "article": "der", "plural": "Aufzüge", "level": "A1", "goethe": "A1" }
+      ]
+    },
+    {
+      "name": "Lehrveranstaltungen",
+      "en": "courses and timetable",
+      "words": [
+        { "de": "Vorlesung", "en": "lecture", "pos": "noun", "article": "die", "plural": "Vorlesungen", "level": "B1" },
+        { "de": "Seminar", "en": "seminar", "pos": "noun", "article": "das", "plural": "Seminare", "level": "B1", "goethe": "B1" },
+        { "de": "Übung", "en": "tutorial, exercise class", "pos": "noun", "article": "die", "plural": "Übungen", "level": "A1", "goethe": "A1" },
+        { "de": "Stundenplan", "en": "timetable", "pos": "noun", "article": "der", "plural": "Stundenpläne", "level": "A2", "goethe": "A2" },
+        { "de": "Kurs", "en": "course", "pos": "noun", "article": "der", "plural": "Kurse", "level": "A1", "goethe": "A1" },
+        { "de": "Modul", "en": "module", "pos": "noun", "article": "das", "plural": "Module", "level": "B1", "goethe": "B1" },
+        { "de": "Anwesenheit", "en": "attendance", "pos": "noun", "article": "die", "plural": "-", "level": "B2" },
+        { "de": "Referat", "en": "presentation, talk", "pos": "noun", "article": "das", "plural": "Referate", "level": "B1", "goethe": "B1" },
+        { "de": "Hausarbeit", "en": "term paper", "pos": "noun", "article": "die", "plural": "Hausarbeiten", "level": "B1", "goethe": "B1" },
+        { "de": "mitschreiben", "en": "to take notes", "pos": "verb", "aux": "haben", "sep": "mit", "p2": "mitgeschrieben", "level": "B1" },
+        { "de": "teilnehmen", "en": "to take part", "pos": "verb", "aux": "haben", "sep": "teil", "p2": "teilgenommen", "level": "A2", "goethe": "A2" },
+        { "de": "belegen", "en": "to enrol in (a course)", "pos": "verb", "aux": "haben", "p2": "belegt", "level": "B2" }
+      ]
+    },
+    {
+      "name": "Menschen an der Uni",
+      "en": "people at university",
+      "words": [
+        { "de": "Professor", "en": "professor", "pos": "noun", "article": "der", "plural": "Professoren", "level": "B1", "goethe": "B1" },
+        { "de": "Dozent", "en": "lecturer", "pos": "noun", "article": "der", "plural": "Dozenten", "level": "B1" },
+        { "de": "Kommilitone", "en": "fellow student", "pos": "noun", "article": "der", "plural": "Kommilitonen", "level": "B2" },
+        { "de": "Tutor", "en": "tutor", "pos": "noun", "article": "der", "plural": "Tutoren", "level": "B2" },
+        { "de": "Mitarbeiter", "en": "staff member", "pos": "noun", "article": "der", "plural": "Mitarbeiter", "level": "A2", "goethe": "A2" },
+        { "de": "Betreuer", "en": "supervisor", "pos": "noun", "article": "der", "plural": "Betreuer", "level": "B1", "goethe": "B1" },
+        { "de": "Studienberatung", "en": "student advisory service", "pos": "noun", "article": "die", "plural": "Studienberatungen", "level": "B2" },
+        { "de": "Fachschaft", "en": "student council of a department", "pos": "noun", "article": "die", "plural": "Fachschaften", "level": "C1" },
+        { "de": "Sprechstunde", "en": "office hours", "pos": "noun", "article": "die", "plural": "Sprechstunden", "level": "A2", "goethe": "A2" }
+      ]
+    },
+    {
+      "name": "Prüfungen",
+      "en": "exams and credits",
+      "words": [
+        { "de": "Prüfung", "en": "exam", "pos": "noun", "article": "die", "plural": "Prüfungen", "level": "A1", "goethe": "A1" },
+        { "de": "Klausur", "en": "written exam", "pos": "noun", "article": "die", "plural": "Klausuren", "level": "B2" },
+        { "de": "Prüfungsamt", "en": "examinations office", "pos": "noun", "article": "das", "plural": "Prüfungsämter", "level": "B2" },
+        { "de": "Leistungspunkt", "en": "credit point", "pos": "noun", "article": "der", "plural": "Leistungspunkte", "level": "B2" },
+        { "de": "Note", "en": "grade", "pos": "noun", "article": "die", "plural": "Noten", "level": "A2", "goethe": "A2" },
+        { "de": "Ergebnis", "en": "result", "pos": "noun", "article": "das", "plural": "Ergebnisse", "level": "A1", "goethe": "A1" },
+        { "de": "Wiederholung", "en": "retake, repetition", "pos": "noun", "article": "die", "plural": "Wiederholungen", "level": "B1", "goethe": "B1" },
+        { "de": "Abschluss", "en": "degree, graduation", "pos": "noun", "article": "der", "plural": "Abschlüsse", "level": "B1", "goethe": "B1" },
+        { "de": "Zeugnis", "en": "certificate", "pos": "noun", "article": "das", "plural": "Zeugnisse", "level": "A2", "goethe": "A2" },
+        { "de": "bestehen", "en": "to pass", "pos": "verb", "aux": "haben", "p2": "bestanden", "level": "A2", "goethe": "A2" },
+        { "de": "durchfallen", "en": "to fail", "pos": "verb", "aux": "sein", "sep": "durch", "p2": "durchgefallen", "level": "B1" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "de": "Bitte reichen Sie Ihre Unterlagen bis Freitag ein.", "en": "Please hand in your documents by Friday.", "who": "staff", "level": "B1" },
+    { "de": "Ihr Studierendenausweis liegt im Sekretariat bereit.", "en": "Your student ID is ready at the office.", "who": "staff", "level": "B1" },
+    { "de": "Sie müssen sich im Prüfungsamt für die Klausur anmelden.", "en": "You have to register for the exam at the examinations office.", "who": "staff", "level": "B2" },
+    { "de": "Die Anwesenheit ist in diesem Seminar Pflicht.", "en": "Attendance is compulsory in this seminar.", "who": "staff", "level": "B2" },
+    { "de": "Die Abgabe ist am Montag um zwölf Uhr.", "en": "The deadline for handing in is Monday at noon.", "who": "staff", "level": "B1" },
+    { "de": "Die Vorlesung beginnt um zehn Uhr.", "en": "The lecture starts at ten o'clock.", "who": "staff", "level": "A2" },
+    { "de": "Ich möchte mich für den Bachelor Informatik einschreiben.", "en": "I would like to enrol in the computer science bachelor.", "who": "you", "level": "B1" },
+    { "de": "Wo ist das Studierendensekretariat?", "en": "Where is the student administration office?", "who": "you", "level": "A2" },
+    { "de": "Bis wann muss ich den Semesterbeitrag überweisen?", "en": "By when do I have to transfer the semester fee?", "who": "you", "level": "B1" },
+    { "de": "Wo finde ich den Hörsaal 3?", "en": "Where do I find lecture hall 3?", "who": "you", "level": "A2" },
+    { "de": "Ist dieser Platz noch frei?", "en": "Is this seat still free?", "who": "you", "level": "A1" },
+    { "de": "Können Sie das bitte wiederholen?", "en": "Could you repeat that, please?", "who": "you", "level": "A2" },
+    { "de": "Wann ist Ihre Sprechstunde?", "en": "When are your office hours?", "who": "you", "level": "B1" },
+    { "de": "Wie viele Leistungspunkte bekomme ich dafür?", "en": "How many credit points do I get for it?", "who": "you", "level": "B2" }
+  ],
+  "exercises": [
+    { "type": "article", "word": "Hörsaal", "answer": "der", "explain": "Compound nouns take the gender of the last word: der Saal, so der Hörsaal." },
+    { "type": "article", "word": "Mensa", "answer": "die", "explain": "Mensa ends in -a and is feminine: die Mensa, die Mensen." },
+    { "type": "article", "word": "Seminar", "answer": "das", "explain": "Seminar is neuter: das Seminar, die Seminare." },
+    { "type": "article", "word": "Klausur", "answer": "die", "explain": "Nouns ending in -ur are mostly feminine: die Klausur." },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "die Vorlesung",
+          "lecture"
+        ],
+        [
+          "die Bibliothek",
+          "library"
+        ],
+        [
+          "der Stundenplan",
+          "timetable"
+        ],
+        [
+          "die Prüfung",
+          "exam"
+        ]
+      ],
+      "explain": "Four nouns you need in your first week."
+    },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "bestehen",
+          "to pass"
+        ],
+        [
+          "durchfallen",
+          "to fail"
+        ],
+        [
+          "einschreiben",
+          "to enrol"
+        ],
+        [
+          "teilnehmen",
+          "to take part"
+        ],
+        [
+          "die Note",
+          "grade"
+        ]
+      ],
+      "explain": "Verbs and a noun around courses and exams."
+    },
+    {
+      "type": "gap",
+      "q": "Am Anfang des Semesters muss ich den ___ überweisen.",
+      "answer": [
+        "Semesterbeitrag"
+      ],
+      "explain": "The semester fee is der Semesterbeitrag, in the accusative after den."
+    },
+    {
+      "type": "gap",
+      "q": "Mit dem ___ kann ich kostenlos Bus und Bahn fahren.",
+      "answer": [
+        "Semesterticket"
+      ],
+      "explain": "The Semesterticket is included in the fee and works on local transport."
+    },
+    {
+      "type": "gap",
+      "q": "Ich habe die Klausur leider nicht ___.",
+      "answer": [
+        "bestanden"
+      ],
+      "explain": "Perfect tense of bestehen with haben: ich habe bestanden."
+    },
+    {
+      "type": "translate",
+      "en": "Where is the library?",
+      "answer": [
+        "Wo ist die Bibliothek?"
+      ],
+      "explain": "Wo ist + die Bibliothek, which is feminine."
+    },
+    {
+      "type": "translate",
+      "en": "I study computer science.",
+      "answer": [
+        "Ich studiere Informatik.",
+        "Ich studiere Informatik"
+      ],
+      "explain": "Studieren takes the subject directly, without an article."
+    },
+    {
+      "type": "mc",
+      "q": "Which office handles registration for exams?",
+      "options": [
+        "Das Prüfungsamt",
+        "Die Mensa",
+        "Der Hörsaal"
+      ],
+      "answer": 0,
+      "explain": "The Prüfungsamt (examinations office) manages exam registration and results."
+    },
+    {
+      "type": "order",
+      "words": [
+        "Vorlesung",
+        "um",
+        "beginnt",
+        "Die",
+        "zehn",
+        "Uhr"
+      ],
+      "answer": "Die Vorlesung beginnt um zehn Uhr",
+      "explain": "Subject, verb in second place, then the time."
+    }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Ich möchte mich für den Bachelor Informatik einschreiben.", "en": "I would like to enrol in the computer science bachelor." },
+      { "de": "Wo finde ich den Hörsaal 3?", "en": "Where do I find lecture hall 3?" },
+      { "de": "Können Sie das bitte wiederholen?", "en": "Could you repeat that, please?" },
+      { "de": "Wann ist Ihre Sprechstunde?", "en": "When are your office hours?" },
+      { "de": "Bis wann muss ich den Semesterbeitrag überweisen?", "en": "By when do I have to transfer the semester fee?" }
+    ],
+    "prompts": [
+      { "q": "Guten Tag. Wie kann ich Ihnen helfen?", "qEn": "Hello. How can I help you? (at the student office)", "model": "Guten Tag. Ich möchte mich einschreiben. Hier sind mein Zulassungsbescheid und mein Reisepass.", "hint": "Name the documents you hand over." },
+      { "q": "Was studieren Sie?", "qEn": "What do you study?", "model": "Ich studiere Maschinenbau im ersten Semester. Das Studium macht mir Spaß.", "hint": "Name your subject and semester." },
+      { "q": "Haben Sie noch eine Frage zur Prüfung?", "qEn": "Do you have another question about the exam?", "model": "Ja, wie viele Leistungspunkte bekomme ich für die Klausur? Und bis wann muss ich mich anmelden?", "hint": "Ask about credits and the deadline." },
+      { "q": "Möchten Sie mit uns in die Mensa gehen?", "qEn": "Would you like to go to the Mensa with us?", "model": "Ja, gern. Wann treffen wir uns? Ich habe um zwölf Uhr eine Vorlesung.", "hint": "Accept and ask about the time." }
+    ]
+  }
+}

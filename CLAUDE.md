@@ -11,7 +11,8 @@ Personal German study app (A1 → C1) for one learner. They use the **Learn Germ
 ## Layout
 - `index.html`, `css/app.css`: shell and theme tokens (light/dark via `[data-theme]` + `prefers-color-scheme`)
 - `js/app.js`: hash router: `#/road`, `#/lesson/<id>/<step>`, `#/checkpoint/<LEVEL>`, `#/cards`, `#/quiz`, `#/settings`
-- `js/road.js`: the scrollable road (A1 at the bottom, C1 at the top), the pinned stats + *Heute* strip, and the hover preview (placed beside the stop, never over the road)
+- `js/place.js`: a place on the Alltag road (`#/place/<id>/<step>`: words · phrases · practice · speak); progress in progress.js `places` (`placeState`, `recordPlacePractice`, `placeStatus`)
+- `js/road.js`: draws both roads: `#/road` (grammar, A1 at the bottom, C1 at the top) and `#/alltag` (places from `data/alltag.json`, chapters drawn as zones; `"soon": true` stops show locked until their file exists), the pinned stats + *Heute* strip, and the hover preview (placed beside the stop, never over the road)
 - `js/settings.js`: the settings page. Settings live in progress.js (`settings()`, `setSettings()`); `currentLevel(road)` is the level setting, or the first level with unfinished stops when it is `auto`
 - `js/adapt.js`: adaptive difficulty rules (pure, tested in `tests/adapt.test.mjs`): `nextNewCards`, `mastery`, `quizPlan`, `readyToAdvance`. Its inputs live in progress.js: `cardStats` (first tries per day), `quiz.answers` (last 200, `{l, t, ok}`), `adapt` (`cards`: today's new-card number; `mastery`: known share per level, cached by the cards page for the road). With `settings.adaptive`, a passed checkpoint makes `currentLevel` skip that level
 - `js/quiz.js`: the daily grammar quiz view; `js/daily.js`: which questions to ask (pure, date-seeded, tested in `tests/daily.test.mjs`). Score and open mistakes live in progress.js (`quiz.days`, `quiz.mistakes`)
@@ -63,6 +64,20 @@ Personal German study app (A1 → C1) for one learner. They use the **Learn Germ
   }
 }
 ```
+
+## Place JSON schema (Alltag road; see `data/places/flughafen.json`)
+`data/alltag.json` lists chapters → stops (`id`, `icon`, `title`, `concept`, optional `"soon": true`) in road order. Each ready stop has `data/places/<id>.json`:
+```jsonc
+{
+  "id": "flughafen", "icon": "✈️", "title": "Flughafen", "en": "Airport",
+  "intro": "1–2 English sentences: what you do here.",
+  "areas": [ { "name": "Gepäckausgabe", "en": "baggage claim", "words": [ /* lesson word format + "level": "A1"…"C1"; 8–14 per area, 45–70 per place */ ] } ],  // 4–6 spots
+  "phrases": [ { "de": "Ihren Reisepass, bitte.", "en": "…", "who": "staff" /* or "you" */, "level": "A1" } ],  // 10–16
+  "exercises": [ /* lesson exercise types, using this place's words */ ],  // 10–14
+  "speak": { "shadow": [ … ], "prompts": [ … ] }  // as in lessons
+}
+```
+`goethe_check.py --badges` sets `goethe` on place words found on a Goethe list and sets their `level` to it. It rewrites place files with one word/phrase per line (`dump_place`).
 
 ## Content rules
 - German must be correct, natural, standard German (Hochdeutsch). Use ß and umlauts (never ae/oe/ue).
