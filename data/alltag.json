@@ -4,60 +4,60 @@
       "id": "ankommen", "name": "Ankommen", "goal": "Land in Germany, get into town and sleep the first night.",
       "stops": [
         { "id": "flughafen", "icon": "✈️", "title": "Flughafen", "concept": "Check-in, security, passport control, baggage" },
-        { "id": "bahnhof", "icon": "🚆", "title": "Bahnhof & unterwegs", "concept": "Tickets, platforms, U-Bahn, delays", "soon": true },
-        { "id": "erste-nacht", "icon": "🏨", "title": "Die erste Nacht", "concept": "Hostel or hotel: reception, room, keys", "soon": true }
+        { "id": "bahnhof", "icon": "🚆", "title": "Bahnhof & unterwegs", "concept": "Tickets, platforms, U-Bahn, delays" },
+        { "id": "erste-nacht", "icon": "🏨", "title": "Die erste Nacht", "concept": "Hostel or hotel: reception, room, keys" }
       ]
     },
     {
       "id": "papiere", "name": "Papiere & Ämter", "goal": "Register, get your residence permit, a bank account and a phone.",
       "stops": [
-        { "id": "buergeramt", "icon": "🏛️", "title": "Bürgeramt", "concept": "Anmeldung, forms, appointments", "soon": true },
+        { "id": "buergeramt", "icon": "🏛️", "title": "Bürgeramt", "concept": "Anmeldung, forms, appointments" },
         { "id": "auslaenderbehoerde", "icon": "🛂", "title": "Ausländerbehörde", "concept": "Residence permit, documents, biometric photo" },
-        { "id": "bank", "icon": "🏦", "title": "Bank", "concept": "Account, card, transfers", "soon": true },
-        { "id": "handy", "icon": "📱", "title": "Handy & Internet", "concept": "SIM card, contract, Wi-Fi", "soon": true }
+        { "id": "bank", "icon": "🏦", "title": "Bank", "concept": "Account, card, transfers" },
+        { "id": "handy", "icon": "📱", "title": "Handy & Internet", "concept": "SIM card, contract, Wi-Fi" }
       ]
     },
     {
       "id": "wohnen", "name": "Wohnen", "goal": "Find a flat, move in and run your home.",
       "stops": [
-        { "id": "wohnungssuche", "icon": "🔑", "title": "Wohnungssuche", "concept": "Listings, viewing, rental contract, deposit", "soon": true },
+        { "id": "wohnungssuche", "icon": "🔑", "title": "Wohnungssuche", "concept": "Listings, viewing, rental contract, deposit" },
         { "id": "zu-hause", "icon": "🛋️", "title": "Zu Hause", "concept": "Rooms, furniture, household, rubbish sorting" },
-        { "id": "kueche", "icon": "🍳", "title": "Küche & Haushalt", "concept": "Cooking, appliances, cleaning", "soon": true },
-        { "id": "supermarkt", "icon": "🛒", "title": "Supermarkt", "concept": "Food, quantities, checkout", "soon": true },
-        { "id": "baeckerei", "icon": "🥨", "title": "Bäckerei & Café", "concept": "Bread, coffee, ordering at the counter", "soon": true }
+        { "id": "kueche", "icon": "🍳", "title": "Küche & Haushalt", "concept": "Cooking, appliances, cleaning" },
+        { "id": "supermarkt", "icon": "🛒", "title": "Supermarkt", "concept": "Food, quantities, checkout" },
+        { "id": "baeckerei", "icon": "🥨", "title": "Bäckerei & Café", "concept": "Bread, coffee, ordering at the counter" }
       ]
     },
     {
       "id": "studium", "name": "Studium", "goal": "Enrol and find your way around the university.",
       "stops": [
         { "id": "uni", "icon": "🎓", "title": "Uni", "concept": "Enrolment, campus, semester fee, courses" },
-        { "id": "hoersaal", "icon": "📚", "title": "Hörsaal, Bibliothek & Mensa", "concept": "Lectures, exams, borrowing books, lunch", "soon": true }
+        { "id": "hoersaal", "icon": "📚", "title": "Hörsaal, Bibliothek & Mensa", "concept": "Lectures, exams, borrowing books, lunch" }
       ]
     },
     {
       "id": "alltag", "name": "Alltag", "goal": "Doctors, shops, food, sport and friends.",
       "stops": [
-        { "id": "arzt", "icon": "🩺", "title": "Arztpraxis & Apotheke", "concept": "Appointments, symptoms, prescriptions", "soon": true },
-        { "id": "einkaufen", "icon": "👕", "title": "Einkaufen in der Stadt", "concept": "Clothes, sizes, returns", "soon": true },
-        { "id": "restaurant", "icon": "🍽️", "title": "Restaurant", "concept": "Booking, ordering, paying", "soon": true },
-        { "id": "fitness", "icon": "🏋️", "title": "Fitnessstudio & Sport", "concept": "Membership, training, body", "soon": true },
-        { "id": "freunde", "icon": "👥", "title": "Freunde & Nachbarn", "concept": "Small talk, feelings, opinions", "soon": true }
+        { "id": "arzt", "icon": "🩺", "title": "Arztpraxis & Apotheke", "concept": "Appointments, symptoms, prescriptions" },
+        { "id": "einkaufen", "icon": "👕", "title": "Einkaufen in der Stadt", "concept": "Clothes, sizes, returns" },
+        { "id": "restaurant", "icon": "🍽️", "title": "Restaurant", "concept": "Booking, ordering, paying" },
+        { "id": "fitness", "icon": "🏋️", "title": "Fitnessstudio & Sport", "concept": "Membership, training, body" },
+        { "id": "freunde", "icon": "👥", "title": "Freunde & Nachbarn", "concept": "Small talk, feelings, opinions" }
       ]
     },
     {
       "id": "beruf", "name": "Beruf", "goal": "Apply for jobs and work in a German team.",
       "stops": [
-        { "id": "bewerbung", "icon": "💼", "title": "Arbeit & Bewerbung", "concept": "Job ads, CV, interview, contract", "soon": true },
-        { "id": "buero", "icon": "🏢", "title": "Im Büro", "concept": "Meetings, e-mails, negotiations", "soon": true }
+        { "id": "bewerbung", "icon": "💼", "title": "Arbeit & Bewerbung", "concept": "Job ads, CV, interview, contract" },
+        { "id": "buero", "icon": "🏢", "title": "Im Büro", "concept": "Meetings, e-mails, negotiations" }
       ]
     },
     {
       "id": "welt", "name": "Die Welt um dich", "goal": "Travel, follow the news, know your rights, handle emergencies.",
       "stops": [
-        { "id": "reisen", "icon": "🌳", "title": "Freizeit & Reisen", "concept": "Trips, nature, culture, weather", "soon": true },
-        { "id": "nachrichten", "icon": "📰", "title": "Nachrichten & Gesellschaft", "concept": "News, politics, environment, technology", "soon": true },
-        { "id": "recht", "icon": "⚖️", "title": "Verträge & Recht", "concept": "Contracts, insurance, complaints, rights", "soon": true },
-        { "id": "notfall", "icon": "🚨", "title": "Notfall & Polizei", "concept": "Emergencies, accidents, theft, help", "soon": true }
+        { "id": "reisen", "icon": "🌳", "title": "Freizeit & Reisen", "concept": "Trips, nature, culture, weather" },
+        { "id": "nachrichten", "icon": "📰", "title": "Nachrichten & Gesellschaft", "concept": "News, politics, environment, technology" },
+        { "id": "recht", "icon": "⚖️", "title": "Verträge & Recht", "concept": "Contracts, insurance, complaints, rights" },
+        { "id": "notfall", "icon": "🚨", "title": "Notfall & Polizei", "concept": "Emergencies, accidents, theft, help" }
       ]
     }
   ]

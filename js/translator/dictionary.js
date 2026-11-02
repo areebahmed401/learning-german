@@ -24,18 +24,18 @@ function push(map, key, value) {
   if (list) { if (!list.includes(value)) list.push(value); } else map.set(key, [value]);
 }
 
-export function buildDictionary({ core = [], strong = {}, lessonWords = [] } = {}) {
+export function buildDictionary({ core = [], strong = {}, placeWords = [] } = {}) {
   const merged = new Map();
   for (const w of core) {
     if (!w || !w.de) continue;
     merged.set(keyOf(w), { ...w, source: 'core' });
   }
-  for (const w of lessonWords) {
+  for (const w of placeWords) {
     if (!w || !w.de) continue;
     const k = keyOf(w);
     const prev = merged.get(k);
-    if (prev && prev.source === 'lesson') continue; // first lesson wins
-    merged.set(k, { ...(prev || {}), ...w, source: 'lesson', lesson: w.lesson });
+    if (prev && prev.source === 'place') continue; // first place wins
+    merged.set(k, { ...(prev || {}), ...w, source: 'place', place: w.place, placeTitle: w.placeTitle });
   }
   const entries = [...merged.values()];
 
@@ -106,7 +106,8 @@ export function lookup(query, dict) {
     bump(e, s);
   }
   for (const e of dict.byDe.get(lower) || []) bump(e, 104);
-  for (const e of dict.byForm.get(de) || []) bump(e, 95);
+  // "fährt" is a form of fahren first; of abfahren only as the stem of "fährt ab"
+  for (const e of dict.byForm.get(de) || []) bump(e, e.sep && !de.startsWith(e.sep) ? 85 : 95);
   // typed without umlauts (US keyboard): "uber", "ueber" → über; "strasse" → Straße
   const keys = umlautKeys(de);
   for (const k of keys) {
@@ -138,7 +139,7 @@ export function lookup(query, dict) {
     }
   }
 
-  const out = [...scores.entries()].map(([e, s]) => ({ e, s: s + (e.source === 'lesson' ? 4 : 0) }));
+  const out = [...scores.entries()].map(([e, s]) => ({ e, s: s + (e.source === 'place' ? 4 : 0) }));
   out.sort((a, b) => b.s - a.s || a.e.de.length - b.e.de.length || a.e.de.localeCompare(b.e.de, 'de'));
   return out.slice(0, 20).map((x) => x.e);
 }
@@ -155,22 +156,17 @@ async function getJson(url) {
 
 export async function loadDictionary() {
   const base = (p) => new URL(`../../data/${p}`, import.meta.url).href;
-  const [core, strong, roadmap] = await Promise.all([
+  const [core, strong, alltag] = await Promise.all([
     getJson(base('dictionary/core.json')),
     getJson(base('dictionary/strong-verbs.json')),
-    getJson(base('roadmap.json')),
+    getJson(base('alltag.json')),
   ]);
-  const jobs = [];
-  for (const level of (roadmap && roadmap.levels) || []) {
-    for (const m of level.milestones || []) {
-      jobs.push(getJson(base(`lessons/${String(level.id).toLowerCase()}/${m.id}.json`)).then((l) => ({ l, level: level.id, id: m.id })));
-    }
+  const stops = ((alltag && alltag.chapters) || []).flatMap((c) => c.stops || []);
+  const places = await Promise.all(stops.map((s) => getJson(base(`places/${s.id}.json`))));
+  const placeWords = [];
+  for (const p of places) {
+    if (!p || !Array.isArray(p.areas)) continue;
+    for (const a of p.areas) for (const w of a.words) placeWords.push({ ...w, place: p.id, placeTitle: `${p.icon} ${p.title}` });
   }
-  const lessons = await Promise.all(jobs);
-  const lessonWords = [];
-  for (const { l, level, id } of lessons) {
-    if (!l || !Array.isArray(l.words)) continue;
-    for (const w of l.words) lessonWords.push({ ...w, lesson: l.id || id, level: l.level || level });
-  }
-  return buildDictionary({ core: core || [], strong: strong || {}, lessonWords });
+  return buildDictionary({ core: core || [], strong: strong || {}, placeWords });
 }

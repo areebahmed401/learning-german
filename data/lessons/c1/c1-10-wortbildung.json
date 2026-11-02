@@ -3,7 +3,6 @@
   "level": "C1",
   "title": "Wortbildung",
   "concept": "Word formation: prefixes, suffixes, umfahren vs. umfahren",
-  "wordlist": "Wortbildung",
   "minutes": 35,
   "youtube": "https://www.youtube.com/results?search_query=Learn+German+C1+Wortbildung+trennbare+untrennbare+Verben",
   "learn": [
@@ -68,30 +67,6 @@
     }
   ],
   "tip": "Say the verb aloud and listen: ÚMfahren (stress first, ge- inside: umgefahren) means knock over; umFÄHren (stress on the stem, no ge-: umfahren) means drive around. Suffix shortcut: -ung, -heit, -keit are always die.",
-  "words": [
-    { "de": "umfahren", "en": "to knock over (with a vehicle)", "pos": "verb", "aux": "haben", "sep": "um", "p2": "umgefahren" },
-    { "de": "ein Hindernis umfahren", "en": "to drive around an obstacle", "pos": "phrase" },
-    { "de": "überweisen", "en": "to transfer (money)", "pos": "verb", "aux": "haben", "p2": "überwiesen" },
-    { "de": "übersetzen", "en": "to translate", "pos": "verb", "aux": "haben", "p2": "übersetzt" },
-    { "de": "unterschreiben", "en": "to sign", "pos": "verb", "aux": "haben", "p2": "unterschrieben" },
-    { "de": "unterbrechen", "en": "to interrupt", "pos": "verb", "aux": "haben", "p2": "unterbrochen" },
-    { "de": "durchführen", "en": "to carry out", "pos": "verb", "aux": "haben", "sep": "durch", "p2": "durchgeführt" },
-    { "de": "durchlesen", "en": "to read through", "pos": "verb", "aux": "haben", "sep": "durch", "p2": "durchgelesen" },
-    { "de": "umsteigen", "en": "to change (trains, buses)", "pos": "verb", "aux": "sein", "sep": "um", "p2": "umgestiegen" },
-    { "de": "umziehen", "en": "to move (house)", "pos": "verb", "aux": "sein", "sep": "um", "p2": "umgezogen" },
-    { "de": "wiederholen", "en": "to repeat", "pos": "verb", "aux": "haben", "p2": "wiederholt" },
-    { "de": "wiedersehen", "en": "to see again", "pos": "verb", "aux": "haben", "sep": "wieder", "p2": "wiedergesehen" },
-    { "de": "überprüfen", "en": "to check, to verify", "pos": "verb", "aux": "haben", "p2": "überprüft" },
-    { "de": "entwickeln", "en": "to develop", "pos": "verb", "aux": "haben", "p2": "entwickelt" },
-    { "de": "verbessern", "en": "to improve", "pos": "verb", "aux": "haben", "p2": "verbessert" },
-    { "de": "zerstören", "en": "to destroy", "pos": "verb", "aux": "haben", "p2": "zerstört" },
-    { "de": "lesbar", "en": "legible, readable", "pos": "adj" },
-    { "de": "kostenlos", "en": "free of charge", "pos": "adj" },
-    { "de": "zuverlässig", "en": "reliable", "pos": "adj" },
-    { "de": "Entwicklung", "en": "development", "pos": "noun", "article": "die", "plural": "Entwicklungen" },
-    { "de": "Möglichkeit", "en": "possibility, option", "pos": "noun", "article": "die", "plural": "Möglichkeiten" },
-    { "de": "Lösung", "en": "solution", "pos": "noun", "article": "die", "plural": "Lösungen" }
-  ],
   "mindmap": {
     "label": "Wortbildung",
     "children": [

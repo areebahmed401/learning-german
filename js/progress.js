@@ -34,11 +34,10 @@ export function markStep(id, step) {
   if (!l.steps[step]) { l.steps[step] = true; save(); }
 }
 
-export function recordPractice(id, score, mistakes, wordCount) {
+export function recordPractice(id, score, mistakes) {
   const l = lesson(id);
   l.best = Math.max(l.best, score);
   l.mistakes = mistakes;
-  l.wordCount = wordCount;
   if (score >= PASS) { l.done = true; delete l.skipped; } // passing turns a skipped stop into a real one
   save();
   return l;
@@ -128,12 +127,12 @@ export function status(id) {
   return Object.keys(l.steps).length || l.best ? 'progress' : 'new';
 }
 
-/** Fraction of the 5 lesson steps visited (practice counts once passed). */
+/** Fraction of the 4 lesson steps visited ('words' moved to the Alltag road and no longer counts). */
 export function stepFraction(id) {
   const l = state.lessons[id];
   if (!l) return 0;
   if (l.done) return 1;
-  return Math.min(Object.keys(l.steps).length, 5) / 5;
+  return Math.min(Object.keys(l.steps).filter((s) => s !== 'words').length, 4) / 4;
 }
 
 function streak(list, fmt) {
@@ -192,7 +191,6 @@ export const quizStreak = () => streak(Object.keys(state.quiz.days), srsDay);
 
 /* ---------- Flashcards (scheduling lives in srs.js) ---------- */
 export const cards = () => state.cards;
-export const openedLessons = () => Object.keys(state.lessons);
 
 /** firstTry: this was the card's first answer in the session (counted in cardStats for adapt.js). */
 export function setCard(key, card, today, firstTry = false, ok = false) {
@@ -217,9 +215,8 @@ export function setAdapt(patch) {
 
 export const cardStreak = () => streak(state.cardDays, srsDay);
 
-export function wordsLearned() {
-  return Object.values(state.lessons).reduce((s, l) => s + (l.done ? l.wordCount || 0 : 0), 0);
-}
+/** Words you know (flashcards right at least twice, or right on first sight). */
+export const wordsLearned = () => Object.values(state.cards).filter((c) => c.box >= 2).length;
 
 export function exportFile() {
   const blob = new Blob([JSON.stringify(state, null, 2)], { type: 'application/json' });

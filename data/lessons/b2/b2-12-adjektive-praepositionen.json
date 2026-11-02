@@ -3,7 +3,6 @@
   "level": "B2",
   "title": "stolz auf, abhängig von",
   "concept": "Adjectives with fixed prepositions",
-  "wordlist": "Gefühle & Persönlichkeit",
   "minutes": 30,
   "youtube": "https://www.youtube.com/results?search_query=Learn+German+B2+Adjektive+mit+Pr%C3%A4positionen",
   "learn": [
@@ -58,31 +57,6 @@
     }
   ],
   "tip": "Learn adjective, preposition and case as ONE block: stolz AUF + Akk, abhängig VON + Dat. Say a short sentence with each pair (ich bin stolz auf mein Team) so the case sticks.",
-  "words": [
-    { "de": "stolz auf", "en": "proud of (+Akk)", "pos": "adj" },
-    { "de": "verantwortlich für", "en": "responsible for (+Akk)", "pos": "adj" },
-    { "de": "gespannt auf", "en": "eager to see (+Akk)", "pos": "adj" },
-    { "de": "neugierig auf", "en": "curious about (+Akk)", "pos": "adj" },
-    { "de": "angewiesen auf", "en": "dependent on, reliant on (+Akk)", "pos": "adj" },
-    { "de": "typisch für", "en": "typical of (+Akk)", "pos": "adj" },
-    { "de": "froh über", "en": "glad about (+Akk)", "pos": "adj" },
-    { "de": "abhängig von", "en": "dependent on (+Dat)", "pos": "adj" },
-    { "de": "interessiert an", "en": "interested in (+Dat)", "pos": "adj" },
-    { "de": "zufrieden mit", "en": "satisfied with (+Dat)", "pos": "adj" },
-    { "de": "begeistert von", "en": "enthusiastic about (+Dat)", "pos": "adj" },
-    { "de": "überzeugt von", "en": "convinced of (+Dat)", "pos": "adj" },
-    { "de": "enttäuscht von", "en": "disappointed by (+Dat)", "pos": "adj" },
-    { "de": "bereit zu", "en": "ready for (+Dat)", "pos": "adj" },
-    { "de": "Persönlichkeit", "en": "personality", "pos": "noun", "article": "die", "plural": "Persönlichkeiten" },
-    { "de": "Eigenschaft", "en": "trait, characteristic", "pos": "noun", "article": "die", "plural": "Eigenschaften" },
-    { "de": "Selbstvertrauen", "en": "self-confidence", "pos": "noun", "article": "das", "plural": "-" },
-    { "de": "Geduld", "en": "patience", "pos": "noun", "article": "die", "plural": "-" },
-    { "de": "Enttäuschung", "en": "disappointment", "pos": "noun", "article": "die", "plural": "Enttäuschungen" },
-    { "de": "sich ärgern", "en": "to be annoyed (über + Akk)", "pos": "verb", "aux": "haben", "p2": "geärgert" },
-    { "de": "selbstbewusst", "en": "self-confident", "pos": "adj" },
-    { "de": "geduldig", "en": "patient", "pos": "adj" },
-    { "de": "zuverlässig", "en": "reliable", "pos": "adj" }
-  ],
   "mindmap": {
     "label": "Adjektive + Präposition",
     "children": [

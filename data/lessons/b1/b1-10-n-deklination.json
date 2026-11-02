@@ -3,7 +3,6 @@
   "level": "B1",
   "title": "n-Deklination",
   "concept": "Weak masculine nouns (der Kollege → den Kollegen)",
-  "wordlist": "Menschen & Berufe",
   "minutes": 30,
   "youtube": "https://www.youtube.com/results?search_query=Learn+German+B1+n-Deklination+weak+masculine+nouns",
   "learn": [
@@ -55,29 +54,6 @@
     }
   ],
   "tip": "Say it as a chunk: 'den Kollegen, dem Kunden, des Studenten'. If a masculine person ends in -e, -ant, -ent or -ist, add -(e)n after the nominative singular, as a rule of thumb.",
-  "words": [
-    { "de": "Kollege", "en": "co-worker", "pos": "noun", "article": "der", "plural": "Kollegen", "note": "n-Deklination", "goethe": "A1" },
-    { "de": "Kunde", "en": "customer", "pos": "noun", "article": "der", "plural": "Kunden", "note": "n-Deklination", "goethe": "A1" },
-    { "de": "Student", "en": "student", "pos": "noun", "article": "der", "plural": "Studenten", "note": "n-Deklination", "goethe": "A1" },
-    { "de": "Praktikant", "en": "intern", "pos": "noun", "article": "der", "plural": "Praktikanten", "note": "n-Deklination", "goethe": "B1" },
-    { "de": "Kandidat", "en": "candidate", "pos": "noun", "article": "der", "plural": "Kandidaten", "note": "n-Deklination", "goethe": "B1" },
-    { "de": "Experte", "en": "expert", "pos": "noun", "article": "der", "plural": "Experten", "note": "n-Deklination", "goethe": "B1" },
-    { "de": "Nachbar", "en": "neighbour", "pos": "noun", "article": "der", "plural": "Nachbarn", "note": "n-Deklination", "goethe": "A2" },
-    { "de": "Mensch", "en": "person, human being", "pos": "noun", "article": "der", "plural": "Menschen", "note": "n-Deklination", "goethe": "A1" },
-    { "de": "Herr", "en": "gentleman; Mr", "pos": "noun", "article": "der", "plural": "Herren", "note": "n-Deklination: den Herrn", "goethe": "A1" },
-    { "de": "Architekt", "en": "architect", "pos": "noun", "article": "der", "plural": "Architekten", "note": "n-Deklination", "goethe": "B1" },
-    { "de": "Mechaniker", "en": "mechanic", "pos": "noun", "article": "der", "plural": "Mechaniker", "goethe": "A2" },
-    { "de": "Fotograf", "en": "photographer", "pos": "noun", "article": "der", "plural": "Fotografen", "note": "n-Deklination", "goethe": "B1" },
-    { "de": "Polizist", "en": "police officer", "pos": "noun", "article": "der", "plural": "Polizisten", "note": "n-Deklination", "goethe": "A2" },
-    { "de": "Journalist", "en": "journalist", "pos": "noun", "article": "der", "plural": "Journalisten", "note": "n-Deklination", "goethe": "A2" },
-    { "de": "Ingenieur", "en": "engineer", "pos": "noun", "article": "der", "plural": "Ingenieure", "note": "regular, no -n", "goethe": "B1" },
-    { "de": "Techniker", "en": "technician", "pos": "noun", "article": "der", "plural": "Techniker", "note": "regular, no -n", "goethe": "A2" },
-    { "de": "Fachmann", "en": "specialist", "pos": "noun", "article": "der", "plural": "Fachleute", "goethe": "B1" },
-    { "de": "Mitarbeiter", "en": "employee", "pos": "noun", "article": "der", "plural": "Mitarbeiter", "note": "regular, no -n", "goethe": "A2" },
-    { "de": "Beruf", "en": "profession", "pos": "noun", "article": "der", "plural": "Berufe", "goethe": "A1" },
-    { "de": "erfahren", "en": "experienced", "pos": "adj", "goethe": "B1" },
-    { "de": "zuverlässig", "en": "reliable", "pos": "adj", "goethe": "B1" }
-  ],
   "mindmap": {
     "label": "n-Deklination",
     "children": [

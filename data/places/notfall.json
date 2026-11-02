@@ -1,0 +1,270 @@
+{
+  "id": "notfall",
+  "icon": "🚨",
+  "title": "Notfall & Polizei",
+  "en": "Emergency & police",
+  "intro": "In an emergency you call 112 for fire brigade and ambulance, or 110 for the police. The dispatcher asks the same few questions every time, so a handful of sentences is enough to get help.",
+  "areas": [
+    {
+      "name": "Notruf",
+      "en": "emergency call",
+      "words": [
+        { "de": "Notruf", "en": "emergency call", "pos": "noun", "article": "der", "plural": "Notrufe", "level": "B1", "goethe": "B1" },
+        { "de": "Notfall", "en": "emergency", "pos": "noun", "article": "der", "plural": "Notfälle", "level": "B1", "goethe": "B1" },
+        { "de": "Feuerwehr", "en": "fire brigade", "pos": "noun", "article": "die", "plural": "Feuerwehren", "level": "B1", "goethe": "B1" },
+        { "de": "Polizei", "en": "police", "pos": "noun", "article": "die", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "Krankenwagen", "en": "ambulance", "pos": "noun", "article": "der", "plural": "Krankenwagen", "level": "B1", "goethe": "B1" },
+        { "de": "Rettungsdienst", "en": "emergency medical service", "pos": "noun", "article": "der", "plural": "Rettungsdienste", "level": "B1" },
+        { "de": "anrufen", "en": "to call, to phone", "pos": "verb", "aux": "haben", "sep": "an", "p2": "angerufen", "level": "A1", "goethe": "A1" },
+        { "de": "rufen", "en": "to call (for)", "pos": "verb", "aux": "haben", "p2": "gerufen", "level": "A2", "goethe": "A2" },
+        { "de": "helfen", "en": "to help", "pos": "verb", "aux": "haben", "p2": "geholfen", "level": "A1", "goethe": "A1" },
+        { "de": "dringend", "en": "urgent", "pos": "adj", "level": "A2", "goethe": "A2" },
+        { "de": "schnell", "en": "fast, quick", "pos": "adj", "level": "A1", "goethe": "A1" }
+      ]
+    },
+    {
+      "name": "Unfall",
+      "en": "accident",
+      "words": [
+        { "de": "Unfall", "en": "accident", "pos": "noun", "article": "der", "plural": "Unfälle", "level": "A2", "goethe": "A2" },
+        { "de": "Verkehrsunfall", "en": "traffic accident", "pos": "noun", "article": "der", "plural": "Verkehrsunfälle", "level": "B1" },
+        { "de": "Verletzte", "en": "injured person", "pos": "noun", "article": "der", "plural": "Verletzten", "level": "B1", "goethe": "B1" },
+        { "de": "Zeuge", "en": "witness", "pos": "noun", "article": "der", "plural": "Zeugen", "level": "B1", "goethe": "B1" },
+        { "de": "Wunde", "en": "wound", "pos": "noun", "article": "die", "plural": "Wunden", "level": "B1", "goethe": "B1" },
+        { "de": "Blut", "en": "blood", "pos": "noun", "article": "das", "plural": "-", "level": "B1", "goethe": "B1" },
+        { "de": "Verbandskasten", "en": "first-aid kit", "pos": "noun", "article": "der", "plural": "Verbandskästen", "level": "B2" },
+        { "de": "passieren", "en": "to happen", "pos": "verb", "aux": "sein", "p2": "passiert", "level": "A2", "goethe": "A2" },
+        { "de": "stürzen", "en": "to fall", "pos": "verb", "aux": "sein", "p2": "gestürzt", "level": "B1", "goethe": "B1" },
+        { "de": "bluten", "en": "to bleed", "pos": "verb", "aux": "haben", "p2": "geblutet", "level": "B1", "goethe": "B1" },
+        { "de": "verletzt", "en": "injured", "pos": "adj", "level": "A2", "goethe": "A2" },
+        { "de": "bewusstlos", "en": "unconscious", "pos": "adj", "level": "B2" }
+      ]
+    },
+    {
+      "name": "Feuer",
+      "en": "fire",
+      "words": [
+        { "de": "Feuer", "en": "fire", "pos": "noun", "article": "das", "plural": "Feuer", "level": "A1", "goethe": "A1" },
+        { "de": "Brand", "en": "blaze, fire", "pos": "noun", "article": "der", "plural": "Brände", "level": "B1" },
+        { "de": "Rauch", "en": "smoke", "pos": "noun", "article": "der", "plural": "-", "level": "B1" },
+        { "de": "Feuerlöscher", "en": "fire extinguisher", "pos": "noun", "article": "der", "plural": "Feuerlöscher", "level": "B2" },
+        { "de": "Notausgang", "en": "emergency exit", "pos": "noun", "article": "der", "plural": "Notausgänge", "level": "B1", "goethe": "B1" },
+        { "de": "Gefahr", "en": "danger", "pos": "noun", "article": "die", "plural": "Gefahren", "level": "B1", "goethe": "B1" },
+        { "de": "Vorsicht", "en": "caution", "pos": "noun", "article": "die", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "brennen", "en": "to burn", "pos": "verb", "aux": "haben", "p2": "gebrannt", "level": "B1", "goethe": "B1" },
+        { "de": "löschen", "en": "to extinguish", "pos": "verb", "aux": "haben", "p2": "gelöscht", "level": "B1", "goethe": "B1" },
+        { "de": "retten", "en": "to rescue", "pos": "verb", "aux": "haben", "p2": "gerettet", "level": "B1", "goethe": "B1" },
+        { "de": "gefährlich", "en": "dangerous", "pos": "adj", "level": "A2", "goethe": "A2" }
+      ]
+    },
+    {
+      "name": "Krankenhaus & Notaufnahme",
+      "en": "hospital and emergency room",
+      "words": [
+        { "de": "Krankenhaus", "en": "hospital", "pos": "noun", "article": "das", "plural": "Krankenhäuser", "level": "A2", "goethe": "A2" },
+        { "de": "Notaufnahme", "en": "emergency room", "pos": "noun", "article": "die", "plural": "Notaufnahmen", "level": "B1", "goethe": "B1" },
+        { "de": "Notarzt", "en": "emergency doctor", "pos": "noun", "article": "der", "plural": "Notärzte", "level": "B1" },
+        { "de": "Sanitäter", "en": "paramedic", "pos": "noun", "article": "der", "plural": "Sanitäter", "level": "B2" },
+        { "de": "Gesundheitskarte", "en": "health insurance card", "pos": "noun", "article": "die", "plural": "Gesundheitskarten", "level": "B1" },
+        { "de": "Wartezeit", "en": "waiting time", "pos": "noun", "article": "die", "plural": "Wartezeiten", "level": "B1" },
+        { "de": "Knochen", "en": "bone", "pos": "noun", "article": "der", "plural": "Knochen", "level": "B1", "goethe": "B1" },
+        { "de": "Verband", "en": "bandage, dressing", "pos": "noun", "article": "der", "plural": "Verbände", "level": "B1", "goethe": "B1" },
+        { "de": "brechen", "en": "to break", "pos": "verb", "aux": "haben", "p2": "gebrochen", "level": "B1", "goethe": "B1" },
+        { "de": "behandeln", "en": "to treat", "pos": "verb", "aux": "haben", "p2": "behandelt", "level": "B1", "goethe": "B1" }
+      ]
+    },
+    {
+      "name": "Polizei & Anzeige",
+      "en": "police station and reporting a crime",
+      "words": [
+        { "de": "Polizeiwache", "en": "police station", "pos": "noun", "article": "die", "plural": "Polizeiwachen", "level": "B1" },
+        { "de": "Polizist", "en": "police officer (male)", "pos": "noun", "article": "der", "plural": "Polizisten", "level": "A2", "goethe": "A2" },
+        { "de": "Polizistin", "en": "police officer (female)", "pos": "noun", "article": "die", "plural": "Polizistinnen", "level": "A2", "goethe": "A2" },
+        { "de": "Anzeige", "en": "report (to the police)", "pos": "noun", "article": "die", "plural": "Anzeigen", "level": "A1", "goethe": "A1" },
+        { "de": "Diebstahl", "en": "theft", "pos": "noun", "article": "der", "plural": "Diebstähle", "level": "B1" },
+        { "de": "Dieb", "en": "thief", "pos": "noun", "article": "der", "plural": "Diebe", "level": "B1", "goethe": "B1" },
+        { "de": "Einbruch", "en": "break-in", "pos": "noun", "article": "der", "plural": "Einbrüche", "level": "B1", "goethe": "B1" },
+        { "de": "Täter", "en": "culprit, offender", "pos": "noun", "article": "der", "plural": "Täter", "level": "B1", "goethe": "B1" },
+        { "de": "Protokoll", "en": "report, record", "pos": "noun", "article": "das", "plural": "Protokolle", "level": "B2" },
+        { "de": "Brieftasche", "en": "wallet", "pos": "noun", "article": "die", "plural": "Brieftaschen", "level": "B1", "goethe": "B1" },
+        { "de": "Schaden", "en": "damage", "pos": "noun", "article": "der", "plural": "Schäden", "level": "B1", "goethe": "B1" },
+        { "de": "stehlen", "en": "to steal", "pos": "verb", "aux": "haben", "p2": "gestohlen", "level": "B1", "goethe": "B1" },
+        { "de": "einbrechen", "en": "to break in", "pos": "verb", "aux": "sein", "sep": "ein", "p2": "eingebrochen", "level": "B1", "goethe": "B1" },
+        { "de": "beschreiben", "en": "to describe", "pos": "verb", "aux": "haben", "p2": "beschrieben", "level": "A2", "goethe": "A2" },
+        { "de": "erstatten", "en": "to file (a report)", "pos": "verb", "aux": "haben", "p2": "erstattet", "level": "B2" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "de": "Notruf, was ist passiert?", "en": "Emergency services, what has happened?", "who": "staff", "level": "A2" },
+    { "de": "Wo genau sind Sie?", "en": "Where exactly are you?", "who": "staff", "level": "A2" },
+    { "de": "Wie viele Verletzte gibt es?", "en": "How many injured people are there?", "who": "staff", "level": "B1" },
+    { "de": "Bleiben Sie ruhig, Hilfe ist unterwegs.", "en": "Stay calm, help is on its way.", "who": "staff", "level": "A2" },
+    { "de": "Bitte legen Sie nicht auf.", "en": "Please do not hang up.", "who": "staff", "level": "B1" },
+    { "de": "Hilfe! Bitte rufen Sie einen Krankenwagen!", "en": "Help! Please call an ambulance!", "who": "you", "level": "A2" },
+    { "de": "Es gab einen Unfall.", "en": "There has been an accident.", "who": "you", "level": "A2" },
+    { "de": "Es brennt! Rufen Sie die Feuerwehr!", "en": "There is a fire! Call the fire brigade!", "who": "you", "level": "A2" },
+    { "de": "Mein Freund ist bewusstlos.", "en": "My friend is unconscious.", "who": "you", "level": "B2" },
+    { "de": "Man hat mir meine Brieftasche gestohlen.", "en": "Someone has stolen my wallet.", "who": "you", "level": "B1" },
+    { "de": "Ich möchte eine Anzeige erstatten.", "en": "I would like to report a crime.", "who": "you", "level": "B2" },
+    { "de": "Können Sie die Person beschreiben?", "en": "Can you describe the person?", "who": "staff", "level": "B1" },
+    { "de": "Wann ist das passiert?", "en": "When did this happen?", "who": "staff", "level": "A2" },
+    { "de": "Wo tut es weh?", "en": "Where does it hurt?", "who": "staff", "level": "A1" },
+    { "de": "Haben Sie Ihre Gesundheitskarte dabei?", "en": "Do you have your health insurance card with you?", "who": "staff", "level": "B1" }
+  ],
+  "exercises": [
+    { "type": "article", "word": "Notaufnahme", "answer": "die", "explain": "The compound takes the gender of Aufnahme, which is feminine: die Notaufnahme." },
+    { "type": "article", "word": "Krankenwagen", "answer": "der", "explain": "Wagen is masculine, so der Krankenwagen." },
+    { "type": "article", "word": "Feuer", "answer": "das", "explain": "Feuer is neuter: das Feuer, die Feuer." },
+    { "type": "article", "word": "Diebstahl", "answer": "der", "explain": "Diebstahl is masculine: der Diebstahl, die Diebstähle." },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "die Feuerwehr",
+          "fire brigade"
+        ],
+        [
+          "der Notarzt",
+          "emergency doctor"
+        ],
+        [
+          "der Dieb",
+          "thief"
+        ],
+        [
+          "die Anzeige",
+          "police report"
+        ],
+        [
+          "der Zeuge",
+          "witness"
+        ]
+      ],
+      "explain": "People and things around an emergency."
+    },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "retten",
+          "to rescue"
+        ],
+        [
+          "löschen",
+          "to extinguish"
+        ],
+        [
+          "stehlen",
+          "to steal"
+        ],
+        [
+          "brennen",
+          "to burn"
+        ],
+        [
+          "passieren",
+          "to happen"
+        ]
+      ],
+      "explain": "Verbs you hear in emergencies."
+    },
+    {
+      "type": "gap",
+      "q": "Die Nummer der Polizei ist die ___.",
+      "answer": [
+        "110",
+        "Notruf 110",
+        "Nummer 110"
+      ],
+      "explain": "The police are on 110; the fire brigade and ambulance are on 112."
+    },
+    {
+      "type": "gap",
+      "q": "Es ___! Rufen Sie die Feuerwehr!",
+      "answer": [
+        "brennt"
+      ],
+      "explain": "Brennen with es: es brennt means there is a fire."
+    },
+    {
+      "type": "gap",
+      "q": "Man hat mir meine Brieftasche ___.",
+      "answer": [
+        "gestohlen"
+      ],
+      "explain": "The Partizip II of stehlen is gestohlen."
+    },
+    {
+      "type": "translate",
+      "en": "Please call an ambulance!",
+      "answer": [
+        "Rufen Sie bitte einen Krankenwagen!",
+        "Bitte rufen Sie einen Krankenwagen!",
+        "Rufen Sie einen Krankenwagen, bitte!",
+        "Rufen Sie bitte einen Krankenwagen",
+        "Bitte rufen Sie einen Krankenwagen"
+      ],
+      "explain": "A polite command with Sie starts with the verb; der Krankenwagen becomes einen Krankenwagen as the object."
+    },
+    {
+      "type": "translate",
+      "en": "I would like to report a theft.",
+      "answer": [
+        "Ich möchte einen Diebstahl anzeigen.",
+        "Ich möchte eine Anzeige erstatten.",
+        "Ich möchte einen Diebstahl melden."
+      ],
+      "explain": "Möchte + infinitive at the end; der Diebstahl becomes einen Diebstahl as the object."
+    },
+    {
+      "type": "mc",
+      "q": "There is a fire in the building. Which number do you call?",
+      "options": [
+        "110",
+        "112",
+        "116 117"
+      ],
+      "answer": 1,
+      "explain": "112 is the European emergency number for fire brigade and ambulance; 110 is the police."
+    },
+    {
+      "type": "mc",
+      "q": "The dispatcher says: \"Bleiben Sie ruhig, Hilfe ist unterwegs.\" What does this mean?",
+      "options": [
+        "Help is on its way.",
+        "Nobody can come.",
+        "Call again later."
+      ],
+      "answer": 0,
+      "explain": "Unterwegs means on the way, so help is coming."
+    },
+    {
+      "type": "order",
+      "words": [
+        "Krankenwagen",
+        "brauche",
+        "einen",
+        "Ich"
+      ],
+      "answer": "Ich brauche einen Krankenwagen",
+      "explain": "Subject, verb, then the object in the accusative: einen Krankenwagen."
+    }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Es gab einen Unfall.", "en": "There has been an accident." },
+      { "de": "Bitte rufen Sie einen Krankenwagen.", "en": "Please call an ambulance." },
+      { "de": "Es brennt in der Küche.", "en": "There is a fire in the kitchen." },
+      { "de": "Man hat mir meine Brieftasche gestohlen.", "en": "Someone has stolen my wallet." },
+      { "de": "Ich möchte eine Anzeige erstatten.", "en": "I would like to report a crime." },
+      { "de": "Mir tut der Arm sehr weh.", "en": "My arm hurts a lot." }
+    ],
+    "prompts": [
+      { "q": "Notruf, was ist passiert?", "qEn": "Emergency services, what has happened?", "model": "Ein Mann ist auf der Straße gestürzt. Er ist verletzt und kann nicht aufstehen. Wir sind in der Hauptstraße, vor dem Bahnhof.", "hint": "Say what happened, who is hurt and where you are." },
+      { "q": "Wie kann ich Ihnen helfen?", "qEn": "How can I help you? (at the police station)", "model": "Man hat mir mein Handy gestohlen. Ich möchte eine Anzeige erstatten.", "hint": "Say what was stolen and that you want to report it." },
+      { "q": "Können Sie den Dieb beschreiben?", "qEn": "Can you describe the thief?", "model": "Er war groß und trug eine schwarze Jacke. Er ist in Richtung Bahnhof gelaufen.", "hint": "Give size, clothes and direction." },
+      { "q": "Was fehlt Ihnen? Wo tut es weh?", "qEn": "What is wrong? Where does it hurt? (hospital emergency room)", "model": "Ich bin gestürzt. Mein Handgelenk tut sehr weh, und ich kann es nicht bewegen.", "hint": "Say what happened and where it hurts." }
+    ]
+  }
+}

@@ -99,7 +99,7 @@ function stats(road, list, current) {
     stat(lvl.id, 'Level'),
     stat(`${pct}%`, 'of the road', h('div.bar', h('i', { style: `width:${pct}%` }))),
     stat(left, `left in ${lvl.id}`),
-    stat(progress.wordsLearned(), 'words', null, '.opt'),
+    stat(progress.wordsLearned(), 'words known', null, '.opt'),
     stat(`${progress.speakStreak()}🔥`, 'speaking days', null, '.opt'));
 }
 
@@ -213,7 +213,7 @@ function node(x, p, cx) {
     dot = x.mode === 'alltag' ? (x.status === 'done' ? '✓' : x.m.icon)
       : x.kind === 'planned' ? '🔒' : x.status === 'done' ? (progress.isSkipped(x.m.id) ? '⏭' : '✓') : String(n + 1);
     title = x.m.title;
-    sub = x.m.wordlist ? `📍 ${x.m.concept} · 🗂 ${x.m.wordlist}` : x.m.concept;
+    sub = x.m.concept;
   }
   const frac = x.kind === 'ms' && x.status === 'progress' ? (x.mode === 'alltag' ? progress.placeFraction : progress.stepFraction)(x.m.id) : 0;
   const ring = frac ? (() => {
@@ -354,7 +354,7 @@ async function sheet(x) {
     const st = progress.lessonState(x.m.id);
     const go = h('a.btn.primary', { href: lessonHref(x), onclick: closeSheet },
       x.status === 'new' ? 'Start' : x.status === 'done' ? 'Review' : 'Continue');
-    const meta = h('div.meta', h('span.chip.accent', x.level.id), h('span.chip', `🗂 ${x.m.wordlist}`));
+    const meta = h('div.meta', h('span.chip.accent', x.level.id));
     append(card, meta, h('h2', x.m.title), h('p', x.m.concept),
       st?.best ? h('p.muted', `Best practice score: ${Math.round(st.best * 100)}%${st.done && !st.skipped ? ' · milestone reached ✓' : ''}`) : null,
       st?.skipped ? h('p.muted', '⏭ Skipped. Pass its exercises any time to complete it properly.') : null,
@@ -362,7 +362,7 @@ async function sheet(x) {
     go.focus();
     try {
       const lesson = await getLesson(x.m.id);
-      meta.append(h('span.chip', `${lesson.words.length} words`), h('span.chip', `${lesson.exercises.length} exercises`), h('span.chip', `⏱ ${lesson.minutes} min`));
+      meta.append(h('span.chip', `${lesson.exercises.length} exercises`), h('span.chip', `⏱ ${lesson.minutes} min`));
       // no hover on touch screens, so the mind map preview lives in the sheet instead
       if (!canHover) {
         const map = h('div.sheet-map', {

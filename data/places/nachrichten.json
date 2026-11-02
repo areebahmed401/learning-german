@@ -1,0 +1,391 @@
+{
+  "id": "nachrichten",
+  "icon": "📰",
+  "title": "Nachrichten & Gesellschaft",
+  "en": "News & society",
+  "intro": "You follow the news, talk about politics, energy and society, and weigh rumours against facts. Here you learn to report, doubt, agree and disagree in a debate.",
+  "areas": [
+    {
+      "name": "Medien",
+      "en": "media",
+      "words": [
+        { "de": "Zeitung", "en": "newspaper", "pos": "noun", "article": "die", "plural": "Zeitungen", "level": "A1", "goethe": "A1" },
+        { "de": "Artikel", "en": "article", "pos": "noun", "article": "der", "plural": "Artikel", "level": "A2", "goethe": "A2" },
+        { "de": "Film", "en": "film", "pos": "noun", "article": "der", "plural": "Filme", "level": "A1", "goethe": "A1" },
+        { "de": "Serie", "en": "series", "pos": "noun", "article": "die", "plural": "Serien", "level": "B1", "goethe": "B1" },
+        { "de": "Sendung", "en": "programme, broadcast", "pos": "noun", "article": "die", "plural": "Sendungen", "level": "A2", "goethe": "A2" },
+        { "de": "Zeitschrift", "en": "magazine", "pos": "noun", "article": "die", "plural": "Zeitschriften", "level": "A2", "goethe": "A2" },
+        { "de": "Märchen", "en": "fairy tale", "pos": "noun", "article": "das", "plural": "Märchen", "level": "B1", "goethe": "B1" },
+        { "de": "Medien", "en": "media", "pos": "noun", "article": "die", "plural": "-", "note": "plural only", "level": "B1", "goethe": "B1" },
+        { "de": "Fernsehen", "en": "television (the medium)", "pos": "noun", "article": "das", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "spannend", "en": "exciting", "pos": "adj", "level": "A2", "goethe": "A2" },
+        { "de": "langweilig", "en": "boring", "pos": "adj", "level": "A2", "goethe": "A2" },
+        { "de": "lesen", "en": "to read", "pos": "verb", "aux": "haben", "p2": "gelesen", "level": "A1", "goethe": "A1" },
+        { "de": "sehen", "en": "to see, to watch", "pos": "verb", "aux": "haben", "p2": "gesehen", "level": "A1", "goethe": "A1" },
+        { "de": "Radio", "en": "radio", "pos": "noun", "article": "das", "plural": "Radios", "level": "A1", "goethe": "A1" },
+        { "de": "Werbung", "en": "advertising", "pos": "noun", "article": "die", "plural": "-", "level": "B1", "goethe": "B1" },
+        { "de": "Podcast", "en": "podcast", "pos": "noun", "article": "der", "plural": "Podcasts", "level": "B1" },
+        { "de": "Internet", "en": "internet", "pos": "noun", "article": "das", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "Sender", "en": "broadcaster, channel", "pos": "noun", "article": "der", "plural": "Sender", "level": "B1", "goethe": "B1" },
+        { "de": "Pressefreiheit", "en": "freedom of the press", "pos": "noun", "article": "die", "plural": "-", "level": "C1" }
+      ]
+    },
+    {
+      "name": "Nachrichten & Berichte",
+      "en": "news and reports",
+      "words": [
+        { "de": "Geschichte", "en": "story; history", "pos": "noun", "article": "die", "plural": "Geschichten", "level": "A2", "goethe": "A2" },
+        { "de": "Nachricht", "en": "news item; message", "pos": "noun", "article": "die", "plural": "Nachrichten", "level": "A2", "goethe": "A2" },
+        { "de": "Bericht", "en": "report", "pos": "noun", "article": "der", "plural": "Berichte", "level": "B1", "goethe": "B1" },
+        { "de": "Ereignis", "en": "event", "pos": "noun", "article": "das", "plural": "Ereignisse", "level": "B1", "goethe": "B1" },
+        { "de": "Meldung", "en": "news report", "pos": "noun", "article": "die", "plural": "Meldungen", "level": "B1", "goethe": "B1" },
+        { "de": "erzählen", "en": "to tell, to narrate", "pos": "verb", "aux": "haben", "p2": "erzählt", "level": "A1", "goethe": "A1" },
+        { "de": "berichten", "en": "to report", "pos": "verb", "aux": "haben", "p2": "berichtet", "level": "A2", "goethe": "A2" },
+        { "de": "passieren", "en": "to happen", "pos": "verb", "aux": "sein", "p2": "passiert", "level": "A2", "goethe": "A2" },
+        { "de": "veröffentlichen", "en": "to publish", "pos": "verb", "aux": "haben", "p2": "veröffentlicht", "level": "B1", "goethe": "B1" },
+        { "de": "sich informieren", "en": "to get informed", "pos": "verb", "aux": "haben", "p2": "informiert", "level": "A2", "goethe": "A2" },
+        { "de": "Schlagzeile", "en": "headline", "pos": "noun", "article": "die", "plural": "Schlagzeilen", "level": "B2" },
+        { "de": "Reporter", "en": "reporter (male)", "pos": "noun", "article": "der", "plural": "Reporter", "level": "B1", "goethe": "B1" },
+        { "de": "Interview", "en": "interview", "pos": "noun", "article": "das", "plural": "Interviews", "level": "A2", "goethe": "A2" },
+        { "de": "Kommentar", "en": "comment, commentary", "pos": "noun", "article": "der", "plural": "Kommentare", "level": "B1", "goethe": "B1" },
+        { "de": "Zeitungsartikel", "en": "newspaper article", "pos": "noun", "article": "der", "plural": "Zeitungsartikel", "level": "B1" }
+      ]
+    },
+    {
+      "name": "Politik",
+      "en": "politics",
+      "words": [
+        { "de": "Regierung", "en": "government", "pos": "noun", "article": "die", "plural": "Regierungen", "level": "B1", "goethe": "B1" },
+        { "de": "Minister", "en": "minister", "pos": "noun", "article": "der", "plural": "Minister", "level": "B1", "goethe": "B1" },
+        { "de": "Kanzler", "en": "chancellor", "pos": "noun", "article": "der", "plural": "Kanzler", "level": "B2" },
+        { "de": "Wahl", "en": "election, choice", "pos": "noun", "article": "die", "plural": "Wahlen", "level": "B1", "goethe": "B1" },
+        { "de": "Partei", "en": "party", "pos": "noun", "article": "die", "plural": "Parteien", "level": "B1", "goethe": "B1" },
+        { "de": "Gesetz", "en": "law", "pos": "noun", "article": "das", "plural": "Gesetze", "level": "B1", "goethe": "B1" },
+        { "de": "Sprecher", "en": "spokesman", "pos": "noun", "article": "der", "plural": "Sprecher", "level": "B2" },
+        { "de": "Umfrage", "en": "survey, poll", "pos": "noun", "article": "die", "plural": "Umfragen", "level": "B1", "goethe": "B1" },
+        { "de": "Gewerkschaft", "en": "trade union", "pos": "noun", "article": "die", "plural": "Gewerkschaften", "level": "B1", "goethe": "B1" },
+        { "de": "beschließen", "en": "to decide, to pass", "pos": "verb", "aux": "haben", "p2": "beschlossen", "level": "B1", "goethe": "B1" },
+        { "de": "zurücktreten", "en": "to resign", "pos": "verb", "aux": "sein", "sep": "zurück", "p2": "zurückgetreten", "level": "B2" },
+        { "de": "fordern", "en": "to demand", "pos": "verb", "aux": "haben", "p2": "gefordert", "level": "B1", "goethe": "B1" },
+        { "de": "mitteilen", "en": "to announce, to inform", "pos": "verb", "aux": "haben", "sep": "mit", "p2": "mitgeteilt", "level": "B1", "goethe": "B1" },
+        { "de": "erklären", "en": "to explain, to declare", "pos": "verb", "aux": "haben", "p2": "erklärt", "level": "A1", "goethe": "A1" },
+        { "de": "bestätigen", "en": "to confirm", "pos": "verb", "aux": "haben", "p2": "bestätigt", "level": "A2", "goethe": "A2" },
+        { "de": "dementieren", "en": "to deny (officially)", "pos": "verb", "aux": "haben", "p2": "dementiert", "level": "B2" },
+        { "de": "offiziell", "en": "official", "pos": "adj", "level": "B1", "goethe": "B1" },
+        { "de": "Mehrheit", "en": "majority", "pos": "noun", "article": "die", "plural": "Mehrheiten", "level": "B1", "goethe": "B1" },
+        { "de": "Minderheit", "en": "minority", "pos": "noun", "article": "die", "plural": "Minderheiten", "level": "B1", "goethe": "B1" },
+        { "de": "Bundestag", "en": "German federal parliament", "pos": "noun", "article": "der", "plural": "-", "level": "B1", "goethe": "B1" },
+        { "de": "Bundesland", "en": "federal state", "pos": "noun", "article": "das", "plural": "Bundesländer", "level": "B1", "goethe": "B1" },
+        { "de": "Politiker", "en": "politician (male)", "pos": "noun", "article": "der", "plural": "Politiker", "level": "B1", "goethe": "B1" },
+        { "de": "Wähler", "en": "voter (male)", "pos": "noun", "article": "der", "plural": "Wähler", "level": "B2" },
+        { "de": "Abstimmung", "en": "vote", "pos": "noun", "article": "die", "plural": "Abstimmungen", "level": "B2" },
+        { "de": "Koalition", "en": "coalition", "pos": "noun", "article": "die", "plural": "Koalitionen", "level": "C1" },
+        { "de": "Demokratie", "en": "democracy", "pos": "noun", "article": "die", "plural": "Demokratien", "level": "B1", "goethe": "B1" },
+        { "de": "Wahlkampf", "en": "election campaign", "pos": "noun", "article": "der", "plural": "Wahlkämpfe", "level": "C1" },
+        { "de": "wählen", "en": "to vote, to choose", "pos": "verb", "aux": "haben", "p2": "gewählt", "level": "A2", "goethe": "A2" }
+      ]
+    },
+    {
+      "name": "Energie & Klima",
+      "en": "energy and climate",
+      "words": [
+        { "de": "Stromnetz", "en": "power grid", "pos": "noun", "article": "das", "plural": "Stromnetze", "level": "B2" },
+        { "de": "Speicher", "en": "storage, battery", "pos": "noun", "article": "der", "plural": "Speicher", "level": "B2" },
+        { "de": "Wärmepumpe", "en": "heat pump", "pos": "noun", "article": "die", "plural": "Wärmepumpen", "level": "B2" },
+        { "de": "Emission", "en": "emission", "pos": "noun", "article": "die", "plural": "Emissionen", "level": "B2" },
+        { "de": "Ziel", "en": "goal, target", "pos": "noun", "article": "das", "plural": "Ziele", "level": "A2", "goethe": "A2" },
+        { "de": "Förderung", "en": "funding, subsidy", "pos": "noun", "article": "die", "plural": "Förderungen", "level": "B1", "goethe": "B1" },
+        { "de": "Klimaschutz", "en": "climate protection", "pos": "noun", "article": "der", "plural": "-", "level": "B2" },
+        { "de": "Lösung", "en": "solution", "pos": "noun", "article": "die", "plural": "Lösungen", "level": "A1", "goethe": "A1" },
+        { "de": "Ausbau", "en": "expansion", "pos": "noun", "article": "der", "plural": "-", "level": "B2" },
+        { "de": "Verbrauch", "en": "consumption", "pos": "noun", "article": "der", "plural": "-", "level": "B2" },
+        { "de": "speichern", "en": "to store", "pos": "verb", "aux": "haben", "p2": "gespeichert", "level": "A2", "goethe": "A2" },
+        { "de": "einsparen", "en": "to save (energy)", "pos": "verb", "aux": "haben", "sep": "ein", "p2": "eingespart", "level": "B2" },
+        { "de": "erneuern", "en": "to renew", "pos": "verb", "aux": "haben", "p2": "erneuert", "level": "B2" },
+        { "de": "vermeiden", "en": "to avoid", "pos": "verb", "aux": "haben", "p2": "vermieden", "level": "B1", "goethe": "B1" },
+        { "de": "ausbauen", "en": "to expand", "pos": "verb", "aux": "haben", "sep": "aus", "p2": "ausgebaut", "level": "B2" },
+        { "de": "beheben", "en": "to fix, to remedy", "pos": "verb", "aux": "haben", "p2": "behoben", "level": "B2" },
+        { "de": "erneuerbar", "en": "renewable", "pos": "adj", "level": "B2" },
+        { "de": "vermeidbar", "en": "avoidable", "pos": "adj", "level": "B2" },
+        { "de": "umsetzbar", "en": "feasible, implementable", "pos": "adj", "level": "B2" },
+        { "de": "unvermeidlich", "en": "unavoidable", "pos": "adj", "level": "B2" },
+        { "de": "Klimawandel", "en": "climate change", "pos": "noun", "article": "der", "plural": "-", "level": "B2" },
+        { "de": "Energie", "en": "energy", "pos": "noun", "article": "die", "plural": "Energien", "level": "B1", "goethe": "B1" },
+        { "de": "Strom", "en": "electricity", "pos": "noun", "article": "der", "plural": "-", "level": "B1", "goethe": "B1" },
+        { "de": "Strompreis", "en": "electricity price", "pos": "noun", "article": "der", "plural": "Strompreise", "level": "B2" },
+        { "de": "Solaranlage", "en": "solar system", "pos": "noun", "article": "die", "plural": "Solaranlagen", "level": "B2" },
+        { "de": "Windrad", "en": "wind turbine", "pos": "noun", "article": "das", "plural": "Windräder", "level": "B2" },
+        { "de": "Heizung", "en": "heating", "pos": "noun", "article": "die", "plural": "Heizungen", "level": "A2", "goethe": "A2" },
+        { "de": "Kohle", "en": "coal", "pos": "noun", "article": "die", "plural": "-", "level": "B2" },
+        { "de": "Erdgas", "en": "natural gas", "pos": "noun", "article": "das", "plural": "-", "level": "B2" },
+        { "de": "Atomkraft", "en": "nuclear power", "pos": "noun", "article": "die", "plural": "-", "level": "B2" }
+      ]
+    },
+    {
+      "name": "Gesellschaft",
+      "en": "society",
+      "words": [
+        { "de": "Gesellschaft", "en": "society", "pos": "noun", "article": "die", "plural": "Gesellschaften", "level": "B1", "goethe": "B1" },
+        { "de": "Nachbarschaft", "en": "neighbourhood, neighbours", "pos": "noun", "article": "die", "plural": "Nachbarschaften", "level": "B1" },
+        { "de": "Gemeinschaft", "en": "community", "pos": "noun", "article": "die", "plural": "Gemeinschaften", "level": "B1", "goethe": "B1" },
+        { "de": "Ehrenamt", "en": "voluntary work", "pos": "noun", "article": "das", "plural": "Ehrenämter", "level": "B2" },
+        { "de": "Verein", "en": "club, association", "pos": "noun", "article": "der", "plural": "Vereine", "level": "A1", "goethe": "A1" },
+        { "de": "Spende", "en": "donation", "pos": "noun", "article": "die", "plural": "Spenden", "level": "B2" },
+        { "de": "Mieter", "en": "tenant", "pos": "noun", "article": "der", "plural": "Mieter", "level": "B1", "goethe": "B1" },
+        { "de": "Bürger", "en": "citizen", "pos": "noun", "article": "der", "plural": "Bürger", "level": "B1", "goethe": "B1" },
+        { "de": "Integration", "en": "integration", "pos": "noun", "article": "die", "plural": "-", "level": "B1", "goethe": "B1" },
+        { "de": "Gleichberechtigung", "en": "equal rights", "pos": "noun", "article": "die", "plural": "-", "level": "B2" },
+        { "de": "Vorurteil", "en": "prejudice", "pos": "noun", "article": "das", "plural": "Vorurteile", "level": "B2" },
+        { "de": "Zusammenhalt", "en": "cohesion, solidarity", "pos": "noun", "article": "der", "plural": "-", "level": "B2" },
+        { "de": "sich engagieren", "en": "to get involved, to be committed", "pos": "verb", "aux": "haben", "p2": "engagiert", "level": "B2" },
+        { "de": "sich beteiligen", "en": "to take part (an + Dat)", "pos": "verb", "aux": "haben", "p2": "beteiligt", "level": "B1", "goethe": "B1" },
+        { "de": "unterstützen", "en": "to support", "pos": "verb", "aux": "haben", "p2": "unterstützt", "level": "B1", "goethe": "B1" },
+        { "de": "zusammenleben", "en": "to live together", "pos": "verb", "aux": "haben", "sep": "zusammen", "p2": "zusammengelebt", "level": "B2" },
+        { "de": "fördern", "en": "to promote, to support", "pos": "verb", "aux": "haben", "p2": "gefördert", "level": "B1", "goethe": "B1" },
+        { "de": "benachteiligen", "en": "to disadvantage", "pos": "verb", "aux": "haben", "p2": "benachteiligt", "level": "B2" },
+        { "de": "gerecht", "en": "fair, just", "pos": "adj", "level": "B1", "goethe": "B1" },
+        { "de": "solidarisch", "en": "supportive, in solidarity", "pos": "adj", "level": "B2" },
+        { "de": "vielfältig", "en": "diverse", "pos": "adj", "level": "B2" },
+        { "de": "Bevölkerung", "en": "population", "pos": "noun", "article": "die", "plural": "Bevölkerungen", "level": "B1", "goethe": "B1" },
+        { "de": "Armut", "en": "poverty", "pos": "noun", "article": "die", "plural": "-", "level": "B2" },
+        { "de": "Rente", "en": "pension", "pos": "noun", "article": "die", "plural": "Renten", "level": "B1", "goethe": "B1" },
+        { "de": "Migration", "en": "migration", "pos": "noun", "article": "die", "plural": "-", "level": "B1", "goethe": "B1" },
+        { "de": "Ungleichheit", "en": "inequality", "pos": "noun", "article": "die", "plural": "Ungleichheiten", "level": "C1" },
+        { "de": "Vorbild", "en": "role model", "pos": "noun", "article": "das", "plural": "Vorbilder", "level": "B2" }
+      ]
+    },
+    {
+      "name": "Gerüchte & Vermutungen",
+      "en": "rumours and speculation",
+      "words": [
+        { "de": "Vermutung", "en": "assumption", "pos": "noun", "article": "die", "plural": "Vermutungen", "level": "B2" },
+        { "de": "Gerücht", "en": "rumour", "pos": "noun", "article": "das", "plural": "Gerüchte", "level": "B2" },
+        { "de": "Annahme", "en": "assumption", "pos": "noun", "article": "die", "plural": "Annahmen", "level": "B2" },
+        { "de": "Beweis", "en": "proof", "pos": "noun", "article": "der", "plural": "Beweise", "level": "B1", "goethe": "B1" },
+        { "de": "Zweifel", "en": "doubt", "pos": "noun", "article": "der", "plural": "Zweifel", "level": "B1", "goethe": "B1" },
+        { "de": "Verdacht", "en": "suspicion", "pos": "noun", "article": "der", "plural": "-", "level": "B1", "goethe": "B1" },
+        { "de": "Quelle", "en": "source", "pos": "noun", "article": "die", "plural": "Quellen", "level": "B2" },
+        { "de": "Eindruck", "en": "impression", "pos": "noun", "article": "der", "plural": "Eindrücke", "level": "B1", "goethe": "B1" },
+        { "de": "vermuten", "en": "to assume, to suspect", "pos": "verb", "aux": "haben", "p2": "vermutet", "level": "B1", "goethe": "B1" },
+        { "de": "bezweifeln", "en": "to doubt", "pos": "verb", "aux": "haben", "p2": "bezweifelt", "level": "B2" },
+        { "de": "scheinen", "en": "to seem", "pos": "verb", "aux": "haben", "p2": "geschienen", "level": "A1", "goethe": "A1" },
+        { "de": "stimmen", "en": "to be correct", "pos": "verb", "aux": "haben", "p2": "gestimmt", "level": "B1", "goethe": "B1" },
+        { "de": "sich irren", "en": "to be mistaken", "pos": "verb", "aux": "haben", "p2": "geirrt", "level": "B1", "goethe": "B1" },
+        { "de": "verbreiten", "en": "to spread", "pos": "verb", "aux": "haben", "p2": "verbreitet", "level": "B2" },
+        { "de": "abstreiten", "en": "to deny", "pos": "verb", "aux": "haben", "sep": "ab", "p2": "abgestritten", "level": "B2" },
+        { "de": "annehmen", "en": "to assume", "pos": "verb", "aux": "haben", "sep": "an", "p2": "angenommen", "level": "B1", "goethe": "B1" },
+        { "de": "vermutlich", "en": "presumably", "pos": "adv", "level": "B1", "goethe": "B1" },
+        { "de": "wahrscheinlich", "en": "probable, likely", "pos": "adj", "level": "A2", "goethe": "A2" },
+        { "de": "offenbar", "en": "apparently", "pos": "adv", "level": "B1", "goethe": "B1" },
+        { "de": "möglicherweise", "en": "possibly", "pos": "adv", "level": "B1", "goethe": "B1" },
+        { "de": "angeblich", "en": "allegedly", "pos": "adv", "level": "B2" },
+        { "de": "behaupten", "en": "to claim", "pos": "verb", "aux": "haben", "p2": "behauptet", "level": "B1", "goethe": "B1" },
+        { "de": "Behauptung", "en": "claim", "pos": "noun", "article": "die", "plural": "Behauptungen", "level": "B2" },
+        { "de": "Falschmeldung", "en": "false report, fake news", "pos": "noun", "article": "die", "plural": "Falschmeldungen", "level": "B2" },
+        { "de": "glauben", "en": "to believe, to think", "pos": "verb", "aux": "haben", "p2": "geglaubt", "level": "A1", "goethe": "A1" },
+        { "de": "tatsächlich", "en": "actually, indeed", "pos": "adv", "level": "B1", "goethe": "B1" }
+      ]
+    },
+    {
+      "name": "Debatte & Meinung",
+      "en": "debate and opinion",
+      "words": [
+        { "de": "Ansicht", "en": "opinion, view", "pos": "noun", "article": "die", "plural": "Ansichten", "level": "B2" },
+        { "de": "Debatte", "en": "debate", "pos": "noun", "article": "die", "plural": "Debatten", "level": "C1" },
+        { "de": "Einschränkung", "en": "restriction, reservation", "pos": "noun", "article": "die", "plural": "Einschränkungen", "level": "C1" },
+        { "de": "Zugeständnis", "en": "concession", "pos": "noun", "article": "das", "plural": "Zugeständnisse", "level": "C1" },
+        { "de": "Widerspruch", "en": "contradiction, objection", "pos": "noun", "article": "der", "plural": "Widersprüche", "level": "B2" },
+        { "de": "Haltung", "en": "attitude, stance", "pos": "noun", "article": "die", "plural": "Haltungen", "level": "C1" },
+        { "de": "einräumen", "en": "to concede, to admit", "pos": "verb", "aux": "haben", "sep": "ein", "p2": "eingeräumt", "level": "C1" },
+        { "de": "zugeben", "en": "to admit", "pos": "verb", "aux": "haben", "sep": "zu", "p2": "zugegeben", "level": "C1" },
+        { "de": "relativieren", "en": "to put into perspective", "pos": "verb", "aux": "haben", "p2": "relativiert", "level": "C1" },
+        { "de": "hinterfragen", "en": "to question critically", "pos": "verb", "aux": "haben", "p2": "hinterfragt", "level": "C1" },
+        { "de": "widerlegen", "en": "to refute", "pos": "verb", "aux": "haben", "p2": "widerlegt", "level": "C1" },
+        { "de": "beharren", "en": "to insist (on)", "pos": "verb", "aux": "haben", "p2": "beharrt", "level": "C1" },
+        { "de": "sich äußern", "en": "to express one's opinion", "pos": "verb", "aux": "haben", "p2": "geäußert", "level": "C1" },
+        { "de": "umstritten", "en": "controversial", "pos": "adj", "level": "C1" },
+        { "de": "berechtigt", "en": "justified", "pos": "adj", "level": "C1" },
+        { "de": "fragwürdig", "en": "questionable", "pos": "adj", "level": "C1" },
+        { "de": "wenngleich", "en": "although (formal)", "pos": "conj", "level": "C1" },
+        { "de": "wohingegen", "en": "whereas", "pos": "conj", "level": "C1" },
+        { "de": "es sei denn", "en": "unless", "pos": "conj", "level": "A1", "goethe": "A1" },
+        { "de": "nichtsdestotrotz", "en": "nevertheless", "pos": "adv", "level": "C1" },
+        { "de": "allerdings", "en": "however, though", "pos": "adv", "level": "B1", "goethe": "B1" },
+        { "de": "Meinung", "en": "opinion", "pos": "noun", "article": "die", "plural": "Meinungen", "level": "A2", "goethe": "A2" },
+        { "de": "Argument", "en": "argument", "pos": "noun", "article": "das", "plural": "Argumente", "level": "B1" },
+        { "de": "Gegenargument", "en": "counter-argument", "pos": "noun", "article": "das", "plural": "Gegenargumente", "level": "B2" },
+        { "de": "Kritik", "en": "criticism", "pos": "noun", "article": "die", "plural": "-", "level": "B1", "goethe": "B1" },
+        { "de": "Vorwurf", "en": "accusation, reproach", "pos": "noun", "article": "der", "plural": "Vorwürfe", "level": "B1", "goethe": "B1" },
+        { "de": "kritisieren", "en": "to criticise", "pos": "verb", "aux": "haben", "p2": "kritisiert", "level": "B1", "goethe": "B1" },
+        { "de": "diskutieren", "en": "to discuss", "pos": "verb", "aux": "haben", "p2": "diskutiert", "level": "A2", "goethe": "A2" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "de": "Haben Sie schon gehört, was gestern passiert ist?", "en": "Have you heard what happened yesterday?", "who": "staff", "level": "B1" },
+    { "de": "Angeblich tritt der Minister zurück.", "en": "Allegedly the minister is resigning.", "who": "staff", "level": "B2" },
+    { "de": "Das ist nur ein Gerücht, es gibt keinen Beweis.", "en": "That is just a rumour, there is no proof.", "who": "staff", "level": "B2" },
+    { "de": "Die Regierung hat ein neues Gesetz beschlossen.", "en": "The government has passed a new law.", "who": "staff", "level": "B2" },
+    { "de": "Die Mehrheit der Befragten ist dagegen.", "en": "The majority of those surveyed are against it.", "who": "staff", "level": "B2" },
+    { "de": "Wie ist Ihre Meinung dazu?", "en": "What is your opinion on that?", "who": "staff", "level": "B1" },
+    { "de": "Ich lese jeden Morgen die Zeitung online.", "en": "I read the newspaper online every morning.", "who": "you", "level": "A2" },
+    { "de": "Ich informiere mich im Internet über die Nachrichten.", "en": "I get informed about the news on the internet.", "who": "you", "level": "B1" },
+    { "de": "Was ist die Quelle dafür?", "en": "What is the source for that?", "who": "you", "level": "B2" },
+    { "de": "Ich bezweifle, dass das stimmt.", "en": "I doubt that this is true.", "who": "you", "level": "B2" },
+    { "de": "Einerseits ist das sinnvoll, andererseits ist es sehr teuer.", "en": "On the one hand this makes sense, on the other hand it is very expensive.", "who": "you", "level": "B2" },
+    { "de": "Da bin ich ganz anderer Meinung.", "en": "I am of a completely different opinion.", "who": "you", "level": "B1" },
+    { "de": "Das kann ich mir nicht vorstellen.", "en": "I cannot imagine that.", "who": "you", "level": "B1" },
+    { "de": "Ich engagiere mich ehrenamtlich in einem Verein.", "en": "I volunteer in a club.", "who": "you", "level": "B2" }
+  ],
+  "exercises": [
+    { "type": "article", "word": "Regierung", "answer": "die", "explain": "Nouns ending in -ung are feminine: die Regierung, die Regierungen." },
+    { "type": "article", "word": "Zeitung", "answer": "die", "explain": "Zeitung ends in -ung and is feminine: die Zeitung." },
+    { "type": "article", "word": "Gesetz", "answer": "das", "explain": "Gesetz is neuter: das Gesetz, die Gesetze." },
+    { "type": "article", "word": "Gerücht", "answer": "das", "explain": "Gerücht is neuter: das Gerücht, die Gerüchte." },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "die Regierung",
+          "government"
+        ],
+        [
+          "das Gesetz",
+          "law"
+        ],
+        [
+          "die Umfrage",
+          "survey, poll"
+        ],
+        [
+          "die Mehrheit",
+          "majority"
+        ],
+        [
+          "die Wahl",
+          "election"
+        ]
+      ],
+      "explain": "Core political nouns, each with its article."
+    },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "behaupten",
+          "to claim"
+        ],
+        [
+          "bestätigen",
+          "to confirm"
+        ],
+        [
+          "dementieren",
+          "to deny officially"
+        ],
+        [
+          "vermuten",
+          "to assume"
+        ],
+        [
+          "bezweifeln",
+          "to doubt"
+        ]
+      ],
+      "explain": "Verbs for statements, doubts and denials in news reports."
+    },
+    {
+      "type": "gap",
+      "q": "Der Sprecher hat die Meldung ___.",
+      "answer": [
+        "bestätigt"
+      ],
+      "explain": "Perfect tense with haben: bestätigen becomes bestätigt (no ge- because of the prefix be-)."
+    },
+    {
+      "type": "gap",
+      "q": "Der Minister ist gestern ___.",
+      "answer": [
+        "zurückgetreten"
+      ],
+      "explain": "Zurücktreten takes sein in the perfect: ist zurückgetreten."
+    },
+    {
+      "type": "gap",
+      "q": "Die Zeitung hat den Artikel gestern ___.",
+      "answer": [
+        "veröffentlicht"
+      ],
+      "explain": "Veröffentlichen has an inseparable prefix, so Partizip II is veröffentlicht, with haben."
+    },
+    {
+      "type": "translate",
+      "en": "I doubt that this is true.",
+      "answer": [
+        "Ich bezweifle, dass das stimmt.",
+        "Ich bezweifle, dass das wahr ist.",
+        "Ich bezweifele, dass das stimmt."
+      ],
+      "explain": "Bezweifeln needs a dass-clause; the verb goes to the end of the clause."
+    },
+    {
+      "type": "translate",
+      "en": "The government has decided on a new law.",
+      "answer": [
+        "Die Regierung hat ein neues Gesetz beschlossen.",
+        "Die Regierung hat ein neues Gesetz beschlossen"
+      ],
+      "explain": "Perfect with haben; beschließen has an inseparable prefix: beschlossen; das Gesetz is neuter, so ein neues Gesetz."
+    },
+    {
+      "type": "mc",
+      "q": "Which word means \"allegedly\"?",
+      "options": [
+        "angeblich",
+        "offiziell",
+        "unvermeidlich"
+      ],
+      "answer": 0,
+      "explain": "Angeblich says that something is claimed but not proven; offiziell means official."
+    },
+    {
+      "type": "mc",
+      "q": "In a discussion you admit a point. What do you say?",
+      "options": [
+        "Das räume ich ein.",
+        "Das widerlege ich.",
+        "Das dementiere ich offiziell."
+      ],
+      "answer": 0,
+      "explain": "Einräumen means to concede; widerlegen means to refute and dementieren means to deny."
+    },
+    {
+      "type": "order",
+      "words": [
+        "lese",
+        "jeden",
+        "Zeitung",
+        "Ich",
+        "Morgen",
+        "die"
+      ],
+      "answer": "Ich lese jeden Morgen die Zeitung",
+      "explain": "Subject, verb in second place, then time and object."
+    }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Ich lese jeden Morgen die Zeitung online.", "en": "I read the newspaper online every morning." },
+      { "de": "Ich bezweifle, dass das stimmt.", "en": "I doubt that this is true." },
+      { "de": "Was ist die Quelle dafür?", "en": "What is the source for that?" },
+      { "de": "Einerseits ist das sinnvoll, andererseits ist es sehr teuer.", "en": "On the one hand this makes sense, on the other hand it is very expensive." },
+      { "de": "Ich engagiere mich ehrenamtlich in einem Verein.", "en": "I volunteer in a club." }
+    ],
+    "prompts": [
+      { "q": "Haben Sie die Nachrichten von heute gesehen?", "qEn": "Did you see today's news? (small talk with a colleague)", "model": "Ja, ich habe gelesen, dass die Regierung ein neues Gesetz zum Klimaschutz beschlossen hat. Was halten Sie davon?", "hint": "Report one item and ask back." },
+      { "q": "Angeblich wird der Strom bald wieder teurer. Glauben Sie das?", "qEn": "Allegedly electricity will get more expensive again soon. Do you believe that?", "model": "Das ist möglich, aber ich bin nicht sicher. Ich möchte erst die Quelle sehen, bevor ich es glaube.", "hint": "Show healthy doubt." },
+      { "q": "Wie ist Ihre Meinung zur Energiewende?", "qEn": "What is your opinion on the energy transition?", "model": "Meiner Ansicht nach ist der Ausbau der erneuerbaren Energien richtig. Allerdings müssen die Kosten gerecht verteilt werden.", "hint": "Give an opinion and one reservation." },
+      { "q": "Warum engagieren Sie sich in Ihrer Nachbarschaft?", "qEn": "Why do you get involved in your neighbourhood?", "model": "Ich finde, der Zusammenhalt ist wichtig. In unserem Verein helfen wir Menschen, die neu in der Stadt sind.", "hint": "Explain your motivation." }
+    ]
+  }
+}

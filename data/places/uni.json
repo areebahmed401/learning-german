@@ -50,7 +50,7 @@
         { "de": "Gebäude", "en": "building", "pos": "noun", "article": "das", "plural": "Gebäude", "level": "A2", "goethe": "A2" },
         { "de": "Raum", "en": "room", "pos": "noun", "article": "der", "plural": "Räume", "level": "A1", "goethe": "A1" },
         { "de": "Cafeteria", "en": "cafeteria", "pos": "noun", "article": "die", "plural": "Cafeterien", "level": "A2", "goethe": "A2" },
-        { "de": "Lesesaal", "en": "reading room", "pos": "noun", "article": "der", "plural": "Lesesäle", "level": "B2" },
+        { "de": "Lesesaal", "en": "reading room", "pos": "noun", "article": "der", "plural": "Lesesäle", "level": "B1" },
         { "de": "Fahrradständer", "en": "bike rack", "pos": "noun", "article": "der", "plural": "Fahrradständer", "level": "B2" },
         { "de": "Eingang", "en": "entrance", "pos": "noun", "article": "der", "plural": "Eingänge", "level": "A1", "goethe": "A1" },
         { "de": "Aufzug", "en": "lift", "pos": "noun", "article": "der", "plural": "Aufzüge", "level": "A1", "goethe": "A1" }
@@ -94,7 +94,7 @@
       "en": "exams and credits",
       "words": [
         { "de": "Prüfung", "en": "exam", "pos": "noun", "article": "die", "plural": "Prüfungen", "level": "A1", "goethe": "A1" },
-        { "de": "Klausur", "en": "written exam", "pos": "noun", "article": "die", "plural": "Klausuren", "level": "B2" },
+        { "de": "Klausur", "en": "written exam", "pos": "noun", "article": "die", "plural": "Klausuren", "level": "B1" },
         { "de": "Prüfungsamt", "en": "examinations office", "pos": "noun", "article": "das", "plural": "Prüfungsämter", "level": "B2" },
         { "de": "Leistungspunkt", "en": "credit point", "pos": "noun", "article": "der", "plural": "Leistungspunkte", "level": "B2" },
         { "de": "Note", "en": "grade", "pos": "noun", "article": "die", "plural": "Noten", "level": "A2", "goethe": "A2" },
@@ -104,6 +104,56 @@
         { "de": "Zeugnis", "en": "certificate", "pos": "noun", "article": "das", "plural": "Zeugnisse", "level": "A2", "goethe": "A2" },
         { "de": "bestehen", "en": "to pass", "pos": "verb", "aux": "haben", "p2": "bestanden", "level": "A2", "goethe": "A2" },
         { "de": "durchfallen", "en": "to fail", "pos": "verb", "aux": "sein", "sep": "durch", "p2": "durchgefallen", "level": "B1" }
+      ]
+    },
+    {
+      "name": "Lernen & Studieren",
+      "en": "learning and studying",
+      "words": [
+        { "de": "Stipendium", "en": "scholarship", "pos": "noun", "article": "das", "plural": "Stipendien", "level": "A2", "goethe": "A2" },
+        { "de": "Fortbildung", "en": "further training", "pos": "noun", "article": "die", "plural": "Fortbildungen", "level": "B1", "goethe": "B1" },
+        { "de": "Wortschatz", "en": "vocabulary", "pos": "noun", "article": "der", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "Aussprache", "en": "pronunciation", "pos": "noun", "article": "die", "plural": "-", "level": "B1", "goethe": "B1" },
+        { "de": "Fehler", "en": "mistake", "pos": "noun", "article": "der", "plural": "Fehler", "level": "A1", "goethe": "A1" },
+        { "de": "lernen", "en": "to learn", "pos": "verb", "aux": "haben", "p2": "gelernt", "level": "A1", "goethe": "A1" },
+        { "de": "wiederholen", "en": "to repeat, to review", "pos": "verb", "aux": "haben", "p2": "wiederholt", "level": "A1", "goethe": "A1" },
+        { "de": "üben", "en": "to practise", "pos": "verb", "aux": "haben", "p2": "geübt", "level": "A2", "goethe": "A2" },
+        { "de": "sich konzentrieren", "en": "to concentrate", "pos": "verb", "aux": "haben", "p2": "konzentriert", "level": "B1", "goethe": "B1" },
+        { "de": "anmelden", "en": "to register, to sign up", "pos": "verb", "aux": "haben", "sep": "an", "p2": "angemeldet", "level": "A1", "goethe": "A1" },
+        { "de": "Vortrag", "en": "talk, lecture", "pos": "noun", "article": "der", "plural": "Vorträge", "level": "B1", "goethe": "B1" },
+        { "de": "fleißig", "en": "hard-working", "pos": "adj", "level": "A2", "goethe": "A2" },
+        { "de": "schwierig", "en": "difficult", "pos": "adj", "level": "A2", "goethe": "A2" },
+        { "de": "Vokabel", "en": "vocabulary item", "pos": "noun", "article": "die", "plural": "Vokabeln", "level": "A2" },
+        { "de": "Karteikarte", "en": "flashcard", "pos": "noun", "article": "die", "plural": "Karteikarten", "level": "B1" },
+        { "de": "Lernplattform", "en": "learning platform", "pos": "noun", "article": "die", "plural": "Lernplattformen", "level": "B2" },
+        { "de": "Sprachkurs", "en": "language course", "pos": "noun", "article": "der", "plural": "Sprachkurse", "level": "B1", "goethe": "B1" }
+      ]
+    },
+    {
+      "name": "Schule & Kindheit",
+      "en": "school and childhood",
+      "words": [
+        { "de": "Kindergarten", "en": "kindergarten", "pos": "noun", "article": "der", "plural": "Kindergärten", "level": "A1", "goethe": "A1" },
+        { "de": "Schule", "en": "school", "pos": "noun", "article": "die", "plural": "Schulen", "level": "A1", "goethe": "A1" },
+        { "de": "Universität", "en": "university", "pos": "noun", "article": "die", "plural": "Universitäten", "level": "A2", "goethe": "A2" },
+        { "de": "Klasse", "en": "class", "pos": "noun", "article": "die", "plural": "Klassen", "level": "A1", "goethe": "A1" },
+        { "de": "Lehrer", "en": "teacher (male)", "pos": "noun", "article": "der", "plural": "Lehrer", "level": "A1", "goethe": "A1" },
+        { "de": "Lehrerin", "en": "teacher (female)", "pos": "noun", "article": "die", "plural": "Lehrerinnen", "level": "A1", "goethe": "A1" },
+        { "de": "Schüler", "en": "pupil (male)", "pos": "noun", "article": "der", "plural": "Schüler", "level": "A1", "goethe": "A1" },
+        { "de": "Hausaufgabe", "en": "homework (single task)", "pos": "noun", "article": "die", "plural": "Hausaufgaben", "level": "A1", "goethe": "A1" },
+        { "de": "Pause", "en": "break", "pos": "noun", "article": "die", "plural": "Pausen", "level": "A1", "goethe": "A1" },
+        { "de": "Heft", "en": "exercise book", "pos": "noun", "article": "das", "plural": "Hefte", "level": "A2", "goethe": "A2" },
+        { "de": "Tafel", "en": "blackboard", "pos": "noun", "article": "die", "plural": "Tafeln", "level": "A2", "goethe": "A2" },
+        { "de": "Abitur", "en": "final school exams (university entrance)", "pos": "noun", "article": "das", "plural": "-", "note": "no plural", "level": "A2", "goethe": "A2" },
+        { "de": "Ferien", "en": "school holidays", "pos": "noun", "article": "die", "plural": "-", "note": "plural only", "level": "A2", "goethe": "A2" },
+        { "de": "Unterricht", "en": "lessons, class", "pos": "noun", "article": "der", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "spielen", "en": "to play", "pos": "verb", "aux": "haben", "p2": "gespielt", "level": "A1", "goethe": "A1" },
+        { "de": "abschließen", "en": "to finish, to complete", "pos": "verb", "aux": "haben", "sep": "ab", "p2": "abgeschlossen", "level": "A2", "goethe": "A2" },
+        { "de": "streng", "en": "strict", "pos": "adj", "level": "A2", "goethe": "A2" },
+        { "de": "früher", "en": "in the past, formerly", "pos": "adv", "level": "A1", "goethe": "A1" },
+        { "de": "damals", "en": "back then", "pos": "adv", "level": "A2", "goethe": "A2" },
+        { "de": "als Kind", "en": "as a child", "pos": "phrase", "level": "A1", "goethe": "A1" },
+        { "de": "Schülerin", "en": "pupil (female)", "pos": "noun", "article": "die", "plural": "Schülerinnen", "level": "A2", "goethe": "A2" }
       ]
     }
   ],

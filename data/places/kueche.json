@@ -1,0 +1,311 @@
+{
+  "id": "kueche",
+  "icon": "🍳",
+  "title": "Küche & Haushalt",
+  "en": "Kitchen",
+  "intro": "You cook, eat and drink at home: breakfast, ingredients, pots and pans, and a recipe with quantities. These words also help you read a recipe or share a kitchen in a WG.",
+  "areas": [
+    {
+      "name": "Frühstück & Brot",
+      "en": "breakfast and bread",
+      "words": [
+        { "de": "Frühstück", "en": "breakfast", "pos": "noun", "article": "das", "plural": "Frühstücke", "level": "A1", "goethe": "A1" },
+        { "de": "Brot", "en": "bread", "pos": "noun", "article": "das", "plural": "Brote", "level": "A1", "goethe": "A1" },
+        { "de": "Brötchen", "en": "bread roll", "pos": "noun", "article": "das", "plural": "Brötchen", "level": "A1", "goethe": "A1" },
+        { "de": "Butter", "en": "butter", "pos": "noun", "article": "die", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "Käse", "en": "cheese", "pos": "noun", "article": "der", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "Schinken", "en": "ham", "pos": "noun", "article": "der", "plural": "Schinken", "level": "A1", "goethe": "A1" },
+        { "de": "Ei", "en": "egg", "pos": "noun", "article": "das", "plural": "Eier", "level": "A1", "goethe": "A1" },
+        { "de": "Marmelade", "en": "jam", "pos": "noun", "article": "die", "plural": "Marmeladen", "level": "B1", "goethe": "B1" },
+        { "de": "Honig", "en": "honey", "pos": "noun", "article": "der", "plural": "-", "level": "B1", "goethe": "B1" },
+        { "de": "Müsli", "en": "muesli", "pos": "noun", "article": "das", "plural": "-", "level": "B1", "goethe": "B1" },
+        { "de": "Joghurt", "en": "yoghurt", "pos": "noun", "article": "der", "plural": "Joghurts", "level": "A2" },
+        { "de": "Wurst", "en": "sausage, cold cuts", "pos": "noun", "article": "die", "plural": "Würste", "level": "A2", "goethe": "A2" },
+        { "de": "Mittagessen", "en": "lunch", "pos": "noun", "article": "das", "plural": "Mittagessen", "level": "A2", "goethe": "A2" },
+        { "de": "Abendessen", "en": "dinner, supper", "pos": "noun", "article": "das", "plural": "Abendessen", "level": "A2", "goethe": "A2" }
+      ]
+    },
+    {
+      "name": "Zutaten",
+      "en": "ingredients",
+      "words": [
+        { "de": "Essen", "en": "food; meal", "pos": "noun", "article": "das", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "Fleisch", "en": "meat", "pos": "noun", "article": "das", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "Fisch", "en": "fish", "pos": "noun", "article": "der", "plural": "Fische", "level": "A1", "goethe": "A1" },
+        { "de": "Reis", "en": "rice", "pos": "noun", "article": "der", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "Gemüse", "en": "vegetables", "pos": "noun", "article": "das", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "Salat", "en": "salad", "pos": "noun", "article": "der", "plural": "Salate", "level": "A1", "goethe": "A1" },
+        { "de": "Kartoffel", "en": "potato", "pos": "noun", "article": "die", "plural": "Kartoffeln", "level": "A1", "goethe": "A1" },
+        { "de": "Nudeln", "en": "pasta, noodles", "pos": "noun", "article": "die", "plural": "-", "note": "plural only", "level": "A2", "goethe": "A2" },
+        { "de": "Zwiebel", "en": "onion", "pos": "noun", "article": "die", "plural": "Zwiebeln", "level": "B1", "goethe": "B1" },
+        { "de": "Tomate", "en": "tomato", "pos": "noun", "article": "die", "plural": "Tomaten", "level": "A1", "goethe": "A1" },
+        { "de": "Mehl", "en": "flour", "pos": "noun", "article": "das", "plural": "-", "level": "B1", "goethe": "B1" },
+        { "de": "Zucker", "en": "sugar", "pos": "noun", "article": "der", "plural": "-", "level": "A2", "goethe": "A2" },
+        { "de": "Salz", "en": "salt", "pos": "noun", "article": "das", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "Pfeffer", "en": "pepper", "pos": "noun", "article": "der", "plural": "-", "level": "B1", "goethe": "B1" },
+        { "de": "Öl", "en": "oil", "pos": "noun", "article": "das", "plural": "Öle", "level": "A1", "goethe": "A1" },
+        { "de": "Knoblauch", "en": "garlic", "pos": "noun", "article": "der", "plural": "-", "level": "B1", "goethe": "B1" },
+        { "de": "Gewürz", "en": "spice", "pos": "noun", "article": "das", "plural": "Gewürze", "level": "B1", "goethe": "B1" }
+      ]
+    },
+    {
+      "name": "Obst & Süßes",
+      "en": "fruit and sweet things",
+      "words": [
+        { "de": "Apfel", "en": "apple", "pos": "noun", "article": "der", "plural": "Äpfel", "level": "A1", "goethe": "A1" },
+        { "de": "Banane", "en": "banana", "pos": "noun", "article": "die", "plural": "Bananen", "level": "A1", "goethe": "A1" },
+        { "de": "Kuchen", "en": "cake", "pos": "noun", "article": "der", "plural": "Kuchen", "level": "A1", "goethe": "A1" },
+        { "de": "Obst", "en": "fruit", "pos": "noun", "article": "das", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "Orange", "en": "orange", "pos": "noun", "article": "die", "plural": "Orangen", "level": "A2", "goethe": "A2" },
+        { "de": "Birne", "en": "pear", "pos": "noun", "article": "die", "plural": "Birnen", "level": "A1", "goethe": "A1" },
+        { "de": "Erdbeere", "en": "strawberry", "pos": "noun", "article": "die", "plural": "Erdbeeren", "level": "A2" },
+        { "de": "Zitrone", "en": "lemon", "pos": "noun", "article": "die", "plural": "Zitronen", "level": "A2", "goethe": "A2" },
+        { "de": "Schokolade", "en": "chocolate", "pos": "noun", "article": "die", "plural": "Schokoladen", "level": "A2", "goethe": "A2" },
+        { "de": "Keks", "en": "biscuit, cookie", "pos": "noun", "article": "der", "plural": "Kekse", "level": "A2" },
+        { "de": "Eis", "en": "ice cream", "pos": "noun", "article": "das", "plural": "-", "level": "A2", "goethe": "A2" }
+      ]
+    },
+    {
+      "name": "Getränke",
+      "en": "drinks at home",
+      "words": [
+        { "de": "Wasser", "en": "water", "pos": "noun", "article": "das", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "Milch", "en": "milk", "pos": "noun", "article": "die", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "Kaffee", "en": "coffee", "pos": "noun", "article": "der", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "Tee", "en": "tea", "pos": "noun", "article": "der", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "Saft", "en": "juice", "pos": "noun", "article": "der", "plural": "Säfte", "level": "A1", "goethe": "A1" },
+        { "de": "trinken", "en": "to drink", "pos": "verb", "aux": "haben", "p2": "getrunken", "level": "A1", "goethe": "A1" },
+        { "de": "Mineralwasser", "en": "mineral water", "pos": "noun", "article": "das", "plural": "-", "level": "A2", "goethe": "A2" },
+        { "de": "Limonade", "en": "lemonade", "pos": "noun", "article": "die", "plural": "Limonaden", "level": "B1", "goethe": "B1" },
+        { "de": "Bier", "en": "beer", "pos": "noun", "article": "das", "plural": "Biere", "level": "A1", "goethe": "A1" },
+        { "de": "Wein", "en": "wine", "pos": "noun", "article": "der", "plural": "Weine", "level": "A1", "goethe": "A1" },
+        { "de": "Kakao", "en": "cocoa, hot chocolate", "pos": "noun", "article": "der", "plural": "-", "level": "B1", "goethe": "B1" },
+        { "de": "Apfelschorle", "en": "apple juice with sparkling water", "pos": "noun", "article": "die", "plural": "Apfelschorlen", "level": "A2" },
+        { "de": "durstig", "en": "thirsty", "pos": "adj", "level": "B1", "goethe": "B1" }
+      ]
+    },
+    {
+      "name": "Kochen",
+      "en": "cooking verbs",
+      "words": [
+        { "de": "essen", "en": "to eat", "pos": "verb", "aux": "haben", "p2": "gegessen", "level": "A1", "goethe": "A1" },
+        { "de": "nehmen", "en": "to take", "pos": "verb", "aux": "haben", "p2": "genommen", "level": "A1", "goethe": "A1" },
+        { "de": "kochen", "en": "to cook, to boil", "pos": "verb", "aux": "haben", "p2": "gekocht", "level": "A1", "goethe": "A1" },
+        { "de": "braten", "en": "to fry, to roast", "pos": "verb", "aux": "haben", "p2": "gebraten", "level": "A2", "goethe": "A2" },
+        { "de": "backen", "en": "to bake", "pos": "verb", "aux": "haben", "p2": "gebacken", "level": "A2", "goethe": "A2" },
+        { "de": "schneiden", "en": "to cut", "pos": "verb", "aux": "haben", "p2": "geschnitten", "level": "A2", "goethe": "A2" },
+        { "de": "schälen", "en": "to peel", "pos": "verb", "aux": "haben", "p2": "geschält", "level": "B1" },
+        { "de": "rühren", "en": "to stir", "pos": "verb", "aux": "haben", "p2": "gerührt", "level": "B1" },
+        { "de": "mischen", "en": "to mix", "pos": "verb", "aux": "haben", "p2": "gemischt", "level": "B1", "goethe": "B1" },
+        { "de": "würzen", "en": "to season", "pos": "verb", "aux": "haben", "p2": "gewürzt", "level": "B1", "goethe": "B1" },
+        { "de": "erhitzen", "en": "to heat up", "pos": "verb", "aux": "haben", "p2": "erhitzt", "level": "B2" },
+        { "de": "abwaschen", "en": "to wash up", "pos": "verb", "aux": "haben", "sep": "ab", "p2": "abgewaschen", "level": "B1", "goethe": "B1" }
+      ]
+    },
+    {
+      "name": "Geräte & Geschirr",
+      "en": "appliances, dishes, cutlery",
+      "words": [
+        { "de": "Backofen", "en": "oven", "pos": "noun", "article": "der", "plural": "Backöfen", "level": "A2" },
+        { "de": "Mikrowelle", "en": "microwave", "pos": "noun", "article": "die", "plural": "Mikrowellen", "level": "A2" },
+        { "de": "Wasserkocher", "en": "kettle", "pos": "noun", "article": "der", "plural": "Wasserkocher", "level": "B1" },
+        { "de": "Kaffeemaschine", "en": "coffee machine", "pos": "noun", "article": "die", "plural": "Kaffeemaschinen", "level": "B1", "goethe": "B1" },
+        { "de": "Topf", "en": "pot", "pos": "noun", "article": "der", "plural": "Töpfe", "level": "A2", "goethe": "A2" },
+        { "de": "Pfanne", "en": "frying pan", "pos": "noun", "article": "die", "plural": "Pfannen", "level": "A2", "goethe": "A2" },
+        { "de": "Messer", "en": "knife", "pos": "noun", "article": "das", "plural": "Messer", "level": "A2", "goethe": "A2" },
+        { "de": "Gabel", "en": "fork", "pos": "noun", "article": "die", "plural": "Gabeln", "level": "A2", "goethe": "A2" },
+        { "de": "Löffel", "en": "spoon", "pos": "noun", "article": "der", "plural": "Löffel", "level": "A2", "goethe": "A2" },
+        { "de": "Teller", "en": "plate", "pos": "noun", "article": "der", "plural": "Teller", "level": "A2", "goethe": "A2" },
+        { "de": "Tasse", "en": "cup", "pos": "noun", "article": "die", "plural": "Tassen", "level": "A1", "goethe": "A1" },
+        { "de": "Schüssel", "en": "bowl", "pos": "noun", "article": "die", "plural": "Schüsseln", "level": "B1", "goethe": "B1" },
+        { "de": "Besteck", "en": "cutlery", "pos": "noun", "article": "das", "plural": "-", "level": "A2" },
+        { "de": "Geschirr", "en": "crockery, dishes", "pos": "noun", "article": "das", "plural": "-", "level": "A2", "goethe": "A2" }
+      ]
+    },
+    {
+      "name": "Rezept & Mengen",
+      "en": "recipes and quantities",
+      "words": [
+        { "de": "Rezept", "en": "recipe", "pos": "noun", "article": "das", "plural": "Rezepte", "level": "A2", "goethe": "A2" },
+        { "de": "Zutat", "en": "ingredient", "pos": "noun", "article": "die", "plural": "Zutaten", "level": "B1" },
+        { "de": "Portion", "en": "portion", "pos": "noun", "article": "die", "plural": "Portionen", "level": "A2", "goethe": "A2" },
+        { "de": "Gramm", "en": "gram", "pos": "noun", "article": "das", "plural": "Gramm", "level": "A1", "goethe": "A1" },
+        { "de": "Liter", "en": "litre", "pos": "noun", "article": "der", "plural": "Liter", "level": "A1", "goethe": "A1" },
+        { "de": "Prise", "en": "pinch", "pos": "noun", "article": "die", "plural": "Prisen", "level": "B2" },
+        { "de": "Esslöffel", "en": "tablespoon", "pos": "noun", "article": "der", "plural": "Esslöffel", "level": "B1" },
+        { "de": "Teelöffel", "en": "teaspoon", "pos": "noun", "article": "der", "plural": "Teelöffel", "level": "B1" },
+        { "de": "Stück", "en": "piece", "pos": "noun", "article": "das", "plural": "Stücke", "level": "A1", "goethe": "A1" },
+        { "de": "frisch", "en": "fresh", "pos": "adj", "level": "A2", "goethe": "A2" },
+        { "de": "lecker", "en": "tasty", "pos": "adj", "level": "B1", "goethe": "B1" },
+        { "de": "süß", "en": "sweet", "pos": "adj", "level": "A2", "goethe": "A2" },
+        { "de": "salzig", "en": "salty", "pos": "adj", "level": "B1", "goethe": "B1" },
+        { "de": "scharf", "en": "spicy, hot", "pos": "adj", "level": "A2", "goethe": "A2" },
+        { "de": "roh", "en": "raw", "pos": "adj", "level": "B1", "goethe": "B1" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "de": "Was gibt es heute zum Mittagessen?", "en": "What is for lunch today?", "who": "you", "level": "A1" },
+    { "de": "Hast du Hunger oder Durst?", "en": "Are you hungry or thirsty?", "who": "you", "level": "A1" },
+    { "de": "Kannst du mir bitte das Salz geben?", "en": "Can you pass me the salt, please?", "who": "you", "level": "A1" },
+    { "de": "Das Essen schmeckt sehr gut.", "en": "The food tastes very good.", "who": "you", "level": "A1" },
+    { "de": "Ich koche heute Abend Nudeln mit Tomatensoße.", "en": "I'm cooking pasta with tomato sauce tonight.", "who": "you", "level": "A2" },
+    { "de": "Wir haben keine Milch mehr.", "en": "We are out of milk.", "who": "you", "level": "A2" },
+    { "de": "Zuerst schneidest du die Zwiebeln.", "en": "First you cut the onions.", "who": "you", "level": "A2" },
+    { "de": "Die Nudeln müssen zehn Minuten kochen.", "en": "The pasta has to cook for ten minutes.", "who": "you", "level": "A2" },
+    { "de": "Möchtest du noch etwas Gemüse?", "en": "Would you like some more vegetables?", "who": "you", "level": "A2" },
+    { "de": "Guten Appetit!", "en": "Enjoy your meal!", "who": "staff", "level": "A1" },
+    { "de": "Danke, gleichfalls!", "en": "Thanks, you too!", "who": "you", "level": "A1" },
+    { "de": "Wer spült heute das Geschirr ab?", "en": "Who is washing the dishes today?", "who": "you", "level": "B1" },
+    { "de": "Man nehme zwei Eier und zweihundert Gramm Mehl.", "en": "Take two eggs and two hundred grams of flour.", "who": "staff", "level": "B2" },
+    { "de": "Der Herd ist noch heiß, pass auf!", "en": "The stove is still hot, be careful!", "who": "you", "level": "A2" }
+  ],
+  "exercises": [
+    { "type": "article", "word": "Kartoffel", "answer": "die", "explain": "Kartoffel is feminine: die Kartoffel, die Kartoffeln." },
+    { "type": "article", "word": "Besteck", "answer": "das", "explain": "Besteck is neuter and has no plural: das Besteck." },
+    { "type": "article", "word": "Löffel", "answer": "der", "explain": "Löffel is masculine: der Löffel, die Löffel." },
+    { "type": "article", "word": "Kaffeemaschine", "answer": "die", "explain": "Compound nouns take the gender of the last word: die Maschine, so die Kaffeemaschine." },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "der Topf",
+          "pot"
+        ],
+        [
+          "die Pfanne",
+          "frying pan"
+        ],
+        [
+          "das Messer",
+          "knife"
+        ],
+        [
+          "der Backofen",
+          "oven"
+        ]
+      ],
+      "explain": "Cooking equipment, each with its article."
+    },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "kochen",
+          "to cook, to boil"
+        ],
+        [
+          "backen",
+          "to bake"
+        ],
+        [
+          "schneiden",
+          "to cut"
+        ],
+        [
+          "rühren",
+          "to stir"
+        ],
+        [
+          "würzen",
+          "to season"
+        ]
+      ],
+      "explain": "Verbs you meet in almost every recipe."
+    },
+    {
+      "type": "gap",
+      "q": "Ich möchte gern Brot mit Butter und ___.",
+      "answer": [
+        "Käse",
+        "Schinken",
+        "Marmelade",
+        "Honig",
+        "Wurst"
+      ],
+      "explain": "Any food that goes on bread fits; nouns after und stay in the same case."
+    },
+    {
+      "type": "gap",
+      "q": "Zum Frühstück ___ ich einen Kaffee.",
+      "answer": [
+        "trinke"
+      ],
+      "explain": "Ich-form of trinken is trinke; the verb stays in position 2."
+    },
+    {
+      "type": "gap",
+      "q": "Wir haben gestern Kuchen ___.",
+      "answer": [
+        "gebacken"
+      ],
+      "explain": "Perfect with haben; backen has the irregular Partizip II gebacken."
+    },
+    {
+      "type": "translate",
+      "en": "I would like a glass of water.",
+      "answer": [
+        "Ich möchte ein Glas Wasser.",
+        "Ich hätte gern ein Glas Wasser."
+      ],
+      "explain": "Ein Glas Wasser: no preposition between the container and what is in it."
+    },
+    {
+      "type": "translate",
+      "en": "We have no milk left.",
+      "answer": [
+        "Wir haben keine Milch mehr.",
+        "Wir haben keine Milch mehr"
+      ],
+      "explain": "Keine is the negative article for Milch; mehr means any more."
+    },
+    {
+      "type": "mc",
+      "q": "A recipe says: \"Eine Prise Salz\". How much salt is that?",
+      "options": [
+        "a very small amount",
+        "a whole spoonful",
+        "a kilo"
+      ],
+      "answer": 0,
+      "explain": "Eine Prise is a pinch, so only a tiny amount."
+    },
+    {
+      "type": "mc",
+      "q": "Which verb fits? \"Ich ___ die Kartoffeln.\"",
+      "options": [
+        "schäle",
+        "trinke",
+        "backe"
+      ],
+      "answer": 0,
+      "explain": "You peel potatoes: Ich schäle die Kartoffeln."
+    },
+    {
+      "type": "order",
+      "words": [
+        "Wir",
+        "heute",
+        "Nudeln",
+        "kochen"
+      ],
+      "answer": "Wir kochen heute Nudeln",
+      "explain": "The verb is in position 2: Wir kochen heute Nudeln."
+    }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Was gibt es heute zum Mittagessen?", "en": "What is for lunch today?" },
+      { "de": "Kannst du mir bitte das Salz geben?", "en": "Can you pass me the salt, please?" },
+      { "de": "Ich koche heute Abend Nudeln.", "en": "I'm cooking pasta tonight." },
+      { "de": "Das Essen schmeckt sehr gut.", "en": "The food tastes very good." },
+      { "de": "Wir haben keine Milch mehr.", "en": "We are out of milk." }
+    ],
+    "prompts": [
+      { "q": "Wir kochen heute zusammen. Was möchtest du machen?", "qEn": "We're cooking together today. What would you like to make?", "model": "Ich möchte Nudeln mit Tomatensoße machen. Das kann ich gut.", "hint": "Name one simple dish." },
+      { "q": "Was brauchen wir für das Rezept?", "qEn": "What do we need for the recipe?", "model": "Wir brauchen zwei Zwiebeln, Tomaten, Salz und zweihundert Gramm Nudeln.", "hint": "List three or four ingredients with a quantity." },
+      { "q": "Der Kuchen ist fertig. Magst du ein Stück?", "qEn": "The cake is ready. Would you like a piece?", "model": "Ja, gern, ein kleines Stück. Der Kuchen riecht wirklich lecker.", "hint": "Accept and say something nice." },
+      { "q": "Wer macht heute den Abwasch?", "qEn": "Who is doing the washing-up today?", "model": "Ich kann das machen. Kannst du bitte die Teller und das Besteck zum Spülbecken bringen?", "hint": "Offer and ask for a small favour." }
+    ]
+  }
+}

@@ -1,0 +1,315 @@
+{
+  "id": "baeckerei",
+  "icon": "🥨",
+  "title": "Bäckerei & Café",
+  "en": "Bakery & café",
+  "intro": "You order bread, pastries and coffee at the counter and chat with friends over a table. Small words, idioms and proverbs make your German sound natural.",
+  "areas": [
+    {
+      "name": "Brot & Backwaren",
+      "en": "bread and pastries",
+      "words": [
+        { "de": "Bäckerei", "en": "bakery", "pos": "noun", "article": "die", "plural": "Bäckereien", "level": "A1", "goethe": "A1" },
+        { "de": "Brezel", "en": "pretzel", "pos": "noun", "article": "die", "plural": "Brezeln", "level": "A2" },
+        { "de": "Vollkornbrot", "en": "wholemeal bread", "pos": "noun", "article": "das", "plural": "Vollkornbrote", "level": "B1" },
+        { "de": "Roggenbrot", "en": "rye bread", "pos": "noun", "article": "das", "plural": "Roggenbrote", "level": "B1" },
+        { "de": "Croissant", "en": "croissant", "pos": "noun", "article": "das", "plural": "Croissants", "level": "A2" },
+        { "de": "Berliner", "en": "jam doughnut", "pos": "noun", "article": "der", "plural": "Berliner", "level": "B1" },
+        { "de": "Teilchen", "en": "small pastry", "pos": "noun", "article": "das", "plural": "Teilchen", "level": "B1" },
+        { "de": "Torte", "en": "cake (layered), gateau", "pos": "noun", "article": "die", "plural": "Torten", "level": "A2", "goethe": "A2" },
+        { "de": "Kuchenstück", "en": "slice of cake", "pos": "noun", "article": "das", "plural": "Kuchenstücke", "level": "B1" },
+        { "de": "Laib", "en": "loaf", "pos": "noun", "article": "der", "plural": "Laibe", "level": "B2" },
+        { "de": "Scheibe", "en": "slice", "pos": "noun", "article": "die", "plural": "Scheiben", "level": "B1", "goethe": "B1" },
+        { "de": "Krümel", "en": "crumb", "pos": "noun", "article": "der", "plural": "Krümel", "level": "B2" },
+        { "de": "knusprig", "en": "crispy", "pos": "adj", "level": "B2" }
+      ]
+    },
+    {
+      "name": "Café & Kaffee",
+      "en": "the café and coffee",
+      "words": [
+        { "de": "Café", "en": "café", "pos": "noun", "article": "das", "plural": "Cafés", "level": "A1", "goethe": "A1" },
+        { "de": "Cappuccino", "en": "cappuccino", "pos": "noun", "article": "der", "plural": "Cappuccinos", "level": "A2" },
+        { "de": "Espresso", "en": "espresso", "pos": "noun", "article": "der", "plural": "Espressos", "level": "A2" },
+        { "de": "Milchkaffee", "en": "milky coffee, latte", "pos": "noun", "article": "der", "plural": "Milchkaffees", "level": "B1" },
+        { "de": "Filterkaffee", "en": "filter coffee", "pos": "noun", "article": "der", "plural": "-", "level": "B1" },
+        { "de": "Kakao", "en": "hot chocolate, cocoa", "pos": "noun", "article": "der", "plural": "-", "level": "B1", "goethe": "B1" },
+        { "de": "Sahne", "en": "cream", "pos": "noun", "article": "die", "plural": "-", "level": "B1", "goethe": "B1" },
+        { "de": "Hafermilch", "en": "oat milk", "pos": "noun", "article": "die", "plural": "-", "level": "B1" },
+        { "de": "Zucker", "en": "sugar", "pos": "noun", "article": "der", "plural": "-", "level": "A2", "goethe": "A2" },
+        { "de": "Tasse", "en": "cup", "pos": "noun", "article": "die", "plural": "Tassen", "level": "A1", "goethe": "A1" },
+        { "de": "Becher", "en": "cup (to go)", "pos": "noun", "article": "der", "plural": "Becher", "level": "A2" },
+        { "de": "Deckel", "en": "lid", "pos": "noun", "article": "der", "plural": "Deckel", "level": "B1" },
+        { "de": "heiß", "en": "hot", "pos": "adj", "level": "A2", "goethe": "A2" }
+      ]
+    },
+    {
+      "name": "Am Tresen",
+      "en": "ordering at the counter",
+      "words": [
+        { "de": "Tresen", "en": "counter", "pos": "noun", "article": "der", "plural": "Tresen", "level": "B1" },
+        { "de": "Bedienung", "en": "waiter, waitress, service", "pos": "noun", "article": "die", "plural": "Bedienungen", "level": "A2" },
+        { "de": "Verkäufer", "en": "salesperson (male)", "pos": "noun", "article": "der", "plural": "Verkäufer", "level": "A1", "goethe": "A1" },
+        { "de": "Verkäuferin", "en": "salesperson (female)", "pos": "noun", "article": "die", "plural": "Verkäuferinnen", "level": "A1", "goethe": "A1" },
+        { "de": "Bestellung", "en": "order", "pos": "noun", "article": "die", "plural": "Bestellungen", "level": "A2" },
+        { "de": "Auswahl", "en": "selection, choice", "pos": "noun", "article": "die", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "Tagesangebot", "en": "today's special", "pos": "noun", "article": "das", "plural": "Tagesangebote", "level": "B1" },
+        { "de": "Trinkgeld", "en": "tip", "pos": "noun", "article": "das", "plural": "Trinkgelder", "level": "B1", "goethe": "B1" },
+        { "de": "Sitzplatz", "en": "seat", "pos": "noun", "article": "der", "plural": "Sitzplätze", "level": "B1", "goethe": "B1" },
+        { "de": "bestellen", "en": "to order", "pos": "verb", "aux": "haben", "p2": "bestellt", "level": "A1", "goethe": "A1" },
+        { "de": "empfehlen", "en": "to recommend", "pos": "verb", "aux": "haben", "p2": "empfohlen", "level": "A1", "goethe": "A1" },
+        { "de": "einpacken", "en": "to wrap up, to pack", "pos": "verb", "aux": "haben", "sep": "ein", "p2": "eingepackt", "level": "A2", "goethe": "A2" },
+        { "de": "ausverkauft", "en": "sold out", "pos": "adj", "level": "B1" }
+      ]
+    },
+    {
+      "name": "Plaudern am Tisch",
+      "en": "chatting over coffee",
+      "words": [
+        { "de": "sich melden", "en": "to get in touch, to report", "pos": "verb", "aux": "haben", "p2": "gemeldet", "level": "B1", "goethe": "B1" },
+        { "de": "vorbeikommen", "en": "to come over, to drop by", "pos": "verb", "aux": "sein", "sep": "vorbei", "p2": "vorbeigekommen", "level": "A2" },
+        { "de": "sich verabreden", "en": "to arrange to meet", "pos": "verb", "aux": "haben", "p2": "verabredet", "level": "B1", "goethe": "B1" },
+        { "de": "absagen", "en": "to cancel, to decline", "pos": "verb", "aux": "haben", "sep": "ab", "p2": "abgesagt", "level": "B1", "goethe": "B1" },
+        { "de": "quatschen", "en": "to chat (casual)", "pos": "verb", "aux": "haben", "p2": "gequatscht", "level": "C1" },
+        { "de": "Na ja", "en": "well, oh well", "pos": "phrase", "level": "C1" },
+        { "de": "Keine Ahnung", "en": "no idea", "pos": "phrase", "level": "A2", "goethe": "A2" },
+        { "de": "Ach so", "en": "oh, I see", "pos": "phrase", "level": "A2", "goethe": "A2" },
+        { "de": "Mal sehen", "en": "we'll see", "pos": "phrase", "level": "A1", "goethe": "A1" },
+        { "de": "Kein Problem", "en": "no problem", "pos": "phrase", "level": "A1", "goethe": "A1" },
+        { "de": "plaudern", "en": "to chat", "pos": "verb", "aux": "haben", "p2": "geplaudert", "level": "B1" },
+        { "de": "erzählen", "en": "to tell", "pos": "verb", "aux": "haben", "p2": "erzählt", "level": "A1", "goethe": "A1" },
+        { "de": "einladen", "en": "to invite", "pos": "verb", "aux": "haben", "sep": "ein", "p2": "eingeladen", "level": "A1", "goethe": "A1" },
+        { "de": "Verabredung", "en": "date, arrangement to meet", "pos": "noun", "article": "die", "plural": "Verabredungen", "level": "B1", "goethe": "B1" },
+        { "de": "Gespräch", "en": "conversation", "pos": "noun", "article": "das", "plural": "Gespräche", "level": "A1", "goethe": "A1" },
+        { "de": "Genau!", "en": "exactly!", "pos": "phrase", "level": "A2", "goethe": "A2" },
+        { "de": "Echt?", "en": "really?", "pos": "phrase", "level": "A2", "goethe": "A2" },
+        { "de": "Stimmt.", "en": "that's right", "pos": "phrase", "level": "A1", "goethe": "A1" }
+      ]
+    },
+    {
+      "name": "Füllwörter",
+      "en": "modal particles and small words",
+      "words": [
+        { "de": "doch", "en": "particle: friendly push; also: yes, I do", "pos": "adv", "level": "A1", "goethe": "A1" },
+        { "de": "mal", "en": "particle: softens a request; also: once", "pos": "adv", "level": "A1", "goethe": "A1" },
+        { "de": "ja", "en": "particle: as you know, surprise; also: yes", "pos": "adv", "level": "A1", "goethe": "A1" },
+        { "de": "eben", "en": "particle: just how it is; also: just now", "pos": "adv", "level": "B1", "goethe": "B1" },
+        { "de": "halt", "en": "particle: that's just how it is (casual)", "pos": "adv", "level": "B1", "goethe": "B1" },
+        { "de": "wohl", "en": "particle: probably", "pos": "adv", "level": "B1", "goethe": "B1" },
+        { "de": "schon", "en": "particle: reassurance; also: already", "pos": "adv", "level": "A1", "goethe": "A1" },
+        { "de": "denn", "en": "particle in questions: then, ever", "pos": "adv", "level": "A1", "goethe": "A1" },
+        { "de": "bloß", "en": "particle: (in warnings) just, ever", "pos": "adv", "level": "B1", "goethe": "B1" },
+        { "de": "eigentlich", "en": "actually, by the way", "pos": "adv", "level": "A2", "goethe": "A2" },
+        { "de": "vielleicht", "en": "particle: (in exclamations) really, what a", "pos": "adv", "level": "A1", "goethe": "A1" },
+        { "de": "ruhig", "en": "particle: go ahead, feel free to", "pos": "adv", "level": "A1", "goethe": "A1" },
+        { "de": "also", "en": "so, well", "pos": "adv", "level": "A1", "goethe": "A1" },
+        { "de": "übrigens", "en": "by the way", "pos": "adv", "level": "B1", "goethe": "B1" },
+        { "de": "jedenfalls", "en": "in any case", "pos": "adv", "level": "B2" },
+        { "de": "sowieso", "en": "anyway, in any case", "pos": "adv", "level": "B1", "goethe": "B1" },
+        { "de": "nämlich", "en": "you see, namely", "pos": "adv", "level": "B1", "goethe": "B1" }
+      ]
+    },
+    {
+      "name": "Redewendungen",
+      "en": "idioms",
+      "words": [
+        { "de": "Das ist nicht mein Bier.", "en": "lit. that is not my beer = that's not my business", "pos": "phrase", "level": "A1", "goethe": "A1" },
+        { "de": "nur Bahnhof verstehen", "en": "lit. to understand only train station = to not understand a thing", "pos": "phrase", "level": "A1", "goethe": "A1" },
+        { "de": "den Nagel auf den Kopf treffen", "en": "lit. to hit the nail on the head = to say exactly the right thing", "pos": "phrase", "level": "B1", "goethe": "B1" },
+        { "de": "Tomaten auf den Augen haben", "en": "lit. to have tomatoes on one's eyes = to overlook the obvious", "pos": "phrase", "level": "A2", "goethe": "A2" },
+        { "de": "zwei Fliegen mit einer Klappe schlagen", "en": "lit. to hit two flies with one swat = to kill two birds with one stone", "pos": "phrase", "level": "C1" },
+        { "de": "Das ist mir Wurst.", "en": "lit. that is sausage to me = I don't care", "pos": "phrase", "level": "A2", "goethe": "A2" },
+        { "de": "Da liegt der Hund begraben.", "en": "lit. the dog is buried there = that's the real problem", "pos": "phrase", "level": "C1" },
+        { "de": "den Faden verlieren", "en": "lit. to lose the thread = to lose one's train of thought", "pos": "phrase", "level": "C1" },
+        { "de": "auf dem Schlauch stehen", "en": "lit. to stand on the hose = to be slow on the uptake", "pos": "phrase", "level": "C1" },
+        { "de": "die Nase voll haben", "en": "lit. to have a full nose = to be fed up", "pos": "phrase", "level": "B1", "goethe": "B1" },
+        { "de": "unter vier Augen", "en": "lit. under four eyes = in private, one-to-one", "pos": "phrase", "level": "A1", "goethe": "A1" },
+        { "de": "ein Tropfen auf den heißen Stein", "en": "lit. a drop on the hot stone = a drop in the ocean", "pos": "phrase", "level": "B1", "goethe": "B1" },
+        { "de": "um den heißen Brei herumreden", "en": "lit. to talk around the hot porridge = to beat around the bush", "pos": "phrase", "level": "C1" },
+        { "de": "mit der Tür ins Haus fallen", "en": "lit. to fall into the house with the door = to come out with it too bluntly", "pos": "phrase", "level": "A2", "goethe": "A2" },
+        { "de": "das Eis brechen", "en": "lit. to break the ice = to break the ice", "pos": "phrase", "level": "B1", "goethe": "B1" },
+        { "de": "Schwein haben", "en": "lit. to have pig = to be lucky", "pos": "phrase", "level": "A2", "goethe": "A2" },
+        { "de": "ein Kinderspiel", "en": "lit. a children's game = very easy", "pos": "phrase", "level": "C1" },
+        { "de": "die Daumen drücken", "en": "lit. to press the thumbs = to keep one's fingers crossed", "pos": "phrase", "level": "C1" },
+        { "de": "Hals- und Beinbruch!", "en": "lit. break your neck and leg = good luck!", "pos": "phrase", "level": "C1" }
+      ]
+    },
+    {
+      "name": "Sprichwörter",
+      "en": "proverbs",
+      "words": [
+        { "de": "Übung macht den Meister.", "en": "lit. practice makes the master = practice makes perfect", "pos": "phrase", "level": "B1", "goethe": "B1" },
+        { "de": "Aller Anfang ist schwer.", "en": "lit. every beginning is hard = every beginning is hard", "pos": "phrase", "level": "B1", "goethe": "B1" },
+        { "de": "Ausnahmen bestätigen die Regel.", "en": "lit. exceptions confirm the rule = the exception proves the rule", "pos": "phrase", "level": "C1" },
+        { "de": "Morgenstund hat Gold im Mund.", "en": "lit. the morning hour has gold in its mouth = the early bird catches the worm", "pos": "phrase", "level": "C1" },
+        { "de": "Ohne Fleiß kein Preis.", "en": "lit. no diligence, no prize = no pain, no gain", "pos": "phrase", "level": "C1" },
+        { "de": "Probieren geht über Studieren.", "en": "lit. trying beats studying = just try it", "pos": "phrase", "level": "A2", "goethe": "A2" },
+        { "de": "Der Appetit kommt beim Essen.", "en": "lit. appetite comes while eating = you get into it once you start", "pos": "phrase", "level": "A2", "goethe": "A2" },
+        { "de": "Hunger ist der beste Koch.", "en": "lit. hunger is the best cook = hunger makes everything taste good", "pos": "phrase", "level": "B1", "goethe": "B1" },
+        { "de": "Gut Ding will Weile haben.", "en": "good things take time", "pos": "phrase", "level": "C1" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "de": "Ich hätte gern zwei Brötchen, bitte.", "en": "I'd like two bread rolls, please.", "who": "you", "level": "A1" },
+    { "de": "Was empfehlen Sie?", "en": "What do you recommend?", "who": "you", "level": "B1" },
+    { "de": "Einen Kaffee mit Milch, bitte.", "en": "A coffee with milk, please.", "who": "you", "level": "A1" },
+    { "de": "Zum Mitnehmen, bitte.", "en": "To take away, please.", "who": "you", "level": "A2" },
+    { "de": "Ich esse hier.", "en": "I'll eat here.", "who": "you", "level": "A2" },
+    { "de": "Ist hier noch ein Platz frei?", "en": "Is this seat still free?", "who": "you", "level": "A1" },
+    { "de": "Kann ich bitte die Rechnung haben?", "en": "Could I have the bill, please?", "who": "you", "level": "A2" },
+    { "de": "Stimmt so.", "en": "Keep the change.", "who": "you", "level": "A2" },
+    { "de": "Haben Sie auch Hafermilch?", "en": "Do you also have oat milk?", "who": "you", "level": "B1" },
+    { "de": "Was darf es sein?", "en": "What can I get you?", "who": "staff", "level": "A1" },
+    { "de": "Hier essen oder zum Mitnehmen?", "en": "Eat here or take away?", "who": "staff", "level": "A2" },
+    { "de": "Noch etwas dazu?", "en": "Anything else with that?", "who": "staff", "level": "A2" },
+    { "de": "Das macht drei Euro zwanzig.", "en": "That comes to three euros twenty.", "who": "staff", "level": "A1" },
+    { "de": "Das ist leider schon ausverkauft.", "en": "That is sold out already, unfortunately.", "who": "staff", "level": "B1" },
+    { "de": "Ich bringe es Ihnen gleich an den Tisch.", "en": "I'll bring it to your table right away.", "who": "staff", "level": "B1" }
+  ],
+  "exercises": [
+    { "type": "article", "word": "Brezel", "answer": "die", "explain": "Brezel is feminine: die Brezel, die Brezeln." },
+    { "type": "article", "word": "Croissant", "answer": "das", "explain": "Croissant is neuter in German: das Croissant, die Croissants." },
+    { "type": "article", "word": "Cappuccino", "answer": "der", "explain": "Coffee drinks are masculine here: der Cappuccino, die Cappuccinos." },
+    { "type": "article", "word": "Bäckerei", "answer": "die", "explain": "Nouns ending in -ei are feminine: die Bäckerei, die Bäckereien." },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "die Brezel",
+          "pretzel"
+        ],
+        [
+          "das Brötchen",
+          "bread roll"
+        ],
+        [
+          "die Torte",
+          "gateau"
+        ],
+        [
+          "der Tresen",
+          "counter"
+        ]
+      ],
+      "explain": "Things you point at in a German bakery."
+    },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "Genau!",
+          "exactly!"
+        ],
+        [
+          "Echt?",
+          "really?"
+        ],
+        [
+          "Ach so",
+          "oh, I see"
+        ],
+        [
+          "Keine Ahnung",
+          "no idea"
+        ],
+        [
+          "Mal sehen",
+          "we'll see"
+        ]
+      ],
+      "explain": "Short reactions that keep a conversation going."
+    },
+    {
+      "type": "gap",
+      "q": "Ich hätte gern einen Kaffee zum ___.",
+      "answer": [
+        "Mitnehmen"
+      ],
+      "explain": "Zum Mitnehmen is the fixed phrase for takeaway: zum + noun-infinitive."
+    },
+    {
+      "type": "gap",
+      "q": "Was ___ es sein?",
+      "answer": [
+        "darf"
+      ],
+      "explain": "Was darf es sein? is the polite standard question at the counter."
+    },
+    {
+      "type": "gap",
+      "q": "Komm doch ___ vorbei!",
+      "answer": [
+        "mal"
+      ],
+      "explain": "Doch mal softens an invitation, like \"why don't you drop by\"."
+    },
+    {
+      "type": "translate",
+      "en": "To take away or eat here?",
+      "answer": [
+        "Zum Mitnehmen oder hier essen?",
+        "Zum Mitnehmen oder hier?"
+      ],
+      "explain": "Zum Mitnehmen is takeaway; hier essen means to eat in."
+    },
+    {
+      "type": "translate",
+      "en": "A coffee with milk, please.",
+      "answer": [
+        "Einen Kaffee mit Milch, bitte.",
+        "Ich hätte gern einen Kaffee mit Milch.",
+        "Ich möchte einen Kaffee mit Milch."
+      ],
+      "explain": "Kaffee is masculine, so after ordering (Akkusativ) it is einen Kaffee."
+    },
+    {
+      "type": "mc",
+      "q": "A friend says: \"Das ist mir Wurst.\" What does she mean?",
+      "options": [
+        "She is hungry.",
+        "She doesn't mind either way.",
+        "She wants a sausage."
+      ],
+      "answer": 1,
+      "explain": "Das ist mir Wurst means I don't care; it is all the same to me."
+    },
+    {
+      "type": "mc",
+      "q": "Which sentence is a polite order at the counter?",
+      "options": [
+        "Ich hätte gern ein Croissant.",
+        "Gib mir ein Croissant.",
+        "Ein Croissant, jetzt."
+      ],
+      "answer": 0,
+      "explain": "Ich hätte gern ... is the polite way to order."
+    },
+    {
+      "type": "order",
+      "words": [
+        "Was",
+        "es",
+        "darf",
+        "sein"
+      ],
+      "answer": "Was darf es sein",
+      "explain": "A question word first, then the verb darf, then the subject es."
+    }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Ich hätte gern zwei Brötchen, bitte.", "en": "I'd like two bread rolls, please." },
+      { "de": "Einen Kaffee mit Milch, bitte.", "en": "A coffee with milk, please." },
+      { "de": "Zum Mitnehmen, bitte.", "en": "To take away, please." },
+      { "de": "Was empfehlen Sie?", "en": "What do you recommend?" },
+      { "de": "Ach so, das wusste ich nicht.", "en": "Oh, I see, I didn't know that." }
+    ],
+    "prompts": [
+      { "q": "Guten Morgen! Was darf es sein?", "qEn": "Good morning! What can I get you?", "model": "Guten Morgen. Ich hätte gern einen Cappuccino und ein Croissant, bitte.", "hint": "Order one drink and one pastry." },
+      { "q": "Hier essen oder zum Mitnehmen?", "qEn": "Eat here or take away?", "model": "Ich esse hier. Ist der Tisch am Fenster frei?", "hint": "Say which and ask about a seat." },
+      { "q": "Wir haben heute frischen Apfelkuchen. Möchten Sie ein Stück probieren?", "qEn": "We have fresh apple cake today. Would you like to try a piece?", "model": "Ja, gern, ein Stück Apfelkuchen mit Sahne. Das klingt lecker.", "hint": "Accept and add something." },
+      { "q": "Wir haben uns lange nicht gesehen! Was gibt es Neues?", "qEn": "We haven't seen each other in ages! What's new?", "model": "Stimmt! Schön, dich zu sehen! Bei mir ist alles gut. Ich lerne viel Deutsch. Und bei dir?", "hint": "Greet, give one piece of news, ask back." }
+    ]
+  }
+}

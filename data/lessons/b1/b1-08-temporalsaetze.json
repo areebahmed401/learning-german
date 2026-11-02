@@ -3,7 +3,6 @@
   "level": "B1",
   "title": "als, wenn, während",
   "concept": "Time clauses: als, wenn, während, bevor, bis, seit",
-  "wordlist": "Erinnerungen",
   "minutes": 30,
   "youtube": "https://www.youtube.com/results?search_query=Learn+German+B1+als+wenn+w%C3%A4hrend+Temporals%C3%A4tze",
   "learn": [
@@ -52,31 +51,6 @@
     }
   ],
   "tip": "One single event in the past = als. Everything else = wenn. Quick test: can you add 'jedes Mal' or 'immer'? Then it is wenn.",
-  "words": [
-    { "de": "Erinnerung", "en": "memory", "pos": "noun", "article": "die", "plural": "Erinnerungen", "goethe": "B1" },
-    { "de": "Kindheit", "en": "childhood", "pos": "noun", "article": "die", "plural": "-", "goethe": "B1" },
-    { "de": "Jugend", "en": "youth", "pos": "noun", "article": "die", "plural": "-", "goethe": "A2" },
-    { "de": "Erlebnis", "en": "experience, event", "pos": "noun", "article": "das", "plural": "Erlebnisse", "goethe": "B1" },
-    { "de": "Ferien", "en": "holidays (school)", "pos": "noun", "article": "die", "plural": "-", "note": "plural only", "goethe": "A2" },
-    { "de": "Urlaub", "en": "holiday, vacation", "pos": "noun", "article": "der", "plural": "Urlaube", "goethe": "A1" },
-    { "de": "Ausflug", "en": "day trip", "pos": "noun", "article": "der", "plural": "Ausflüge", "goethe": "A1" },
-    { "de": "Geburtstag", "en": "birthday", "pos": "noun", "article": "der", "plural": "Geburtstage", "goethe": "A1" },
-    { "de": "Hochzeit", "en": "wedding", "pos": "noun", "article": "die", "plural": "Hochzeiten", "goethe": "A1" },
-    { "de": "Heimat", "en": "home country, home region", "pos": "noun", "article": "die", "plural": "-", "goethe": "A1" },
-    { "de": "Vergangenheit", "en": "past", "pos": "noun", "article": "die", "plural": "-", "goethe": "B1" },
-    { "de": "Foto", "en": "photo", "pos": "noun", "article": "das", "plural": "Fotos", "goethe": "A1" },
-    { "de": "Überraschung", "en": "surprise", "pos": "noun", "article": "die", "plural": "Überraschungen", "goethe": "B1" },
-    { "de": "Spielplatz", "en": "playground", "pos": "noun", "article": "der", "plural": "Spielplätze", "goethe": "B1" },
-    { "de": "sich erinnern", "en": "to remember", "pos": "verb", "aux": "haben", "p2": "erinnert", "note": "sich erinnern an + Akk", "goethe": "A2" },
-    { "de": "vergessen", "en": "to forget", "pos": "verb", "aux": "haben", "p2": "vergessen", "goethe": "A2" },
-    { "de": "Großeltern", "en": "grandparents", "pos": "noun", "article": "die", "plural": "-", "goethe": "A1" },
-    { "de": "feiern", "en": "to celebrate", "pos": "verb", "aux": "haben", "p2": "gefeiert", "goethe": "A1" },
-    { "de": "vermissen", "en": "to miss", "pos": "verb", "aux": "haben", "p2": "vermisst", "goethe": "B1" },
-    { "de": "damals", "en": "back then", "pos": "adv", "goethe": "A2" },
-    { "de": "früher", "en": "in the past, formerly", "pos": "adv", "goethe": "A1" },
-    { "de": "plötzlich", "en": "suddenly", "pos": "adv", "goethe": "A2" },
-    { "de": "Alter", "en": "age", "pos": "noun", "article": "das", "plural": "-", "goethe": "A1" }
-  ],
   "mindmap": {
     "label": "Temporalsätze",
     "children": [

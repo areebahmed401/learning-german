@@ -3,7 +3,6 @@
   "level": "B2",
   "title": "je … desto, indem, zumal",
   "concept": "Advanced connectors: indem, sofern, zumal, je … desto",
-  "wordlist": "Argumentieren & Diskutieren",
   "minutes": 35,
   "youtube": "https://www.youtube.com/results?search_query=Learn+German+B2+je+desto+indem+zumal+sodass+Konnektoren",
   "learn": [
@@ -52,31 +51,6 @@
     }
   ],
   "tip": "Je … desto: two comparatives, two different verb positions. Je clause: verb LAST. Desto clause: verb SECOND. Je mehr ich übe (verb last), desto besser spreche ich (verb second).",
-  "words": [
-    { "de": "Argument", "en": "argument", "pos": "noun", "article": "das", "plural": "Argumente" },
-    { "de": "Gegenargument", "en": "counter-argument", "pos": "noun", "article": "das", "plural": "Gegenargumente" },
-    { "de": "Standpunkt", "en": "point of view", "pos": "noun", "article": "der", "plural": "Standpunkte" },
-    { "de": "Vorteil", "en": "advantage", "pos": "noun", "article": "der", "plural": "Vorteile" },
-    { "de": "Nachteil", "en": "disadvantage", "pos": "noun", "article": "der", "plural": "Nachteile" },
-    { "de": "Meinung", "en": "opinion", "pos": "noun", "article": "die", "plural": "Meinungen" },
-    { "de": "Kompromiss", "en": "compromise", "pos": "noun", "article": "der", "plural": "Kompromisse" },
-    { "de": "Einwand", "en": "objection", "pos": "noun", "article": "der", "plural": "Einwände" },
-    { "de": "Behauptung", "en": "claim", "pos": "noun", "article": "die", "plural": "Behauptungen" },
-    { "de": "Voraussetzung", "en": "precondition", "pos": "noun", "article": "die", "plural": "Voraussetzungen" },
-    { "de": "überzeugen", "en": "to convince", "pos": "verb", "aux": "haben", "p2": "überzeugt" },
-    { "de": "widersprechen", "en": "to contradict (+Dat)", "pos": "verb", "aux": "haben", "p2": "widersprochen" },
-    { "de": "zustimmen", "en": "to agree (+Dat)", "pos": "verb", "aux": "haben", "sep": "zu", "p2": "zugestimmt" },
-    { "de": "ablehnen", "en": "to reject", "pos": "verb", "aux": "haben", "sep": "ab", "p2": "abgelehnt" },
-    { "de": "begründen", "en": "to justify, to give reasons for", "pos": "verb", "aux": "haben", "p2": "begründet" },
-    { "de": "betonen", "en": "to emphasise", "pos": "verb", "aux": "haben", "p2": "betont" },
-    { "de": "abwägen", "en": "to weigh up", "pos": "verb", "aux": "haben", "sep": "ab", "p2": "abgewogen" },
-    { "de": "sich einigen", "en": "to come to an agreement", "pos": "verb", "aux": "haben", "p2": "geeinigt" },
-    { "de": "sachlich", "en": "objective, factual", "pos": "adj" },
-    { "de": "überzeugend", "en": "convincing", "pos": "adj" },
-    { "de": "einseitig", "en": "one-sided", "pos": "adj" },
-    { "de": "sofern", "en": "provided that", "pos": "conj" },
-    { "de": "zumal", "en": "especially since", "pos": "conj" }
-  ],
   "mindmap": {
     "label": "Konnektoren B2",
     "children": [

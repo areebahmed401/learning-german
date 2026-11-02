@@ -3,7 +3,6 @@
   "level": "A1",
   "title": "für, ohne, durch…",
   "concept": "Accusative prepositions",
-  "wordlist": "Stadt & Wege",
   "minutes": 25,
   "youtube": "https://www.youtube.com/results?search_query=Learn+German+A1+Akkusativ+Pr%C3%A4positionen+f%C3%BCr+ohne+durch",
   "learn": [
@@ -62,33 +61,6 @@
     }
   ],
   "tip": "Learn the five accusative prepositions with one funny sentence you can picture, e.g. \"Für meinen Freund gehe ich durch den Park, ohne Handy, gegen die Kälte, um die Ecke.\" The picture helps you recall: für, durch, ohne, gegen, um.",
-  "words": [
-    { "de": "Stadt", "en": "city; town", "pos": "noun", "article": "die", "plural": "Städte", "goethe": "A1" },
-    { "de": "Mitte", "en": "middle, centre", "pos": "noun", "article": "die", "plural": "-", "goethe": "A1" },
-    { "de": "Straße", "en": "street", "pos": "noun", "article": "die", "plural": "Straßen", "goethe": "A1" },
-    { "de": "Weg", "en": "way; path", "pos": "noun", "article": "der", "plural": "Wege", "goethe": "A1" },
-    { "de": "Bahnhof", "en": "train station", "pos": "noun", "article": "der", "plural": "Bahnhöfe", "goethe": "A1" },
-    { "de": "Haltestelle", "en": "bus / tram stop", "pos": "noun", "article": "die", "plural": "Haltestellen", "goethe": "A1" },
-    { "de": "Bus", "en": "bus", "pos": "noun", "article": "der", "plural": "Busse", "goethe": "A1" },
-    { "de": "Zug", "en": "train", "pos": "noun", "article": "der", "plural": "Züge", "goethe": "A1" },
-    { "de": "Ecke", "en": "corner", "pos": "noun", "article": "die", "plural": "Ecken", "goethe": "A1" },
-    { "de": "Eingang", "en": "entrance", "pos": "noun", "article": "der", "plural": "Eingänge", "goethe": "A1" },
-    { "de": "Autobahn", "en": "motorway", "pos": "noun", "article": "die", "plural": "Autobahnen", "goethe": "A1" },
-    { "de": "Flughafen", "en": "airport", "pos": "noun", "article": "der", "plural": "Flughäfen", "goethe": "A1" },
-    { "de": "Platz", "en": "square; seat", "pos": "noun", "article": "der", "plural": "Plätze", "goethe": "A1" },
-    { "de": "Straßenbahn", "en": "tram", "pos": "noun", "article": "die", "plural": "Straßenbahnen", "goethe": "A1" },
-    { "de": "Apotheke", "en": "pharmacy", "pos": "noun", "article": "die", "plural": "Apotheken", "goethe": "A1" },
-    { "de": "Post", "en": "post office", "pos": "noun", "article": "die", "plural": "-", "goethe": "A1" },
-    { "de": "Bank", "en": "bank", "pos": "noun", "article": "die", "plural": "Banken", "goethe": "A1" },
-    { "de": "gehen", "en": "to go; to walk", "pos": "verb", "aux": "sein", "p2": "gegangen", "goethe": "A1" },
-    { "de": "finden", "en": "to find", "pos": "verb", "aux": "haben", "p2": "gefunden", "goethe": "A1" },
-    { "de": "laufen", "en": "to run, to walk", "pos": "verb", "aux": "sein", "p2": "gelaufen", "goethe": "A1" },
-    { "de": "geradeaus", "en": "straight ahead", "pos": "adv", "goethe": "A1" },
-    { "de": "links", "en": "left", "pos": "adv", "goethe": "A1" },
-    { "de": "rechts", "en": "right", "pos": "adv", "goethe": "A1" },
-    { "de": "weit", "en": "far", "pos": "adj", "goethe": "A1" },
-    { "de": "dort", "en": "there", "pos": "adv", "goethe": "A1" }
-  ],
   "mindmap": {
     "label": "Akkusativ-Präpositionen",
     "children": [

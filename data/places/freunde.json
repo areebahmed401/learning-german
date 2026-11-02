@@ -1,0 +1,431 @@
+{
+  "id": "freunde",
+  "icon": "👥",
+  "title": "Freunde & Nachbarn",
+  "en": "Friends & neighbours",
+  "intro": "You meet neighbours in the stairwell, get invited to a birthday and talk about family, feelings and plans. This is the small talk that turns people into friends.",
+  "areas": [
+    {
+      "name": "Familie",
+      "en": "family",
+      "words": [
+        { "de": "Familie", "en": "family", "pos": "noun", "article": "die", "plural": "Familien", "level": "A1", "goethe": "A1" },
+        { "de": "Mutter", "en": "mother", "pos": "noun", "article": "die", "plural": "Mütter", "level": "A1", "goethe": "A1" },
+        { "de": "Vater", "en": "father", "pos": "noun", "article": "der", "plural": "Väter", "level": "A1", "goethe": "A1" },
+        { "de": "Eltern", "en": "parents", "pos": "noun", "article": "die", "plural": "-", "note": "plural only", "level": "A1", "goethe": "A1" },
+        { "de": "Kind", "en": "child", "pos": "noun", "article": "das", "plural": "Kinder", "level": "A1", "goethe": "A1" },
+        { "de": "Sohn", "en": "son", "pos": "noun", "article": "der", "plural": "Söhne", "level": "A1", "goethe": "A1" },
+        { "de": "Tochter", "en": "daughter", "pos": "noun", "article": "die", "plural": "Töchter", "level": "A1", "goethe": "A1" },
+        { "de": "Bruder", "en": "brother", "pos": "noun", "article": "der", "plural": "Brüder", "level": "A1", "goethe": "A1" },
+        { "de": "Schwester", "en": "sister", "pos": "noun", "article": "die", "plural": "Schwestern", "level": "A1", "goethe": "A1" },
+        { "de": "Geschwister", "en": "siblings", "pos": "noun", "article": "die", "plural": "-", "note": "plural only", "level": "A1", "goethe": "A1" },
+        { "de": "Baby", "en": "baby", "pos": "noun", "article": "das", "plural": "Babys", "level": "A1", "goethe": "A1" },
+        { "de": "Mädchen", "en": "girl", "pos": "noun", "article": "das", "plural": "Mädchen", "level": "A1", "goethe": "A1" },
+        { "de": "Junge", "en": "boy", "pos": "noun", "article": "der", "plural": "Jungen", "level": "A1", "goethe": "A1" },
+        { "de": "Onkel", "en": "uncle", "pos": "noun", "article": "der", "plural": "Onkel", "level": "A2", "goethe": "A2" },
+        { "de": "Tante", "en": "aunt", "pos": "noun", "article": "die", "plural": "Tanten", "level": "A2", "goethe": "A2" },
+        { "de": "Cousin", "en": "cousin (male)", "pos": "noun", "article": "der", "plural": "Cousins", "level": "A2", "goethe": "A2" },
+        { "de": "Cousine", "en": "cousin (female)", "pos": "noun", "article": "die", "plural": "Cousinen", "level": "A2", "goethe": "A2" },
+        { "de": "Enkel", "en": "grandson, grandchild", "pos": "noun", "article": "der", "plural": "Enkel", "level": "A2", "goethe": "A2" },
+        { "de": "aufwachsen", "en": "to grow up", "pos": "verb", "aux": "sein", "sep": "auf", "p2": "aufgewachsen", "level": "B1" }
+      ]
+    },
+    {
+      "name": "Verwandtschaft & Beziehung",
+      "en": "relatives and relationships",
+      "words": [
+        { "de": "Großvater", "en": "grandfather", "pos": "noun", "article": "der", "plural": "Großväter", "level": "A1", "goethe": "A1" },
+        { "de": "Großmutter", "en": "grandmother", "pos": "noun", "article": "die", "plural": "Großmütter", "level": "A1", "goethe": "A1" },
+        { "de": "Oma", "en": "grandma", "pos": "noun", "article": "die", "plural": "Omas", "level": "A1", "goethe": "A1" },
+        { "de": "Opa", "en": "grandpa", "pos": "noun", "article": "der", "plural": "Opas", "level": "A1", "goethe": "A1" },
+        { "de": "Großeltern", "en": "grandparents", "pos": "noun", "article": "die", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "Verwandte", "en": "relative", "pos": "noun", "article": "der", "plural": "Verwandten", "level": "A1", "goethe": "A1" },
+        { "de": "Ehefrau", "en": "wife", "pos": "noun", "article": "die", "plural": "Ehefrauen", "level": "A1", "goethe": "A1" },
+        { "de": "Ehemann", "en": "husband", "pos": "noun", "article": "der", "plural": "Ehemänner", "level": "A1", "goethe": "A1" },
+        { "de": "Mann", "en": "man; husband", "pos": "noun", "article": "der", "plural": "Männer", "level": "A1", "goethe": "A1" },
+        { "de": "Frau", "en": "woman; wife", "pos": "noun", "article": "die", "plural": "Frauen", "level": "A1", "goethe": "A1" },
+        { "de": "verheiratet", "en": "married", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "ledig", "en": "single (not married)", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "Partner", "en": "partner", "pos": "noun", "article": "der", "plural": "Partner", "level": "A1", "goethe": "A1" },
+        { "de": "Liebe", "en": "love", "pos": "noun", "article": "die", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "sich verlieben", "en": "to fall in love", "pos": "verb", "aux": "haben", "p2": "verliebt", "level": "A2", "goethe": "A2" },
+        { "de": "heiraten", "en": "to marry", "pos": "verb", "aux": "haben", "p2": "geheiratet", "level": "A1", "goethe": "A1" },
+        { "de": "Beziehung", "en": "relationship", "pos": "noun", "article": "die", "plural": "Beziehungen", "level": "B1", "goethe": "B1" },
+        { "de": "sich trennen", "en": "to split up", "pos": "verb", "aux": "haben", "p2": "getrennt", "level": "B1", "goethe": "B1" },
+        { "de": "zusammenziehen", "en": "to move in together", "pos": "verb", "aux": "sein", "sep": "zusammen", "p2": "zusammengezogen", "level": "B1" },
+        { "de": "sich verloben", "en": "to get engaged", "pos": "verb", "aux": "haben", "p2": "verlobt", "level": "B2" },
+        { "de": "verlobt", "en": "engaged", "pos": "adj", "level": "B2" },
+        { "de": "geschieden", "en": "divorced", "pos": "adj", "level": "A2", "goethe": "A2" },
+        { "de": "verliebt", "en": "in love", "pos": "adj", "level": "A2", "goethe": "A2" }
+      ]
+    },
+    {
+      "name": "Freunde & Kollegen",
+      "en": "friends and colleagues",
+      "words": [
+        { "de": "Freund", "en": "friend (male); boyfriend", "pos": "noun", "article": "der", "plural": "Freunde", "level": "A1", "goethe": "A1" },
+        { "de": "Freundin", "en": "friend (female); girlfriend", "pos": "noun", "article": "die", "plural": "Freundinnen", "level": "A1", "goethe": "A1" },
+        { "de": "Kollege", "en": "coworker (male)", "pos": "noun", "article": "der", "plural": "Kollegen", "level": "A1", "goethe": "A1" },
+        { "de": "Kollegin", "en": "coworker (female)", "pos": "noun", "article": "die", "plural": "Kolleginnen", "level": "A1", "goethe": "A1" },
+        { "de": "kennenlernen", "en": "to get to know, to meet", "pos": "verb", "aux": "haben", "sep": "kennen", "p2": "kennengelernt", "level": "A1", "goethe": "A1" },
+        { "de": "zusammen", "en": "together", "pos": "adv", "level": "A1", "goethe": "A1" },
+        { "de": "nett", "en": "nice", "pos": "adj", "level": "A2", "goethe": "A2" },
+        { "de": "sympathisch", "en": "likeable, pleasant", "pos": "adj", "level": "A2", "goethe": "A2" },
+        { "de": "witzig", "en": "funny", "pos": "adj", "level": "A2", "goethe": "A2" },
+        { "de": "streiten", "en": "to quarrel", "pos": "verb", "aux": "haben", "p2": "gestritten", "level": "A2", "goethe": "A2" },
+        { "de": "Problem", "en": "problem", "pos": "noun", "article": "das", "plural": "Probleme", "level": "A1", "goethe": "A1" },
+        { "de": "sich vorstellen", "en": "to introduce oneself", "pos": "verb", "aux": "haben", "sep": "vor", "p2": "vorgestellt", "level": "A1", "goethe": "A1" },
+        { "de": "sich verabreden", "en": "to arrange to meet", "pos": "verb", "aux": "haben", "p2": "verabredet", "level": "B1", "goethe": "B1" },
+        { "de": "Verabredung", "en": "date, appointment to meet", "pos": "noun", "article": "die", "plural": "Verabredungen", "level": "B1", "goethe": "B1" }
+      ]
+    },
+    {
+      "name": "Nachbarn & Einladungen",
+      "en": "neighbours and invitations",
+      "words": [
+        { "de": "Nachbar", "en": "neighbour (male)", "pos": "noun", "article": "der", "plural": "Nachbarn", "level": "A2", "goethe": "A2" },
+        { "de": "Nachbarin", "en": "neighbour (female)", "pos": "noun", "article": "die", "plural": "Nachbarinnen", "level": "A2", "goethe": "A2" },
+        { "de": "Gast", "en": "guest", "pos": "noun", "article": "der", "plural": "Gäste", "level": "A1", "goethe": "A1" },
+        { "de": "Treffen", "en": "meeting, get-together", "pos": "noun", "article": "das", "plural": "Treffen", "level": "A1", "goethe": "A1" },
+        { "de": "treffen", "en": "to meet", "pos": "verb", "aux": "haben", "p2": "getroffen", "level": "A1", "goethe": "A1" },
+        { "de": "anrufen", "en": "to call, to phone", "pos": "verb", "aux": "haben", "sep": "an", "p2": "angerufen", "level": "A1", "goethe": "A1" },
+        { "de": "besuchen", "en": "to visit", "pos": "verb", "aux": "haben", "p2": "besucht", "level": "A1", "goethe": "A1" },
+        { "de": "abholen", "en": "to pick up", "pos": "verb", "aux": "haben", "sep": "ab", "p2": "abgeholt", "level": "A1", "goethe": "A1" },
+        { "de": "Hilfe", "en": "help", "pos": "noun", "article": "die", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "sich kümmern", "en": "to take care of", "pos": "verb", "aux": "haben", "p2": "gekümmert", "level": "A1", "goethe": "A1" },
+        { "de": "einladen", "en": "to invite", "pos": "verb", "aux": "haben", "sep": "ein", "p2": "eingeladen", "level": "A1", "goethe": "A1" },
+        { "de": "Einladung", "en": "invitation", "pos": "noun", "article": "die", "plural": "Einladungen", "level": "A1", "goethe": "A1" },
+        { "de": "vorbeikommen", "en": "to drop by", "pos": "verb", "aux": "sein", "sep": "vorbei", "p2": "vorbeigekommen", "level": "A2" },
+        { "de": "Nachbarschaft", "en": "neighbourhood, neighbours", "pos": "noun", "article": "die", "plural": "Nachbarschaften", "level": "B1" },
+        { "de": "Lärm", "en": "noise", "pos": "noun", "article": "der", "plural": "-", "level": "B1", "goethe": "B1" },
+        { "de": "Hausordnung", "en": "house rules", "pos": "noun", "article": "die", "plural": "Hausordnungen", "level": "B1", "goethe": "B1" }
+      ]
+    },
+    {
+      "name": "Gefühle",
+      "en": "feelings",
+      "words": [
+        { "de": "Glück", "en": "luck, happiness", "pos": "noun", "article": "das", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "Spaß", "en": "fun", "pos": "noun", "article": "der", "plural": "-", "level": "A2", "goethe": "A2" },
+        { "de": "Angst", "en": "fear", "pos": "noun", "article": "die", "plural": "Ängste", "level": "A2", "goethe": "A2" },
+        { "de": "Lust", "en": "desire, mood", "pos": "noun", "article": "die", "plural": "-", "level": "A2", "goethe": "A2" },
+        { "de": "Stress", "en": "stress", "pos": "noun", "article": "der", "plural": "-", "note": "no plural", "level": "A2", "goethe": "A2" },
+        { "de": "Enttäuschung", "en": "disappointment", "pos": "noun", "article": "die", "plural": "Enttäuschungen", "level": "B1", "goethe": "B1" },
+        { "de": "sich freuen", "en": "to be happy, to look forward", "pos": "verb", "aux": "haben", "p2": "gefreut", "level": "A1", "goethe": "A1" },
+        { "de": "sich ärgern", "en": "to be annoyed", "pos": "verb", "aux": "haben", "p2": "geärgert", "level": "A2", "goethe": "A2" },
+        { "de": "glücklich", "en": "happy", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "traurig", "en": "sad", "pos": "adj", "level": "A2", "goethe": "A2" },
+        { "de": "zufrieden", "en": "satisfied", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "nervös", "en": "nervous", "pos": "adj", "level": "A2", "goethe": "A2" },
+        { "de": "froh", "en": "glad", "pos": "adj", "level": "A2", "goethe": "A2" },
+        { "de": "stolz auf", "en": "proud of (+Akk)", "pos": "adj", "level": "B1", "goethe": "B1" },
+        { "de": "gespannt auf", "en": "eager to see (+Akk)", "pos": "adj", "level": "B1", "goethe": "B1" },
+        { "de": "neugierig auf", "en": "curious about (+Akk)", "pos": "adj", "level": "B1", "goethe": "B1" },
+        { "de": "froh über", "en": "glad about (+Akk)", "pos": "adj", "level": "A2", "goethe": "A2" },
+        { "de": "zufrieden mit", "en": "satisfied with (+Dat)", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "begeistert von", "en": "enthusiastic about (+Dat)", "pos": "adj", "level": "B1", "goethe": "B1" },
+        { "de": "enttäuscht von", "en": "disappointed by (+Dat)", "pos": "adj", "level": "B1", "goethe": "B1" },
+        { "de": "Freude", "en": "joy", "pos": "noun", "article": "die", "plural": "-", "level": "B1", "goethe": "B1" },
+        { "de": "Sorge", "en": "worry", "pos": "noun", "article": "die", "plural": "Sorgen", "level": "B1", "goethe": "B1" },
+        { "de": "lachen", "en": "to laugh", "pos": "verb", "aux": "haben", "p2": "gelacht", "level": "A1", "goethe": "A1" },
+        { "de": "weinen", "en": "to cry", "pos": "verb", "aux": "haben", "p2": "geweint", "level": "A2", "goethe": "A2" },
+        { "de": "sich fühlen", "en": "to feel", "pos": "verb", "aux": "haben", "p2": "gefühlt", "level": "A2", "goethe": "A2" },
+        { "de": "einsam", "en": "lonely", "pos": "adj", "level": "B1", "goethe": "B1" },
+        { "de": "müde", "en": "tired", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "wütend", "en": "angry", "pos": "adj", "level": "B1", "goethe": "B1" },
+        { "de": "aufgeregt", "en": "excited, nervous", "pos": "adj", "level": "B1", "goethe": "B1" },
+        { "de": "erleichtert", "en": "relieved", "pos": "adj", "level": "B1", "goethe": "B1" }
+      ]
+    },
+    {
+      "name": "Persönlichkeit",
+      "en": "personality",
+      "words": [
+        { "de": "Persönlichkeit", "en": "personality", "pos": "noun", "article": "die", "plural": "Persönlichkeiten", "level": "B2" },
+        { "de": "Eigenschaft", "en": "trait, characteristic", "pos": "noun", "article": "die", "plural": "Eigenschaften", "level": "B2" },
+        { "de": "Selbstvertrauen", "en": "self-confidence", "pos": "noun", "article": "das", "plural": "-", "level": "B2" },
+        { "de": "Geduld", "en": "patience", "pos": "noun", "article": "die", "plural": "-", "level": "B1", "goethe": "B1" },
+        { "de": "selbstbewusst", "en": "self-confident", "pos": "adj", "level": "B2" },
+        { "de": "geduldig", "en": "patient", "pos": "adj", "level": "B1" },
+        { "de": "zuverlässig", "en": "reliable", "pos": "adj", "level": "B1", "goethe": "B1" },
+        { "de": "verantwortlich für", "en": "responsible for (+Akk)", "pos": "adj", "level": "B1", "goethe": "B1" },
+        { "de": "typisch für", "en": "typical of (+Akk)", "pos": "adj", "level": "A2", "goethe": "A2" },
+        { "de": "abhängig von", "en": "dependent on (+Dat)", "pos": "adj", "level": "B1", "goethe": "B1" },
+        { "de": "angewiesen auf", "en": "dependent on, reliant on (+Akk)", "pos": "adj", "level": "B2" },
+        { "de": "bereit zu", "en": "ready for (+Dat)", "pos": "adj", "level": "B1", "goethe": "B1" },
+        { "de": "Charakter", "en": "character", "pos": "noun", "article": "der", "plural": "Charaktere", "level": "B1" },
+        { "de": "freundlich", "en": "friendly", "pos": "adj", "level": "A2", "goethe": "A2" },
+        { "de": "ehrlich", "en": "honest", "pos": "adj", "level": "B1", "goethe": "B1" },
+        { "de": "höflich", "en": "polite", "pos": "adj", "level": "B1", "goethe": "B1" },
+        { "de": "ruhig", "en": "calm, quiet", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "schüchtern", "en": "shy", "pos": "adj", "level": "B1" },
+        { "de": "mutig", "en": "brave", "pos": "adj", "level": "B1", "goethe": "B1" },
+        { "de": "neugierig", "en": "curious", "pos": "adj", "level": "B1", "goethe": "B1" },
+        { "de": "hilfsbereit", "en": "helpful, ready to help", "pos": "adj", "level": "B1" }
+      ]
+    },
+    {
+      "name": "Meinungen",
+      "en": "opinions",
+      "words": [
+        { "de": "Meinung", "en": "opinion", "pos": "noun", "article": "die", "plural": "Meinungen", "level": "A2", "goethe": "A2" },
+        { "de": "Vorschlag", "en": "suggestion", "pos": "noun", "article": "der", "plural": "Vorschläge", "level": "A2", "goethe": "A2" },
+        { "de": "Thema", "en": "topic", "pos": "noun", "article": "das", "plural": "Themen", "level": "A1", "goethe": "A1" },
+        { "de": "Idee", "en": "idea", "pos": "noun", "article": "die", "plural": "Ideen", "level": "A2", "goethe": "A2" },
+        { "de": "Interesse", "en": "interest", "pos": "noun", "article": "das", "plural": "Interessen", "level": "A2", "goethe": "A2" },
+        { "de": "denken", "en": "to think", "pos": "verb", "aux": "haben", "p2": "gedacht", "level": "A2", "goethe": "A2" },
+        { "de": "glauben", "en": "to believe, to think", "pos": "verb", "aux": "haben", "p2": "geglaubt", "level": "A1", "goethe": "A1" },
+        { "de": "sich interessieren", "en": "to be interested", "pos": "verb", "aux": "haben", "p2": "interessiert", "level": "A2", "goethe": "A2" },
+        { "de": "überzeugt von", "en": "convinced of (+Dat)", "pos": "adj", "level": "B1", "goethe": "B1" },
+        { "de": "interessiert an", "en": "interested in (+Dat)", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "finden", "en": "to find, to think", "pos": "verb", "aux": "haben", "p2": "gefunden", "level": "A1", "goethe": "A1" },
+        { "de": "meinen", "en": "to mean, to think", "pos": "verb", "aux": "haben", "p2": "gemeint", "level": "A1", "goethe": "A1" },
+        { "de": "zustimmen", "en": "to agree", "pos": "verb", "aux": "haben", "sep": "zu", "p2": "zugestimmt", "level": "B1", "goethe": "B1" },
+        { "de": "diskutieren", "en": "to discuss", "pos": "verb", "aux": "haben", "p2": "diskutiert", "level": "A2", "goethe": "A2" },
+        { "de": "Diskussion", "en": "discussion", "pos": "noun", "article": "die", "plural": "Diskussionen", "level": "B1", "goethe": "B1" },
+        { "de": "Argument", "en": "argument", "pos": "noun", "article": "das", "plural": "Argumente", "level": "B1" },
+        { "de": "Ansicht", "en": "view, opinion", "pos": "noun", "article": "die", "plural": "Ansichten", "level": "B2" },
+        { "de": "einverstanden", "en": "in agreement", "pos": "adj", "level": "A2", "goethe": "A2" }
+      ]
+    },
+    {
+      "name": "Träume & Pläne",
+      "en": "dreams and plans",
+      "words": [
+        { "de": "Traum", "en": "dream", "pos": "noun", "article": "der", "plural": "Träume", "level": "A2", "goethe": "A2" },
+        { "de": "Wunsch", "en": "wish", "pos": "noun", "article": "der", "plural": "Wünsche", "level": "A2", "goethe": "A2" },
+        { "de": "Ziel", "en": "goal", "pos": "noun", "article": "das", "plural": "Ziele", "level": "A2", "goethe": "A2" },
+        { "de": "Zukunft", "en": "future", "pos": "noun", "article": "die", "plural": "-", "level": "B1", "goethe": "B1" },
+        { "de": "Chance", "en": "opportunity", "pos": "noun", "article": "die", "plural": "Chancen", "level": "B1", "goethe": "B1" },
+        { "de": "Plan", "en": "plan", "pos": "noun", "article": "der", "plural": "Pläne", "level": "A1", "goethe": "A1" },
+        { "de": "Hoffnung", "en": "hope", "pos": "noun", "article": "die", "plural": "Hoffnungen", "level": "B1", "goethe": "B1" },
+        { "de": "Karriere", "en": "career", "pos": "noun", "article": "die", "plural": "Karrieren", "level": "B1", "goethe": "B1" },
+        { "de": "Rente", "en": "pension", "pos": "noun", "article": "die", "plural": "Renten", "level": "B1", "goethe": "B1" },
+        { "de": "Freiheit", "en": "freedom", "pos": "noun", "article": "die", "plural": "Freiheiten", "level": "B1", "goethe": "B1" },
+        { "de": "Erfindung", "en": "invention", "pos": "noun", "article": "die", "plural": "Erfindungen", "level": "B1", "goethe": "B1" },
+        { "de": "Mut", "en": "courage", "pos": "noun", "article": "der", "plural": "-", "level": "B1", "goethe": "B1" },
+        { "de": "Erfolg", "en": "success", "pos": "noun", "article": "der", "plural": "Erfolge", "level": "A2", "goethe": "A2" },
+        { "de": "träumen", "en": "to dream", "pos": "verb", "aux": "haben", "p2": "geträumt", "level": "A2", "goethe": "A2" },
+        { "de": "wünschen", "en": "to wish", "pos": "verb", "aux": "haben", "p2": "gewünscht", "level": "A2", "goethe": "A2" },
+        { "de": "hoffen", "en": "to hope", "pos": "verb", "aux": "haben", "p2": "gehofft", "level": "A2", "goethe": "A2" },
+        { "de": "erreichen", "en": "to achieve, to reach", "pos": "verb", "aux": "haben", "p2": "erreicht", "level": "A2", "goethe": "A2" },
+        { "de": "möglich", "en": "possible", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "vorhaben", "en": "to plan, to intend", "pos": "verb", "aux": "haben", "sep": "vor", "p2": "vorgehabt", "level": "B1", "goethe": "B1" },
+        { "de": "aufgeben", "en": "to give up", "pos": "verb", "aux": "haben", "sep": "auf", "p2": "aufgegeben", "level": "B1", "goethe": "B1" },
+        { "de": "realistisch", "en": "realistic", "pos": "adj", "level": "B1", "goethe": "B1" },
+        { "de": "Leben", "en": "life", "pos": "noun", "article": "das", "plural": "Leben", "level": "A1", "goethe": "A1" },
+        { "de": "sich vornehmen", "en": "to resolve, to plan", "pos": "verb", "aux": "haben", "sep": "vor", "p2": "vorgenommen", "level": "B1" },
+        { "de": "verwirklichen", "en": "to realise, to make come true", "pos": "verb", "aux": "haben", "p2": "verwirklicht", "level": "B2" },
+        { "de": "hoffentlich", "en": "hopefully", "pos": "adv", "level": "A2", "goethe": "A2" },
+        { "de": "ehrgeizig", "en": "ambitious", "pos": "adj", "level": "B2" }
+      ]
+    },
+    {
+      "name": "Entscheidungen",
+      "en": "decisions",
+      "words": [
+        { "de": "Entscheidung", "en": "decision", "pos": "noun", "article": "die", "plural": "Entscheidungen", "level": "B1", "goethe": "B1" },
+        { "de": "Angebot", "en": "offer", "pos": "noun", "article": "das", "plural": "Angebote", "level": "A1", "goethe": "A1" },
+        { "de": "Bewerbung", "en": "job application", "pos": "noun", "article": "die", "plural": "Bewerbungen", "level": "A2", "goethe": "A2" },
+        { "de": "Vertrag", "en": "contract", "pos": "noun", "article": "der", "plural": "Verträge", "level": "A2", "goethe": "A2" },
+        { "de": "Kündigung", "en": "resignation, notice", "pos": "noun", "article": "die", "plural": "Kündigungen", "level": "B1", "goethe": "B1" },
+        { "de": "Fehler", "en": "mistake", "pos": "noun", "article": "der", "plural": "Fehler", "level": "A1", "goethe": "A1" },
+        { "de": "Risiko", "en": "risk", "pos": "noun", "article": "das", "plural": "Risiken", "level": "B1", "goethe": "B1" },
+        { "de": "Vorteil", "en": "advantage", "pos": "noun", "article": "der", "plural": "Vorteile", "level": "B1", "goethe": "B1" },
+        { "de": "Nachteil", "en": "disadvantage", "pos": "noun", "article": "der", "plural": "Nachteile", "level": "B1", "goethe": "B1" },
+        { "de": "verpassen", "en": "to miss", "pos": "verb", "aux": "haben", "p2": "verpasst", "level": "A2", "goethe": "A2" },
+        { "de": "bereuen", "en": "to regret", "pos": "verb", "aux": "haben", "p2": "bereut", "level": "B2" },
+        { "de": "sich entscheiden", "en": "to decide", "pos": "verb", "aux": "haben", "p2": "entschieden", "level": "B1", "goethe": "B1" },
+        { "de": "annehmen", "en": "to accept", "pos": "verb", "aux": "haben", "sep": "an", "p2": "angenommen", "level": "B1", "goethe": "B1" },
+        { "de": "ablehnen", "en": "to decline", "pos": "verb", "aux": "haben", "sep": "ab", "p2": "abgelehnt", "level": "B1", "goethe": "B1" },
+        { "de": "kündigen", "en": "to give notice, to quit", "pos": "verb", "aux": "haben", "p2": "gekündigt", "level": "A2", "goethe": "A2" },
+        { "de": "wagen", "en": "to dare, to risk", "pos": "verb", "aux": "haben", "p2": "gewagt", "level": "A2", "goethe": "A2" },
+        { "de": "umziehen", "en": "to move (house)", "pos": "verb", "aux": "sein", "sep": "um", "p2": "umgezogen", "level": "A1", "goethe": "A1" },
+        { "de": "leider", "en": "unfortunately", "pos": "adv", "level": "A1", "goethe": "A1" },
+        { "de": "rückblickend", "en": "looking back", "pos": "adv", "level": "B2" },
+        { "de": "Wahl", "en": "choice, election", "pos": "noun", "article": "die", "plural": "Wahlen", "level": "B1", "goethe": "B1" },
+        { "de": "Konsequenz", "en": "consequence", "pos": "noun", "article": "die", "plural": "Konsequenzen", "level": "B2" },
+        { "de": "Kompromiss", "en": "compromise", "pos": "noun", "article": "der", "plural": "Kompromisse", "level": "B1", "goethe": "B1" },
+        { "de": "wählen", "en": "to choose, to vote", "pos": "verb", "aux": "haben", "p2": "gewählt", "level": "A2", "goethe": "A2" },
+        { "de": "überlegen", "en": "to think over", "pos": "verb", "aux": "haben", "p2": "überlegt", "level": "B1", "goethe": "B1" },
+        { "de": "abwägen", "en": "to weigh up", "pos": "verb", "aux": "haben", "sep": "ab", "p2": "abgewogen", "level": "B2" },
+        { "de": "zögern", "en": "to hesitate", "pos": "verb", "aux": "haben", "p2": "gezögert", "level": "B2" },
+        { "de": "riskieren", "en": "to risk", "pos": "verb", "aux": "haben", "p2": "riskiert", "level": "B2" },
+        { "de": "sich trauen", "en": "to dare", "pos": "verb", "aux": "haben", "p2": "getraut", "level": "B1" },
+        { "de": "sich einigen", "en": "to agree (on something)", "pos": "verb", "aux": "haben", "p2": "geeinigt", "level": "B1", "goethe": "B1" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "de": "Freut mich, Sie kennenzulernen.", "en": "Nice to meet you.", "who": "you", "level": "A2" },
+    { "de": "Sind Sie neu hier im Haus?", "en": "Are you new in the building?", "who": "staff", "level": "A2" },
+    { "de": "Ich bin letzte Woche eingezogen.", "en": "I moved in last week.", "who": "you", "level": "A2" },
+    { "de": "Wollen wir uns am Wochenende treffen?", "en": "Shall we meet at the weekend?", "who": "you", "level": "A2" },
+    { "de": "Kommst du am Samstag zu meiner Party?", "en": "Are you coming to my party on Saturday?", "who": "staff", "level": "A2" },
+    { "de": "Danke für die Einladung, ich komme gern.", "en": "Thank you for the invitation, I'd love to come.", "who": "you", "level": "A2" },
+    { "de": "Das tut mir leid, ich habe leider keine Zeit.", "en": "I'm sorry, unfortunately I don't have time.", "who": "you", "level": "A2" },
+    { "de": "Möchten Sie eine Tasse Kaffee?", "en": "Would you like a cup of coffee?", "who": "staff", "level": "A1" },
+    { "de": "Wie geht es deiner Familie?", "en": "How is your family?", "who": "staff", "level": "A2" },
+    { "de": "Ich freue mich auf das Wochenende.", "en": "I'm looking forward to the weekend.", "who": "you", "level": "A2" },
+    { "de": "Was denkst du über den Vorschlag?", "en": "What do you think about the suggestion?", "who": "staff", "level": "A2" },
+    { "de": "Ich bin da anderer Meinung.", "en": "I see it differently.", "who": "you", "level": "B1" },
+    { "de": "Das finde ich auch.", "en": "I think so too.", "who": "you", "level": "A2" },
+    { "de": "Ich bin stolz auf dich.", "en": "I'm proud of you.", "who": "you", "level": "B2" },
+    { "de": "Könnten Sie bitte etwas leiser sein?", "en": "Could you please be a little quieter?", "who": "staff", "level": "B1" },
+    { "de": "Ich habe mich noch nicht entschieden.", "en": "I haven't decided yet.", "who": "you", "level": "B1" }
+  ],
+  "exercises": [
+    { "type": "article", "word": "Nachbarschaft", "answer": "die", "explain": "Nouns ending in -schaft are feminine: die Nachbarschaft." },
+    { "type": "article", "word": "Einladung", "answer": "die", "explain": "Nouns ending in -ung are feminine: die Einladung." },
+    { "type": "article", "word": "Kompromiss", "answer": "der", "explain": "Kompromiss is masculine: der Kompromiss, die Kompromisse." },
+    { "type": "article", "word": "Verabredung", "answer": "die", "explain": "Nouns ending in -ung are feminine: die Verabredung." },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "die Großeltern",
+          "grandparents"
+        ],
+        [
+          "die Geschwister",
+          "siblings"
+        ],
+        [
+          "der Nachbar",
+          "neighbour"
+        ],
+        [
+          "die Kollegin",
+          "colleague (female)"
+        ],
+        [
+          "der Verwandte",
+          "relative"
+        ]
+      ],
+      "explain": "People around you, each with its article."
+    },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "traurig",
+          "sad"
+        ],
+        [
+          "zufrieden",
+          "content"
+        ],
+        [
+          "nervös",
+          "nervous"
+        ],
+        [
+          "wütend",
+          "angry"
+        ],
+        [
+          "einsam",
+          "lonely"
+        ]
+      ],
+      "explain": "Feelings you will need in conversation."
+    },
+    {
+      "type": "gap",
+      "q": "Ich freue mich ___ das Wochenende.",
+      "answer": [
+        "auf"
+      ],
+      "explain": "Sich freuen auf + Akkusativ looks forward to something in the future."
+    },
+    {
+      "type": "gap",
+      "q": "Meine Nachbarin hat mich zum Kaffee ___.",
+      "answer": [
+        "eingeladen"
+      ],
+      "explain": "Einladen is separable; the Partizip II is eingeladen: Sie hat mich eingeladen."
+    },
+    {
+      "type": "gap",
+      "q": "Wir haben uns noch nicht ___.",
+      "answer": [
+        "entschieden"
+      ],
+      "explain": "Sich entscheiden forms the perfect with haben: wir haben uns entschieden."
+    },
+    {
+      "type": "translate",
+      "en": "I am proud of my sister.",
+      "answer": [
+        "Ich bin stolz auf meine Schwester.",
+        "Ich bin stolz auf meine Schwester"
+      ],
+      "explain": "Stolz sein auf + Akkusativ; Schwester is feminine, so meine Schwester."
+    },
+    {
+      "type": "translate",
+      "en": "What do you think about the idea?",
+      "answer": [
+        "Was denkst du über die Idee?",
+        "Was denken Sie über die Idee?",
+        "Was denkt ihr über die Idee?",
+        "Was meinst du zu der Idee?",
+        "Was meinst du zur Idee?"
+      ],
+      "explain": "Denken über + Akkusativ asks for an opinion; die Idee stays feminine."
+    },
+    {
+      "type": "mc",
+      "q": "Your neighbour says: \"Wollen Sie auf einen Kaffee vorbeikommen?\" What does she want?",
+      "options": [
+        "She wants you to move out.",
+        "She invites you for a coffee.",
+        "She wants to borrow your coffee machine."
+      ],
+      "answer": 1,
+      "explain": "Vorbeikommen means to drop by, so she is inviting you over for a coffee."
+    },
+    {
+      "type": "mc",
+      "q": "Which sentence politely says you see it differently?",
+      "options": [
+        "Das ist falsch.",
+        "Ich bin da anderer Meinung.",
+        "Ich habe keine Lust."
+      ],
+      "answer": 1,
+      "explain": "\"Ich bin da anderer Meinung\" disagrees without sounding rude."
+    },
+    {
+      "type": "order",
+      "words": [
+        "stolz",
+        "bin",
+        "meine",
+        "Ich",
+        "auf",
+        "Schwester"
+      ],
+      "answer": "Ich bin stolz auf meine Schwester",
+      "explain": "Subject, verb in position two, then the adjective with its preposition."
+    }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Freut mich, Sie kennenzulernen.", "en": "Nice to meet you." },
+      { "de": "Danke für die Einladung, ich komme gern.", "en": "Thank you for the invitation, I'd love to come." },
+      { "de": "Ich freue mich auf das Wochenende.", "en": "I'm looking forward to the weekend." },
+      { "de": "Ich bin da anderer Meinung.", "en": "I see it differently." },
+      { "de": "Mein Traum ist ein eigenes Café.", "en": "My dream is a café of my own." },
+      { "de": "Ich habe mich noch nicht entschieden.", "en": "I haven't decided yet." }
+    ],
+    "prompts": [
+      { "q": "Hallo, ich bin Ihre neue Nachbarin. Woher kommen Sie?", "qEn": "Hello, I'm your new neighbour. Where do you come from?", "model": "Hallo, freut mich! Ich komme aus einem anderen Land und wohne seit zwei Wochen hier.", "hint": "Greet her, say where you are from and how long you have lived here." },
+      { "q": "Hast du Geschwister? Erzähl mir von deiner Familie.", "qEn": "Do you have siblings? Tell me about your family. (a friend asks)", "model": "Ja, ich habe einen Bruder und eine Schwester. Meine Eltern wohnen weit weg, aber wir telefonieren oft.", "hint": "Name two family members and say how you stay in touch." },
+      { "q": "Hast du Lust, am Samstag zu meinem Geburtstag zu kommen?", "qEn": "Do you feel like coming to my birthday on Saturday?", "model": "Ja, sehr gern! Danke für die Einladung. Soll ich etwas mitbringen?", "hint": "Accept and offer to bring something." },
+      { "q": "Was wünschst du dir für die Zukunft?", "qEn": "What do you wish for your future?", "model": "Ich möchte einen guten Job finden und viel reisen. Außerdem hoffe ich, dass meine Familie gesund bleibt.", "hint": "Say one plan and one wish." }
+    ]
+  }
+}

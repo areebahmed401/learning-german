@@ -1,6 +1,6 @@
 // Karten: daily flashcards. Words you miss come back in the same session until you know them;
 // words you know come back later (Leitner boxes, see srs.js).
-import { h, getRoadmap, getJSON, lessonURL, nounHTML, shuffle, sayBtn } from './util.js';
+import { h, getRoadmap, getJSON, getAlltag, getPlace, placeWords, nounHTML, shuffle, sayBtn } from './util.js';
 import { speak, canSpeak } from './speech.js';
 import { wordForms } from './lesson.js';
 import * as progress from './progress.js';
@@ -9,19 +9,19 @@ import * as adapt from './adapt.js';
 
 /**
  * Words for a deck, easiest level first:
- * 'level' = every lesson word and Goethe-tagged dictionary word up to your level,
- * 'mine' = the lessons you've opened, or a level id = that level only.
+ * 'level' = every place word and Goethe-tagged dictionary word up to your level,
+ * 'mine' = the places you've opened, 'place:<id>' = one place, or a level id = that level only.
  */
 async function wordPool(deck, road, myLevel) {
   const order = road.levels.map((l) => l.id);
   const upTo = order.slice(0, order.indexOf(myLevel) + 1);
-  const wanted = deck === 'level' ? upTo : deck === 'mine' ? order : [deck];
-  const opened = new Set(progress.openedLessons());
-  const ids = road.levels.filter((lv) => wanted.includes(lv.id)).flatMap((lv) => (lv.milestones || [])
-    .filter((m) => deck !== 'mine' || opened.has(m.id)).map((m) => [lv.id, m.id]));
-  const lessons = await Promise.all(ids.map(([lv, id]) => getJSON(lessonURL(lv, id)).catch(() => null)));
-  const words = lessons.filter(Boolean).flatMap((l) => l.words.map((w) => ({ ...w, level: l.level })));
-  if (deck !== 'mine') {
+  const onePlace = deck.startsWith('place:') ? deck.slice(6) : null;
+  const wanted = deck === 'level' ? upTo : deck === 'mine' || onePlace ? order : [deck];
+  const stops = (await getAlltag()).chapters.flatMap((c) => c.stops)
+    .filter((s) => (onePlace ? s.id === onePlace : deck !== 'mine' || progress.placeState(s.id)));
+  const places = await Promise.all(stops.map((s) => getPlace(s.id).catch(() => null)));
+  const words = places.filter(Boolean).flatMap(placeWords).filter((w) => wanted.includes(w.level || 'B2'));
+  if (deck !== 'mine' && !onePlace) {
     // the translator's dictionary words, by Goethe level (untagged ones count as B2)
     const core = await getJSON('data/dictionary/core.json').catch(() => []);
     for (const w of core) {
@@ -29,7 +29,10 @@ async function wordPool(deck, road, myLevel) {
       if (wanted.includes(lv)) words.push({ ...w, level: lv });
     }
   }
-  return words.sort((a, b) => order.indexOf(a.level) - order.indexOf(b.level)); // stable: lessons stay first in a level
+  // a word met in several places (or also in the dictionary) is one card; the first copy wins
+  const seen = new Set();
+  const unique = words.filter((w) => { const k = srs.cardKey(w); return !seen.has(k) && seen.add(k); });
+  return unique.sort((a, b) => order.indexOf(a.level) - order.indexOf(b.level)); // stable: places stay first in a level
 }
 
 let keyHandler = null;
@@ -48,6 +51,12 @@ export async function renderCards(view, extra = 0) {
   const unseen = words.filter((w) => !progress.cards()[srs.cardKey(w)]).length;
   const due = queue.filter((w) => progress.cards()[srs.cardKey(w)]).length;
 
+  const stops = (await getAlltag()).chapters.flatMap((c) => c.stops);
+  const placePick = h('select.set-select.cards-place', {
+    'aria-label': 'One place',
+    onchange: (e) => { progress.setSettings({ deck: e.target.value || 'level' }); renderCards(view); },
+  }, h('option', { value: '' }, '🗺 One place…'),
+  stops.map((s) => h('option', { value: `place:${s.id}`, selected: prefs.deck === `place:${s.id}` }, `${s.icon} ${s.title}`)));
   const scopeBtn = (id, label) => h(`button.btn.small${prefs.deck === id ? '.primary' : ''}`, {
     type: 'button', 'aria-pressed': String(prefs.deck === id),
     onclick: () => { progress.setSettings({ deck: id }); renderCards(view); },
@@ -66,13 +75,13 @@ export async function renderCards(view, extra = 0) {
       stat(due, 'due today'), stat(queue.length - due, 'new today'),
       stat(Object.values(progress.cards()).filter((c) => c.box >= 3).length, 'well known'),
       stat(`${progress.cardStreak()} 🔥`, 'day streak')),
-    h('div.cards-tools', h('div.cards-scope', scopeBtn('level', `My level (${myLevel})`), scopeBtn('mine', 'My lessons'), levels.map((l) => scopeBtn(l, l))), reverse),
+    h('div.cards-tools', h('div.cards-scope', scopeBtn('level', `My level (${myLevel})`), scopeBtn('mine', 'My places'), levels.map((l) => scopeBtn(l, l)), placePick), reverse),
     stage,
     hardList()));
 
   if (!words.length) {
-    stage.append(h('div.card', h('p', 'No words yet. Open a lesson on the road, or pick a level above.'),
-      h('a.btn.primary', { href: '#/road' }, 'Zur Straße →')));
+    stage.append(h('div.card', h('p', 'No words yet. Open a place on the Alltag road, or pick a level above.'),
+      h('a.btn.primary', { href: '#/alltag' }, 'Zur Alltag-Straße →')));
   } else if (!queue.length) {
     stage.append(h('div.card.cards-done', h('div.result', h('div.score', '✓'),
       h('p', 'Nothing due right now. Come back tomorrow!'),

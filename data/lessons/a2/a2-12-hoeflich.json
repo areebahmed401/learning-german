@@ -3,7 +3,6 @@
   "level": "A2",
   "title": "Ich hätte gern…",
   "concept": "Polite Konjunktiv II: würde, hätte, könnte",
-  "wordlist": "Restaurant & Service",
   "minutes": 25,
   "youtube": "https://www.youtube.com/results?search_query=Learn+German+A2+h%C3%B6flich+Konjunktiv+II+h%C3%A4tte+w%C3%BCrde+k%C3%B6nnte",
   "learn": [
@@ -57,33 +56,6 @@
     }
   ],
   "tip": "Three polite openers will carry you through any restaurant: 'Ich hätte gern …', 'Könnten Sie bitte …?' and 'Das wäre alles.' Use bitte and danke after every sentence.",
-  "words": [
-    { "de": "Speisekarte", "en": "menu", "pos": "noun", "article": "die", "plural": "Speisekarten", "goethe": "A1" },
-    { "de": "Getränk", "en": "drink", "pos": "noun", "article": "das", "plural": "Getränke", "goethe": "A1" },
-    { "de": "Suppe", "en": "soup", "pos": "noun", "article": "die", "plural": "Suppen", "goethe": "A2" },
-    { "de": "Gericht", "en": "dish", "pos": "noun", "article": "das", "plural": "Gerichte", "goethe": "A2" },
-    { "de": "Salat", "en": "salad", "pos": "noun", "article": "der", "plural": "Salate", "goethe": "A1" },
-    { "de": "Rechnung", "en": "bill", "pos": "noun", "article": "die", "plural": "Rechnungen", "goethe": "A1" },
-    { "de": "Kuchen", "en": "cake", "pos": "noun", "article": "der", "plural": "Kuchen", "goethe": "A1" },
-    { "de": "Kellner", "en": "waiter", "pos": "noun", "article": "der", "plural": "Kellner", "goethe": "A2" },
-    { "de": "Kellnerin", "en": "waitress", "pos": "noun", "article": "die", "plural": "Kellnerinnen", "goethe": "A2" },
-    { "de": "Frühstück", "en": "breakfast", "pos": "noun", "article": "das", "plural": "Frühstücke", "goethe": "A1" },
-    { "de": "Tasse", "en": "cup", "pos": "noun", "article": "die", "plural": "Tassen", "goethe": "A1" },
-    { "de": "Teller", "en": "plate", "pos": "noun", "article": "der", "plural": "Teller", "goethe": "A2" },
-    { "de": "Glas", "en": "glass", "pos": "noun", "article": "das", "plural": "Gläser", "goethe": "A1" },
-    { "de": "Messer", "en": "knife", "pos": "noun", "article": "das", "plural": "Messer", "goethe": "A2" },
-    { "de": "Gabel", "en": "fork", "pos": "noun", "article": "die", "plural": "Gabeln", "goethe": "A2" },
-    { "de": "Löffel", "en": "spoon", "pos": "noun", "article": "der", "plural": "Löffel", "goethe": "A2" },
-    { "de": "bestellen", "en": "to order", "pos": "verb", "aux": "haben", "p2": "bestellt", "goethe": "A1" },
-    { "de": "bezahlen", "en": "to pay", "pos": "verb", "aux": "haben", "p2": "bezahlt", "goethe": "A1" },
-    { "de": "empfehlen", "en": "to recommend", "pos": "verb", "aux": "haben", "p2": "empfohlen", "goethe": "A1" },
-    { "de": "reservieren", "en": "to reserve", "pos": "verb", "aux": "haben", "p2": "reserviert", "goethe": "A2" },
-    { "de": "bringen", "en": "to bring", "pos": "verb", "aux": "haben", "p2": "gebracht", "goethe": "A1" },
-    { "de": "Ich möchte …", "en": "I would like …", "pos": "phrase", "goethe": "A1" },
-    { "de": "Zahlen, bitte!", "en": "The bill, please!", "pos": "phrase", "goethe": "A1" },
-    { "de": "Stimmt so.", "en": "Keep the change.", "pos": "phrase", "goethe": "A1" },
-    { "de": "Guten Appetit!", "en": "Enjoy your meal!", "pos": "phrase", "goethe": "A1" }
-  ],
   "mindmap": {
     "label": "Höflich sein",
     "children": [

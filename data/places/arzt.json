@@ -1,0 +1,326 @@
+{
+  "id": "arzt",
+  "icon": "🩺",
+  "title": "Arztpraxis & Apotheke",
+  "en": "Doctor's office & pharmacy",
+  "intro": "You make an appointment, show your insurance card, describe what hurts, and leave with a prescription or a sick note. Then you pick up your medicine at the pharmacy.",
+  "areas": [
+    {
+      "name": "Termin & Empfang",
+      "en": "appointment and reception",
+      "words": [
+        { "de": "Arzt", "en": "doctor (male)", "pos": "noun", "article": "der", "plural": "Ärzte", "level": "A1", "goethe": "A1" },
+        { "de": "Ärztin", "en": "doctor (female)", "pos": "noun", "article": "die", "plural": "Ärztinnen", "level": "A1", "goethe": "A1" },
+        { "de": "Praxis", "en": "doctor's practice", "pos": "noun", "article": "die", "plural": "Praxen", "level": "A1", "goethe": "A1" },
+        { "de": "Doktor", "en": "doctor (title)", "pos": "noun", "article": "der", "plural": "Doktoren", "level": "A1", "goethe": "A1" },
+        { "de": "warten", "en": "to wait", "pos": "verb", "aux": "haben", "p2": "gewartet", "level": "A1", "goethe": "A1" },
+        { "de": "bitte", "en": "please", "pos": "adv", "level": "A1", "goethe": "A1" },
+        { "de": "helfen", "en": "to help", "pos": "verb", "aux": "haben", "p2": "geholfen", "level": "A1", "goethe": "A1" },
+        { "de": "bleiben", "en": "to stay", "pos": "verb", "aux": "sein", "p2": "geblieben", "level": "A1", "goethe": "A1" },
+        { "de": "Termin", "en": "appointment", "pos": "noun", "article": "der", "plural": "Termine", "level": "A1", "goethe": "A1" },
+        { "de": "Sprechstunde", "en": "consultation hours", "pos": "noun", "article": "die", "plural": "Sprechstunden", "level": "A2", "goethe": "A2" },
+        { "de": "Wartezimmer", "en": "waiting room", "pos": "noun", "article": "das", "plural": "Wartezimmer", "level": "A2" },
+        { "de": "Versichertenkarte", "en": "health insurance card", "pos": "noun", "article": "die", "plural": "Versichertenkarten", "level": "B1", "goethe": "B1" },
+        { "de": "Krankenkasse", "en": "health insurance fund", "pos": "noun", "article": "die", "plural": "Krankenkassen", "level": "A2", "goethe": "A2" },
+        { "de": "Hausarzt", "en": "family doctor (male)", "pos": "noun", "article": "der", "plural": "Hausärzte", "level": "B1", "goethe": "B1" },
+        { "de": "Facharzt", "en": "specialist (male)", "pos": "noun", "article": "der", "plural": "Fachärzte", "level": "B2" },
+        { "de": "Empfang", "en": "reception", "pos": "noun", "article": "der", "plural": "Empfänge", "level": "B1", "goethe": "B1" },
+        { "de": "Formular", "en": "form", "pos": "noun", "article": "das", "plural": "Formulare", "level": "A1", "goethe": "A1" },
+        { "de": "vereinbaren", "en": "to arrange, to agree on", "pos": "verb", "aux": "haben", "p2": "vereinbart", "level": "A2", "goethe": "A2" },
+        { "de": "absagen", "en": "to cancel", "pos": "verb", "aux": "haben", "sep": "ab", "p2": "abgesagt", "level": "B1", "goethe": "B1" },
+        { "de": "ausfüllen", "en": "to fill in", "pos": "verb", "aux": "haben", "sep": "aus", "p2": "ausgefüllt", "level": "A1", "goethe": "A1" },
+        { "de": "versichert", "en": "insured", "pos": "adj", "level": "B1", "goethe": "B1" }
+      ]
+    },
+    {
+      "name": "Körper",
+      "en": "the body",
+      "words": [
+        { "de": "Körper", "en": "body", "pos": "noun", "article": "der", "plural": "Körper", "level": "A2", "goethe": "A2" },
+        { "de": "Kopf", "en": "head", "pos": "noun", "article": "der", "plural": "Köpfe", "level": "A1", "goethe": "A1" },
+        { "de": "Hals", "en": "neck, throat", "pos": "noun", "article": "der", "plural": "Hälse", "level": "A2", "goethe": "A2" },
+        { "de": "Rücken", "en": "back", "pos": "noun", "article": "der", "plural": "Rücken", "level": "A2", "goethe": "A2" },
+        { "de": "Bauch", "en": "belly; stomach", "pos": "noun", "article": "der", "plural": "Bäuche", "level": "A1", "goethe": "A1" },
+        { "de": "Arm", "en": "arm", "pos": "noun", "article": "der", "plural": "Arme", "level": "A1", "goethe": "A1" },
+        { "de": "Hand", "en": "hand", "pos": "noun", "article": "die", "plural": "Hände", "level": "A1", "goethe": "A1" },
+        { "de": "Bein", "en": "leg", "pos": "noun", "article": "das", "plural": "Beine", "level": "A1", "goethe": "A1" },
+        { "de": "Fuß", "en": "foot", "pos": "noun", "article": "der", "plural": "Füße", "level": "A1", "goethe": "A1" },
+        { "de": "Zahn", "en": "tooth", "pos": "noun", "article": "der", "plural": "Zähne", "level": "A2", "goethe": "A2" },
+        { "de": "Auge", "en": "eye", "pos": "noun", "article": "das", "plural": "Augen", "level": "A1", "goethe": "A1" },
+        { "de": "Mund", "en": "mouth", "pos": "noun", "article": "der", "plural": "Münder", "level": "A1", "goethe": "A1" },
+        { "de": "sich waschen", "en": "to wash oneself", "pos": "verb", "aux": "haben", "p2": "gewaschen", "level": "A1", "goethe": "A1" },
+        { "de": "Ohr", "en": "ear", "pos": "noun", "article": "das", "plural": "Ohren", "level": "A2", "goethe": "A2" },
+        { "de": "Nase", "en": "nose", "pos": "noun", "article": "die", "plural": "Nasen", "level": "B1", "goethe": "B1" },
+        { "de": "Knie", "en": "knee", "pos": "noun", "article": "das", "plural": "Knie", "level": "B1", "goethe": "B1" },
+        { "de": "Schulter", "en": "shoulder", "pos": "noun", "article": "die", "plural": "Schultern", "level": "B1", "goethe": "B1" },
+        { "de": "Finger", "en": "finger", "pos": "noun", "article": "der", "plural": "Finger", "level": "B1", "goethe": "B1" },
+        { "de": "Herz", "en": "heart", "pos": "noun", "article": "das", "plural": "Herzen", "level": "B1", "goethe": "B1" },
+        { "de": "Magen", "en": "stomach", "pos": "noun", "article": "der", "plural": "Mägen", "level": "A2", "goethe": "A2" },
+        { "de": "Haut", "en": "skin", "pos": "noun", "article": "die", "plural": "Häute", "level": "B1", "goethe": "B1" }
+      ]
+    },
+    {
+      "name": "Beschwerden",
+      "en": "complaints and symptoms",
+      "words": [
+        { "de": "Schmerzen", "en": "pain", "pos": "noun", "article": "die", "plural": "-", "note": "plural only", "level": "A2", "goethe": "A2" },
+        { "de": "Fieber", "en": "fever", "pos": "noun", "article": "das", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "Husten", "en": "cough", "pos": "noun", "article": "der", "plural": "-", "level": "A2", "goethe": "A2" },
+        { "de": "krank", "en": "ill; sick", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "müde", "en": "tired", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "wehtun", "en": "to hurt", "pos": "verb", "aux": "haben", "sep": "weh", "p2": "wehgetan", "level": "A2", "goethe": "A2" },
+        { "de": "sich fühlen", "en": "to feel", "pos": "verb", "aux": "haben", "p2": "gefühlt", "level": "A2", "goethe": "A2" },
+        { "de": "sich verletzen", "en": "to hurt oneself", "pos": "verb", "aux": "haben", "p2": "verletzt", "level": "A2", "goethe": "A2" },
+        { "de": "sich ausruhen", "en": "to rest", "pos": "verb", "aux": "haben", "sep": "aus", "p2": "ausgeruht", "level": "A2", "goethe": "A2" },
+        { "de": "sich erinnern", "en": "to remember", "pos": "verb", "aux": "haben", "p2": "erinnert", "level": "A2", "goethe": "A2" },
+        { "de": "Schnupfen", "en": "cold, runny nose", "pos": "noun", "article": "der", "plural": "-", "level": "B1", "goethe": "B1" },
+        { "de": "Kopfschmerzen", "en": "headache", "pos": "noun", "article": "die", "plural": "Kopfschmerzen", "level": "A2", "goethe": "A2" },
+        { "de": "Halsschmerzen", "en": "sore throat", "pos": "noun", "article": "die", "plural": "Halsschmerzen", "level": "A2", "goethe": "A2" },
+        { "de": "Übelkeit", "en": "nausea", "pos": "noun", "article": "die", "plural": "-", "level": "B1" },
+        { "de": "Schwindel", "en": "dizziness", "pos": "noun", "article": "der", "plural": "-", "level": "B1" },
+        { "de": "Erkältung", "en": "cold", "pos": "noun", "article": "die", "plural": "Erkältungen", "level": "B1", "goethe": "B1" },
+        { "de": "Grippe", "en": "flu", "pos": "noun", "article": "die", "plural": "-", "level": "A2", "goethe": "A2" },
+        { "de": "Allergie", "en": "allergy", "pos": "noun", "article": "die", "plural": "Allergien", "level": "B1" },
+        { "de": "erkältet", "en": "having a cold", "pos": "adj", "level": "A2", "goethe": "A2" },
+        { "de": "schwindelig", "en": "dizzy", "pos": "adj", "level": "B1" }
+      ]
+    },
+    {
+      "name": "Untersuchung",
+      "en": "examination",
+      "words": [
+        { "de": "untersuchen", "en": "to examine", "pos": "verb", "aux": "haben", "p2": "untersucht", "level": "A2", "goethe": "A2" },
+        { "de": "Untersuchung", "en": "examination", "pos": "noun", "article": "die", "plural": "Untersuchungen", "level": "B1", "goethe": "B1" },
+        { "de": "Befund", "en": "(test) result, findings", "pos": "noun", "article": "der", "plural": "Befunde", "level": "C1" },
+        { "de": "Diagnose", "en": "diagnosis", "pos": "noun", "article": "die", "plural": "Diagnosen", "level": "C1" },
+        { "de": "Patient", "en": "patient", "pos": "noun", "article": "der", "plural": "Patienten", "level": "B1", "goethe": "B1" },
+        { "de": "Impfung", "en": "vaccination", "pos": "noun", "article": "die", "plural": "Impfungen", "level": "B1", "goethe": "B1" },
+        { "de": "Wunde", "en": "wound", "pos": "noun", "article": "die", "plural": "Wunden", "level": "B1", "goethe": "B1" },
+        { "de": "Verletzung", "en": "injury", "pos": "noun", "article": "die", "plural": "Verletzungen", "level": "B1", "goethe": "B1" },
+        { "de": "chronisch", "en": "chronic", "pos": "adj", "level": "C1" },
+        { "de": "ansteckend", "en": "contagious", "pos": "adj", "level": "C1" },
+        { "de": "Patientin", "en": "patient (female)", "pos": "noun", "article": "die", "plural": "Patientinnen", "level": "B1", "goethe": "B1" },
+        { "de": "Symptom", "en": "symptom", "pos": "noun", "article": "das", "plural": "Symptome", "level": "B2" },
+        { "de": "Blutdruck", "en": "blood pressure", "pos": "noun", "article": "der", "plural": "-", "level": "B2" },
+        { "de": "Blutabnahme", "en": "blood sample", "pos": "noun", "article": "die", "plural": "Blutabnahmen", "level": "B2" },
+        { "de": "Röntgenbild", "en": "X-ray image", "pos": "noun", "article": "das", "plural": "Röntgenbilder", "level": "B2" },
+        { "de": "Spritze", "en": "injection, syringe", "pos": "noun", "article": "die", "plural": "Spritzen", "level": "B1", "goethe": "B1" },
+        { "de": "Verband", "en": "bandage, dressing", "pos": "noun", "article": "der", "plural": "Verbände", "level": "B1", "goethe": "B1" },
+        { "de": "messen", "en": "to measure", "pos": "verb", "aux": "haben", "p2": "gemessen", "level": "B1", "goethe": "B1" }
+      ]
+    },
+    {
+      "name": "Krankenhaus & Überweisung",
+      "en": "hospital and referral",
+      "words": [
+        { "de": "Behandlung", "en": "treatment", "pos": "noun", "article": "die", "plural": "Behandlungen", "level": "B1", "goethe": "B1" },
+        { "de": "operieren", "en": "to operate on", "pos": "verb", "aux": "haben", "p2": "operiert", "level": "B1", "goethe": "B1" },
+        { "de": "Überweisung", "en": "referral", "pos": "noun", "article": "die", "plural": "Überweisungen", "level": "B1", "goethe": "B1" },
+        { "de": "überweisen", "en": "to refer (to a specialist)", "pos": "verb", "aux": "haben", "p2": "überwiesen", "level": "A1", "goethe": "A1" },
+        { "de": "Arztbrief", "en": "doctor's letter", "pos": "noun", "article": "der", "plural": "Arztbriefe", "level": "C1" },
+        { "de": "einweisen", "en": "to admit (to hospital)", "pos": "verb", "aux": "haben", "sep": "ein", "p2": "eingewiesen", "level": "C1" },
+        { "de": "entlassen", "en": "to discharge", "pos": "verb", "aux": "haben", "p2": "entlassen", "level": "B1", "goethe": "B1" },
+        { "de": "aufnehmen", "en": "to admit, to take in", "pos": "verb", "aux": "haben", "sep": "auf", "p2": "aufgenommen", "level": "B1", "goethe": "B1" },
+        { "de": "Krankenhaus", "en": "hospital", "pos": "noun", "article": "das", "plural": "Krankenhäuser", "level": "A2", "goethe": "A2" },
+        { "de": "sich erholen", "en": "to recover", "pos": "verb", "aux": "haben", "p2": "erholt", "level": "B1", "goethe": "B1" },
+        { "de": "Notaufnahme", "en": "emergency room", "pos": "noun", "article": "die", "plural": "Notaufnahmen", "level": "B1", "goethe": "B1" },
+        { "de": "Operation", "en": "operation", "pos": "noun", "article": "die", "plural": "Operationen", "level": "B1", "goethe": "B1" },
+        { "de": "Station", "en": "ward", "pos": "noun", "article": "die", "plural": "Stationen", "level": "B1", "goethe": "B1" },
+        { "de": "Krankenwagen", "en": "ambulance", "pos": "noun", "article": "der", "plural": "Krankenwagen", "level": "B1", "goethe": "B1" },
+        { "de": "Notfall", "en": "emergency", "pos": "noun", "article": "der", "plural": "Notfälle", "level": "B1", "goethe": "B1" },
+        { "de": "Pflegekraft", "en": "nurse, care worker", "pos": "noun", "article": "die", "plural": "Pflegekräfte", "level": "B2" }
+      ]
+    },
+    {
+      "name": "Rezept & Apotheke",
+      "en": "prescription and pharmacy",
+      "words": [
+        { "de": "Rezept", "en": "prescription; recipe", "pos": "noun", "article": "das", "plural": "Rezepte", "level": "A2", "goethe": "A2" },
+        { "de": "verschreiben", "en": "to prescribe", "pos": "verb", "aux": "haben", "p2": "verschrieben", "level": "B1", "goethe": "B1" },
+        { "de": "Medikament", "en": "medicine", "pos": "noun", "article": "das", "plural": "Medikamente", "level": "A1", "goethe": "A1" },
+        { "de": "Apotheke", "en": "pharmacy", "pos": "noun", "article": "die", "plural": "Apotheken", "level": "A1", "goethe": "A1" },
+        { "de": "Nebenwirkung", "en": "side effect", "pos": "noun", "article": "die", "plural": "Nebenwirkungen", "level": "C1" },
+        { "de": "Krankschreibung", "en": "sick note", "pos": "noun", "article": "die", "plural": "Krankschreibungen", "level": "C1" },
+        { "de": "Apotheker", "en": "pharmacist (male)", "pos": "noun", "article": "der", "plural": "Apotheker", "level": "B1" },
+        { "de": "Apothekerin", "en": "pharmacist (female)", "pos": "noun", "article": "die", "plural": "Apothekerinnen", "level": "B1" },
+        { "de": "Tablette", "en": "tablet, pill", "pos": "noun", "article": "die", "plural": "Tabletten", "level": "A2", "goethe": "A2" },
+        { "de": "Tropfen", "en": "drop", "pos": "noun", "article": "der", "plural": "Tropfen", "level": "B1", "goethe": "B1" },
+        { "de": "Salbe", "en": "ointment", "pos": "noun", "article": "die", "plural": "Salben", "level": "B1", "goethe": "B1" },
+        { "de": "Hustensaft", "en": "cough syrup", "pos": "noun", "article": "der", "plural": "Hustensäfte", "level": "B1" },
+        { "de": "Beipackzettel", "en": "package leaflet", "pos": "noun", "article": "der", "plural": "Beipackzettel", "level": "B2" },
+        { "de": "Packung", "en": "pack, box", "pos": "noun", "article": "die", "plural": "Packungen", "level": "B1", "goethe": "B1" },
+        { "de": "Schmerzmittel", "en": "painkiller", "pos": "noun", "article": "das", "plural": "Schmerzmittel", "level": "B1", "goethe": "B1" },
+        { "de": "Pflaster", "en": "plaster", "pos": "noun", "article": "das", "plural": "Pflaster", "level": "B1", "goethe": "B1" },
+        { "de": "einnehmen", "en": "to take (medicine)", "pos": "verb", "aux": "haben", "sep": "ein", "p2": "eingenommen", "level": "B1", "goethe": "B1" },
+        { "de": "krankschreiben", "en": "to give a sick note", "pos": "verb", "aux": "haben", "sep": "krank", "p2": "krankgeschrieben", "level": "B2" },
+        { "de": "rezeptpflichtig", "en": "prescription-only", "pos": "adj", "level": "B2" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "de": "Haben Sie einen Termin?", "en": "Do you have an appointment?", "who": "staff", "level": "A1" },
+    { "de": "Ihre Versichertenkarte, bitte.", "en": "Your insurance card, please.", "who": "staff", "level": "A2" },
+    { "de": "Bitte nehmen Sie im Wartezimmer Platz.", "en": "Please take a seat in the waiting room.", "who": "staff", "level": "A2" },
+    { "de": "Was fehlt Ihnen?", "en": "What seems to be the problem?", "who": "staff", "level": "B1" },
+    { "de": "Seit wann haben Sie die Beschwerden?", "en": "Since when have you had the symptoms?", "who": "staff", "level": "B1" },
+    { "de": "Machen Sie bitte den Oberkörper frei.", "en": "Please undress your upper body.", "who": "staff", "level": "B1" },
+    { "de": "Ich schreibe Sie bis Freitag krank.", "en": "I will sign you off sick until Friday.", "who": "staff", "level": "B1" },
+    { "de": "Nehmen Sie die Tabletten dreimal täglich nach dem Essen.", "en": "Take the tablets three times a day after meals.", "who": "staff", "level": "B1" },
+    { "de": "Ich hätte gern einen Termin.", "en": "I would like an appointment.", "who": "you", "level": "A2" },
+    { "de": "Ich habe starke Kopfschmerzen und Fieber.", "en": "I have a bad headache and a fever.", "who": "you", "level": "A2" },
+    { "de": "Seit gestern tut mir der Hals weh.", "en": "My throat has hurt since yesterday.", "who": "you", "level": "A2" },
+    { "de": "Ich brauche eine Krankschreibung.", "en": "I need a sick note.", "who": "you", "level": "B1" },
+    { "de": "Gibt es Nebenwirkungen?", "en": "Are there any side effects?", "who": "you", "level": "B1" },
+    { "de": "Haben Sie etwas gegen Husten?", "en": "Do you have something for a cough?", "who": "you", "level": "A2" },
+    { "de": "Das Rezept können Sie in der Apotheke einlösen.", "en": "You can redeem the prescription at the pharmacy.", "who": "staff", "level": "B1" }
+  ],
+  "exercises": [
+    { "type": "article", "word": "Rezept", "answer": "das", "explain": "Rezept is neuter: das Rezept, die Rezepte." },
+    { "type": "article", "word": "Apotheke", "answer": "die", "explain": "Nouns ending in -e are mostly feminine: die Apotheke." },
+    { "type": "article", "word": "Husten", "answer": "der", "explain": "Husten is masculine: der Husten (a cough)." },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "der Kopf",
+          "head"
+        ],
+        [
+          "der Rücken",
+          "back"
+        ],
+        [
+          "der Hals",
+          "throat, neck"
+        ],
+        [
+          "die Schulter",
+          "shoulder"
+        ]
+      ],
+      "explain": "Four body parts, each with its article."
+    },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "das Rezept",
+          "prescription"
+        ],
+        [
+          "die Salbe",
+          "ointment"
+        ],
+        [
+          "die Tablette",
+          "tablet"
+        ],
+        [
+          "die Krankschreibung",
+          "sick note"
+        ],
+        [
+          "die Versichertenkarte",
+          "health insurance card"
+        ]
+      ],
+      "explain": "Words from the doctor's office and the pharmacy."
+    },
+    {
+      "type": "gap",
+      "q": "Ich habe seit gestern Fieber und fühle mich ___.",
+      "answer": [
+        "krank",
+        "schlecht",
+        "müde"
+      ],
+      "explain": "Sich fühlen is followed by an adjective: ich fühle mich krank."
+    },
+    {
+      "type": "gap",
+      "q": "Mir tut der Rücken ___.",
+      "answer": [
+        "weh"
+      ],
+      "explain": "Wehtun is separable: the prefix weh goes to the end."
+    },
+    {
+      "type": "gap",
+      "q": "Die Ärztin hat mir Tabletten ___.",
+      "answer": [
+        "verschrieben"
+      ],
+      "explain": "The Partizip II of verschreiben is verschrieben (no ge- because of ver-)."
+    },
+    {
+      "type": "translate",
+      "en": "I would like an appointment.",
+      "answer": [
+        "Ich hätte gern einen Termin.",
+        "Ich hätte gerne einen Termin.",
+        "Ich möchte einen Termin.",
+        "Ich möchte gern einen Termin."
+      ],
+      "explain": "Ich hätte gern + accusative (einen Termin) is the polite way to ask."
+    },
+    {
+      "type": "translate",
+      "en": "My back hurts.",
+      "answer": [
+        "Mein Rücken tut weh.",
+        "Mir tut der Rücken weh.",
+        "Ich habe Rückenschmerzen."
+      ],
+      "explain": "Wehtun takes the dative for the person: Mir tut der Rücken weh."
+    },
+    {
+      "type": "mc",
+      "q": "The doctor asks: \"Was fehlt Ihnen?\" Which answer fits?",
+      "options": [
+        "Ich habe Husten und Halsschmerzen.",
+        "Ich habe einen Termin um zehn Uhr.",
+        "Hier ist mein Rezept."
+      ],
+      "answer": 0,
+      "explain": "Was fehlt Ihnen? asks what is wrong, so you describe your symptoms."
+    },
+    {
+      "type": "mc",
+      "q": "What is \"die Krankschreibung\"?",
+      "options": [
+        "A sick note",
+        "A prescription",
+        "A referral to a specialist"
+      ],
+      "answer": 0,
+      "explain": "Die Krankschreibung is the doctor's certificate that you are unfit for work or study."
+    },
+    {
+      "type": "order",
+      "words": [
+        "Fieber",
+        "gestern",
+        "Ich",
+        "seit",
+        "habe"
+      ],
+      "answer": "Ich habe seit gestern Fieber",
+      "explain": "The verb habe stays in second position; seit gestern then comes before Fieber."
+    }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Ich hätte gern einen Termin.", "en": "I would like an appointment." },
+      { "de": "Ich habe seit zwei Tagen Fieber und Husten.", "en": "I have had a fever and a cough for two days." },
+      { "de": "Mir tut der Hals weh.", "en": "My throat hurts." },
+      { "de": "Ich brauche eine Krankschreibung.", "en": "I need a sick note." },
+      { "de": "Wie oft soll ich die Tabletten nehmen?", "en": "How often should I take the tablets?" }
+    ],
+    "prompts": [
+      { "q": "Guten Tag, haben Sie einen Termin?", "qEn": "Good day, do you have an appointment? (reception)", "model": "Ja, ich habe um zehn Uhr einen Termin. Hier ist meine Versichertenkarte.", "hint": "Say you have an appointment and hand over your card." },
+      { "q": "Was fehlt Ihnen? Seit wann haben Sie die Beschwerden?", "qEn": "What is the matter? Since when have you had the symptoms? (doctor)", "model": "Ich habe starke Halsschmerzen und Fieber. Das geht seit drei Tagen so.", "hint": "Describe symptoms and how long." },
+      { "q": "Ich schreibe Sie bis Freitag krank. Hier ist Ihr Rezept.", "qEn": "I will sign you off until Friday. Here is your prescription.", "model": "Vielen Dank. Wie oft muss ich die Tabletten nehmen?", "hint": "Thank the doctor and ask how to take the medicine." },
+      { "q": "Haben Sie ein Rezept dabei?", "qEn": "Do you have a prescription with you? (pharmacy)", "model": "Ja, hier ist es. Haben Sie auch etwas gegen Halsschmerzen?", "hint": "Hand over the prescription and ask for something extra." }
+    ]
+  }
+}

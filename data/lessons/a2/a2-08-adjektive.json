@@ -3,7 +3,6 @@
   "level": "A2",
   "title": "Adjektivendungen",
   "concept": "Adjective endings after der/ein/no article",
-  "wordlist": "Aussehen & Charakter",
   "minutes": 30,
   "youtube": "https://www.youtube.com/results?search_query=Learn+German+A2+Adjektivendungen+adjective+endings",
   "learn": [
@@ -59,32 +58,6 @@
     }
   ],
   "tip": "If you are unsure, -en is the safest guess: it is right in the whole Dativ, in the plural and in the masculine Akkusativ. Learn one chant sentence per table: der nette Mann, ein netter Mann, frischer Kaffee.",
-  "words": [
-    { "de": "Aussehen", "en": "appearance", "pos": "noun", "article": "das", "plural": "-", "note": "no plural", "goethe": "A1" },
-    { "de": "Haar", "en": "hair", "pos": "noun", "article": "das", "plural": "Haare", "goethe": "A1" },
-    { "de": "Auge", "en": "eye", "pos": "noun", "article": "das", "plural": "Augen", "goethe": "A1" },
-    { "de": "Gesicht", "en": "face", "pos": "noun", "article": "das", "plural": "Gesichter", "goethe": "A2" },
-    { "de": "Brille", "en": "glasses", "pos": "noun", "article": "die", "plural": "Brillen", "goethe": "A2" },
-    { "de": "Mund", "en": "mouth", "pos": "noun", "article": "der", "plural": "Münder", "goethe": "A1" },
-    { "de": "Ohr", "en": "ear", "pos": "noun", "article": "das", "plural": "Ohren", "goethe": "A2" },
-    { "de": "Mensch", "en": "person, human", "pos": "noun", "article": "der", "plural": "Menschen", "goethe": "A1" },
-    { "de": "aussehen", "en": "to look (like)", "pos": "verb", "aux": "haben", "sep": "aus", "p2": "ausgesehen", "goethe": "A1" },
-    { "de": "tragen", "en": "to wear; to carry", "pos": "verb", "aux": "haben", "p2": "getragen", "goethe": "A2" },
-    { "de": "witzig", "en": "funny", "pos": "adj", "goethe": "A2" },
-    { "de": "groß", "en": "tall, big", "pos": "adj", "goethe": "A1" },
-    { "de": "klein", "en": "short, small", "pos": "adj", "goethe": "A1" },
-    { "de": "dünn", "en": "thin", "pos": "adj", "goethe": "A2" },
-    { "de": "sportlich", "en": "sporty", "pos": "adj", "goethe": "A2" },
-    { "de": "blond", "en": "blond", "pos": "adj", "goethe": "A2" },
-    { "de": "dunkel", "en": "dark", "pos": "adj", "goethe": "A2" },
-    { "de": "freundlich", "en": "friendly", "pos": "adj", "goethe": "A2" },
-    { "de": "hübsch", "en": "pretty", "pos": "adj", "goethe": "A2" },
-    { "de": "lustig", "en": "funny", "pos": "adj", "goethe": "A1" },
-    { "de": "ruhig", "en": "calm, quiet", "pos": "adj", "goethe": "A1" },
-    { "de": "klug", "en": "clever", "pos": "adj", "goethe": "A2" },
-    { "de": "fleißig", "en": "hard-working", "pos": "adj", "goethe": "A2" },
-    { "de": "nett", "en": "nice, kind", "pos": "adj", "goethe": "A2" }
-  ],
   "mindmap": {
     "label": "Adjektivendungen",
     "children": [

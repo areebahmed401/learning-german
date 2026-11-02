@@ -3,7 +3,6 @@
   "level": "B1",
   "title": "um … zu / damit",
   "concept": "Expressing purpose",
-  "wordlist": "Lernen & Studium",
   "minutes": 30,
   "youtube": "https://www.youtube.com/results?search_query=Learn+German+B1+um+zu+damit+purpose",
   "learn": [
@@ -43,30 +42,6 @@
     }
   ],
   "tip": "Ask 'Wozu?' (what for?). If you can answer with the same person doing both things, use um … zu. If another person is involved, use damit.",
-  "words": [
-    { "de": "Referat", "en": "presentation, paper", "pos": "noun", "article": "das", "plural": "Referate", "goethe": "B1" },
-    { "de": "Seminar", "en": "seminar", "pos": "noun", "article": "das", "plural": "Seminare", "goethe": "B1" },
-    { "de": "Prüfung", "en": "exam", "pos": "noun", "article": "die", "plural": "Prüfungen", "goethe": "A1" },
-    { "de": "Note", "en": "grade", "pos": "noun", "article": "die", "plural": "Noten", "goethe": "A2" },
-    { "de": "Hausarbeit", "en": "term paper", "pos": "noun", "article": "die", "plural": "Hausarbeiten", "goethe": "B1" },
-    { "de": "Stundenplan", "en": "timetable", "pos": "noun", "article": "der", "plural": "Stundenpläne", "goethe": "A2" },
-    { "de": "Stipendium", "en": "scholarship", "pos": "noun", "article": "das", "plural": "Stipendien", "goethe": "A2" },
-    { "de": "Bibliothek", "en": "library", "pos": "noun", "article": "die", "plural": "Bibliotheken", "goethe": "A2" },
-    { "de": "Kurs", "en": "course", "pos": "noun", "article": "der", "plural": "Kurse", "goethe": "A1" },
-    { "de": "Fortbildung", "en": "further training", "pos": "noun", "article": "die", "plural": "Fortbildungen", "goethe": "B1" },
-    { "de": "Wortschatz", "en": "vocabulary", "pos": "noun", "article": "der", "plural": "-", "goethe": "A1" },
-    { "de": "Aussprache", "en": "pronunciation", "pos": "noun", "article": "die", "plural": "-", "goethe": "B1" },
-    { "de": "Fehler", "en": "mistake", "pos": "noun", "article": "der", "plural": "Fehler", "goethe": "A1" },
-    { "de": "lernen", "en": "to learn", "pos": "verb", "aux": "haben", "p2": "gelernt", "goethe": "A1" },
-    { "de": "wiederholen", "en": "to repeat, to review", "pos": "verb", "aux": "haben", "p2": "wiederholt", "goethe": "A1" },
-    { "de": "üben", "en": "to practise", "pos": "verb", "aux": "haben", "p2": "geübt", "goethe": "A2" },
-    { "de": "sich konzentrieren", "en": "to concentrate", "pos": "verb", "aux": "haben", "p2": "konzentriert", "goethe": "B1" },
-    { "de": "anmelden", "en": "to register, to sign up", "pos": "verb", "aux": "haben", "sep": "an", "p2": "angemeldet", "goethe": "A1" },
-    { "de": "bestehen", "en": "to pass (an exam)", "pos": "verb", "aux": "haben", "p2": "bestanden", "goethe": "A2" },
-    { "de": "Vortrag", "en": "talk, lecture", "pos": "noun", "article": "der", "plural": "Vorträge", "goethe": "B1" },
-    { "de": "fleißig", "en": "hard-working", "pos": "adj", "goethe": "A2" },
-    { "de": "schwierig", "en": "difficult", "pos": "adj", "goethe": "A2" }
-  ],
   "mindmap": {
     "label": "Purpose",
     "children": [

@@ -3,7 +3,6 @@
   "level": "A1",
   "title": "Präsens & Satzbau",
   "concept": "Present tense and verb-second word order",
-  "wordlist": "Hobbys & Alltag",
   "minutes": 25,
   "youtube": "https://www.youtube.com/results?search_query=Learn+German+A1+present+tense+verb+conjugation+word+order",
   "learn": [
@@ -67,32 +66,6 @@
     }
   ],
   "tip": "Drill the rule \"verb = position 2\" by starting the same sentence three ways: Ich spiele heute Fußball. / Heute spiele ich Fußball. / Fußball spiele ich heute. The verb never moves.",
-  "words": [
-    { "de": "Hobby", "en": "hobby", "pos": "noun", "article": "das", "plural": "Hobbys", "goethe": "A1" },
-    { "de": "Sport", "en": "sport", "pos": "noun", "article": "der", "plural": "-", "goethe": "A1" },
-    { "de": "Lied", "en": "song", "pos": "noun", "article": "das", "plural": "Lieder", "goethe": "A1" },
-    { "de": "Film", "en": "film", "pos": "noun", "article": "der", "plural": "Filme", "goethe": "A1" },
-    { "de": "Buch", "en": "book", "pos": "noun", "article": "das", "plural": "Bücher", "goethe": "A1" },
-    { "de": "Fußball", "en": "football", "pos": "noun", "article": "der", "plural": "-", "goethe": "A1" },
-    { "de": "Freund", "en": "friend (male)", "pos": "noun", "article": "der", "plural": "Freunde", "goethe": "A1" },
-    { "de": "Wochenende", "en": "weekend", "pos": "noun", "article": "das", "plural": "Wochenenden", "goethe": "A1" },
-    { "de": "Arbeit", "en": "work", "pos": "noun", "article": "die", "plural": "Arbeiten", "goethe": "A1" },
-    { "de": "arbeiten", "en": "to work", "pos": "verb", "aux": "haben", "p2": "gearbeitet", "goethe": "A1" },
-    { "de": "machen", "en": "to do; to make", "pos": "verb", "aux": "haben", "p2": "gemacht", "goethe": "A1" },
-    { "de": "spielen", "en": "to play", "pos": "verb", "aux": "haben", "p2": "gespielt", "goethe": "A1" },
-    { "de": "lesen", "en": "to read", "pos": "verb", "aux": "haben", "p2": "gelesen", "goethe": "A1" },
-    { "de": "kochen", "en": "to cook", "pos": "verb", "aux": "haben", "p2": "gekocht", "goethe": "A1" },
-    { "de": "schlafen", "en": "to sleep", "pos": "verb", "aux": "haben", "p2": "geschlafen", "goethe": "A1" },
-    { "de": "fahren", "en": "to drive; to go (by vehicle)", "pos": "verb", "aux": "sein", "p2": "gefahren", "goethe": "A1" },
-    { "de": "schwimmen", "en": "to swim", "pos": "verb", "aux": "sein", "p2": "geschwommen", "goethe": "A1" },
-    { "de": "hören", "en": "to hear; to listen", "pos": "verb", "aux": "haben", "p2": "gehört", "goethe": "A1" },
-    { "de": "trinken", "en": "to drink", "pos": "verb", "aux": "haben", "p2": "getrunken", "goethe": "A1" },
-    { "de": "gern", "en": "gladly; to like doing", "pos": "adv", "goethe": "A1" },
-    { "de": "oft", "en": "often", "pos": "adv", "goethe": "A1" },
-    { "de": "einmal", "en": "once", "pos": "adv", "goethe": "A1" },
-    { "de": "immer", "en": "always", "pos": "adv", "goethe": "A1" },
-    { "de": "nie", "en": "never", "pos": "adv", "goethe": "A1" }
-  ],
   "mindmap": {
     "label": "Präsens",
     "children": [

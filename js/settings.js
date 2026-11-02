@@ -54,8 +54,9 @@ export async function renderSettings(view) {
         ? `Reviews are always shown. Adaptive starts here and is at ${progress.adaptState().cards.newCards} now; changing this restarts it.`
         : 'Reviews are always shown. With adaptive on, this is the starting point.',
         select(s.newCards, [5, 10, 15, 20, 25, 30, 40, 50].map((n) => [n, String(n)]), (v) => set({ newCards: Number(v) }))),
-      field('Deck', '"My level" = every word up to your level (lessons + dictionary).',
-        select(s.deck, [['level', 'My level'], ['mine', 'Lessons I have opened'], ...levels.map((l) => [l, `${l} only`])], (v) => set({ deck: v }))),
+      field('Deck', '"My level" = every word up to your level (Alltag places + dictionary). Pick one place in Karten.',
+        select(s.deck, [['level', 'My level'], ['mine', 'Places I have opened'], ...levels.map((l) => [l, `${l} only`]),
+          ...(s.deck.startsWith('place:') ? [[s.deck, 'One place (picked in Karten)']] : [])], (v) => set({ deck: v }))),
       field('Direction', 'English → Deutsch is better speaking practice.',
         select(s.reverse ? 'en' : 'de', [['de', 'Deutsch → English'], ['en', 'English → Deutsch']], (v) => set({ reverse: v === 'en' }))),
       field('Read German aloud', 'When a card shows the German word.',

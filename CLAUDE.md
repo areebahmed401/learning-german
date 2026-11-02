@@ -6,7 +6,7 @@ Personal German study app (A1 → C1) for one learner. They use the **Learn Germ
 - Dev server: `python -m http.server 8137` (ES modules need http, not file://), then open http://localhost:8137
 - Content check: `python scripts/validate_content.py`
 - Engine tests: `node --test tests/*.test.mjs`
-- Goethe check (local only): `python -I scripts/goethe_check.py` reports A1–B1 lesson words that are not on the official Goethe-Zertifikat list for their level; `--badges` writes the `goethe` field. It needs the three Goethe PDFs in `references/goethe/` (gitignored) and `pdftotext`; it skips quietly without them, so it is not in CI.
+- Goethe check (local only): `python -I scripts/goethe_check.py` reports A1–B1 place words that are on no official Goethe-Zertifikat list; `--badges` writes the `goethe` field (and that level) into place words and core.json. It needs the three Goethe PDFs in `references/goethe/` (gitignored) and `pdftotext`; it skips quietly without them, so it is not in CI.
 
 ## Layout
 - `index.html`, `css/app.css`: shell and theme tokens (light/dark via `[data-theme]` + `prefers-color-scheme`)
@@ -16,7 +16,7 @@ Personal German study app (A1 → C1) for one learner. They use the **Learn Germ
 - `js/settings.js`: the settings page. Settings live in progress.js (`settings()`, `setSettings()`); `currentLevel(road)` is the level setting, or the first level with unfinished stops when it is `auto`
 - `js/adapt.js`: adaptive difficulty rules (pure, tested in `tests/adapt.test.mjs`): `nextNewCards`, `mastery`, `quizPlan`, `readyToAdvance`. Its inputs live in progress.js: `cardStats` (first tries per day), `quiz.answers` (last 200, `{l, t, ok}`), `adapt` (`cards`: today's new-card number; `mastery`: known share per level, cached by the cards page for the road). With `settings.adaptive`, a passed checkpoint makes `currentLevel` skip that level
 - `js/quiz.js`: the daily grammar quiz view; `js/daily.js`: which questions to ask (pure, date-seeded, tested in `tests/daily.test.mjs`). Score and open mistakes live in progress.js (`quiz.days`, `quiz.mistakes`)
-- `js/lesson.js`: lesson steps learn · words · mindmap · practice · speak. The practice step offers "I know this, skip" (`progress.skipLesson`: `done` + `skipped`, drawn ⏭ on the road); a skipped level still needs its checkpoint
+- `js/lesson.js`: lesson steps learn · mindmap · practice · speak (grammar only: all vocabulary lives in the Alltag places). The practice step offers "I know this, skip" (`progress.skipLesson`: `done` + `skipped`, drawn ⏭ on the road); a skipped level still needs its checkpoint
 - `js/cards.js`: daily flashcards view (deck and new-cards-per-day come from settings); `js/srs.js`: its Leitner scheduling (pure functions, tested in `tests/srs.test.mjs`). Card state lives in progress.js (`cards`, `cardDays`) so it is saved with the progress file
 - `js/exercises.js`, `js/mindmap.js`, `js/speech.js`, `js/progress.js`, `js/anki.js`
 - `js/translator/`: verbformen-style lookup (`panel.js` UI, `dictionary.js`, `conjugate.js`, `decline.js`, `online.js`)
@@ -31,7 +31,6 @@ Personal German study app (A1 → C1) for one learner. They use the **Learn Germ
   "level": "A1",
   "title": "Artikel & Genus",      // German title shown on the road
   "concept": "Articles and gender: der, die, das, ein, eine",  // one-line English summary
-  "wordlist": "Familie",           // wordlist theme name, shown on the road
   "minutes": 25,
   "youtube": "https://www.youtube.com/results?search_query=Learn+German+A1+articles+der+die+das",
   "learn": [                       // 2–4 sections
@@ -43,12 +42,6 @@ Personal German study app (A1 → C1) for one learner. They use the **Learn Germ
     }
   ],
   "tip": "One memory hook / mnemonic.",                 // optional
-  "words": [                       // 15–25 words for the wordlist theme
-    { "de": "Mutter", "en": "mother", "pos": "noun", "article": "die", "plural": "Mütter" },  // plural without article; "-" if none
-    { "de": "aufstehen", "en": "to get up", "pos": "verb", "aux": "sein", "sep": "auf", "p2": "aufgestanden" },
-    { "de": "schön", "en": "beautiful", "pos": "adj" },
-    { "de": "heute", "en": "today", "pos": "adv" }     // pos: noun|verb|adj|adv|phrase|prep|pron|conj|num
-  ],
   "mindmap": { "label": "…", "children": [ { "label": "…", "note": "optional hook", "children": [] } ] },  // 3–6 branches, depth ≤ 3
   "exercises": [                   // 10–14 items, mixing types
     { "type": "mc", "q": "…", "options": ["…","…","…"], "answer": 1, "explain": "…" },
@@ -71,7 +64,11 @@ Personal German study app (A1 → C1) for one learner. They use the **Learn Germ
 {
   "id": "flughafen", "icon": "✈️", "title": "Flughafen", "en": "Airport",
   "intro": "1–2 English sentences: what you do here.",
-  "areas": [ { "name": "Gepäckausgabe", "en": "baggage claim", "words": [ /* lesson word format + "level": "A1"…"C1"; 8–14 per area, 45–70 per place */ ] } ],  // 4–6 spots
+  "areas": [ { "name": "Gepäckausgabe", "en": "baggage claim", "words": [  // 8–25 per area, 45–170 per place
+    { "de": "Koffer", "en": "suitcase", "pos": "noun", "article": "der", "plural": "Koffer", "level": "A1" },  // plural without article; "-" if none
+    { "de": "abholen", "en": "to pick up", "pos": "verb", "aux": "haben", "sep": "ab", "p2": "abgeholt", "level": "A1" },
+    { "de": "verspätet", "en": "delayed", "pos": "adj", "level": "A2" }  // pos: noun|verb|adj|adv|phrase|prep|pron|conj|num
+  ] } ],  // 4–9 spots
   "phrases": [ { "de": "Ihren Reisepass, bitte.", "en": "…", "who": "staff" /* or "you" */, "level": "A1" } ],  // 10–16
   "exercises": [ /* lesson exercise types, using this place's words */ ],  // 10–14
   "speak": { "shadow": [ … ], "prompts": [ … ] }  // as in lessons
@@ -86,5 +83,5 @@ Personal German study app (A1 → C1) for one learner. They use the **Learn Germ
 - Every exercise has an `explain` that says *why* the answer is right.
 - Gap/translate answers list every reasonable correct variant. Comparison ignores case and final punctuation.
 - Keep it calm: short explanations and one table per section, at most.
-- A1, A2 and B1 words must be on the Goethe-Zertifikat word list for the lesson's level or a lower one. Run the Goethe check after changing words, and let `--badges` set `"goethe": "A1" | "A2" | "B1"` (don't write it by hand). B2/C1 have no Goethe list and no `goethe` field.
+- Put each word in the place where you meet it (lessons have no words). A word may repeat in another place that needs it; keep its level, article and plural the same in every copy (Karten and the Anki export merge repeats). Give each word an honest `level`; after changing words run the Goethe check with `--badges`, which sets `"goethe"` and the level for words on a Goethe list (don't write `goethe` by hand).
 - The Goethe PDFs are copyrighted: never commit them or copy their example sentences. Use headwords only and write your own examples.

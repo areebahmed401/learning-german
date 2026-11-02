@@ -3,7 +3,6 @@
   "level": "A1",
   "title": "Plural",
   "concept": "Plural forms of nouns",
-  "wordlist": "Wohnung & Möbel",
   "minutes": 25,
   "youtube": "https://www.youtube.com/results?search_query=Learn+German+A1+plural+of+nouns",
   "learn": [
@@ -54,32 +53,6 @@
     }
   ],
   "tip": "Make Anki cards that show the plural on the answer side (\"der Stuhl – die Stühle\"). Never learn a noun without its plural: it is one extra word on the card, but it saves you from guessing for years.",
-  "words": [
-    { "de": "Wohnung", "en": "apartment", "pos": "noun", "article": "die", "plural": "Wohnungen", "goethe": "A1" },
-    { "de": "Haus", "en": "house", "pos": "noun", "article": "das", "plural": "Häuser", "goethe": "A1" },
-    { "de": "Zimmer", "en": "room", "pos": "noun", "article": "das", "plural": "Zimmer", "goethe": "A1" },
-    { "de": "Küche", "en": "kitchen", "pos": "noun", "article": "die", "plural": "Küchen", "goethe": "A1" },
-    { "de": "Bad", "en": "bathroom", "pos": "noun", "article": "das", "plural": "Bäder", "goethe": "A1" },
-    { "de": "Schlafzimmer", "en": "bedroom", "pos": "noun", "article": "das", "plural": "Schlafzimmer", "goethe": "A1" },
-    { "de": "Herd", "en": "stove", "pos": "noun", "article": "der", "plural": "Herde", "goethe": "A1" },
-    { "de": "Balkon", "en": "balcony", "pos": "noun", "article": "der", "plural": "Balkone", "goethe": "A1" },
-    { "de": "Tür", "en": "door", "pos": "noun", "article": "die", "plural": "Türen", "goethe": "A1" },
-    { "de": "Fenster", "en": "window", "pos": "noun", "article": "das", "plural": "Fenster", "goethe": "A1" },
-    { "de": "Tisch", "en": "table", "pos": "noun", "article": "der", "plural": "Tische", "goethe": "A1" },
-    { "de": "Garten", "en": "garden", "pos": "noun", "article": "der", "plural": "Gärten", "goethe": "A1" },
-    { "de": "Bett", "en": "bed", "pos": "noun", "article": "das", "plural": "Betten", "goethe": "A1" },
-    { "de": "Schrank", "en": "cupboard; wardrobe", "pos": "noun", "article": "der", "plural": "Schränke", "goethe": "A1" },
-    { "de": "Treppe", "en": "stairs", "pos": "noun", "article": "die", "plural": "Treppen", "goethe": "A1" },
-    { "de": "Sofa", "en": "sofa", "pos": "noun", "article": "das", "plural": "Sofas", "goethe": "A1" },
-    { "de": "Aufzug", "en": "lift", "pos": "noun", "article": "der", "plural": "Aufzüge", "goethe": "A1" },
-    { "de": "Kühlschrank", "en": "fridge", "pos": "noun", "article": "der", "plural": "Kühlschränke", "goethe": "A1" },
-    { "de": "Schlüssel", "en": "key", "pos": "noun", "article": "der", "plural": "Schlüssel", "goethe": "A1" },
-    { "de": "Miete", "en": "rent", "pos": "noun", "article": "die", "plural": "Mieten", "goethe": "A1" },
-    { "de": "Bild", "en": "picture", "pos": "noun", "article": "das", "plural": "Bilder", "goethe": "A1" },
-    { "de": "Möbel", "en": "furniture", "pos": "noun", "article": "die", "plural": "-", "note": "plural only", "goethe": "A1" },
-    { "de": "groß", "en": "big", "pos": "adj", "goethe": "A1" },
-    { "de": "klein", "en": "small", "pos": "adj", "goethe": "A1" }
-  ],
   "mindmap": {
     "label": "Plural",
     "children": [

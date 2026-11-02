@@ -3,7 +3,6 @@
   "level": "A1",
   "title": "Modalverben",
   "concept": "können, müssen, wollen, dürfen, sollen, möchten",
-  "wordlist": "Freizeit",
   "minutes": 25,
   "youtube": "https://www.youtube.com/results?search_query=Learn+German+A1+Modalverben+k%C3%B6nnen+m%C3%BCssen+wollen",
   "learn": [
@@ -65,31 +64,6 @@
     }
   ],
   "tip": "Think of the frame \"modal ... infinitive\": the modal is like a left bracket in position 2 and the infinitive is the right bracket at the end. Fill the middle with everything else.",
-  "words": [
-    { "de": "Freizeit", "en": "free time", "pos": "noun", "article": "die", "plural": "-", "goethe": "A1" },
-    { "de": "Kino", "en": "cinema", "pos": "noun", "article": "das", "plural": "Kinos", "goethe": "A1" },
-    { "de": "Park", "en": "park", "pos": "noun", "article": "der", "plural": "Parks", "goethe": "A1" },
-    { "de": "Disco", "en": "disco", "pos": "noun", "article": "die", "plural": "Discos", "goethe": "A1" },
-    { "de": "Party", "en": "party", "pos": "noun", "article": "die", "plural": "Partys", "goethe": "A1" },
-    { "de": "Ausflug", "en": "trip; excursion", "pos": "noun", "article": "der", "plural": "Ausflüge", "goethe": "A1" },
-    { "de": "Urlaub", "en": "holiday; vacation", "pos": "noun", "article": "der", "plural": "Urlaube", "goethe": "A1" },
-    { "de": "Restaurant", "en": "restaurant", "pos": "noun", "article": "das", "plural": "Restaurants", "goethe": "A1" },
-    { "de": "Schwimmbad", "en": "swimming pool", "pos": "noun", "article": "das", "plural": "Schwimmbäder", "goethe": "A1" },
-    { "de": "Film", "en": "film", "pos": "noun", "article": "der", "plural": "Filme", "goethe": "A1" },
-    { "de": "Café", "en": "café", "pos": "noun", "article": "das", "plural": "Cafés", "goethe": "A1" },
-    { "de": "Spiel", "en": "game", "pos": "noun", "article": "das", "plural": "Spiele", "goethe": "A1" },
-    { "de": "können", "en": "can; to be able to", "pos": "verb", "aux": "haben", "p2": "gekonnt", "goethe": "A1" },
-    { "de": "müssen", "en": "must; to have to", "pos": "verb", "aux": "haben", "p2": "gemusst", "goethe": "A1" },
-    { "de": "wollen", "en": "to want to", "pos": "verb", "aux": "haben", "p2": "gewollt", "goethe": "A1" },
-    { "de": "tanzen", "en": "to dance", "pos": "verb", "aux": "haben", "p2": "getanzt", "goethe": "A1" },
-    { "de": "wandern", "en": "to hike", "pos": "verb", "aux": "sein", "p2": "gewandert", "goethe": "A1" },
-    { "de": "reisen", "en": "to travel", "pos": "verb", "aux": "sein", "p2": "gereist", "goethe": "A1" },
-    { "de": "treffen", "en": "to meet", "pos": "verb", "aux": "haben", "p2": "getroffen", "goethe": "A1" },
-    { "de": "besuchen", "en": "to visit", "pos": "verb", "aux": "haben", "p2": "besucht", "goethe": "A1" },
-    { "de": "laufen", "en": "to run; to walk", "pos": "verb", "aux": "sein", "p2": "gelaufen", "goethe": "A1" },
-    { "de": "lustig", "en": "funny; fun", "pos": "adj", "goethe": "A1" },
-    { "de": "schön", "en": "nice, beautiful", "pos": "adj", "goethe": "A1" }
-  ],
   "mindmap": {
     "label": "Modalverben",
     "children": [

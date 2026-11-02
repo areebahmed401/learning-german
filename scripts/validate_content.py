@@ -146,8 +146,8 @@ def check_place(path: Path, stop: dict) -> None:
             seen.add(key)
             texts += [str(wd.get(k, "")) for k in ("de", "plural", "p2")]
             total += 1
-    if not 30 <= total <= 90:
-        warnings.append(f"{where}: {total} words (aim for 45–70)")
+    if not 40 <= total <= 200:
+        warnings.append(f"{where}: {total} words (aim for 45–170)")
     for i, ph in enumerate(place.get("phrases", [])):
         w = f"{where} phrases[{i}]"
         need(ph, ["de", "en", "who", "level"], w)
@@ -198,7 +198,9 @@ def check_lesson(path: Path, milestone: dict, level: str) -> None:
     except json.JSONDecodeError as e:
         err(where, f"invalid JSON: {e}")
         return
-    need(lesson, ["id", "level", "title", "concept", "wordlist", "minutes", "learn", "words", "mindmap", "exercises", "speak"], where)
+    need(lesson, ["id", "level", "title", "concept", "minutes", "learn", "mindmap", "exercises", "speak"], where)
+    if "words" in lesson or "wordlist" in lesson:
+        err(where, "lessons are grammar only: words belong in a place (data/places)")
     if lesson.get("id") != milestone["id"]:
         err(where, f"id {lesson.get('id')!r} != roadmap id {milestone['id']!r}")
     if lesson.get("level") != level:
@@ -214,11 +216,6 @@ def check_lesson(path: Path, milestone: dict, level: str) -> None:
                     err(w, f"table row has {len(r)} cells, head has {cols}")
         for ex in sec.get("examples", []):
             need(ex, ["de", "en"], w)
-    words = lesson.get("words", [])
-    if not 12 <= len(words) <= 30:
-        warnings.append(f"{where}: {len(words)} words (aim for 15–25)")
-    for i, wd in enumerate(words):
-        check_word(wd, f"{where} words[{i}] {wd.get('de', '?')}")
     check_mindmap(lesson.get("mindmap", {}), where)
     exs = lesson.get("exercises", [])
     if not 8 <= len(exs) <= 16:
@@ -226,7 +223,7 @@ def check_lesson(path: Path, milestone: dict, level: str) -> None:
     for i, ex in enumerate(exs):
         check_exercise(ex, f"{where} exercises[{i}]")
     speak_de = check_speak(lesson.get("speak", {}), where)
-    umlaut_warnings(where, [str(wd.get(k, "")) for wd in words for k in ("de", "plural", "p2")] + speak_de)
+    umlaut_warnings(where, speak_de)
 
 
 def main(argv: list[str]) -> int:
@@ -237,7 +234,7 @@ def main(argv: list[str]) -> int:
     for level in roadmap["levels"]:
         lv = level["id"]
         for m in level.get("milestones", []):
-            need(m, ["id", "title", "concept", "wordlist"], f"roadmap {lv}")
+            need(m, ["id", "title", "concept"], f"roadmap {lv}")
             if m["id"] in seen:
                 err("roadmap", f"duplicate id {m['id']}")
             seen.add(m["id"])

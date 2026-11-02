@@ -98,7 +98,36 @@
         { "de": "Taxi", "en": "taxi", "pos": "noun", "article": "das", "plural": "Taxis", "level": "A1", "goethe": "A1" },
         { "de": "Gleis", "en": "platform, track", "pos": "noun", "article": "das", "plural": "Gleise", "level": "A1", "goethe": "A1" },
         { "de": "umsteigen", "en": "to change (trains)", "pos": "verb", "aux": "sein", "sep": "um", "p2": "umgestiegen", "level": "A2", "goethe": "A2" },
-        { "de": "entwerten", "en": "to validate (a ticket)", "pos": "verb", "aux": "haben", "p2": "entwertet", "level": "B1" }
+        { "de": "entwerten", "en": "to validate (a ticket)", "pos": "verb", "aux": "haben", "p2": "entwertet", "level": "A2" }
+      ]
+    },
+    {
+      "name": "Woher kommen Sie?",
+      "en": "country, language and origin",
+      "words": [
+        { "de": "Land", "en": "country", "pos": "noun", "article": "das", "plural": "Länder", "level": "A1", "goethe": "A1" },
+        { "de": "Sprache", "en": "language", "pos": "noun", "article": "die", "plural": "Sprachen", "level": "A1", "goethe": "A1" },
+        { "de": "Deutschland", "en": "Germany", "pos": "noun", "article": "das", "plural": "-", "note": "no article in sentences", "level": "A1", "goethe": "A1" },
+        { "de": "Österreich", "en": "Austria", "pos": "noun", "article": "das", "plural": "-", "note": "no article in sentences", "level": "A1", "goethe": "A1" },
+        { "de": "Schweiz", "en": "Switzerland", "pos": "noun", "article": "die", "plural": "-", "note": "in der Schweiz", "level": "A1", "goethe": "A1" },
+        { "de": "Ausland", "en": "abroad, foreign country", "pos": "noun", "article": "das", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "Türkei", "en": "Turkey", "pos": "noun", "article": "die", "plural": "-", "note": "in der Türkei", "level": "A1", "goethe": "A1" },
+        { "de": "Deutsch", "en": "German (language)", "pos": "noun", "article": "das", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "Englisch", "en": "English (language)", "pos": "noun", "article": "das", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "Ausländer", "en": "foreigner (male)", "pos": "noun", "article": "der", "plural": "Ausländer", "level": "A1", "goethe": "A1" },
+        { "de": "sein", "en": "to be", "pos": "verb", "aux": "sein", "p2": "gewesen", "level": "A1", "goethe": "A1" },
+        { "de": "haben", "en": "to have", "pos": "verb", "aux": "haben", "p2": "gehabt", "level": "A1", "goethe": "A1" },
+        { "de": "kommen", "en": "to come", "pos": "verb", "aux": "sein", "p2": "gekommen", "level": "A1", "goethe": "A1" },
+        { "de": "sprechen", "en": "to speak", "pos": "verb", "aux": "haben", "p2": "gesprochen", "level": "A1", "goethe": "A1" },
+        { "de": "wohnen", "en": "to live (reside)", "pos": "verb", "aux": "haben", "p2": "gewohnt", "level": "A1", "goethe": "A1" },
+        { "de": "lernen", "en": "to learn", "pos": "verb", "aux": "haben", "p2": "gelernt", "level": "A1", "goethe": "A1" },
+        { "de": "verstehen", "en": "to understand", "pos": "verb", "aux": "haben", "p2": "verstanden", "level": "A1", "goethe": "A1" },
+        { "de": "deutsch", "en": "German (adj.)", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "englisch", "en": "English (adj.)", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "international", "en": "international", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "aus", "en": "from; out of", "pos": "prep", "level": "A1", "goethe": "A1" },
+        { "de": "woher", "en": "where from", "pos": "adv", "level": "A1", "goethe": "A1" },
+        { "de": "auch", "en": "also; too", "pos": "adv", "level": "A1", "goethe": "A1" }
       ]
     }
   ],

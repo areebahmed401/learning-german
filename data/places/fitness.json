@@ -1,0 +1,349 @@
+{
+  "id": "fitness",
+  "icon": "🏋️",
+  "title": "Fitnessstudio & Sport",
+  "en": "Gym & sport",
+  "intro": "You sign up at a gym or a sports club, learn the machines and classes, and talk about your body, your health and what you do in your free time. Gyms and Vereine use the same few phrases again and again.",
+  "areas": [
+    {
+      "name": "Anmeldung & Vertrag",
+      "en": "joining and contract",
+      "words": [
+        { "de": "Fitnessstudio", "en": "gym", "pos": "noun", "article": "das", "plural": "Fitnessstudios", "level": "A2" },
+        { "de": "Mitgliedschaft", "en": "membership", "pos": "noun", "article": "die", "plural": "Mitgliedschaften", "level": "B1" },
+        { "de": "Mitglied", "en": "member", "pos": "noun", "article": "das", "plural": "Mitglieder", "level": "B1", "goethe": "B1" },
+        { "de": "Mitgliedsbeitrag", "en": "membership fee", "pos": "noun", "article": "der", "plural": "Mitgliedsbeiträge", "level": "B1", "goethe": "B1" },
+        { "de": "Laufzeit", "en": "contract term", "pos": "noun", "article": "die", "plural": "Laufzeiten", "level": "B2" },
+        { "de": "Kündigungsfrist", "en": "notice period", "pos": "noun", "article": "die", "plural": "Kündigungsfristen", "level": "B2" },
+        { "de": "Probetraining", "en": "trial session", "pos": "noun", "article": "das", "plural": "Probetrainings", "level": "B1" },
+        { "de": "Schließfach", "en": "locker", "pos": "noun", "article": "das", "plural": "Schließfächer", "level": "B1" },
+        { "de": "Trainer", "en": "trainer, coach (male)", "pos": "noun", "article": "der", "plural": "Trainer", "level": "B1", "goethe": "B1" },
+        { "de": "Trainerin", "en": "trainer, coach (female)", "pos": "noun", "article": "die", "plural": "Trainerinnen", "level": "B1", "goethe": "B1" },
+        { "de": "sich anmelden", "en": "to sign up", "pos": "verb", "aux": "haben", "sep": "an", "p2": "angemeldet", "level": "A1", "goethe": "A1" },
+        { "de": "abschließen", "en": "to take out, to conclude (a contract)", "pos": "verb", "aux": "haben", "sep": "ab", "p2": "abgeschlossen", "level": "A2", "goethe": "A2" }
+      ]
+    },
+    {
+      "name": "Geräte & Training",
+      "en": "machines and workout",
+      "words": [
+        { "de": "Training", "en": "training", "pos": "noun", "article": "das", "plural": "Trainings", "level": "A2", "goethe": "A2" },
+        { "de": "trainieren", "en": "to train, to work out", "pos": "verb", "aux": "haben", "p2": "trainiert", "level": "A2", "goethe": "A2" },
+        { "de": "Bewegung", "en": "movement, exercise", "pos": "noun", "article": "die", "plural": "Bewegungen", "level": "B1", "goethe": "B1" },
+        { "de": "anstrengend", "en": "exhausting", "pos": "adj", "level": "B1", "goethe": "B1" },
+        { "de": "fit", "en": "fit", "pos": "adj", "level": "A2", "goethe": "A2" },
+        { "de": "joggen", "en": "to jog", "pos": "verb", "aux": "sein", "p2": "gejoggt", "level": "A2", "goethe": "A2" },
+        { "de": "laufen", "en": "to run; to walk", "pos": "verb", "aux": "sein", "p2": "gelaufen", "level": "A1", "goethe": "A1" },
+        { "de": "Gerät", "en": "machine, device", "pos": "noun", "article": "das", "plural": "Geräte", "level": "A2", "goethe": "A2" },
+        { "de": "Laufband", "en": "treadmill", "pos": "noun", "article": "das", "plural": "Laufbänder", "level": "B1" },
+        { "de": "Hantel", "en": "dumbbell", "pos": "noun", "article": "die", "plural": "Hanteln", "level": "B2" },
+        { "de": "Kraftraum", "en": "weights room", "pos": "noun", "article": "der", "plural": "Kraftträume", "level": "B2" },
+        { "de": "Matte", "en": "mat", "pos": "noun", "article": "die", "plural": "Matten", "level": "B1" },
+        { "de": "Gewicht", "en": "weight", "pos": "noun", "article": "das", "plural": "Gewichte", "level": "A1", "goethe": "A1" },
+        { "de": "Wiederholung", "en": "repetition", "pos": "noun", "article": "die", "plural": "Wiederholungen", "level": "B1", "goethe": "B1" },
+        { "de": "heben", "en": "to lift", "pos": "verb", "aux": "haben", "p2": "gehoben", "level": "B1", "goethe": "B1" },
+        { "de": "sich aufwärmen", "en": "to warm up", "pos": "verb", "aux": "haben", "sep": "auf", "p2": "aufgewärmt", "level": "B1" },
+        { "de": "sich dehnen", "en": "to stretch", "pos": "verb", "aux": "haben", "p2": "gedehnt", "level": "B2" }
+      ]
+    },
+    {
+      "name": "Kurse & Wellness",
+      "en": "classes, sauna and changing room",
+      "words": [
+        { "de": "schwimmen", "en": "to swim", "pos": "verb", "aux": "sein", "p2": "geschwommen", "level": "A1", "goethe": "A1" },
+        { "de": "Schwimmbad", "en": "swimming pool", "pos": "noun", "article": "das", "plural": "Schwimmbäder", "level": "A1", "goethe": "A1" },
+        { "de": "tanzen", "en": "to dance", "pos": "verb", "aux": "haben", "p2": "getanzt", "level": "A1", "goethe": "A1" },
+        { "de": "trinken", "en": "to drink", "pos": "verb", "aux": "haben", "p2": "getrunken", "level": "A1", "goethe": "A1" },
+        { "de": "Kurs", "en": "class, course", "pos": "noun", "article": "der", "plural": "Kurse", "level": "A1", "goethe": "A1" },
+        { "de": "Yoga", "en": "yoga", "pos": "noun", "article": "das", "plural": "-", "level": "B1" },
+        { "de": "Sauna", "en": "sauna", "pos": "noun", "article": "die", "plural": "Saunen", "level": "B1" },
+        { "de": "Umkleide", "en": "changing room", "pos": "noun", "article": "die", "plural": "Umkleiden", "level": "B1" },
+        { "de": "Dusche", "en": "shower", "pos": "noun", "article": "die", "plural": "Duschen", "level": "A1", "goethe": "A1" },
+        { "de": "Handtuch", "en": "towel", "pos": "noun", "article": "das", "plural": "Handtücher", "level": "A2", "goethe": "A2" },
+        { "de": "Flasche", "en": "bottle", "pos": "noun", "article": "die", "plural": "Flaschen", "level": "A1", "goethe": "A1" },
+        { "de": "Wasser", "en": "water", "pos": "noun", "article": "das", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "sich entspannen", "en": "to relax", "pos": "verb", "aux": "haben", "p2": "entspannt", "level": "B1" },
+        { "de": "schwitzen", "en": "to sweat", "pos": "verb", "aux": "haben", "p2": "geschwitzt", "level": "B1", "goethe": "B1" }
+      ]
+    },
+    {
+      "name": "Körper",
+      "en": "the body",
+      "words": [
+        { "de": "Körper", "en": "body", "pos": "noun", "article": "der", "plural": "Körper", "level": "A2", "goethe": "A2" },
+        { "de": "Arm", "en": "arm", "pos": "noun", "article": "der", "plural": "Arme", "level": "A1", "goethe": "A1" },
+        { "de": "Bein", "en": "leg", "pos": "noun", "article": "das", "plural": "Beine", "level": "A1", "goethe": "A1" },
+        { "de": "Rücken", "en": "back", "pos": "noun", "article": "der", "plural": "Rücken", "level": "A2", "goethe": "A2" },
+        { "de": "Knie", "en": "knee", "pos": "noun", "article": "das", "plural": "Knie", "level": "B1", "goethe": "B1" },
+        { "de": "Schulter", "en": "shoulder", "pos": "noun", "article": "die", "plural": "Schultern", "level": "B1", "goethe": "B1" },
+        { "de": "Herz", "en": "heart", "pos": "noun", "article": "das", "plural": "Herzen", "level": "B1", "goethe": "B1" },
+        { "de": "Muskel", "en": "muscle", "pos": "noun", "article": "der", "plural": "Muskeln", "level": "B1", "goethe": "B1" },
+        { "de": "Muskelkater", "en": "sore muscles", "pos": "noun", "article": "der", "plural": "-", "level": "B2" },
+        { "de": "atmen", "en": "to breathe", "pos": "verb", "aux": "haben", "p2": "geatmet", "level": "B1", "goethe": "B1" }
+      ]
+    },
+    {
+      "name": "Gesundheit & Verletzung",
+      "en": "health and injury",
+      "words": [
+        { "de": "Gesundheit", "en": "health", "pos": "noun", "article": "die", "plural": "-", "level": "A2", "goethe": "A2" },
+        { "de": "gesund", "en": "healthy", "pos": "adj", "level": "A2", "goethe": "A2" },
+        { "de": "krank", "en": "ill", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "Ernährung", "en": "nutrition, diet", "pos": "noun", "article": "die", "plural": "-", "level": "B1", "goethe": "B1" },
+        { "de": "Verletzung", "en": "injury", "pos": "noun", "article": "die", "plural": "Verletzungen", "level": "B1", "goethe": "B1" },
+        { "de": "sich verletzen", "en": "to injure oneself", "pos": "verb", "aux": "haben", "p2": "verletzt", "level": "A2", "goethe": "A2" },
+        { "de": "sich erholen", "en": "to recover, to rest", "pos": "verb", "aux": "haben", "p2": "erholt", "level": "B1", "goethe": "B1" },
+        { "de": "Arzt", "en": "doctor (male)", "pos": "noun", "article": "der", "plural": "Ärzte", "level": "A1", "goethe": "A1" },
+        { "de": "Ärztin", "en": "doctor (female)", "pos": "noun", "article": "die", "plural": "Ärztinnen", "level": "A1", "goethe": "A1" },
+        { "de": "Termin", "en": "appointment", "pos": "noun", "article": "der", "plural": "Termine", "level": "A1", "goethe": "A1" },
+        { "de": "Schmerz", "en": "pain", "pos": "noun", "article": "der", "plural": "Schmerzen", "level": "A2", "goethe": "A2" },
+        { "de": "Erkältung", "en": "cold", "pos": "noun", "article": "die", "plural": "Erkältungen", "level": "B1", "goethe": "B1" },
+        { "de": "Fieber", "en": "fever", "pos": "noun", "article": "das", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "Krankenkasse", "en": "health insurer", "pos": "noun", "article": "die", "plural": "Krankenkassen", "level": "A2", "goethe": "A2" },
+        { "de": "Rezept", "en": "prescription", "pos": "noun", "article": "das", "plural": "Rezepte", "level": "A2", "goethe": "A2" },
+        { "de": "untersuchen", "en": "to examine", "pos": "verb", "aux": "haben", "p2": "untersucht", "level": "A2", "goethe": "A2" }
+      ]
+    },
+    {
+      "name": "Verein & Mannschaft",
+      "en": "sports club and team",
+      "words": [
+        { "de": "Sport", "en": "sport", "pos": "noun", "article": "der", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "Fußball", "en": "football", "pos": "noun", "article": "der", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "Spiel", "en": "game", "pos": "noun", "article": "das", "plural": "Spiele", "level": "A1", "goethe": "A1" },
+        { "de": "spielen", "en": "to play", "pos": "verb", "aux": "haben", "p2": "gespielt", "level": "A1", "goethe": "A1" },
+        { "de": "Verein", "en": "club, association", "pos": "noun", "article": "der", "plural": "Vereine", "level": "A1", "goethe": "A1" },
+        { "de": "Mannschaft", "en": "team", "pos": "noun", "article": "die", "plural": "Mannschaften", "level": "A2", "goethe": "A2" },
+        { "de": "Spieler", "en": "player (male)", "pos": "noun", "article": "der", "plural": "Spieler", "level": "B1", "goethe": "B1" },
+        { "de": "Spielerin", "en": "player (female)", "pos": "noun", "article": "die", "plural": "Spielerinnen", "level": "B1", "goethe": "B1" },
+        { "de": "Schiedsrichter", "en": "referee", "pos": "noun", "article": "der", "plural": "Schiedsrichter", "level": "B2" },
+        { "de": "Tor", "en": "goal", "pos": "noun", "article": "das", "plural": "Tore", "level": "B1", "goethe": "B1" },
+        { "de": "Sportplatz", "en": "sports field", "pos": "noun", "article": "der", "plural": "Sportplätze", "level": "A2", "goethe": "A2" },
+        { "de": "Sporthalle", "en": "sports hall", "pos": "noun", "article": "die", "plural": "Sporthallen", "level": "A2", "goethe": "A2" },
+        { "de": "Turnier", "en": "tournament", "pos": "noun", "article": "das", "plural": "Turniere", "level": "B1" },
+        { "de": "Sieg", "en": "win, victory", "pos": "noun", "article": "der", "plural": "Siege", "level": "B1", "goethe": "B1" },
+        { "de": "gewinnen", "en": "to win", "pos": "verb", "aux": "haben", "p2": "gewonnen", "level": "A1", "goethe": "A1" },
+        { "de": "beitreten", "en": "to join (a club)", "pos": "verb", "aux": "sein", "sep": "bei", "p2": "beigetreten", "level": "B2" }
+      ]
+    },
+    {
+      "name": "Hobbys",
+      "en": "hobbies and free time",
+      "words": [
+        { "de": "Hobby", "en": "hobby", "pos": "noun", "article": "das", "plural": "Hobbys", "level": "A1", "goethe": "A1" },
+        { "de": "Freizeit", "en": "free time", "pos": "noun", "article": "die", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "Lied", "en": "song", "pos": "noun", "article": "das", "plural": "Lieder", "level": "A1", "goethe": "A1" },
+        { "de": "Film", "en": "film", "pos": "noun", "article": "der", "plural": "Filme", "level": "A1", "goethe": "A1" },
+        { "de": "Buch", "en": "book", "pos": "noun", "article": "das", "plural": "Bücher", "level": "A1", "goethe": "A1" },
+        { "de": "lesen", "en": "to read", "pos": "verb", "aux": "haben", "p2": "gelesen", "level": "A1", "goethe": "A1" },
+        { "de": "kochen", "en": "to cook", "pos": "verb", "aux": "haben", "p2": "gekocht", "level": "A1", "goethe": "A1" },
+        { "de": "hören", "en": "to hear; to listen", "pos": "verb", "aux": "haben", "p2": "gehört", "level": "A1", "goethe": "A1" },
+        { "de": "machen", "en": "to do; to make", "pos": "verb", "aux": "haben", "p2": "gemacht", "level": "A1", "goethe": "A1" },
+        { "de": "schlafen", "en": "to sleep", "pos": "verb", "aux": "haben", "p2": "geschlafen", "level": "A1", "goethe": "A1" }
+      ]
+    },
+    {
+      "name": "Ausgehen & Treffen",
+      "en": "going out and meeting friends",
+      "words": [
+        { "de": "Kino", "en": "cinema", "pos": "noun", "article": "das", "plural": "Kinos", "level": "A1", "goethe": "A1" },
+        { "de": "Park", "en": "park", "pos": "noun", "article": "der", "plural": "Parks", "level": "A1", "goethe": "A1" },
+        { "de": "Disco", "en": "disco", "pos": "noun", "article": "die", "plural": "Discos", "level": "A1", "goethe": "A1" },
+        { "de": "Party", "en": "party", "pos": "noun", "article": "die", "plural": "Partys", "level": "A1", "goethe": "A1" },
+        { "de": "Restaurant", "en": "restaurant", "pos": "noun", "article": "das", "plural": "Restaurants", "level": "A1", "goethe": "A1" },
+        { "de": "Café", "en": "café", "pos": "noun", "article": "das", "plural": "Cafés", "level": "A1", "goethe": "A1" },
+        { "de": "Freund", "en": "friend (male)", "pos": "noun", "article": "der", "plural": "Freunde", "level": "A1", "goethe": "A1" },
+        { "de": "treffen", "en": "to meet", "pos": "verb", "aux": "haben", "p2": "getroffen", "level": "A1", "goethe": "A1" },
+        { "de": "besuchen", "en": "to visit", "pos": "verb", "aux": "haben", "p2": "besucht", "level": "A1", "goethe": "A1" },
+        { "de": "Ausflug", "en": "trip; excursion", "pos": "noun", "article": "der", "plural": "Ausflüge", "level": "A1", "goethe": "A1" },
+        { "de": "Urlaub", "en": "holiday; vacation", "pos": "noun", "article": "der", "plural": "Urlaube", "level": "A1", "goethe": "A1" },
+        { "de": "Wochenende", "en": "weekend", "pos": "noun", "article": "das", "plural": "Wochenenden", "level": "A1", "goethe": "A1" },
+        { "de": "wandern", "en": "to hike", "pos": "verb", "aux": "sein", "p2": "gewandert", "level": "A1", "goethe": "A1" },
+        { "de": "reisen", "en": "to travel", "pos": "verb", "aux": "sein", "p2": "gereist", "level": "A1", "goethe": "A1" },
+        { "de": "fahren", "en": "to drive; to go (by vehicle)", "pos": "verb", "aux": "sein", "p2": "gefahren", "level": "A1", "goethe": "A1" }
+      ]
+    },
+    {
+      "name": "Oft, gern, nie",
+      "en": "habits and preferences",
+      "words": [
+        { "de": "gern", "en": "gladly; to like doing", "pos": "adv", "level": "A1", "goethe": "A1" },
+        { "de": "oft", "en": "often", "pos": "adv", "level": "A1", "goethe": "A1" },
+        { "de": "einmal", "en": "once", "pos": "adv", "level": "A1", "goethe": "A1" },
+        { "de": "immer", "en": "always", "pos": "adv", "level": "A1", "goethe": "A1" },
+        { "de": "nie", "en": "never", "pos": "adv", "level": "A1", "goethe": "A1" },
+        { "de": "können", "en": "can; to be able to", "pos": "verb", "aux": "haben", "p2": "gekonnt", "level": "A1", "goethe": "A1" },
+        { "de": "müssen", "en": "must; to have to", "pos": "verb", "aux": "haben", "p2": "gemusst", "level": "A1", "goethe": "A1" },
+        { "de": "wollen", "en": "to want to", "pos": "verb", "aux": "haben", "p2": "gewollt", "level": "A1", "goethe": "A1" },
+        { "de": "lustig", "en": "funny; fun", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "schön", "en": "nice, beautiful", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "Arbeit", "en": "work", "pos": "noun", "article": "die", "plural": "Arbeiten", "level": "A1", "goethe": "A1" },
+        { "de": "arbeiten", "en": "to work", "pos": "verb", "aux": "haben", "p2": "gearbeitet", "level": "A1", "goethe": "A1" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "de": "Möchten Sie ein Probetraining machen?", "en": "Would you like to do a trial session?", "who": "staff", "level": "B1" },
+    { "de": "Wie lange läuft der Vertrag?", "en": "How long does the contract run?", "who": "you", "level": "B1" },
+    { "de": "Der Vertrag läuft zwölf Monate.", "en": "The contract runs for twelve months.", "who": "staff", "level": "B1" },
+    { "de": "Was kostet die Mitgliedschaft im Monat?", "en": "What does the membership cost per month?", "who": "you", "level": "A2" },
+    { "de": "Wann kann ich kündigen?", "en": "When can I cancel?", "who": "you", "level": "A2" },
+    { "de": "Die Kündigungsfrist beträgt drei Monate.", "en": "The notice period is three months.", "who": "staff", "level": "B2" },
+    { "de": "Bitte wischen Sie das Gerät nach dem Training ab.", "en": "Please wipe down the machine after your workout.", "who": "staff", "level": "B1" },
+    { "de": "Wie funktioniert dieses Gerät?", "en": "How does this machine work?", "who": "you", "level": "A2" },
+    { "de": "Brauchen Sie das Gerät noch?", "en": "Do you still need the machine?", "who": "staff", "level": "A2" },
+    { "de": "Wo sind die Umkleiden?", "en": "Where are the changing rooms?", "who": "you", "level": "A1" },
+    { "de": "Um wie viel Uhr beginnt der Yogakurs?", "en": "What time does the yoga class start?", "who": "you", "level": "A2" },
+    { "de": "Der Kurs ist leider schon voll.", "en": "Unfortunately the class is already full.", "who": "staff", "level": "A2" },
+    { "de": "Ich habe Muskelkater in den Beinen.", "en": "My legs are sore from exercise.", "who": "you", "level": "B2" },
+    { "de": "Ich spiele einmal pro Woche Fußball.", "en": "I play football once a week.", "who": "you", "level": "A2" },
+    { "de": "Wir suchen noch einen Spieler für unsere Mannschaft.", "en": "We are still looking for a player for our team.", "who": "staff", "level": "B1" }
+  ],
+  "exercises": [
+    { "type": "article", "word": "Fitnessstudio", "answer": "das", "explain": "Studio is neuter, so the compound is das Fitnessstudio." },
+    { "type": "article", "word": "Mitgliedschaft", "answer": "die", "explain": "Nouns ending in -schaft are always feminine: die Mitgliedschaft." },
+    { "type": "article", "word": "Mannschaft", "answer": "die", "explain": "Again -schaft: die Mannschaft." },
+    { "type": "article", "word": "Muskelkater", "answer": "der", "explain": "Muskelkater is masculine (like der Kater): der Muskelkater." },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "die Mitgliedschaft",
+          "membership"
+        ],
+        [
+          "das Schließfach",
+          "locker"
+        ],
+        [
+          "die Umkleide",
+          "changing room"
+        ],
+        [
+          "das Laufband",
+          "treadmill"
+        ]
+      ],
+      "explain": "Four things you meet in the first five minutes at a gym."
+    },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "sich aufwärmen",
+          "to warm up"
+        ],
+        [
+          "heben",
+          "to lift"
+        ],
+        [
+          "schwitzen",
+          "to sweat"
+        ],
+        [
+          "sich dehnen",
+          "to stretch"
+        ],
+        [
+          "sich entspannen",
+          "to relax"
+        ]
+      ],
+      "explain": "Verbs for a workout, from start to finish."
+    },
+    {
+      "type": "gap",
+      "q": "Ich möchte ein Probetraining ___.",
+      "answer": [
+        "machen"
+      ],
+      "explain": "Probetraining machen is the usual combination: ein Probetraining machen."
+    },
+    {
+      "type": "gap",
+      "q": "Die ___ beträgt drei Monate.",
+      "answer": [
+        "Kündigungsfrist"
+      ],
+      "explain": "The notice period is die Kündigungsfrist."
+    },
+    {
+      "type": "gap",
+      "q": "Nach dem Training habe ich ___ in den Beinen.",
+      "answer": [
+        "Muskelkater"
+      ],
+      "explain": "Muskelkater is the word for sore muscles after exercise."
+    },
+    {
+      "type": "translate",
+      "en": "Where are the changing rooms?",
+      "answer": [
+        "Wo sind die Umkleiden?",
+        "Wo ist die Umkleide?"
+      ],
+      "explain": "Wo sind + plural die Umkleiden; a single room is die Umkleide."
+    },
+    {
+      "type": "translate",
+      "en": "I play football once a week.",
+      "answer": [
+        "Ich spiele einmal pro Woche Fußball.",
+        "Ich spiele einmal in der Woche Fußball.",
+        "Ich spiele einmal die Woche Fußball."
+      ],
+      "explain": "Subject, verb in position two, then time (einmal pro Woche), then Fußball."
+    },
+    {
+      "type": "mc",
+      "q": "The trainer says: \"Der Kurs ist leider schon voll.\" What does that mean?",
+      "options": [
+        "The class is cancelled.",
+        "The class is already full.",
+        "The class is too hard."
+      ],
+      "answer": 1,
+      "explain": "Voll means full: there are no places left in the class."
+    },
+    {
+      "type": "mc",
+      "q": "You want to know if you can leave the gym contract early. What do you ask?",
+      "options": [
+        "Wann kann ich kündigen?",
+        "Wann kann ich trainieren?",
+        "Wo ist mein Schließfach?"
+      ],
+      "answer": 0,
+      "explain": "Kündigen means to cancel a contract, so Wann kann ich kündigen? asks about the cancellation."
+    },
+    {
+      "type": "order",
+      "words": [
+        "Probetraining",
+        "ein",
+        "Ich",
+        "möchte",
+        "machen"
+      ],
+      "answer": "Ich möchte ein Probetraining machen",
+      "explain": "The modal verb möchte is the verb in position 2; the infinitive machen goes to the end."
+    }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Ich möchte ein Probetraining machen.", "en": "I would like to do a trial session." },
+      { "de": "Wie lange läuft der Vertrag?", "en": "How long does the contract run?" },
+      { "de": "Wann kann ich kündigen?", "en": "When can I cancel?" },
+      { "de": "Wie funktioniert dieses Gerät?", "en": "How does this machine work?" },
+      { "de": "Ich gehe zweimal pro Woche ins Fitnessstudio.", "en": "I go to the gym twice a week." },
+      { "de": "Ich habe Muskelkater in den Beinen.", "en": "My legs are sore from exercise." }
+    ],
+    "prompts": [
+      { "q": "Guten Tag! Wie kann ich Ihnen helfen?", "qEn": "Hello! How can I help you? (reception at the gym)", "model": "Guten Tag. Ich möchte mich anmelden. Was kostet die Mitgliedschaft im Monat?", "hint": "Say you want to join and ask about the price." },
+      { "q": "Wie oft möchten Sie pro Woche trainieren?", "qEn": "How often would you like to train per week? (trainer asks)", "model": "Ich möchte zweimal pro Woche trainieren, am Dienstag und am Samstag.", "hint": "Name a number and two days." },
+      { "q": "Was machen Sie in Ihrer Freizeit?", "qEn": "What do you do in your free time? (a club member asks)", "model": "Ich spiele gern Fußball und ich lese viel. Am Wochenende treffe ich oft Freunde.", "hint": "Two hobbies and when you do them." },
+      { "q": "Haben Sie Beschwerden oder eine Verletzung?", "qEn": "Do you have any complaints or an injury? (before your first training)", "model": "Nein, ich bin gesund. Nur mein Knie tut manchmal weh.", "hint": "Say you are healthy or mention a sore spot." }
+    ]
+  }
+}

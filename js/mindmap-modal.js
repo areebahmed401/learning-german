@@ -20,7 +20,7 @@ export function openMindmapModal(lesson, { lessonHref } = {}) {
   const close = h('button.icon-btn', { type: 'button', 'aria-label': 'Close mind map', onclick: closeMindmapModal }, '✕');
   const dialog = h('div.mm-modal', { role: 'dialog', 'aria-modal': 'true', 'aria-label': `Mind map: ${lesson.title}` },
     h('div.mm-modal-head',
-      h('div', h('b', `🧠 ${lesson.title}`), h('div.muted', `${lesson.concept} · 🗂 ${lesson.wordlist}`)),
+      h('div', h('b', `🧠 ${lesson.title}`), h('div.muted', [lesson.concept, lesson.wordlist].filter(Boolean).join(' · '))),
       h('div.mm-modal-actions',
         lessonHref ? h('a.btn.small.primary', { href: lessonHref, onclick: closeMindmapModal }, 'Open lesson →') : null,
         close)),

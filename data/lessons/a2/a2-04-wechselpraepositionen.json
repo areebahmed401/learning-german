@@ -3,7 +3,6 @@
   "level": "A2",
   "title": "Wechselpräpositionen",
   "concept": "Two-way prepositions; stellen/stehen, legen/liegen",
-  "wordlist": "Wohnung einrichten",
   "minutes": 30,
   "youtube": "https://www.youtube.com/results?search_query=Learn+German+A2+Wechselpr%C3%A4positionen+stellen+stehen+legen+liegen",
   "learn": [
@@ -52,32 +51,6 @@
     }
   ],
   "tip": "Ask yourself: is something moving to a new place? Then Wohin? + Akkusativ + a regular verb (stellen, legen). If nothing moves: Wo? + Dativ + stehen, liegen.",
-  "words": [
-    { "de": "Wohnzimmer", "en": "living room", "pos": "noun", "article": "das", "plural": "Wohnzimmer", "goethe": "A2" },
-    { "de": "Schlafzimmer", "en": "bedroom", "pos": "noun", "article": "das", "plural": "Schlafzimmer", "goethe": "A1" },
-    { "de": "Küche", "en": "kitchen", "pos": "noun", "article": "die", "plural": "Küchen", "goethe": "A1" },
-    { "de": "Zimmer", "en": "room", "pos": "noun", "article": "das", "plural": "Zimmer", "goethe": "A1" },
-    { "de": "Balkon", "en": "balcony", "pos": "noun", "article": "der", "plural": "Balkone", "goethe": "A1" },
-    { "de": "Sofa", "en": "sofa", "pos": "noun", "article": "das", "plural": "Sofas", "goethe": "A1" },
-    { "de": "Tisch", "en": "table", "pos": "noun", "article": "der", "plural": "Tische", "goethe": "A1" },
-    { "de": "Stuhl", "en": "chair", "pos": "noun", "article": "der", "plural": "Stühle", "goethe": "A2" },
-    { "de": "Regal", "en": "shelf", "pos": "noun", "article": "das", "plural": "Regale", "goethe": "A2" },
-    { "de": "Schrank", "en": "wardrobe, cupboard", "pos": "noun", "article": "der", "plural": "Schränke", "goethe": "A1" },
-    { "de": "Bett", "en": "bed", "pos": "noun", "article": "das", "plural": "Betten", "goethe": "A1" },
-    { "de": "Lampe", "en": "lamp", "pos": "noun", "article": "die", "plural": "Lampen", "goethe": "A2" },
-    { "de": "Fenster", "en": "window", "pos": "noun", "article": "das", "plural": "Fenster", "goethe": "A1" },
-    { "de": "Tür", "en": "door", "pos": "noun", "article": "die", "plural": "Türen", "goethe": "A1" },
-    { "de": "Bild", "en": "picture", "pos": "noun", "article": "das", "plural": "Bilder", "goethe": "A1" },
-    { "de": "Wand", "en": "wall", "pos": "noun", "article": "die", "plural": "Wände", "goethe": "A2" },
-    { "de": "Bad", "en": "bathroom", "pos": "noun", "article": "das", "plural": "Bäder", "goethe": "A1" },
-    { "de": "stellen", "en": "to put (upright)", "pos": "verb", "aux": "haben", "p2": "gestellt", "goethe": "A1" },
-    { "de": "stehen", "en": "to stand", "pos": "verb", "aux": "haben", "p2": "gestanden", "goethe": "A1" },
-    { "de": "legen", "en": "to lay, to put (flat)", "pos": "verb", "aux": "haben", "p2": "gelegt", "goethe": "A1" },
-    { "de": "liegen", "en": "to lie, to be located (flat)", "pos": "verb", "aux": "haben", "p2": "gelegen", "goethe": "A1" },
-    { "de": "hängen", "en": "to hang (position)", "pos": "verb", "aux": "haben", "p2": "gehangen", "note": "hang something up: hängen → gehängt", "goethe": "A2" },
-    { "de": "Treppe", "en": "stairs", "pos": "noun", "article": "die", "plural": "Treppen", "goethe": "A1" },
-    { "de": "Boden", "en": "floor, ground", "pos": "noun", "article": "der", "plural": "Böden", "goethe": "A2" }
-  ],
   "mindmap": {
     "label": "Wechselpräpositionen",
     "children": [

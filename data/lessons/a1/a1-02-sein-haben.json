@@ -3,7 +3,6 @@
   "level": "A1",
   "title": "sein & haben",
   "concept": "Personal pronouns, sein & haben",
-  "wordlist": "Länder & Sprachen",
   "minutes": 25,
   "youtube": "https://www.youtube.com/results?search_query=Learn+German+A1+sein+haben+personal+pronouns",
   "learn": [
@@ -69,32 +68,6 @@
     }
   ],
   "tip": "Ask the two questions every German asks a newcomer: \"Woher kommst du?\" and \"Welche Sprachen sprichst du?\" Write your own answers with sein and haben today and say them out loud.",
-  "words": [
-    { "de": "Land", "en": "country", "pos": "noun", "article": "das", "plural": "Länder", "goethe": "A1" },
-    { "de": "Sprache", "en": "language", "pos": "noun", "article": "die", "plural": "Sprachen", "goethe": "A1" },
-    { "de": "Deutschland", "en": "Germany", "pos": "noun", "article": "das", "plural": "-", "note": "no article in sentences", "goethe": "A1" },
-    { "de": "Österreich", "en": "Austria", "pos": "noun", "article": "das", "plural": "-", "note": "no article in sentences", "goethe": "A1" },
-    { "de": "Schweiz", "en": "Switzerland", "pos": "noun", "article": "die", "plural": "-", "note": "in der Schweiz", "goethe": "A1" },
-    { "de": "Ausland", "en": "abroad, foreign country", "pos": "noun", "article": "das", "plural": "-", "goethe": "A1" },
-    { "de": "Türkei", "en": "Turkey", "pos": "noun", "article": "die", "plural": "-", "note": "in der Türkei", "goethe": "A1" },
-    { "de": "Deutsch", "en": "German (language)", "pos": "noun", "article": "das", "plural": "-", "goethe": "A1" },
-    { "de": "Englisch", "en": "English (language)", "pos": "noun", "article": "das", "plural": "-", "goethe": "A1" },
-    { "de": "Ausländer", "en": "foreigner (male)", "pos": "noun", "article": "der", "plural": "Ausländer", "goethe": "A1" },
-    { "de": "Staatsangehörigkeit", "en": "nationality", "pos": "noun", "article": "die", "plural": "Staatsangehörigkeiten", "goethe": "A1" },
-    { "de": "sein", "en": "to be", "pos": "verb", "aux": "sein", "p2": "gewesen", "goethe": "A1" },
-    { "de": "haben", "en": "to have", "pos": "verb", "aux": "haben", "p2": "gehabt", "goethe": "A1" },
-    { "de": "kommen", "en": "to come", "pos": "verb", "aux": "sein", "p2": "gekommen", "goethe": "A1" },
-    { "de": "sprechen", "en": "to speak", "pos": "verb", "aux": "haben", "p2": "gesprochen", "goethe": "A1" },
-    { "de": "wohnen", "en": "to live (reside)", "pos": "verb", "aux": "haben", "p2": "gewohnt", "goethe": "A1" },
-    { "de": "lernen", "en": "to learn", "pos": "verb", "aux": "haben", "p2": "gelernt", "goethe": "A1" },
-    { "de": "verstehen", "en": "to understand", "pos": "verb", "aux": "haben", "p2": "verstanden", "goethe": "A1" },
-    { "de": "deutsch", "en": "German (adj.)", "pos": "adj", "goethe": "A1" },
-    { "de": "englisch", "en": "English (adj.)", "pos": "adj", "goethe": "A1" },
-    { "de": "international", "en": "international", "pos": "adj", "goethe": "A1" },
-    { "de": "aus", "en": "from; out of", "pos": "prep", "goethe": "A1" },
-    { "de": "woher", "en": "where from", "pos": "adv", "goethe": "A1" },
-    { "de": "auch", "en": "also; too", "pos": "adv", "goethe": "A1" }
-  ],
   "mindmap": {
     "label": "sein & haben",
     "children": [

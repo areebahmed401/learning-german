@@ -1,0 +1,299 @@
+{
+  "id": "supermarkt",
+  "icon": "🛒",
+  "title": "Supermarkt",
+  "en": "Supermarket",
+  "intro": "You shop for groceries: find the right shelf, read prices and packaging, pay at the checkout and bring bottles back to the Pfand machine. Cashiers are quick and use very short sentences.",
+  "areas": [
+    {
+      "name": "Eingang & Einkaufen",
+      "en": "entrance and shopping",
+      "words": [
+        { "de": "Supermarkt", "en": "supermarket", "pos": "noun", "article": "der", "plural": "Supermärkte", "level": "A1", "goethe": "A1" },
+        { "de": "Geschäft", "en": "shop", "pos": "noun", "article": "das", "plural": "Geschäfte", "level": "A1", "goethe": "A1" },
+        { "de": "Laden", "en": "shop; store", "pos": "noun", "article": "der", "plural": "Läden", "level": "A1", "goethe": "A1" },
+        { "de": "Kiosk", "en": "kiosk", "pos": "noun", "article": "der", "plural": "Kioske", "level": "A1", "goethe": "A1" },
+        { "de": "kaufen", "en": "to buy", "pos": "verb", "aux": "haben", "p2": "gekauft", "level": "A1", "goethe": "A1" },
+        { "de": "einkaufen", "en": "to shop", "pos": "verb", "aux": "haben", "sep": "ein", "p2": "eingekauft", "level": "A1", "goethe": "A1" },
+        { "de": "brauchen", "en": "to need", "pos": "verb", "aux": "haben", "p2": "gebraucht", "level": "A1", "goethe": "A1" },
+        { "de": "geöffnet", "en": "open", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "geschlossen", "en": "closed", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "Discounter", "en": "discount supermarket", "pos": "noun", "article": "der", "plural": "Discounter", "level": "B1" },
+        { "de": "Bioladen", "en": "organic shop", "pos": "noun", "article": "der", "plural": "Bioläden", "level": "B1" },
+        { "de": "Wochenmarkt", "en": "weekly market", "pos": "noun", "article": "der", "plural": "Wochenmärkte", "level": "B1" },
+        { "de": "Einkaufswagen", "en": "shopping trolley", "pos": "noun", "article": "der", "plural": "Einkaufswagen", "level": "A2" },
+        { "de": "Einkaufskorb", "en": "shopping basket", "pos": "noun", "article": "der", "plural": "Einkaufskörbe", "level": "A2" },
+        { "de": "Einkaufszettel", "en": "shopping list", "pos": "noun", "article": "der", "plural": "Einkaufszettel", "level": "A2" },
+        { "de": "Tüte", "en": "bag", "pos": "noun", "article": "die", "plural": "Tüten", "level": "B1", "goethe": "B1" },
+        { "de": "Öffnungszeiten", "en": "opening hours", "pos": "noun", "article": "die", "plural": "-", "note": "plural only", "level": "A2" },
+        { "de": "Eingang", "en": "entrance", "pos": "noun", "article": "der", "plural": "Eingänge", "level": "A1", "goethe": "A1" },
+        { "de": "Ausgang", "en": "exit", "pos": "noun", "article": "der", "plural": "Ausgänge", "level": "A1", "goethe": "A1" }
+      ]
+    },
+    {
+      "name": "Abteilungen",
+      "en": "departments and shelves",
+      "words": [
+        { "de": "Abteilung", "en": "department", "pos": "noun", "article": "die", "plural": "Abteilungen", "level": "A2", "goethe": "A2" },
+        { "de": "Regal", "en": "shelf", "pos": "noun", "article": "das", "plural": "Regale", "level": "A2", "goethe": "A2" },
+        { "de": "Gang", "en": "aisle", "pos": "noun", "article": "der", "plural": "Gänge", "level": "A2", "goethe": "A2" },
+        { "de": "Kühlregal", "en": "chilled shelf", "pos": "noun", "article": "das", "plural": "Kühlregale", "level": "B1" },
+        { "de": "Tiefkühltruhe", "en": "chest freezer", "pos": "noun", "article": "die", "plural": "Tiefkühltruhen", "level": "B2" },
+        { "de": "Obst- und Gemüseabteilung", "en": "fruit and vegetable section", "pos": "noun", "article": "die", "plural": "Obst- und Gemüseabteilungen", "level": "A1", "goethe": "A1" },
+        { "de": "Fleischtheke", "en": "meat counter", "pos": "noun", "article": "die", "plural": "Fleischtheken", "level": "B1" },
+        { "de": "Käsetheke", "en": "cheese counter", "pos": "noun", "article": "die", "plural": "Käsetheken", "level": "B1" },
+        { "de": "Theke", "en": "counter (food)", "pos": "noun", "article": "die", "plural": "Theken", "level": "A2" },
+        { "de": "Getränkeabteilung", "en": "drinks section", "pos": "noun", "article": "die", "plural": "Getränkeabteilungen", "level": "B1" },
+        { "de": "Drogerie", "en": "drugstore", "pos": "noun", "article": "die", "plural": "Drogerien", "level": "B1", "goethe": "B1" },
+        { "de": "Backwaren", "en": "baked goods", "pos": "noun", "article": "die", "plural": "-", "note": "plural only", "level": "B1" },
+        { "de": "Tiefkühlkost", "en": "frozen food", "pos": "noun", "article": "die", "plural": "-", "level": "B2" },
+        { "de": "Konserve", "en": "tinned food", "pos": "noun", "article": "die", "plural": "Konserven", "level": "B2" }
+      ]
+    },
+    {
+      "name": "Verpackung & Mengen",
+      "en": "packaging and amounts",
+      "words": [
+        { "de": "Kilo", "en": "kilo", "pos": "noun", "article": "das", "plural": "Kilos", "level": "A1", "goethe": "A1" },
+        { "de": "Packung", "en": "pack, packet", "pos": "noun", "article": "die", "plural": "Packungen", "level": "B1", "goethe": "B1" },
+        { "de": "Dose", "en": "tin, can", "pos": "noun", "article": "die", "plural": "Dosen", "level": "B1", "goethe": "B1" },
+        { "de": "Glas", "en": "jar, glass", "pos": "noun", "article": "das", "plural": "Gläser", "level": "A1", "goethe": "A1" },
+        { "de": "Becher", "en": "tub, cup", "pos": "noun", "article": "der", "plural": "Becher", "level": "A2" },
+        { "de": "Karton", "en": "carton, cardboard box", "pos": "noun", "article": "der", "plural": "Kartons", "level": "B1" },
+        { "de": "Verpackung", "en": "packaging", "pos": "noun", "article": "die", "plural": "Verpackungen", "level": "B1" },
+        { "de": "Pfund", "en": "pound (500 g)", "pos": "noun", "article": "das", "plural": "Pfund", "level": "A1", "goethe": "A1" },
+        { "de": "Gramm", "en": "gram", "pos": "noun", "article": "das", "plural": "Gramm", "level": "A1", "goethe": "A1" },
+        { "de": "Liter", "en": "litre", "pos": "noun", "article": "der", "plural": "Liter", "level": "A1", "goethe": "A1" },
+        { "de": "Stück", "en": "piece", "pos": "noun", "article": "das", "plural": "Stücke", "level": "A1", "goethe": "A1" },
+        { "de": "Mindesthaltbarkeitsdatum", "en": "best-before date", "pos": "noun", "article": "das", "plural": "Mindesthaltbarkeitsdaten", "level": "B2" },
+        { "de": "Inhalt", "en": "contents", "pos": "noun", "article": "der", "plural": "Inhalte", "level": "A1", "goethe": "A1" }
+      ]
+    },
+    {
+      "name": "Preise & Angebote",
+      "en": "prices and offers",
+      "words": [
+        { "de": "Preis", "en": "price", "pos": "noun", "article": "der", "plural": "Preise", "level": "A1", "goethe": "A1" },
+        { "de": "Angebot", "en": "special offer", "pos": "noun", "article": "das", "plural": "Angebote", "level": "A1", "goethe": "A1" },
+        { "de": "teuer", "en": "expensive", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "billig", "en": "cheap", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "günstig", "en": "inexpensive; a bargain", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "kosten", "en": "to cost", "pos": "verb", "aux": "haben", "p2": "gekostet", "level": "A1", "goethe": "A1" },
+        { "de": "Sonderangebot", "en": "special offer", "pos": "noun", "article": "das", "plural": "Sonderangebote", "level": "B1", "goethe": "B1" },
+        { "de": "Rabatt", "en": "discount", "pos": "noun", "article": "der", "plural": "Rabatte", "level": "B1", "goethe": "B1" },
+        { "de": "Prozent", "en": "percent", "pos": "noun", "article": "das", "plural": "Prozent", "level": "A1", "goethe": "A1" },
+        { "de": "Euro", "en": "euro", "pos": "noun", "article": "der", "plural": "Euro", "level": "A1", "goethe": "A1" },
+        { "de": "Cent", "en": "cent", "pos": "noun", "article": "der", "plural": "Cent", "level": "A1", "goethe": "A1" },
+        { "de": "Preisschild", "en": "price tag", "pos": "noun", "article": "das", "plural": "Preisschilder", "level": "B1" },
+        { "de": "Schnäppchen", "en": "bargain", "pos": "noun", "article": "das", "plural": "Schnäppchen", "level": "B2" },
+        { "de": "Kundenkarte", "en": "loyalty card", "pos": "noun", "article": "die", "plural": "Kundenkarten", "level": "B1" },
+        { "de": "Gutschein", "en": "voucher", "pos": "noun", "article": "der", "plural": "Gutscheine", "level": "A2" },
+        { "de": "Mehrwertsteuer", "en": "VAT", "pos": "noun", "article": "die", "plural": "-", "level": "B1", "goethe": "B1" },
+        { "de": "reduziert", "en": "reduced", "pos": "adj", "level": "B1", "goethe": "B1" },
+        { "de": "frisch", "en": "fresh", "pos": "adj", "level": "A2", "goethe": "A2" }
+      ]
+    },
+    {
+      "name": "Kasse & Bezahlen",
+      "en": "checkout and paying",
+      "words": [
+        { "de": "Kasse", "en": "checkout; till", "pos": "noun", "article": "die", "plural": "Kassen", "level": "A1", "goethe": "A1" },
+        { "de": "Kunde", "en": "customer (male)", "pos": "noun", "article": "der", "plural": "Kunden", "level": "A1", "goethe": "A1" },
+        { "de": "Rechnung", "en": "bill; invoice", "pos": "noun", "article": "die", "plural": "Rechnungen", "level": "A1", "goethe": "A1" },
+        { "de": "Geld", "en": "money", "pos": "noun", "article": "das", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "Konto", "en": "account", "pos": "noun", "article": "das", "plural": "Konten", "level": "A1", "goethe": "A1" },
+        { "de": "Karte", "en": "card", "pos": "noun", "article": "die", "plural": "Karten", "level": "A1", "goethe": "A1" },
+        { "de": "bezahlen", "en": "to pay", "pos": "verb", "aux": "haben", "p2": "bezahlt", "level": "A1", "goethe": "A1" },
+        { "de": "bar", "en": "cash", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "Kassiererin", "en": "female cashier", "pos": "noun", "article": "die", "plural": "Kassiererinnen", "level": "A2" },
+        { "de": "Kassierer", "en": "male cashier", "pos": "noun", "article": "der", "plural": "Kassierer", "level": "A2" },
+        { "de": "Kassenbon", "en": "receipt", "pos": "noun", "article": "der", "plural": "Kassenbons", "level": "B1" },
+        { "de": "Quittung", "en": "receipt (proof of payment)", "pos": "noun", "article": "die", "plural": "Quittungen", "level": "B1", "goethe": "B1" },
+        { "de": "Bargeld", "en": "cash", "pos": "noun", "article": "das", "plural": "-", "level": "B1", "goethe": "B1" },
+        { "de": "Wechselgeld", "en": "change", "pos": "noun", "article": "das", "plural": "-", "level": "B1", "goethe": "B1" },
+        { "de": "Kleingeld", "en": "small change, coins", "pos": "noun", "article": "das", "plural": "-", "level": "B1", "goethe": "B1" },
+        { "de": "Münze", "en": "coin", "pos": "noun", "article": "die", "plural": "Münzen", "level": "B1", "goethe": "B1" },
+        { "de": "Kartenzahlung", "en": "card payment", "pos": "noun", "article": "die", "plural": "Kartenzahlungen", "level": "B2" },
+        { "de": "Schlange", "en": "queue", "pos": "noun", "article": "die", "plural": "Schlangen", "level": "B1", "goethe": "B1" },
+        { "de": "kontaktlos", "en": "contactless", "pos": "adj", "level": "B1" },
+        { "de": "zahlen", "en": "to pay", "pos": "verb", "aux": "haben", "p2": "gezahlt", "level": "A1", "goethe": "A1" }
+      ]
+    },
+    {
+      "name": "Pfandautomat",
+      "en": "the bottle return machine",
+      "words": [
+        { "de": "Flasche", "en": "bottle", "pos": "noun", "article": "die", "plural": "Flaschen", "level": "A1", "goethe": "A1" },
+        { "de": "Pfand", "en": "deposit (on bottles)", "pos": "noun", "article": "das", "plural": "-", "level": "A2" },
+        { "de": "Pfandflasche", "en": "deposit bottle", "pos": "noun", "article": "die", "plural": "Pfandflaschen", "level": "A2" },
+        { "de": "Pfandautomat", "en": "bottle return machine", "pos": "noun", "article": "der", "plural": "Pfandautomaten", "level": "B1" },
+        { "de": "Pfandbon", "en": "deposit slip", "pos": "noun", "article": "der", "plural": "Pfandbons", "level": "B1" },
+        { "de": "Leergut", "en": "empty bottles and crates", "pos": "noun", "article": "das", "plural": "-", "level": "B2" },
+        { "de": "Mehrwegflasche", "en": "reusable bottle", "pos": "noun", "article": "die", "plural": "Mehrwegflaschen", "level": "B2" },
+        { "de": "Einwegflasche", "en": "single-use bottle", "pos": "noun", "article": "die", "plural": "Einwegflaschen", "level": "B2" },
+        { "de": "Getränkekasten", "en": "crate of drinks", "pos": "noun", "article": "der", "plural": "Getränkekästen", "level": "B1" },
+        { "de": "zurückgeben", "en": "to return, to give back", "pos": "verb", "aux": "haben", "sep": "zurück", "p2": "zurückgegeben", "level": "A2", "goethe": "A2" },
+        { "de": "einwerfen", "en": "to put in, to insert", "pos": "verb", "aux": "haben", "sep": "ein", "p2": "eingeworfen", "level": "B1" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "de": "Wo finde ich die Milch?", "en": "Where do I find the milk?", "who": "you", "level": "A1" },
+    { "de": "Haben Sie das auch in einer größeren Packung?", "en": "Do you also have this in a bigger pack?", "who": "you", "level": "B1" },
+    { "de": "Was kostet ein Kilo Äpfel?", "en": "How much is a kilo of apples?", "who": "you", "level": "A1" },
+    { "de": "Ist das im Angebot?", "en": "Is that on offer?", "who": "you", "level": "A2" },
+    { "de": "Ich hätte gern zweihundert Gramm Käse, bitte.", "en": "I'd like two hundred grams of cheese, please.", "who": "you", "level": "A2" },
+    { "de": "Kann ich mit Karte zahlen?", "en": "Can I pay by card?", "who": "you", "level": "A1" },
+    { "de": "Ich brauche keine Tüte, danke.", "en": "I don't need a bag, thanks.", "who": "you", "level": "A2" },
+    { "de": "Der Pfandautomat nimmt meine Flasche nicht an.", "en": "The deposit machine won't take my bottle.", "who": "you", "level": "B1" },
+    { "de": "Entschuldigung, ist die Kasse noch frei?", "en": "Excuse me, is this checkout free?", "who": "you", "level": "A2" },
+    { "de": "Bar oder mit Karte?", "en": "Cash or card?", "who": "staff", "level": "A1" },
+    { "de": "Das macht zwölf Euro fünfzig.", "en": "That comes to twelve euros fifty.", "who": "staff", "level": "A1" },
+    { "de": "Haben Sie eine Kundenkarte?", "en": "Do you have a loyalty card?", "who": "staff", "level": "B1" },
+    { "de": "Brauchen Sie eine Tüte?", "en": "Do you need a bag?", "who": "staff", "level": "A2" },
+    { "de": "Möchten Sie den Kassenbon?", "en": "Would you like the receipt?", "who": "staff", "level": "B1" }
+  ],
+  "exercises": [
+    { "type": "article", "word": "Kasse", "answer": "die", "explain": "Most nouns ending in -e are feminine: die Kasse, die Kassen." },
+    { "type": "article", "word": "Angebot", "answer": "das", "explain": "Angebot is neuter: das Angebot, die Angebote." },
+    { "type": "article", "word": "Einkaufswagen", "answer": "der", "explain": "Compound nouns take the gender of the last word: der Wagen, so der Einkaufswagen." },
+    { "type": "article", "word": "Packung", "answer": "die", "explain": "Nouns ending in -ung are feminine: die Packung, die Packungen." },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "die Kasse",
+          "checkout"
+        ],
+        [
+          "das Regal",
+          "shelf"
+        ],
+        [
+          "der Preis",
+          "price"
+        ],
+        [
+          "das Pfand",
+          "bottle deposit"
+        ]
+      ],
+      "explain": "Basic supermarket nouns with their articles."
+    },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "kaufen",
+          "to buy"
+        ],
+        [
+          "bezahlen",
+          "to pay"
+        ],
+        [
+          "kosten",
+          "to cost"
+        ],
+        [
+          "zurückgeben",
+          "to give back"
+        ],
+        [
+          "einwerfen",
+          "to put in"
+        ]
+      ],
+      "explain": "Verbs from the shelf to the bottle machine."
+    },
+    {
+      "type": "gap",
+      "q": "Was ___ ein Kilo Tomaten?",
+      "answer": [
+        "kostet"
+      ],
+      "explain": "Kosten is used for prices; with ein Kilo (singular) it is kostet."
+    },
+    {
+      "type": "gap",
+      "q": "Ich möchte mit Karte ___.",
+      "answer": [
+        "bezahlen",
+        "zahlen"
+      ],
+      "explain": "After möchte the second verb stands at the end in the infinitive."
+    },
+    {
+      "type": "gap",
+      "q": "Ich habe die Flaschen im Supermarkt ___.",
+      "answer": [
+        "zurückgegeben"
+      ],
+      "explain": "Perfect with haben; zurückgeben has the Partizip II zurückgegeben (ge- sits inside)."
+    },
+    {
+      "type": "translate",
+      "en": "Where is the checkout?",
+      "answer": [
+        "Wo ist die Kasse?"
+      ],
+      "explain": "Wo ist + die Kasse, which is feminine."
+    },
+    {
+      "type": "translate",
+      "en": "Do you have a loyalty card?",
+      "answer": [
+        "Haben Sie eine Kundenkarte?"
+      ],
+      "explain": "Yes/no question: verb first, then Sie; Kundenkarte is feminine, so eine."
+    },
+    {
+      "type": "mc",
+      "q": "The cashier says: \"Das macht neun Euro.\" What does it mean?",
+      "options": [
+        "That costs nine euros.",
+        "That is nine kilos.",
+        "That is open until nine."
+      ],
+      "answer": 0,
+      "explain": "Das macht + amount is the usual way to say what you owe."
+    },
+    {
+      "type": "mc",
+      "q": "You see \"Pfand 0,25 €\" on a bottle shelf. What is it?",
+      "options": [
+        "a bottle deposit you get back",
+        "a discount",
+        "the best-before date"
+      ],
+      "answer": 0,
+      "explain": "Pfand is a deposit; you get it back when you return the bottle."
+    },
+    {
+      "type": "order",
+      "words": [
+        "ist",
+        "Wo",
+        "das",
+        "Kühlregal"
+      ],
+      "answer": "Wo ist das Kühlregal",
+      "explain": "A question word first, then the verb ist, then the subject."
+    }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Wo finde ich die Milch?", "en": "Where do I find the milk?" },
+      { "de": "Was kostet ein Kilo Äpfel?", "en": "How much is a kilo of apples?" },
+      { "de": "Kann ich mit Karte zahlen?", "en": "Can I pay by card?" },
+      { "de": "Ich brauche keine Tüte, danke.", "en": "I don't need a bag, thanks." },
+      { "de": "Wo kann ich meine Flaschen zurückgeben?", "en": "Where can I return my bottles?" }
+    ],
+    "prompts": [
+      { "q": "Kann ich Ihnen helfen? Suchen Sie etwas?", "qEn": "Can I help you? Are you looking for something?", "model": "Ja, bitte. Wo finde ich den Reis und die Nudeln?", "hint": "Ask where one or two products are." },
+      { "q": "Das macht dreiundzwanzig Euro vierzig. Bar oder mit Karte?", "qEn": "That's 23.40 euros. Cash or card?", "model": "Mit Karte, bitte. Brauche ich eine PIN?", "hint": "Choose how to pay." },
+      { "q": "Brauchen Sie eine Tüte? Sie kostet zehn Cent.", "qEn": "Do you need a bag? It costs ten cents.", "model": "Nein, danke. Ich habe meinen Rucksack dabei.", "hint": "Decline politely and say why." },
+      { "q": "Der Pfandautomat gibt Ihnen einen Bon. Wo lösen Sie ihn ein?", "qEn": "The deposit machine gives you a slip. Where do you cash it in?", "model": "An der Kasse. Ich gebe den Bon dort ab und bekomme das Geld zurück.", "hint": "Say where you hand it in." }
+    ]
+  }
+}

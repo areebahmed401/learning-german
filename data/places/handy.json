@@ -1,0 +1,277 @@
+{
+  "id": "handy",
+  "icon": "📱",
+  "title": "Handy & Internet",
+  "en": "Phone & internet",
+  "intro": "You get a SIM card, understand a contract, connect to Wi-Fi and use apps and messages. Digital words come up everywhere in daily life.",
+  "areas": [
+    {
+      "name": "Handy & SIM-Karte",
+      "en": "phone and SIM card",
+      "words": [
+        { "de": "Handy", "en": "mobile phone", "pos": "noun", "article": "das", "plural": "Handys", "level": "A1", "goethe": "A1" },
+        { "de": "SIM-Karte", "en": "SIM card", "pos": "noun", "article": "die", "plural": "SIM-Karten", "level": "A2" },
+        { "de": "Prepaid-Karte", "en": "prepaid card", "pos": "noun", "article": "die", "plural": "Prepaid-Karten", "level": "B1" },
+        { "de": "Vertrag", "en": "contract", "pos": "noun", "article": "der", "plural": "Verträge", "level": "A2", "goethe": "A2" },
+        { "de": "Tarif", "en": "plan, tariff", "pos": "noun", "article": "der", "plural": "Tarife", "level": "B1" },
+        { "de": "Datenvolumen", "en": "data allowance", "pos": "noun", "article": "das", "plural": "-", "level": "B1" },
+        { "de": "Guthaben", "en": "credit, balance", "pos": "noun", "article": "das", "plural": "-", "level": "B1" },
+        { "de": "Netz", "en": "network, signal", "pos": "noun", "article": "das", "plural": "Netze", "level": "B1", "goethe": "B1" },
+        { "de": "Empfang", "en": "reception (signal)", "pos": "noun", "article": "der", "plural": "-", "level": "B1", "goethe": "B1" },
+        { "de": "Akku", "en": "battery", "pos": "noun", "article": "der", "plural": "Akkus", "level": "B1", "goethe": "B1" },
+        { "de": "Ladekabel", "en": "charging cable", "pos": "noun", "article": "das", "plural": "Ladekabel", "level": "A2" },
+        { "de": "Bildschirm", "en": "screen", "pos": "noun", "article": "der", "plural": "Bildschirme", "level": "B1", "goethe": "B1" },
+        { "de": "Telefonnummer", "en": "phone number", "pos": "noun", "article": "die", "plural": "Telefonnummern", "level": "A2", "goethe": "A2" },
+        { "de": "aufladen", "en": "to charge; to top up", "pos": "verb", "aux": "haben", "sep": "auf", "p2": "aufgeladen", "level": "B1", "goethe": "B1" },
+        { "de": "kündigen", "en": "to cancel (a contract)", "pos": "verb", "aux": "haben", "p2": "gekündigt", "level": "A2", "goethe": "A2" }
+      ]
+    },
+    {
+      "name": "Anrufen & Schreiben",
+      "en": "calling and messaging",
+      "words": [
+        { "de": "Anruf", "en": "phone call", "pos": "noun", "article": "der", "plural": "Anrufe", "level": "A1", "goethe": "A1" },
+        { "de": "Gespräch", "en": "conversation", "pos": "noun", "article": "das", "plural": "Gespräche", "level": "A1", "goethe": "A1" },
+        { "de": "Nachricht", "en": "message", "pos": "noun", "article": "die", "plural": "Nachrichten", "level": "A2", "goethe": "A2" },
+        { "de": "E-Mail", "en": "email", "pos": "noun", "article": "die", "plural": "E-Mails", "level": "A1", "goethe": "A1" },
+        { "de": "Antwort", "en": "answer", "pos": "noun", "article": "die", "plural": "Antworten", "level": "A1", "goethe": "A1" },
+        { "de": "Frage", "en": "question", "pos": "noun", "article": "die", "plural": "Fragen", "level": "A1", "goethe": "A1" },
+        { "de": "Sprachnachricht", "en": "voice message", "pos": "noun", "article": "die", "plural": "Sprachnachrichten", "level": "B1" },
+        { "de": "Verbindung", "en": "connection", "pos": "noun", "article": "die", "plural": "Verbindungen", "level": "B1", "goethe": "B1" },
+        { "de": "anrufen", "en": "to call", "pos": "verb", "aux": "haben", "sep": "an", "p2": "angerufen", "level": "A1", "goethe": "A1" },
+        { "de": "zurückrufen", "en": "to call back", "pos": "verb", "aux": "haben", "sep": "zurück", "p2": "zurückgerufen", "level": "B1", "goethe": "B1" },
+        { "de": "telefonieren", "en": "to phone, to talk on the phone", "pos": "verb", "aux": "haben", "p2": "telefoniert", "level": "A1", "goethe": "A1" },
+        { "de": "schreiben", "en": "to write; to text", "pos": "verb", "aux": "haben", "p2": "geschrieben", "level": "A1", "goethe": "A1" },
+        { "de": "besetzt", "en": "busy (line); occupied", "pos": "adj", "level": "A1", "goethe": "A1" }
+      ]
+    },
+    {
+      "name": "Gespräche & Meinungen",
+      "en": "conversations and opinions",
+      "words": [
+        { "de": "Besprechung", "en": "meeting", "pos": "noun", "article": "die", "plural": "Besprechungen", "level": "B1", "goethe": "B1" },
+        { "de": "Meinung", "en": "opinion", "pos": "noun", "article": "die", "plural": "Meinungen", "level": "A2", "goethe": "A2" },
+        { "de": "Missverständnis", "en": "misunderstanding", "pos": "noun", "article": "das", "plural": "Missverständnisse", "level": "B1", "goethe": "B1" },
+        { "de": "Information", "en": "information", "pos": "noun", "article": "die", "plural": "Informationen", "level": "A1", "goethe": "A1" },
+        { "de": "Diskussion", "en": "discussion", "pos": "noun", "article": "die", "plural": "Diskussionen", "level": "B1", "goethe": "B1" },
+        { "de": "warten", "en": "to wait", "pos": "verb", "aux": "haben", "p2": "gewartet", "note": "warten auf + Akk", "level": "A1", "goethe": "A1" },
+        { "de": "denken", "en": "to think", "pos": "verb", "aux": "haben", "p2": "gedacht", "note": "denken an + Akk", "level": "A2", "goethe": "A2" },
+        { "de": "sich interessieren", "en": "to be interested", "pos": "verb", "aux": "haben", "p2": "interessiert", "note": "sich interessieren für + Akk", "level": "A2", "goethe": "A2" },
+        { "de": "sich ärgern", "en": "to be annoyed", "pos": "verb", "aux": "haben", "p2": "geärgert", "note": "sich ärgern über + Akk", "level": "A2", "goethe": "A2" },
+        { "de": "sich freuen", "en": "to be glad", "pos": "verb", "aux": "haben", "p2": "gefreut", "note": "sich freuen auf / über + Akk", "level": "A1", "goethe": "A1" },
+        { "de": "sich beschweren", "en": "to complain", "pos": "verb", "aux": "haben", "p2": "beschwert", "note": "sich beschweren bei + Dat über + Akk", "level": "A2", "goethe": "A2" },
+        { "de": "teilnehmen", "en": "to take part", "pos": "verb", "aux": "haben", "sep": "teil", "p2": "teilgenommen", "note": "teilnehmen an + Dat", "level": "A2", "goethe": "A2" },
+        { "de": "zustimmen", "en": "to agree", "pos": "verb", "aux": "haben", "sep": "zu", "p2": "zugestimmt", "note": "+ Dativ, no preposition", "level": "B1", "goethe": "B1" },
+        { "de": "sich erkundigen", "en": "to enquire", "pos": "verb", "aux": "haben", "p2": "erkundigt", "level": "B1", "goethe": "B1" },
+        { "de": "diskutieren", "en": "to discuss", "pos": "verb", "aux": "haben", "p2": "diskutiert", "note": "diskutieren über + Akk", "level": "A2", "goethe": "A2" },
+        { "de": "verständlich", "en": "understandable", "pos": "adj", "level": "B1", "goethe": "B1" },
+        { "de": "höflich", "en": "polite", "pos": "adj", "level": "B1", "goethe": "B1" }
+      ]
+    },
+    {
+      "name": "WLAN & Internet",
+      "en": "Wi-Fi and internet",
+      "words": [
+        { "de": "Netzwerk", "en": "network", "pos": "noun", "article": "das", "plural": "Netzwerke", "level": "A2", "goethe": "A2" },
+        { "de": "Server", "en": "server", "pos": "noun", "article": "der", "plural": "Server", "level": "B2" },
+        { "de": "Update", "en": "update", "pos": "noun", "article": "das", "plural": "Updates", "level": "B2" },
+        { "de": "Fehlermeldung", "en": "error message", "pos": "noun", "article": "die", "plural": "Fehlermeldungen", "level": "B2" },
+        { "de": "Datenschutz", "en": "data protection", "pos": "noun", "article": "der", "plural": "-", "level": "B2" },
+        { "de": "Software", "en": "software", "pos": "noun", "article": "die", "plural": "-", "level": "B1", "goethe": "B1" },
+        { "de": "Programm", "en": "program", "pos": "noun", "article": "das", "plural": "Programme", "level": "A2", "goethe": "A2" },
+        { "de": "WLAN", "en": "Wi-Fi", "pos": "noun", "article": "das", "plural": "-", "level": "A2" },
+        { "de": "Router", "en": "router", "pos": "noun", "article": "der", "plural": "Router", "level": "B1" },
+        { "de": "Passwort", "en": "password", "pos": "noun", "article": "das", "plural": "Passwörter", "level": "A2", "goethe": "A2" },
+        { "de": "Internet", "en": "internet", "pos": "noun", "article": "das", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "Website", "en": "website", "pos": "noun", "article": "die", "plural": "Websites", "level": "B1", "goethe": "B1" },
+        { "de": "App", "en": "app", "pos": "noun", "article": "die", "plural": "Apps", "level": "A2" },
+        { "de": "Browser", "en": "browser", "pos": "noun", "article": "der", "plural": "Browser", "level": "B1" },
+        { "de": "herunterladen", "en": "to download", "pos": "verb", "aux": "haben", "sep": "herunter", "p2": "heruntergeladen", "level": "A2", "goethe": "A2" },
+        { "de": "installieren", "en": "to install", "pos": "verb", "aux": "haben", "p2": "installiert", "level": "B1", "goethe": "B1" },
+        { "de": "kostenlos", "en": "free of charge", "pos": "adj", "level": "A2", "goethe": "A2" },
+        { "de": "langsam", "en": "slow", "pos": "adj", "level": "A1", "goethe": "A1" }
+      ]
+    },
+    {
+      "name": "Digitales Leben & KI",
+      "en": "digital life and AI",
+      "words": [
+        { "de": "Digitalisierung", "en": "digitalisation", "pos": "noun", "article": "die", "plural": "-", "level": "B2" },
+        { "de": "Algorithmus", "en": "algorithm", "pos": "noun", "article": "der", "plural": "Algorithmen", "level": "B2" },
+        { "de": "Datensatz", "en": "data set", "pos": "noun", "article": "der", "plural": "Datensätze", "level": "B2" },
+        { "de": "Automatisierung", "en": "automation", "pos": "noun", "article": "die", "plural": "Automatisierungen", "level": "B2" },
+        { "de": "einführen", "en": "to introduce", "pos": "verb", "aux": "haben", "sep": "ein", "p2": "eingeführt", "level": "B1", "goethe": "B1" },
+        { "de": "ersetzen", "en": "to replace", "pos": "verb", "aux": "haben", "p2": "ersetzt", "level": "B1", "goethe": "B1" },
+        { "de": "programmieren", "en": "to program", "pos": "verb", "aux": "haben", "p2": "programmiert", "level": "B2" },
+        { "de": "ausfallen", "en": "to fail, to break down", "pos": "verb", "aux": "sein", "sep": "aus", "p2": "ausgefallen", "level": "B1", "goethe": "B1" },
+        { "de": "umstellen", "en": "to switch over", "pos": "verb", "aux": "haben", "sep": "um", "p2": "umgestellt", "level": "B2" },
+        { "de": "automatisieren", "en": "to automate", "pos": "verb", "aux": "haben", "p2": "automatisiert", "level": "B2" },
+        { "de": "auswerten", "en": "to analyse, to evaluate", "pos": "verb", "aux": "haben", "sep": "aus", "p2": "ausgewertet", "level": "B2" },
+        { "de": "vernetzen", "en": "to connect, to network", "pos": "verb", "aux": "haben", "p2": "vernetzt", "level": "B2" },
+        { "de": "digital", "en": "digital", "pos": "adj", "level": "B1", "goethe": "B1" },
+        { "de": "künstliche Intelligenz", "en": "artificial intelligence", "pos": "phrase", "level": "B2" },
+        { "de": "bis dahin", "en": "by then", "pos": "phrase", "level": "B1", "goethe": "B1" },
+        { "de": "wohl", "en": "probably", "pos": "adv", "level": "B1", "goethe": "B1" },
+        { "de": "Chatbot", "en": "chatbot", "pos": "noun", "article": "der", "plural": "Chatbots", "level": "B2" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "de": "Ich brauche eine SIM-Karte mit viel Datenvolumen.", "en": "I need a SIM card with lots of data.", "who": "you", "level": "B1" },
+    { "de": "Was kostet der Tarif im Monat?", "en": "What does the plan cost per month?", "who": "you", "level": "A2" },
+    { "de": "Gibt es eine Mindestlaufzeit?", "en": "Is there a minimum contract term?", "who": "you", "level": "B1" },
+    { "de": "Kann ich meine Nummer behalten?", "en": "Can I keep my number?", "who": "you", "level": "B1" },
+    { "de": "Mein Akku ist leer. Haben Sie ein Ladekabel?", "en": "My battery is empty. Do you have a charging cable?", "who": "you", "level": "A2" },
+    { "de": "Ich habe kein Netz.", "en": "I have no signal.", "who": "you", "level": "A2" },
+    { "de": "Wie ist das Passwort für das WLAN?", "en": "What is the Wi-Fi password?", "who": "you", "level": "A2" },
+    { "de": "Das Internet ist heute sehr langsam.", "en": "The internet is very slow today.", "who": "you", "level": "A2" },
+    { "de": "Können Sie mich bitte zurückrufen?", "en": "Can you please call me back?", "who": "you", "level": "A2" },
+    { "de": "Ich schicke Ihnen eine Nachricht.", "en": "I will send you a message.", "who": "you", "level": "A2" },
+    { "de": "Möchten Sie einen Vertrag oder eine Prepaid-Karte?", "en": "Would you like a contract or a prepaid card?", "who": "staff", "level": "B1" },
+    { "de": "Dafür brauche ich Ihren Ausweis.", "en": "For that I need your ID.", "who": "staff", "level": "A2" },
+    { "de": "Der Vertrag läuft zwei Jahre.", "en": "The contract runs for two years.", "who": "staff", "level": "B1" },
+    { "de": "Bitte laden Sie die App herunter.", "en": "Please download the app.", "who": "staff", "level": "B1" }
+  ],
+  "exercises": [
+    { "type": "article", "word": "Handy", "answer": "das", "explain": "Handy is neuter: das Handy, die Handys." },
+    { "type": "article", "word": "Router", "answer": "der", "explain": "Words ending in -er for devices are usually masculine: der Router." },
+    { "type": "article", "word": "Nachricht", "answer": "die", "explain": "Nouns ending in -richt that mean a message are feminine: die Nachricht." },
+    { "type": "article", "word": "Datenvolumen", "answer": "das", "explain": "Volumen is neuter, so das Datenvolumen." },
+    { "type": "article", "word": "App", "answer": "die", "explain": "App is feminine: die App, die Apps." },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "das Handy",
+          "mobile phone"
+        ],
+        [
+          "die SIM-Karte",
+          "SIM card"
+        ],
+        [
+          "der Vertrag",
+          "contract"
+        ],
+        [
+          "das Passwort",
+          "password"
+        ],
+        [
+          "das WLAN",
+          "Wi-Fi"
+        ]
+      ],
+      "explain": "Basic phone and internet nouns, each with its article."
+    },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "anrufen",
+          "to call"
+        ],
+        [
+          "aufladen",
+          "to charge, to top up"
+        ],
+        [
+          "herunterladen",
+          "to download"
+        ],
+        [
+          "kündigen",
+          "to cancel a contract"
+        ],
+        [
+          "sich beschweren",
+          "to complain"
+        ]
+      ],
+      "explain": "Verbs for phone and internet life."
+    },
+    {
+      "type": "gap",
+      "q": "Ich möchte meinen Vertrag ___.",
+      "answer": [
+        "kündigen"
+      ],
+      "explain": "Möchte takes the infinitive at the end: ich möchte meinen Vertrag kündigen."
+    },
+    {
+      "type": "gap",
+      "q": "Ich ___ morgen noch einmal an.",
+      "answer": [
+        "rufe"
+      ],
+      "explain": "Anrufen is separable: ich rufe ... an."
+    },
+    {
+      "type": "gap",
+      "q": "Wie ist das ___ für das WLAN?",
+      "answer": [
+        "Passwort",
+        "Kennwort"
+      ],
+      "explain": "Passwort is neuter: das Passwort."
+    },
+    {
+      "type": "translate",
+      "en": "My battery is empty.",
+      "answer": [
+        "Mein Akku ist leer.",
+        "Der Akku ist leer.",
+        "Mein Akku ist alle."
+      ],
+      "explain": "Akku is masculine, so mein Akku; leer means empty."
+    },
+    {
+      "type": "translate",
+      "en": "Can you call me back?",
+      "answer": [
+        "Können Sie mich zurückrufen?",
+        "Kannst du mich zurückrufen?",
+        "Können Sie mich bitte zurückrufen?",
+        "Kannst du mich bitte zurückrufen?"
+      ],
+      "explain": "Modal verb in second position, the infinitive zurückrufen at the end."
+    },
+    {
+      "type": "mc",
+      "q": "A shop assistant says: \"Der Tarif hat zehn Gigabyte Datenvolumen.\" What does that tell you?",
+      "options": [
+        "How much mobile data you can use.",
+        "How long a phone call can last.",
+        "How much the phone costs."
+      ],
+      "answer": 0,
+      "explain": "Datenvolumen is the amount of mobile data included in the plan."
+    },
+    {
+      "type": "order",
+      "words": [
+        "Ich",
+        "habe",
+        "kein",
+        "Netz"
+      ],
+      "answer": "Ich habe kein Netz",
+      "explain": "Negation of a noun with kein: ich habe kein Netz."
+    }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Ich brauche eine SIM-Karte.", "en": "I need a SIM card." },
+      { "de": "Was kostet der Tarif im Monat?", "en": "What does the plan cost per month?" },
+      { "de": "Ich habe kein Netz.", "en": "I have no signal." },
+      { "de": "Wie ist das Passwort für das WLAN?", "en": "What is the Wi-Fi password?" },
+      { "de": "Können Sie mich bitte zurückrufen?", "en": "Can you please call me back?" }
+    ],
+    "prompts": [
+      { "q": "Guten Tag, womit kann ich Ihnen helfen?", "qEn": "Good day, how can I help you? (phone shop)", "model": "Guten Tag. Ich brauche eine SIM-Karte mit viel Datenvolumen. Was haben Sie?", "hint": "Say what you need and ask for options." },
+      { "q": "Möchten Sie einen Vertrag oder eine Prepaid-Karte?", "qEn": "Would you like a contract or a prepaid card?", "model": "Eine Prepaid-Karte, bitte. Ich bleibe nur ein Jahr hier.", "hint": "Choose and give a short reason." },
+      { "q": "Dafür brauche ich Ihren Ausweis und Ihre Adresse.", "qEn": "For that I need your ID and your address.", "model": "Hier ist mein Ausweis. Die Adresse schreibe ich Ihnen auf.", "hint": "Hand over the ID and offer the address." },
+      { "q": "Haben Sie noch Fragen?", "qEn": "Do you have any more questions?", "model": "Ja, wie lade ich das Guthaben auf? Gibt es eine App dafür?", "hint": "Ask how to top up." }
+    ]
+  }
+}

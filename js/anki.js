@@ -37,8 +37,3 @@ export const placeRows = (place, words) =>
     tags: [`Deutschweg::Alltag::${place.id}`, word.level && `Deutschweg::${word.level}`, word.goethe && `Goethe::${word.goethe}`].filter(Boolean),
   }));
 
-export const lessonRows = (lesson) =>
-  lesson.words.map((word) => ({
-    word,
-    tags: [`Deutschweg::${lesson.level}`, `Deutschweg::${lesson.level}::${lesson.id}`, word.goethe && `Goethe::${word.goethe}`].filter(Boolean),
-  }));

@@ -1,0 +1,284 @@
+{
+  "id": "erste-nacht",
+  "icon": "🏨",
+  "title": "Die erste Nacht",
+  "en": "The first night",
+  "intro": "You arrive tired, check in at a hostel or hotel, greet people and sort out small problems with the room.",
+  "areas": [
+    {
+      "name": "Begrüßen & Verabschieden",
+      "en": "greeting and saying goodbye",
+      "words": [
+        { "de": "Hallo", "en": "hello", "pos": "phrase", "level": "A1", "goethe": "A1" },
+        { "de": "Guten Morgen", "en": "good morning", "pos": "phrase", "level": "A1", "goethe": "A1" },
+        { "de": "Guten Tag", "en": "good day / hello (formal)", "pos": "phrase", "level": "A1", "goethe": "A1" },
+        { "de": "Guten Abend", "en": "good evening", "pos": "phrase", "level": "A1", "goethe": "A1" },
+        { "de": "Gute Nacht", "en": "good night", "pos": "phrase", "level": "A1", "goethe": "A1" },
+        { "de": "Tschüss", "en": "bye (informal)", "pos": "phrase", "level": "A1", "goethe": "A1" },
+        { "de": "Auf Wiedersehen", "en": "goodbye (formal)", "pos": "phrase", "level": "A1", "goethe": "A1" },
+        { "de": "Bis bald", "en": "see you soon", "pos": "phrase", "level": "A1", "goethe": "A1" },
+        { "de": "Bis morgen", "en": "see you tomorrow", "pos": "phrase", "level": "A1", "goethe": "A1" },
+        { "de": "Danke", "en": "thank you", "pos": "phrase", "level": "A1", "goethe": "A1" },
+        { "de": "Bitte", "en": "please; you're welcome", "pos": "phrase", "level": "A1", "goethe": "A1" },
+        { "de": "Entschuldigung", "en": "excuse me; sorry", "pos": "phrase", "level": "A1", "goethe": "A1" },
+        { "de": "willkommen", "en": "welcome", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "Freut mich", "en": "nice to meet you", "pos": "phrase", "level": "A2", "goethe": "A2" },
+        { "de": "Schönen Tag noch!", "en": "have a nice day", "pos": "phrase", "level": "A1", "goethe": "A1" },
+        { "de": "Gern geschehen", "en": "you're welcome", "pos": "phrase", "level": "B1", "goethe": "B1" },
+        { "de": "Kein Problem", "en": "no problem", "pos": "phrase", "level": "A1", "goethe": "A1" }
+      ]
+    },
+    {
+      "name": "Sich vorstellen",
+      "en": "introducing yourself",
+      "words": [
+        { "de": "Wie geht's?", "en": "how are you? (informal)", "pos": "phrase", "level": "A1", "goethe": "A1" },
+        { "de": "Wie geht es Ihnen?", "en": "how are you? (formal)", "pos": "phrase", "level": "A1", "goethe": "A1" },
+        { "de": "Wie bitte?", "en": "pardon?", "pos": "phrase", "level": "A1", "goethe": "A1" },
+        { "de": "Ich heiße …", "en": "my name is …", "pos": "phrase", "level": "A1", "goethe": "A1" },
+        { "de": "Sprechen Sie Englisch?", "en": "do you speak English?", "pos": "phrase", "level": "A1", "goethe": "A1" },
+        { "de": "Ja", "en": "yes", "pos": "adv", "level": "A1", "goethe": "A1" },
+        { "de": "Nein", "en": "no", "pos": "adv", "level": "A1", "goethe": "A1" },
+        { "de": "gut", "en": "good; well", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "Herr", "en": "Mr; gentleman", "pos": "noun", "article": "der", "plural": "Herren", "level": "A1", "goethe": "A1" },
+        { "de": "Frau", "en": "Ms; woman", "pos": "noun", "article": "die", "plural": "Frauen", "level": "A1", "goethe": "A1" },
+        { "de": "Name", "en": "name", "pos": "noun", "article": "der", "plural": "Namen", "level": "A1", "goethe": "A1" },
+        { "de": "Vorname", "en": "first name", "pos": "noun", "article": "der", "plural": "Vornamen", "level": "A1", "goethe": "A1" },
+        { "de": "Nachname", "en": "surname", "pos": "noun", "article": "der", "plural": "Nachnamen", "level": "B1", "goethe": "B1" },
+        { "de": "sich vorstellen", "en": "to introduce oneself", "pos": "verb", "aux": "haben", "sep": "vor", "p2": "vorgestellt", "level": "A1", "goethe": "A1" },
+        { "de": "kennenlernen", "en": "to get to know, to meet", "pos": "verb", "aux": "haben", "sep": "kennen", "p2": "kennengelernt", "level": "A1", "goethe": "A1" },
+        { "de": "Sehr gut, danke.", "en": "very well, thank you", "pos": "phrase", "level": "A1", "goethe": "A1" },
+        { "de": "Ich verstehe nicht.", "en": "I do not understand.", "pos": "phrase", "level": "A2", "goethe": "A2" }
+      ]
+    },
+    {
+      "name": "Rezeption",
+      "en": "reception desk",
+      "words": [
+        { "de": "Rezeption", "en": "reception", "pos": "noun", "article": "die", "plural": "Rezeptionen", "level": "A1", "goethe": "A1" },
+        { "de": "Hotel", "en": "hotel", "pos": "noun", "article": "das", "plural": "Hotels", "level": "A1", "goethe": "A1" },
+        { "de": "Hostel", "en": "hostel", "pos": "noun", "article": "das", "plural": "Hostels", "level": "A2" },
+        { "de": "Gast", "en": "guest", "pos": "noun", "article": "der", "plural": "Gäste", "level": "A1", "goethe": "A1" },
+        { "de": "Zimmer", "en": "room", "pos": "noun", "article": "das", "plural": "Zimmer", "level": "A1", "goethe": "A1" },
+        { "de": "Einzelzimmer", "en": "single room", "pos": "noun", "article": "das", "plural": "Einzelzimmer", "level": "A1", "goethe": "A1" },
+        { "de": "Doppelzimmer", "en": "double room", "pos": "noun", "article": "das", "plural": "Doppelzimmer", "level": "A1", "goethe": "A1" },
+        { "de": "Bett", "en": "bed", "pos": "noun", "article": "das", "plural": "Betten", "level": "A1", "goethe": "A1" },
+        { "de": "Schlüssel", "en": "key", "pos": "noun", "article": "der", "plural": "Schlüssel", "level": "A1", "goethe": "A1" },
+        { "de": "Nacht", "en": "night", "pos": "noun", "article": "die", "plural": "Nächte", "level": "A1", "goethe": "A1" },
+        { "de": "Übernachtung", "en": "overnight stay", "pos": "noun", "article": "die", "plural": "Übernachtungen", "level": "A1", "goethe": "A1" },
+        { "de": "Rechnung", "en": "bill, invoice", "pos": "noun", "article": "die", "plural": "Rechnungen", "level": "A1", "goethe": "A1" },
+        { "de": "einchecken", "en": "to check in", "pos": "verb", "aux": "haben", "sep": "ein", "p2": "eingecheckt", "level": "A2" },
+        { "de": "auschecken", "en": "to check out", "pos": "verb", "aux": "haben", "sep": "aus", "p2": "ausgecheckt", "level": "A2" },
+        { "de": "buchen", "en": "to book", "pos": "verb", "aux": "haben", "p2": "gebucht", "level": "A2", "goethe": "A2" },
+        { "de": "bezahlen", "en": "to pay", "pos": "verb", "aux": "haben", "p2": "bezahlt", "level": "A1", "goethe": "A1" }
+      ]
+    },
+    {
+      "name": "Im Zimmer",
+      "en": "in the room",
+      "words": [
+        { "de": "Bad", "en": "bathroom", "pos": "noun", "article": "das", "plural": "Bäder", "level": "A1", "goethe": "A1" },
+        { "de": "Dusche", "en": "shower", "pos": "noun", "article": "die", "plural": "Duschen", "level": "A1", "goethe": "A1" },
+        { "de": "Handtuch", "en": "towel", "pos": "noun", "article": "das", "plural": "Handtücher", "level": "A2", "goethe": "A2" },
+        { "de": "Decke", "en": "blanket", "pos": "noun", "article": "die", "plural": "Decken", "level": "B1", "goethe": "B1" },
+        { "de": "Kissen", "en": "pillow", "pos": "noun", "article": "das", "plural": "Kissen", "level": "B1", "goethe": "B1" },
+        { "de": "Fenster", "en": "window", "pos": "noun", "article": "das", "plural": "Fenster", "level": "A1", "goethe": "A1" },
+        { "de": "Heizung", "en": "heating", "pos": "noun", "article": "die", "plural": "Heizungen", "level": "A2", "goethe": "A2" },
+        { "de": "Schrank", "en": "wardrobe, cupboard", "pos": "noun", "article": "der", "plural": "Schränke", "level": "A1", "goethe": "A1" },
+        { "de": "Steckdose", "en": "socket", "pos": "noun", "article": "die", "plural": "Steckdosen", "level": "B1", "goethe": "B1" },
+        { "de": "Aufzug", "en": "lift, elevator", "pos": "noun", "article": "der", "plural": "Aufzüge", "level": "A1", "goethe": "A1" },
+        { "de": "Etage", "en": "floor, storey", "pos": "noun", "article": "die", "plural": "Etagen", "level": "B1", "goethe": "B1" },
+        { "de": "Treppe", "en": "stairs", "pos": "noun", "article": "die", "plural": "Treppen", "level": "A1", "goethe": "A1" }
+      ]
+    },
+    {
+      "name": "Frühstück & WLAN",
+      "en": "breakfast and Wi-Fi",
+      "words": [
+        { "de": "Frühstück", "en": "breakfast", "pos": "noun", "article": "das", "plural": "Frühstücke", "level": "A1", "goethe": "A1" },
+        { "de": "Brötchen", "en": "bread roll", "pos": "noun", "article": "das", "plural": "Brötchen", "level": "A1", "goethe": "A1" },
+        { "de": "Kaffee", "en": "coffee", "pos": "noun", "article": "der", "plural": "Kaffees", "level": "A1", "goethe": "A1" },
+        { "de": "Tee", "en": "tea", "pos": "noun", "article": "der", "plural": "Tees", "level": "A1", "goethe": "A1" },
+        { "de": "Saft", "en": "juice", "pos": "noun", "article": "der", "plural": "Säfte", "level": "A1", "goethe": "A1" },
+        { "de": "WLAN", "en": "Wi-Fi", "pos": "noun", "article": "das", "plural": "-", "level": "A2" },
+        { "de": "Passwort", "en": "password", "pos": "noun", "article": "das", "plural": "Passwörter", "level": "A2", "goethe": "A2" },
+        { "de": "Internet", "en": "internet", "pos": "noun", "article": "das", "plural": "-", "level": "A1", "goethe": "A1" }
+      ]
+    },
+    {
+      "name": "Probleme",
+      "en": "when something is wrong",
+      "words": [
+        { "de": "Problem", "en": "problem", "pos": "noun", "article": "das", "plural": "Probleme", "level": "A1", "goethe": "A1" },
+        { "de": "Lärm", "en": "noise", "pos": "noun", "article": "der", "plural": "-", "level": "B1", "goethe": "B1" },
+        { "de": "kaputt", "en": "broken", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "laut", "en": "loud, noisy", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "kalt", "en": "cold", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "schmutzig", "en": "dirty", "pos": "adj", "level": "A2", "goethe": "A2" },
+        { "de": "funktionieren", "en": "to work, to function", "pos": "verb", "aux": "haben", "p2": "funktioniert", "level": "B1", "goethe": "B1" },
+        { "de": "fehlen", "en": "to be missing", "pos": "verb", "aux": "haben", "p2": "gefehlt", "level": "A1", "goethe": "A1" },
+        { "de": "wechseln", "en": "to change, to swap", "pos": "verb", "aux": "haben", "p2": "gewechselt", "level": "A2", "goethe": "A2" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "de": "Guten Abend, ich habe ein Zimmer gebucht.", "en": "Good evening, I have booked a room.", "who": "you", "level": "A2" },
+    { "de": "Haben Sie noch ein Zimmer frei?", "en": "Do you still have a room free?", "who": "you", "level": "A1" },
+    { "de": "Wie ist Ihr Name, bitte?", "en": "What is your name, please?", "who": "staff", "level": "A1" },
+    { "de": "Ihren Ausweis, bitte.", "en": "Your ID, please.", "who": "staff", "level": "A1" },
+    { "de": "Hier ist Ihr Schlüssel. Ihr Zimmer ist im zweiten Stock.", "en": "Here is your key. Your room is on the second floor.", "who": "staff", "level": "A2" },
+    { "de": "Das Frühstück gibt es von sieben bis zehn Uhr.", "en": "Breakfast is from seven to ten o'clock.", "who": "staff", "level": "A2" },
+    { "de": "Wie ist das Passwort für das WLAN?", "en": "What is the Wi-Fi password?", "who": "you", "level": "A2" },
+    { "de": "Wann muss ich auschecken?", "en": "When do I have to check out?", "who": "you", "level": "A2" },
+    { "de": "Bis elf Uhr, bitte.", "en": "By eleven o'clock, please.", "who": "staff", "level": "A2" },
+    { "de": "Die Heizung funktioniert nicht.", "en": "The heating does not work.", "who": "you", "level": "A2" },
+    { "de": "Können wir das Zimmer wechseln? Es ist sehr laut.", "en": "Can we change rooms? It is very noisy.", "who": "you", "level": "B1" },
+    { "de": "Können Sie mein Gepäck bis heute Abend aufbewahren?", "en": "Can you keep my luggage until this evening?", "who": "you", "level": "B1" },
+    { "de": "Freut mich, Sie kennenzulernen.", "en": "Nice to meet you.", "who": "you", "level": "A2" },
+    { "de": "Ich hätte gern noch ein Handtuch.", "en": "I would like another towel.", "who": "you", "level": "A2" }
+  ],
+  "exercises": [
+    { "type": "article", "word": "Schlüssel", "answer": "der", "explain": "Schlüssel is masculine: der Schlüssel, die Schlüssel." },
+    { "type": "article", "word": "Zimmer", "answer": "das", "explain": "Zimmer is neuter: das Zimmer, die Zimmer." },
+    { "type": "article", "word": "Dusche", "answer": "die", "explain": "Most nouns ending in -e are feminine: die Dusche." },
+    { "type": "article", "word": "Frühstück", "answer": "das", "explain": "Frühstück is neuter: das Frühstück." },
+    { "type": "article", "word": "Handtuch", "answer": "das", "explain": "Tuch is neuter, so das Handtuch." },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "Guten Morgen",
+          "good morning"
+        ],
+        [
+          "Gute Nacht",
+          "good night"
+        ],
+        [
+          "Auf Wiedersehen",
+          "goodbye (formal)"
+        ],
+        [
+          "Tschüss",
+          "bye (informal)"
+        ],
+        [
+          "Bis morgen",
+          "see you tomorrow"
+        ]
+      ],
+      "explain": "Greetings and goodbyes by time of day and formality."
+    },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "der Schlüssel",
+          "key"
+        ],
+        [
+          "das Handtuch",
+          "towel"
+        ],
+        [
+          "die Rezeption",
+          "reception"
+        ],
+        [
+          "das Frühstück",
+          "breakfast"
+        ],
+        [
+          "das Doppelzimmer",
+          "double room"
+        ]
+      ],
+      "explain": "Things you ask for at a hotel or hostel."
+    },
+    {
+      "type": "gap",
+      "q": "Ich möchte ein Zimmer für zwei Nächte ___.",
+      "answer": [
+        "buchen",
+        "reservieren"
+      ],
+      "explain": "Möchte takes the infinitive at the end: ich möchte ein Zimmer buchen."
+    },
+    {
+      "type": "gap",
+      "q": "Wie ist das ___ für das WLAN?",
+      "answer": [
+        "Passwort",
+        "Kennwort"
+      ],
+      "explain": "Passwort is neuter: das Passwort."
+    },
+    {
+      "type": "gap",
+      "q": "Die Heizung ist ___.",
+      "answer": [
+        "kaputt"
+      ],
+      "explain": "Kaputt means broken."
+    },
+    {
+      "type": "translate",
+      "en": "Hello, my name is Alex.",
+      "answer": [
+        "Hallo, ich heiße Alex.",
+        "Guten Tag, ich heiße Alex.",
+        "Hallo, mein Name ist Alex.",
+        "Guten Tag, mein Name ist Alex."
+      ],
+      "explain": "Ich heiße + name, or mein Name ist + name."
+    },
+    {
+      "type": "translate",
+      "en": "I have a reservation.",
+      "answer": [
+        "Ich habe eine Reservierung.",
+        "Ich habe ein Zimmer reserviert.",
+        "Ich habe ein Zimmer gebucht."
+      ],
+      "explain": "Reservierung is feminine, so eine Reservierung after habe."
+    },
+    {
+      "type": "mc",
+      "q": "At reception you hear: \"Wann möchten Sie auschecken?\" Which answer fits?",
+      "options": [
+        "Um elf Uhr, bitte.",
+        "Ich heiße Alex.",
+        "Das Zimmer ist kalt."
+      ],
+      "answer": 0,
+      "explain": "The question asks for a time, and \"Um elf Uhr\" gives one."
+    },
+    {
+      "type": "order",
+      "words": [
+        "Ich",
+        "habe",
+        "ein",
+        "Zimmer",
+        "gebucht"
+      ],
+      "answer": "Ich habe ein Zimmer gebucht",
+      "explain": "Perfect tense: the helper haben in second position, the participle gebucht at the end."
+    }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Guten Abend, ich habe ein Zimmer gebucht.", "en": "Good evening, I have booked a room." },
+      { "de": "Ich heiße Alex. Freut mich!", "en": "My name is Alex. Nice to meet you!" },
+      { "de": "Wie ist das Passwort für das WLAN?", "en": "What is the Wi-Fi password?" },
+      { "de": "Wann gibt es Frühstück?", "en": "When is breakfast?" },
+      { "de": "Die Heizung funktioniert nicht.", "en": "The heating does not work." }
+    ],
+    "prompts": [
+      { "q": "Guten Abend! Haben Sie eine Reservierung?", "qEn": "Good evening! Do you have a reservation? (reception)", "model": "Guten Abend. Ja, ich habe ein Einzelzimmer für zwei Nächte gebucht.", "hint": "Say you have booked, and what kind of room." },
+      { "q": "Wie ist Ihr Name, bitte?", "qEn": "What is your name, please?", "model": "Mein Name ist Alex. Ich buchstabiere: A-L-E-X.", "hint": "Say your name; spelling it is normal." },
+      { "q": "Das Frühstück gibt es von sieben bis zehn Uhr. Noch Fragen?", "qEn": "Breakfast is from seven to ten. Any questions?", "model": "Ja, wie ist das Passwort für das WLAN? Und wann muss ich auschecken?", "hint": "Ask about Wi-Fi and check-out." },
+      { "q": "Guten Morgen! Ist alles in Ordnung mit dem Zimmer?", "qEn": "Good morning! Is everything fine with the room?", "model": "Nicht ganz. Die Heizung ist kaputt und es ist kalt. Können Sie bitte jemanden schicken?", "hint": "Report a problem politely." }
+    ]
+  }
+}

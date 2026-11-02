@@ -3,7 +3,6 @@
   "level": "C1",
   "title": "Passiv vertieft",
   "concept": "Passive Perfekt (ist gebaut worden) and passive without a subject (es wird gearbeitet)",
-  "wordlist": "Medizin & Gesundheit",
   "minutes": 40,
   "youtube": "https://www.youtube.com/results?search_query=Learn+German+C1+Passiv+Perfekt+worden+Passiv+ohne+Subjekt",
   "learn": [
@@ -46,32 +45,6 @@
     }
   ],
   "tip": "Passive Perfekt = sein + Partizip II + worden. Count three: ist, operiert, worden. If you want to say someone became something, use geworden. Without an accusative object there is no subject, so the verb stays in the 3rd person singular (wird, wurde).",
-  "words": [
-    { "de": "Arztbrief", "en": "doctor's letter", "pos": "noun", "article": "der", "plural": "Arztbriefe" },
-    { "de": "Befund", "en": "(test) result, findings", "pos": "noun", "article": "der", "plural": "Befunde" },
-    { "de": "Diagnose", "en": "diagnosis", "pos": "noun", "article": "die", "plural": "Diagnosen" },
-    { "de": "Behandlung", "en": "treatment", "pos": "noun", "article": "die", "plural": "Behandlungen" },
-    { "de": "Überweisung", "en": "referral", "pos": "noun", "article": "die", "plural": "Überweisungen" },
-    { "de": "Rezept", "en": "prescription", "pos": "noun", "article": "das", "plural": "Rezepte" },
-    { "de": "Nebenwirkung", "en": "side effect", "pos": "noun", "article": "die", "plural": "Nebenwirkungen" },
-    { "de": "Krankenhaus", "en": "hospital", "pos": "noun", "article": "das", "plural": "Krankenhäuser" },
-    { "de": "Untersuchung", "en": "examination", "pos": "noun", "article": "die", "plural": "Untersuchungen" },
-    { "de": "Verletzung", "en": "injury", "pos": "noun", "article": "die", "plural": "Verletzungen" },
-    { "de": "Impfung", "en": "vaccination", "pos": "noun", "article": "die", "plural": "Impfungen" },
-    { "de": "Krankschreibung", "en": "sick note", "pos": "noun", "article": "die", "plural": "Krankschreibungen" },
-    { "de": "Patient", "en": "patient", "pos": "noun", "article": "der", "plural": "Patienten" },
-    { "de": "Wunde", "en": "wound", "pos": "noun", "article": "die", "plural": "Wunden" },
-    { "de": "operieren", "en": "to operate on", "pos": "verb", "aux": "haben", "p2": "operiert" },
-    { "de": "untersuchen", "en": "to examine", "pos": "verb", "aux": "haben", "p2": "untersucht" },
-    { "de": "verschreiben", "en": "to prescribe", "pos": "verb", "aux": "haben", "p2": "verschrieben" },
-    { "de": "einweisen", "en": "to admit (to hospital)", "pos": "verb", "aux": "haben", "sep": "ein", "p2": "eingewiesen" },
-    { "de": "überweisen", "en": "to refer (to a specialist)", "pos": "verb", "aux": "haben", "p2": "überwiesen" },
-    { "de": "entlassen", "en": "to discharge", "pos": "verb", "aux": "haben", "p2": "entlassen" },
-    { "de": "aufnehmen", "en": "to admit, to take in", "pos": "verb", "aux": "haben", "sep": "auf", "p2": "aufgenommen" },
-    { "de": "sich erholen", "en": "to recover", "pos": "verb", "aux": "haben", "p2": "erholt" },
-    { "de": "chronisch", "en": "chronic", "pos": "adj" },
-    { "de": "ansteckend", "en": "contagious", "pos": "adj" }
-  ],
   "mindmap": {
     "label": "Passiv vertieft",
     "children": [

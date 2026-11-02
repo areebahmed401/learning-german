@@ -1,0 +1,308 @@
+{
+  "id": "restaurant",
+  "icon": "🍽️",
+  "title": "Restaurant",
+  "en": "Restaurant",
+  "intro": "You book a table, read the menu, order food and drinks, mention allergies and pay at the end. If something is wrong, a few polite phrases fix it.",
+  "areas": [
+    {
+      "name": "Reservieren & Empfang",
+      "en": "booking and being seated",
+      "words": [
+        { "de": "reservieren", "en": "to reserve", "pos": "verb", "aux": "haben", "p2": "reserviert", "level": "A2", "goethe": "A2" },
+        { "de": "Restaurant", "en": "restaurant", "pos": "noun", "article": "das", "plural": "Restaurants", "level": "A1", "goethe": "A1" },
+        { "de": "Tisch", "en": "table", "pos": "noun", "article": "der", "plural": "Tische", "level": "A1", "goethe": "A1" },
+        { "de": "Reservierung", "en": "reservation", "pos": "noun", "article": "die", "plural": "Reservierungen", "level": "B1", "goethe": "B1" },
+        { "de": "Terrasse", "en": "terrace", "pos": "noun", "article": "die", "plural": "Terrassen", "level": "B1", "goethe": "B1" },
+        { "de": "Garderobe", "en": "cloakroom", "pos": "noun", "article": "die", "plural": "Garderoben", "level": "B1", "goethe": "B1" },
+        { "de": "Stuhl", "en": "chair", "pos": "noun", "article": "der", "plural": "Stühle", "level": "A2", "goethe": "A2" },
+        { "de": "Gaststätte", "en": "inn, pub restaurant", "pos": "noun", "article": "die", "plural": "Gaststätten", "level": "B1", "goethe": "B1" },
+        { "de": "Imbiss", "en": "snack bar", "pos": "noun", "article": "der", "plural": "Imbisse", "level": "B1", "goethe": "B1" },
+        { "de": "besetzt", "en": "occupied, taken", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "drinnen", "en": "inside", "pos": "adv", "level": "A2", "goethe": "A2" },
+        { "de": "draußen", "en": "outside", "pos": "adv", "level": "A1", "goethe": "A1" }
+      ]
+    },
+    {
+      "name": "Speisekarte",
+      "en": "the menu",
+      "words": [
+        { "de": "Speisekarte", "en": "menu", "pos": "noun", "article": "die", "plural": "Speisekarten", "level": "A1", "goethe": "A1" },
+        { "de": "Gericht", "en": "dish", "pos": "noun", "article": "das", "plural": "Gerichte", "level": "A2", "goethe": "A2" },
+        { "de": "Suppe", "en": "soup", "pos": "noun", "article": "die", "plural": "Suppen", "level": "A2", "goethe": "A2" },
+        { "de": "Salat", "en": "salad", "pos": "noun", "article": "der", "plural": "Salate", "level": "A1", "goethe": "A1" },
+        { "de": "Frühstück", "en": "breakfast", "pos": "noun", "article": "das", "plural": "Frühstücke", "level": "A1", "goethe": "A1" },
+        { "de": "Kuchen", "en": "cake", "pos": "noun", "article": "der", "plural": "Kuchen", "level": "A1", "goethe": "A1" },
+        { "de": "Getränk", "en": "drink", "pos": "noun", "article": "das", "plural": "Getränke", "level": "A1", "goethe": "A1" },
+        { "de": "Vorspeise", "en": "starter", "pos": "noun", "article": "die", "plural": "Vorspeisen", "level": "B1", "goethe": "B1" },
+        { "de": "Hauptgericht", "en": "main course", "pos": "noun", "article": "das", "plural": "Hauptgerichte", "level": "B1" },
+        { "de": "Nachspeise", "en": "dessert", "pos": "noun", "article": "die", "plural": "Nachspeisen", "level": "B1", "goethe": "B1" },
+        { "de": "Beilage", "en": "side dish", "pos": "noun", "article": "die", "plural": "Beilagen", "level": "B1" },
+        { "de": "Tagesgericht", "en": "dish of the day", "pos": "noun", "article": "das", "plural": "Tagesgerichte", "level": "B1" },
+        { "de": "Fleisch", "en": "meat", "pos": "noun", "article": "das", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "Fisch", "en": "fish", "pos": "noun", "article": "der", "plural": "Fische", "level": "A1", "goethe": "A1" },
+        { "de": "Gemüse", "en": "vegetables", "pos": "noun", "article": "das", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "Nudeln", "en": "noodles, pasta", "pos": "noun", "article": "die", "plural": "-", "level": "A2", "goethe": "A2" },
+        { "de": "Reis", "en": "rice", "pos": "noun", "article": "der", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "Kartoffel", "en": "potato", "pos": "noun", "article": "die", "plural": "Kartoffeln", "level": "A1", "goethe": "A1" },
+        { "de": "Pommes", "en": "chips, fries", "pos": "noun", "article": "die", "plural": "Pommes", "level": "A1", "goethe": "A1" },
+        { "de": "Eis", "en": "ice cream", "pos": "noun", "article": "das", "plural": "-", "level": "A2", "goethe": "A2" }
+      ]
+    },
+    {
+      "name": "Bestellen",
+      "en": "ordering",
+      "words": [
+        { "de": "bestellen", "en": "to order", "pos": "verb", "aux": "haben", "p2": "bestellt", "level": "A1", "goethe": "A1" },
+        { "de": "empfehlen", "en": "to recommend", "pos": "verb", "aux": "haben", "p2": "empfohlen", "level": "A1", "goethe": "A1" },
+        { "de": "bringen", "en": "to bring", "pos": "verb", "aux": "haben", "p2": "gebracht", "level": "A1", "goethe": "A1" },
+        { "de": "Ich möchte …", "en": "I would like …", "pos": "phrase", "level": "A1", "goethe": "A1" },
+        { "de": "Guten Appetit!", "en": "Enjoy your meal!", "pos": "phrase", "level": "A1", "goethe": "A1" },
+        { "de": "Kellner", "en": "waiter", "pos": "noun", "article": "der", "plural": "Kellner", "level": "A2", "goethe": "A2" },
+        { "de": "Kellnerin", "en": "waitress", "pos": "noun", "article": "die", "plural": "Kellnerinnen", "level": "A2", "goethe": "A2" },
+        { "de": "Bedienung", "en": "service, waiting staff", "pos": "noun", "article": "die", "plural": "Bedienungen", "level": "A2" },
+        { "de": "Bestellung", "en": "order", "pos": "noun", "article": "die", "plural": "Bestellungen", "level": "A2" },
+        { "de": "Wasser", "en": "water", "pos": "noun", "article": "das", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "Saft", "en": "juice", "pos": "noun", "article": "der", "plural": "Säfte", "level": "A1", "goethe": "A1" },
+        { "de": "Bier", "en": "beer", "pos": "noun", "article": "das", "plural": "Biere", "level": "A1", "goethe": "A1" },
+        { "de": "Wein", "en": "wine", "pos": "noun", "article": "der", "plural": "Weine", "level": "A1", "goethe": "A1" },
+        { "de": "Limonade", "en": "lemonade", "pos": "noun", "article": "die", "plural": "Limonaden", "level": "B1", "goethe": "B1" },
+        { "de": "Leitungswasser", "en": "tap water", "pos": "noun", "article": "das", "plural": "-", "level": "B1" },
+        { "de": "nehmen", "en": "to take, to have (an order)", "pos": "verb", "aux": "haben", "p2": "genommen", "level": "A1", "goethe": "A1" },
+        { "de": "trinken", "en": "to drink", "pos": "verb", "aux": "haben", "p2": "getrunken", "level": "A1", "goethe": "A1" },
+        { "de": "essen", "en": "to eat", "pos": "verb", "aux": "haben", "p2": "gegessen", "level": "A1", "goethe": "A1" },
+        { "de": "lecker", "en": "tasty", "pos": "adj", "level": "B1", "goethe": "B1" },
+        { "de": "frisch", "en": "fresh", "pos": "adj", "level": "A2", "goethe": "A2" }
+      ]
+    },
+    {
+      "name": "Besteck & Geschirr",
+      "en": "cutlery and tableware",
+      "words": [
+        { "de": "Tasse", "en": "cup", "pos": "noun", "article": "die", "plural": "Tassen", "level": "A1", "goethe": "A1" },
+        { "de": "Teller", "en": "plate", "pos": "noun", "article": "der", "plural": "Teller", "level": "A2", "goethe": "A2" },
+        { "de": "Glas", "en": "glass", "pos": "noun", "article": "das", "plural": "Gläser", "level": "A1", "goethe": "A1" },
+        { "de": "Messer", "en": "knife", "pos": "noun", "article": "das", "plural": "Messer", "level": "A2", "goethe": "A2" },
+        { "de": "Gabel", "en": "fork", "pos": "noun", "article": "die", "plural": "Gabeln", "level": "A2", "goethe": "A2" },
+        { "de": "Löffel", "en": "spoon", "pos": "noun", "article": "der", "plural": "Löffel", "level": "A2", "goethe": "A2" },
+        { "de": "Serviette", "en": "napkin", "pos": "noun", "article": "die", "plural": "Servietten", "level": "A2" },
+        { "de": "Flasche", "en": "bottle", "pos": "noun", "article": "die", "plural": "Flaschen", "level": "A1", "goethe": "A1" },
+        { "de": "Karaffe", "en": "carafe", "pos": "noun", "article": "die", "plural": "Karaffen", "level": "B2" },
+        { "de": "Salz", "en": "salt", "pos": "noun", "article": "das", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "Pfeffer", "en": "pepper", "pos": "noun", "article": "der", "plural": "-", "level": "B1", "goethe": "B1" },
+        { "de": "Zucker", "en": "sugar", "pos": "noun", "article": "der", "plural": "-", "level": "A2", "goethe": "A2" },
+        { "de": "Besteck", "en": "cutlery", "pos": "noun", "article": "das", "plural": "-", "level": "A2" },
+        { "de": "Strohhalm", "en": "straw", "pos": "noun", "article": "der", "plural": "Strohhalme", "level": "B2" }
+      ]
+    },
+    {
+      "name": "Allergien & Wünsche",
+      "en": "allergies and special requests",
+      "words": [
+        { "de": "Allergie", "en": "allergy", "pos": "noun", "article": "die", "plural": "Allergien", "level": "B1" },
+        { "de": "Unverträglichkeit", "en": "intolerance", "pos": "noun", "article": "die", "plural": "Unverträglichkeiten", "level": "B2" },
+        { "de": "Laktose", "en": "lactose", "pos": "noun", "article": "die", "plural": "-", "level": "B2" },
+        { "de": "Gluten", "en": "gluten", "pos": "noun", "article": "das", "plural": "-", "level": "B2" },
+        { "de": "Nuss", "en": "nut", "pos": "noun", "article": "die", "plural": "Nüsse", "level": "B1" },
+        { "de": "Zutat", "en": "ingredient", "pos": "noun", "article": "die", "plural": "Zutaten", "level": "B1" },
+        { "de": "Schweinefleisch", "en": "pork", "pos": "noun", "article": "das", "plural": "-", "level": "A2", "goethe": "A2" },
+        { "de": "Soße", "en": "sauce", "pos": "noun", "article": "die", "plural": "Soßen", "level": "B1", "goethe": "B1" },
+        { "de": "Portion", "en": "portion", "pos": "noun", "article": "die", "plural": "Portionen", "level": "A2", "goethe": "A2" },
+        { "de": "allergisch", "en": "allergic", "pos": "adj", "level": "B1" },
+        { "de": "glutenfrei", "en": "gluten-free", "pos": "adj", "level": "B2" },
+        { "de": "laktosefrei", "en": "lactose-free", "pos": "adj", "level": "B2" },
+        { "de": "vegetarisch", "en": "vegetarian", "pos": "adj", "level": "B1", "goethe": "B1" },
+        { "de": "vegan", "en": "vegan", "pos": "adj", "level": "B1" },
+        { "de": "scharf", "en": "spicy, hot", "pos": "adj", "level": "A2", "goethe": "A2" },
+        { "de": "enthalten", "en": "to contain", "pos": "verb", "aux": "haben", "p2": "enthalten", "level": "A2", "goethe": "A2" },
+        { "de": "vertragen", "en": "to tolerate, to digest", "pos": "verb", "aux": "haben", "p2": "vertragen", "level": "B2" }
+      ]
+    },
+    {
+      "name": "Bezahlen & Reklamation",
+      "en": "paying, tipping and complaints",
+      "words": [
+        { "de": "Rechnung", "en": "bill", "pos": "noun", "article": "die", "plural": "Rechnungen", "level": "A1", "goethe": "A1" },
+        { "de": "bezahlen", "en": "to pay", "pos": "verb", "aux": "haben", "p2": "bezahlt", "level": "A1", "goethe": "A1" },
+        { "de": "Zahlen, bitte!", "en": "The bill, please!", "pos": "phrase", "level": "A1", "goethe": "A1" },
+        { "de": "Stimmt so.", "en": "Keep the change.", "pos": "phrase", "level": "A1", "goethe": "A1" },
+        { "de": "Trinkgeld", "en": "tip", "pos": "noun", "article": "das", "plural": "Trinkgelder", "level": "B1", "goethe": "B1" },
+        { "de": "Beschwerde", "en": "complaint", "pos": "noun", "article": "die", "plural": "Beschwerden", "level": "B1" },
+        { "de": "Wechselgeld", "en": "change (money)", "pos": "noun", "article": "das", "plural": "-", "level": "B1", "goethe": "B1" },
+        { "de": "Kartenzahlung", "en": "card payment", "pos": "noun", "article": "die", "plural": "Kartenzahlungen", "level": "B2" },
+        { "de": "reklamieren", "en": "to complain (about a fault)", "pos": "verb", "aux": "haben", "p2": "reklamiert", "level": "B2" },
+        { "de": "sich entschuldigen", "en": "to apologise", "pos": "verb", "aux": "haben", "p2": "entschuldigt", "level": "A1", "goethe": "A1" },
+        { "de": "getrennt", "en": "separately", "pos": "adv", "level": "A2", "goethe": "A2" },
+        { "de": "zusammen", "en": "together", "pos": "adv", "level": "A1", "goethe": "A1" },
+        { "de": "bar", "en": "in cash", "pos": "adv", "level": "A1", "goethe": "A1" },
+        { "de": "kalt", "en": "cold", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "versalzen", "en": "too salty", "pos": "adj", "level": "B2" },
+        { "de": "falsch", "en": "wrong", "pos": "adj", "level": "A1", "goethe": "A1" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "de": "Haben Sie reserviert?", "en": "Do you have a reservation?", "who": "staff", "level": "A2" },
+    { "de": "Ich möchte einen Tisch für zwei Personen reservieren.", "en": "I would like to book a table for two people.", "who": "you", "level": "A2" },
+    { "de": "Möchten Sie etwas trinken?", "en": "Would you like something to drink?", "who": "staff", "level": "A1" },
+    { "de": "Haben Sie schon gewählt?", "en": "Have you already chosen?", "who": "staff", "level": "B1" },
+    { "de": "Ich nehme die Tomatensuppe und danach den Fisch.", "en": "I will have the tomato soup and then the fish.", "who": "you", "level": "A2" },
+    { "de": "Was können Sie empfehlen?", "en": "What can you recommend?", "who": "you", "level": "A2" },
+    { "de": "Ich bin allergisch gegen Nüsse.", "en": "I am allergic to nuts.", "who": "you", "level": "B1" },
+    { "de": "Ist das Gericht vegetarisch?", "en": "Is the dish vegetarian?", "who": "you", "level": "B1" },
+    { "de": "Ohne Zwiebeln, bitte.", "en": "Without onions, please.", "who": "you", "level": "A2" },
+    { "de": "Guten Appetit!", "en": "Enjoy your meal!", "who": "staff", "level": "A2" },
+    { "de": "Zahlen, bitte!", "en": "The bill, please!", "who": "you", "level": "A2" },
+    { "de": "Zusammen oder getrennt?", "en": "Together or separately?", "who": "staff", "level": "A2" },
+    { "de": "Stimmt so.", "en": "Keep the change.", "who": "you", "level": "A2" },
+    { "de": "Entschuldigung, das Essen ist kalt.", "en": "Excuse me, the food is cold.", "who": "you", "level": "B1" },
+    { "de": "Das habe ich nicht bestellt.", "en": "I did not order that.", "who": "you", "level": "B1" }
+  ],
+  "exercises": [
+    { "type": "article", "word": "Speisekarte", "answer": "die", "explain": "Nouns ending in -karte are feminine: die Speisekarte." },
+    { "type": "article", "word": "Teller", "answer": "der", "explain": "Teller is masculine: der Teller, die Teller." },
+    { "type": "article", "word": "Getränk", "answer": "das", "explain": "Getränk is neuter: das Getränk, die Getränke." },
+    { "type": "article", "word": "Rechnung", "answer": "die", "explain": "Nouns ending in -ung are always feminine: die Rechnung." },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "der Teller",
+          "plate"
+        ],
+        [
+          "das Messer",
+          "knife"
+        ],
+        [
+          "die Gabel",
+          "fork"
+        ],
+        [
+          "der Löffel",
+          "spoon"
+        ]
+      ],
+      "explain": "Four things on the table, each with its article."
+    },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "die Vorspeise",
+          "starter"
+        ],
+        [
+          "das Hauptgericht",
+          "main course"
+        ],
+        [
+          "die Nachspeise",
+          "dessert"
+        ],
+        [
+          "das Trinkgeld",
+          "tip"
+        ],
+        [
+          "die Rechnung",
+          "bill"
+        ]
+      ],
+      "explain": "The parts of a meal and its end."
+    },
+    {
+      "type": "gap",
+      "q": "Ich möchte einen Tisch für zwei Personen ___.",
+      "answer": [
+        "reservieren"
+      ],
+      "explain": "Möchte takes the infinitive at the end: reservieren."
+    },
+    {
+      "type": "gap",
+      "q": "Ich bin ___ gegen Nüsse.",
+      "answer": [
+        "allergisch"
+      ],
+      "explain": "Sein + allergisch + gegen + accusative: allergisch gegen Nüsse."
+    },
+    {
+      "type": "gap",
+      "q": "Wir möchten bitte ___.",
+      "answer": [
+        "zahlen",
+        "bezahlen"
+      ],
+      "explain": "Möchten takes the infinitive at the end: zahlen or bezahlen."
+    },
+    {
+      "type": "translate",
+      "en": "The menu, please.",
+      "answer": [
+        "Die Speisekarte, bitte.",
+        "Die Karte, bitte.",
+        "Die Speisekarte bitte"
+      ],
+      "explain": "Speisekarte is feminine, so die Speisekarte."
+    },
+    {
+      "type": "translate",
+      "en": "I would like the soup.",
+      "answer": [
+        "Ich möchte die Suppe.",
+        "Ich hätte gern die Suppe.",
+        "Ich hätte gerne die Suppe.",
+        "Ich nehme die Suppe."
+      ],
+      "explain": "Ich möchte or ich hätte gern is the polite way to order; Suppe is feminine: die Suppe."
+    },
+    {
+      "type": "mc",
+      "q": "The waiter asks: \"Haben Sie schon gewählt?\" Which answer fits?",
+      "options": [
+        "Ja, ich nehme die Suppe.",
+        "Ja, ich habe reserviert.",
+        "Ja, ich zahle bar."
+      ],
+      "answer": 0,
+      "explain": "Gewählt means chosen, so you answer with your order."
+    },
+    {
+      "type": "mc",
+      "q": "The waiter brings the wrong dish. What do you say?",
+      "options": [
+        "Entschuldigung, das habe ich nicht bestellt.",
+        "Stimmt so.",
+        "Guten Appetit!"
+      ],
+      "answer": 0,
+      "explain": "You politely say that you did not order it."
+    },
+    {
+      "type": "order",
+      "words": [
+        "Sie",
+        "reserviert",
+        "Haben"
+      ],
+      "answer": "Haben Sie reserviert",
+      "explain": "A yes/no question starts with the verb: Haben Sie reserviert?"
+    }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Ich möchte einen Tisch für zwei Personen reservieren.", "en": "I would like to book a table for two people." },
+      { "de": "Was können Sie empfehlen?", "en": "What can you recommend?" },
+      { "de": "Ich bin allergisch gegen Nüsse.", "en": "I am allergic to nuts." },
+      { "de": "Zahlen, bitte!", "en": "The bill, please!" },
+      { "de": "Das habe ich nicht bestellt.", "en": "I did not order that." }
+    ],
+    "prompts": [
+      { "q": "Guten Abend, haben Sie reserviert?", "qEn": "Good evening, do you have a reservation? (host)", "model": "Ja, ich habe einen Tisch für zwei Personen reserviert.", "hint": "Say you have booked a table for two." },
+      { "q": "Haben Sie schon gewählt?", "qEn": "Have you already chosen? (waiter)", "model": "Ja, ich nehme die Tomatensuppe und danach den Fisch mit Reis. Ich bin allergisch gegen Nüsse.", "hint": "Order two courses and mention your allergy." },
+      { "q": "Ist alles in Ordnung?", "qEn": "Is everything all right?", "model": "Entschuldigung, die Suppe ist leider kalt. Können Sie sie bitte warm machen?", "hint": "Say politely that the soup is cold." },
+      { "q": "Zusammen oder getrennt?", "qEn": "Together or separately?", "model": "Zusammen, bitte. Stimmt so.", "hint": "Pay together and add a tip." }
+    ]
+  }
+}

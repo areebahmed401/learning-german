@@ -3,7 +3,6 @@
   "level": "B2",
   "title": "Nomen-Verb-Verbindungen",
   "concept": "Fixed noun-verb phrases: eine Entscheidung treffen",
-  "wordlist": "Verhandlungen & Meetings",
   "minutes": 35,
   "youtube": "https://www.youtube.com/results?search_query=Learn+German+B2+Nomen-Verb-Verbindungen",
   "learn": [
@@ -66,30 +65,6 @@
     }
   ],
   "tip": "Learn the whole block, not single words: eine Entscheidung TREFFEN, in Kauf NEHMEN, zur Verfügung STELLEN. Say the phrase aloud three times with its noun; the verb will follow automatically.",
-  "words": [
-    { "de": "eine Entscheidung treffen", "en": "to make a decision", "pos": "phrase" },
-    { "de": "in Kauf nehmen", "en": "to accept (a drawback)", "pos": "phrase" },
-    { "de": "zur Verfügung stellen", "en": "to provide, to make available", "pos": "phrase" },
-    { "de": "Rücksicht nehmen auf", "en": "to show consideration for (+Akk)", "pos": "phrase" },
-    { "de": "in Frage kommen", "en": "to be possible, to be an option", "pos": "phrase" },
-    { "de": "zum Ausdruck bringen", "en": "to express", "pos": "phrase" },
-    { "de": "eine Rolle spielen", "en": "to play a role", "pos": "phrase" },
-    { "de": "Kritik üben an", "en": "to criticise (+Dat)", "pos": "phrase" },
-    { "de": "einen Beitrag leisten zu", "en": "to contribute to (+Dat)", "pos": "phrase" },
-    { "de": "in Betracht ziehen", "en": "to consider", "pos": "phrase" },
-    { "de": "Stellung nehmen zu", "en": "to comment on (+Dat)", "pos": "phrase" },
-    { "de": "zur Kenntnis nehmen", "en": "to take note of", "pos": "phrase" },
-    { "de": "Einfluss nehmen auf", "en": "to influence (+Akk)", "pos": "phrase" },
-    { "de": "Verantwortung übernehmen für", "en": "to take responsibility for (+Akk)", "pos": "phrase" },
-    { "de": "einen Vorschlag unterbreiten", "en": "to submit a proposal", "pos": "phrase" },
-    { "de": "Bedenken äußern", "en": "to voice concerns", "pos": "phrase" },
-    { "de": "zur Diskussion stellen", "en": "to put up for discussion", "pos": "phrase" },
-    { "de": "Besprechung", "en": "meeting, discussion", "pos": "noun", "article": "die", "plural": "Besprechungen" },
-    { "de": "Tagesordnung", "en": "agenda", "pos": "noun", "article": "die", "plural": "Tagesordnungen" },
-    { "de": "Protokoll", "en": "minutes, record", "pos": "noun", "article": "das", "plural": "Protokolle" },
-    { "de": "Verhandlung", "en": "negotiation", "pos": "noun", "article": "die", "plural": "Verhandlungen" },
-    { "de": "Angebot", "en": "offer", "pos": "noun", "article": "das", "plural": "Angebote" }
-  ],
   "mindmap": {
     "label": "Nomen-Verb-Verbindungen",
     "children": [

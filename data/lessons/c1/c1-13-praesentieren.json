@@ -3,7 +3,6 @@
   "level": "C1",
   "title": "Präsentieren & Diskutieren",
   "concept": "Phrases for presentations, chairing a discussion and stating your position",
-  "wordlist": "Präsentation & Diskussion",
   "minutes": 35,
   "youtube": "https://www.youtube.com/results?search_query=Learn+German+C1+Pr%C3%A4sentation+Diskussion+Redemittel",
   "learn": [
@@ -69,30 +68,6 @@
     }
   ],
   "tip": "Prepare one phrase per move and say it aloud: Opening, Transition, Summary, Closing. In discussion: agree with zustimmen, disagree with widersprechen, and both take the Dativ (Ihnen). Speaking practice beats reading: record yourself once a day.",
-  "words": [
-    { "de": "Folie", "en": "slide", "pos": "noun", "article": "die", "plural": "Folien" },
-    { "de": "Zielgruppe", "en": "target group, audience", "pos": "noun", "article": "die", "plural": "Zielgruppen" },
-    { "de": "Einstieg", "en": "opening, introduction", "pos": "noun", "article": "der", "plural": "Einstiege" },
-    { "de": "Gliederung", "en": "outline, structure", "pos": "noun", "article": "die", "plural": "Gliederungen" },
-    { "de": "Überleitung", "en": "transition", "pos": "noun", "article": "die", "plural": "Überleitungen" },
-    { "de": "Zwischenfrage", "en": "question during a talk", "pos": "noun", "article": "die", "plural": "Zwischenfragen" },
-    { "de": "Einwand", "en": "objection", "pos": "noun", "article": "der", "plural": "Einwände" },
-    { "de": "Wortbeitrag", "en": "contribution (to a discussion)", "pos": "noun", "article": "der", "plural": "Wortbeiträge" },
-    { "de": "Standpunkt", "en": "position, point of view", "pos": "noun", "article": "der", "plural": "Standpunkte" },
-    { "de": "Moderator", "en": "chair, moderator", "pos": "noun", "article": "der", "plural": "Moderatoren" },
-    { "de": "vorstellen", "en": "to present, to introduce", "pos": "verb", "aux": "haben", "sep": "vor", "p2": "vorgestellt" },
-    { "de": "hervorheben", "en": "to emphasise, to highlight", "pos": "verb", "aux": "haben", "sep": "hervor", "p2": "hervorgehoben" },
-    { "de": "zusammenfassen", "en": "to summarise", "pos": "verb", "aux": "haben", "sep": "zusammen", "p2": "zusammengefasst" },
-    { "de": "eingehen", "en": "to address (auf + Akk)", "pos": "verb", "aux": "sein", "sep": "ein", "p2": "eingegangen" },
-    { "de": "zustimmen", "en": "to agree (+Dat)", "pos": "verb", "aux": "haben", "sep": "zu", "p2": "zugestimmt" },
-    { "de": "widersprechen", "en": "to contradict, to disagree (+Dat)", "pos": "verb", "aux": "haben", "p2": "widersprochen" },
-    { "de": "Das bringt mich zum nächsten Punkt", "en": "That brings me to the next point", "pos": "phrase" },
-    { "de": "Meiner Ansicht nach", "en": "in my opinion", "pos": "phrase" },
-    { "de": "Da muss ich Ihnen widersprechen", "en": "I have to disagree with you", "pos": "phrase" },
-    { "de": "Darf ich kurz unterbrechen?", "en": "May I briefly interrupt?", "pos": "phrase" },
-    { "de": "Vielen Dank für Ihre Aufmerksamkeit", "en": "Thank you for your attention", "pos": "phrase" },
-    { "de": "Ich komme zum Schluss", "en": "I am coming to the end", "pos": "phrase" }
-  ],
   "mindmap": {
     "label": "Präsentieren & Diskutieren",
     "children": [

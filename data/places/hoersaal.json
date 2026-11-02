@@ -1,0 +1,382 @@
+{
+  "id": "hoersaal",
+  "icon": "📚",
+  "title": "Hörsaal, Bibliothek & Mensa",
+  "en": "Lecture hall, library & canteen",
+  "intro": "You sit in lectures, take notes, borrow books, give a presentation in a seminar and eat in the Mensa between classes. This is the language of everyday university work, from asking a question to arguing a point.",
+  "areas": [
+    {
+      "name": "Hörsaal & Vorlesung",
+      "en": "lecture hall and lectures",
+      "words": [
+        { "de": "Hörsaal", "en": "lecture hall", "pos": "noun", "article": "der", "plural": "Hörsäle", "level": "B1" },
+        { "de": "Vorlesung", "en": "lecture", "pos": "noun", "article": "die", "plural": "Vorlesungen", "level": "B1" },
+        { "de": "Dozent", "en": "lecturer (male)", "pos": "noun", "article": "der", "plural": "Dozenten", "level": "B1" },
+        { "de": "Dozentin", "en": "lecturer (female)", "pos": "noun", "article": "die", "plural": "Dozentinnen", "level": "B2" },
+        { "de": "Professor", "en": "professor (male)", "pos": "noun", "article": "der", "plural": "Professoren", "level": "B1", "goethe": "B1" },
+        { "de": "Professorin", "en": "professor (female)", "pos": "noun", "article": "die", "plural": "Professorinnen", "level": "B1", "goethe": "B1" },
+        { "de": "Mitschrift", "en": "lecture notes", "pos": "noun", "article": "die", "plural": "Mitschriften", "level": "B2" },
+        { "de": "Skript", "en": "course reader, lecture script", "pos": "noun", "article": "das", "plural": "Skripte", "level": "B2" },
+        { "de": "Handout", "en": "handout", "pos": "noun", "article": "das", "plural": "Handouts", "level": "B2" },
+        { "de": "Beamer", "en": "projector", "pos": "noun", "article": "der", "plural": "Beamer", "level": "B1" },
+        { "de": "Tutorium", "en": "tutorial class", "pos": "noun", "article": "das", "plural": "Tutorien", "level": "B2" },
+        { "de": "Anwesenheitsliste", "en": "attendance list", "pos": "noun", "article": "die", "plural": "Anwesenheitslisten", "level": "B2" },
+        { "de": "Platz", "en": "seat, place", "pos": "noun", "article": "der", "plural": "Plätze", "level": "A1", "goethe": "A1" },
+        { "de": "mitschreiben", "en": "to take notes", "pos": "verb", "aux": "haben", "sep": "mit", "p2": "mitgeschrieben", "level": "B1" },
+        { "de": "zuhören", "en": "to listen", "pos": "verb", "aux": "haben", "sep": "zu", "p2": "zugehört", "level": "A2", "goethe": "A2" },
+        { "de": "nachfragen", "en": "to ask for clarification", "pos": "verb", "aux": "haben", "sep": "nach", "p2": "nachgefragt", "level": "B1" },
+        { "de": "sich melden", "en": "to raise one's hand, to speak up", "pos": "verb", "aux": "haben", "p2": "gemeldet", "level": "B1", "goethe": "B1" }
+      ]
+    },
+    {
+      "name": "Bibliothek",
+      "en": "library",
+      "words": [
+        { "de": "Bibliothek", "en": "library", "pos": "noun", "article": "die", "plural": "Bibliotheken", "level": "A2", "goethe": "A2" },
+        { "de": "Ausleihe", "en": "lending desk", "pos": "noun", "article": "die", "plural": "Ausleihen", "level": "B1" },
+        { "de": "Leihfrist", "en": "loan period", "pos": "noun", "article": "die", "plural": "Leihfristen", "level": "B2" },
+        { "de": "Fernleihe", "en": "interlibrary loan", "pos": "noun", "article": "die", "plural": "Fernleihen", "level": "B2" },
+        { "de": "Signatur", "en": "shelf mark, call number", "pos": "noun", "article": "die", "plural": "Signaturen", "level": "B2" },
+        { "de": "Regal", "en": "shelf", "pos": "noun", "article": "das", "plural": "Regale", "level": "A2", "goethe": "A2" },
+        { "de": "Lesesaal", "en": "reading room", "pos": "noun", "article": "der", "plural": "Lesesäle", "level": "B1" },
+        { "de": "Bibliotheksausweis", "en": "library card", "pos": "noun", "article": "der", "plural": "Bibliotheksausweise", "level": "B1" },
+        { "de": "Katalog", "en": "catalogue", "pos": "noun", "article": "der", "plural": "Kataloge", "level": "B1", "goethe": "B1" },
+        { "de": "Buch", "en": "book", "pos": "noun", "article": "das", "plural": "Bücher", "level": "A1", "goethe": "A1" },
+        { "de": "Zeitschrift", "en": "journal, magazine", "pos": "noun", "article": "die", "plural": "Zeitschriften", "level": "A2", "goethe": "A2" },
+        { "de": "Mahngebühr", "en": "overdue fine", "pos": "noun", "article": "die", "plural": "Mahngebühren", "level": "B2" },
+        { "de": "Nachschlagewerk", "en": "reference work", "pos": "noun", "article": "das", "plural": "Nachschlagewerke", "level": "C1" },
+        { "de": "Arbeitsplatz", "en": "study desk, workstation", "pos": "noun", "article": "der", "plural": "Arbeitsplätze", "level": "A1", "goethe": "A1" },
+        { "de": "ausleihen", "en": "to borrow", "pos": "verb", "aux": "haben", "sep": "aus", "p2": "ausgeliehen", "level": "B1", "goethe": "B1" },
+        { "de": "verlängern", "en": "to renew, to extend", "pos": "verb", "aux": "haben", "p2": "verlängert", "level": "B1", "goethe": "B1" },
+        { "de": "zurückgeben", "en": "to return", "pos": "verb", "aux": "haben", "sep": "zurück", "p2": "zurückgegeben", "level": "A2", "goethe": "A2" },
+        { "de": "vormerken", "en": "to reserve (a book)", "pos": "verb", "aux": "haben", "sep": "vor", "p2": "vorgemerkt", "level": "B2" },
+        { "de": "recherchieren", "en": "to research (look up)", "pos": "verb", "aux": "haben", "p2": "recherchiert", "level": "B2" }
+      ]
+    },
+    {
+      "name": "Diskutieren im Seminar",
+      "en": "discussing in a seminar",
+      "words": [
+        { "de": "Argument", "en": "argument", "pos": "noun", "article": "das", "plural": "Argumente", "level": "B1" },
+        { "de": "Gegenargument", "en": "counter-argument", "pos": "noun", "article": "das", "plural": "Gegenargumente", "level": "B2" },
+        { "de": "Standpunkt", "en": "point of view", "pos": "noun", "article": "der", "plural": "Standpunkte", "level": "B1", "goethe": "B1" },
+        { "de": "Vorteil", "en": "advantage", "pos": "noun", "article": "der", "plural": "Vorteile", "level": "B1", "goethe": "B1" },
+        { "de": "Nachteil", "en": "disadvantage", "pos": "noun", "article": "der", "plural": "Nachteile", "level": "B1", "goethe": "B1" },
+        { "de": "Meinung", "en": "opinion", "pos": "noun", "article": "die", "plural": "Meinungen", "level": "A2", "goethe": "A2" },
+        { "de": "Kompromiss", "en": "compromise", "pos": "noun", "article": "der", "plural": "Kompromisse", "level": "B1", "goethe": "B1" },
+        { "de": "Einwand", "en": "objection", "pos": "noun", "article": "der", "plural": "Einwände", "level": "B2" },
+        { "de": "Behauptung", "en": "claim", "pos": "noun", "article": "die", "plural": "Behauptungen", "level": "B2" },
+        { "de": "Voraussetzung", "en": "precondition", "pos": "noun", "article": "die", "plural": "Voraussetzungen", "level": "B1", "goethe": "B1" },
+        { "de": "überzeugen", "en": "to convince", "pos": "verb", "aux": "haben", "p2": "überzeugt", "level": "B1", "goethe": "B1" },
+        { "de": "widersprechen", "en": "to contradict (+Dat)", "pos": "verb", "aux": "haben", "p2": "widersprochen", "level": "B1", "goethe": "B1" },
+        { "de": "zustimmen", "en": "to agree (+Dat)", "pos": "verb", "aux": "haben", "sep": "zu", "p2": "zugestimmt", "level": "B1", "goethe": "B1" },
+        { "de": "ablehnen", "en": "to reject", "pos": "verb", "aux": "haben", "sep": "ab", "p2": "abgelehnt", "level": "B1", "goethe": "B1" },
+        { "de": "begründen", "en": "to justify, to give reasons for", "pos": "verb", "aux": "haben", "p2": "begründet", "level": "A2", "goethe": "A2" },
+        { "de": "betonen", "en": "to emphasise", "pos": "verb", "aux": "haben", "p2": "betont", "level": "B2" },
+        { "de": "abwägen", "en": "to weigh up", "pos": "verb", "aux": "haben", "sep": "ab", "p2": "abgewogen", "level": "B2" },
+        { "de": "sich einigen", "en": "to come to an agreement", "pos": "verb", "aux": "haben", "p2": "geeinigt", "level": "B1", "goethe": "B1" },
+        { "de": "sachlich", "en": "objective, factual", "pos": "adj", "level": "B2" },
+        { "de": "überzeugend", "en": "convincing", "pos": "adj", "level": "B2" },
+        { "de": "einseitig", "en": "one-sided", "pos": "adj", "level": "B2" }
+      ]
+    },
+    {
+      "name": "Referat & Präsentation",
+      "en": "presentations and reports",
+      "words": [
+        { "de": "Bericht", "en": "report", "pos": "noun", "article": "der", "plural": "Berichte", "level": "B1", "goethe": "B1" },
+        { "de": "Auswertung", "en": "evaluation, analysis", "pos": "noun", "article": "die", "plural": "Auswertungen", "level": "B2" },
+        { "de": "Verbesserung", "en": "improvement", "pos": "noun", "article": "die", "plural": "Verbesserungen", "level": "B1", "goethe": "B1" },
+        { "de": "Präsentation", "en": "presentation", "pos": "noun", "article": "die", "plural": "Präsentationen", "level": "B1", "goethe": "B1" },
+        { "de": "Folie", "en": "slide", "pos": "noun", "article": "die", "plural": "Folien", "level": "B1", "goethe": "B1" },
+        { "de": "Zusammenfassung", "en": "summary", "pos": "noun", "article": "die", "plural": "Zusammenfassungen", "level": "B2" },
+        { "de": "Kennzahl", "en": "key figure, KPI", "pos": "noun", "article": "die", "plural": "Kennzahlen", "level": "B2" },
+        { "de": "Anstieg", "en": "rise, increase", "pos": "noun", "article": "der", "plural": "Anstiege", "level": "B2" },
+        { "de": "Rückgang", "en": "decline, decrease", "pos": "noun", "article": "der", "plural": "Rückgänge", "level": "B2" },
+        { "de": "Vergleich", "en": "comparison", "pos": "noun", "article": "der", "plural": "Vergleiche", "level": "B1", "goethe": "B1" },
+        { "de": "präsentieren", "en": "to present", "pos": "verb", "aux": "haben", "p2": "präsentiert", "level": "B1", "goethe": "B1" },
+        { "de": "auswerten", "en": "to evaluate, to analyse", "pos": "verb", "aux": "haben", "sep": "aus", "p2": "ausgewertet", "level": "B2" },
+        { "de": "zusammenfassen", "en": "to summarise", "pos": "verb", "aux": "haben", "sep": "zusammen", "p2": "zusammengefasst", "level": "B1", "goethe": "B1" },
+        { "de": "vergleichen", "en": "to compare", "pos": "verb", "aux": "haben", "p2": "verglichen", "level": "A2", "goethe": "A2" },
+        { "de": "erläutern", "en": "to explain in detail", "pos": "verb", "aux": "haben", "p2": "erläutert", "level": "B2" },
+        { "de": "ausführlich", "en": "detailed, in detail", "pos": "adj", "level": "B2" },
+        { "de": "übersichtlich", "en": "clear, well organised", "pos": "adj", "level": "B2" },
+        { "de": "deutlich", "en": "clear, noticeable", "pos": "adj", "level": "A2", "goethe": "A2" },
+        { "de": "Entwicklung", "en": "development", "pos": "noun", "article": "die", "plural": "Entwicklungen", "level": "B1", "goethe": "B1" },
+        { "de": "Referat", "en": "presentation, seminar paper", "pos": "noun", "article": "das", "plural": "Referate", "level": "B1", "goethe": "B1" },
+        { "de": "Gliederung", "en": "outline, structure", "pos": "noun", "article": "die", "plural": "Gliederungen", "level": "B2" },
+        { "de": "Publikum", "en": "audience", "pos": "noun", "article": "das", "plural": "-", "level": "B1", "goethe": "B1" }
+      ]
+    },
+    {
+      "name": "Wissenschaftlich schreiben",
+      "en": "academic writing",
+      "words": [
+        { "de": "Hypothese", "en": "hypothesis", "pos": "noun", "article": "die", "plural": "Hypothesen", "level": "C1" },
+        { "de": "These", "en": "thesis, claim", "pos": "noun", "article": "die", "plural": "Thesen", "level": "C1" },
+        { "de": "Studie", "en": "study", "pos": "noun", "article": "die", "plural": "Studien", "level": "B1", "goethe": "B1" },
+        { "de": "Quelle", "en": "source", "pos": "noun", "article": "die", "plural": "Quellen", "level": "B2" },
+        { "de": "Beleg", "en": "piece of evidence, reference", "pos": "noun", "article": "der", "plural": "Belege", "level": "B1", "goethe": "B1" },
+        { "de": "Fragestellung", "en": "research question", "pos": "noun", "article": "die", "plural": "Fragestellungen", "level": "C1" },
+        { "de": "Fazit", "en": "conclusion, summing up", "pos": "noun", "article": "das", "plural": "Fazits", "level": "C1" },
+        { "de": "Literaturverzeichnis", "en": "bibliography", "pos": "noun", "article": "das", "plural": "Literaturverzeichnisse", "level": "C1" },
+        { "de": "Betreuer", "en": "supervisor", "pos": "noun", "article": "der", "plural": "Betreuer", "level": "B1", "goethe": "B1" },
+        { "de": "belegen", "en": "to prove with evidence", "pos": "verb", "aux": "haben", "p2": "belegt", "level": "B2" },
+        { "de": "zitieren", "en": "to cite, to quote", "pos": "verb", "aux": "haben", "p2": "zitiert", "level": "C1" },
+        { "de": "darlegen", "en": "to set out, to explain", "pos": "verb", "aux": "haben", "sep": "dar", "p2": "dargelegt", "level": "C1" },
+        { "de": "hinweisen", "en": "to point out (auf + Akk)", "pos": "verb", "aux": "haben", "sep": "hin", "p2": "hingewiesen", "level": "B1", "goethe": "B1" },
+        { "de": "berücksichtigen", "en": "to take into account", "pos": "verb", "aux": "haben", "p2": "berücksichtigt", "level": "C1" },
+        { "de": "ableiten", "en": "to derive", "pos": "verb", "aux": "haben", "sep": "ab", "p2": "abgeleitet", "level": "C1" },
+        { "de": "meines Erachtens", "en": "in my view", "pos": "phrase", "level": "C1" },
+        { "de": "dem Autor zufolge", "en": "according to the author", "pos": "phrase", "level": "C1" },
+        { "de": "einerseits … andererseits", "en": "on the one hand … on the other", "pos": "phrase", "level": "B1", "goethe": "B1" },
+        { "de": "vermutlich", "en": "presumably, probably", "pos": "adv", "level": "B1", "goethe": "B1" },
+        { "de": "tendenziell", "en": "tending to, as a tendency", "pos": "adv", "level": "C1" },
+        { "de": "sofern", "en": "provided that", "pos": "conj", "level": "B2" },
+        { "de": "zumal", "en": "especially since", "pos": "conj", "level": "B2" }
+      ]
+    },
+    {
+      "name": "Forschung & Labor",
+      "en": "research and lab",
+      "words": [
+        { "de": "Forschung", "en": "research", "pos": "noun", "article": "die", "plural": "Forschungen", "level": "B1", "goethe": "B1" },
+        { "de": "Experiment", "en": "experiment", "pos": "noun", "article": "das", "plural": "Experimente", "level": "B2" },
+        { "de": "Ergebnis", "en": "result", "pos": "noun", "article": "das", "plural": "Ergebnisse", "level": "A1", "goethe": "A1" },
+        { "de": "Messung", "en": "measurement", "pos": "noun", "article": "die", "plural": "Messungen", "level": "B2" },
+        { "de": "Probe", "en": "sample", "pos": "noun", "article": "die", "plural": "Proben", "level": "B2" },
+        { "de": "Labor", "en": "laboratory", "pos": "noun", "article": "das", "plural": "Labore", "level": "B2" },
+        { "de": "Wissenschaftler", "en": "scientist", "pos": "noun", "article": "der", "plural": "Wissenschaftler", "level": "B1", "goethe": "B1" },
+        { "de": "Erkenntnis", "en": "insight, finding", "pos": "noun", "article": "die", "plural": "Erkenntnisse", "level": "B2" },
+        { "de": "Untersuchung", "en": "examination, investigation", "pos": "noun", "article": "die", "plural": "Untersuchungen", "level": "B1", "goethe": "B1" },
+        { "de": "veröffentlichen", "en": "to publish", "pos": "verb", "aux": "haben", "p2": "veröffentlicht", "level": "B1", "goethe": "B1" },
+        { "de": "untersuchen", "en": "to examine, to investigate", "pos": "verb", "aux": "haben", "p2": "untersucht", "level": "A2", "goethe": "A2" },
+        { "de": "messen", "en": "to measure", "pos": "verb", "aux": "haben", "p2": "gemessen", "level": "B1", "goethe": "B1" },
+        { "de": "beweisen", "en": "to prove", "pos": "verb", "aux": "haben", "p2": "bewiesen", "level": "B1", "goethe": "B1" },
+        { "de": "nachweisen", "en": "to detect, to prove", "pos": "verb", "aux": "haben", "sep": "nach", "p2": "nachgewiesen", "level": "B2" },
+        { "de": "erforschen", "en": "to research", "pos": "verb", "aux": "haben", "p2": "erforscht", "level": "B2" },
+        { "de": "schmelzen", "en": "to melt", "pos": "verb", "aux": "sein", "p2": "geschmolzen", "level": "B2" },
+        { "de": "steigen", "en": "to rise", "pos": "verb", "aux": "sein", "p2": "gestiegen", "level": "B1", "goethe": "B1" },
+        { "de": "sinken", "en": "to fall, to sink", "pos": "verb", "aux": "sein", "p2": "gesunken", "level": "B1", "goethe": "B1" },
+        { "de": "wachsen", "en": "to grow", "pos": "verb", "aux": "sein", "p2": "gewachsen", "level": "B1", "goethe": "B1" },
+        { "de": "messbar", "en": "measurable", "pos": "adj", "level": "B2" },
+        { "de": "wissenschaftlich", "en": "scientific", "pos": "adj", "level": "B2" },
+        { "de": "Wissenschaftlerin", "en": "scientist (female)", "pos": "noun", "article": "die", "plural": "Wissenschaftlerinnen", "level": "B1", "goethe": "B1" }
+      ]
+    },
+    {
+      "name": "Wortbildung",
+      "en": "word formation (prefixes, suffixes)",
+      "words": [
+        { "de": "umfahren", "en": "to knock over (with a vehicle)", "pos": "verb", "aux": "haben", "sep": "um", "p2": "umgefahren", "level": "B1", "goethe": "B1" },
+        { "de": "ein Hindernis umfahren", "en": "to drive around an obstacle", "pos": "phrase", "level": "C1" },
+        { "de": "überweisen", "en": "to transfer (money)", "pos": "verb", "aux": "haben", "p2": "überwiesen", "level": "A1", "goethe": "A1" },
+        { "de": "übersetzen", "en": "to translate", "pos": "verb", "aux": "haben", "p2": "übersetzt", "level": "A2", "goethe": "A2" },
+        { "de": "unterschreiben", "en": "to sign", "pos": "verb", "aux": "haben", "p2": "unterschrieben", "level": "A1", "goethe": "A1" },
+        { "de": "unterbrechen", "en": "to interrupt", "pos": "verb", "aux": "haben", "p2": "unterbrochen", "level": "B1", "goethe": "B1" },
+        { "de": "durchführen", "en": "to carry out", "pos": "verb", "aux": "haben", "sep": "durch", "p2": "durchgeführt", "level": "C1" },
+        { "de": "durchlesen", "en": "to read through", "pos": "verb", "aux": "haben", "sep": "durch", "p2": "durchgelesen", "level": "C1" },
+        { "de": "umsteigen", "en": "to change (trains, buses)", "pos": "verb", "aux": "sein", "sep": "um", "p2": "umgestiegen", "level": "A2", "goethe": "A2" },
+        { "de": "umziehen", "en": "to move (house)", "pos": "verb", "aux": "sein", "sep": "um", "p2": "umgezogen", "level": "A1", "goethe": "A1" },
+        { "de": "wiederholen", "en": "to repeat", "pos": "verb", "aux": "haben", "p2": "wiederholt", "level": "A1", "goethe": "A1" },
+        { "de": "wiedersehen", "en": "to see again", "pos": "verb", "aux": "haben", "sep": "wieder", "p2": "wiedergesehen", "level": "A1", "goethe": "A1" },
+        { "de": "überprüfen", "en": "to check, to verify", "pos": "verb", "aux": "haben", "p2": "überprüft", "level": "B1", "goethe": "B1" },
+        { "de": "entwickeln", "en": "to develop", "pos": "verb", "aux": "haben", "p2": "entwickelt", "level": "B1", "goethe": "B1" },
+        { "de": "verbessern", "en": "to improve", "pos": "verb", "aux": "haben", "p2": "verbessert", "level": "A2", "goethe": "A2" },
+        { "de": "zerstören", "en": "to destroy", "pos": "verb", "aux": "haben", "p2": "zerstört", "level": "B1", "goethe": "B1" },
+        { "de": "lesbar", "en": "legible, readable", "pos": "adj", "level": "C1" },
+        { "de": "kostenlos", "en": "free of charge", "pos": "adj", "level": "A2", "goethe": "A2" },
+        { "de": "zuverlässig", "en": "reliable", "pos": "adj", "level": "B1", "goethe": "B1" },
+        { "de": "Möglichkeit", "en": "possibility, option", "pos": "noun", "article": "die", "plural": "Möglichkeiten", "level": "B1", "goethe": "B1" },
+        { "de": "Lösung", "en": "solution", "pos": "noun", "article": "die", "plural": "Lösungen", "level": "A1", "goethe": "A1" }
+      ]
+    },
+    {
+      "name": "Prüfungszeit & Mensa",
+      "en": "exam period and canteen",
+      "words": [
+        { "de": "Prüfungsphase", "en": "exam period", "pos": "noun", "article": "die", "plural": "Prüfungsphasen", "level": "B1" },
+        { "de": "Klausur", "en": "written exam", "pos": "noun", "article": "die", "plural": "Klausuren", "level": "B1" },
+        { "de": "Lerngruppe", "en": "study group", "pos": "noun", "article": "die", "plural": "Lerngruppen", "level": "B1" },
+        { "de": "Abgabefrist", "en": "submission deadline", "pos": "noun", "article": "die", "plural": "Abgabefristen", "level": "B2" },
+        { "de": "Stress", "en": "stress", "pos": "noun", "article": "der", "plural": "-", "level": "A2", "goethe": "A2" },
+        { "de": "durchfallen", "en": "to fail (an exam)", "pos": "verb", "aux": "sein", "sep": "durch", "p2": "durchgefallen", "level": "B1" },
+        { "de": "sich vorbereiten", "en": "to prepare", "pos": "verb", "aux": "haben", "sep": "vor", "p2": "vorbereitet", "level": "A2", "goethe": "A2" },
+        { "de": "Mensa", "en": "university canteen", "pos": "noun", "article": "die", "plural": "Mensen", "level": "B1", "goethe": "B1" },
+        { "de": "Mensakarte", "en": "canteen card", "pos": "noun", "article": "die", "plural": "Mensakarten", "level": "B1" },
+        { "de": "Tablett", "en": "tray", "pos": "noun", "article": "das", "plural": "Tabletts", "level": "B1" },
+        { "de": "Essensausgabe", "en": "serving counter", "pos": "noun", "article": "die", "plural": "Essensausgaben", "level": "B1", "goethe": "B1" },
+        { "de": "Tagesgericht", "en": "dish of the day", "pos": "noun", "article": "das", "plural": "Tagesgerichte", "level": "B1" },
+        { "de": "Hauptgericht", "en": "main course", "pos": "noun", "article": "das", "plural": "Hauptgerichte", "level": "B1" },
+        { "de": "Beilage", "en": "side dish", "pos": "noun", "article": "die", "plural": "Beilagen", "level": "B1" },
+        { "de": "Nachtisch", "en": "dessert", "pos": "noun", "article": "der", "plural": "Nachtische", "level": "B1", "goethe": "B1" },
+        { "de": "Schlange", "en": "queue", "pos": "noun", "article": "die", "plural": "Schlangen", "level": "B1", "goethe": "B1" },
+        { "de": "vegetarisch", "en": "vegetarian", "pos": "adj", "level": "B1", "goethe": "B1" },
+        { "de": "vegan", "en": "vegan", "pos": "adj", "level": "B1" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "de": "Entschuldigung, ist dieser Platz noch frei?", "en": "Excuse me, is this seat still free?", "who": "you", "level": "A2" },
+    { "de": "Könnten Sie das bitte noch einmal erklären?", "en": "Could you please explain that once more?", "who": "you", "level": "B1" },
+    { "de": "Die Anwesenheitsliste geht gleich herum.", "en": "The attendance list is coming round in a moment.", "who": "staff", "level": "B1" },
+    { "de": "Die Folien finden Sie auf der Lernplattform.", "en": "You can find the slides on the learning platform.", "who": "staff", "level": "B1" },
+    { "de": "Wo finde ich Literatur zu diesem Thema?", "en": "Where can I find literature on this topic?", "who": "you", "level": "B1" },
+    { "de": "Die Leihfrist beträgt vier Wochen.", "en": "The loan period is four weeks.", "who": "staff", "level": "B1" },
+    { "de": "Kann ich das Buch noch einmal verlängern?", "en": "Can I renew the book once more?", "who": "you", "level": "B1" },
+    { "de": "Dieses Buch müssen wir per Fernleihe bestellen.", "en": "We have to order this book through interlibrary loan.", "who": "staff", "level": "B2" },
+    { "de": "Wir halten heute unser Referat.", "en": "We are giving our presentation today.", "who": "you", "level": "B1" },
+    { "de": "Ich sehe das etwas anders, weil die Zahlen eher dagegen sprechen.", "en": "I see that a bit differently, because the figures rather speak against it.", "who": "you", "level": "B2" },
+    { "de": "Da stimme ich Ihnen zu, aber ich möchte einen Einwand nennen.", "en": "I agree with you there, but I would like to raise an objection.", "who": "you", "level": "B2" },
+    { "de": "Die Klausur dauert neunzig Minuten.", "en": "The exam lasts ninety minutes.", "who": "staff", "level": "B1" },
+    { "de": "Was gibt es heute als Tagesgericht?", "en": "What is the dish of the day today?", "who": "you", "level": "A2" },
+    { "de": "Einmal das vegetarische Gericht, bitte.", "en": "One vegetarian dish, please.", "who": "you", "level": "A2" }
+  ],
+  "exercises": [
+    { "type": "article", "word": "Hörsaal", "answer": "der", "explain": "Hörsaal is masculine: der Hörsaal, die Hörsäle." },
+    { "type": "article", "word": "Bibliothek", "answer": "die", "explain": "Nouns ending in -thek are feminine: die Bibliothek." },
+    { "type": "article", "word": "Skript", "answer": "das", "explain": "Skript is neuter: das Skript, die Skripte." },
+    { "type": "article", "word": "Fernleihe", "answer": "die", "explain": "Nouns ending in -e are mostly feminine: die Fernleihe." },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "der Hörsaal",
+          "lecture hall"
+        ],
+        [
+          "die Vorlesung",
+          "lecture"
+        ],
+        [
+          "die Mitschrift",
+          "lecture notes"
+        ],
+        [
+          "das Skript",
+          "course reader"
+        ]
+      ],
+      "explain": "Four nouns you meet in every lecture."
+    },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "die Leihfrist",
+          "loan period"
+        ],
+        [
+          "die Signatur",
+          "shelf mark"
+        ],
+        [
+          "die Fernleihe",
+          "interlibrary loan"
+        ],
+        [
+          "der Lesesaal",
+          "reading room"
+        ],
+        [
+          "die Mahngebühr",
+          "overdue fine"
+        ]
+      ],
+      "explain": "Library words, each with its article."
+    },
+    {
+      "type": "gap",
+      "q": "Ich muss das Buch bis Freitag ___.",
+      "answer": [
+        "zurückgeben"
+      ],
+      "explain": "Muss takes the infinitive at the end: ich muss zurückgeben."
+    },
+    {
+      "type": "gap",
+      "q": "Ich möchte das Buch ___, weil ich es noch brauche.",
+      "answer": [
+        "verlängern"
+      ],
+      "explain": "Möchte also takes a plain infinitive at the end: verlängern means to renew."
+    },
+    {
+      "type": "gap",
+      "q": "In der Vorlesung muss ich schnell ___.",
+      "answer": [
+        "mitschreiben"
+      ],
+      "explain": "Mitschreiben means to take notes; after muss it stays in the infinitive."
+    },
+    {
+      "type": "translate",
+      "en": "Can I renew this book?",
+      "answer": [
+        "Kann ich dieses Buch verlängern?",
+        "Kann ich das Buch verlängern?",
+        "Kann ich dieses Buch noch einmal verlängern?"
+      ],
+      "explain": "Kann + subject + object, with the infinitive verlängern at the end."
+    },
+    {
+      "type": "translate",
+      "en": "I do not agree with your claim.",
+      "answer": [
+        "Ich stimme Ihrer Behauptung nicht zu.",
+        "Ich stimme deiner Behauptung nicht zu.",
+        "Ich widerspreche Ihrer Behauptung."
+      ],
+      "explain": "Zustimmen takes the dative (Ihrer Behauptung) and its prefix zu goes to the end."
+    },
+    {
+      "type": "mc",
+      "q": "The book you need is not in your library. What do you say?",
+      "options": [
+        "Ich möchte es per Fernleihe bestellen.",
+        "Ich möchte es zurückgeben.",
+        "Ich möchte es verlängern."
+      ],
+      "answer": 0,
+      "explain": "A book from another library is ordered via Fernleihe (interlibrary loan)."
+    },
+    {
+      "type": "mc",
+      "q": "What does \"Meines Erachtens ...\" introduce?",
+      "options": [
+        "Your own opinion",
+        "A quotation from a source",
+        "A question"
+      ],
+      "answer": 0,
+      "explain": "Meines Erachtens means in my view, so it introduces your own opinion."
+    },
+    {
+      "type": "order",
+      "words": [
+        "dieser",
+        "frei",
+        "Ist",
+        "noch",
+        "Platz"
+      ],
+      "answer": "Ist dieser Platz noch frei",
+      "explain": "A yes/no question starts with the verb: Ist dieser Platz noch frei?"
+    }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Könnten Sie das bitte noch einmal erklären?", "en": "Could you please explain that once more?" },
+      { "de": "Ich möchte dieses Buch ausleihen.", "en": "I would like to borrow this book." },
+      { "de": "Meines Erachtens spricht das Ergebnis für die These.", "en": "In my view the result supports the thesis." },
+      { "de": "Wir stellen heute unser Referat vor.", "en": "Today we are presenting our seminar paper." },
+      { "de": "Das sehe ich anders, weil die Zahlen etwas anderes zeigen.", "en": "I see that differently, because the figures show something else." }
+    ],
+    "prompts": [
+      { "q": "Guten Tag, kann ich Ihnen helfen?", "qEn": "Good day, can I help you? (library desk)", "model": "Ja, bitte. Ich möchte dieses Buch ausleihen. Hier ist mein Bibliotheksausweis.", "hint": "Say you want to borrow a book and show your card." },
+      { "q": "Die Leihfrist für dieses Buch ist fast vorbei. Möchten Sie es verlängern?", "qEn": "The loan period for this book is almost over. Would you like to renew it?", "model": "Ja, bitte verlängern Sie es um vier Wochen. Ich brauche es noch für meine Hausarbeit.", "hint": "Say yes and give a reason." },
+      { "q": "Wie sehen Sie das? Stimmen Sie der These zu?", "qEn": "How do you see it? Do you agree with the thesis? (seminar)", "model": "Teilweise. Einerseits sind die Belege überzeugend, andererseits ist die Studie recht klein.", "hint": "Give a balanced view with einerseits and andererseits." },
+      { "q": "Das macht vier Euro fünfzig. Haben Sie Ihre Mensakarte dabei?", "qEn": "That is 4.50 euros. Do you have your canteen card with you?", "model": "Ja, hier ist meine Mensakarte. Danke!", "hint": "Hand over the card and thank the cashier." }
+    ]
+  }
+}

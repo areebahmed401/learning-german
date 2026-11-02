@@ -1,0 +1,264 @@
+{
+  "id": "buergeramt",
+  "icon": "🏛️",
+  "title": "Bürgeramt",
+  "en": "Registration office",
+  "intro": "You register your new address, bring the right papers and wait for your number. Dates, times and forms come up all the time.",
+  "areas": [
+    {
+      "name": "Termin & Uhrzeit",
+      "en": "appointment and time",
+      "words": [
+        { "de": "Termin", "en": "appointment", "pos": "noun", "article": "der", "plural": "Termine", "level": "A1", "goethe": "A1" },
+        { "de": "Uhr", "en": "clock; o'clock", "pos": "noun", "article": "die", "plural": "Uhren", "level": "A1", "goethe": "A1" },
+        { "de": "Stunde", "en": "hour", "pos": "noun", "article": "die", "plural": "Stunden", "level": "A1", "goethe": "A1" },
+        { "de": "Minute", "en": "minute", "pos": "noun", "article": "die", "plural": "Minuten", "level": "A1", "goethe": "A1" },
+        { "de": "Viertel", "en": "quarter", "pos": "noun", "article": "das", "plural": "Viertel", "level": "A1", "goethe": "A1" },
+        { "de": "halb", "en": "half", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "Wie spät ist es?", "en": "what time is it?", "pos": "phrase", "level": "A1", "goethe": "A1" },
+        { "de": "pünktlich", "en": "on time", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "dauern", "en": "to last; to take (time)", "pos": "verb", "aux": "haben", "p2": "gedauert", "level": "A1", "goethe": "A1" },
+        { "de": "beginnen", "en": "to begin", "pos": "verb", "aux": "haben", "p2": "begonnen", "level": "A1", "goethe": "A1" },
+        { "de": "ausmachen", "en": "to arrange (a date)", "pos": "verb", "aux": "haben", "sep": "aus", "p2": "ausgemacht", "level": "A1", "goethe": "A1" },
+        { "de": "Öffnungszeiten", "en": "opening hours", "pos": "noun", "article": "die", "plural": "-", "note": "plural noun", "level": "A2" },
+        { "de": "Wartenummer", "en": "queue number", "pos": "noun", "article": "die", "plural": "Wartenummern", "level": "A2" },
+        { "de": "Warteraum", "en": "waiting room", "pos": "noun", "article": "der", "plural": "Warteräume", "level": "B1" },
+        { "de": "geöffnet", "en": "open", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "geschlossen", "en": "closed", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "aufrufen", "en": "to call (a number or name)", "pos": "verb", "aux": "haben", "sep": "auf", "p2": "aufgerufen", "level": "B1" },
+        { "de": "warten", "en": "to wait", "pos": "verb", "aux": "haben", "p2": "gewartet", "level": "A1", "goethe": "A1" }
+      ]
+    },
+    {
+      "name": "Datum & Wochentage",
+      "en": "dates and days",
+      "words": [
+        { "de": "Tag", "en": "day", "pos": "noun", "article": "der", "plural": "Tage", "level": "A1", "goethe": "A1" },
+        { "de": "Woche", "en": "week", "pos": "noun", "article": "die", "plural": "Wochen", "level": "A1", "goethe": "A1" },
+        { "de": "Monat", "en": "month", "pos": "noun", "article": "der", "plural": "Monate", "level": "A1", "goethe": "A1" },
+        { "de": "Jahr", "en": "year", "pos": "noun", "article": "das", "plural": "Jahre", "level": "A1", "goethe": "A1" },
+        { "de": "Datum", "en": "date", "pos": "noun", "article": "das", "plural": "Daten", "level": "A1", "goethe": "A1" },
+        { "de": "Montag", "en": "Monday", "pos": "noun", "article": "der", "plural": "Montage", "level": "A1", "goethe": "A1" },
+        { "de": "Mittwoch", "en": "Wednesday", "pos": "noun", "article": "der", "plural": "Mittwoche", "level": "A1", "goethe": "A1" },
+        { "de": "Freitag", "en": "Friday", "pos": "noun", "article": "der", "plural": "Freitage", "level": "A1", "goethe": "A1" },
+        { "de": "Samstag", "en": "Saturday", "pos": "noun", "article": "der", "plural": "Samstage", "level": "A1", "goethe": "A1" },
+        { "de": "Sonntag", "en": "Sunday", "pos": "noun", "article": "der", "plural": "Sonntage", "level": "A1", "goethe": "A1" },
+        { "de": "heute", "en": "today", "pos": "adv", "level": "A1", "goethe": "A1" },
+        { "de": "morgen", "en": "tomorrow", "pos": "adv", "level": "A1", "goethe": "A1" },
+        { "de": "gestern", "en": "yesterday", "pos": "adv", "level": "A1", "goethe": "A1" },
+        { "de": "Dienstag", "en": "Tuesday", "pos": "noun", "article": "der", "plural": "Dienstage", "level": "A1", "goethe": "A1" },
+        { "de": "Donnerstag", "en": "Thursday", "pos": "noun", "article": "der", "plural": "Donnerstage", "level": "A1", "goethe": "A1" },
+        { "de": "Geburtsdatum", "en": "date of birth", "pos": "noun", "article": "das", "plural": "Geburtsdaten", "level": "A1", "goethe": "A1" },
+        { "de": "Geburtsort", "en": "place of birth", "pos": "noun", "article": "der", "plural": "Geburtsorte", "level": "A1", "goethe": "A1" }
+      ]
+    },
+    {
+      "name": "Anmeldung",
+      "en": "registering your address",
+      "words": [
+        { "de": "Behörde", "en": "authority, public agency", "pos": "noun", "article": "die", "plural": "Behörden", "level": "B1", "goethe": "B1" },
+        { "de": "Amt", "en": "office, agency", "pos": "noun", "article": "das", "plural": "Ämter", "level": "B1", "goethe": "B1" },
+        { "de": "Anmeldung", "en": "registration", "pos": "noun", "article": "die", "plural": "Anmeldungen", "level": "A1", "goethe": "A1" },
+        { "de": "Bestätigung", "en": "confirmation", "pos": "noun", "article": "die", "plural": "Bestätigungen", "level": "B1", "goethe": "B1" },
+        { "de": "Wohnungsgeberbestätigung", "en": "landlord's confirmation of move-in", "pos": "noun", "article": "die", "plural": "Wohnungsgeberbestätigungen", "level": "B1" },
+        { "de": "Meldebescheinigung", "en": "registration certificate", "pos": "noun", "article": "die", "plural": "Meldebescheinigungen", "level": "B1" },
+        { "de": "Wohnsitz", "en": "place of residence", "pos": "noun", "article": "der", "plural": "Wohnsitze", "level": "B1", "goethe": "B1" },
+        { "de": "Adresse", "en": "address", "pos": "noun", "article": "die", "plural": "Adressen", "level": "A1", "goethe": "A1" },
+        { "de": "Hausnummer", "en": "house number", "pos": "noun", "article": "die", "plural": "Hausnummern", "level": "A1", "goethe": "A1" },
+        { "de": "Mietvertrag", "en": "rental contract", "pos": "noun", "article": "der", "plural": "Mietverträge", "level": "B1", "goethe": "B1" },
+        { "de": "Vermieter", "en": "landlord", "pos": "noun", "article": "der", "plural": "Vermieter", "level": "A1", "goethe": "A1" },
+        { "de": "Familienstand", "en": "marital status", "pos": "noun", "article": "der", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "ledig", "en": "single, unmarried", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "verheiratet", "en": "married", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "anmelden", "en": "to register", "pos": "verb", "aux": "haben", "sep": "an", "p2": "angemeldet", "level": "A1", "goethe": "A1" },
+        { "de": "abmelden", "en": "to deregister", "pos": "verb", "aux": "haben", "sep": "ab", "p2": "abgemeldet", "level": "A2" },
+        { "de": "umziehen", "en": "to move (house)", "pos": "verb", "aux": "sein", "sep": "um", "p2": "umgezogen", "level": "A1", "goethe": "A1" },
+        { "de": "einziehen", "en": "to move in", "pos": "verb", "aux": "sein", "sep": "ein", "p2": "eingezogen", "level": "A2", "goethe": "A2" }
+      ]
+    },
+    {
+      "name": "Formulare",
+      "en": "forms and documents",
+      "words": [
+        { "de": "Formular", "en": "form", "pos": "noun", "article": "das", "plural": "Formulare", "level": "A1", "goethe": "A1" },
+        { "de": "Antrag", "en": "application, request", "pos": "noun", "article": "der", "plural": "Anträge", "level": "B1", "goethe": "B1" },
+        { "de": "Dokument", "en": "document", "pos": "noun", "article": "das", "plural": "Dokumente", "level": "B1", "goethe": "B1" },
+        { "de": "Unterschrift", "en": "signature", "pos": "noun", "article": "die", "plural": "Unterschriften", "level": "A1", "goethe": "A1" },
+        { "de": "Nachweis", "en": "proof", "pos": "noun", "article": "der", "plural": "Nachweise", "level": "A1", "goethe": "A1" },
+        { "de": "Bescheid", "en": "official notice", "pos": "noun", "article": "der", "plural": "Bescheide", "level": "A2", "goethe": "A2" },
+        { "de": "Ausweis", "en": "ID card", "pos": "noun", "article": "der", "plural": "Ausweise", "level": "A1", "goethe": "A1" },
+        { "de": "Gebühr", "en": "fee", "pos": "noun", "article": "die", "plural": "Gebühren", "level": "B1", "goethe": "B1" },
+        { "de": "Steuer", "en": "tax", "pos": "noun", "article": "die", "plural": "Steuern", "level": "B1", "goethe": "B1" },
+        { "de": "beantragen", "en": "to apply for", "pos": "verb", "aux": "haben", "p2": "beantragt", "level": "B1", "goethe": "B1" },
+        { "de": "ausfüllen", "en": "to fill in", "pos": "verb", "aux": "haben", "sep": "aus", "p2": "ausgefüllt", "level": "A1", "goethe": "A1" },
+        { "de": "abgeben", "en": "to hand in", "pos": "verb", "aux": "haben", "sep": "ab", "p2": "abgegeben", "level": "A1", "goethe": "A1" },
+        { "de": "verlängern", "en": "to extend", "pos": "verb", "aux": "haben", "p2": "verlängert", "level": "B1", "goethe": "B1" },
+        { "de": "unterschreiben", "en": "to sign", "pos": "verb", "aux": "haben", "p2": "unterschrieben", "level": "A1", "goethe": "A1" },
+        { "de": "zuständig", "en": "responsible, in charge", "pos": "adj", "level": "B1", "goethe": "B1" },
+        { "de": "gültig", "en": "valid", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "Kopie", "en": "copy", "pos": "noun", "article": "die", "plural": "Kopien", "level": "B1", "goethe": "B1" },
+        { "de": "Reisepass", "en": "passport", "pos": "noun", "article": "der", "plural": "Reisepässe", "level": "A1" },
+        { "de": "Schalter", "en": "counter, desk", "pos": "noun", "article": "der", "plural": "Schalter", "level": "A1", "goethe": "A1" },
+        { "de": "Sachbearbeiter", "en": "case worker, clerk", "pos": "noun", "article": "der", "plural": "Sachbearbeiter", "level": "B2" },
+        { "de": "mitbringen", "en": "to bring (along)", "pos": "verb", "aux": "haben", "sep": "mit", "p2": "mitgebracht", "level": "A1", "goethe": "A1" },
+        { "de": "kopieren", "en": "to copy", "pos": "verb", "aux": "haben", "p2": "kopiert", "level": "B1", "goethe": "B1" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "de": "Ich habe einen Termin um zehn Uhr.", "en": "I have an appointment at ten o'clock.", "who": "you", "level": "A2" },
+    { "de": "Ich möchte mich anmelden.", "en": "I would like to register my address.", "who": "you", "level": "A2" },
+    { "de": "Ich bin gerade umgezogen.", "en": "I have just moved.", "who": "you", "level": "A2" },
+    { "de": "Wo muss ich warten?", "en": "Where do I have to wait?", "who": "you", "level": "A2" },
+    { "de": "Wie lange dauert das?", "en": "How long does it take?", "who": "you", "level": "A1" },
+    { "de": "Welche Unterlagen brauche ich?", "en": "Which documents do I need?", "who": "you", "level": "B1" },
+    { "de": "Können Sie mir bitte beim Formular helfen?", "en": "Can you please help me with the form?", "who": "you", "level": "B1" },
+    { "de": "Haben Sie einen Termin?", "en": "Do you have an appointment?", "who": "staff", "level": "A2" },
+    { "de": "Ihre Nummer wird gleich aufgerufen.", "en": "Your number will be called soon.", "who": "staff", "level": "B1" },
+    { "de": "Bitte füllen Sie das Formular aus.", "en": "Please fill in the form.", "who": "staff", "level": "B1" },
+    { "de": "Haben Sie die Wohnungsgeberbestätigung dabei?", "en": "Do you have the landlord's confirmation with you?", "who": "staff", "level": "B1" },
+    { "de": "Ihren Ausweis oder Reisepass, bitte.", "en": "Your ID or passport, please.", "who": "staff", "level": "A2" },
+    { "de": "Bitte unterschreiben Sie hier.", "en": "Please sign here.", "who": "staff", "level": "B1" },
+    { "de": "Das Amt ist heute bis zwölf Uhr geöffnet.", "en": "The office is open until twelve o'clock today.", "who": "staff", "level": "A2" },
+    { "de": "Sie bekommen die Bescheinigung sofort.", "en": "You will get the certificate straight away.", "who": "staff", "level": "B1" }
+  ],
+  "exercises": [
+    { "type": "article", "word": "Termin", "answer": "der", "explain": "Termin is masculine: der Termin, die Termine." },
+    { "type": "article", "word": "Formular", "answer": "das", "explain": "Words ending in -ar are often neuter: das Formular." },
+    { "type": "article", "word": "Unterschrift", "answer": "die", "explain": "Nouns ending in -schrift are feminine: die Unterschrift." },
+    { "type": "article", "word": "Anmeldung", "answer": "die", "explain": "Nouns ending in -ung are always feminine: die Anmeldung." },
+    { "type": "article", "word": "Wohnsitz", "answer": "der", "explain": "Wohnsitz is masculine: der Wohnsitz, die Wohnsitze." },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "der Termin",
+          "appointment"
+        ],
+        [
+          "das Formular",
+          "form"
+        ],
+        [
+          "die Unterschrift",
+          "signature"
+        ],
+        [
+          "der Ausweis",
+          "ID card"
+        ],
+        [
+          "die Gebühr",
+          "fee"
+        ]
+      ],
+      "explain": "Core nouns at the office, each with its article."
+    },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "ausfüllen",
+          "to fill in"
+        ],
+        [
+          "abgeben",
+          "to hand in"
+        ],
+        [
+          "unterschreiben",
+          "to sign"
+        ],
+        [
+          "beantragen",
+          "to apply for"
+        ],
+        [
+          "umziehen",
+          "to move house"
+        ]
+      ],
+      "explain": "Verbs you need for paperwork."
+    },
+    {
+      "type": "gap",
+      "q": "Ich möchte mich ___.",
+      "answer": [
+        "anmelden"
+      ],
+      "explain": "Möchte takes the infinitive at the end: ich möchte mich anmelden."
+    },
+    {
+      "type": "gap",
+      "q": "Das Amt öffnet um acht ___.",
+      "answer": [
+        "Uhr"
+      ],
+      "explain": "Clock times use Uhr: um acht Uhr."
+    },
+    {
+      "type": "gap",
+      "q": "Bitte ___ Sie hier.",
+      "answer": [
+        "unterschreiben"
+      ],
+      "explain": "The polite request puts the verb first in the Sie-form: Bitte unterschreiben Sie hier."
+    },
+    {
+      "type": "translate",
+      "en": "I have an appointment at ten o'clock.",
+      "answer": [
+        "Ich habe einen Termin um zehn Uhr.",
+        "Ich habe um zehn Uhr einen Termin."
+      ],
+      "explain": "Termin is masculine, so einen Termin after habe; um + time."
+    },
+    {
+      "type": "translate",
+      "en": "I need a confirmation from my landlord.",
+      "answer": [
+        "Ich brauche eine Bestätigung von meinem Vermieter.",
+        "Ich brauche eine Bestätigung von meiner Vermieterin.",
+        "Ich brauche eine Wohnungsgeberbestätigung."
+      ],
+      "explain": "Brauchen takes the Akkusativ: eine Bestätigung; von + Dativ: von meinem Vermieter."
+    },
+    {
+      "type": "mc",
+      "q": "What is a Wohnungsgeberbestätigung for?",
+      "options": [
+        "The landlord confirms that you moved in; you need it for the Anmeldung.",
+        "It is a ticket for the bus.",
+        "It is your tax return."
+      ],
+      "answer": 0,
+      "explain": "The Wohnungsgeber is the person who provides the flat; the confirmation proves you live there."
+    },
+    {
+      "type": "order",
+      "words": [
+        "Ich",
+        "möchte",
+        "mich",
+        "anmelden"
+      ],
+      "answer": "Ich möchte mich anmelden",
+      "explain": "Modal verb in second position, the infinitive anmelden at the end."
+    }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Ich habe einen Termin um zehn Uhr.", "en": "I have an appointment at ten o'clock." },
+      { "de": "Ich möchte mich anmelden.", "en": "I would like to register my address." },
+      { "de": "Hier ist meine Wohnungsgeberbestätigung.", "en": "Here is my landlord's confirmation." },
+      { "de": "Wie lange dauert das?", "en": "How long does it take?" },
+      { "de": "Wo muss ich unterschreiben?", "en": "Where do I have to sign?" }
+    ],
+    "prompts": [
+      { "q": "Guten Tag. Haben Sie einen Termin?", "qEn": "Good day. Do you have an appointment? (Bürgeramt)", "model": "Ja, ich habe einen Termin um zehn Uhr. Hier ist meine Nummer.", "hint": "Say you have an appointment and give the time." },
+      { "q": "Was möchten Sie erledigen?", "qEn": "What would you like to get done?", "model": "Ich bin umgezogen und möchte mich anmelden.", "hint": "Say you moved and want to register." },
+      { "q": "Haben Sie die Wohnungsgeberbestätigung und Ihren Ausweis dabei?", "qEn": "Do you have the landlord's confirmation and your ID with you?", "model": "Ja, hier sind beide Dokumente. Brauchen Sie noch etwas?", "hint": "Hand over the documents and ask if anything else is needed." },
+      { "q": "Bitte füllen Sie dieses Formular aus und unterschreiben Sie unten.", "qEn": "Please fill in this form and sign at the bottom.", "model": "Gern. Entschuldigung, was bedeutet „Familienstand“?", "hint": "Ask what one word on the form means." }
+    ]
+  }
+}

@@ -1,0 +1,302 @@
+{
+  "id": "bank",
+  "icon": "🏦",
+  "title": "Bank",
+  "en": "Bank",
+  "intro": "You open an account, get a card and a PIN, withdraw cash and send money. Numbers and amounts matter here, and so do the words for fees.",
+  "areas": [
+    {
+      "name": "Zahlen",
+      "en": "numbers",
+      "words": [
+        { "de": "null", "en": "zero", "pos": "num", "level": "A1", "goethe": "A1" },
+        { "de": "eins", "en": "one", "pos": "num", "level": "A1", "goethe": "A1" },
+        { "de": "zwei", "en": "two", "pos": "num", "level": "A1", "goethe": "A1" },
+        { "de": "drei", "en": "three", "pos": "num", "level": "A1", "goethe": "A1" },
+        { "de": "vier", "en": "four", "pos": "num", "level": "A1", "goethe": "A1" },
+        { "de": "fünf", "en": "five", "pos": "num", "level": "A1", "goethe": "A1" },
+        { "de": "sechs", "en": "six", "pos": "num", "level": "A1", "goethe": "A1" },
+        { "de": "sieben", "en": "seven", "pos": "num", "level": "A1", "goethe": "A1" },
+        { "de": "acht", "en": "eight", "pos": "num", "level": "A1", "goethe": "A1" },
+        { "de": "neun", "en": "nine", "pos": "num", "level": "A1", "goethe": "A1" },
+        { "de": "zehn", "en": "ten", "pos": "num", "level": "A1", "goethe": "A1" },
+        { "de": "elf", "en": "eleven", "pos": "num", "level": "A1", "goethe": "A1" },
+        { "de": "zwölf", "en": "twelve", "pos": "num", "level": "A1", "goethe": "A1" },
+        { "de": "fünfzehn", "en": "fifteen", "pos": "num", "level": "A1", "goethe": "A1" },
+        { "de": "zwanzig", "en": "twenty", "pos": "num", "level": "A1", "goethe": "A1" },
+        { "de": "dreizehn", "en": "thirteen", "pos": "num", "level": "A1", "goethe": "A1" }
+      ]
+    },
+    {
+      "name": "Große Zahlen & Angaben",
+      "en": "big numbers and personal data",
+      "words": [
+        { "de": "dreißig", "en": "thirty", "pos": "num", "level": "A1", "goethe": "A1" },
+        { "de": "hundert", "en": "one hundred", "pos": "num", "level": "A1", "goethe": "A1" },
+        { "de": "tausend", "en": "one thousand", "pos": "num", "level": "A1", "goethe": "A1" },
+        { "de": "Postleitzahl", "en": "postcode", "pos": "noun", "article": "die", "plural": "Postleitzahlen", "level": "A1", "goethe": "A1" },
+        { "de": "Nummer", "en": "number (house, room)", "pos": "noun", "article": "die", "plural": "Nummern", "level": "A1", "goethe": "A1" },
+        { "de": "Vorwahl", "en": "area code", "pos": "noun", "article": "die", "plural": "Vorwahlen", "level": "A1", "goethe": "A1" },
+        { "de": "Alter", "en": "age", "pos": "noun", "article": "das", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "vierzig", "en": "forty", "pos": "num", "level": "A1", "goethe": "A1" },
+        { "de": "fünfzig", "en": "fifty", "pos": "num", "level": "A1", "goethe": "A1" },
+        { "de": "Million", "en": "million", "pos": "noun", "article": "die", "plural": "Millionen", "level": "A1", "goethe": "A1" }
+      ]
+    },
+    {
+      "name": "Konto & Karte",
+      "en": "account and card",
+      "words": [
+        { "de": "fragen", "en": "to ask", "pos": "verb", "aux": "haben", "p2": "gefragt", "level": "A1", "goethe": "A1" },
+        { "de": "Bank", "en": "bank", "pos": "noun", "article": "die", "plural": "Banken", "level": "A1", "goethe": "A1" },
+        { "de": "Konto", "en": "account", "pos": "noun", "article": "das", "plural": "Konten", "level": "A1", "goethe": "A1" },
+        { "de": "Girokonto", "en": "current account", "pos": "noun", "article": "das", "plural": "Girokonten", "level": "B1", "goethe": "B1" },
+        { "de": "Kontonummer", "en": "account number", "pos": "noun", "article": "die", "plural": "Kontonummern", "level": "B1", "goethe": "B1" },
+        { "de": "IBAN", "en": "IBAN", "pos": "noun", "article": "die", "plural": "-", "level": "A2" },
+        { "de": "Bankkarte", "en": "bank card", "pos": "noun", "article": "die", "plural": "Bankkarten", "level": "A2" },
+        { "de": "Kreditkarte", "en": "credit card", "pos": "noun", "article": "die", "plural": "Kreditkarten", "level": "A2", "goethe": "A2" },
+        { "de": "PIN", "en": "PIN", "pos": "noun", "article": "die", "plural": "PINs", "level": "A2" },
+        { "de": "Kunde", "en": "customer (male)", "pos": "noun", "article": "der", "plural": "Kunden", "note": "n-declension: den Kunden", "level": "A1", "goethe": "A1" },
+        { "de": "Berater", "en": "adviser", "pos": "noun", "article": "der", "plural": "Berater", "level": "B1" },
+        { "de": "Kontoauszug", "en": "bank statement", "pos": "noun", "article": "der", "plural": "Kontoauszüge", "level": "B1" },
+        { "de": "Kontostand", "en": "account balance", "pos": "noun", "article": "der", "plural": "Kontostände", "level": "B1" },
+        { "de": "eröffnen", "en": "to open (an account)", "pos": "verb", "aux": "haben", "p2": "eröffnet", "level": "B1", "goethe": "B1" }
+      ]
+    },
+    {
+      "name": "Geldautomat & Bargeld",
+      "en": "cash machine and cash",
+      "words": [
+        { "de": "Euro", "en": "euro", "pos": "noun", "article": "der", "plural": "Euro", "level": "A1", "goethe": "A1" },
+        { "de": "Geldautomat", "en": "cash machine, ATM", "pos": "noun", "article": "der", "plural": "Geldautomaten", "level": "B1", "goethe": "B1" },
+        { "de": "Geld", "en": "money", "pos": "noun", "article": "das", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "Bargeld", "en": "cash", "pos": "noun", "article": "das", "plural": "-", "level": "B1", "goethe": "B1" },
+        { "de": "Cent", "en": "cent", "pos": "noun", "article": "der", "plural": "Cent", "level": "A1", "goethe": "A1" },
+        { "de": "Geldschein", "en": "banknote", "pos": "noun", "article": "der", "plural": "Geldscheine", "level": "A2" },
+        { "de": "Münze", "en": "coin", "pos": "noun", "article": "die", "plural": "Münzen", "level": "B1", "goethe": "B1" },
+        { "de": "Preis", "en": "price", "pos": "noun", "article": "der", "plural": "Preise", "level": "A1", "goethe": "A1" },
+        { "de": "abheben", "en": "to withdraw", "pos": "verb", "aux": "haben", "sep": "ab", "p2": "abgehoben", "level": "B1", "goethe": "B1" },
+        { "de": "einzahlen", "en": "to pay in, to deposit", "pos": "verb", "aux": "haben", "sep": "ein", "p2": "eingezahlt", "level": "B1", "goethe": "B1" },
+        { "de": "wechseln", "en": "to change (money)", "pos": "verb", "aux": "haben", "p2": "gewechselt", "level": "A2", "goethe": "A2" },
+        { "de": "kosten", "en": "to cost", "pos": "verb", "aux": "haben", "p2": "gekostet", "level": "A1", "goethe": "A1" }
+      ]
+    },
+    {
+      "name": "Überweisung & Gebühren",
+      "en": "transfers and fees",
+      "words": [
+        { "de": "Überweisung", "en": "bank transfer", "pos": "noun", "article": "die", "plural": "Überweisungen", "level": "B1", "goethe": "B1" },
+        { "de": "Dauerauftrag", "en": "standing order", "pos": "noun", "article": "der", "plural": "Daueraufträge", "level": "B1" },
+        { "de": "Lastschrift", "en": "direct debit", "pos": "noun", "article": "die", "plural": "Lastschriften", "level": "B1" },
+        { "de": "Verwendungszweck", "en": "payment reference", "pos": "noun", "article": "der", "plural": "Verwendungszwecke", "level": "B1" },
+        { "de": "Betrag", "en": "amount", "pos": "noun", "article": "der", "plural": "Beträge", "level": "B1", "goethe": "B1" },
+        { "de": "Gebühr", "en": "fee", "pos": "noun", "article": "die", "plural": "Gebühren", "level": "B1", "goethe": "B1" },
+        { "de": "Rechnung", "en": "bill, invoice", "pos": "noun", "article": "die", "plural": "Rechnungen", "level": "A1", "goethe": "A1" },
+        { "de": "Miete", "en": "rent", "pos": "noun", "article": "die", "plural": "Mieten", "level": "A1", "goethe": "A1" },
+        { "de": "Zahlung", "en": "payment", "pos": "noun", "article": "die", "plural": "Zahlungen", "level": "A2", "goethe": "A2" },
+        { "de": "überweisen", "en": "to transfer (money)", "pos": "verb", "aux": "haben", "p2": "überwiesen", "level": "A1", "goethe": "A1" },
+        { "de": "bezahlen", "en": "to pay", "pos": "verb", "aux": "haben", "p2": "bezahlt", "level": "A1", "goethe": "A1" },
+        { "de": "sparen", "en": "to save (money)", "pos": "verb", "aux": "haben", "p2": "gespart", "level": "A2", "goethe": "A2" },
+        { "de": "kontaktlos", "en": "contactless", "pos": "adj", "level": "B1" }
+      ]
+    },
+    {
+      "name": "Gründe nennen",
+      "en": "giving reasons with the genitive",
+      "words": [
+        { "de": "angesichts", "en": "in view of, given (+Gen)", "pos": "prep", "level": "C1" },
+        { "de": "hinsichtlich", "en": "regarding, with respect to (+Gen)", "pos": "prep", "level": "A1", "goethe": "A1" },
+        { "de": "aufgrund", "en": "due to, because of (+Gen)", "pos": "prep", "level": "C1" },
+        { "de": "infolge", "en": "as a result of (+Gen)", "pos": "prep", "level": "C1" },
+        { "de": "mittels", "en": "by means of (+Gen)", "pos": "prep", "level": "C1" },
+        { "de": "seitens", "en": "on the part of (+Gen)", "pos": "prep", "level": "C1" },
+        { "de": "zwecks", "en": "for the purpose of (+Gen)", "pos": "prep", "level": "C1" },
+        { "de": "anlässlich", "en": "on the occasion of (+Gen)", "pos": "prep", "level": "C1" },
+        { "de": "bezüglich", "en": "concerning (+Gen)", "pos": "prep", "level": "C1" },
+        { "de": "zugunsten", "en": "in favour of (+Gen)", "pos": "prep", "level": "C1" },
+        { "de": "wegen", "en": "because of (+Gen, often +Dat)", "pos": "prep", "level": "A2", "goethe": "A2" },
+        { "de": "trotz", "en": "despite (+Gen)", "pos": "prep", "level": "B1", "goethe": "B1" },
+        { "de": "während", "en": "during (+Gen)", "pos": "prep", "level": "B1", "goethe": "B1" }
+      ]
+    },
+    {
+      "name": "Wirtschaft & Finanzen",
+      "en": "economy and finance",
+      "words": [
+        { "de": "Rendite", "en": "return, yield", "pos": "noun", "article": "die", "plural": "Renditen", "level": "C1" },
+        { "de": "Bilanz", "en": "balance sheet", "pos": "noun", "article": "die", "plural": "Bilanzen", "level": "C1" },
+        { "de": "Umsatz", "en": "sales, turnover", "pos": "noun", "article": "der", "plural": "Umsätze", "level": "C1" },
+        { "de": "Gewinn", "en": "profit", "pos": "noun", "article": "der", "plural": "Gewinne", "level": "B1", "goethe": "B1" },
+        { "de": "Verlust", "en": "loss", "pos": "noun", "article": "der", "plural": "Verluste", "level": "B1", "goethe": "B1" },
+        { "de": "Kredit", "en": "loan, credit", "pos": "noun", "article": "der", "plural": "Kredite", "level": "A1", "goethe": "A1" },
+        { "de": "Zins", "en": "interest (rate)", "pos": "noun", "article": "der", "plural": "Zinsen", "level": "C1" },
+        { "de": "Rücklage", "en": "reserve, savings", "pos": "noun", "article": "die", "plural": "Rücklagen", "level": "C1" },
+        { "de": "Konjunktur", "en": "economic cycle, economy", "pos": "noun", "article": "die", "plural": "Konjunkturen", "level": "C1" },
+        { "de": "Haftung", "en": "liability", "pos": "noun", "article": "die", "plural": "-", "level": "C1" },
+        { "de": "Steuererklärung", "en": "tax return", "pos": "noun", "article": "die", "plural": "Steuererklärungen", "level": "B1", "goethe": "B1" },
+        { "de": "Nachfrage", "en": "demand", "pos": "noun", "article": "die", "plural": "Nachfragen", "level": "B1", "goethe": "B1" },
+        { "de": "Aktie", "en": "share, stock", "pos": "noun", "article": "die", "plural": "Aktien", "level": "B2" },
+        { "de": "Inflation", "en": "inflation", "pos": "noun", "article": "die", "plural": "Inflationen", "level": "B2" },
+        { "de": "Schulden", "en": "debts", "pos": "noun", "article": "die", "plural": "-", "note": "plural only", "level": "B1", "goethe": "B1" },
+        { "de": "Versicherung", "en": "insurance", "pos": "noun", "article": "die", "plural": "Versicherungen", "level": "B1", "goethe": "B1" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "de": "Ich möchte ein Konto eröffnen.", "en": "I would like to open an account.", "who": "you", "level": "B1" },
+    { "de": "Was kostet das Konto im Monat?", "en": "What does the account cost per month?", "who": "you", "level": "A2" },
+    { "de": "Gibt es Gebühren für die Karte?", "en": "Are there fees for the card?", "who": "you", "level": "B1" },
+    { "de": "Wo ist der nächste Geldautomat?", "en": "Where is the nearest cash machine?", "who": "you", "level": "A2" },
+    { "de": "Ich möchte hundert Euro abheben.", "en": "I would like to withdraw one hundred euros.", "who": "you", "level": "A2" },
+    { "de": "Wie kann ich Geld überweisen?", "en": "How can I transfer money?", "who": "you", "level": "B1" },
+    { "de": "Meine Karte funktioniert nicht.", "en": "My card does not work.", "who": "you", "level": "A2" },
+    { "de": "Ich habe meine PIN vergessen.", "en": "I have forgotten my PIN.", "who": "you", "level": "A2" },
+    { "de": "Ihren Ausweis und Ihre Meldebescheinigung, bitte.", "en": "Your ID and your registration certificate, please.", "who": "staff", "level": "B1" },
+    { "de": "Wie ist Ihre IBAN?", "en": "What is your IBAN?", "who": "staff", "level": "A2" },
+    { "de": "Bitte geben Sie Ihre PIN ein.", "en": "Please enter your PIN.", "who": "staff", "level": "A2" },
+    { "de": "Das macht fünfzig Euro.", "en": "That comes to fifty euros.", "who": "staff", "level": "A1" },
+    { "de": "Möchten Sie bar oder mit Karte zahlen?", "en": "Would you like to pay cash or by card?", "who": "staff", "level": "A2" },
+    { "de": "Sie bekommen Ihre Karte in fünf Tagen per Post.", "en": "You will get your card by post in five days.", "who": "staff", "level": "B1" }
+  ],
+  "exercises": [
+    { "type": "article", "word": "Konto", "answer": "das", "explain": "Konto is neuter: das Konto, die Konten." },
+    { "type": "article", "word": "Überweisung", "answer": "die", "explain": "Nouns ending in -ung are always feminine: die Überweisung." },
+    { "type": "article", "word": "Geldautomat", "answer": "der", "explain": "Words ending in -at for things or people are masculine: der Geldautomat." },
+    { "type": "article", "word": "Kreditkarte", "answer": "die", "explain": "Compounds take the gender of the last part: die Karte, so die Kreditkarte." },
+    { "type": "article", "word": "Kontoauszug", "answer": "der", "explain": "Auszug is masculine, so der Kontoauszug." },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "das Konto",
+          "account"
+        ],
+        [
+          "die Überweisung",
+          "transfer"
+        ],
+        [
+          "der Geldautomat",
+          "cash machine"
+        ],
+        [
+          "die Gebühr",
+          "fee"
+        ],
+        [
+          "das Bargeld",
+          "cash"
+        ]
+      ],
+      "explain": "Words you need at the bank, each with its article."
+    },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "abheben",
+          "to withdraw"
+        ],
+        [
+          "einzahlen",
+          "to deposit"
+        ],
+        [
+          "überweisen",
+          "to transfer"
+        ],
+        [
+          "eröffnen",
+          "to open an account"
+        ],
+        [
+          "sparen",
+          "to save"
+        ]
+      ],
+      "explain": "Money verbs."
+    },
+    {
+      "type": "gap",
+      "q": "Ich möchte ein Konto ___.",
+      "answer": [
+        "eröffnen"
+      ],
+      "explain": "Möchte takes the infinitive at the end: ich möchte ein Konto eröffnen."
+    },
+    {
+      "type": "gap",
+      "q": "Ich möchte hundert Euro ___.",
+      "answer": [
+        "abheben"
+      ],
+      "explain": "Abheben is the verb for taking money out; the infinitive stands at the end after möchte."
+    },
+    {
+      "type": "gap",
+      "q": "Bitte geben Sie Ihre ___ ein.",
+      "answer": [
+        "PIN",
+        "Geheimzahl"
+      ],
+      "explain": "The PIN (die PIN) is the secret number for your card."
+    },
+    {
+      "type": "translate",
+      "en": "I would like to open an account.",
+      "answer": [
+        "Ich möchte ein Konto eröffnen.",
+        "Ich würde gern ein Konto eröffnen.",
+        "Ich möchte gern ein Konto eröffnen."
+      ],
+      "explain": "Ich möchte + Infinitiv at the end; Konto is neuter."
+    },
+    {
+      "type": "translate",
+      "en": "What is your IBAN?",
+      "answer": [
+        "Wie ist Ihre IBAN?",
+        "Was ist Ihre IBAN?",
+        "Wie lautet Ihre IBAN?"
+      ],
+      "explain": "IBAN is feminine here (die IBAN), so Ihre IBAN."
+    },
+    {
+      "type": "mc",
+      "q": "The clerk says: \"Das macht fünfzig Euro.\" How much is it?",
+      "options": [
+        "50 euros",
+        "15 euros",
+        "500 euros"
+      ],
+      "answer": 0,
+      "explain": "Fünfzig is 50; fünfzehn is 15; fünfhundert is 500."
+    },
+    {
+      "type": "order",
+      "words": [
+        "Wo",
+        "ist",
+        "der",
+        "Geldautomat"
+      ],
+      "answer": "Wo ist der Geldautomat",
+      "explain": "Question word, verb, then the subject."
+    }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Ich möchte ein Konto eröffnen.", "en": "I would like to open an account." },
+      { "de": "Was kostet das Konto im Monat?", "en": "What does the account cost per month?" },
+      { "de": "Wo ist der nächste Geldautomat?", "en": "Where is the nearest cash machine?" },
+      { "de": "Meine Karte funktioniert nicht.", "en": "My card does not work." },
+      { "de": "Das macht fünfzig Euro.", "en": "That comes to fifty euros." }
+    ],
+    "prompts": [
+      { "q": "Guten Tag, wie kann ich Ihnen helfen?", "qEn": "Good day, how can I help you? (bank branch)", "model": "Guten Tag. Ich möchte ein Girokonto eröffnen. Was brauche ich dafür?", "hint": "Say you want an account and ask what you need." },
+      { "q": "Ihren Ausweis und Ihre Meldebescheinigung, bitte.", "qEn": "Your ID and your registration certificate, please.", "model": "Hier sind beide Dokumente. Gibt es Gebühren für das Konto?", "hint": "Hand over the documents and ask about fees." },
+      { "q": "Möchten Sie auch eine Kreditkarte?", "qEn": "Would you like a credit card as well?", "model": "Nein, danke. Nur die Bankkarte, bitte.", "hint": "Decline politely." },
+      { "q": "Sie bekommen die Karte in fünf Tagen per Post.", "qEn": "You will get the card by post in five days.", "model": "Und die PIN? Bekomme ich sie auch per Post?", "hint": "Ask about the PIN." }
+    ]
+  }
+}
