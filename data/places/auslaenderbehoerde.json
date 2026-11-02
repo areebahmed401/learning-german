@@ -1,0 +1,246 @@
+{
+  "id": "auslaenderbehoerde",
+  "icon": "🛂",
+  "title": "Ausländerbehörde",
+  "en": "Immigration office",
+  "intro": "As a non-EU student you apply here for your residence permit. Book an appointment, bring every document in the original plus a copy, and expect forms, a photo, fingerprints and a fee.",
+  "areas": [
+    {
+      "name": "Wartebereich",
+      "en": "waiting room and appointment",
+      "words": [
+        { "de": "Termin", "en": "appointment", "pos": "noun", "article": "der", "plural": "Termine", "level": "A1", "goethe": "A1" },
+        { "de": "Wartenummer", "en": "queue number", "pos": "noun", "article": "die", "plural": "Wartenummern", "level": "A2" },
+        { "de": "Wartebereich", "en": "waiting area", "pos": "noun", "article": "der", "plural": "Wartebereiche", "level": "B1" },
+        { "de": "Wartezeit", "en": "waiting time", "pos": "noun", "article": "die", "plural": "Wartezeiten", "level": "B1" },
+        { "de": "Sachbearbeiter", "en": "case officer", "pos": "noun", "article": "der", "plural": "Sachbearbeiter", "level": "B2" },
+        { "de": "Terminbestätigung", "en": "appointment confirmation", "pos": "noun", "article": "die", "plural": "Terminbestätigungen", "level": "B2" },
+        { "de": "Öffnungszeit", "en": "opening hours", "pos": "noun", "article": "die", "plural": "Öffnungszeiten", "level": "A2" },
+        { "de": "warten", "en": "to wait", "pos": "verb", "aux": "haben", "p2": "gewartet", "level": "A1", "goethe": "A1" },
+        { "de": "aufrufen", "en": "to call (a number or name)", "pos": "verb", "aux": "haben", "sep": "auf", "p2": "aufgerufen", "level": "B1" },
+        { "de": "vereinbaren", "en": "to arrange, to book", "pos": "verb", "aux": "haben", "p2": "vereinbart", "level": "A2", "goethe": "A2" },
+        { "de": "pünktlich", "en": "on time", "pos": "adj", "level": "A1", "goethe": "A1" }
+      ]
+    },
+    {
+      "name": "Unterlagen",
+      "en": "documents to bring",
+      "words": [
+        { "de": "Unterlagen", "en": "documents, papers", "pos": "noun", "article": "die", "plural": "Unterlagen", "level": "B1", "goethe": "B1" },
+        { "de": "Reisepass", "en": "passport", "pos": "noun", "article": "der", "plural": "Reisepässe", "level": "A1" },
+        { "de": "Meldebescheinigung", "en": "registration certificate", "pos": "noun", "article": "die", "plural": "Meldebescheinigungen", "level": "B2" },
+        { "de": "Mietvertrag", "en": "rental contract", "pos": "noun", "article": "der", "plural": "Mietverträge", "level": "B1", "goethe": "B1" },
+        { "de": "Krankenversicherung", "en": "health insurance", "pos": "noun", "article": "die", "plural": "Krankenversicherungen", "level": "B1" },
+        { "de": "Finanzierungsnachweis", "en": "proof of financial means", "pos": "noun", "article": "der", "plural": "Finanzierungsnachweise", "level": "B2" },
+        { "de": "Sperrkonto", "en": "blocked account", "pos": "noun", "article": "das", "plural": "Sperrkonten", "level": "B2" },
+        { "de": "Immatrikulationsbescheinigung", "en": "certificate of enrolment", "pos": "noun", "article": "die", "plural": "Immatrikulationsbescheinigungen", "level": "C1" },
+        { "de": "Verpflichtungserklärung", "en": "formal declaration of sponsorship", "pos": "noun", "article": "die", "plural": "Verpflichtungserklärungen", "level": "C1" },
+        { "de": "Kopie", "en": "copy", "pos": "noun", "article": "die", "plural": "Kopien", "level": "B1", "goethe": "B1" },
+        { "de": "mitbringen", "en": "to bring along", "pos": "verb", "aux": "haben", "sep": "mit", "p2": "mitgebracht", "level": "A1", "goethe": "A1" }
+      ]
+    },
+    {
+      "name": "Antrag",
+      "en": "the application form",
+      "words": [
+        { "de": "Antrag", "en": "application", "pos": "noun", "article": "der", "plural": "Anträge", "level": "B1", "goethe": "B1" },
+        { "de": "Formular", "en": "form", "pos": "noun", "article": "das", "plural": "Formulare", "level": "A1", "goethe": "A1" },
+        { "de": "Unterschrift", "en": "signature", "pos": "noun", "article": "die", "plural": "Unterschriften", "level": "A1", "goethe": "A1" },
+        { "de": "Geburtsort", "en": "place of birth", "pos": "noun", "article": "der", "plural": "Geburtsorte", "level": "A1", "goethe": "A1" },
+        { "de": "Familienstand", "en": "marital status", "pos": "noun", "article": "der", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "Anschrift", "en": "address", "pos": "noun", "article": "die", "plural": "Anschriften", "level": "B1" },
+        { "de": "Angabe", "en": "piece of information", "pos": "noun", "article": "die", "plural": "Angaben", "level": "A1", "goethe": "A1" },
+        { "de": "Datum", "en": "date", "pos": "noun", "article": "das", "plural": "Daten", "level": "A1", "goethe": "A1" },
+        { "de": "ausfüllen", "en": "to fill in", "pos": "verb", "aux": "haben", "sep": "aus", "p2": "ausgefüllt", "level": "A1", "goethe": "A1" },
+        { "de": "unterschreiben", "en": "to sign", "pos": "verb", "aux": "haben", "p2": "unterschrieben", "level": "A1", "goethe": "A1" },
+        { "de": "beantragen", "en": "to apply for", "pos": "verb", "aux": "haben", "p2": "beantragt", "level": "B1", "goethe": "B1" },
+        { "de": "vollständig", "en": "complete", "pos": "adj", "level": "B1" }
+      ]
+    },
+    {
+      "name": "Biometrie",
+      "en": "photo, fingerprints and fee",
+      "words": [
+        { "de": "Passfoto", "en": "passport photo", "pos": "noun", "article": "das", "plural": "Passfotos", "level": "A2" },
+        { "de": "Fingerabdruck", "en": "fingerprint", "pos": "noun", "article": "der", "plural": "Fingerabdrücke", "level": "B1" },
+        { "de": "Gebühr", "en": "fee", "pos": "noun", "article": "die", "plural": "Gebühren", "level": "B1", "goethe": "B1" },
+        { "de": "Quittung", "en": "receipt", "pos": "noun", "article": "die", "plural": "Quittungen", "level": "B1", "goethe": "B1" },
+        { "de": "Bildschirm", "en": "screen", "pos": "noun", "article": "der", "plural": "Bildschirme", "level": "B1", "goethe": "B1" },
+        { "de": "bezahlen", "en": "to pay", "pos": "verb", "aux": "haben", "p2": "bezahlt", "level": "A1", "goethe": "A1" },
+        { "de": "abgeben", "en": "to hand in", "pos": "verb", "aux": "haben", "sep": "ab", "p2": "abgegeben", "level": "A1", "goethe": "A1" },
+        { "de": "scannen", "en": "to scan", "pos": "verb", "aux": "haben", "p2": "gescannt", "level": "B1" },
+        { "de": "biometrisch", "en": "biometric", "pos": "adj", "level": "B2" },
+        { "de": "Foto", "en": "photo", "pos": "noun", "article": "das", "plural": "Fotos", "level": "A1", "goethe": "A1" }
+      ]
+    },
+    {
+      "name": "Aufenthaltstitel",
+      "en": "the permit, visa and deadlines",
+      "words": [
+        { "de": "Aufenthaltstitel", "en": "residence permit", "pos": "noun", "article": "der", "plural": "Aufenthaltstitel", "level": "B2" },
+        { "de": "Aufenthaltserlaubnis", "en": "residence permit (the usual type for students)", "pos": "noun", "article": "die", "plural": "Aufenthaltserlaubnisse", "level": "B2" },
+        { "de": "Visum", "en": "visa", "pos": "noun", "article": "das", "plural": "Visa", "level": "B1", "goethe": "B1" },
+        { "de": "Frist", "en": "deadline", "pos": "noun", "article": "die", "plural": "Fristen", "level": "B1", "goethe": "B1" },
+        { "de": "Fiktionsbescheinigung", "en": "interim certificate while your application is processed", "pos": "noun", "article": "die", "plural": "Fiktionsbescheinigungen", "level": "C1" },
+        { "de": "Bescheid", "en": "official notice", "pos": "noun", "article": "der", "plural": "Bescheide", "level": "A2", "goethe": "A2" },
+        { "de": "Arbeitserlaubnis", "en": "work permit", "pos": "noun", "article": "die", "plural": "Arbeitserlaubnisse", "level": "A2", "goethe": "A2" },
+        { "de": "verlängern", "en": "to extend", "pos": "verb", "aux": "haben", "p2": "verlängert", "level": "B1", "goethe": "B1" },
+        { "de": "ablaufen", "en": "to expire", "pos": "verb", "aux": "sein", "sep": "ab", "p2": "abgelaufen", "level": "B1" },
+        { "de": "erteilen", "en": "to grant, to issue", "pos": "verb", "aux": "haben", "p2": "erteilt", "level": "C1" },
+        { "de": "gültig", "en": "valid", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "befristet", "en": "limited in time", "pos": "adj", "level": "B2" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "de": "Haben Sie einen Termin?", "en": "Do you have an appointment?", "who": "staff", "level": "A1" },
+    { "de": "Ihre Wartenummer ist die 47.", "en": "Your queue number is 47.", "who": "staff", "level": "A2" },
+    { "de": "Bitte legen Sie alle Unterlagen vor.", "en": "Please present all your documents.", "who": "staff", "level": "B1" },
+    { "de": "Haben Sie Ihre Krankenversicherung dabei?", "en": "Do you have your health insurance with you?", "who": "staff", "level": "B1" },
+    { "de": "Bitte füllen Sie das Formular vollständig aus.", "en": "Please fill in the form completely.", "who": "staff", "level": "A2" },
+    { "de": "Legen Sie bitte Ihre Finger auf den Scanner.", "en": "Please place your fingers on the scanner.", "who": "staff", "level": "A2" },
+    { "de": "Die Gebühr beträgt hundert Euro.", "en": "The fee is one hundred euros.", "who": "staff", "level": "B1" },
+    { "de": "Wir melden uns schriftlich bei Ihnen.", "en": "We will contact you in writing.", "who": "staff", "level": "B1" },
+    { "de": "Ihr Aufenthaltstitel ist bis zum 30. September gültig.", "en": "Your residence permit is valid until 30 September.", "who": "staff", "level": "B1" },
+    { "de": "Ich habe um zehn Uhr einen Termin.", "en": "I have an appointment at ten o'clock.", "who": "you", "level": "A1" },
+    { "de": "Ich möchte meine Aufenthaltserlaubnis verlängern.", "en": "I would like to extend my residence permit.", "who": "you", "level": "B1" },
+    { "de": "Ich studiere an der Universität Leipzig.", "en": "I study at the University of Leipzig.", "who": "you", "level": "A1" },
+    { "de": "Was brauche ich noch?", "en": "What else do I need?", "who": "you", "level": "A1" },
+    { "de": "Wann ist mein Aufenthaltstitel fertig?", "en": "When will my residence permit be ready?", "who": "you", "level": "B1" },
+    { "de": "Kann ich mit Karte bezahlen?", "en": "Can I pay by card?", "who": "you", "level": "A2" }
+  ],
+  "exercises": [
+    { "type": "article", "word": "Termin", "answer": "der", "explain": "Termin is masculine: der Termin, die Termine." },
+    { "type": "article", "word": "Gebühr", "answer": "die", "explain": "Gebühr is feminine: die Gebühr, die Gebühren." },
+    { "type": "article", "word": "Formular", "answer": "das", "explain": "Formular is neuter: das Formular, die Formulare." },
+    { "type": "article", "word": "Aufenthaltserlaubnis", "answer": "die", "explain": "Nouns ending in -nis are mostly neuter, but Erlaubnis is an exception and feminine: die Aufenthaltserlaubnis." },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "die Frist",
+          "deadline"
+        ],
+        [
+          "die Gebühr",
+          "fee"
+        ],
+        [
+          "der Antrag",
+          "application"
+        ],
+        [
+          "die Unterschrift",
+          "signature"
+        ]
+      ],
+      "explain": "Four nouns you will see on every form."
+    },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "ausfüllen",
+          "to fill in"
+        ],
+        [
+          "verlängern",
+          "to extend"
+        ],
+        [
+          "abgeben",
+          "to hand in"
+        ],
+        [
+          "ablaufen",
+          "to expire"
+        ],
+        [
+          "bezahlen",
+          "to pay"
+        ]
+      ],
+      "explain": "Verbs for forms, documents and deadlines."
+    },
+    {
+      "type": "gap",
+      "q": "Ich möchte meine Aufenthaltserlaubnis ___.",
+      "answer": [
+        "verlängern"
+      ],
+      "explain": "After möchte the second verb goes to the end in the infinitive: verlängern."
+    },
+    {
+      "type": "gap",
+      "q": "Sie müssen das Formular hier ___.",
+      "answer": [
+        "unterschreiben"
+      ],
+      "explain": "Müssen takes the infinitive at the end: unterschreiben."
+    },
+    {
+      "type": "gap",
+      "q": "Mein Visum ist nur bis März ___.",
+      "answer": [
+        "gültig"
+      ],
+      "explain": "Gültig is the adjective for valid."
+    },
+    {
+      "type": "translate",
+      "en": "I have an appointment at ten o'clock.",
+      "answer": [
+        "Ich habe um zehn Uhr einen Termin.",
+        "Ich habe einen Termin um zehn Uhr."
+      ],
+      "explain": "Time can sit before or after the object; Termin is masculine, so einen Termin."
+    },
+    {
+      "type": "translate",
+      "en": "The fee is fifty euros.",
+      "answer": [
+        "Die Gebühr beträgt fünfzig Euro.",
+        "Die Gebühr beträgt 50 Euro.",
+        "Die Gebühr ist fünfzig Euro."
+      ],
+      "explain": "Officials say beträgt for amounts; ist is also understandable."
+    },
+    {
+      "type": "mc",
+      "q": "The clerk says: \"Ihre Wartenummer ist die 23.\" What do you do?",
+      "options": [
+        "Wait until the number 23 is called",
+        "Pay 23 euros",
+        "Sign the form 23 times"
+      ],
+      "answer": 0,
+      "explain": "Die Wartenummer is your place in the queue; you wait until it is called up."
+    },
+    {
+      "type": "order",
+      "words": [
+        "Termin",
+        "einen",
+        "Ich",
+        "habe"
+      ],
+      "answer": "Ich habe einen Termin",
+      "explain": "Subject, then the verb in second place, then the object."
+    }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Ich habe um zehn Uhr einen Termin.", "en": "I have an appointment at ten o'clock." },
+      { "de": "Ich möchte meine Aufenthaltserlaubnis verlängern.", "en": "I would like to extend my residence permit." },
+      { "de": "Hier sind meine Unterlagen.", "en": "Here are my documents." },
+      { "de": "Was brauche ich noch?", "en": "What else do I need?" },
+      { "de": "Kann ich mit Karte bezahlen?", "en": "Can I pay by card?" }
+    ],
+    "prompts": [
+      { "q": "Guten Tag. Haben Sie einen Termin?", "qEn": "Hello. Do you have an appointment?", "model": "Guten Tag. Ja, ich habe um zehn Uhr einen Termin. Hier ist meine Terminbestätigung.", "hint": "Give the time and show the confirmation." },
+      { "q": "Was möchten Sie beantragen?", "qEn": "What would you like to apply for?", "model": "Ich möchte eine Aufenthaltserlaubnis zum Studium beantragen.", "hint": "Use beantragen with the permit." },
+      { "q": "Haben Sie alle Unterlagen dabei?", "qEn": "Do you have all your documents with you?", "model": "Ja, ich habe meinen Reisepass, die Meldebescheinigung und den Mietvertrag dabei.", "hint": "Name two or three documents." },
+      { "q": "Die Gebühr beträgt hundert Euro. Wie möchten Sie bezahlen?", "qEn": "The fee is one hundred euros. How would you like to pay?", "model": "Ich möchte mit Karte bezahlen, bitte.", "hint": "Karte or bar (cash)." }
+    ]
+  }
+}

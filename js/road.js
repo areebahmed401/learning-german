@@ -1,5 +1,6 @@
 // The Road: a winding SVG road from A1 (bottom) to C1 (top), one milestone per lesson.
-import { h, md, getRoadmap, getLesson } from './util.js';
+import { h, md, getRoadmap, getLesson, getAlltag, getPlace, placeWords } from './util.js';
+import { PLACE_STEPS, placeMap, placeAsLesson } from './place.js';
 import { renderMindmapPreview } from './mindmap.js';
 import { openMindmapModal } from './mindmap-modal.js';
 import * as progress from './progress.js';
@@ -51,6 +52,42 @@ function items(road) {
   return { list: out, current: cur };
 }
 
+/** The Alltag road: chapters (as zones) → places, bottom (arrival) to top. Places not written yet are "soon". */
+function alltagItems(alltag) {
+  const out = [];
+  for (const c of alltag.chapters) {
+    const zone = { id: c.id, name: c.name, goal: c.goal, sign: c.name, milestones: c.stops };
+    out.push({ kind: 'zone', level: zone, mode: 'alltag' });
+    for (const s of c.stops) {
+      out.push(s.soon ? { kind: 'planned', level: zone, m: s, mode: 'alltag' } : { kind: 'ms', level: zone, m: s, mode: 'alltag', status: progress.placeStatus(s.id) });
+    }
+  }
+  out.push({ kind: 'goal', mode: 'alltag' });
+  const cur = out.findIndex((x) => x.kind === 'ms' && x.status !== 'done');
+  if (cur >= 0) out[cur].current = true;
+  return { list: out, current: cur };
+}
+
+function alltagStats(list, current) {
+  const ms = list.filter((x) => x.kind === 'ms');
+  const done = ms.filter((x) => x.status === 'done').length;
+  const all = list.filter((x) => x.kind === 'ms' || x.kind === 'planned').length;
+  const here = list[current] || ms.at(-1);
+  const pct = all ? Math.round((done / all) * 100) : 0;
+  const stat = (b, span, extra, cls = '') => h(`div.stat${cls}`, h('b', b), h('span', span), extra);
+  return h('div.stats',
+    stat(here ? here.m.icon : '🏁', here ? here.level.name : 'Alltag'),
+    stat(`${pct}%`, 'of the road', h('div.bar', h('i', { style: `width:${pct}%` }))),
+    stat(`${done}/${all}`, 'places'),
+    stat(`${ms.length}`, 'places ready', null, '.opt'),
+    stat(`${progress.cardStreak()}🔥`, 'card days', null, '.opt'));
+}
+
+/** Switch between the two roads; sits in the pinned header. */
+const roadTabs = (mode) => h('nav.road-tabs', { 'aria-label': 'Roads' },
+  h(`a${mode === 'grammar' ? '.on' : ''}`, { href: '#/road', 'aria-current': mode === 'grammar' ? 'page' : null }, '📘 Grammatik'),
+  h(`a${mode === 'alltag' ? '.on' : ''}`, { href: '#/alltag', 'aria-current': mode === 'alltag' ? 'page' : null }, '🗺 Alltag · Wörter'));
+
 function stats(road, list, current) {
   const ms = list.filter((x) => x.kind === 'ms');
   const done = ms.filter((x) => x.status === 'done').length;
@@ -77,18 +114,23 @@ function smooth(pts) {
   return d;
 }
 
-export async function renderRoad(view, { at } = {}) {
+/** mode: 'grammar' (concepts, A1 → C1) or 'alltag' (places, words by where you meet them). */
+export async function renderRoad(view, { at, mode = 'grammar' } = {}) {
   const road = await getRoadmap();
-  document.title = 'Deutschweg · A1 → C1';
-  const { list, current } = items(road);
+  const alltag = mode === 'alltag' ? await getAlltag() : null;
+  document.title = alltag ? 'Alltag · Deutschweg' : 'Deutschweg · A1 → C1';
+  const { list, current } = alltag ? alltagItems(alltag) : items(road);
+  const zones = alltag ? alltag.chapters.map((c) => [c.id, c.name]) : road.levels.map((lv) => [lv.id, lv.id]);
 
   const page = h('div.road-page');
   const wrap = h('div.road');
   page.append(
-    h('div.road-top', stats(road, list, current), today(road)), // both stay pinned while you scroll
+    h('div.road-top', roadTabs(mode), alltag ? alltagStats(list, current) : stats(road, list, current), today(road)), // all stay pinned while you scroll
     h('div.road-intro',
-      h('p', 'Your road from A1 to C1. Every stop is one concept with its wordlist. Scroll up to see what\'s ahead.'),
-      h('div.road-jump', road.levels.map((lv) => h('button.btn.small', { type: 'button', onclick: () => scrollToNode(wrap, `zone-${lv.id}`) }, lv.id)),
+      h('p', alltag
+        ? 'Your words, by the places you need them: from the airport to your own flat, the uni and work. Scroll up to see what\'s ahead.'
+        : 'Your grammar road from A1 to C1. Every stop is one concept. Scroll up to see what\'s ahead.'),
+      h('div.road-jump', zones.map(([id, label]) => h('button.btn.small', { type: 'button', onclick: () => scrollToNode(wrap, `zone-${id}`) }, label)),
         h('button.btn.small.primary', { type: 'button', onclick: () => scrollToNode(wrap, 'current') }, '📍 Du bist hier'))),
     wrap);
   view.replaceChildren(page);
@@ -145,15 +187,17 @@ function node(x, p, cx) {
   const style = `left:${p.x}px;top:${p.y}px`;
   if (x.kind === 'zone') {
     return h('div.zone-label', { style: `top:${p.y - 34}px`, 'data-key': `zone-${x.level.id}` },
-      h('div.sign', h('b', `${x.level.id} · ${x.level.name}`), h('small', x.level.goal)));
+      h('div.sign', h('b', x.level.sign ?? `${x.level.id} · ${x.level.name}`), h('small', x.level.goal)));
   }
   const side = p.x > cx + 4 ? 'left' : 'right'; // label points toward the middle
-  const skipped = x.kind === 'ms' && progress.isSkipped(x.m.id);
+  const skipped = x.kind === 'ms' && x.mode !== 'alltag' && progress.isSkipped(x.m.id);
   const cls = [x.kind === 'gate' ? 'gate' : x.kind === 'goal' ? 'goal' : '', x.kind === 'planned' ? 'locked' : x.status, skipped ? 'skipped' : '', side, x.current ? 'current' : ''].filter(Boolean).join(' ');
 
   if (x.kind === 'goal') {
     return h(`div.ms.${cls.replace(/ /g, '.')}`, { style }, h('div.ms-dot', '🏆'),
-      h('div.ms-label', { style: 'cursor:default' }, h('b', 'Ziel: C1'), h('small', 'Fluent, precise German for work and life.')));
+      x.mode === 'alltag'
+        ? h('div.ms-label', { style: 'cursor:default' }, h('b', 'Ziel: Zuhause in Deutschland'), h('small', 'The words for every place in your new life.'))
+        : h('div.ms-label', { style: 'cursor:default' }, h('b', 'Ziel: C1'), h('small', 'Fluent, precise German for work and life.')));
   }
 
   const open = () => sheet(x);
@@ -166,11 +210,12 @@ function node(x, p, cx) {
     sub = x.status === 'done' ? `${x.level.id} geschafft!` : 'Mixed quiz on the whole level';
   } else {
     const n = x.level.milestones?.indexOf(x.m);
-    dot = x.kind === 'planned' ? '🔒' : x.status === 'done' ? (progress.isSkipped(x.m.id) ? '⏭' : '✓') : String(n + 1);
+    dot = x.mode === 'alltag' ? (x.status === 'done' ? '✓' : x.m.icon)
+      : x.kind === 'planned' ? '🔒' : x.status === 'done' ? (progress.isSkipped(x.m.id) ? '⏭' : '✓') : String(n + 1);
     title = x.m.title;
     sub = x.m.wordlist ? `📍 ${x.m.concept} · 🗂 ${x.m.wordlist}` : x.m.concept;
   }
-  const frac = x.kind === 'ms' && x.status === 'progress' ? progress.stepFraction(x.m.id) : 0;
+  const frac = x.kind === 'ms' && x.status === 'progress' ? (x.mode === 'alltag' ? progress.placeFraction : progress.stepFraction)(x.m.id) : 0;
   const ring = frac ? (() => {
     const c = 2 * Math.PI * 30;
     return h('span', { html: `<svg class="ring" viewBox="0 0 64 64"><circle cx="32" cy="32" r="30" fill="none" stroke="var(--line)" stroke-width="4"/><circle cx="32" cy="32" r="30" fill="none" stroke="var(--accent)" stroke-width="4" stroke-linecap="round" stroke-dasharray="${c * frac} ${c}"/></svg>` });
@@ -192,6 +237,10 @@ function node(x, p, cx) {
 
 /** Where "Start/Continue" goes: the first lesson step not visited yet. */
 function lessonHref(x) {
+  if (x.mode === 'alltag') {
+    const st = progress.placeState(x.m.id);
+    return `#/place/${x.m.id}/${x.status === 'new' ? 'words' : PLACE_STEPS.find(([s]) => !st?.steps?.[s])?.[0] || 'practice'}`;
+  }
   const st = progress.lessonState(x.m.id);
   const step = x.status === 'new' ? 'learn' : STEPS.find(([s]) => !st?.steps?.[s])?.[0] || 'practice';
   return `#/lesson/${x.m.id}/${step}`;
@@ -225,7 +274,7 @@ function peek(x, el) {
   // short delay so sweeping the mouse along the road doesn't flash cards
   peekTimer = setTimeout(async () => {
     let lesson;
-    try { lesson = await getLesson(x.m.id); } catch { return; }
+    try { lesson = x.mode === 'alltag' ? placeAsLesson(await getPlace(x.m.id)) : await getLesson(x.m.id); } catch { return; }
     if (peekId !== x.m.id || document.querySelector('.sheet, .mm-modal-backdrop')) return;
     document.querySelector('.peek')?.remove();
     const href = lessonHref(x);
@@ -235,12 +284,12 @@ function peek(x, el) {
       onclick: expand, onkeydown: (e) => (e.key === 'Enter' || e.key === ' ') && (e.preventDefault(), expand()),
     });
     const card = h('div.peek', { onmouseenter: () => clearTimeout(hideTimer), onmouseleave: leaveSoon },
-      h('div.peek-head', h('b', `🧠 ${lesson.title}`), h('span.muted', `🗂 ${lesson.wordlist} · ${lesson.words.length} words`)),
+      h('div.peek-head', h('b', `🧠 ${lesson.title}`), h('span.muted', x.mode === 'alltag' ? lesson.wordlist : `${lesson.exercises.length} exercises`)),
       map,
       lesson.tip ? h('div.peek-tip', { html: `💡 ${md(lesson.tip)}` }) : null,
       h('div.peek-foot',
         h('span.muted', '🔍 Click the map to expand'),
-        h('a.btn.small', { href, onclick: unpeek }, 'Open lesson →')));
+        h('a.btn.small', { href, onclick: unpeek }, x.mode === 'alltag' ? 'Open place →' : 'Open lesson →')));
     el.closest('.road-page').append(card);
     renderMindmapPreview(map, lesson.mindmap);
     Object.assign(card.style, placePeek(el, card.offsetWidth, card.offsetHeight));
@@ -291,6 +340,7 @@ async function sheet(x) {
   document.addEventListener('keydown', escClose);
   const close = h('button.btn', { type: 'button', onclick: closeSheet }, 'Schließen');
 
+  if (x.mode === 'alltag') return placeSheet(x, card, close);
   if (x.kind === 'planned') {
     append(card, h('span.chip', `${x.level.id} · coming soon`), h('h2', x.m.title), h('p', x.m.concept),
       h('p.muted', `The ${x.level.id} lessons arrive in a later phase. Keep going on the road; they build on what comes before.`), h('div.row', close));
@@ -325,6 +375,33 @@ async function sheet(x) {
     } catch {
       go.replaceWith(h('span.muted', 'This lesson file is missing.'));
     }
+  }
+}
+
+/** Tap a place on the Alltag road: what's there, then Start / Continue. */
+async function placeSheet(x, card, close) {
+  if (x.kind === 'planned') {
+    append(card, h('span.chip', `${x.level.name} · coming soon`), h('h2', `${x.m.icon} ${x.m.title}`), h('p', x.m.concept),
+      h('p.muted', 'This place is being written. The places before it are ready.'), h('div.row', close));
+    return;
+  }
+  const st = progress.placeState(x.m.id);
+  const go = h('a.btn.primary', { href: lessonHref(x), onclick: closeSheet }, x.status === 'new' ? 'Start' : x.status === 'done' ? 'Review' : 'Continue');
+  const meta = h('div.meta', h('span.chip.accent', x.level.name));
+  append(card, meta, h('h2', `${x.m.icon} ${x.m.title}`), h('p', x.m.concept),
+    st?.best ? h('p.muted', `Best practice score: ${Math.round(st.best * 100)}%${st.done ? ' · geschafft ✓' : ''}`) : null,
+    h('div.row', close, go));
+  go.focus();
+  try {
+    const place = await getPlace(x.m.id);
+    meta.append(h('span.chip', `${placeWords(place).length} words`), h('span.chip', `${place.phrases.length} Sätze`), h('span.chip', `${place.exercises.length} exercises`));
+    if (!canHover) {
+      const map = h('div.sheet-map', { role: 'button', tabindex: '0', title: 'Tap to expand', onclick: () => { closeSheet(); openMindmapModal(placeAsLesson(place), { lessonHref: lessonHref(x) }); } });
+      card.querySelector('.row').before(map);
+      renderMindmapPreview(map, placeMap(place));
+    }
+  } catch {
+    go.replaceWith(h('span.muted', 'This place file is missing.'));
   }
 }
 

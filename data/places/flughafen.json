@@ -1,0 +1,253 @@
+{
+  "id": "flughafen",
+  "icon": "✈️",
+  "title": "Flughafen",
+  "en": "Airport",
+  "intro": "You land in Germany, find your suitcase, pass border control and head into the city. Staff speak fast but use the same short sentences every time, so a few phrases get you through.",
+  "areas": [
+    {
+      "name": "Check-in",
+      "en": "check-in and departure",
+      "words": [
+        { "de": "Flughafen", "en": "airport", "pos": "noun", "article": "der", "plural": "Flughäfen", "level": "A1", "goethe": "A1" },
+        { "de": "Flug", "en": "flight", "pos": "noun", "article": "der", "plural": "Flüge", "level": "A2", "goethe": "A2" },
+        { "de": "Abflug", "en": "departure (of a plane)", "pos": "noun", "article": "der", "plural": "Abflüge", "level": "A1", "goethe": "A1" },
+        { "de": "Schalter", "en": "counter, desk", "pos": "noun", "article": "der", "plural": "Schalter", "level": "A1", "goethe": "A1" },
+        { "de": "Bordkarte", "en": "boarding pass", "pos": "noun", "article": "die", "plural": "Bordkarten", "level": "A2" },
+        { "de": "Handgepäck", "en": "hand luggage", "pos": "noun", "article": "das", "plural": "-", "level": "A2" },
+        { "de": "Reisepass", "en": "passport", "pos": "noun", "article": "der", "plural": "Reisepässe", "level": "A1" },
+        { "de": "Anzeigetafel", "en": "departures board", "pos": "noun", "article": "die", "plural": "Anzeigetafeln", "level": "B1" },
+        { "de": "Fluggesellschaft", "en": "airline", "pos": "noun", "article": "die", "plural": "Fluggesellschaften", "level": "B1" },
+        { "de": "einchecken", "en": "to check in", "pos": "verb", "aux": "haben", "sep": "ein", "p2": "eingecheckt", "level": "A2" }
+      ]
+    },
+    {
+      "name": "Sicherheitskontrolle",
+      "en": "security check",
+      "words": [
+        { "de": "Metalldetektor", "en": "metal detector", "pos": "noun", "article": "der", "plural": "Metalldetektoren", "level": "B2" },
+        { "de": "Flüssigkeit", "en": "liquid", "pos": "noun", "article": "die", "plural": "Flüssigkeiten", "level": "B1", "goethe": "B1" },
+        { "de": "Tablett", "en": "tray", "pos": "noun", "article": "das", "plural": "Tabletts", "level": "B1" },
+        { "de": "Gürtel", "en": "belt", "pos": "noun", "article": "der", "plural": "Gürtel", "level": "A2" },
+        { "de": "Laptop", "en": "laptop", "pos": "noun", "article": "der", "plural": "Laptops", "level": "A2", "goethe": "A2" },
+        { "de": "Schlange", "en": "queue", "pos": "noun", "article": "die", "plural": "Schlangen", "level": "B1", "goethe": "B1" },
+        { "de": "kontrollieren", "en": "to check, to inspect", "pos": "verb", "aux": "haben", "p2": "kontrolliert", "level": "A2", "goethe": "A2" },
+        { "de": "durchsuchen", "en": "to search", "pos": "verb", "aux": "haben", "p2": "durchsucht", "level": "B1" },
+        { "de": "ablegen", "en": "to put down, to take off", "pos": "verb", "aux": "haben", "sep": "ab", "p2": "abgelegt", "level": "B1" },
+        { "de": "verboten", "en": "forbidden", "pos": "adj", "level": "A1", "goethe": "A1" }
+      ]
+    },
+    {
+      "name": "Passkontrolle",
+      "en": "passport control",
+      "words": [
+        { "de": "Ausweis", "en": "ID card", "pos": "noun", "article": "der", "plural": "Ausweise", "level": "A1", "goethe": "A1" },
+        { "de": "Visum", "en": "visa", "pos": "noun", "article": "das", "plural": "Visa", "level": "B1", "goethe": "B1" },
+        { "de": "Staatsangehörigkeit", "en": "nationality", "pos": "noun", "article": "die", "plural": "Staatsangehörigkeiten", "level": "A1", "goethe": "A1" },
+        { "de": "Einreise", "en": "entry (into a country)", "pos": "noun", "article": "die", "plural": "Einreisen", "level": "B1" },
+        { "de": "Grenze", "en": "border", "pos": "noun", "article": "die", "plural": "Grenzen", "level": "B1", "goethe": "B1" },
+        { "de": "Reisezweck", "en": "purpose of travel", "pos": "noun", "article": "der", "plural": "Reisezwecke", "level": "B2" },
+        { "de": "Zulassungsbescheid", "en": "university admission letter", "pos": "noun", "article": "der", "plural": "Zulassungsbescheide", "level": "B2" },
+        { "de": "gültig", "en": "valid", "pos": "adj", "level": "A1", "goethe": "A1" },
+        { "de": "einreisen", "en": "to enter (a country)", "pos": "verb", "aux": "sein", "sep": "ein", "p2": "eingereist", "level": "B1" },
+        { "de": "vorzeigen", "en": "to show, to present", "pos": "verb", "aux": "haben", "sep": "vor", "p2": "vorgezeigt", "level": "B1" }
+      ]
+    },
+    {
+      "name": "Gepäckausgabe",
+      "en": "baggage claim",
+      "words": [
+        { "de": "Koffer", "en": "suitcase", "pos": "noun", "article": "der", "plural": "Koffer", "level": "A1", "goethe": "A1" },
+        { "de": "Gepäck", "en": "luggage", "pos": "noun", "article": "das", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "Gepäckband", "en": "baggage belt", "pos": "noun", "article": "das", "plural": "Gepäckbänder", "level": "A2" },
+        { "de": "Gepäckwagen", "en": "luggage trolley", "pos": "noun", "article": "der", "plural": "Gepäckwagen", "level": "A2" },
+        { "de": "Fundbüro", "en": "lost property office", "pos": "noun", "article": "das", "plural": "Fundbüros", "level": "B1", "goethe": "B1" },
+        { "de": "Verlustmeldung", "en": "loss report", "pos": "noun", "article": "die", "plural": "Verlustmeldungen", "level": "B2" },
+        { "de": "abholen", "en": "to pick up", "pos": "verb", "aux": "haben", "sep": "ab", "p2": "abgeholt", "level": "A1", "goethe": "A1" },
+        { "de": "verlieren", "en": "to lose", "pos": "verb", "aux": "haben", "p2": "verloren", "level": "A2", "goethe": "A2" },
+        { "de": "verspätet", "en": "delayed", "pos": "adj", "level": "A2" },
+        { "de": "beschädigt", "en": "damaged", "pos": "adj", "level": "B1", "goethe": "B1" }
+      ]
+    },
+    {
+      "name": "Zoll",
+      "en": "customs",
+      "words": [
+        { "de": "Zoll", "en": "customs", "pos": "noun", "article": "der", "plural": "-", "level": "A1", "goethe": "A1" },
+        { "de": "Zollerklärung", "en": "customs declaration", "pos": "noun", "article": "die", "plural": "Zollerklärungen", "level": "B2" },
+        { "de": "Geschenk", "en": "gift", "pos": "noun", "article": "das", "plural": "Geschenke", "level": "A1", "goethe": "A1" },
+        { "de": "Bargeld", "en": "cash", "pos": "noun", "article": "das", "plural": "-", "level": "B1", "goethe": "B1" },
+        { "de": "Lebensmittel", "en": "food item", "pos": "noun", "article": "das", "plural": "Lebensmittel", "level": "A1", "goethe": "A1" },
+        { "de": "Freibetrag", "en": "duty-free allowance", "pos": "noun", "article": "der", "plural": "Freibeträge", "level": "C1" },
+        { "de": "Stichprobe", "en": "spot check", "pos": "noun", "article": "die", "plural": "Stichproben", "level": "C1" },
+        { "de": "anmelden", "en": "to declare, to register", "pos": "verb", "aux": "haben", "sep": "an", "p2": "angemeldet", "level": "A1", "goethe": "A1" },
+        { "de": "verzollen", "en": "to pay customs duty on", "pos": "verb", "aux": "haben", "p2": "verzollt", "level": "B2" },
+        { "de": "mitbringen", "en": "to bring along", "pos": "verb", "aux": "haben", "sep": "mit", "p2": "mitgebracht", "level": "A1", "goethe": "A1" }
+      ]
+    },
+    {
+      "name": "Ausgang",
+      "en": "exit and transport links",
+      "words": [
+        { "de": "Ausgang", "en": "exit", "pos": "noun", "article": "der", "plural": "Ausgänge", "level": "A1", "goethe": "A1" },
+        { "de": "S-Bahn", "en": "suburban train", "pos": "noun", "article": "die", "plural": "S-Bahnen", "level": "A1", "goethe": "A1" },
+        { "de": "Zug", "en": "train", "pos": "noun", "article": "der", "plural": "Züge", "level": "A1", "goethe": "A1" },
+        { "de": "Fahrkarte", "en": "ticket", "pos": "noun", "article": "die", "plural": "Fahrkarten", "level": "A1", "goethe": "A1" },
+        { "de": "Fahrkartenautomat", "en": "ticket machine", "pos": "noun", "article": "der", "plural": "Fahrkartenautomaten", "level": "A2", "goethe": "A2" },
+        { "de": "Haltestelle", "en": "stop (bus, tram)", "pos": "noun", "article": "die", "plural": "Haltestellen", "level": "A1", "goethe": "A1" },
+        { "de": "Taxi", "en": "taxi", "pos": "noun", "article": "das", "plural": "Taxis", "level": "A1", "goethe": "A1" },
+        { "de": "Gleis", "en": "platform, track", "pos": "noun", "article": "das", "plural": "Gleise", "level": "A1", "goethe": "A1" },
+        { "de": "umsteigen", "en": "to change (trains)", "pos": "verb", "aux": "sein", "sep": "um", "p2": "umgestiegen", "level": "A2", "goethe": "A2" },
+        { "de": "entwerten", "en": "to validate (a ticket)", "pos": "verb", "aux": "haben", "p2": "entwertet", "level": "B1" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "de": "Ihren Reisepass und die Bordkarte, bitte.", "en": "Your passport and boarding pass, please.", "who": "staff", "level": "A1" },
+    { "de": "Haben Sie Gepäck aufzugeben?", "en": "Do you have luggage to check in?", "who": "staff", "level": "A2" },
+    { "de": "Legen Sie Ihren Laptop bitte in eine extra Schale.", "en": "Please put your laptop in a separate tray.", "who": "staff", "level": "A2" },
+    { "de": "Was ist der Zweck Ihrer Reise?", "en": "What is the purpose of your trip?", "who": "staff", "level": "B1" },
+    { "de": "Wie lange bleiben Sie in Deutschland?", "en": "How long are you staying in Germany?", "who": "staff", "level": "A2" },
+    { "de": "Haben Sie etwas zu verzollen?", "en": "Do you have anything to declare?", "who": "staff", "level": "B1" },
+    { "de": "Bitte öffnen Sie Ihren Koffer.", "en": "Please open your suitcase.", "who": "staff", "level": "A2" },
+    { "de": "Wo ist die Gepäckausgabe?", "en": "Where is baggage claim?", "who": "you", "level": "A1" },
+    { "de": "Wo ist der Schalter für den Check-in?", "en": "Where is the check-in desk?", "who": "you", "level": "A2" },
+    { "de": "Ich komme zum Studium nach Deutschland.", "en": "I am coming to Germany to study.", "who": "you", "level": "A2" },
+    { "de": "Mein Koffer ist nicht angekommen.", "en": "My suitcase has not arrived.", "who": "you", "level": "A2" },
+    { "de": "Ich habe nichts zu verzollen.", "en": "I have nothing to declare.", "who": "you", "level": "B1" },
+    { "de": "Wie komme ich zum Hauptbahnhof?", "en": "How do I get to the main station?", "who": "you", "level": "A1" },
+    { "de": "Wo kann ich eine Fahrkarte kaufen?", "en": "Where can I buy a ticket?", "who": "you", "level": "A1" }
+  ],
+  "exercises": [
+    { "type": "article", "word": "Koffer", "answer": "der", "explain": "Koffer is masculine: der Koffer, die Koffer." },
+    { "type": "article", "word": "Bordkarte", "answer": "die", "explain": "Nouns ending in -karte follow Karte, which is feminine: die Bordkarte." },
+    { "type": "article", "word": "Gepäck", "answer": "das", "explain": "Gepäck is neuter and has no plural: das Gepäck." },
+    { "type": "article", "word": "Fahrkarte", "answer": "die", "explain": "Compound nouns take the gender of the last word: die Karte, so die Fahrkarte." },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "der Koffer",
+          "suitcase"
+        ],
+        [
+          "die Bordkarte",
+          "boarding pass"
+        ],
+        [
+          "das Gepäckband",
+          "baggage belt"
+        ],
+        [
+          "der Ausgang",
+          "exit"
+        ]
+      ],
+      "explain": "Core airport nouns, each with its article."
+    },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "einchecken",
+          "to check in"
+        ],
+        [
+          "abholen",
+          "to pick up"
+        ],
+        [
+          "verzollen",
+          "to pay customs duty on"
+        ],
+        [
+          "entwerten",
+          "to validate a ticket"
+        ],
+        [
+          "umsteigen",
+          "to change trains"
+        ]
+      ],
+      "explain": "Verbs you meet between check-in and the city train."
+    },
+    {
+      "type": "gap",
+      "q": "Am Schalter muss ich zuerst ___.",
+      "answer": [
+        "einchecken"
+      ],
+      "explain": "Muss takes the infinitive at the end: ich muss einchecken."
+    },
+    {
+      "type": "gap",
+      "q": "Mein Flug ist leider ___.",
+      "answer": [
+        "verspätet"
+      ],
+      "explain": "Verspätet is the adjective for delayed: der Flug ist verspätet."
+    },
+    {
+      "type": "gap",
+      "q": "Haben Sie etwas ___?",
+      "answer": [
+        "zu verzollen"
+      ],
+      "explain": "The fixed customs question is: Haben Sie etwas zu verzollen?"
+    },
+    {
+      "type": "translate",
+      "en": "Where is the baggage claim?",
+      "answer": [
+        "Wo ist die Gepäckausgabe?"
+      ],
+      "explain": "Wo ist + die Gepäckausgabe, which is feminine."
+    },
+    {
+      "type": "translate",
+      "en": "I have lost my suitcase.",
+      "answer": [
+        "Ich habe meinen Koffer verloren.",
+        "Ich habe meinen Koffer verloren"
+      ],
+      "explain": "Perfect tense with haben; Koffer is masculine, so after habe it becomes meinen Koffer."
+    },
+    {
+      "type": "mc",
+      "q": "The officer asks: \"Was ist der Zweck Ihrer Reise?\" Which answer fits?",
+      "options": [
+        "Ich bin ein Koffer.",
+        "Ich komme zum Studium.",
+        "Ich habe Hunger."
+      ],
+      "answer": 1,
+      "explain": "The officer asks about the purpose of your trip, and \"Ich komme zum Studium\" says you are coming to study."
+    },
+    {
+      "type": "order",
+      "words": [
+        "die",
+        "Wo",
+        "Gepäckausgabe",
+        "ist"
+      ],
+      "answer": "Wo ist die Gepäckausgabe",
+      "explain": "A question with a question word: Wo, then the verb ist, then the subject."
+    }
+  ],
+  "speak": {
+    "shadow": [
+      { "de": "Ich komme zum Studium nach Deutschland.", "en": "I am coming to Germany to study." },
+      { "de": "Ich bleibe zwei Jahre hier.", "en": "I am staying here for two years." },
+      { "de": "Mein Koffer ist nicht angekommen.", "en": "My suitcase has not arrived." },
+      { "de": "Ich habe nichts zu verzollen.", "en": "I have nothing to declare." },
+      { "de": "Wie komme ich zum Hauptbahnhof?", "en": "How do I get to the main station?" }
+    ],
+    "prompts": [
+      { "q": "Was ist der Zweck Ihrer Reise?", "qEn": "What is the purpose of your trip?", "model": "Ich komme zum Studium. Ich habe einen Studienplatz an der Universität.", "hint": "Say you are coming to study." },
+      { "q": "Haben Sie etwas zu verzollen?", "qEn": "Do you have anything to declare?", "model": "Nein, ich habe nichts zu verzollen. Ich habe nur persönliche Sachen dabei.", "hint": "Short and calm is fine." },
+      { "q": "Kann ich Ihnen helfen?", "qEn": "Can I help you? (you are at the baggage service desk)", "model": "Ja, mein Koffer ist nicht angekommen. Er ist blau und hat einen roten Anhänger.", "hint": "Describe the suitcase." },
+      { "q": "Wohin möchten Sie fahren?", "qEn": "Where would you like to go? (at the ticket machine help point)", "model": "Ich möchte zum Hauptbahnhof. Welche S-Bahn muss ich nehmen?", "hint": "Name the station and ask which train." }
+    ]
+  }
+}

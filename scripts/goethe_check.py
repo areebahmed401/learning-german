@@ -101,9 +101,45 @@ def main(argv: list[str]) -> int:
             if write:
                 path.write_bytes(with_words(raw.replace("\r\n", "\n"), lesson["words"]).encode("utf-8"))
     print(f"{total - off}/{total} A1–B1 lesson words are on the Goethe list for their level ({off} off-list).")
+    check_places(lists, write)
     if write:
         tag_core(lists)
     return 0
+
+
+FLAT_OBJ = re.compile(r'\{\n\s+((?:"(?:[^"\\]|\\.)*": (?:"(?:[^"\\]|\\.)*"|-?\d+|true|false|null),?\n\s*)+)\}')
+
+
+def dump_place(place: dict) -> str:
+    """Pretty JSON with every flat object (word, phrase, sentence) on one line, so diffs stay readable."""
+    text = json.dumps(place, ensure_ascii=False, indent=2)
+    return FLAT_OBJ.sub(lambda m: "{ " + re.sub(r",?\n\s*", lambda c: ", " if c.group(0).startswith(",") else "", m.group(1)).rstrip(", ") + " }", text) + "\n"
+
+
+def check_places(lists: dict[str, set[str]], write: bool) -> None:
+    """Alltag places: a word on a Goethe list gets that level (and the badge); A1–B1 words on no list are reported."""
+    misses = tagged = 0
+    for path in sorted((ROOT / "data" / "places").glob("*.json")):
+        place = json.loads(path.read_text(encoding="utf-8"))
+        off = []
+        for area in place["areas"]:
+            for w in area["words"]:
+                g = goethe_level(w, lists)
+                if g:
+                    tagged += 1
+                    if write:
+                        w["goethe"] = g
+                        w["level"] = g
+                else:
+                    w.pop("goethe", None) if write else None
+                    if w.get("level") in ("A1", "A2", "B1"):
+                        off.append(f"{w['de']} ({w['level']})")
+        misses += len(off)
+        if off:
+            print(f"{path.stem}: {len(off)} A1–B1 words not on any Goethe list: " + ", ".join(off))
+        if write:
+            path.write_bytes(dump_place(place).encode("utf-8"))
+    print(f"places: {tagged} words on a Goethe list, {misses} A1–B1 words not on any list.")
 
 
 def tag_core(lists: dict[str, set[str]]) -> None:
