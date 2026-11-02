@@ -17,6 +17,9 @@
   --road: #575c64;
   --road-edge: #d9d4c8;
   --grass: #e9efe1;
+  --alltag: #6b4fbb;       /* the Alltag road and its places are violet; grammar keeps --accent green */
+  --alltag-soft: #ece6f8;
+  --alltag-road: #6a5a96;
   --radius: 14px;
   --font: "Nunito", system-ui, -apple-system, "Segoe UI", sans-serif;
   --shadow: 0 1px 2px rgba(0,0,0,.06), 0 4px 14px rgba(0,0,0,.06);
@@ -27,6 +30,7 @@
     --bg: #15171a; --surface: #1e2125; --surface-2: #262a2f; --text: #e8e6e1; --muted: #9aa0a6;
     --line: #33373d; --accent: #4cc38a; --accent-soft: #1d3a2e; --gold: #f0b93b; --bad: #ff7a86; --bad-soft: #3a1f24;
     --der: #6a9cff; --die: #ff7a8f; --das: #4cc38a; --road: #3d434b; --road-edge: #2a2e33; --grass: #1a1f1b;
+    --alltag: #a98bff; --alltag-soft: #2b2440; --alltag-road: #54477a;
     --shadow: 0 1px 2px rgba(0,0,0,.4), 0 4px 14px rgba(0,0,0,.3); color-scheme: dark;
   }
 }
@@ -34,6 +38,7 @@
   --bg: #15171a; --surface: #1e2125; --surface-2: #262a2f; --text: #e8e6e1; --muted: #9aa0a6;
   --line: #33373d; --accent: #4cc38a; --accent-soft: #1d3a2e; --gold: #f0b93b; --bad: #ff7a86; --bad-soft: #3a1f24;
   --der: #6a9cff; --die: #ff7a8f; --das: #4cc38a; --road: #3d434b; --road-edge: #2a2e33; --grass: #1a1f1b;
+  --alltag: #a98bff; --alltag-soft: #2b2440; --alltag-road: #54477a;
   --shadow: 0 1px 2px rgba(0,0,0,.4), 0 4px 14px rgba(0,0,0,.3); color-scheme: dark;
 }
 
@@ -435,6 +440,13 @@ textarea.answer { width: 100%; min-height: 80px; border: 1.5px solid var(--line)
   color: var(--muted); text-decoration: none;
 }
 .road-tabs a.on { background: var(--surface); color: var(--text); box-shadow: var(--shadow); }
+.road-tabs a { border-bottom: 3px solid transparent; }
+.road-tabs a.grammar.on { border-bottom-color: var(--accent); }
+.road-tabs a.alltag { color: var(--alltag); }
+.road-tabs a.alltag.on { border-bottom-color: var(--alltag); }
+
+/* the Alltag road and place pages swap the green accent for violet */
+.alltag-theme { --accent: var(--alltag); --accent-soft: var(--alltag-soft); --road: var(--alltag-road); }
 
 /* ---------- Place page (Alltag road) ---------- */
 .place .area h2 small { font-weight: 400; font-size: .85rem; }

@@ -59,7 +59,7 @@ export async function renderPlace(view, id, step = 'words') {
       : next ? h('a.btn.primary', { href: `#/alltag?at=${next.id}` }, `Weiter: ${next.icon} ${next.title} →`)
         : h('a.btn.primary', { href: '#/alltag' }, 'Zur Alltag-Straße →'));
 
-  view.replaceChildren(h('article.lesson.place', head, tabs, body, nav));
+  view.replaceChildren(h('article.lesson.place.alltag-theme', head, tabs, body, nav));
   ({ words, phrases, practice, speak: speakStep })[step](body, place);
 }
 
