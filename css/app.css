@@ -404,11 +404,16 @@ textarea.answer { width: 100%; min-height: 80px; border: 1.5px solid var(--line)
 .road-top { position: sticky; top: 56px; z-index: 20; background: var(--bg); padding-bottom: 8px; }
 .road-top .stats { position: static; }
 .today {
-  display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding: 6px 12px;
+  display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding: 6px 8px 6px 12px;
   background: var(--surface); border: 1px solid var(--line); border-radius: 12px;
 }
-.today .muted { font-size: .82rem; margin-left: auto; }
-@media (max-width: 520px) { .today .ready-more, .today .muted { display: none; } } /* keep the pinned strip to one line */
+.today .muted { font-size: .82rem; }
+.today .today-go { display: flex; gap: 8px; margin-left: auto; } /* quiz + cards sit on the right, full size */
+.today .today-go .btn { padding: .55em 1.1em; font-weight: 800; font-size: .98rem; }
+@media (max-width: 520px) {
+  .today .ready-more, .today .muted { display: none; } /* keep the pinned strip to one line */
+  .today .today-go .btn { padding: .5em .8em; font-size: .92rem; }
+}
 
 /* adaptive mode: one or two calm lines on what changed today */
 .adapt-note {

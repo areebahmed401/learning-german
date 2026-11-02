@@ -15,10 +15,11 @@ function today(road) {
   const score = progress.quizState().days[day()];
   return h('div.today',
     h('b', 'Heute'),
-    readyLink(road),
-    h('a.btn.small', { href: '#/quiz' }, score != null ? `⚡ Quiz ✓ ${Math.round(score * 100)}%` : '⚡ Tagesquiz'),
-    h('a.btn.small', { href: '#/cards' }, '🃏 Karten'),
-    h('span.muted', `🔥 Quiz ${progress.quizStreak()} · Karten ${progress.cardStreak()}`));
+    h('span.muted', `🔥 Quiz ${progress.quizStreak()} · Karten ${progress.cardStreak()}`),
+    h('div.today-go',
+      readyLink(road),
+      h('a.btn', { href: '#/quiz' }, score != null ? `⚡ Quiz ✓ ${Math.round(score * 100)}%` : '⚡ Tagesquiz'),
+      h('a.btn.primary', { href: '#/cards' }, '🃏 Karten')));
 }
 
 /** Adaptive mode: when the quiz and the cards both say your level is down, suggest its checkpoint. */

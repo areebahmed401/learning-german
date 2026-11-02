@@ -37,8 +37,8 @@ async function wordPool(deck, road, myLevel) {
 
 let keyHandler = null;
 
-/** extra: new words allowed beyond today's limit ("+10 more"). */
-export async function renderCards(view, extra = 0) {
+/** start: go straight into the session (after "+ more"). */
+export async function renderCards(view, { start = false } = {}) {
   document.title = 'Karten · Deutschweg';
   const prefs = progress.settings();
   const road = await getRoadmap();
@@ -47,7 +47,7 @@ export async function renderCards(view, extra = 0) {
   let words = await wordPool(prefs.deck, road, myLevel);
   const today = srs.day();
   const { limit, notes } = prefs.adaptive ? await adaptDeck() : { limit: prefs.newCards, notes: [] };
-  const queue = srs.buildQueue(words, progress.cards(), today, limit + extra);
+  const queue = srs.buildQueue(words, progress.cards(), today, limit + progress.extraCards(today));
   const unseen = words.filter((w) => !progress.cards()[srs.cardKey(w)]).length;
   const due = queue.filter((w) => progress.cards()[srs.cardKey(w)]).length;
 
@@ -86,13 +86,14 @@ export async function renderCards(view, extra = 0) {
     stage.append(h('div.card.cards-done', h('div.result', h('div.score', '✓'),
       h('p', 'Nothing due right now. Come back tomorrow!'),
       h('p.muted', `${words.length} words in this deck.`),
-      unseen ? h('button.btn', { type: 'button', onclick: () => renderCards(view, extra + 10) }, `+10 more new words (${unseen} left)`) : null)));
+      unseen ? moreBtn(view, unseen) : null)));
   } else {
+    const go = () => run(stage, shuffle(queue.slice(0, due)).concat(queue.slice(due)), reverse.querySelector('input').checked, view, unseen - (queue.length - due));
     stage.append(h('div.card.cards-start',
       h('p', h('b', `${queue.length} cards`), ` ready: ${due} to review, ${queue.length - due} new. `,
         h('span.muted', `${words.length} words in this deck · ${limit} new a day${prefs.adaptive ? ', adaptive' : ''} (⚙ Settings)`)),
-      h('button.btn.primary', { type: 'button', onclick: () => run(stage, shuffle(queue.slice(0, due))
-        .concat(queue.slice(due)), reverse.querySelector('input').checked, view) }, 'Start')));
+      h('button.btn.primary', { type: 'button', onclick: go }, 'Start')));
+    if (start) go();
   }
 
   /**
@@ -127,6 +128,13 @@ export async function renderCards(view, extra = 0) {
   }
 }
 
+/** "+ more new words": adds the amount from ⚙ Settings to today's new cards and starts right away. */
+function moreBtn(view, unseen) {
+  const n = Math.min(progress.settings().moreCards, unseen);
+  return h('button.btn.primary', { type: 'button', onclick: () => { progress.addExtraCards(srs.day(), n); renderCards(view, { start: true }); } },
+    `+${n} more new words (${unseen} left)`);
+}
+
 const stat = (value, label) => h('div.stat', h('b', String(value)), h('span', label));
 
 function hardList() {
@@ -138,7 +146,7 @@ function hardList() {
 }
 
 /** One session: show cards until the queue is empty; a missed card goes back into the queue. */
-function run(stage, queue, reverse, view) {
+function run(stage, queue, reverse, view, unseen) {
   const today = srs.day();
   const autoplay = canSpeak && progress.settings().autoplay;
   const missed = new Set();
@@ -205,6 +213,7 @@ function run(stage, queue, reverse, view) {
       h('p.muted', `Streak: ${progress.cardStreak()} 🔥`),
       h('div.speak-row', { style: 'justify-content:center' },
         h('button.btn', { type: 'button', onclick: () => renderCards(view) }, 'Overview'),
+        unseen > 0 ? moreBtn(view, unseen) : null,
         h('a.btn.primary', { href: '#/road' }, 'Zur Straße →')))));
   }
 
