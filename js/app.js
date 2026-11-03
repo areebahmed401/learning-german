@@ -9,6 +9,7 @@ import { renderSettings } from './settings.js';
 import { runQuiz } from './exercises.js';
 import * as progress from './progress.js';
 import * as anki from './anki.js';
+import { day } from './srs.js';
 import './speech.js';
 
 const view = document.getElementById('view');
@@ -18,7 +19,9 @@ async function route() {
   const parts = path.split('/').filter(Boolean);
   const params = Object.fromEntries(new URLSearchParams(query));
   document.querySelectorAll('.sheet, .sheet-backdrop, .peek, .mm-modal-backdrop').forEach((e) => e.remove());
-  document.body.classList.toggle('on-cards', ['cards', 'quiz'].includes(parts[0])); // the translator button would cover the answer buttons
+  document.body.classList.toggle('on-cards', ['cards', 'quiz'].includes(parts[0])); // the dock would cover the answer buttons
+  const score = progress.quizState().days[day()];
+  document.getElementById('dock-quiz').textContent = score != null ? `today ✓ ${Math.round(score * 100)}%` : 'daily grammar';
   try {
     if (parts[0] === 'lesson' && parts[1]) {
       await renderLesson(view, parts[1], parts[2]);

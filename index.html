@@ -22,8 +22,6 @@
       <span>Deutschweg</span>
     </a>
     <div class="topbar-actions">
-      <a class="btn small cards-link" href="#/quiz" title="Daily grammar quiz" aria-label="Tagesquiz: daily grammar quiz">⚡<span class="cards-text"> Quiz</span></a>
-      <a class="btn small cards-link" href="#/cards" title="Daily flashcards" aria-label="Karten: daily flashcards">🃏<span class="cards-text"> Karten</span></a>
       <button class="icon-btn" id="theme-btn" title="Switch light/dark" aria-label="Switch light/dark theme">◐</button>
       <button class="icon-btn" id="menu-btn" title="Settings" aria-label="Settings" aria-expanded="false">⚙</button>
       <button class="icon-btn tr-toggle" id="tr-btn" title="Translator" aria-label="Show or hide the translator" aria-expanded="true">文A</button>
@@ -50,7 +48,11 @@
   </div>
 
   <button class="side-rail" id="side-rail" title="Open the translator" aria-label="Open the translator"><span>⟨ 文A Übersetzer</span></button>
-  <button class="fab" id="fab" aria-label="Open translator">文A Übersetzer</button>
+  <nav class="dock" aria-label="Daily practice">
+    <a class="dock-btn" href="#/quiz" title="Daily grammar quiz"><span class="dock-icon" aria-hidden="true">⚡</span><span><b>Tagesquiz</b><small id="dock-quiz">daily grammar</small></span></a>
+    <a class="dock-btn primary" href="#/cards" title="Daily flashcards"><span class="dock-icon" aria-hidden="true">🃏</span><span><b>Karten</b><small>flashcards</small></span></a>
+    <button class="dock-btn dock-tr" id="fab" aria-label="Open translator">文A</button>
+  </nav>
   <div class="toast" id="toast" role="status" hidden></div>
 
   <script type="module" src="js/app.js"></script>
