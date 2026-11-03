@@ -89,6 +89,32 @@ h1, h2, h3 { line-height: 1.2; margin: 0 0 .4em; }
 .menu button:hover, .menu-file:hover { background: var(--surface-2); }
 .menu .danger { color: var(--bad); }
 
+/* Quiz + Karten: two large buttons pinned to the bottom of the main column on every page (not on their own pages) */
+.dock {
+  position: fixed; bottom: 14px; left: 0; right: 380px; z-index: 40; display: flex; justify-content: center; gap: 12px;
+  padding: 0 16px; pointer-events: none;
+}
+body.side-hidden .dock { right: 0; }
+.on-cards .dock { display: none; }
+.dock-btn {
+  pointer-events: auto; display: flex; align-items: center; gap: 10px; min-width: 170px; padding: 10px 20px 10px 14px;
+  border-radius: 16px; border: 1px solid var(--line); background: var(--surface); color: var(--text); text-decoration: none;
+  box-shadow: 0 6px 22px rgba(0,0,0,.18); font: inherit; cursor: pointer;
+}
+.dock-btn:hover { border-color: var(--accent); }
+.dock-btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+.dock-btn b { display: block; font-size: 1.08rem; line-height: 1.1; }
+.dock-btn small { display: block; font-size: .78rem; opacity: .8; }
+.dock-icon { font-size: 1.6rem; line-height: 1; }
+.dock .dock-tr { display: none; min-width: 0; padding: 10px 14px; font-weight: 800; justify-content: center; }
+#view { padding-bottom: 96px; } /* room to scroll past the dock */
+@media (max-width: 520px) {
+  .dock { gap: 8px; padding: 0 10px; bottom: 10px; }
+  .dock-btn { min-width: 0; flex: 1; padding: 10px 12px; gap: 8px; }
+  .dock-btn small { display: none; }
+  .dock .dock-tr { flex: 0 0 auto; }
+}
+
 .layout { display: grid; grid-template-columns: minmax(0, 1fr) 380px; min-height: calc(100vh - 56px); }
 body.side-hidden .layout { grid-template-columns: minmax(0, 1fr) 0; }
 body.side-hidden .side { display: none; }
@@ -107,7 +133,6 @@ body.side-hidden .side-rail {
   background: var(--surface); color: var(--text); font-weight: 800; font-size: .85rem; box-shadow: var(--shadow); cursor: pointer;
 }
 body.side-hidden .side-rail:hover { color: var(--accent); border-color: var(--accent); }
-.fab { display: none; }
 
 @media (max-width: 900px) {
   .layout, body.side-hidden .layout { grid-template-columns: minmax(0, 1fr); }
@@ -119,11 +144,9 @@ body.side-hidden .side-rail:hover { color: var(--accent); border-color: var(--ac
   body.drawer-open .side { transform: none; }
   .side-close { display: inline-block; }
   .side-collapse, body.side-hidden .side-rail { display: none; }
-  .fab {
-    display: block; position: fixed; right: 16px; bottom: 16px; z-index: 40; border: 0; border-radius: 999px;
-    padding: .7em 1.1em; font-weight: 800; background: var(--accent); color: #fff; box-shadow: var(--shadow);
-  }
-  body.drawer-open .fab { display: none; }
+  .dock { right: 0; }
+  .dock .dock-tr { display: flex; }
+  body.drawer-open .dock { display: none; }
 }
 
 .toast {
@@ -363,8 +386,6 @@ textarea.answer { width: 100%; min-height: 80px; border: 1.5px solid var(--line)
 .mm-modal .peek-tip { font-size: .9rem; }
 
 /* ---------- Karten (flashcards) ---------- */
-.cards-link { text-decoration: none; margin-right: 4px; white-space: nowrap; }
-@media (max-width: 400px) { .cards-text { display: none; } }
 .cards-stats { position: static; grid-template-columns: repeat(4, 1fr); padding: 0 0 12px; }
 .cards-tools { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between; margin-bottom: 14px; }
 .cards-scope { display: flex; flex-wrap: wrap; gap: 6px; }
@@ -399,8 +420,6 @@ textarea.answer { width: 100%; min-height: 80px; border: 1.5px solid var(--line)
   .cards-stats { grid-template-columns: repeat(2, 1fr); }
   .flash-actions .btn { min-width: 0; flex: 1; }
 }
-.on-cards .fab { display: none; }
-
 /* ---------- Heute strip on the road ---------- */
 .road-top { position: sticky; top: 56px; z-index: 20; background: var(--bg); padding-bottom: 8px; }
 .road-top .stats { position: static; }
@@ -409,11 +428,9 @@ textarea.answer { width: 100%; min-height: 80px; border: 1.5px solid var(--line)
   background: var(--surface); border: 1px solid var(--line); border-radius: 12px;
 }
 .today .muted { font-size: .82rem; }
-.today .today-go { display: flex; gap: 8px; margin-left: auto; } /* quiz + cards sit on the right, full size */
-.today .today-go .btn { padding: .55em 1.1em; font-weight: 800; font-size: .98rem; }
+.today .today-go { display: flex; gap: 8px; margin-left: auto; } /* the checkpoint suggestion; Quiz and Karten are in the dock */
 @media (max-width: 520px) {
-  .today .ready-more, .today .muted { display: none; } /* keep the pinned strip to one line */
-  .today .today-go .btn { padding: .5em .8em; font-size: .92rem; }
+  .today .ready-more { display: none; } /* keep the pinned strip to one line */
 }
 
 /* adaptive mode: one or two calm lines on what changed today */

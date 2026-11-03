@@ -4,22 +4,17 @@ import { PLACE_STEPS, placeMap, placeAsLesson } from './place.js';
 import { renderMindmapPreview } from './mindmap.js';
 import { openMindmapModal } from './mindmap-modal.js';
 import * as progress from './progress.js';
-import { day } from './srs.js';
 import { readyToAdvance } from './adapt.js';
 import { STEPS } from './lesson.js';
 
 const STEP = { zone: 150, ms: 108, gate: 120, planned: 96, goal: 130 };
 
-/** "Heute" strip: today's quiz and flashcards, one tap away (plus the checkpoint once you're ready for it). */
+/** "Heute" strip: your quiz and flashcard streaks, plus the checkpoint once you're ready for it. */
 function today(road) {
-  const score = progress.quizState().days[day()];
   return h('div.today',
     h('b', 'Heute'),
     h('span.muted', `🔥 Quiz ${progress.quizStreak()} · Karten ${progress.cardStreak()}`),
-    h('div.today-go',
-      readyLink(road),
-      h('a.btn', { href: '#/quiz' }, score != null ? `⚡ Quiz ✓ ${Math.round(score * 100)}%` : '⚡ Tagesquiz'),
-      h('a.btn.primary', { href: '#/cards' }, '🃏 Karten')));
+    h('div.today-go', readyLink(road))); // Quiz and Karten live in the dock at the bottom
 }
 
 /** Adaptive mode: when the quiz and the cards both say your level is down, suggest its checkpoint. */
