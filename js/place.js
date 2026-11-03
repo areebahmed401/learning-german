@@ -134,12 +134,12 @@ function practice(body, place) {
     onFinish: ({ score, wrong, right, total }) => {
       if (subset.length === items.length) progress.recordPlacePractice(place.id, score, wrong);
       else progress.setPlaceMistakes(place.id, wrong);
-      const pass = score >= progress.PASS;
+      const pass = score >= progress.passMark();
       body.replaceChildren(h('div.card', h(`div.result${pass ? '' : '.fail'}`,
         h('div.score', `${Math.round(score * 100)}%`),
         h('p', `${right} of ${total} right. `, pass
           ? (subset.length === items.length ? `${place.title}: geschafft! ✓` : 'Nice review!')
-          : `You need ${Math.round(progress.PASS * 100)}% to complete this place.`),
+          : `You need ${Math.round(progress.passMark() * 100)}% to complete this place.`),
         h('div.speak-row', { style: 'justify-content:center' },
           wrong.length ? h('button.btn', { onclick: () => start(items.filter((x) => wrong.includes(x._i)), 'Fehler') }, `↻ Review ${wrong.length} mistake${wrong.length > 1 ? 's' : ''}`) : null,
           h('button.btn', { onclick: () => start(items, 'Übung') }, '↺ Try all again'),
@@ -151,7 +151,7 @@ function practice(body, place) {
   const mistakes = st?.mistakes?.length ? items.filter((x) => st.mistakes.includes(x._i)) : [];
   body.append(h('div.card',
     h('h2', `${items.length} exercises`),
-    h('p.muted', `Words and sentences from ${place.title}. Score ${Math.round(progress.PASS * 100)}% or more to complete this place.`,
+    h('p.muted', `Words and sentences from ${place.title}. Score ${Math.round(progress.passMark() * 100)}% or more to complete this place.`,
       st?.best ? ` Your best so far: ${Math.round(st.best * 100)}%.` : ''),
     h('div.speak-row',
       h('button.btn.primary', { onclick: () => start(items, 'Übung') }, '▶ Start'),

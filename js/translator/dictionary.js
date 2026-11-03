@@ -154,7 +154,9 @@ async function getJson(url) {
   }
 }
 
-export async function loadDictionary() {
+let loading = null;
+export const loadDictionary = () => (loading ||= load()); // one load, shared by the translator and the exercises
+async function load() {
   const base = (p) => new URL(`../../data/${p}`, import.meta.url).href;
   const [core, strong, alltag] = await Promise.all([
     getJson(base('dictionary/core.json')),

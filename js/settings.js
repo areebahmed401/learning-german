@@ -67,7 +67,9 @@ export async function renderSettings(view) {
     h('section.card',
       h('h2', '⚡ Tagesquiz'),
       field('Questions per quiz', null,
-        select(s.quizSize, [5, 10, 15, 20].map((n) => [n, String(n)]), (v) => set({ quizSize: Number(v) })))),
+        select(s.quizSize, [5, 10, 15, 20].map((n) => [n, String(n)]), (v) => set({ quizSize: Number(v) }))),
+      field('Pass mark', 'The share you need right to finish a lesson, a place or a level checkpoint, and to pass the daily quiz.',
+        select(String(s.passMark), [0.5, 0.6, 0.7, 0.8, 0.9, 1].map((n) => [String(n), `${Math.round(n * 100)}%`]), (v) => set({ passMark: Number(v) })))),
 
     h('section.card',
       h('h2', '🎨 Appearance'),

@@ -18,7 +18,7 @@ Personal German study app (A1 → C1) for one learner. They use the **Learn Germ
 - `js/quiz.js`: the daily grammar quiz view; `js/daily.js`: which questions to ask (pure, date-seeded, tested in `tests/daily.test.mjs`). Score and open mistakes live in progress.js (`quiz.days`, `quiz.mistakes`)
 - `js/lesson.js`: lesson steps learn · mindmap · practice · speak (grammar only: all vocabulary lives in the Alltag places). The practice step offers "I know this, skip" (`progress.skipLesson`: `done` + `skipped`, drawn ⏭ on the road); a skipped level still needs its checkpoint
 - `js/cards.js`: daily flashcards view (deck and new-cards-per-day come from settings); `js/srs.js`: its Leitner scheduling (pure functions, tested in `tests/srs.test.mjs`). Card state lives in progress.js (`cards`, `cardDays`) so it is saved with the progress file
-- `js/exercises.js`, `js/mindmap.js`, `js/speech.js`, `js/progress.js`, `js/anki.js`
+- `js/exercises.js` (answers in another verb-second order count via `js/wordorder.js`; gap questions show a dictionary hint), `js/mindmap.js`, `js/speech.js`, `js/progress.js`, `js/anki.js`
 - `js/translator/`: verbformen-style lookup (`panel.js` UI, `dictionary.js`, `conjugate.js`, `decline.js`, `online.js`)
 - `data/roadmap.json`: levels → milestones (lesson ids in road order). A level can list `planned` concepts (shown locked) instead of milestones until its lessons exist
 - `data/lessons/<level>/<id>.json`: one lesson per file; the file name is `<id>.json`

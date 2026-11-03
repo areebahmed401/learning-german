@@ -348,7 +348,7 @@ async function sheet(x) {
   } else if (x.kind === 'gate') {
     const c = progress.checkpointState(x.level.id);
     append(card, h('span.chip.accent', `${x.level.id} Checkpoint`), h('h2', `${x.level.id} geschafft?`),
-      h('p', `A mixed quiz with questions from every ${x.level.id} milestone. Score ${Math.round(progress.PASS * 100)}% to pass the gate.`),
+      h('p', `A mixed quiz with questions from every ${x.level.id} milestone. Score ${Math.round(progress.passMark() * 100)}% to pass the gate.`),
       c ? h('p.muted', `Best so far: ${Math.round(c.best * 100)}%${c.passed ? ' · passed ✓' : ''}`) : null,
       h('div.row', close, h('a.btn.primary', { href: `#/checkpoint/${x.level.id}`, onclick: closeSheet }, c?.passed ? 'Retake' : 'Start checkpoint')));
   } else {
