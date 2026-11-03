@@ -4,7 +4,7 @@ import { day as srsDay } from './srs.js';
 import { KEEP_ANSWERS } from './adapt.js';
 
 const KEY = 'lg-progress-v1';
-export const PASS = 0.7;
+// pass mark for lessons, places, checkpoints and the quiz: settings().passMark (default 70%)
 
 const blank = () => ({ lessons: {}, places: {}, checkpoints: {}, speakDays: [], cards: {}, cardDays: [], cardStats: {}, quiz: { days: {}, mistakes: [], answers: [] }, adapt: {}, settings: {}, version: 1 });
 let state = load();
@@ -38,7 +38,7 @@ export function recordPractice(id, score, mistakes) {
   const l = lesson(id);
   l.best = Math.max(l.best, score);
   l.mistakes = mistakes;
-  if (score >= PASS) { l.done = true; delete l.skipped; } // passing turns a skipped stop into a real one
+  if (score >= passMark()) { l.done = true; delete l.skipped; } // passing turns a skipped stop into a real one
   save();
   return l;
 }
@@ -70,7 +70,7 @@ export function setMistakes(id, mistakes) {
 export function recordCheckpoint(level, score) {
   const c = (state.checkpoints[level] ??= { best: 0, passed: false });
   c.best = Math.max(c.best, score);
-  if (score >= PASS) c.passed = true;
+  if (score >= passMark()) c.passed = true;
   save();
   return c;
 }
@@ -95,7 +95,7 @@ export function recordPlacePractice(id, score, mistakes) {
   const p = place(id);
   p.best = Math.max(p.best, score);
   p.mistakes = mistakes;
-  if (score >= PASS) p.done = true;
+  if (score >= passMark()) p.done = true;
   save();
   return p;
 }
@@ -156,9 +156,11 @@ export const DEFAULT_SETTINGS = {
   reverse: false, // cards English → German
   autoplay: true, // read the German aloud when a card flips
   quizSize: 10, // questions in the daily quiz
+  passMark: 0.7, // share right to pass a lesson, place, checkpoint or the daily quiz
   adaptive: true, // adapt.js: new cards, quiz mix and level follow how you do
 };
 export const settings = () => ({ ...DEFAULT_SETTINGS, ...state.settings });
+export const passMark = () => settings().passMark;
 
 /** New cards added today beyond the daily limit ("+ more"); saved, so it survives leaving the page. */
 export const extraCards = (today) => (state.adapt.extra?.day === today ? state.adapt.extra.n : 0);

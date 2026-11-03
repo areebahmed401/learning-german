@@ -62,13 +62,13 @@ async function renderCheckpoint(view, level) {
   const body = h('section');
   view.replaceChildren(h('article.lesson',
     h('header.lesson-head', h('a.back', { href: '#/road' }, '← Zurück zur Straße'), h('h1', `${level} Checkpoint`),
-      h('p', `${items.length} questions from all ${lessons.length} ${level} milestones. Pass with ${Math.round(progress.PASS * 100)}%.`)),
+      h('p', `${items.length} questions from all ${lessons.length} ${level} milestones. Pass with ${Math.round(progress.passMark() * 100)}%.`)),
     body));
   runQuiz(body, items, {
     label: 'Frage',
     onFinish: ({ score, right, total }) => {
       const c = progress.recordCheckpoint(level, score);
-      const pass = score >= progress.PASS;
+      const pass = score >= progress.passMark();
       body.replaceChildren(h('div.card', h(`div.result${pass ? '' : '.fail'}`,
         h('div.score', `${Math.round(score * 100)}%`),
         h('p', `${right} of ${total} right. `, pass ? `${level} geschafft! 🎉 The gate is open.` : 'Not yet. Review the milestones with red mistakes and try again.'),

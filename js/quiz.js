@@ -50,7 +50,7 @@ export async function renderQuiz(view, round = 0) {
         const wrongRefs = wrong.map((i) => items[i]._ref);
         const answers = items.map((x, i) => ({ l: x._level, t: x.type, ok: !wrong.includes(i) }));
         progress.recordQuiz(today, score, daily.updateMistakes(q.mistakes, items.map((x) => x._ref), wrongRefs), answers);
-        body.replaceChildren(h('div.card', h(`div.result${score >= progress.PASS ? '' : '.fail'}`,
+        body.replaceChildren(h('div.card', h(`div.result${score >= progress.passMark() ? '' : '.fail'}`,
           h('div.score', `${Math.round(score * 100)}%`),
           h('p', `${right} of ${total} right.`, wrongRefs.length ? ` The ${wrongRefs.length} you missed will come back in your next quizzes.` : ' Perfekt! 🎉'),
           h('p.muted', `Quiz streak: ${progress.quizStreak()} 🔥`),

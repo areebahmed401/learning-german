@@ -282,6 +282,7 @@ table.grid tr:nth-child(even) td { background: color-mix(in srgb, var(--surface-
 .quiz-top span { font-size: .85rem; color: var(--muted); font-weight: 700; }
 .ex-kind { font-size: .75rem; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); font-weight: 800; }
 .ex-q { font-size: 1.25rem; font-weight: 700; margin: .3em 0 .8em; }
+.gap-hint { margin: -.4em 0 .8em; font-size: .9rem; }
 .options { display: grid; gap: 8px; }
 .option { text-align: left; padding: .7em 1em; border-radius: 12px; border: 1.5px solid var(--line); background: var(--surface); font-weight: 600; }
 .option:hover:not(:disabled) { border-color: var(--accent); }
