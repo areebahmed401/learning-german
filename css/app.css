@@ -409,16 +409,50 @@ textarea.answer { width: 100%; min-height: 80px; border: 1.5px solid var(--line)
 .flash-word { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; justify-content: center; }
 .flash-forms { color: var(--muted); }
 .flash-hint { font-size: .8rem; }
-.flash-actions { display: flex; gap: 10px; justify-content: center; margin-top: 14px; }
-.flash-actions .btn { min-width: 140px; }
+.flash-actions { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-top: 14px; }
+.flash-actions .btn { min-width: 100px; flex-direction: column; gap: 0; justify-content: center; line-height: 1.25; }
+.flash-gap { font-size: .72rem; font-weight: 600; opacity: .75; }
 .flash-no { border-color: var(--bad); color: var(--bad); }
 .flash-keys { font-size: .78rem; margin: 10px 0 0; }
-.cards-hard summary { cursor: pointer; }
-.cards-hard ul { list-style: none; padding: 0; margin: 10px 0 0; display: grid; gap: 4px; }
-.cards-hard li { display: flex; justify-content: space-between; border-bottom: 1px solid var(--line); padding: 4px 0; }
+/* statistics panel beside the Karten home; stacks under 820px, hidden during a session */
+.cards-page { max-width: 1100px; }
+.cards-layout { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 20px; align-items: start; }
+.cards-main { min-width: 0; max-width: 760px; }
+.cards-layout.in-session { grid-template-columns: minmax(0, 1fr); }
+.cards-layout.in-session .cards-main { margin: 0 auto; width: 100%; }
+.cards-layout.in-session .cards-panel { display: none; }
+.cards-panel { display: grid; gap: 12px; min-width: 0; }
+.cards-panel .card { margin: 0; padding: 14px 16px; }
+.cards-panel h2 { font-size: .8rem; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); margin-bottom: 10px; }
+.cp-level + .cp-level { margin-top: 10px; }
+.cp-level-top { display: flex; justify-content: space-between; font-size: .92rem; }
+.cp-level-top span { color: var(--muted); font-variant-numeric: tabular-nums; }
+.cp-bar { height: 6px; background: var(--surface-2); border-radius: 9px; margin: 4px 0 3px; overflow: hidden; }
+.cp-bar i { display: block; height: 100%; background: var(--accent); border-radius: 9px; }
+.cp-today { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.cp-forecast { display: grid; grid-template-columns: repeat(7, 1fr); gap: 6px; align-items: end; }
+.cp-day { display: flex; flex-direction: column; align-items: center; gap: 3px; font-size: .72rem; color: var(--muted); }
+.cp-count { font-variant-numeric: tabular-nums; color: var(--text); font-weight: 700; }
+.cp-col { width: 100%; max-width: 26px; height: 64px; display: flex; align-items: flex-end; background: var(--surface-2); border-radius: 6px; overflow: hidden; }
+.cp-col i { display: block; width: 100%; background: var(--accent); border-radius: 6px 6px 0 0; min-height: 2px; }
+.cp-recall { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.cp-recall b { font-size: 1.6rem; font-weight: 800; }
+.cp-recall span { font-size: .85rem; }
+.cp-hard { list-style: none; padding: 0; margin: 0; display: grid; gap: 2px; }
+.cp-hard li { display: flex; justify-content: space-between; gap: 8px; border-bottom: 1px solid var(--line); padding: 4px 0; font-size: .92rem; }
+.cp-hard li:last-child { border-bottom: 0; }
+.cp-word { border: 0; background: none; padding: 0; text-align: left; color: var(--accent); font-weight: 700; overflow-wrap: anywhere; }
+.cp-word:hover { text-decoration: underline; }
+.cp-totals { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; text-align: center; }
+.cp-totals b { display: block; font-size: 1.15rem; font-weight: 800; }
+.cp-totals span { font-size: .72rem; text-transform: uppercase; letter-spacing: .04em; }
+@media (max-width: 820px) {
+  .cards-layout { grid-template-columns: minmax(0, 1fr); }
+  .cards-main { max-width: none; }
+}
 @media (max-width: 520px) {
   .cards-stats { grid-template-columns: repeat(2, 1fr); }
-  .flash-actions .btn { min-width: 0; flex: 1; }
+  .flash-actions .btn { min-width: 0; flex: 1 1 40%; }
 }
 /* ---------- Heute strip on the road ---------- */
 .road-top { position: sticky; top: 56px; z-index: 20; background: var(--bg); padding-bottom: 8px; }

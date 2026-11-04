@@ -59,6 +59,8 @@ export async function renderSettings(view) {
       field('Deck', '"My level" = every word up to your level (Alltag places + dictionary). Pick one place in Karten.',
         select(s.deck, [['level', 'My level'], ['mine', 'Places I have opened'], ...levels.map((l) => [l, `${l} only`]),
           ...(s.deck.startsWith('place:') ? [[s.deck, 'One place (picked in Karten)']] : [])], (v) => set({ deck: v }))),
+      field('Scheduling', 'How long until a card comes back. SM-2 multiplies the gap by each card’s ease; FSRS predicts when you would forget (aims for 90% recall). Your cards keep their history when you switch.',
+        select(s.algorithm, [['sm2', 'SM-2 (Anki classic)'], ['fsrs', 'FSRS (Anki’s newer default)']], (v) => set({ algorithm: v }))),
       field('Direction', 'English → Deutsch is better speaking practice.',
         select(s.reverse ? 'en' : 'de', [['de', 'Deutsch → English'], ['en', 'English → Deutsch']], (v) => set({ reverse: v === 'en' }))),
       field('Read German aloud', 'When a card shows the German word.',
