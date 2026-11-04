@@ -1,4 +1,4 @@
-// App shell: router (#/road, #/alltag, #/place, #/lesson, #/checkpoint, #/cards, #/quiz, #/settings), theme, settings menu, translator panel, checkpoint quizzes.
+// App shell: router (#/road, #/alltag, #/place, #/lesson, #/checkpoint, #/sheet, #/cards, #/quiz, #/settings), theme, settings menu, translator panel, checkpoint quizzes.
 import { h, getRoadmap, getJSON, lessonURL, shuffle, toast, getAlltag, getPlace, placeWords } from './util.js';
 import { renderRoad } from './road.js';
 import { renderLesson } from './lesson.js';
@@ -6,6 +6,7 @@ import { renderPlace } from './place.js';
 import { renderCards } from './cards.js';
 import { renderQuiz } from './quiz.js';
 import { renderSettings } from './settings.js';
+import { renderSheet } from './sheet.js';
 import { runQuiz } from './exercises.js';
 import * as progress from './progress.js';
 import * as anki from './anki.js';
@@ -40,6 +41,9 @@ async function route() {
     } else if (parts[0] === 'settings') {
       await renderSettings(view);
       window.scrollTo(0, 0);
+    } else if (parts[0] === 'sheet' && parts[1]) {
+      await renderSheet(view, parts[1].toUpperCase());
+      window.scrollTo(0, 0);
     } else if (parts[0] === 'checkpoint' && parts[1]) {
       await renderCheckpoint(view, parts[1].toUpperCase());
       window.scrollTo(0, 0);
@@ -65,7 +69,8 @@ async function renderCheckpoint(view, level) {
   const body = h('section');
   view.replaceChildren(h('article.lesson',
     h('header.lesson-head', h('a.back', { href: '#/road' }, '← Zurück zur Straße'), h('h1', `${level} Checkpoint`),
-      h('p', `${items.length} questions from all ${lessons.length} ${level} milestones. Pass with ${Math.round(progress.passMark() * 100)}%.`)),
+      h('p', `${items.length} questions from all ${lessons.length} ${level} milestones. Pass with ${Math.round(progress.passMark() * 100)}%. `,
+        h('a', { href: `#/sheet/${level}` }, `📄 Revise with the ${level} cheat sheet`))),
     body));
   runQuiz(body, items, {
     label: 'Frage',

@@ -512,3 +512,34 @@ textarea.answer { width: 100%; min-height: 80px; border: 1.5px solid var(--line)
 .examples.phrases li > div { flex: 1; }
 .place-words .words-tools { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
 .hide-en .examples .en { filter: blur(5px); }
+
+/* Level cheat sheets (#/sheet/<LEVEL>) */
+.zone-label .sign .sheet-link { pointer-events: auto; font-size: .8rem; font-weight: 700; text-decoration: none; margin-top: 2px; }
+.sheet-page { max-width: 1100px; }
+.sheet-levels, .sheet-jump { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-top: 10px; }
+.sheet-levels .btn { margin-left: auto; }
+.sheet-jump { margin: 0 0 14px; }
+.sheet-jump .chip, .sheet-levels .chip { text-decoration: none; cursor: pointer; }
+.sheet-rules ol { margin: 0; padding-left: 1.3em; display: grid; gap: 6px; }
+.sheet-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(420px, 1fr)); gap: 14px; align-items: start; }
+.sheet-block { margin: 0; scroll-margin-top: 80px; }
+.sheet-block h2 { margin: 0; font-size: 1.1rem; }
+.sheet-concept { margin: 2px 0 8px; font-size: .88rem; }
+.sheet-block .table-wrap { margin: 6px 0; }
+.sheet-block table.grid { font-size: .86rem; }
+.sheet-tip { margin: 8px 0 4px; font-size: .9rem; }
+.sheet-ex { margin: 4px 0; font-size: .9rem; }
+.sheet-ex .de { font-weight: 700; }
+.sheet-more { font-size: .85rem; font-weight: 700; text-decoration: none; }
+@media (max-width: 520px) { .sheet-grid { grid-template-columns: 1fr; } }
+@media print {
+  .topbar, .side, .side-rail, .dock, .sheet-levels, .sheet-jump, .sheet-more, .sheet-page .back, .sheet-page .speak-row { display: none !important; }
+  body, .layout, #view { background: #fff !important; color: #000 !important; padding: 0 !important; margin: 0 !important; display: block !important; }
+  .sheet-page { max-width: none; }
+  .sheet-grid { display: block; columns: 2; column-gap: 14px; }
+  .sheet-block, .sheet-rules { break-inside: avoid; box-shadow: none !important; border: 1px solid #bbb !important; background: #fff !important; color: #000 !important; margin: 0 0 10px !important; }
+  .sheet-page * { color: #000 !important; background: transparent !important; }
+  .sheet-block table.grid { font-size: 9pt; }
+  .sheet-page .muted, .sheet-page th { color: #444 !important; }
+  .sheet-page td, .sheet-page th { border-color: #ccc !important; }
+}

@@ -183,7 +183,8 @@ function node(x, p, cx) {
   const style = `left:${p.x}px;top:${p.y}px`;
   if (x.kind === 'zone') {
     return h('div.zone-label', { style: `top:${p.y - 34}px`, 'data-key': `zone-${x.level.id}` },
-      h('div.sign', h('b', x.level.sign ?? `${x.level.id} · ${x.level.name}`), h('small', x.level.goal)));
+      h('div.sign', h('b', x.level.sign ?? `${x.level.id} · ${x.level.name}`), h('small', x.level.goal),
+        x.level.milestones?.[0]?.id?.startsWith(x.level.id.toLowerCase()) ? h('a.sheet-link', { href: `#/sheet/${x.level.id}` }, '📄 Cheat sheet') : null));
   }
   const side = p.x > cx + 4 ? 'left' : 'right'; // label points toward the middle
   const skipped = x.kind === 'ms' && x.mode !== 'alltag' && progress.isSkipped(x.m.id);
@@ -345,7 +346,8 @@ async function sheet(x) {
     append(card, h('span.chip.accent', `${x.level.id} Checkpoint`), h('h2', `${x.level.id} geschafft?`),
       h('p', `A mixed quiz with questions from every ${x.level.id} milestone. Score ${Math.round(progress.passMark() * 100)}% to pass the gate.`),
       c ? h('p.muted', `Best so far: ${Math.round(c.best * 100)}%${c.passed ? ' · passed ✓' : ''}`) : null,
-      h('div.row', close, h('a.btn.primary', { href: `#/checkpoint/${x.level.id}`, onclick: closeSheet }, c?.passed ? 'Retake' : 'Start checkpoint')));
+      h('div.row', close, h('a.btn', { href: `#/sheet/${x.level.id}`, onclick: closeSheet }, '📄 Cheat sheet'),
+        h('a.btn.primary', { href: `#/checkpoint/${x.level.id}`, onclick: closeSheet }, c?.passed ? 'Retake' : 'Start checkpoint')));
   } else {
     const st = progress.lessonState(x.m.id);
     const go = h('a.btn.primary', { href: lessonHref(x), onclick: closeSheet },
