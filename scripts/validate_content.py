@@ -191,6 +191,32 @@ def check_alltag(strict: bool, only: set[str]) -> None:
             err(path.relative_to(ROOT).as_posix(), "place not in alltag.json")
 
 
+POSSESSIVES = set("mein meine meinen meinem meiner meines dein deine deinen deinem deiner deines "
+                  "sein seine seinen seinem seiner seines ihr ihre ihren ihrem ihrer ihres "
+                  "unser unsere unseren unserem unserer euer eure euren eurem eurer".split())
+
+
+def plain(s: str) -> str:
+    return " ".join(re.sub(r"[^a-zäöüß ]", "", str(s).lower()).split())
+
+
+def check_not_copied(ex: dict, examples: set[str], where: str) -> None:
+    """A quiz must not repeat a Learn example word for word (that is cramming), and a possessive gap must say whose."""
+    t, ans = ex.get("type"), ex.get("answer")
+    if t == "translate":
+        sentences = ans or []
+    elif t == "order":
+        sentences = [ans] if isinstance(ans, str) else ans or []
+    elif t == "gap" and ans:
+        sentences = [ex.get("q", "").replace("___", ans[0])]
+        if ans[0].lower() in POSSESSIVES and not re.search(r"\([^)]+\)", ex.get("q", "")):
+            err(where, f"possessive gap {ans[0]!r} needs a hint such as (my) or (her)")
+    else:
+        return
+    if any(plain(s) in examples for s in sentences):
+        err(where, "copies a Learn example; write a new sentence")
+
+
 def check_lesson(path: Path, milestone: dict, level: str) -> None:
     where = path.relative_to(ROOT).as_posix()
     try:
@@ -220,8 +246,10 @@ def check_lesson(path: Path, milestone: dict, level: str) -> None:
     exs = lesson.get("exercises", [])
     if not 8 <= len(exs) <= 16:
         warnings.append(f"{where}: {len(exs)} exercises (aim for 10–14)")
+    examples = {plain(e.get("de", "")) for sec in lesson.get("learn", []) for e in sec.get("examples", [])}
     for i, ex in enumerate(exs):
         check_exercise(ex, f"{where} exercises[{i}]")
+        check_not_copied(ex, examples, f"{where} exercises[{i}]")
     speak_de = check_speak(lesson.get("speak", {}), where)
     umlaut_warnings(where, speak_de)
 

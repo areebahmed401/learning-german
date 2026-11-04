@@ -271,28 +271,28 @@
     {
       "type": "order",
       "words": [
-        "abgeschaltet",
+        "repariert",
+        "gestern",
         "werden",
-        "sofort",
+        "Das",
         "musste",
-        "Maschine",
-        "Die"
+        "Gerät"
       ],
-      "answer": "Die Maschine musste sofort abgeschaltet werden",
-      "explain": "The modal musste is in position 2; abgeschaltet werden stands at the end."
+      "answer": "Das Gerät musste gestern repariert werden",
+      "explain": "The modal musste is in position 2; repariert werden stands at the end."
     },
     {
       "type": "order",
       "words": [
-        "gebaut",
-        "worden",
-        "2020",
+        "saniert",
         "ist",
-        "Anlage",
+        "Brücke",
+        "2018",
+        "worden",
         "Die"
       ],
-      "answer": "Die Anlage ist 2020 gebaut worden",
-      "explain": "Perfekt Passiv: ist in position 2, gebaut worden at the end."
+      "answer": "Die Brücke ist 2018 saniert worden",
+      "explain": "Perfekt Passiv: ist in position 2, saniert worden at the end."
     },
     {
       "type": "match",

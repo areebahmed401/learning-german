@@ -107,9 +107,9 @@
     { "type": "article", "word": "Rechnung", "answer": "die", "explain": "Nouns ending in -ung are always feminine." },
     { "type": "article", "word": "Besteck", "answer": "das", "explain": "das Besteck (no plural). Collective nouns for sets of things are often neuter; learn it as a unit." },
     { "type": "order", "words": ["Ich", "hätte", "gern", "eine Suppe", "und", "ein Wasser"], "answer": "Ich hätte gern eine Suppe und ein Wasser", "explain": "Statement: subject, verb in position 2 (hätte), then gern and the objects." },
-    { "type": "order", "words": ["Könnten", "Sie", "uns", "bitte", "die Speisekarte", "bringen"], "answer": "Könnten Sie uns bitte die Speisekarte bringen", "explain": "In a polite request the infinitive (bringen) goes to the end." },
+    { "type": "order", "words": ["bitte", "mir", "erklären", "den Weg", "Sie", "Könnten"], "answer": "Könnten Sie mir bitte den Weg erklären", "explain": "In a polite request the infinitive (erklären) goes to the end." },
     { "type": "match", "pairs": [["Ich hätte gern …", "I would like …"], ["Könnten Sie …?", "Could you …?"], ["Würden Sie bitte …?", "Would you please …?"], ["Zahlen, bitte!", "The bill, please!"], ["Stimmt so.", "Keep the change."]], "explain": "These are fixed phrases for any restaurant." },
-    { "type": "translate", "en": "Could I have the bill, please?", "answer": ["Könnte ich bitte die Rechnung haben", "Könnte ich bitte die Rechnung bekommen", "Könnten wir bitte zahlen", "Ich hätte gern die Rechnung"], "explain": "Könnte + ich … + infinitive at the end. Alternatively: Ich hätte gern die Rechnung." },
+    { "type": "translate", "en": "Could I have a glass of water, please?", "answer": ["Könnte ich bitte ein Glas Wasser haben", "Könnte ich bitte ein Glas Wasser bekommen", "Könnte ich ein Glas Wasser haben", "Ich hätte gern ein Glas Wasser", "Ich hätte gerne ein Glas Wasser"], "explain": "Könnte + ich … + infinitive at the end. Alternatively: Ich hätte gern ein Glas Wasser." },
     { "type": "translate", "en": "I would like a table for four.", "answer": ["Ich hätte gern einen Tisch für vier Personen", "Ich hätte gern einen Tisch für vier", "Ich möchte einen Tisch für vier Personen", "Ich möchte einen Tisch für vier"], "explain": "Ich hätte gern + Akkusativ (einen Tisch)." }
   ],
   "speak": {

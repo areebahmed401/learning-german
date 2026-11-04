@@ -115,7 +115,7 @@
     { "type": "mc", "q": "Da muss ich Ihnen leider ___.", "options": ["widersprechen", "widerspreche Sie", "widersprochen"], "answer": 0, "explain": "widersprechen takes the Dativ (Ihnen); after the modal verb muss the infinitive stays at the end." },
     { "type": "gap", "q": "Wie Sie auf dieser Folie ___, ist der Umsatz gestiegen.", "answer": ["sehen"], "explain": "Wie Sie sehen: plural/polite Sie uses the infinitive form sehen." },
     { "type": "gap", "q": "Ich möchte kurz auf Ihre Frage ___. (eingehen)", "answer": ["eingehen"], "explain": "eingehen auf + Akkusativ; after a modal verb the infinitive goes to the end." },
-    { "type": "gap", "q": "___ Ansicht nach ist das Budget zu knapp.", "answer": ["Meiner"], "explain": "meiner Ansicht nach: nach follows the Dativ noun (die Ansicht → der Ansicht, feminine Dativ: meiner)." },
+    { "type": "gap", "q": "___ Ansicht nach ist das Budget zu knapp. (my)", "answer": ["Meiner"], "explain": "meiner Ansicht nach: nach follows the Dativ noun (die Ansicht → der Ansicht, feminine Dativ: meiner)." },
     { "type": "gap", "q": "Dem Vorschlag haben alle Kollegen ___. (zustimmen)", "answer": ["zugestimmt"], "explain": "zustimmen is separable and takes the Dativ: haben zugestimmt." },
     { "type": "article", "word": "Folie", "answer": "die", "explain": "die Folie, plural die Folien." },
     { "type": "article", "word": "Einwand", "answer": "der", "explain": "der Einwand, plural die Einwände with an umlaut." },

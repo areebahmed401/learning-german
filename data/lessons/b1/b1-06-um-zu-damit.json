@@ -79,17 +79,17 @@
     { "type": "mc", "q": "Ich lerne jeden Tag Vokabeln, ___ besser Deutsch zu sprechen.", "options": ["um", "damit", "dass"], "answer": 0, "explain": "Same subject (I learn / I speak) and a zu-infinitive at the end → um … zu." },
     { "type": "mc", "q": "Der Lehrer erklärt es noch einmal, ___ wir es verstehen.", "options": ["um", "damit", "zu"], "answer": 1, "explain": "The subject changes (der Lehrer / wir), so damit with a conjugated verb at the end." },
     { "type": "mc", "q": "Which sentence is correct?", "options": ["Ich übe jeden Tag, um die Prüfung zu bestehen.", "Ich übe jeden Tag, damit die Prüfung zu bestehen.", "Ich übe jeden Tag, um ich die Prüfung bestehe."], "answer": 0, "explain": "um goes with zu + Infinitiv and no subject. damit would need a conjugated verb and its own subject." },
-    { "type": "gap", "q": "Ich gehe in die Bibliothek, ___ für die Prüfung zu lernen.", "answer": ["um"], "explain": "Same subject, purpose → um … zu." },
-    { "type": "gap", "q": "Ich schreibe die Wörter auf, ___ ich sie nicht vergesse.", "answer": ["damit"], "explain": "A conjugated verb (vergesse) with its own subject ich → damit." },
-    { "type": "gap", "q": "Sie arbeitet nebenbei, ___ ihr Studium zu finanzieren.", "answer": ["um"], "explain": "A zu-infinitive (zu finanzieren) follows, so um is needed." },
+    { "type": "gap", "q": "Ich fahre nach Köln, ___ meine Tante zu besuchen.", "answer": ["um"], "explain": "Same subject, purpose → um … zu." },
+    { "type": "gap", "q": "Ich stelle den Wecker, ___ ich nicht verschlafe.", "answer": ["damit"], "explain": "A conjugated verb (verschlafe) with its own subject ich → damit." },
+    { "type": "gap", "q": "Er spart jeden Monat Geld, ___ ein Auto zu kaufen.", "answer": ["um"], "explain": "A zu-infinitive (zu kaufen) follows, so um is needed." },
     { "type": "article", "word": "Seminar", "answer": "das", "explain": "Nouns ending in -ar are often neuter: das Seminar." },
     { "type": "article", "word": "Note", "answer": "die", "explain": "Most nouns ending in -e are feminine: die Note." },
     { "type": "order", "words": ["Ich", "benutze", "eine", "App,", "um", "Vokabeln", "zu", "wiederholen"], "answer": "Ich benutze eine App, um Vokabeln zu wiederholen", "explain": "In the um-clause, zu + infinitive stands at the end." },
-    { "type": "order", "words": ["Der", "Dozent", "spricht", "langsam,", "damit", "alle", "ihn", "verstehen"], "answer": "Der Dozent spricht langsam, damit alle ihn verstehen", "explain": "damit sends the conjugated verb to the end of its clause." },
+    { "type": "order", "words": ["mich", "spreche", "hören", "alle", "damit", "Ich", "laut,"], "answer": "Ich spreche laut, damit alle mich hören", "explain": "damit sends the conjugated verb to the end of its clause." },
     { "type": "match", "pairs": [["die Vorlesung", "lecture"], ["die Prüfung", "exam"], ["das Stipendium", "scholarship"], ["die Hausarbeit", "term paper"], ["der Stundenplan", "timetable"]], "explain": "Vocabulary for studying at a German university." },
     { "type": "translate", "en": "I'm learning German in order to work in Germany.", "answer": ["Ich lerne Deutsch, um in Deutschland zu arbeiten"], "explain": "Same subject → um … zu with zu arbeiten at the end." },
     { "type": "translate", "en": "She explains it slowly so that I understand it.", "answer": ["Sie erklärt es langsam, damit ich es verstehe", "Sie erklärt es mir langsam, damit ich es verstehe", "Sie erklärt es langsam, damit ich es verstehen kann"], "explain": "Different subjects (she / I) → damit, conjugated verb at the end." },
-    { "type": "translate", "en": "He left without saying goodbye.", "answer": ["Er ging, ohne sich zu verabschieden", "Er ging weg, ohne sich zu verabschieden", "Er ist gegangen, ohne sich zu verabschieden"], "explain": "ohne … zu + infinitive; the reflexive pronoun sich stays before zu." }
+    { "type": "translate", "en": "He left without paying.", "answer": ["Er ging, ohne zu bezahlen", "Er ging weg, ohne zu bezahlen", "Er ist gegangen, ohne zu bezahlen", "Er ging, ohne zu zahlen"], "explain": "ohne … zu + infinitive; no subject is repeated because it is the same person." }
   ],
   "speak": {
     "shadow": [

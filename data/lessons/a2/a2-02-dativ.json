@@ -86,7 +86,7 @@
   "exercises": [
     { "type": "article", "word": "Geschenk", "answer": "das", "explain": "Nouns with the prefix Ge- are often neuter: das Geschenk." },
     { "type": "article", "word": "Einladung", "answer": "die", "explain": "Nouns ending in -ung are always feminine." },
-    { "type": "gap", "q": "Ich schenke ___ Mutter Blumen.", "answer": ["meiner"], "explain": "Mutter is feminine, dative: meiner Mutter. The question is: wem schenke ich Blumen?" },
+    { "type": "gap", "q": "Ich gebe ___ Bruder das Buch. (my)", "answer": ["meinem"], "explain": "Bruder is masculine, dative: meinem Bruder. The question is: wem gebe ich das Buch?" },
     { "type": "gap", "q": "Ich helfe ___ Kindern bei den Hausaufgaben.", "answer": ["den", "meinen"], "explain": "helfen takes the dative. Plural dative: den Kindern, with -n on the noun." },
     { "type": "gap", "q": "Das Kleid gefällt ___ sehr. (to me)", "answer": ["mir"], "explain": "gefallen takes the dative, so the pronoun is mir, not mich." },
     { "type": "mc", "q": "Ich gratuliere ___ Freundin zum Geburtstag.", "options": ["der", "die", "den"], "answer": 0, "explain": "gratulieren is a dative verb; Freundin is feminine, so dative is der Freundin (zum Geburtstag also dative)." },
@@ -95,7 +95,7 @@
     { "type": "order", "words": ["Ich", "schenke", "meiner Schwester", "ein Buch"], "answer": "Ich schenke meiner Schwester ein Buch", "explain": "Two objects: the person (dative) comes before the thing (accusative)." },
     { "type": "order", "words": ["Das Essen", "schmeckt", "mir", "sehr gut"], "answer": "Das Essen schmeckt mir sehr gut", "explain": "schmecken takes the dative: the food tastes good to me (mir)." },
     { "type": "match", "pairs": [["der Freund", "dem Freund"], ["die Kollegin", "der Kollegin"], ["das Kind", "dem Kind"], ["die Gäste", "den Gästen"]], "explain": "Masculine and neuter: dem. Feminine: der. Plural: den + n on the noun." },
-    { "type": "translate", "en": "Can you help me?", "answer": ["Kannst du mir helfen", "Kannst du mir bitte helfen", "Könntest du mir helfen"], "explain": "helfen + dative: mir. The infinitive goes to the end." },
+    { "type": "translate", "en": "Can you give me the key, please?", "answer": ["Kannst du mir bitte den Schlüssel geben", "Kannst du mir den Schlüssel geben", "Gibst du mir bitte den Schlüssel", "Gibst du mir den Schlüssel", "Könntest du mir bitte den Schlüssel geben", "Könntest du mir den Schlüssel geben", "Können Sie mir bitte den Schlüssel geben", "Können Sie mir den Schlüssel geben", "Könnten Sie mir bitte den Schlüssel geben", "Könnten Sie mir den Schlüssel geben", "Könnt ihr mir bitte den Schlüssel geben", "Könnt ihr mir den Schlüssel geben", "Könntet ihr mir bitte den Schlüssel geben"], "explain": "geben takes the dative of the person (mir) and the accusative of the thing (den Schlüssel). The infinitive goes to the end. Sie and ihr forms work too." },
     { "type": "translate", "en": "I am giving my friend a present.", "answer": ["Ich schenke meinem Freund ein Geschenk", "Ich schenke meiner Freundin ein Geschenk", "Ich gebe meinem Freund ein Geschenk", "Ich gebe meiner Freundin ein Geschenk"], "explain": "The person is in the dative (meinem Freund / meiner Freundin), the present is in the accusative." }
   ],
   "speak": {

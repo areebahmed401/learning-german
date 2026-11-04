@@ -102,7 +102,7 @@
     { "type": "mc", "q": "Als Kind ___ ich in Lahore.", "options": ["war", "bin", "hatte"], "answer": 0, "explain": "Stories about the past use war, not the present bin. Ich war in Lahore." },
     { "type": "mc", "q": "Wir ___ keine Hausaufgaben.", "options": ["hatten", "waren", "hatte"], "answer": 0, "explain": "wir + haben in the Präteritum: wir hatten. Only the ich/er form is hatte." },
     { "type": "mc", "q": "What is the Präteritum of 'müssen' (ich)?", "options": ["musste", "mußte", "müsste"], "answer": 0, "explain": "Modals lose the umlaut: musste. müsste is the Konjunktiv II (polite/hypothetical)." },
-    { "type": "gap", "q": "Wir ___ in der Grundschule viel Spaß.", "answer": ["hatten"], "explain": "viel Spaß haben in the past: wir hatten." },
+    { "type": "gap", "q": "Letztes Jahr ___ ich ein kleines Auto.", "answer": ["hatte"], "explain": "haben in the past: ich hatte." },
     { "type": "gap", "q": "Ihr ___ gestern nicht im Unterricht.", "answer": ["wart"], "explain": "ihr + sein in the Präteritum: ihr wart." },
     { "type": "gap", "q": "Mit sechs Jahren ___ ich schon schwimmen. (können)", "answer": ["konnte"], "explain": "können → konnte, no umlaut, ending -te." },
     { "type": "article", "word": "Schule", "answer": "die", "explain": "Most nouns ending in -e are feminine: die Schule." },

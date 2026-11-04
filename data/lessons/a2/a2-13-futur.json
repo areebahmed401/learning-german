@@ -86,17 +86,17 @@
     { "type": "mc", "q": "Nächstes Jahr ___ ich den Deutschtest bestehen.", "options": ["werde", "wurde", "bin"], "answer": 0, "explain": "Futur I: werden in the present + infinitive at the end. wurde is Präteritum." },
     { "type": "mc", "q": "Er ___ bald umziehen.", "options": ["wird", "werden", "wirst"], "answer": 0, "explain": "er/sie/es → wird." },
     { "type": "mc", "q": "Where does the infinitive go in the Futur I?", "options": ["Position 2", "The end of the sentence", "Before werden"], "answer": 1, "explain": "werden takes position 2 and the infinitive goes to the end: Ich werde nächstes Jahr umziehen." },
-    { "type": "gap", "q": "Wir ___ im Sommer nach Pakistan fliegen.", "answer": ["werden"], "explain": "wir → werden." },
-    { "type": "gap", "q": "Du ___ die Prüfung bestimmt schaffen.", "answer": ["wirst"], "explain": "du → wirst (irregular, with the vowel change e → i)." },
+    { "type": "gap", "q": "Ich ___ morgen früh aufstehen.", "answer": ["werde"], "explain": "ich → werde." },
+    { "type": "gap", "q": "Er ___ den Test bestimmt bestehen.", "answer": ["wird"], "explain": "er → wird (irregular: no -t ending, e → i)." },
     { "type": "gap", "q": "Ihr ___ nächste Woche umziehen.", "answer": ["werdet"], "explain": "ihr → werdet." },
     { "type": "gap", "q": "Ich werde nächstes Jahr mehr Geld ___. (sparen)", "answer": ["sparen"], "explain": "After werden the verb stays in the infinitive, at the end of the sentence." },
     { "type": "article", "word": "Plan", "answer": "der", "explain": "der Plan, plural die Pläne." },
     { "type": "article", "word": "Prüfung", "answer": "die", "explain": "Nouns ending in -ung are always feminine." },
-    { "type": "order", "words": ["Nächstes Jahr", "werde", "ich", "meine Prüfung", "machen"], "answer": "Nächstes Jahr werde ich meine Prüfung machen", "explain": "Time word first, then werden in position 2, subject, and the infinitive at the end." },
+    { "type": "order", "words": ["ich", "einen Kurs", "besuchen", "werde", "Im Herbst"], "answer": "Im Herbst werde ich einen Kurs besuchen", "explain": "Time phrase first, then werden in position 2, subject, and the infinitive at the end." },
     { "type": "order", "words": ["Wir", "werden", "im Sommer", "ein Haus", "kaufen"], "answer": "Wir werden im Sommer ein Haus kaufen", "explain": "werden is in position 2, the infinitive kaufen is at the very end." },
     { "type": "match", "pairs": [["ich werde", "I will"], ["du wirst", "you will"], ["er wird", "he will"], ["wir werden", "we will"], ["ihr werdet", "you (pl.) will"]], "explain": "Only du and er/sie/es change the stem vowel (wirst, wird)." },
     { "type": "translate", "en": "I will start a new job next month.", "answer": ["Ich werde nächsten Monat einen neuen Job anfangen", "Ich werde nächsten Monat eine neue Stelle anfangen", "Ich werde nächsten Monat eine neue Arbeit anfangen", "Nächsten Monat werde ich einen neuen Job anfangen", "Nächsten Monat werde ich eine neue Stelle anfangen"], "explain": "werden in position 2, infinitive anfangen at the end (the separable verb is not split)." },
-    { "type": "translate", "en": "It will probably rain tomorrow.", "answer": ["Morgen wird es wohl regnen", "Es wird morgen wohl regnen", "Morgen wird es wahrscheinlich regnen", "Es wird morgen wahrscheinlich regnen"], "explain": "Futur I with wohl / wahrscheinlich expresses an assumption." }
+    { "type": "translate", "en": "He will probably be late.", "answer": ["Er wird wohl zu spät kommen", "Er wird wahrscheinlich zu spät kommen"], "explain": "Futur I with wohl / wahrscheinlich expresses an assumption." }
   ],
   "speak": {
     "shadow": [

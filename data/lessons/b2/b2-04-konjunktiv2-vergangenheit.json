@@ -227,19 +227,19 @@
     },
     {
       "type": "gap",
-      "q": "Wenn wir früher losgefahren ___, hätten wir den Zug erreicht.",
+      "q": "Wenn ich früher aufgestanden ___, hätte ich den Bus erwischt.",
       "answer": [
-        "wären"
+        "wäre"
       ],
-      "explain": "Losfahren takes sein: losgefahren wären."
+      "explain": "Aufstehen takes sein: aufgestanden wäre."
     },
     {
       "type": "gap",
-      "q": "Du ___ mich anrufen können.",
+      "q": "Ihr ___ früher kommen können.",
       "answer": [
-        "hättest"
+        "hättet"
       ],
-      "explain": "Criticism or missed possibility: du hättest … können (hätte, du-form hättest)."
+      "explain": "Criticism or missed possibility: ihr hättet … können (hätte, ihr-form hättet)."
     },
     {
       "type": "gap",
@@ -264,31 +264,31 @@
     {
       "type": "order",
       "words": [
-        "unterschreiben",
-        "sollen",
+        "Termin",
         "nicht",
-        "Vertrag",
+        "Wir",
+        "hätten",
+        "verschieben",
         "den",
-        "hätte",
-        "Ich"
+        "sollen"
       ],
-      "answer": "Ich hätte den Vertrag nicht unterschreiben sollen",
-      "explain": "Main clause with a modal: hätte in position 2, the double infinitive unterschreiben sollen at the end."
+      "answer": "Wir hätten den Termin nicht verschieben sollen",
+      "explain": "Main clause with a modal: hätten in position 2, the double infinitive verschieben sollen at the end."
     },
     {
       "type": "order",
       "words": [
-        "machen",
-        "sollen",
+        "sagt,",
+        "früher",
+        "kommen",
+        "müssen",
         "hätte",
-        "das",
-        "ich",
         "dass",
-        "weiß,",
-        "Ich"
+        "Sie",
+        "sie"
       ],
-      "answer": "Ich weiß, dass ich das hätte machen sollen",
-      "explain": "Subordinate clause: dass … hätte machen sollen, with hätte before the two infinitives."
+      "answer": "Sie sagt, dass sie früher hätte kommen müssen",
+      "explain": "Subordinate clause: dass … hätte kommen müssen, with hätte before the two infinitives."
     },
     {
       "type": "match",

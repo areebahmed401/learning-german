@@ -97,11 +97,11 @@
     ]
   },
   "exercises": [
-    { "type": "gap", "q": "Ich habe ___ Bargeld.", "answer": ["kein"], "explain": "Bargeld is neuter and has no article → kein." },
+    { "type": "gap", "q": "Ich habe ___ Fahrrad.", "answer": ["kein"], "explain": "Fahrrad is neuter and has no article, so you negate it with kein: kein Fahrrad." },
     { "type": "gap", "q": "Wir haben ___ Zeit.", "answer": ["keine"], "explain": "Zeit is feminine → keine Zeit." },
     { "type": "gap", "q": "Nein, danke. Ich brauche ___ Tüte.", "answer": ["keine"], "explain": "Tüte is feminine, and the noun has no definite article → keine." },
     { "type": "gap", "q": "Er hat ___ Einkaufswagen.", "answer": ["keinen"], "explain": "Einkaufswagen is masculine and the object (accusative) → keinen." },
-    { "type": "gap", "q": "Das Obst ist ___ frisch.", "answer": ["nicht"], "explain": "You negate an adjective with nicht, placed before it." },
+    { "type": "gap", "q": "Die Suppe ist ___ heiß.", "answer": ["nicht"], "explain": "You negate an adjective with nicht, placed before it." },
     { "type": "gap", "q": "Ich kaufe das Brot ___.", "answer": ["nicht"], "explain": "The noun has the definite article das → nicht, at the end." },
     { "type": "mc", "q": "Which sentence is correct?", "options": ["Ich habe nicht Geld.", "Ich habe kein Geld.", "Ich habe keine Geld."], "answer": 1, "explain": "Geld has no article and is neuter → kein Geld." },
     { "type": "mc", "q": "\"Du kaufst kein Brot?\" – You want to say \"Yes, I do.\" What do you answer?", "options": ["Ja, ich kaufe Brot.", "Doch, ich kaufe Brot.", "Nein, ich kaufe Brot."], "answer": 1, "explain": "To contradict a negative question, use doch." },

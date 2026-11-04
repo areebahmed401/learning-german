@@ -111,8 +111,8 @@
   "exercises": [
     { "type": "gap", "q": "Der Kurs beginnt ___ neun Uhr.", "answer": ["um"], "explain": "Clock times take um." },
     { "type": "gap", "q": "Wir treffen uns ___ Montag.", "answer": ["am"], "explain": "Days of the week take am." },
-    { "type": "gap", "q": "Ich habe ___ Mai Urlaub.", "answer": ["im"], "explain": "Months and seasons take im." },
-    { "type": "gap", "q": "Die Praxis ist ___ acht bis zwölf Uhr geöffnet.", "answer": ["von"], "explain": "A period of time is von … bis." },
+    { "type": "gap", "q": "Mein Bruder hat ___ Oktober Geburtstag.", "answer": ["im"], "explain": "Months take im: im Oktober." },
+    { "type": "gap", "q": "Der Supermarkt ist ___ acht bis zwanzig Uhr geöffnet.", "answer": ["von"], "explain": "A period of time is von … bis." },
     { "type": "mc", "q": "Wie spät ist es? 14:30 Uhr in everyday language:", "options": ["halb drei", "halb vier", "Viertel nach zwei"], "answer": 0, "explain": "halb counts toward the next hour: 2:30 = halb drei." },
     { "type": "mc", "q": "6:45 in everyday language:", "options": ["Viertel nach sechs", "Viertel vor sieben", "halb sieben"], "answer": 1, "explain": "Viertel vor sieben = quarter to seven." },
     { "type": "mc", "q": "Which sentence is correct?", "options": ["Ich habe am Mai Urlaub.", "Ich habe im Mai Urlaub.", "Ich habe um Mai Urlaub."], "answer": 1, "explain": "Months take im." },

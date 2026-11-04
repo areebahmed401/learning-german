@@ -91,7 +91,7 @@
     ]
   },
   "exercises": [
-    { "type": "order", "words": ["Ich", "komme", "zu spät,", "weil", "der Bus", "Verspätung", "hat"], "answer": "Ich komme zu spät, weil der Bus Verspätung hat", "explain": "After weil, the conjugated verb (hat) goes to the end of the clause." },
+    { "type": "order", "words": ["ist", "Ich", "lerne", "viel,", "weil", "schwer", "die Prüfung"], "answer": "Ich lerne viel, weil die Prüfung schwer ist", "explain": "After weil, the conjugated verb (ist) goes to the end of the clause." },
     { "type": "order", "words": ["Er", "sagt,", "dass", "er", "heute", "länger arbeiten", "muss"], "answer": "Er sagt, dass er heute länger arbeiten muss", "explain": "With a modal verb in a dass-clause the modal (muss) comes last, after the infinitive." },
     { "type": "order", "words": ["Wenn ich", "Feierabend", "habe,", "gehe", "ich", "nach Hause"], "answer": "Wenn ich Feierabend habe, gehe ich nach Hause", "explain": "The wenn-clause is position 1; the verb of the main clause (gehe) follows directly, then the subject." },
     { "type": "order", "words": ["Ich", "weiß", "nicht,", "ob", "der Chef", "heute", "im Büro", "ist"], "answer": "Ich weiß nicht, ob der Chef heute im Büro ist", "explain": "ob introduces an indirect yes/no question; the verb ist is last." },

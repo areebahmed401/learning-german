@@ -263,7 +263,7 @@
     },
     {
       "type": "gap",
-      "q": "Es bleibt ___, ob die Förderung verlängert wird.",
+      "q": "Es bleibt ___, wie die Kunden reagieren.",
       "answer": [
         "abzuwarten"
       ],
@@ -284,29 +284,28 @@
     {
       "type": "order",
       "words": [
-        "schnell",
-        "beheben",
-        "nicht",
-        "sich",
+        "Tür",
         "ließ",
-        "Fehler",
-        "Der"
+        "sich",
+        "nicht",
+        "Die",
+        "öffnen"
       ],
-      "answer": "Der Fehler ließ sich nicht schnell beheben",
-      "explain": "Ließ sich stands in position 2 (with sich), the infinitive beheben goes to the end."
+      "answer": "Die Tür ließ sich nicht öffnen",
+      "explain": "Ließ sich stands in position 2 (with sich), the infinitive öffnen goes to the end."
     },
     {
       "type": "order",
       "words": [
-        "leicht",
-        "vergleichen",
+        "gut",
+        "recyceln",
+        "Material",
         "sich",
-        "lassen",
-        "Daten",
-        "Diese"
+        "lässt",
+        "Dieses"
       ],
-      "answer": "Diese Daten lassen sich leicht vergleichen",
-      "explain": "Plural subject: lassen sich; the infinitive vergleichen is last."
+      "answer": "Dieses Material lässt sich gut recyceln",
+      "explain": "Singular subject: lässt sich; the infinitive recyceln is last."
     },
     {
       "type": "match",
@@ -347,13 +346,14 @@
     },
     {
       "type": "translate",
-      "en": "Much remains to be done.",
+      "en": "Many questions still remain to be clarified.",
       "answer": [
-        "Viel bleibt noch zu tun",
-        "Es bleibt noch viel zu tun",
-        "Es bleibt viel zu tun"
+        "Viele Fragen bleiben noch zu klären",
+        "Es bleiben noch viele Fragen zu klären",
+        "Es bleiben viele Fragen zu klären",
+        "Viele Fragen bleiben zu klären"
       ],
-      "explain": "Bleiben + zu + Infinitiv expresses what is still to be done."
+      "explain": "Bleiben + zu + Infinitiv expresses what is still to be done; the verb agrees with the plural Fragen: bleiben."
     }
   ],
   "speak": {

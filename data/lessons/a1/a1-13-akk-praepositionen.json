@@ -123,7 +123,7 @@
     { "type": "article", "word": "Haltestelle", "answer": "die", "explain": "Most nouns in -e are feminine: die Haltestelle." },
     { "type": "match", "pairs": [["geradeaus", "straight ahead"], ["links", "left"], ["rechts", "right"], ["die Ampel", "traffic light"], ["die Kreuzung", "junction"]], "explain": "These words appear in every direction you get." },
     { "type": "order", "words": ["durch", "Wir", "den Park", "gehen"], "answer": "Wir gehen durch den Park", "explain": "Subject, verb in position 2, then durch + accusative." },
-    { "type": "order", "words": ["Brötchen", "für", "Ich", "kaufe", "meinen Mitbewohner"], "answer": "Ich kaufe Brötchen für meinen Mitbewohner", "explain": "für + accusative: masculine Mitbewohner → meinen." },
+    { "type": "order", "words": ["ein Geschenk", "für", "Wir", "kaufen", "unseren Lehrer"], "answer": "Wir kaufen ein Geschenk für unseren Lehrer", "explain": "für + accusative: masculine Lehrer → unseren." },
     { "type": "translate", "en": "The pharmacy is around the corner.", "answer": ["Die Apotheke ist um die Ecke"], "explain": "um + accusative: die Ecke (feminine, no change)." }
   ],
   "speak": {

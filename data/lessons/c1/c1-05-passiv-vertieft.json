@@ -88,10 +88,10 @@
     { "type": "article", "word": "Befund", "answer": "der", "explain": "Befund is masculine: der Befund, plural die Befunde." },
     { "type": "article", "word": "Krankenhaus", "answer": "das", "explain": "Krankenhaus is neuter (das Haus): das Krankenhaus, plural die Krankenhäuser." },
     { "type": "order", "words": ["Der Befund", "ist", "gestern", "verschickt", "worden"], "answer": "Der Befund ist gestern verschickt worden", "explain": "Passive Perfekt: ist in position 2, Partizip II and worden together at the end." },
-    { "type": "order", "words": ["Dem Patienten", "wurde", "sofort", "geholfen"], "answer": "Dem Patienten wurde sofort geholfen", "explain": "The dative object stays in position 1 and the verb wurde is second. There is no subject." },
+    { "type": "order", "words": ["geantwortet", "wurde", "Den Schülern", "freundlich"], "answer": "Den Schülern wurde freundlich geantwortet", "explain": "The dative object stays in position 1 and the verb wurde is second. There is no subject." },
     { "type": "match", "pairs": [["ist operiert worden", "has been operated on"], ["war entlassen worden", "had been discharged"], ["Hier wird nicht geraucht.", "Smoking is not allowed here."], ["Es wurde viel gelacht.", "There was a lot of laughing."], ["lässt sich behandeln", "can be treated"]], "explain": "Passive forms and alternatives with a passive meaning." },
     { "type": "translate", "en": "The patient has been admitted to hospital.", "answer": ["Der Patient ist ins Krankenhaus eingewiesen worden", "Der Patient ist in das Krankenhaus eingewiesen worden", "Der Patient ist ins Krankenhaus aufgenommen worden", "Der Patient ist in das Krankenhaus aufgenommen worden"], "explain": "Passive Perfekt: ist + Partizip II + worden. Separable verbs build the Partizip II with -ge-: eingewiesen, aufgenommen." },
-    { "type": "translate", "en": "There was a lot of laughing in the waiting room.", "answer": ["Im Wartezimmer wurde viel gelacht", "Es wurde im Wartezimmer viel gelacht", "Im Wartezimmer ist viel gelacht worden"], "explain": "Passive without a subject. With the place in position 1 there is no es: Im Wartezimmer wurde viel gelacht." }
+    { "type": "translate", "en": "There was a lot of dancing at the party.", "answer": ["Auf der Party wurde viel getanzt", "Es wurde auf der Party viel getanzt", "Auf der Party ist viel getanzt worden"], "explain": "Passive without a subject. With the place in position 1 there is no es: Auf der Party wurde viel getanzt." }
   ],
   "speak": {
     "shadow": [

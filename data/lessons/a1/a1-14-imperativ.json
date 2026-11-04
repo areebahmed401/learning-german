@@ -107,10 +107,10 @@
     { "type": "mc", "q": "Which is the du-form of \"aufstehen\"?", "options": ["Aufsteh!", "Steh auf!", "Stehst auf!"], "answer": 1, "explain": "Separable: the verb part is first, the prefix goes to the end: Steh auf!" },
     { "type": "mc", "q": "The doctor says: \"Nehmen Sie die Tabletten dreimal am Tag.\" What do you do?", "options": ["Take the tablets three times a day.", "Buy three tablets.", "Stop taking the tablets."], "answer": 0, "explain": "nehmen = to take, dreimal am Tag = three times a day." },
     { "type": "match", "pairs": [["der Kopf", "head"], ["der Hals", "throat"], ["der Bauch", "belly"], ["das Fieber", "fever"], ["die Schmerzen", "pain"]], "explain": "Body parts are masculine more often than not, but learn each article." },
-    { "type": "order", "words": ["Warten", "Sie", "bitte", "im Wartezimmer"], "answer": "Warten Sie bitte im Wartezimmer", "explain": "Sie-imperative: verb first, then Sie." },
+    { "type": "order", "words": ["das Fenster", "bitte", "Sie", "Öffnen"], "answer": "Öffnen Sie bitte das Fenster", "explain": "Sie-imperative: verb first, then Sie." },
     { "type": "order", "words": ["Atmen", "tief", "Sie", "ein"], "answer": "Atmen Sie tief ein", "explain": "einatmen is separable: Atmen Sie … ein." },
     { "type": "translate", "en": "Please take a seat.", "answer": ["Nehmen Sie bitte Platz", "Bitte nehmen Sie Platz"], "explain": "Nehmen Sie Platz: the polite request in a waiting room." },
-    { "type": "translate", "en": "Drink a lot of water and stay in bed. (Sie)", "answer": ["Trinken Sie viel Wasser und bleiben Sie im Bett"], "explain": "Both verbs in Sie-imperative: Trinken Sie … und bleiben Sie …" }
+    { "type": "translate", "en": "Open the window and close the door. (Sie)", "answer": ["Öffnen Sie das Fenster und schließen Sie die Tür"], "explain": "Both verbs in Sie-imperative: Öffnen Sie … und schließen Sie …" }
   ],
   "speak": {
     "shadow": [

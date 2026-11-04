@@ -114,7 +114,7 @@
     { "type": "match", "pairs": [["immer", "always"], ["oft", "often"], ["manchmal", "sometimes"], ["nie", "never"], ["gern", "gladly"]], "explain": "These adverbs say how often or how willingly you do something." },
     { "type": "order", "words": ["Fußball", "spiele", "Am Wochenende", "ich"], "answer": "Am Wochenende spiele ich Fußball", "explain": "Time first, verb in position 2, then the subject." },
     { "type": "order", "words": ["Musik", "höre", "gern", "Ich"], "answer": "Ich höre gern Musik", "explain": "Subject, verb in position 2, then gern, then the object." },
-    { "type": "order", "words": ["Tee", "Morgens", "ich", "trinke"], "answer": "Morgens trinke ich Tee", "explain": "Morgens is in position 1, so the verb stays second and ich follows it." },
+    { "type": "order", "words": ["Suppe", "Abends", "ich", "koche"], "answer": "Abends koche ich Suppe", "explain": "Abends is in position 1, so the verb koche stays second and ich follows it." },
     { "type": "translate", "en": "I work in Aachen and my friend plays football.", "answer": ["Ich arbeite in Aachen und mein Freund spielt Fußball", "Ich arbeite in Aachen und mein Freund spielt gern Fußball"], "explain": "ich arbeite, er spielt (-t ending). und does not change the word order." }
   ],
   "speak": {
