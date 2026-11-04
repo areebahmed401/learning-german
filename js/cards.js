@@ -1,5 +1,6 @@
 // Karten: daily flashcards. Words you miss come back in the same session until you know them;
-// words you know come back later (Leitner boxes, see srs.js).
+// words you know come back later (Anki-style SM-2 or FSRS with four ratings, see srs.js).
+// The home page has a statistics panel beside it (statsPanel).
 import { h, getRoadmap, getJSON, getAlltag, getPlace, placeWords, nounHTML, shuffle, sayBtn } from './util.js';
 import { speak, canSpeak } from './speech.js';
 import { wordForms } from './lesson.js';
@@ -10,13 +11,14 @@ import * as adapt from './adapt.js';
 /**
  * Words for a deck, easiest level first:
  * 'level' = every place word and Goethe-tagged dictionary word up to your level,
- * 'mine' = the places you've opened, 'place:<id>' = one place, or a level id = that level only.
+ * 'mine' = the places you've opened, 'place:<id>' = one place, or a level id = that level only,
+ * 'all' = every word the app can put in a deck (for the statistics panel).
  */
 async function wordPool(deck, road, myLevel) {
   const order = road.levels.map((l) => l.id);
   const upTo = order.slice(0, order.indexOf(myLevel) + 1);
   const onePlace = deck.startsWith('place:') ? deck.slice(6) : null;
-  const wanted = deck === 'level' ? upTo : deck === 'mine' || onePlace ? order : [deck];
+  const wanted = deck === 'level' ? upTo : deck === 'mine' || deck === 'all' || onePlace ? order : [deck];
   const stops = (await getAlltag()).chapters.flatMap((c) => c.stops)
     .filter((s) => (onePlace ? s.id === onePlace : deck !== 'mine' || progress.placeState(s.id)));
   const places = await Promise.all(stops.map((s) => getPlace(s.id).catch(() => null)));
@@ -44,7 +46,8 @@ export async function renderCards(view, { start = false } = {}) {
   const road = await getRoadmap();
   const myLevel = progress.currentLevel(road);
   const levels = road.levels.filter((l) => l.milestones?.length).map((l) => l.id);
-  let words = await wordPool(prefs.deck, road, myLevel);
+  const [deckWords, allWords] = await Promise.all([wordPool(prefs.deck, road, myLevel), wordPool('all', road, myLevel)]);
+  let words = deckWords;
   const today = srs.day();
   const { limit, notes } = prefs.adaptive ? await adaptDeck() : { limit: prefs.newCards, notes: [] };
   const queue = srs.buildQueue(words, progress.cards(), today, limit + progress.extraCards(today));
@@ -67,17 +70,20 @@ export async function renderCards(view, { start = false } = {}) {
   }), ' English → Deutsch');
 
   const stage = h('section');
-  view.replaceChildren(h('article.lesson',
+  const layout = h('div.cards-layout',
+    h('div.cards-main',
+      notes.length ? h('div.adapt-note', notes.map((n) => h('p', n))) : null,
+      h('div.stats.cards-stats',
+        stat(due, 'due today'), stat(queue.length - due, 'new today'),
+        stat(Object.values(progress.cards()).filter(srs.known).length, 'well known'),
+        stat(`${progress.cardStreak()} 🔥`, 'day streak')),
+      h('div.cards-tools', h('div.cards-scope', scopeBtn('level', `My level (${myLevel})`), scopeBtn('mine', 'My places'), levels.map((l) => scopeBtn(l, l)), placePick), reverse),
+      stage),
+    statsPanel(allWords, road.levels.map((l) => l.id), today, limit + progress.extraCards(today)));
+  view.replaceChildren(h('article.lesson.cards-page',
     h('header.lesson-head', h('a.back', { href: '#/road' }, '← Zurück zur Straße'), h('h1', '🃏 Karten'),
       h('p', 'A few minutes every day. Words you miss come back until you get them right.')),
-    notes.length ? h('div.adapt-note', notes.map((n) => h('p', n))) : null,
-    h('div.stats.cards-stats',
-      stat(due, 'due today'), stat(queue.length - due, 'new today'),
-      stat(Object.values(progress.cards()).filter((c) => c.box >= 3).length, 'well known'),
-      stat(`${progress.cardStreak()} 🔥`, 'day streak')),
-    h('div.cards-tools', h('div.cards-scope', scopeBtn('level', `My level (${myLevel})`), scopeBtn('mine', 'My places'), levels.map((l) => scopeBtn(l, l)), placePick), reverse),
-    stage,
-    hardList()));
+    layout));
 
   if (!words.length) {
     stage.append(h('div.card', h('p', 'No words yet. Open a place on the Alltag road, or pick a level above.'),
@@ -137,12 +143,78 @@ function moreBtn(view, unseen) {
 
 const stat = (value, label) => h('div.stat', h('b', String(value)), h('span', label));
 
-function hardList() {
-  const hard = srs.hardest(progress.cards());
-  if (!hard.length) return null;
-  return h('details.card.cards-hard',
-    h('summary', h('b', 'Schwierige Wörter'), h('span.muted', ` · the words you miss most`)),
-    h('ul', hard.map(([k, c]) => h('li', h('span', k), h('span.muted', `✗ ${c.fails}`)))));
+const DE_DAYS = ['So', 'Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa'];
+
+/** A review gap for a button or list: "now", "3 d", "2.5 mo", "1.2 y". */
+function gapLabel(n) {
+  if (!n) return 'now';
+  if (n < 30) return `${n} d`;
+  if (n < 365) return `${+(n / 30).toFixed(1)} mo`;
+  return `${+(n / 365).toFixed(1)} y`;
+}
+
+/**
+ * The statistics panel beside the Karten home: words by level (over every word the app can put in a deck),
+ * today's numbers, a 7-day forecast, first-try recall, the hardest words, streak and known total.
+ * Everything is computed once per render.
+ */
+function statsPanel(pool, order, today, newAllowed) {
+  const cards = progress.cards();
+  const rows = new Map(order.map((l) => [l, { total: 0, known: 0, learning: 0 }]));
+  let unseen = 0;
+  for (const w of pool) {
+    const row = rows.get(w.level || 'B2');
+    if (!row) continue;
+    const c = cards[srs.cardKey(w)];
+    row.total++;
+    if (!c) unseen++;
+    else if (srs.known(c)) row.known++;
+    else row.learning++;
+  }
+  const all = Object.values(cards);
+  const dueNow = all.filter((c) => c.due && c.due <= today).length;
+  const newToday = all.filter((c) => c.first === today).length;
+  const newLeft = Math.min(unseen, Math.max(0, newAllowed - newToday));
+  const done = all.filter((c) => c.last === today).length;
+
+  const levelRows = [...rows].filter(([, r]) => r.total).map(([l, r]) => h('div.cp-level',
+    h('div.cp-level-top', h('b', l), h('span', `${r.known} / ${r.total}`)),
+    h('div.cp-bar', h('i', { style: `width:${Math.round((r.known / r.total) * 100)}%` })),
+    h('small.muted', `learning ${r.learning} · new ${r.total - r.known - r.learning}`)));
+
+  const fc = srs.forecast(cards, today, 7);
+  const [y, m, d] = today.split('-').map(Number);
+  const peak = Math.max(1, ...fc);
+  const bars = fc.map((n, i) => h('div.cp-day',
+    h('span.cp-count', String(n)),
+    h('div.cp-col', h('i', { style: `height:${Math.round((n / peak) * 100)}%` })),
+    h('span.cp-wd', i ? DE_DAYS[new Date(y, m - 1, d + i).getDay()] : 'Heute')));
+
+  let first = 0;
+  let right = 0;
+  for (const [date, s] of Object.entries(progress.cardStats())) {
+    const age = srs.daysBetween(date, today);
+    if (age >= 0 && age < 30) { first += s.first; right += s.right; }
+  }
+
+  const hard = srs.hardest(cards, 5).map(([k, c]) => h('li',
+    h('button.cp-word', {
+      type: 'button', title: 'Look up in the translator',
+      onclick: () => window.dispatchEvent(new CustomEvent('lg:lookup', { detail: { word: k.replace(/^(der|die|das) /, '') } })),
+    }, k),
+    h('span.muted', `✗ ${c.fails}`)));
+
+  return h('aside.cards-panel', { 'aria-label': 'Statistics' },
+    h('div.card', h('h2', 'Words by level'), levelRows.length ? levelRows : h('p.muted', 'No words yet.')),
+    h('div.card', h('h2', 'Today'),
+      h('div.cp-today', stat(dueNow, 'due now'), stat(newLeft, 'new left'), stat(done, 'reviewed'))),
+    h('div.card', h('h2', 'Next 7 days'), h('div.cp-forecast', bars)),
+    h('div.card', h('h2', 'Recall'),
+      h('div.cp-recall', h('b', first ? `${Math.round((right / first) * 100)}%` : '—'), h('span.muted', 'first tries, last 30 days'))),
+    hard.length ? h('div.card', h('h2', 'Hardest words'), h('ul.cp-hard', hard)) : null,
+    h('div.card.cp-totals',
+      h('div', h('b', `${progress.cardStreak()} 🔥`), h('span.muted', 'day streak')),
+      h('div', h('b', String(progress.wordsLearned())), h('span.muted', 'words known'))));
 }
 
 /** One session: show cards until the queue is empty; a missed card goes back into the queue. */
@@ -151,17 +223,16 @@ function run(stage, queue, reverse, view, unseen) {
   const autoplay = canSpeak && progress.settings().autoplay;
   const missed = new Set();
   const answered = new Set(); // first answer per card this session feeds the adaptive stats
-  const fast = progress.settings().adaptive;
   let knew = 0;
   let flipped = false;
+  stage.closest('.cards-layout')?.classList.add('in-session'); // the statistics panel steps aside during a session
 
   const card = h('div.flash', { role: 'button', tabindex: '0', 'aria-live': 'polite' });
   const counter = h('p.muted.flash-count');
-  const no = h('button.btn.flash-no', { type: 'button', onclick: () => grade(false) }, '✗ Nochmal');
-  const yes = h('button.btn.primary.flash-yes', { type: 'button', onclick: () => grade(true) }, '✓ Gewusst');
   const flipBtn = h('button.btn.primary', { type: 'button', onclick: () => flip() }, 'Umdrehen');
   const actions = h('div.flash-actions');
-  stage.replaceChildren(h('div.card.flash-wrap', counter, card, actions, h('p.muted.flash-keys', '0 or Space: flip · 1: Nochmal · 2: Gewusst')));
+  stage.replaceChildren(h('div.card.flash-wrap', counter, card, actions,
+    h('p.muted.flash-keys', '0 or Space: flip · 1 Nochmal · 2 Schwer · 3 Gut · 4 Leicht')));
   card.onclick = (e) => { if (!e.target.closest('.say')) flip(); };
 
   const say = (w) => (w.pos === 'noun' && w.article ? `${w.article} ${w.de}` : w.de);
@@ -189,15 +260,22 @@ function run(stage, queue, reverse, view, unseen) {
     card.replaceChildren(h('div.flash-side', reverse ? english(w) : german(w)),
       h('div.flash-back', reverse ? german(w) : english(w), forms ? h('div.flash-forms', forms) : null, h('span.chip', w.level)));
     if (reverse && autoplay) speak(say(w));
-    actions.replaceChildren(no, yes);
-    yes.focus();
+    // four ratings, each with the gap until the card comes back
+    const gaps = srs.preview(progress.cards()[srs.cardKey(w)], today, progress.settings().algorithm);
+    const rate = (r, label, cls) => h(`button.btn${cls}`, { type: 'button', onclick: () => grade(r) },
+      h('span', label), h('small.flash-gap', gapLabel(gaps[r - 1])));
+    const good = rate(3, '✓ Gut', '.primary.flash-yes');
+    actions.replaceChildren(rate(1, '✗ Nochmal', '.flash-no'), rate(2, 'Schwer', ''), good, rate(4, 'Leicht', ''));
+    good.focus();
   }
 
-  function grade(ok) {
+  /** rating: 1 Nochmal (Again), 2 Schwer (Hard), 3 Gut (Good), 4 Leicht (Easy) */
+  function grade(rating) {
     if (!flipped) return;
+    const ok = rating >= 2;
     const w = queue.shift();
     const k = srs.cardKey(w);
-    progress.setCard(k, srs.answer(progress.cards()[k], ok, today, { fast }), today, !answered.has(k), ok);
+    progress.setCard(k, srs.answer(progress.cards()[k], rating, today, progress.settings().algorithm), today, !answered.has(k), ok);
     answered.add(k);
     if (ok) knew++;
     else { missed.add(k); queue = srs.requeue(queue, w); }
@@ -222,8 +300,7 @@ function run(stage, queue, reverse, view, unseen) {
     if (!document.body.contains(card)) { document.removeEventListener('keydown', keyHandler); return; }
     if (e.target.matches?.('input, textarea')) return;
     if (e.key === ' ' || e.key === 'Enter' || e.key === '0') { if (!flipped) { e.preventDefault(); flip(); } }
-    else if (e.key === '1') grade(false);
-    else if (e.key === '2') grade(true);
+    else if (e.key >= '1' && e.key <= '4') grade(Number(e.key));
   };
   document.addEventListener('keydown', keyHandler);
   show();

@@ -1,6 +1,6 @@
 // Learner progress, kept in localStorage. Every read/write is guarded:
 // private windows or blocked storage just mean progress isn't remembered.
-import { day as srsDay } from './srs.js';
+import { day as srsDay, known } from './srs.js';
 import { KEEP_ANSWERS } from './adapt.js';
 
 const KEY = 'lg-progress-v1';
@@ -158,6 +158,7 @@ export const DEFAULT_SETTINGS = {
   quizSize: 10, // questions in the daily quiz
   passMark: 0.7, // share right to pass a lesson, place, checkpoint or the daily quiz
   adaptive: true, // adapt.js: new cards, quiz mix and level follow how you do
+  algorithm: 'sm2', // card scheduling: 'sm2' (Anki classic) or 'fsrs' (see srs.js)
 };
 export const settings = () => ({ ...DEFAULT_SETTINGS, ...state.settings });
 export const passMark = () => settings().passMark;
@@ -225,8 +226,8 @@ export function setAdapt(patch) {
 
 export const cardStreak = () => streak(state.cardDays, srsDay);
 
-/** Words you know (flashcards right at least twice, or right on first sight). */
-export const wordsLearned = () => Object.values(state.cards).filter((c) => c.box >= 2).length;
+/** Words you know (review gap of a week or more, see srs.known). */
+export const wordsLearned = () => Object.values(state.cards).filter(known).length;
 
 export function exportFile() {
   const blob = new Blob([JSON.stringify(state, null, 2)], { type: 'application/json' });

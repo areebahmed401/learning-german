@@ -1,5 +1,7 @@
 // Adaptive difficulty (⚙ Settings → Adaptive): harder while you do well, easier when you struggle.
 // Pure functions (no DOM, no storage), tested in tests/adapt.test.mjs.
+import { known } from './srs.js';
+
 export const CARD_STEP = 5; // new cards per day go up or down by this much
 export const CARD_MIN = 5;
 export const CARD_MAX = 50;
@@ -39,10 +41,10 @@ export function nextNewCards({ base, adapt, stats, today, due }) {
   return { newCards: next, day: today, change: next - current, reason: why };
 }
 
-/** Share of these words you know (box 2 or higher: right at least twice, or right on first sight). */
+/** Share of these words you know (review gap of a week or more, see srs.known). */
 export function mastery(words, cards, key) {
   const keys = [...new Set(words.map(key))];
-  return rate(keys.filter((k) => (cards[k]?.box ?? 0) >= 2).length, keys.length);
+  return rate(keys.filter((k) => known(cards[k])).length, keys.length);
 }
 
 /** Mix two word lists 1:1 (the next level's words join without waiting for the current level to run out). */

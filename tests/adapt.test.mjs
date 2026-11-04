@@ -1,7 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { nextNewCards, mastery, interleave, quizPlan, readyToAdvance } from '../js/adapt.js';
-import { answer } from '../js/srs.js';
 import { pickDaily } from '../js/daily.js';
 
 const stats = (right, first = 10) => ({ first, right });
@@ -41,17 +40,9 @@ test('new cards stay between 5 and 50 and need enough answers', () => {
   assert.equal(nextNewCards({ base: 15, adapt: null, stats: { '2026-11-01': stats(5, 5) }, today: '2026-11-02', due: 0 }).newCards, 15);
 });
 
-test('a brand-new word known on first sight skips ahead only in fast mode', () => {
-  assert.equal(answer(undefined, true, '2026-11-02').box, 1);
-  const fast = answer(undefined, true, '2026-11-02', { fast: true });
-  assert.equal(fast.box, 2);
-  assert.equal(fast.due, '2026-11-05');
-  assert.equal(answer({ box: 1, due: '2026-11-02', first: '2026-11-01' }, true, '2026-11-02', { fast: true }).box, 2);
-});
-
-test('mastery counts words in box 2+; interleave mixes 1:1', () => {
+test('mastery counts words with a gap of a week or more; interleave mixes 1:1', () => {
   const words = [{ de: 'a' }, { de: 'b' }, { de: 'c' }, { de: 'd' }, { de: 'a' }];
-  assert.equal(mastery(words, { a: { box: 2 }, b: { box: 3 }, c: { box: 1 } }, (w) => w.de), 0.5);
+  assert.equal(mastery(words, { a: { box: 3 }, b: { ivl: 10, ease: 2.5 }, c: { ivl: 3, ease: 2.5 } }, (w) => w.de), 0.5);
   assert.deepEqual(interleave([1, 2, 3], ['x']), [1, 'x', 2, 3]);
 });
 
