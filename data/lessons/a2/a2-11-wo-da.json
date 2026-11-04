@@ -112,7 +112,7 @@
     { "type": "article", "word": "Meinung", "answer": "die", "explain": "Nouns ending in -ung are always feminine: die Meinung." },
     { "type": "article", "word": "Gefühl", "answer": "das", "explain": "Many nouns with the prefix Ge- are neuter: das Gefühl." },
     { "type": "order", "words": ["Ich", "freue", "mich", "sehr", "auf den Urlaub"], "answer": "Ich freue mich sehr auf den Urlaub", "explain": "sich freuen auf + Akkusativ: the preposition phrase stands after the verb and pronoun." },
-    { "type": "order", "words": ["Wir", "haben", "lange", "darüber", "gesprochen"], "answer": "Wir haben lange darüber gesprochen", "explain": "darüber replaces über + thing. The Partizip II (gesprochen) stays at the end." },
+    { "type": "order", "words": ["gewartet", "Ich", "habe", "lange", "darauf"], "answer": "Ich habe lange darauf gewartet", "explain": "darauf replaces auf + thing (warten auf). The Partizip II (gewartet) stays at the end." },
     { "type": "match", "pairs": [["warten", "auf + Akk"], ["Angst haben", "vor + Dat"], ["träumen", "von + Dat"], ["sich interessieren", "für + Akk"], ["sich kümmern", "um + Akk"]], "explain": "Learn each verb with its preposition and its case." },
     { "type": "translate", "en": "I am looking forward to the weekend.", "answer": ["Ich freue mich auf das Wochenende"], "explain": "sich freuen auf + Akkusativ (future)." },
     { "type": "translate", "en": "What are you waiting for?", "answer": ["Worauf wartest du", "Auf was wartest du", "Worauf wartet ihr", "Worauf warten Sie"], "explain": "warten auf + thing → worauf? (wo(r) + auf)." }

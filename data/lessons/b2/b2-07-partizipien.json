@@ -279,29 +279,29 @@
     {
       "type": "order",
       "words": [
-        "ein",
-        "Problem",
-        "ist",
-        "Temperatur",
-        "steigende",
-        "Die"
+        "mehr",
+        "Wohnungen",
+        "Die",
+        "Stadt",
+        "wachsende",
+        "braucht"
       ],
-      "answer": "Die steigende Temperatur ist ein Problem",
-      "explain": "Adjective-like participle before the noun: die steigende Temperatur."
+      "answer": "Die wachsende Stadt braucht mehr Wohnungen",
+      "explain": "Adjective-like participle before the noun: die wachsende Stadt."
     },
     {
       "type": "order",
       "words": [
-        "Labor",
-        "gemessen",
-        "im",
-        "wurde",
-        "Temperatur",
-        "gestiegene",
-        "Die"
+        "dem",
+        "Haus",
+        "steht",
+        "reparierte",
+        "Auto",
+        "vor",
+        "Das"
       ],
-      "answer": "Die gestiegene Temperatur wurde im Labor gemessen",
-      "explain": "Passive past sentence with the Partizip II attribute gestiegene."
+      "answer": "Das reparierte Auto steht vor dem Haus",
+      "explain": "Partizip II as an attribute (finished, passive) before the noun: das reparierte Auto."
     },
     {
       "type": "match",
@@ -339,11 +339,12 @@
     },
     {
       "type": "translate",
-      "en": "The published study shows clear results.",
+      "en": "The repaired machine works again.",
       "answer": [
-        "Die veröffentlichte Studie zeigt klare Ergebnisse"
+        "Die reparierte Maschine funktioniert wieder",
+        "Die reparierte Maschine läuft wieder"
       ],
-      "explain": "Passive and finished → Partizip II veröffentlicht + -e."
+      "explain": "Passive and finished → Partizip II repariert + -e."
     }
   ],
   "speak": {

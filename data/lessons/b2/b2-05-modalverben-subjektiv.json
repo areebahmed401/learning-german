@@ -258,11 +258,11 @@
     },
     {
       "type": "gap",
-      "q": "Laut Zeitung ___ die Firma Millionen verloren haben.",
+      "q": "Laut Nachrichten ___ der Minister zurückgetreten sein.",
       "answer": [
         "soll"
       ],
-      "explain": "A report from the press: sollen."
+      "explain": "A report from the media: sollen."
     },
     {
       "type": "gap",
@@ -287,28 +287,29 @@
     {
       "type": "order",
       "words": [
-        "gewesen",
+        "Sie",
         "sein",
-        "krank",
         "muss",
-        "Er"
+        "gewesen",
+        "müde",
+        "sehr"
       ],
-      "answer": "Er muss krank gewesen sein",
+      "answer": "Sie muss sehr müde gewesen sein",
       "explain": "Modal in position 2; gewesen sein (Infinitiv Perfekt) at the end."
     },
     {
       "type": "order",
       "words": [
-        "gelesen",
         "haben",
-        "schon",
-        "Mail",
-        "die",
+        "Er",
         "dürfte",
-        "Sie"
+        "verpasst",
+        "den",
+        "Zug",
+        "schon"
       ],
-      "answer": "Sie dürfte die Mail schon gelesen haben",
-      "explain": "Dürfte is in position 2; gelesen haben forms the Infinitiv Perfekt at the end."
+      "answer": "Er dürfte den Zug schon verpasst haben",
+      "explain": "Dürfte is in position 2; verpasst haben forms the Infinitiv Perfekt at the end."
     },
     {
       "type": "match",

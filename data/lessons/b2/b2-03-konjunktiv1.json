@@ -257,7 +257,7 @@
     },
     {
       "type": "gap",
-      "q": "Der Kanzler sagte, die Regierung ___ die Steuern senken.",
+      "q": "Die Ministerin sagte, die Stadt ___ neue Radwege bauen.",
       "answer": [
         "werde"
       ],
@@ -265,7 +265,7 @@
     },
     {
       "type": "gap",
-      "q": "Die Politiker sagen, sie ___ keine Wahl.",
+      "q": "Die Studenten sagen, sie ___ zu viel Stress.",
       "answer": [
         "hätten"
       ],
@@ -302,15 +302,15 @@
     {
       "type": "order",
       "words": [
+        "sagt,",
+        "das",
+        "Trainer",
+        "Der",
         "sei",
-        "ernst",
-        "Lage",
-        "die",
-        "erklärt,",
-        "Sprecherin",
-        "Die"
+        "Team",
+        "müde"
       ],
-      "answer": "Die Sprecherin erklärt, die Lage sei ernst",
+      "answer": "Der Trainer sagt, das Team sei müde",
       "explain": "Reported speech is a main clause without dass: verb in position 2 (sei)."
     },
     {

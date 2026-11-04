@@ -87,15 +87,15 @@
     { "type": "mc", "q": "Das ist der Nachbar, ___ im dritten Stock wohnt.", "options": ["der", "den", "dem"], "answer": 0, "explain": "Nachbar is masculine, and the pronoun is the subject of wohnt → Nominativ: der." },
     { "type": "mc", "q": "Die Wohnung, ___ wir besichtigt haben, ist leider zu teuer.", "options": ["die", "der", "dem"], "answer": 0, "explain": "Wohnung is feminine; besichtigen takes an Akkusativ object → die." },
     { "type": "mc", "q": "Das Haus, in ___ ich wohne, ist alt.", "options": ["das", "dem", "den"], "answer": 1, "explain": "wohnen in + Dativ (where?). Haus is neuter → dem." },
-    { "type": "gap", "q": "Der Vermieter, ___ ich die Kaution gezahlt habe, ist sehr nett.", "answer": ["dem"], "explain": "Vermieter is masculine, and he is the indirect object (I paid the deposit TO him) → Dativ: dem." },
-    { "type": "gap", "q": "Die Nachbarn, mit ___ ich mich gut verstehe, laden uns ein.", "answer": ["denen"], "explain": "Plural, after mit → Dativ plural: denen." },
+    { "type": "gap", "q": "Der Nachbar, ___ ich den Schlüssel gegeben habe, wohnt unten.", "answer": ["dem"], "explain": "Nachbar is masculine, and he is the indirect object (I gave the key TO him) → Dativ: dem." },
+    { "type": "gap", "q": "Die Freunde, mit ___ ich Fußball spiele, wohnen in Köln.", "answer": ["denen"], "explain": "Plural, after mit → Dativ plural: denen." },
     { "type": "gap", "q": "Das ist die Nachbarin, ___ Hund immer bellt.", "answer": ["deren"], "explain": "Genitive (whose dog), the owner Nachbarin is feminine → deren, and no article follows." },
     { "type": "gap", "q": "Die Frau, ___ ich geholfen habe, bedankt sich.", "answer": ["der"], "explain": "helfen takes the Dativ; Frau is feminine → der." },
     { "type": "article", "word": "Mietvertrag", "answer": "der", "explain": "Compound nouns take the gender of the last word: der Vertrag → der Mietvertrag." },
     { "type": "order", "words": ["Die", "Wohnung,", "die", "ich", "gemietet", "habe,", "ist", "sehr", "ruhig"], "answer": "Die Wohnung, die ich gemietet habe, ist sehr ruhig", "explain": "The relative clause is inserted after its noun; its verb phrase ends the clause, then the main verb ist follows." },
     { "type": "order", "words": ["Das", "ist", "der", "Mann,", "dem", "ich", "den", "Schlüssel", "gegeben", "habe"], "answer": "Das ist der Mann, dem ich den Schlüssel gegeben habe", "explain": "dem = indirect object (Dativ, masculine); the verb phrase gegeben habe stands at the end." },
     { "type": "match", "pairs": [["der Vermieter", "landlord"], ["die Miete", "rent"], ["der Mitbewohner", "flatmate"], ["die Kaution", "deposit"], ["die Nebenkosten", "utility costs"]], "explain": "Typical vocabulary around renting a flat." },
-    { "type": "translate", "en": "The flat in which I live is on the third floor.", "answer": ["Die Wohnung, in der ich wohne, ist im dritten Stock", "Die Wohnung, in der ich wohne, liegt im dritten Stock"], "explain": "Wohnung is feminine; in + Dativ (location) → in der. The verb wohne goes to the end of the relative clause." },
+    { "type": "translate", "en": "The street in which I live is very quiet.", "answer": ["Die Straße, in der ich wohne, ist sehr ruhig"], "explain": "Straße is feminine; in + Dativ (location) → in der. The verb wohne goes to the end of the relative clause." },
     { "type": "translate", "en": "The neighbour whose dog is barking is annoying.", "answer": ["Der Nachbar, dessen Hund bellt, nervt", "Der Nachbar, dessen Hund bellt, ist nervig"], "explain": "Whose = dessen for a masculine owner (Nachbar). No article after dessen." }
   ],
   "speak": {

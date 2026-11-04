@@ -105,7 +105,7 @@
     { "type": "order", "words": ["Ich", "stelle", "das Sofa", "an die Wand"], "answer": "Ich stelle das Sofa an die Wand", "explain": "Movement: stellen + Akkusativ. Wand is feminine: an die Wand." },
     { "type": "order", "words": ["Das Regal", "steht", "im Wohnzimmer", "neben dem Fenster"], "answer": "Das Regal steht im Wohnzimmer neben dem Fenster", "explain": "Position: Dativ after stehen. Both im (in dem) and neben dem are dative." },
     { "type": "match", "pairs": [["stellen", "wohin? (upright)"], ["stehen", "wo? (upright)"], ["legen", "wohin? (flat)"], ["liegen", "wo? (flat)"], ["setzen", "wohin? (sitting)"]], "explain": "Verbs with movement (stellen, legen, setzen) take Akkusativ; the position verbs take Dativ." },
-    { "type": "translate", "en": "The lamp is standing on the desk.", "answer": ["Die Lampe steht auf dem Schreibtisch"], "explain": "Position → Dativ: auf dem Schreibtisch (masculine)." },
+    { "type": "translate", "en": "The picture is hanging on the wall.", "answer": ["Das Bild hängt an der Wand"], "explain": "Position → Dativ: an der Wand (feminine)." },
     { "type": "translate", "en": "I am hanging the picture on the wall.", "answer": ["Ich hänge das Bild an die Wand"], "explain": "Movement (hanging it up) → Akkusativ: an die Wand (feminine)." }
   ],
   "speak": {

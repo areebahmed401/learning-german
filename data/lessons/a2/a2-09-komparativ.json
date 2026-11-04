@@ -96,7 +96,7 @@
   "exercises": [
     { "type": "gap", "q": "Im Sommer ist es ___ als im Winter. (warm)", "answer": ["wärmer"], "explain": "Komparativ of warm: wärmer (umlaut a → ä, ending -er) + als." },
     { "type": "gap", "q": "Aachen ist ___ als Berlin. (klein)", "answer": ["kleiner"], "explain": "Komparativ: klein + -er. No umlaut because the vowel is ei." },
-    { "type": "gap", "q": "Heute ist es nicht so kalt ___ gestern.", "answer": ["wie"], "explain": "In so … wie / nicht so … wie we use wie for equality." },
+    { "type": "gap", "q": "Der Zug ist nicht so schnell ___ das Flugzeug.", "answer": ["wie"], "explain": "In so … wie / nicht so … wie we use wie for equality." },
     { "type": "gap", "q": "Im Juli ist es am ___. (heiß)", "answer": ["heißesten"], "explain": "Adjectives ending in -ß take -esten in the Superlativ: am heißesten." },
     { "type": "mc", "q": "Die Zugspitze ist der ___ Berg in Deutschland.", "options": ["höchste", "höher", "am höchsten"], "answer": 0, "explain": "Before a noun the Superlativ takes an adjective ending: der höchste Berg. am höchsten is used without a noun." },
     { "type": "mc", "q": "Ich trinke ___ Tee als Kaffee.", "options": ["lieber", "gerner", "besser"], "answer": 0, "explain": "gern – lieber – am liebsten is irregular." },
@@ -107,7 +107,7 @@
     { "type": "order", "words": ["Das Wetter", "war", "gestern", "besser", "als heute"], "answer": "Das Wetter war gestern besser als heute", "explain": "gut → besser (irregular), followed by als." },
     { "type": "match", "pairs": [["gut", "besser – am besten"], ["viel", "mehr – am meisten"], ["gern", "lieber – am liebsten"], ["hoch", "höher – am höchsten"], ["groß", "größer – am größten"]], "explain": "Learn these irregular ladders by heart; they appear in almost every conversation." },
     { "type": "translate", "en": "Today it is warmer than yesterday.", "answer": ["Heute ist es wärmer als gestern", "Es ist heute wärmer als gestern"], "explain": "warm → wärmer + als." },
-    { "type": "translate", "en": "August is the hottest month.", "answer": ["Der August ist der heißeste Monat", "August ist der heißeste Monat"], "explain": "Superlativ before a noun: der heißeste Monat (heißeste: der-form with -e after the definite article in Nominativ)." }
+    { "type": "translate", "en": "Winter is the coldest season.", "answer": ["Der Winter ist die kälteste Jahreszeit", "Winter ist die kälteste Jahreszeit"], "explain": "Superlativ before a noun: die kälteste Jahreszeit (kalt → kälter takes an umlaut; -ste + -e after the definite article)." }
   ],
   "speak": {
     "shadow": [

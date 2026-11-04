@@ -178,6 +178,19 @@ function renderGap(item, finish, actions) {
   return h('div', h('div.ex-q', h('span', { html: md(a) }), input, h('span', { html: md(b) })), hint);
 }
 
+// Which German "you" the accepted answers use, so an English "you" is not a guess between du, ihr and Sie.
+const YOU_FORMS = [
+  ['informal: du', /\b(du|dich|dir|dein\w*)\b/i],
+  ['you all: ihr', /\b(euch|eure?\w*|seid)\b|\bihr\b/],
+  ['formal: Sie', /\b(Sie|Ihnen|Ihre?\w*)\b/],
+];
+export function youHint(item) {
+  if (!/\byou/i.test(item.en) || /\((in)?formal|\b(du|Sie|ihr)\b/.test(item.en)) return null;
+  const forms = YOU_FORMS.filter(([, re]) => item.answer.some((a) => re.test(a))).map(([label]) => label);
+  if (!forms.length) return null;
+  return forms.length === 1 ? forms[0] : `any "you" is fine: ${forms.map((f) => f.split(': ')[1]).join(', ')}`;
+}
+
 function renderTranslate(item, finish, actions) {
   const ta = h('textarea.answer', { placeholder: 'Auf Deutsch… (no umlaut keys? type a/ae for ä, ss for ß)', autocapitalize: 'sentences', spellcheck: 'false', 'aria-label': 'Your translation' });
   const check = () => {
@@ -189,7 +202,8 @@ function renderTranslate(item, finish, actions) {
   };
   ta.addEventListener('keydown', (e) => e.key === 'Enter' && !e.shiftKey && (e.preventDefault(), check()));
   checkBtn(actions, check);
-  return h('div', h('div.ex-q', item.en), ta);
+  const you = youHint(item);
+  return h('div', h('div.ex-q', item.en), you ? h('p.muted.gap-hint', `👤 ${you}`) : null, ta);
 }
 
 function renderOrder(item, finish, actions) {

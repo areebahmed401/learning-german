@@ -96,16 +96,16 @@
     { "type": "mc", "q": "Der Müll ___ jeden Dienstag abgeholt.", "options": ["wird", "werden", "ist"], "answer": 0, "explain": "Müll is singular, so werden becomes wird: Der Müll wird abgeholt." },
     { "type": "mc", "q": "Man entsorgt die Batterien im Supermarkt. → Passiv:", "options": ["Die Batterien werden im Supermarkt entsorgt.", "Die Batterien wurden im Supermarkt entsorgen.", "Man wird die Batterien im Supermarkt entsorgt."], "answer": 0, "explain": "The accusative object becomes the subject (die Batterien, plural → werden), and man disappears." },
     { "type": "mc", "q": "Das Gebäude wurde ___ einem Architekten geplant.", "options": ["von", "durch", "mit"], "answer": 0, "explain": "A person who acts on purpose is introduced by von + Dativ: von einem Architekten." },
-    { "type": "gap", "q": "Die Flaschen ___ im Supermarkt zurückgenommen.", "answer": ["werden"], "explain": "Flaschen is plural → werden + Partizip II (zurückgenommen)." },
-    { "type": "gap", "q": "Früher ___ viel Plastik verbrannt.", "answer": ["wurde"], "explain": "Past passive of a singular subject (viel Plastik): wurde + Partizip II." },
+    { "type": "gap", "q": "Die Autos ___ in der Werkstatt repariert.", "answer": ["werden"], "explain": "Autos is plural → werden + Partizip II (repariert)." },
+    { "type": "gap", "q": "Früher ___ viel Papier weggeworfen.", "answer": ["wurde"], "explain": "Past passive of a singular subject (viel Papier): wurde + Partizip II." },
     { "type": "gap", "q": "Die Solaranlage ___ 2019 auf dem Dach installiert.", "answer": ["wurde"], "explain": "Solaranlage is singular, and 2019 is in the past → wurde installiert." },
     { "type": "article", "word": "Umwelt", "answer": "die", "explain": "Umwelt is feminine: die Umwelt (it also has no plural)." },
     { "type": "article", "word": "Windrad", "answer": "das", "explain": "The last part decides: das Rad → das Windrad." },
     { "type": "order", "words": ["Das", "Glas", "wird", "getrennt", "gesammelt"], "answer": "Das Glas wird getrennt gesammelt", "explain": "wird is in position 2; the Partizip II gesammelt goes to the end." },
-    { "type": "order", "words": ["In", "der", "Anlage", "wird", "das", "Kohlendioxid", "aus", "der", "Luft", "abgetrennt"], "answer": "In der Anlage wird das Kohlendioxid aus der Luft abgetrennt", "explain": "The place comes first, then wird in position 2; the separable verb abtrennen appears as one Partizip II at the end: abgetrennt." },
+    { "type": "order", "words": ["Heizen", "zum", "Abwärme", "Werk", "Im", "genutzt", "wird", "die"], "answer": "Im Werk wird die Abwärme zum Heizen genutzt", "explain": "The place comes first, then wird in position 2; the Partizip II genutzt stands at the end." },
     { "type": "match", "pairs": [["der Müll", "waste"], ["das Pfand", "bottle deposit"], ["recyceln", "to recycle"], ["entsorgen", "to dispose of"], ["die Verpackung", "packaging"]], "explain": "Everyday vocabulary around recycling in Germany." },
     { "type": "translate", "en": "The old bottles are recycled.", "answer": ["Die alten Flaschen werden recycelt"], "explain": "Plural subject → werden + Partizip II: werden recycelt." },
-    { "type": "translate", "en": "The wind turbine was built in 2015.", "answer": ["Das Windrad wurde 2015 gebaut", "Das Windrad wurde im Jahr 2015 gebaut"], "explain": "Past passive with a singular subject: wurde + gebaut." }
+    { "type": "translate", "en": "The bridge was opened in 2010.", "answer": ["Die Brücke wurde 2010 eröffnet", "Die Brücke wurde im Jahr 2010 eröffnet"], "explain": "Past passive with a singular subject: wurde + eröffnet." }
   ],
   "speak": {
     "shadow": [

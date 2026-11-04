@@ -96,11 +96,11 @@
     { "type": "gap", "q": "Das ist der Ausweis mein___ Frau.", "answer": ["er"], "explain": "Frau is feminine, so the Genitiv possessive is meiner." },
     { "type": "article", "word": "Formular", "answer": "das", "explain": "Formular is neuter: das Formular." },
     { "type": "article", "word": "Anmeldung", "answer": "die", "explain": "Nouns ending in -ung are always feminine." },
-    { "type": "order", "words": ["Der", "Sachbearbeiter", "des", "Bürgeramts", "hat", "den", "Antrag", "geprüft"], "answer": "Der Sachbearbeiter des Bürgeramts hat den Antrag geprüft", "explain": "des Bürgeramts is the Genitiv attribute; it follows the noun it describes (Sachbearbeiter)." },
+    { "type": "order", "words": ["hat", "Besitzer", "unterschrieben", "den", "Hauses", "Der", "des", "Vertrag"], "answer": "Der Besitzer des Hauses hat den Vertrag unterschrieben", "explain": "des Hauses is the Genitiv attribute; it follows the noun it describes (Besitzer)." },
     { "type": "order", "words": ["Wegen", "der", "hohen", "Gebühr", "habe", "ich", "mich", "beschwert"], "answer": "Wegen der hohen Gebühr habe ich mich beschwert", "explain": "wegen + Genitiv feminine (der hohen Gebühr) fills position 1, so the verb habe follows immediately." },
     { "type": "match", "pairs": [["die Behörde", "public authority"], ["der Antrag", "application"], ["die Unterschrift", "signature"], ["die Gebühr", "fee"], ["der Aufenthaltstitel", "residence permit"]], "explain": "Key vocabulary for dealing with German offices." },
-    { "type": "translate", "en": "Because of my work, I have no time.", "answer": ["Wegen meiner Arbeit habe ich keine Zeit", "Ich habe wegen meiner Arbeit keine Zeit"], "explain": "wegen + Genitiv. Arbeit is feminine → meiner Arbeit." },
-    { "type": "translate", "en": "That is the passport of my colleague.", "answer": ["Das ist der Pass meines Kollegen", "Das ist der Reisepass meines Kollegen"], "explain": "Genitiv masculine: meines. Kollege is an n-Deklination noun, so the Genitiv is Kollegen (not Kollege-s)." }
+    { "type": "translate", "en": "Because of the rain, we are staying at home.", "answer": ["Wegen des Regens bleiben wir zu Hause", "Wir bleiben wegen des Regens zu Hause", "Wegen des Regens bleiben wir daheim"], "explain": "wegen + Genitiv. Regen is masculine → des Regens." },
+    { "type": "translate", "en": "That is the car of my neighbour (male).", "answer": ["Das ist das Auto meines Nachbarn", "Das ist der Wagen meines Nachbarn"], "explain": "Genitiv neuter: meines. Nachbar is an n-Deklination noun, so the Genitiv is Nachbarn (not Nachbars)." }
   ],
   "speak": {
     "shadow": [

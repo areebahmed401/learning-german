@@ -101,10 +101,10 @@
     { "type": "mc", "q": "Kommt ihr heute? Wir holen ___ vom Bahnhof ab.", "options": ["euch", "ihr", "uns"], "answer": 0, "explain": "abholen takes the Akkusativ. ihr (you, plural) in the Akkusativ is euch." },
     { "type": "article", "word": "Nachbar", "answer": "der", "explain": "Male people are masculine: der Nachbar." },
     { "type": "article", "word": "Beziehung", "answer": "die", "explain": "Nouns ending in -ung are feminine." },
-    { "type": "order", "words": ["Ich", "habe", "ihn", "gestern", "im Büro", "getroffen"], "answer": "Ich habe ihn gestern im Büro getroffen", "explain": "Perfekt: haben in position 2, Partizip II at the end. The pronoun ihn comes early." },
-    { "type": "order", "words": ["Ich", "gebe", "es", "dir", "morgen"], "answer": "Ich gebe es dir morgen", "explain": "Two pronouns: Akkusativ before Dativ." },
+    { "type": "order", "words": ["gesehen", "ihn", "heute", "im Zug", "Ich", "habe"], "answer": "Ich habe ihn heute im Zug gesehen", "explain": "Perfekt: haben in position 2, Partizip II at the end. The pronoun ihn comes early." },
+    { "type": "order", "words": ["zeige", "Ich", "es", "später", "dir"], "answer": "Ich zeige es dir später", "explain": "Two pronouns: Akkusativ before Dativ." },
     { "type": "match", "pairs": [["ich", "mich / mir"], ["er", "ihn / ihm"], ["sie (she)", "sie / ihr"], ["wir", "uns / uns"], ["ihr", "euch / euch"]], "explain": "Akkusativ and Dativ are identical for wir and ihr." },
-    { "type": "translate", "en": "I miss you.", "answer": ["Ich vermisse dich", "Ich vermisse euch", "Ich vermisse Sie"], "explain": "vermissen takes the Akkusativ: du → dich. (euch / Sie work for plural and formal.)" },
+    { "type": "translate", "en": "I can hear you.", "answer": ["Ich kann dich hören", "Ich kann euch hören", "Ich kann Sie hören", "Ich höre dich", "Ich höre euch", "Ich höre Sie"], "explain": "hören takes the Akkusativ: du → dich. (euch / Sie work for plural and formal.) With kann the infinitive hören goes to the end." },
     { "type": "translate", "en": "I am giving her the key.", "answer": ["Ich gebe ihr den Schlüssel", "Ich gebe ihr die Schlüssel"], "explain": "The person is in the Dativ (ihr), the thing in the Akkusativ (den Schlüssel)." }
   ],
   "speak": {

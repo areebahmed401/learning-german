@@ -82,6 +82,7 @@ Personal German study app (A1 → C1) for one learner. They use the **Learn Germ
 - Examples come from real life in Germany: Bäcker, Arzt, Amt, WG, Arbeit, Uni, Bahn, Supermarkt.
 - Every exercise has an `explain` that says *why* the answer is right.
 - Gap/translate answers list every reasonable correct variant. Comparison ignores case and final punctuation.
+- Exercises use new sentences, never a Learn example word for word (the validator fails copies). A possessive gap ends with whose it is, e.g. `(my)`, `(her)`. Translate prompts with "you" get an automatic du/ihr/Sie hint from the accepted answers (`youHint` in exercises.js), so list only the forms that fit.
 - Keep it calm: short explanations and one table per section, at most.
 - Put each word in the place where you meet it (lessons have no words). A word may repeat in another place that needs it; keep its level, article and plural the same in every copy (Karten and the Anki export merge repeats). Give each word an honest `level`; after changing words run the Goethe check with `--badges`, which sets `"goethe"` and the level for words on a Goethe list (don't write `goethe` by hand).
 - The Goethe PDFs are copyrighted: never commit them or copy their example sentences. Use headwords only and write your own examples.

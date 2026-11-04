@@ -214,19 +214,19 @@
     },
     {
       "type": "gap",
-      "q": "Der Server wird über Nacht ausgefallen ___.",
+      "q": "Das Paket wird inzwischen angekommen ___. (auxiliary verb)",
       "answer": [
         "sein"
       ],
-      "explain": "Ausfallen forms the Perfekt with sein, so the Futur II ends in sein."
+      "explain": "Ankommen forms the Perfekt with sein, so the Futur II ends in sein."
     },
     {
       "type": "gap",
-      "q": "Er ist nicht da. Er wird den Termin vergessen ___.",
+      "q": "Er antwortet nicht. Er wird die Nachricht noch nicht gelesen ___.",
       "answer": [
         "haben"
       ],
-      "explain": "Vergessen takes haben: vergessen haben."
+      "explain": "Lesen takes haben: gelesen haben."
     },
     {
       "type": "article",
@@ -256,33 +256,33 @@
     {
       "type": "order",
       "words": [
-        "ausgewertet",
+        "Freitag",
         "haben",
-        "Daten",
-        "alle",
-        "wir",
+        "geschrieben",
         "werden",
-        "Montag",
-        "Bis"
+        "Bis",
+        "den",
+        "Bericht",
+        "wir"
       ],
-      "answer": "Bis Montag werden wir alle Daten ausgewertet haben",
+      "answer": "Bis Freitag werden wir den Bericht geschrieben haben",
       "explain": "The time phrase takes position 1, werden stays in position 2."
     },
     {
       "type": "order",
       "words": [
-        "haben",
-        "wird",
-        "verändert",
-        "Jobs",
-        "viele",
-        "KI",
         "die",
+        "Prüfung",
+        "der",
+        "Student",
+        "wird",
         "dass",
-        "glaube,",
-        "Ich"
+        "bestanden",
+        "Ich",
+        "haben",
+        "glaube,"
       ],
-      "answer": "Ich glaube, dass die KI viele Jobs verändert haben wird",
+      "answer": "Ich glaube, dass der Student die Prüfung bestanden haben wird",
       "explain": "Subordinate clause: the finite verb wird comes last."
     },
     {
@@ -324,11 +324,13 @@
     },
     {
       "type": "translate",
-      "en": "By next year we will have introduced the new software.",
+      "en": "By the end of the year we will have finished the project.",
       "answer": [
-        "Bis nächstes Jahr werden wir die neue Software eingeführt haben"
+        "Bis Ende des Jahres werden wir das Projekt abgeschlossen haben",
+        "Bis zum Jahresende werden wir das Projekt abgeschlossen haben",
+        "Bis Ende des Jahres werden wir das Projekt beendet haben"
       ],
-      "explain": "Completed future: werden + Partizip II + haben; einführen is separable → eingeführt."
+      "explain": "Completed future: werden + Partizip II + haben; abschließen is separable → abgeschlossen."
     }
   ],
   "speak": {

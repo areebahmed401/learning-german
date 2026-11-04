@@ -106,7 +106,7 @@
     { "type": "mc", "q": "Die Zeugen sagten, sie ___ nichts gesehen.", "options": ["haben", "hätten", "habe"], "answer": 1, "explain": "sie haben equals the Indikativ, so the Ersatzform Konjunktiv II is used: sie hätten." },
     { "type": "gap", "q": "Wir ___ den Vertrag vorher prüfen sollen. (Konjunktiv II von haben)", "answer": ["hätten"], "explain": "Missed duty in the past: hätten + prüfen sollen." },
     { "type": "gap", "q": "Der Mieter erklärte, die Wohnung ___ mangelhaft. (Konjunktiv I von sein)", "answer": ["sei"], "explain": "Konjunktiv I of sein in the third person singular: sei." },
-    { "type": "gap", "q": "Der Vertrag hätte schriftlich abgeschlossen werden ___.", "answer": ["müssen"], "explain": "Passive with modal in Konjunktiv II past: hätte … werden müssen." },
+    { "type": "gap", "q": "Die Rechnung hätte gestern bezahlt werden ___.", "answer": ["müssen", "sollen"], "explain": "Passive with modal in Konjunktiv II past: hätte … werden müssen (or sollen)." },
     { "type": "gap", "q": "Gegeben ___ ein Vertrag mit einer Laufzeit von zwei Jahren.", "answer": ["sei"], "explain": "Formal assumption (e.g. in exercises or legal reasoning) uses Konjunktiv I: Gegeben sei …" },
     { "type": "article", "word": "Verstoß", "answer": "der", "explain": "Verstoß is a masculine stem noun (from verstoßen): der Verstoß, die Verstöße." },
     { "type": "order", "words": ["Ich", "hätte", "die Klausel", "genauer", "prüfen", "müssen"], "answer": "Ich hätte die Klausel genauer prüfen müssen", "explain": "In a main clause hätte is in position 2; the double infinitive prüfen müssen stands at the end." },

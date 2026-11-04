@@ -161,7 +161,7 @@ function run(stage, queue, reverse, view, unseen) {
   const yes = h('button.btn.primary.flash-yes', { type: 'button', onclick: () => grade(true) }, '✓ Gewusst');
   const flipBtn = h('button.btn.primary', { type: 'button', onclick: () => flip() }, 'Umdrehen');
   const actions = h('div.flash-actions');
-  stage.replaceChildren(h('div.card.flash-wrap', counter, card, actions, h('p.muted.flash-keys', 'Space: flip · 1: Nochmal · 2: Gewusst')));
+  stage.replaceChildren(h('div.card.flash-wrap', counter, card, actions, h('p.muted.flash-keys', '0 or Space: flip · 1: Nochmal · 2: Gewusst')));
   card.onclick = (e) => { if (!e.target.closest('.say')) flip(); };
 
   const say = (w) => (w.pos === 'noun' && w.article ? `${w.article} ${w.de}` : w.de);
@@ -221,7 +221,7 @@ function run(stage, queue, reverse, view, unseen) {
   keyHandler = (e) => {
     if (!document.body.contains(card)) { document.removeEventListener('keydown', keyHandler); return; }
     if (e.target.matches?.('input, textarea')) return;
-    if (e.key === ' ' || e.key === 'Enter') { if (!flipped) { e.preventDefault(); flip(); } }
+    if (e.key === ' ' || e.key === 'Enter' || e.key === '0') { if (!flipped) { e.preventDefault(); flip(); } }
     else if (e.key === '1') grade(false);
     else if (e.key === '2') grade(true);
   };
