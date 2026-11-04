@@ -232,7 +232,7 @@ function run(stage, queue, reverse, view, unseen) {
   const flipBtn = h('button.btn.primary', { type: 'button', onclick: () => flip() }, 'Umdrehen');
   const actions = h('div.flash-actions');
   stage.replaceChildren(h('div.card.flash-wrap', counter, card, actions,
-    h('p.muted.flash-keys', '0 or Space: flip · 1 Nochmal · 2 Schwer · 3 Gut · 4 Leicht')));
+    h('p.muted.flash-keys', 'Enter: flip · 1 Nochmal · 2 Schwer · 3 Gut · 0 Leicht')));
   card.onclick = (e) => { if (!e.target.closest('.say')) flip(); };
 
   const say = (w) => (w.pos === 'noun' && w.article ? `${w.article} ${w.de}` : w.de);
@@ -299,8 +299,8 @@ function run(stage, queue, reverse, view, unseen) {
   keyHandler = (e) => {
     if (!document.body.contains(card)) { document.removeEventListener('keydown', keyHandler); return; }
     if (e.target.matches?.('input, textarea')) return;
-    if (e.key === ' ' || e.key === 'Enter' || e.key === '0') { if (!flipped) { e.preventDefault(); flip(); } }
-    else if (e.key >= '1' && e.key <= '4') grade(Number(e.key));
+    if (e.key === ' ' || e.key === 'Enter') { if (!flipped) { e.preventDefault(); flip(); } }
+    else if (['1', '2', '3', '0'].includes(e.key)) grade(e.key === '0' ? 4 : Number(e.key));
   };
   document.addEventListener('keydown', keyHandler);
   show();
