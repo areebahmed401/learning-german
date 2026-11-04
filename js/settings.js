@@ -74,6 +74,11 @@ export async function renderSettings(view) {
         select(String(s.passMark), [0.5, 0.6, 0.7, 0.8, 0.9, 1].map((n) => [String(n), `${Math.round(n * 100)}%`]), (v) => set({ passMark: Number(v) })))),
 
     h('section.card',
+      h('h2', '📄 Cheat sheets'),
+      h('p.muted', 'One page per level: the top rules, each lesson’s main table, tip and an example. Printable.'),
+      h('div.sheet-levels', levels.map((l) => h('a.chip', { href: `#/sheet/${l}` }, l)))),
+
+    h('section.card',
       h('h2', '🎨 Appearance'),
       field('Theme', null, select(theme, [['system', 'Like my device'], ['light', 'Light'], ['dark', 'Dark']], setTheme))),
 

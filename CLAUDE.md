@@ -10,7 +10,7 @@ Personal German study app (A1 → C1) for one learner. They use the **Learn Germ
 
 ## Layout
 - `index.html`, `css/app.css`: shell and theme tokens (light/dark via `[data-theme]` + `prefers-color-scheme`)
-- `js/app.js`: hash router: `#/road`, `#/lesson/<id>/<step>`, `#/checkpoint/<LEVEL>`, `#/cards`, `#/quiz`, `#/settings`
+- `js/app.js`: hash router: `#/road`, `#/lesson/<id>/<step>`, `#/checkpoint/<LEVEL>`, `#/sheet/<LEVEL>`, `#/cards`, `#/quiz`, `#/settings`
 - `js/place.js`: a place on the Alltag road (`#/place/<id>/<step>`: words · phrases · practice · speak); progress in progress.js `places` (`placeState`, `recordPlacePractice`, `placeStatus`)
 - `js/road.js`: draws both roads: `#/road` (grammar, A1 at the bottom, C1 at the top) and `#/alltag` (places from `data/alltag.json`, chapters drawn as zones, violet via `.alltag-theme` while grammar stays green; `"soon": true` stops show locked until their file exists), the pinned stats + *Heute* strip (streaks; Quiz and Karten are the bottom dock in index.html), and the hover preview (placed beside the stop, never over the road)
 - `js/settings.js`: the settings page. Settings live in progress.js (`settings()`, `setSettings()`); `currentLevel(road)` is the level setting, or the first level with unfinished stops when it is `auto`
@@ -20,7 +20,8 @@ Personal German study app (A1 → C1) for one learner. They use the **Learn Germ
 - `js/cards.js`: daily flashcards view (deck and new-cards-per-day come from settings). Four ratings after the flip: 1 Nochmal, 2 Schwer, 3 Gut, 0 Leicht (number keys; Enter or Space flips), each button showing its next gap from `srs.preview`. The home page has a statistics panel beside it (`statsPanel`: words by level over every deck word, today, 7-day forecast, 30-day first-try recall, hardest words that open the translator via the `lg:lookup` event, streak); it stacks under 820px and hides during a session. `js/srs.js`: Anki-style scheduling, SM-2 (default) or FSRS, chosen by the setting `algorithm` (pure functions, tested in `tests/srs.test.mjs`); both models are updated on every answer so switching keeps history, and old Leitner cards convert on first use. A word counts as known (`srs.known`) once its review gap is 7 days or more. Card state lives in progress.js (`cards`, `cardDays`) so it is saved with the progress file
 - `js/exercises.js` (answers in another verb-second order count via `js/wordorder.js`; gap questions show a dictionary hint), `js/mindmap.js`, `js/speech.js`, `js/progress.js`, `js/anki.js`
 - `js/translator/`: verbformen-style lookup (`panel.js` UI, `dictionary.js`, `conjugate.js`, `decline.js`, `online.js`)
-- `data/roadmap.json`: levels → milestones (lesson ids in road order). A level can list `planned` concepts (shown locked) instead of milestones until its lessons exist
+- `js/sheet.js`: level cheat sheet (`#/sheet/<LEVEL>`): the level's `rules`, then per lesson its first table, tip and one example (built from the lesson files); linked from the road's level signs, the checkpoint sheet and page, and ⚙ Settings; print CSS gives two-column A4
+- `data/roadmap.json`: levels → milestones (lesson ids in road order) and `rules` (5–8 hand-written top rules per level, markdown, for the cheat sheet). A level can list `planned` concepts (shown locked) instead of milestones until its lessons exist
 - `data/lessons/<level>/<id>.json`: one lesson per file; the file name is `<id>.json`
 - `data/dictionary/core.json`, `data/dictionary/strong-verbs.json`: translator data. Core words carry `"goethe"` (written by `goethe_check.py --badges`, which also tidies their glosses); the "My level" flashcard deck takes core words up to the learner's level from it
 
