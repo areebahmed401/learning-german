@@ -543,3 +543,27 @@ textarea.answer { width: 100%; min-height: 80px; border: 1.5px solid var(--line)
   .sheet-page .muted, .sheet-page th { color: #444 !important; }
   .sheet-page td, .sheet-page th { border-color: #ccc !important; }
 }
+
+/* Cheat sheet cards to the left of the grammar road; a row above it when there is no room */
+.road-shell { display: grid; grid-template-columns: 170px minmax(0, 820px); gap: 16px; justify-content: center; padding-left: 16px; }
+.road-shell .road-page { margin: 0; max-width: none; padding-left: 0; }
+.sheet-rail { position: sticky; top: 72px; align-self: start; display: grid; gap: 8px; padding-top: 12px; }
+.sheet-rail-title { font-size: .75rem; font-weight: 800; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
+.sheet-card {
+  display: grid; gap: 1px; padding: 10px 12px; border-radius: 12px; border: 1px solid var(--line); background: var(--surface);
+  color: var(--text); text-decoration: none; transition: border-color .15s, transform .15s;
+}
+.sheet-card:hover { border-color: var(--accent); transform: translateX(2px); }
+.sheet-card b { font-size: 1.25rem; font-weight: 800; color: var(--accent); line-height: 1.1; }
+.sheet-card span { font-size: .86rem; font-weight: 700; }
+.sheet-card small { font-size: .72rem; color: var(--muted); }
+.sheet-card .bar { height: 4px; background: var(--surface-2); border-radius: 9px; margin-top: 5px; overflow: hidden; }
+.sheet-card .bar i { display: block; height: 100%; background: var(--accent); border-radius: 9px; }
+@media (max-width: 1180px) {
+  .road-shell { display: block; padding-left: 0; }
+  .road-shell .road-page { margin: 0 auto; max-width: 820px; padding-left: 16px; }
+  .sheet-rail { position: static; display: flex; gap: 8px; overflow-x: auto; padding: 10px 16px 2px; max-width: 820px; margin: 0 auto; }
+  .sheet-rail-title { display: none; }
+  .sheet-card { flex: 0 0 auto; min-width: 118px; padding: 7px 10px; }
+  .sheet-card b { font-size: 1rem; }
+}
