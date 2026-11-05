@@ -60,7 +60,8 @@ export async function renderPlace(view, id, step = 'words') {
         : h('a.btn.primary', { href: '#/alltag' }, 'Zur Alltag-Straße →'));
 
   view.replaceChildren(h('article.lesson.place.alltag-theme', head, tabs, body, nav));
-  ({ words, phrases, practice, speak: speakStep })[step](body, place);
+  const skipTo = next ? `#/place/${next.id}/words` : `#/alltag?at=${id}`;
+  ({ words, phrases, practice, speak: speakStep })[step](body, place, skipTo);
 }
 
 /** Wörter: one card per spot. Filter by level; hide the English to test yourself. */
@@ -127,7 +128,7 @@ function phrases(body, place) {
   ].filter(Boolean));
 }
 
-function practice(body, place) {
+function practice(body, place, skipTo) {
   const items = place.exercises.map((e, i) => ({ ...e, _i: i }));
   const start = (subset, label) => runQuiz(body, subset, {
     label,
@@ -155,5 +156,24 @@ function practice(body, place) {
       st?.best ? ` Your best so far: ${Math.round(st.best * 100)}%.` : ''),
     h('div.speak-row',
       h('button.btn.primary', { onclick: () => start(items, 'Übung') }, '▶ Start'),
-      mistakes.length ? h('button.btn', { onclick: () => start(mistakes, 'Fehler') }, `↻ Review my ${mistakes.length} mistakes`) : null)));
+      mistakes.length ? h('button.btn', { onclick: () => start(mistakes, 'Fehler') }, `↻ Review my ${mistakes.length} mistakes`) : null)),
+    skipCard(place, skipTo, () => { body.replaceChildren(); practice(body, place, skipTo); }));
+}
+
+/** "I know these words": mark the place done without the exercises and go to the next one. */
+function skipCard(place, skipTo, redraw) {
+  const st = progress.placeState(place.id);
+  if (st?.skipped) {
+    return h('div.card.skip-card',
+      h('p', h('b', '⏭ You skipped this place.'), ' Pass the exercises to complete it properly.'),
+      h('button.btn.small', { type: 'button', onclick: () => { progress.undoPlaceSkip(place.id); redraw(); } }, 'Undo skip'));
+  }
+  if (st?.done) return null;
+  return h('div.card.skip-card',
+    h('p', h('b', 'Already know these words?'), ' Skip the exercises and go on to the next place. Its words stay in your Karten deck.'),
+    h('button.btn', { type: 'button', onclick: () => {
+      progress.skipPlace(place.id);
+      toast(`⏭ ${place.title} skipped`);
+      location.hash = skipTo;
+    } }, '⏭ I know this, skip'));
 }
