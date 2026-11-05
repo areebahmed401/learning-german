@@ -111,6 +111,17 @@ function smooth(pts) {
 }
 
 /** mode: 'grammar' (concepts, A1 → C1) or 'alltag' (places, words by where you meet them). */
+/** Cheat sheet cards beside the grammar road: one per level, with how many of its lessons are done. */
+function sheetRail(road) {
+  return h('aside.sheet-rail', { 'aria-label': 'Cheat sheets' }, h('div.sheet-rail-title', '📄 Cheat sheets'),
+    road.levels.filter((lv) => lv.milestones?.length).map((lv) => {
+      const done = lv.milestones.filter((m) => progress.lessonState(m.id)?.done).length;
+      return h('a.sheet-card', { href: `#/sheet/${lv.id}`, title: `${lv.id} cheat sheet` },
+        h('b', lv.id), h('span', lv.name), h('small', `${done} / ${lv.milestones.length} lessons`),
+        h('div.bar', h('i', { style: `width:${Math.round((done / lv.milestones.length) * 100)}%` })));
+    }));
+}
+
 export async function renderRoad(view, { at, mode = 'grammar' } = {}) {
   const road = await getRoadmap();
   const alltag = mode === 'alltag' ? await getAlltag() : null;
@@ -129,7 +140,7 @@ export async function renderRoad(view, { at, mode = 'grammar' } = {}) {
       h('div.road-jump', zones.map(([id, label]) => h('button.btn.small', { type: 'button', onclick: () => scrollToNode(wrap, `zone-${id}`) }, label)),
         h('button.btn.small.primary', { type: 'button', onclick: () => scrollToNode(wrap, 'current') }, '📍 Du bist hier'))),
     wrap);
-  view.replaceChildren(page);
+  view.replaceChildren(alltag ? page : h('div.road-shell', sheetRail(road), page));
 
   const draw = () => layout(wrap, list, current);
   draw();
