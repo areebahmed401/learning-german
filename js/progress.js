@@ -95,10 +95,29 @@ export function recordPlacePractice(id, score, mistakes) {
   const p = place(id);
   p.best = Math.max(p.best, score);
   p.mistakes = mistakes;
-  if (score >= passMark()) p.done = true;
+  if (score >= passMark()) { p.done = true; delete p.skipped; } // passing turns a skipped place into a real one
   save();
   return p;
 }
+
+/** "I know these words": a place counts as done without its exercises. */
+export function skipPlace(id) {
+  const p = place(id);
+  if (p.done) return;
+  p.done = true;
+  p.skipped = true;
+  save();
+}
+
+export function undoPlaceSkip(id) {
+  const p = place(id);
+  if (!p.skipped) return;
+  p.done = false;
+  delete p.skipped;
+  save();
+}
+
+export const isPlaceSkipped = (id) => !!state.places[id]?.skipped;
 
 export function setPlaceMistakes(id, mistakes) {
   place(id).mistakes = mistakes;

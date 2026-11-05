@@ -198,7 +198,7 @@ function node(x, p, cx) {
         x.level.milestones?.[0]?.id?.startsWith(x.level.id.toLowerCase()) ? h('a.sheet-link', { href: `#/sheet/${x.level.id}` }, '📄 Cheat sheet') : null));
   }
   const side = p.x > cx + 4 ? 'left' : 'right'; // label points toward the middle
-  const skipped = x.kind === 'ms' && x.mode !== 'alltag' && progress.isSkipped(x.m.id);
+  const skipped = x.kind === 'ms' && (x.mode === 'alltag' ? progress.isPlaceSkipped(x.m.id) : progress.isSkipped(x.m.id));
   const cls = [x.kind === 'gate' ? 'gate' : x.kind === 'goal' ? 'goal' : '', x.kind === 'planned' ? 'locked' : x.status, skipped ? 'skipped' : '', side, x.current ? 'current' : ''].filter(Boolean).join(' ');
 
   if (x.kind === 'goal') {
