@@ -75,12 +75,12 @@
     ]
   },
   "exercises": [
-    { "type": "mc", "q": "Wir besuchen nur eine Stadt: ___ Wien ___ Prag.", "options": ["sowohl … als auch", "entweder … oder", "weder … noch"], "answer": 1, "explain": "Only one of the two cities is chosen → entweder … oder." },
+    { "type": "mc", "q": "Ich nehme nur ein Gericht: ___ die Suppe ___ den Salat.", "options": ["sowohl … als auch", "entweder … oder", "weder … noch"], "answer": 1, "explain": "Only one of the two dishes is chosen → entweder … oder." },
     { "type": "mc", "q": "Das Hotel hat ___ ein Schwimmbad ___ eine Sauna. (it has both)", "options": ["sowohl … als auch", "weder … noch", "entweder … oder"], "answer": 0, "explain": "Both facilities exist → sowohl … als auch." },
     { "type": "gap", "q": "Der Kaffee ist weder heiß ___ stark.", "answer": ["noch"], "explain": "weder always pairs with noch." },
     { "type": "gap", "q": "Die Wohnung ist sowohl groß ___ hell.", "answer": ["als auch", "wie auch"], "explain": "sowohl is completed by als auch (or wie auch)." },
     { "type": "gap", "q": "Nicht nur der Kaffee, ___ auch der Kuchen schmeckt gut.", "answer": ["sondern"], "explain": "nicht nur … sondern auch." },
-    { "type": "gap", "q": "Die Reise war zwar anstrengend, ___ sie war wunderschön.", "answer": ["aber"], "explain": "zwar … aber: admit one thing, then add a contrast." },
+    { "type": "gap", "q": "Der Kurs war zwar teuer, ___ ich habe viel gelernt.", "answer": ["aber"], "explain": "zwar … aber: admit one thing, then add a contrast." },
     { "type": "gap", "q": "Wir fahren ___ mit dem Zug oder mit dem Bus.", "answer": ["entweder"], "explain": "entweder … oder: a choice between two options." },
     { "type": "article", "word": "Fahrkarte", "answer": "die", "explain": "Fahrkarte is feminine: die Fahrkarte (ending in -e)." },
     { "type": "article", "word": "Museum", "answer": "das", "explain": "Nouns ending in -um are neuter: das Museum." },

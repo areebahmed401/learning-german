@@ -94,19 +94,19 @@
     ]
   },
   "exercises": [
-    { "type": "gap", "q": "Im Sommer ist es ___ als im Winter. (warm)", "answer": ["wärmer"], "explain": "Komparativ of warm: wärmer (umlaut a → ä, ending -er) + als." },
-    { "type": "gap", "q": "Aachen ist ___ als Berlin. (klein)", "answer": ["kleiner"], "explain": "Komparativ: klein + -er. No umlaut because the vowel is ei." },
+    { "type": "gap", "q": "Meine Schwester ist zwei Jahre ___ als ich. (alt)", "answer": ["älter"], "explain": "Komparativ of alt: älter (umlaut a → ä, ending -er) + als." },
+    { "type": "gap", "q": "Der Zug ist ___ als der Bus. (schnell)", "answer": ["schneller"], "explain": "Komparativ: schnell + -er. No umlaut because the vowel is e." },
     { "type": "gap", "q": "Der Zug ist nicht so schnell ___ das Flugzeug.", "answer": ["wie"], "explain": "In so … wie / nicht so … wie we use wie for equality." },
-    { "type": "gap", "q": "Im Juli ist es am ___. (heiß)", "answer": ["heißesten"], "explain": "Adjectives ending in -ß take -esten in the Superlativ: am heißesten." },
-    { "type": "mc", "q": "Die Zugspitze ist der ___ Berg in Deutschland.", "options": ["höchste", "höher", "am höchsten"], "answer": 0, "explain": "Before a noun the Superlativ takes an adjective ending: der höchste Berg. am höchsten is used without a noun." },
-    { "type": "mc", "q": "Ich trinke ___ Tee als Kaffee.", "options": ["lieber", "gerner", "besser"], "answer": 0, "explain": "gern – lieber – am liebsten is irregular." },
-    { "type": "mc", "q": "Hier regnet es ___ als in Spanien.", "options": ["mehr", "besser", "lieber"], "answer": 0, "explain": "viel – mehr – am meisten: it rains more." },
+    { "type": "gap", "q": "Von allen Kollegen ist Lara am ___. (nett)", "answer": ["nettesten"], "explain": "Adjectives ending in -t take -esten in the Superlativ: am nettesten." },
+    { "type": "mc", "q": "Die Mensa ist das ___ Gebäude der Uni.", "options": ["größte", "größer", "am größten"], "answer": 0, "explain": "Before a noun the Superlativ takes an adjective ending: das größte Gebäude. am größten is used without a noun." },
+    { "type": "mc", "q": "Mein Bruder isst ___ Pizza als Salat.", "options": ["lieber", "gerner", "besser"], "answer": 0, "explain": "gern – lieber – am liebsten is irregular." },
+    { "type": "mc", "q": "In der Mensa essen ___ Studenten als Professoren.", "options": ["mehr", "besser", "lieber"], "answer": 0, "explain": "viel – mehr – am meisten: more students than professors." },
     { "type": "article", "word": "Wetter", "answer": "das", "explain": "das Wetter. Many nouns ending in -er are masculine, but Wetter and Gewitter are neuter (Ge- words are often neuter)." },
     { "type": "article", "word": "Wald", "answer": "der", "explain": "der Wald, plural die Wälder." },
-    { "type": "order", "words": ["Im Winter", "ist", "es", "in Aachen", "viel kälter", "als in Lahore"], "answer": "Im Winter ist es in Aachen viel kälter als in Lahore", "explain": "The Komparativ (kälter) is followed by als and the second item of the comparison." },
+    { "type": "order", "words": ["Das Brot vom Bäcker", "schmeckt", "viel besser", "als im Supermarkt"], "answer": "Das Brot vom Bäcker schmeckt viel besser als im Supermarkt", "explain": "The Komparativ (besser) is followed by als and the second item of the comparison." },
     { "type": "order", "words": ["Das Wetter", "war", "gestern", "besser", "als heute"], "answer": "Das Wetter war gestern besser als heute", "explain": "gut → besser (irregular), followed by als." },
     { "type": "match", "pairs": [["gut", "besser – am besten"], ["viel", "mehr – am meisten"], ["gern", "lieber – am liebsten"], ["hoch", "höher – am höchsten"], ["groß", "größer – am größten"]], "explain": "Learn these irregular ladders by heart; they appear in almost every conversation." },
-    { "type": "translate", "en": "Today it is warmer than yesterday.", "answer": ["Heute ist es wärmer als gestern", "Es ist heute wärmer als gestern"], "explain": "warm → wärmer + als." },
+    { "type": "translate", "en": "My brother is taller than my father.", "answer": ["Mein Bruder ist größer als mein Vater", "Mein Bruder ist größer als mein Papa"], "explain": "groß → größer (umlaut o → ö) + als." },
     { "type": "translate", "en": "Winter is the coldest season.", "answer": ["Der Winter ist die kälteste Jahreszeit", "Winter ist die kälteste Jahreszeit"], "explain": "Superlativ before a noun: die kälteste Jahreszeit (kalt → kälter takes an umlaut; -ste + -e after the definite article)." }
   ],
   "speak": {

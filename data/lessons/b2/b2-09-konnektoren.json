@@ -85,9 +85,9 @@
     ]
   },
   "exercises": [
-    { "type": "mc", "q": "Wir sparen Energie, ___ wir die Anlage nachts abschalten.", "options": ["indem", "obwohl", "sodass"], "answer": 0, "explain": "Switching off the plant is the method by which energy is saved: indem + verb at the end." },
+    { "type": "mc", "q": "Er lernt Deutsch, ___ er jeden Tag Podcasts hört.", "options": ["indem", "obwohl", "sodass"], "answer": 0, "explain": "Listening to podcasts is the method by which he learns: indem + verb at the end." },
     { "type": "mc", "q": "Which sentence is correct?", "options": ["Je mehr ich übe, desto besser ich spreche.", "Je mehr ich übe, desto besser spreche ich.", "Je mehr übe ich, desto besser spreche ich."], "answer": 1, "explain": "The je clause has the verb at the end (übe). In the desto clause, desto besser is position 1, so the verb spreche is second." },
-    { "type": "mc", "q": "Der Test war erfolgreich. ___ starten wir im Herbst die Produktion.", "options": ["Folglich", "Falls", "Indem"], "answer": 0, "explain": "A new main sentence with the verb in second position (starten) needs an adverb: folglich. Falls and indem would send the verb to the end." },
+    { "type": "mc", "q": "Die Wohnung ist zu teuer. ___ ziehen wir im Sommer aus.", "options": ["Folglich", "Falls", "Indem"], "answer": 0, "explain": "A new main sentence with the verb in second position (ziehen) needs an adverb: folglich. Falls and indem would send the verb to the end." },
     { "type": "gap", "q": "Der Kaffee ist so heiß, ___ ich ihn nicht trinken kann.", "answer": ["dass"], "explain": "so + adjective in the main clause is completed by dass in the result clause (so heiß, dass …)." },
     { "type": "gap", "q": "Je länger der Test dauert, ___ nervöser wird sie.", "answer": ["desto", "umso"], "explain": "The second part of je … desto / umso. It takes position 1 with a comparative and the verb follows in position 2." },
     { "type": "gap", "q": "Wir sollten das Haus kaufen, ___ die Lage ideal ist.", "answer": ["zumal"], "explain": "zumal adds an extra argument (especially since) and sends the verb ist to the end." },

@@ -88,20 +88,20 @@
     ]
   },
   "exercises": [
-    { "type": "mc", "q": "Komm ___ mal vorbei, dann quatschen wir!", "options": ["doch", "wohl", "eben"], "answer": 0, "explain": "A friendly invitation uses doch: it softens the imperative and sounds welcoming." },
-    { "type": "mc", "q": "Er hat sich nicht gemeldet. Er ist ___ krank.", "options": ["wohl", "eben", "mal"], "answer": 0, "explain": "Wohl marks an assumption: he is probably ill. It says 'I think so' without being sure." },
+    { "type": "mc", "q": "Nimm ___ noch ein Stück Kuchen, es ist genug da!", "options": ["doch", "wohl", "eben"], "answer": 0, "explain": "A friendly offer uses doch: it softens the imperative and sounds welcoming." },
+    { "type": "mc", "q": "Das Licht ist aus. Sie ist ___ schon nach Hause gegangen.", "options": ["wohl", "eben", "mal"], "answer": 0, "explain": "Wohl marks an assumption: she has probably gone home. It says 'I think so' without being sure." },
     { "type": "mc", "q": "Der Zug ist ausgefallen. Wir müssen ___ warten.", "options": ["ja", "halt", "wohl"], "answer": 1, "explain": "Halt expresses resignation: nothing can be changed, we simply have to wait." },
     { "type": "gap", "q": "Du kommst nicht mit? – ___, ich komme mit!", "answer": ["Doch"], "explain": "Here doch is stressed and is a contradiction of a negative statement (yes, I do). It is not a particle." },
-    { "type": "gap", "q": "Keine Sorge, das klappt ___.", "answer": ["schon"], "explain": "Unstressed schon reassures: it will work out, don't worry." },
+    { "type": "gap", "q": "Der Zug kommt gleich, du erwischst ihn ___ noch.", "answer": ["schon"], "explain": "Unstressed schon reassures: you will still catch it, don't worry." },
     { "type": "gap", "q": "Kannst du ___ kurz das Fenster öffnen?", "answer": ["mal"], "explain": "Mal softens a request. It makes it sound light and friendly." },
     { "type": "gap", "q": "Du weißt ___, dass ich morgen früh arbeiten muss.", "answer": ["ja", "doch"], "explain": "Ja and doch both remind the listener of shared knowledge (as you know). Ja is a little more neutral, doch a little more insistent." },
     { "type": "article", "word": "Verabredung", "answer": "die", "explain": "Nouns ending in -ung are feminine: die Verabredung, plural die Verabredungen." },
-    { "type": "order", "words": ["Das", "wird", "schon", "klappen"], "answer": "Das wird schon klappen", "explain": "The particle schon stands in the Mittelfeld, after the verb wird and before the infinitive." },
-    { "type": "order", "words": ["Komm", "doch", "mal", "vorbei"], "answer": "Komm doch mal vorbei", "explain": "In an imperative the particles doch mal come right after the verb, and the separable prefix vorbei goes to the end." },
-    { "type": "order", "words": ["Dann", "müssen", "wir", "halt", "warten"], "answer": "Dann müssen wir halt warten", "explain": "Halt stays in the Mittelfeld, after the subject and before the infinitive at the end." },
+    { "type": "order", "words": ["Wir", "finden", "schon", "eine Lösung"], "answer": "Wir finden schon eine Lösung", "explain": "The particle schon stands in the Mittelfeld, after the verb finden and before the object eine Lösung." },
+    { "type": "order", "words": ["Hilf", "mir", "doch", "mal", "kurz", "beim Umzug"], "answer": "Hilf mir doch mal kurz beim Umzug", "explain": "In an imperative the particles doch mal come after the verb and the pronoun; the rest of the sentence follows." },
+    { "type": "order", "words": ["Man", "kann", "halt", "nicht", "alles", "wissen"], "answer": "Man kann halt nicht alles wissen", "explain": "Halt stays in the Mittelfeld, after the verb and the subject and before nicht; the infinitive wissen is at the end." },
     { "type": "match", "pairs": [["doch (Partikel)", "friendly push or reminder"], ["mal", "softens a request"], ["eben / halt", "that's just how it is"], ["wohl", "probably"], ["ja", "as you know, surprise"]], "explain": "Core meanings of the main modal particles." },
-    { "type": "translate", "en": "He is probably still at work.", "answer": ["Er ist wohl noch bei der Arbeit", "Er ist wohl noch auf der Arbeit", "Er ist wohl noch im Büro", "Er ist wohl noch in der Arbeit"], "explain": "Wohl marks an assumption and stands in the Mittelfeld, after the verb ist." },
-    { "type": "translate", "en": "Then we simply have to wait.", "answer": ["Dann müssen wir halt warten", "Dann müssen wir eben warten", "Wir müssen dann halt warten", "Wir müssen dann eben warten"], "explain": "Halt and eben both show acceptance: we cannot change it." }
+    { "type": "translate", "en": "Our boss is probably on holiday.", "answer": ["Unser Chef ist wohl im Urlaub", "Unsere Chefin ist wohl im Urlaub", "Unser Chef ist wohl in Urlaub", "Unsere Chefin ist wohl in Urlaub"], "explain": "Wohl marks an assumption and stands in the Mittelfeld, after the verb ist." },
+    { "type": "translate", "en": "The lift is out of order, so we'll just take the stairs.", "answer": ["Der Aufzug ist kaputt, da nehmen wir halt die Treppe", "Der Aufzug ist kaputt, da nehmen wir eben die Treppe", "Der Aufzug ist kaputt, dann nehmen wir halt die Treppe", "Der Aufzug ist kaputt, dann nehmen wir eben die Treppe", "Der Aufzug ist defekt, da nehmen wir halt die Treppe", "Der Aufzug ist defekt, da nehmen wir eben die Treppe", "Der Aufzug ist defekt, dann nehmen wir halt die Treppe", "Der Aufzug ist defekt, dann nehmen wir eben die Treppe"], "explain": "Halt and eben both show acceptance: nothing can be changed, so we simply deal with it." }
   ],
   "speak": {
     "shadow": [

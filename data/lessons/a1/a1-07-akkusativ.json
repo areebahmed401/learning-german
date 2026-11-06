@@ -107,11 +107,11 @@
     ]
   },
   "exercises": [
-    { "type": "gap", "q": "Ich trinke ___ Kaffee. (der)", "answer": ["den"], "explain": "Kaffee is masculine and the object, so der → den." },
+    { "type": "gap", "q": "Meine Mitbewohnerin kauft ___ Salat im Supermarkt. (der)", "answer": ["den"], "explain": "Salat is masculine and the object, so der → den." },
     { "type": "gap", "q": "Ich möchte ___ Tee, bitte. (ein)", "answer": ["einen"], "explain": "Tee is masculine; möchten takes an accusative object: einen Tee." },
     { "type": "gap", "q": "Wir kaufen ___ Brot. (das)", "answer": ["das"], "explain": "Neuter does not change in the accusative: das Brot." },
     { "type": "gap", "q": "Sie isst ___ Banane. (eine)", "answer": ["eine"], "explain": "Feminine does not change: eine Banane." },
-    { "type": "gap", "q": "Der Käse ist gut. Ich esse ___ jeden Tag.", "answer": ["ihn"], "explain": "Pronoun for the masculine object: er → ihn." },
+    { "type": "gap", "q": "Wo ist der Schlüssel? Ich suche ___ schon lange.", "answer": ["ihn"], "explain": "Pronoun for the masculine object: er → ihn." },
     { "type": "mc", "q": "Which sentence is correct?", "options": ["Ich habe ein Bruder.", "Ich habe einen Bruder.", "Ich habe eine Bruder."], "answer": 1, "explain": "Bruder is masculine and the object of haben: einen Bruder." },
     { "type": "mc", "q": "Which one is the accusative object? \"Der Mann kauft einen Kuchen.\"", "options": ["Der Mann", "einen Kuchen", "kauft"], "answer": 1, "explain": "Wen oder was kauft der Mann? Einen Kuchen. The subject is Der Mann." },
     { "type": "mc", "q": "Where does the article NOT change in the accusative?", "options": ["der Apfel", "die Suppe", "der Saft"], "answer": 1, "explain": "Only masculine changes. Feminine die Suppe stays die Suppe." },
@@ -120,7 +120,7 @@
     { "type": "match", "pairs": [["der Kaffee", "den Kaffee"], ["ein Apfel", "einen Apfel"], ["die Milch", "die Milch"], ["das Brot", "das Brot"], ["er", "ihn"]], "explain": "Only masculine forms change in the accusative." },
     { "type": "order", "words": ["einen", "Kaffee", "Ich", "möchte"], "answer": "Ich möchte einen Kaffee", "explain": "Subject, verb in position 2, then the accusative object." },
     { "type": "order", "words": ["nehme", "Ich", "ein Brötchen"], "answer": "Ich nehme ein Brötchen", "explain": "Neuter ein Brötchen stays the same as accusative." },
-    { "type": "translate", "en": "I would like a coffee and a roll, please.", "answer": ["Ich möchte einen Kaffee und ein Brötchen, bitte", "Ich hätte gern einen Kaffee und ein Brötchen, bitte", "Ich möchte bitte einen Kaffee und ein Brötchen"], "explain": "Kaffee is masculine → einen; Brötchen is neuter → ein." }
+    { "type": "translate", "en": "The student buys a notebook and a pen.", "answer": ["Der Student kauft ein Heft und einen Stift", "Der Student kauft einen Stift und ein Heft"], "explain": "Heft is neuter → ein (no change); Stift is masculine → einen in the accusative." }
   ],
   "speak": {
     "shadow": [

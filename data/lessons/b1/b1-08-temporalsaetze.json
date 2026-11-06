@@ -92,11 +92,11 @@
     ]
   },
   "exercises": [
-    { "type": "mc", "q": "___ ich ein Kind war, wohnten wir in Lahore.", "options": ["Als", "Wenn", "Während"], "answer": 0, "explain": "This was one situation in the past (childhood in Lahore) → als." },
+    { "type": "mc", "q": "___ meine Schwester in Aachen studierte, wohnte sie in einer WG.", "options": ["Als", "Wenn", "Bis"], "answer": 0, "explain": "This was one situation in the past (her studies in Aachen) → als." },
     { "type": "mc", "q": "___ ich Zeit habe, rufe ich meine Mutter an.", "options": ["Als", "Wenn", "Seit"], "answer": 1, "explain": "This happens repeatedly in the present → wenn." },
-    { "type": "gap", "q": "Jedes Mal, ___ wir Urlaub hatten, fuhren wir ans Meer.", "answer": ["wenn"], "explain": "Repeated action in the past (jedes Mal) → wenn, not als." },
+    { "type": "gap", "q": "Jedes Mal, ___ ich den Bus verpasste, kam ich zu spät zur Arbeit.", "answer": ["wenn"], "explain": "Repeated action in the past (jedes Mal) → wenn, not als." },
     { "type": "gap", "q": "Ich höre Musik, ___ ich koche.", "answer": ["während", "wenn"], "explain": "Two actions at the same time → während (wenn is also possible for a habit)." },
-    { "type": "gap", "q": "Ich habe in Köln gewohnt, ___ ich 2020 umgezogen bin.", "answer": ["bis"], "explain": "bis = until: the end point of the situation in Cologne." },
+    { "type": "gap", "q": "Wir haben im Flur gewartet, ___ der Techniker die Heizung repariert hatte.", "answer": ["bis"], "explain": "bis = until: the end point of the waiting." },
     { "type": "gap", "q": "___ ich in Deutschland lebe, habe ich viel gelernt.", "answer": ["Seit", "Seitdem"], "explain": "A situation that began in the past and continues up to now → seit / seitdem." },
     { "type": "gap", "q": "Ich muss noch duschen, ___ ich ins Büro fahre.", "answer": ["bevor"], "explain": "Showering comes first, the drive second → bevor." },
     { "type": "article", "word": "Hochzeit", "answer": "die", "explain": "Nouns ending in -zeit are feminine: die Hochzeit, die Schulzeit." },

@@ -107,19 +107,19 @@
     ]
   },
   "exercises": [
-    { "type": "mc", "q": "Der Fahrer hat beim Rückwärtsfahren das Verkehrsschild ___.", "options": ["umgefahren", "umfahren", "umgefahrt"], "answer": 0, "explain": "He knocked the sign over: separable umfahren, stress on um-, so Partizip II is umgefahren with ge- inside." },
-    { "type": "mc", "q": "Wir haben die Baustelle großräumig ___.", "options": ["umgefahren", "umfahren", "umfährt"], "answer": 1, "explain": "Here we drove around the site: inseparable umfahren, stress on the stem, no ge- in the Partizip II." },
+    { "type": "mc", "q": "Der Radfahrer hat an der Kreuzung eine Mülltonne ___.", "options": ["umgefahren", "umfahren", "umgefahrt"], "answer": 0, "explain": "He knocked the bin over: separable umfahren, stress on um-, so Partizip II is umgefahren with ge- inside." },
+    { "type": "mc", "q": "Der Bus hat das Stadtzentrum weiträumig ___.", "options": ["umgefahren", "umfahren", "umfährt"], "answer": 1, "explain": "Here the bus drove around the centre: inseparable umfahren, stress on the stem, no ge- in the Partizip II." },
     { "type": "mc", "q": "Der Vertrag ist gestern von beiden Seiten ___ worden.", "options": ["unterschrieben", "untergeschrieben", "unterschreibt"], "answer": 0, "explain": "unterschreiben is inseparable (stress on -schrei-), so the Partizip II is unterschrieben without ge-." },
     { "type": "gap", "q": "Sie hat den Bericht ins Englische ___. (übersetzen)", "answer": ["übersetzt"], "explain": "Translate = inseparable übersetzen: Partizip II übersetzt, no ge-." },
     { "type": "gap", "q": "Ich bin in Köln in den ICE ___. (umsteigen)", "answer": ["umgestiegen"], "explain": "umsteigen is separable and forms the perfect with sein: ist umgestiegen." },
-    { "type": "gap", "q": "Die Bank hat das Geld gestern auf Ihr Konto ___. (überweisen)", "answer": ["überwiesen"], "explain": "überweisen is inseparable, so no ge-: überwiesen (strong verb)." },
+    { "type": "gap", "q": "Die Lehrerin hat die Erklärung zweimal ___. (wiederholen)", "answer": ["wiederholt"], "explain": "wiederholen (to repeat) is inseparable, so no ge-: wiederholt." },
     { "type": "gap", "q": "Die Probeversion der Software ist völlig ___. (ohne Kosten)", "answer": ["kostenlos"], "explain": "-los means without: die Kosten + -los = kostenlos." },
     { "type": "article", "word": "Entwicklung", "answer": "die", "explain": "Nouns with the suffix -ung are always feminine: die Entwicklung." },
     { "type": "article", "word": "Möglichkeit", "answer": "die", "explain": "Nouns with the suffix -keit are always feminine: die Möglichkeit." },
-    { "type": "order", "words": ["Der Lkw", "hat", "beim Rückwärtsfahren", "den Zaun", "umgefahren"], "answer": "Der Lkw hat beim Rückwärtsfahren den Zaun umgefahren", "explain": "In the perfect tense the Partizip II (umgefahren) goes to the end; hat is in second position." },
+    { "type": "order", "words": ["Unser Nachbar", "hat", "beim Einparken", "seinen Briefkasten", "umgefahren"], "answer": "Unser Nachbar hat beim Einparken seinen Briefkasten umgefahren", "explain": "In the perfect tense the Partizip II (umgefahren) goes to the end; hat is in second position." },
     { "type": "match", "pairs": [["zer-", "into pieces"], ["-los", "without"], ["-bar", "can be done"], ["miss-", "wrongly"], ["-ung", "makes a feminine noun from a verb"]], "explain": "Meaning of common prefixes and suffixes." },
     { "type": "translate", "en": "He drove around the traffic jam.", "answer": ["Er hat den Stau umfahren", "Er umfuhr den Stau", "Er umfährt den Stau"], "explain": "Driving around = inseparable umfahren: Partizip II umfahren, past tense umfuhr." },
-    { "type": "translate", "en": "I signed the contract yesterday.", "answer": ["Ich habe den Vertrag gestern unterschrieben", "Ich habe gestern den Vertrag unterschrieben", "Ich unterschrieb gestern den Vertrag", "Ich unterschrieb den Vertrag gestern"], "explain": "unterschreiben is inseparable: haben + unterschrieben, no ge-." }
+    { "type": "translate", "en": "I forgot the password this morning.", "answer": ["Ich habe das Passwort heute Morgen vergessen", "Ich habe heute Morgen das Passwort vergessen", "Ich vergaß heute Morgen das Passwort", "Ich vergaß das Passwort heute Morgen"], "explain": "vergessen is inseparable: haben + vergessen, no ge-." }
   ],
   "speak": {
     "shadow": [

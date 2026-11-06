@@ -109,7 +109,7 @@
     { "type": "mc", "q": "Welche Anrede passt zu einer E-Mail an eine unbekannte Behörde?", "options": ["Hallo zusammen,", "Sehr geehrte Damen und Herren,", "Hi,"], "answer": 1, "explain": "To an unknown office use the formal salutation: Sehr geehrte Damen und Herren." },
     { "type": "mc", "q": "Welche Variante ist formell?", "options": ["Ich hab die Rechnung nicht gekriegt.", "Ich habe die Rechnung nicht erhalten.", "Die Rechnung kam bei mir nicht an."], "answer": 1, "explain": "erhalten is the formal verb for kriegen, and hab is a spoken contraction." },
     { "type": "mc", "q": "Ich ___ Ihnen dankbar, wenn Sie mir die Unterlagen zusenden könnten.", "options": ["wäre", "bin", "war"], "answer": 0, "explain": "Konjunktiv II (wäre) makes the request polite and indirect." },
-    { "type": "gap", "q": "Ich wende mich ___ Sie, weil ich eine Frage zu meinem Vertrag habe.", "answer": ["an"], "explain": "sich wenden an + Akkusativ: the preposition is fixed." },
+    { "type": "gap", "q": "Für weitere Auskünfte wenden Sie sich bitte ___ die Personalabteilung.", "answer": ["an"], "explain": "sich wenden an + Akkusativ: the preposition is fixed." },
     { "type": "gap", "q": "Wir bedauern die Unannehmlichkeiten und bitten Sie ___ Entschuldigung.", "answer": ["um"], "explain": "bitten um + Akkusativ: the preposition is fixed." },
     { "type": "gap", "q": "Ich möchte mich über die lange Wartezeit ___.", "answer": ["beschweren"], "explain": "sich beschweren über + Akkusativ; after a modal verb the infinitive goes to the end." },
     { "type": "gap", "q": "Die Firma hat uns die Lieferung bis Freitag ___. (zusichern)", "answer": ["zugesichert"], "explain": "zusichern is separable: the -ge- goes inside, so zugesichert." },

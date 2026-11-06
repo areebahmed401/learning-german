@@ -213,25 +213,25 @@
   "exercises": [
     {
       "type": "mc",
-      "q": "Der Minister sagt, er ___ keine Zeit.",
+      "q": "Der Arzt sagt, die Patientin ___ viel Ruhe.",
       "options": [
-        "habe",
-        "haben",
-        "habt"
+        "brauche",
+        "braucht",
+        "brauchen"
       ],
       "answer": 0,
-      "explain": "Konjunktiv I of haben for er/sie/es: er habe."
+      "explain": "Konjunktiv I of brauchen for er/sie/es: sie brauche (the indicative would be braucht)."
     },
     {
       "type": "mc",
-      "q": "Die Sprecherin erklärt, die Lage ___ ernst.",
+      "q": "Die Mitarbeiterin sagt, ihr Kollege ___ im Urlaub.",
       "options": [
         "sei",
         "sein",
         "war"
       ],
       "answer": 0,
-      "explain": "Konjunktiv I of sein: die Lage sei ernst."
+      "explain": "Konjunktiv I of sein: ihr Kollege sei im Urlaub."
     },
     {
       "type": "mc",
@@ -316,15 +316,17 @@
     {
       "type": "order",
       "words": [
-        "keine",
-        "Zeit",
-        "habe",
-        "er",
-        "sagte,",
-        "Er"
+        "wohne",
+        "erzählte,",
+        "Meine",
+        "jetzt",
+        "sie",
+        "Kollegin",
+        "in",
+        "Köln"
       ],
-      "answer": "Er sagte, er habe keine Zeit",
-      "explain": "Two main clauses: Er sagte, + er habe keine Zeit."
+      "answer": "Meine Kollegin erzählte, sie wohne jetzt in Köln",
+      "explain": "Two main clauses: Meine Kollegin erzählte, + sie wohne jetzt in Köln (Konjunktiv I: wohne)."
     },
     {
       "type": "match",
@@ -354,12 +356,12 @@
     },
     {
       "type": "translate",
-      "en": "He said he had no time.",
+      "en": "She said she was very tired.",
       "answer": [
-        "Er sagte, er habe keine Zeit",
-        "Er sagte, dass er keine Zeit habe"
+        "Sie sagte, sie sei sehr müde",
+        "Sie sagte, dass sie sehr müde sei"
       ],
-      "explain": "Reported speech: er habe. With dass, the verb goes to the end."
+      "explain": "Reported speech: sie sei. With dass, the verb goes to the end."
     }
   ],
   "speak": {

@@ -104,18 +104,18 @@
   "exercises": [
     { "type": "gap", "q": "___ wartest du? – Auf den Bus.", "answer": ["Worauf", "Auf was"], "explain": "The answer is a thing (den Bus), so the question is wo(r) + auf = worauf." },
     { "type": "gap", "q": "___ ärgerst du dich? – Über die Verspätung.", "answer": ["Worüber", "Über was"], "explain": "Thing → wo(r)- + über = worüber (r before vowels)." },
-    { "type": "gap", "q": "Freust du dich auf das Wochenende? – Ja, ich freue mich ___.", "answer": ["darauf"], "explain": "Replace auf das Wochenende with da(r) + auf: darauf." },
+    { "type": "gap", "q": "Wartest du auf den Bus? – Ja, ich warte schon lange ___.", "answer": ["darauf"], "explain": "Replace auf den Bus with da(r) + auf: darauf." },
     { "type": "gap", "q": "Er hat Angst ___ dem Test.", "answer": ["vor"], "explain": "Angst haben vor + Dativ (dem Test)." },
     { "type": "mc", "q": "Ich warte ___ meinen Chef.", "options": ["auf", "für", "an"], "answer": 0, "explain": "warten auf + Akkusativ." },
     { "type": "mc", "q": "___ denkst du? – An meine Familie.", "options": ["An wen", "Woran", "Worauf"], "answer": 0, "explain": "meine Familie are people, so the question is An wen? (preposition + wen)." },
     { "type": "mc", "q": "Sie freut sich ___ die Geschenke. (she received them today)", "options": ["über", "auf", "an"], "answer": 0, "explain": "über for something now or past; auf for something in the future." },
     { "type": "article", "word": "Meinung", "answer": "die", "explain": "Nouns ending in -ung are always feminine: die Meinung." },
     { "type": "article", "word": "Gefühl", "answer": "das", "explain": "Many nouns with the prefix Ge- are neuter: das Gefühl." },
-    { "type": "order", "words": ["Ich", "freue", "mich", "sehr", "auf den Urlaub"], "answer": "Ich freue mich sehr auf den Urlaub", "explain": "sich freuen auf + Akkusativ: the preposition phrase stands after the verb and pronoun." },
+    { "type": "order", "words": ["Sie", "ärgert", "sich", "oft", "über die Verspätung"], "answer": "Sie ärgert sich oft über die Verspätung", "explain": "sich ärgern über + Akkusativ: the preposition phrase stands after the verb and pronoun." },
     { "type": "order", "words": ["gewartet", "Ich", "habe", "lange", "darauf"], "answer": "Ich habe lange darauf gewartet", "explain": "darauf replaces auf + thing (warten auf). The Partizip II (gewartet) stays at the end." },
     { "type": "match", "pairs": [["warten", "auf + Akk"], ["Angst haben", "vor + Dat"], ["träumen", "von + Dat"], ["sich interessieren", "für + Akk"], ["sich kümmern", "um + Akk"]], "explain": "Learn each verb with its preposition and its case." },
     { "type": "translate", "en": "I am looking forward to the weekend.", "answer": ["Ich freue mich auf das Wochenende"], "explain": "sich freuen auf + Akkusativ (future)." },
-    { "type": "translate", "en": "What are you waiting for?", "answer": ["Worauf wartest du", "Auf was wartest du", "Worauf wartet ihr", "Worauf warten Sie"], "explain": "warten auf + thing → worauf? (wo(r) + auf)." }
+    { "type": "translate", "en": "What is he talking about?", "answer": ["Worüber spricht er", "Worüber redet er", "Wovon spricht er", "Wovon redet er", "Über was spricht er"], "explain": "sprechen über + thing → worüber? (wo(r) + über). sprechen von → wovon?" }
   ],
   "speak": {
     "shadow": [

@@ -109,16 +109,16 @@
     { "type": "mc", "q": "Which sentence is informal (du)?", "options": ["Wie geht es Ihnen?", "Wie heißen Sie?", "Wie geht's dir?"], "answer": 2, "explain": "dir belongs to du. Ihnen and Sie are formal." },
     { "type": "mc", "q": "How do you pronounce the ie in \"Dienstag\"?", "options": ["like English \"eye\"", "long \"ee\"", "like \"ye\""], "answer": 1, "explain": "ie is always a long ee sound; ei is the \"eye\" sound." },
     { "type": "mc", "q": "A stranger speaks fast and you did not understand. What do you say?", "options": ["Wie bitte?", "Tschüss!", "Freut mich!"], "answer": 0, "explain": "Wie bitte? means \"pardon?\" and asks the person to repeat." },
-    { "type": "gap", "q": "Ich ___ Ahmed.", "answer": ["heiße"], "explain": "heißen with ich: ich heiße." },
+    { "type": "gap", "q": "Auf dem Amt sagt eine Frau: Ich ___ Julia Berger.", "answer": ["heiße"], "explain": "heißen with ich: ich heiße." },
     { "type": "gap", "q": "Guten ___, Herr Schmidt! (it is 8 am)", "answer": ["Morgen"], "explain": "Until about 11 am you say Guten Morgen." },
-    { "type": "gap", "q": "Wie geht ___ Ihnen?", "answer": ["es"], "explain": "The formal question is Wie geht es Ihnen? Informal: Wie geht's dir?" },
+    { "type": "gap", "q": "Im Büro fragt Tom seine neue Chefin: Wie geht es ___ heute?", "answer": ["Ihnen"], "explain": "A boss is addressed with the formal Sie, so the question uses Ihnen: Wie geht es Ihnen? Informal would be Wie geht es dir?" },
     { "type": "article", "word": "Herr", "answer": "der", "explain": "Male people are masculine: der Herr." },
     { "type": "article", "word": "Frau", "answer": "die", "explain": "Female people are feminine: die Frau." },
     { "type": "match", "pairs": [["Danke", "thank you"], ["Bitte", "please / you're welcome"], ["Entschuldigung", "excuse me"], ["Tschüss", "bye"], ["Freut mich", "nice to meet you"]], "explain": "These five phrases carry you through every shop and office." },
     { "type": "order", "words": ["heiße", "Ich", "Ali"], "answer": "Ich heiße Ali", "explain": "In a statement the verb is in position 2: Ich (1) heiße (2) Ali." },
-    { "type": "order", "words": ["Wie", "heißen", "Sie"], "answer": "Wie heißen Sie", "explain": "A question word comes first, then the verb: Wie heißen Sie?" },
-    { "type": "translate", "en": "Good evening, nice to meet you.", "answer": ["Guten Abend, freut mich", "Guten Abend. Freut mich", "Guten Abend, schön Sie kennenzulernen"], "explain": "Guten Abend is the evening greeting; Freut mich is the standard reply when you meet someone." },
-    { "type": "translate", "en": "Do you speak English?", "answer": ["Sprechen Sie Englisch", "Sprichst du Englisch"], "explain": "Yes/no question: verb first. Formal: Sprechen Sie …? Informal: Sprichst du …?" }
+    { "type": "order", "words": ["heißt", "du", "Wie"], "answer": "Wie heißt du", "explain": "A question word comes first, then the verb: Wie heißt du? (informal du-form)" },
+    { "type": "translate", "en": "Good evening, Ms Weber. Goodbye!", "answer": ["Guten Abend, Frau Weber. Auf Wiedersehen", "Guten Abend, Frau Weber, auf Wiedersehen", "Guten Abend Frau Weber, auf Wiedersehen"], "explain": "Guten Abend is the evening greeting; Auf Wiedersehen is the formal goodbye, so Frau Weber gets it (not Tschüss)." },
+    { "type": "translate", "en": "Thank you very much, Ms Berger. See you on Monday!", "answer": ["Vielen Dank, Frau Berger. Bis Montag", "Vielen Dank, Frau Berger, bis Montag", "Danke schön, Frau Berger. Bis Montag", "Danke schön, Frau Berger, bis Montag"], "explain": "Vielen Dank or Danke schön means thank you very much; Bis Montag is the short way to say see you on Monday." }
   ],
   "speak": {
     "shadow": [

@@ -98,7 +98,7 @@
     ]
   },
   "exercises": [
-    { "type": "gap", "q": "Das ist ___ Handy. (ich)", "answer": ["mein"], "explain": "Owner = ich → mein. Handy is neuter, no ending in the nominative." },
+    { "type": "gap", "q": "Auf dem Tisch liegt ___ Wörterbuch. (ich)", "answer": ["mein"], "explain": "Owner = ich → mein. Wörterbuch is neuter, no ending in the nominative." },
     { "type": "gap", "q": "Hast du ___ Ausweis dabei? (du)", "answer": ["deinen"], "explain": "Owner = du → dein. Ausweis is masculine and the object (accusative) → deinen." },
     { "type": "gap", "q": "Anna sucht ___ Brille. (sie)", "answer": ["ihre"], "explain": "Owner = Anna (sie) → ihr. Brille is feminine → ihre." },
     { "type": "gap", "q": "Tim sucht ___ Schlüssel. (er)", "answer": ["seinen"], "explain": "Owner = Tim (er) → sein. Schlüssel is masculine, accusative → seinen." },
@@ -109,7 +109,7 @@
     { "type": "article", "word": "Rucksack", "answer": "der", "explain": "Rucksack is masculine: der Rucksack, mein Rucksack." },
     { "type": "article", "word": "Jacke", "answer": "die", "explain": "Most nouns in -e are feminine: die Jacke." },
     { "type": "match", "pairs": [["rot", "red"], ["blau", "blue"], ["grün", "green"], ["schwarz", "black"], ["weiß", "white"]], "explain": "Colours are adjectives; after sein they take no ending." },
-    { "type": "order", "words": ["ist", "Mein Rucksack", "schwarz"], "answer": "Mein Rucksack ist schwarz", "explain": "Subject, verb in position 2, then the adjective." },
+    { "type": "order", "words": ["schwer", "ziemlich", "ist", "Deine Tasche"], "answer": "Deine Tasche ist ziemlich schwer", "explain": "Subject, verb in position 2, then the adjective. Tasche is feminine → deine." },
     { "type": "translate", "en": "Where is my phone?", "answer": ["Wo ist mein Handy"], "explain": "W-question: Wo + ist + subject. Handy is neuter: mein." },
     { "type": "translate", "en": "She has her jacket and he has his backpack.", "answer": ["Sie hat ihre Jacke und er hat seinen Rucksack"], "explain": "ihre Jacke (feminine) and seinen Rucksack (masculine accusative)." }
   ],

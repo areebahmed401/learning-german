@@ -198,14 +198,14 @@
   "exercises": [
     {
       "type": "mc",
-      "q": "Das Licht brennt. Der Chef ___ noch im Büro sein.",
+      "q": "Die Fenster sind dunkel. Die Nachbarn ___ im Urlaub sein.",
       "options": [
-        "muss",
-        "soll",
-        "will"
+        "müssen",
+        "sollen",
+        "wollen"
       ],
       "answer": 0,
-      "explain": "You infer from evidence and are sure: muss."
+      "explain": "You infer from evidence and are sure: müssen."
     },
     {
       "type": "mc",
@@ -242,19 +242,19 @@
     },
     {
       "type": "gap",
-      "q": "Ich bin ganz sicher: Er ___ krank gewesen sein.",
+      "q": "Ich bin ganz sicher: Es ___ einen Unfall gegeben haben.",
       "answer": [
         "muss"
       ],
-      "explain": "Very certain assumption about the past: muss + Infinitiv Perfekt."
+      "explain": "Very certain assumption about the past: muss + Infinitiv Perfekt (gegeben haben)."
     },
     {
       "type": "gap",
-      "q": "Das ___ nicht stimmen, die Zahlen sind falsch.",
+      "q": "Der Mechaniker ___ den Fehler nicht übersehen haben, er prüft alles dreimal.",
       "answer": [
         "kann"
       ],
-      "explain": "Excluded possibility: kann nicht (not muss nicht)."
+      "explain": "Excluded possibility: kann nicht (not muss nicht) + Infinitiv Perfekt."
     },
     {
       "type": "gap",
@@ -266,11 +266,11 @@
     },
     {
       "type": "gap",
-      "q": "Er ___ nichts gewusst haben, sagt er.",
+      "q": "Sie ___ schon dreimal in Japan gewesen sein, behauptet sie.",
       "answer": [
         "will"
       ],
-      "explain": "His own claim: wollen."
+      "explain": "Her own claim: wollen."
     },
     {
       "type": "article",
@@ -339,9 +339,10 @@
     },
     {
       "type": "translate",
-      "en": "He must have forgotten the appointment.",
+      "en": "She must have lost her keys.",
       "answer": [
-        "Er muss den Termin vergessen haben"
+        "Sie muss ihre Schlüssel verloren haben",
+        "Sie muss die Schlüssel verloren haben"
       ],
       "explain": "Assumption about the past: muss + Partizip II + haben."
     }

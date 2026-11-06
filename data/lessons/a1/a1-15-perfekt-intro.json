@@ -108,18 +108,18 @@
   },
   "exercises": [
     { "type": "gap", "q": "Ich ___ am Samstag Fußball gespielt.", "answer": ["habe"], "explain": "spielen uses haben: ich habe gespielt." },
-    { "type": "gap", "q": "Wir ___ nach Köln gefahren.", "answer": ["sind"], "explain": "fahren expresses movement from A to B → sein." },
+    { "type": "gap", "q": "Meine Eltern ___ letztes Jahr nach Spanien geflogen.", "answer": ["sind"], "explain": "fliegen expresses movement from A to B → sein." },
     { "type": "gap", "q": "Er hat gestern lange ___. (schlafen)", "answer": ["geschlafen"], "explain": "schlafen → geschlafen (irregular, ge- … -en)." },
-    { "type": "gap", "q": "Sie hat mich ___. (besuchen)", "answer": ["besucht"], "explain": "Verbs with the inseparable prefix be- have no ge-: besucht." },
+    { "type": "gap", "q": "Ich habe die Rechnung gestern ___. (bezahlen)", "answer": ["bezahlt"], "explain": "Verbs with the inseparable prefix be- have no ge-: bezahlt." },
     { "type": "gap", "q": "Ich bin um sieben Uhr ___. (aufstehen)", "answer": ["aufgestanden"], "explain": "Separable: ge- goes between the prefix and the stem: aufgestanden." },
     { "type": "mc", "q": "Which auxiliary: \"Ich ___ zu Hause geblieben.\"?", "options": ["habe", "bin", "hat"], "answer": 1, "explain": "bleiben always uses sein: ich bin geblieben." },
     { "type": "mc", "q": "Which Partizip II is correct for \"telefonieren\"?", "options": ["getelefoniert", "telefoniert", "telefonigt"], "answer": 1, "explain": "Verbs ending in -ieren have no ge-." },
     { "type": "mc", "q": "Which sentence is correct?", "options": ["Ich gespielt habe Fußball.", "Ich habe Fußball gespielt.", "Ich habe gespielt Fußball."], "answer": 1, "explain": "habe in position 2, Partizip II at the very end." },
     { "type": "match", "pairs": [["gehen", "ist gegangen"], ["essen", "hat gegessen"], ["machen", "hat gemacht"], ["bleiben", "ist geblieben"], ["sehen", "hat gesehen"]], "explain": "Learn each verb with haben or sein and its Partizip II." },
     { "type": "order", "words": ["habe", "Ich", "am Samstag", "Fußball", "gespielt"], "answer": "Ich habe am Samstag Fußball gespielt", "explain": "habe in position 2 and the Partizip II at the end." },
-    { "type": "order", "words": ["sind", "Wir", "nach Köln", "gefahren"], "answer": "Wir sind nach Köln gefahren", "explain": "fahren expresses movement, so sein is the auxiliary." },
+    { "type": "order", "words": ["sind", "Die Kinder", "zur Schule", "gelaufen"], "answer": "Die Kinder sind zur Schule gelaufen", "explain": "laufen expresses movement, so sein is the auxiliary." },
     { "type": "order", "words": ["habe", "Am Sonntag", "ich", "lange", "geschlafen"], "answer": "Am Sonntag habe ich lange geschlafen", "explain": "With a time word first, the auxiliary stays in position 2 and the subject follows." },
-    { "type": "translate", "en": "Yesterday I met friends.", "answer": ["Gestern habe ich Freunde getroffen", "Ich habe gestern Freunde getroffen"], "explain": "treffen → hat getroffen (haben). The Partizip II goes to the end." },
+    { "type": "translate", "en": "On Saturday we cooked together.", "answer": ["Am Samstag haben wir zusammen gekocht", "Wir haben am Samstag zusammen gekocht"], "explain": "kochen → hat gekocht (haben). The Partizip II goes to the end; with a time word first the auxiliary stays in position 2." },
     { "type": "translate", "en": "We stayed at home.", "answer": ["Wir sind zu Hause geblieben", "Wir sind zuhause geblieben"], "explain": "bleiben uses sein: wir sind geblieben." }
   ],
   "speak": {

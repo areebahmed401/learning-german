@@ -206,36 +206,36 @@
   "exercises": [
     {
       "type": "mc",
-      "q": "Das Problem ___ sich schnell lösen.",
+      "q": "Der Raum ___ sich im Winter kaum heizen.",
       "options": [
         "lässt",
         "kann",
         "wird"
       ],
       "answer": 0,
-      "explain": "Sich lassen + Infinitiv replaces the passive: Das Problem lässt sich lösen."
+      "explain": "Sich lassen + Infinitiv replaces the passive: Der Raum lässt sich heizen."
     },
     {
       "type": "mc",
-      "q": "\"Dieser Fehler ist vermeidbar\" bedeutet:",
+      "q": "\"Dieser Vertrag ist jederzeit kündbar\" bedeutet:",
       "options": [
-        "Der Fehler muss vermieden werden.",
-        "Der Fehler kann vermieden werden.",
-        "Der Fehler wurde vermieden."
+        "Der Vertrag muss gekündigt werden.",
+        "Der Vertrag kann jederzeit gekündigt werden.",
+        "Der Vertrag wurde gekündigt."
       ],
       "answer": 1,
-      "explain": "-bar means \"can be …-ed\": vermeidbar = kann vermieden werden."
+      "explain": "-bar means \"can be …-ed\": kündbar = kann gekündigt werden."
     },
     {
       "type": "mc",
-      "q": "\"Die Frist ist unbedingt einzuhalten.\" bedeutet:",
+      "q": "\"Das Formular ist bis Montag abzugeben.\" bedeutet:",
       "options": [
-        "Die Frist kann eingehalten werden.",
-        "Die Frist muss eingehalten werden.",
-        "Die Frist wurde eingehalten."
+        "Das Formular kann abgegeben werden.",
+        "Das Formular muss abgegeben werden.",
+        "Das Formular wurde abgegeben."
       ],
       "answer": 1,
-      "explain": "Sein + zu can mean an obligation; unbedingt shows that it is a must."
+      "explain": "Sein + zu can mean an obligation; the deadline (bis Montag) shows that it is a must."
     },
     {
       "type": "gap",
@@ -255,7 +255,7 @@
     },
     {
       "type": "gap",
-      "q": "Es bleibt noch viel ___ tun.",
+      "q": "Bis zum Umzug bleibt noch einiges ___ erledigen.",
       "answer": [
         "zu"
       ],
@@ -335,12 +335,12 @@
     },
     {
       "type": "translate",
-      "en": "The problem can be solved easily.",
+      "en": "The invoice can be paid online.",
       "answer": [
-        "Das Problem lässt sich leicht lösen",
-        "Das Problem lässt sich einfach lösen",
-        "Das Problem ist leicht lösbar",
-        "Das Problem kann leicht gelöst werden"
+        "Die Rechnung lässt sich online bezahlen",
+        "Die Rechnung ist online bezahlbar",
+        "Die Rechnung kann online bezahlt werden",
+        "Die Rechnung lässt sich im Internet bezahlen"
       ],
       "explain": "Passive alternatives: sich lassen, -bar or the passive with können."
     },

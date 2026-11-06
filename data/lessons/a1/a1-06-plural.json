@@ -108,19 +108,19 @@
     ]
   },
   "exercises": [
-    { "type": "gap", "q": "Die Wohnung hat zwei ___. (Zimmer)", "answer": ["Zimmer"], "explain": "Neuter nouns ending in -er do not change in the plural." },
-    { "type": "gap", "q": "Wir brauchen vier ___. (Stuhl)", "answer": ["Stühle"], "explain": "Stuhl → Stühle: -e plus an umlaut." },
-    { "type": "gap", "q": "In der WG gibt es drei ___. (Bett)", "answer": ["Betten"], "explain": "Bett → Betten: -en." },
+    { "type": "gap", "q": "Das Büro hat drei große ___. (Fenster)", "answer": ["Fenster"], "explain": "Nouns ending in -er do not change in the plural." },
+    { "type": "gap", "q": "In der Küche stehen zwei ___. (Schrank)", "answer": ["Schränke"], "explain": "Schrank → Schränke: -e plus an umlaut." },
+    { "type": "gap", "q": "In unserer Straße wohnen viele ___. (Familie)", "answer": ["Familien"], "explain": "Feminine nouns take -n or -en: die Familie → die Familien." },
     { "type": "gap", "q": "Die ___ sind neu. (Lampe)", "answer": ["Lampen"], "explain": "Feminine nouns ending in -e take -n: die Lampen." },
-    { "type": "gap", "q": "Wo sind meine ___? (Schlüssel)", "answer": ["Schlüssel"], "explain": "Nouns ending in -el stay the same in the plural." },
+    { "type": "gap", "q": "Im Schrank liegen sechs ___. (Löffel)", "answer": ["Löffel"], "explain": "Nouns ending in -el stay the same in the plural." },
     { "type": "mc", "q": "What is the plural of \"das Haus\"?", "options": ["die Haus", "die Häuser", "die Hauser"], "answer": 1, "explain": "Haus takes -er plus an umlaut: die Häuser." },
     { "type": "mc", "q": "What is the plural of \"das Sofa\"?", "options": ["die Sofas", "die Sofen", "die Söfer"], "answer": 0, "explain": "Words from other languages often take -s: die Sofas." },
     { "type": "mc", "q": "Which article do ALL plural nouns take?", "options": ["der", "die", "das"], "answer": 1, "explain": "In the plural the article is always die: die Tische, die Betten." },
     { "type": "article", "word": "Wohnung", "answer": "die", "explain": "Nouns ending in -ung are feminine." },
     { "type": "article", "word": "Balkon", "answer": "der", "explain": "Balkon is masculine: der Balkon, die Balkone." },
     { "type": "match", "pairs": [["der Schrank", "die Schränke"], ["das Bad", "die Bäder"], ["die Tür", "die Türen"], ["das Fenster", "die Fenster"], ["der Tisch", "die Tische"]], "explain": "Learn each plural together with the noun; there is no perfect rule." },
-    { "type": "order", "words": ["hat", "Die Wohnung", "zwei Zimmer"], "answer": "Die Wohnung hat zwei Zimmer", "explain": "Subject, verb in position 2, then the object." },
-    { "type": "translate", "en": "The apartment has three rooms and two balconies.", "answer": ["Die Wohnung hat drei Zimmer und zwei Balkone"], "explain": "Zimmer stays Zimmer, Balkon → Balkone. After a number the noun is plural." }
+    { "type": "order", "words": ["hat", "Unsere WG", "drei Bäder"], "answer": "Unsere WG hat drei Bäder", "explain": "Subject, verb in position 2, then the object. After a number the noun is plural." },
+    { "type": "translate", "en": "My friends have three cats and two dogs.", "answer": ["Meine Freunde haben drei Katzen und zwei Hunde"], "explain": "Katze → Katzen (-n/-en), Hund → Hunde (-e). After a number the noun is plural." }
   ],
   "speak": {
     "shadow": [

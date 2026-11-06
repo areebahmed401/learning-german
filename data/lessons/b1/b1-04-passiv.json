@@ -93,11 +93,11 @@
     ]
   },
   "exercises": [
-    { "type": "mc", "q": "Der Müll ___ jeden Dienstag abgeholt.", "options": ["wird", "werden", "ist"], "answer": 0, "explain": "Müll is singular, so werden becomes wird: Der Müll wird abgeholt." },
+    { "type": "mc", "q": "Die Anträge ___ im Bürgeramt bearbeitet.", "options": ["werden", "wird", "sind"], "answer": 0, "explain": "Anträge is plural, so the passive uses werden: Die Anträge werden bearbeitet." },
     { "type": "mc", "q": "Man entsorgt die Batterien im Supermarkt. → Passiv:", "options": ["Die Batterien werden im Supermarkt entsorgt.", "Die Batterien wurden im Supermarkt entsorgen.", "Man wird die Batterien im Supermarkt entsorgt."], "answer": 0, "explain": "The accusative object becomes the subject (die Batterien, plural → werden), and man disappears." },
-    { "type": "mc", "q": "Das Gebäude wurde ___ einem Architekten geplant.", "options": ["von", "durch", "mit"], "answer": 0, "explain": "A person who acts on purpose is introduced by von + Dativ: von einem Architekten." },
+    { "type": "mc", "q": "Das Paket wurde ___ einem Nachbarn angenommen.", "options": ["von", "durch", "mit"], "answer": 0, "explain": "A person who acts on purpose is introduced by von + Dativ: von einem Nachbarn." },
     { "type": "gap", "q": "Die Autos ___ in der Werkstatt repariert.", "answer": ["werden"], "explain": "Autos is plural → werden + Partizip II (repariert)." },
-    { "type": "gap", "q": "Früher ___ viel Papier weggeworfen.", "answer": ["wurde"], "explain": "Past passive of a singular subject (viel Papier): wurde + Partizip II." },
+    { "type": "gap", "q": "Gestern ___ der Strom im ganzen Viertel abgestellt.", "answer": ["wurde"], "explain": "Past passive of a singular subject (der Strom): wurde + Partizip II." },
     { "type": "gap", "q": "Die Solaranlage ___ 2019 auf dem Dach installiert.", "answer": ["wurde"], "explain": "Solaranlage is singular, and 2019 is in the past → wurde installiert." },
     { "type": "article", "word": "Umwelt", "answer": "die", "explain": "Umwelt is feminine: die Umwelt (it also has no plural)." },
     { "type": "article", "word": "Windrad", "answer": "das", "explain": "The last part decides: das Rad → das Windrad." },

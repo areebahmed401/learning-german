@@ -94,19 +94,19 @@
     ]
   },
   "exercises": [
-    { "type": "mc", "q": "Die Lampe steht auf ___ Tisch.", "options": ["dem", "den", "der"], "answer": 0, "explain": "The lamp stands there, no movement → Wo? → Dativ: auf dem Tisch (masculine)." },
-    { "type": "mc", "q": "Ich stelle die Lampe auf ___ Schreibtisch.", "options": ["den", "dem", "der"], "answer": 0, "explain": "stellen is movement to a new place → Wohin? → Akkusativ: auf den Schreibtisch." },
+    { "type": "mc", "q": "Das Fahrrad steht vor ___ Haus.", "options": ["dem", "das", "den"], "answer": 0, "explain": "The bike stands there, no movement → Wo? → Dativ: vor dem Haus (neuter)." },
+    { "type": "mc", "q": "Er legt die Zeitung neben ___ Computer.", "options": ["den", "dem", "der"], "answer": 0, "explain": "legen is movement to a new place → Wohin? → Akkusativ: neben den Computer (masculine)." },
     { "type": "mc", "q": "Das Handy ___ auf dem Sofa.", "options": ["liegt", "legt", "stellt"], "answer": 0, "explain": "A flat object that is simply there: liegen (position, Dativ). legen means to put it there." },
     { "type": "gap", "q": "Ich lege die Jacke auf ___ Bett.", "answer": ["das"], "explain": "legen = movement → Akkusativ. Bett is neuter: das." },
-    { "type": "gap", "q": "Der Teppich liegt vor ___ Sofa.", "answer": ["dem"], "explain": "liegen = position → Dativ. Sofa is neuter: dem Sofa." },
-    { "type": "gap", "q": "Wir stellen den Schrank in ___ Schlafzimmer.", "answer": ["das"], "explain": "stellen = movement → Akkusativ. Schlafzimmer is neuter: in das Schlafzimmer (ins Schlafzimmer)." },
+    { "type": "gap", "q": "Die Katze sitzt hinter ___ Tür.", "answer": ["der"], "explain": "sitzen = position → Dativ. Tür is feminine: der Tür." },
+    { "type": "gap", "q": "Ich werfe den Brief in ___ Briefkasten.", "answer": ["den"], "explain": "werfen = movement → Akkusativ. Briefkasten is masculine: in den Briefkasten." },
     { "type": "article", "word": "Regal", "answer": "das", "explain": "das Regal, plural die Regale." },
     { "type": "article", "word": "Flur", "answer": "der", "explain": "der Flur, plural die Flure." },
-    { "type": "order", "words": ["Ich", "stelle", "das Sofa", "an die Wand"], "answer": "Ich stelle das Sofa an die Wand", "explain": "Movement: stellen + Akkusativ. Wand is feminine: an die Wand." },
-    { "type": "order", "words": ["Das Regal", "steht", "im Wohnzimmer", "neben dem Fenster"], "answer": "Das Regal steht im Wohnzimmer neben dem Fenster", "explain": "Position: Dativ after stehen. Both im (in dem) and neben dem are dative." },
+    { "type": "order", "words": ["Er", "stellt", "das Fahrrad", "in den Keller"], "answer": "Er stellt das Fahrrad in den Keller", "explain": "Movement: stellen + Akkusativ. Keller is masculine: in den Keller." },
+    { "type": "order", "words": ["Der Schlüssel", "liegt", "im Flur", "neben der Tür"], "answer": "Der Schlüssel liegt im Flur neben der Tür", "explain": "Position: Dativ after liegen. Both im (in dem) and neben der are dative." },
     { "type": "match", "pairs": [["stellen", "wohin? (upright)"], ["stehen", "wo? (upright)"], ["legen", "wohin? (flat)"], ["liegen", "wo? (flat)"], ["setzen", "wohin? (sitting)"]], "explain": "Verbs with movement (stellen, legen, setzen) take Akkusativ; the position verbs take Dativ." },
-    { "type": "translate", "en": "The picture is hanging on the wall.", "answer": ["Das Bild hängt an der Wand"], "explain": "Position → Dativ: an der Wand (feminine)." },
-    { "type": "translate", "en": "I am hanging the picture on the wall.", "answer": ["Ich hänge das Bild an die Wand"], "explain": "Movement (hanging it up) → Akkusativ: an die Wand (feminine)." }
+    { "type": "translate", "en": "The mirror is hanging above the sofa.", "answer": ["Der Spiegel hängt über dem Sofa", "Der Spiegel hängt über der Couch"], "explain": "Position → Dativ: über dem Sofa (neuter) or über der Couch (feminine)." },
+    { "type": "translate", "en": "I am hanging the mirror above the sofa.", "answer": ["Ich hänge den Spiegel über das Sofa", "Ich hänge den Spiegel über die Couch"], "explain": "Movement (hanging it up) → Akkusativ: über das Sofa (neuter) or über die Couch (feminine)." }
   ],
   "speak": {
     "shadow": [

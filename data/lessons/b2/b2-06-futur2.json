@@ -195,11 +195,11 @@
     },
     {
       "type": "mc",
-      "q": "Ich glaube, dass die KI viele Jobs ___.",
+      "q": "Ich denke, dass der Kunde die Rechnung längst ___.",
       "options": [
-        "verändert haben wird",
-        "wird verändert haben",
-        "verändert wird haben"
+        "bezahlt haben wird",
+        "wird bezahlt haben",
+        "bezahlt wird haben"
       ],
       "answer": 0,
       "explain": "In a subordinate clause the conjugated werden goes last."
@@ -222,11 +222,11 @@
     },
     {
       "type": "gap",
-      "q": "Er antwortet nicht. Er wird die Nachricht noch nicht gelesen ___.",
+      "q": "Der Zug steht seit einer Stunde. Es wird wohl einen Defekt gegeben ___.",
       "answer": [
         "haben"
       ],
-      "explain": "Lesen takes haben: gelesen haben."
+      "explain": "Geben takes haben: gegeben haben (Infinitiv Perfekt)."
     },
     {
       "type": "article",
@@ -243,15 +243,15 @@
     {
       "type": "order",
       "words": [
-        "verpasst",
-        "haben",
-        "Zug",
-        "den",
+        "angekommen",
+        "sein",
+        "Paket",
         "wird",
-        "Er"
+        "schon",
+        "Das"
       ],
-      "answer": "Er wird den Zug verpasst haben",
-      "explain": "Wird in position 2; the Infinitiv Perfekt verpasst haben stands at the end."
+      "answer": "Das Paket wird schon angekommen sein",
+      "explain": "Wird in position 2; the Infinitiv Perfekt angekommen sein (ankommen takes sein) stands at the end."
     },
     {
       "type": "order",
@@ -271,19 +271,21 @@
     {
       "type": "order",
       "words": [
-        "die",
-        "Prüfung",
-        "der",
-        "Student",
-        "wird",
+        "das",
+        "Wir",
+        "den",
+        "hoffen,",
+        "Team",
+        "Test",
+        "bis",
         "dass",
-        "bestanden",
-        "Ich",
+        "Freitag",
+        "beendet",
         "haben",
-        "glaube,"
+        "wird"
       ],
-      "answer": "Ich glaube, dass der Student die Prüfung bestanden haben wird",
-      "explain": "Subordinate clause: the finite verb wird comes last."
+      "answer": "Wir hoffen, dass das Team den Test bis Freitag beendet haben wird",
+      "explain": "Subordinate clause: the finite verb wird comes last, after the Infinitiv Perfekt beendet haben."
     },
     {
       "type": "match",
@@ -313,12 +315,12 @@
     },
     {
       "type": "translate",
-      "en": "She has probably read the email already.",
+      "en": "The students have probably already written the exam.",
       "answer": [
-        "Sie wird die E-Mail wohl schon gelesen haben",
-        "Sie wird die Mail wohl schon gelesen haben",
-        "Sie wird die E-Mail schon gelesen haben",
-        "Sie wird die Mail schon gelesen haben"
+        "Die Studenten werden die Klausur wohl schon geschrieben haben",
+        "Die Studenten werden die Klausur schon geschrieben haben",
+        "Die Studierenden werden die Klausur wohl schon geschrieben haben",
+        "Die Studierenden werden die Klausur schon geschrieben haben"
       ],
       "explain": "A guess about the past: Futur II, often with wohl."
     },

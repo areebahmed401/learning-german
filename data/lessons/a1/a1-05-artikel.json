@@ -105,14 +105,14 @@
     { "type": "article", "word": "Zeitung", "answer": "die", "explain": "Nouns ending in -ung are always feminine." },
     { "type": "article", "word": "Familie", "answer": "die", "explain": "Most nouns ending in -e are feminine." },
     { "type": "article", "word": "Kind", "answer": "das", "explain": "Young beings are often neuter: das Kind, das Baby." },
-    { "type": "mc", "q": "Ich habe ___ Schwester.", "options": ["ein", "eine", "einen"], "answer": 1, "explain": "Schwester is feminine (die Schwester) → eine." },
+    { "type": "mc", "q": "Meine Nachbarn haben ___ Katze.", "options": ["ein", "eine", "einen"], "answer": 1, "explain": "Katze is feminine (die Katze) → eine." },
     { "type": "mc", "q": "Which article do ALL plural nouns take?", "options": ["der", "die", "das"], "answer": 1, "explain": "Plural is always die: die Kinder, die Väter, die Mütter." },
-    { "type": "gap", "q": "Da ist ein Baby. ___ Baby schläft.", "answer": ["Das"], "explain": "Second mention → definite article. Baby is neuter: das Baby." },
-    { "type": "gap", "q": "Das ist ___ Onkel von Tim.", "answer": ["der"], "explain": "Onkel is masculine: der Onkel." },
+    { "type": "gap", "q": "Im Zimmer steht ein Bett. ___ Bett ist sehr groß.", "answer": ["Das"], "explain": "Second mention → definite article. Bett is neuter: das Bett." },
+    { "type": "gap", "q": "Wer ist ___ Frau am Telefon?", "answer": ["die"], "explain": "Frau is feminine: die Frau." },
     { "type": "mc", "q": "das Haus + die Tür = ___ Haustür", "options": ["der", "die", "das"], "answer": 1, "explain": "In compounds the last word decides: die Tür → die Haustür." },
     { "type": "match", "pairs": [["die Tochter", "daughter"], ["der Sohn", "son"], ["die Eltern", "parents"], ["die Geschwister", "siblings"], ["der Opa", "grandpa"]], "explain": "Learn each noun with its article as one unit." },
-    { "type": "order", "words": ["eine", "Ich", "Tante", "habe", "in Berlin"], "answer": "Ich habe eine Tante in Berlin", "explain": "Statement: subject, then the verb in position 2, then the rest." },
-    { "type": "translate", "en": "The grandmother lives in Hamburg.", "answer": ["Die Großmutter wohnt in Hamburg", "Die Oma wohnt in Hamburg"], "explain": "Großmutter is feminine → die. wohnen → sie wohnt." }
+    { "type": "order", "words": ["hat", "Restaurant", "in Köln", "ein", "Mein Onkel"], "answer": "Mein Onkel hat ein Restaurant in Köln", "explain": "Statement: subject (Mein Onkel), then the verb in position 2, then the rest." },
+    { "type": "translate", "en": "The child has a dog and a cat.", "answer": ["Das Kind hat einen Hund und eine Katze"], "explain": "Kind is neuter → das Kind. After haben, masculine Hund takes einen and feminine Katze takes eine." }
   ],
   "speak": {
     "shadow": [

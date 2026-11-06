@@ -101,19 +101,19 @@
     ]
   },
   "exercises": [
-    { "type": "gap", "q": "Ich stehe um sieben Uhr ___. (aufstehen)", "answer": ["auf"], "explain": "The prefix auf goes to the end of the main clause." },
+    { "type": "gap", "q": "Meine Mitbewohnerin räumt jeden Abend die Küche ___. (aufräumen)", "answer": ["auf"], "explain": "The prefix auf goes to the end of the main clause: räumt … auf." },
     { "type": "gap", "q": "Wir kaufen am Samstag ___. (einkaufen)", "answer": ["ein"], "explain": "einkaufen separates: kaufen … ein." },
     { "type": "gap", "q": "Der Zug ___ um acht Uhr ab. (abfahren)", "answer": ["fährt"], "explain": "fahren changes a → ä with er/sie/es: fährt … ab." },
-    { "type": "gap", "q": "Kommst du ___? (mitkommen)", "answer": ["mit"], "explain": "In questions the prefix also goes to the end." },
+    { "type": "gap", "q": "Fährst du am Samstag nach Köln ___? (mitfahren)", "answer": ["mit"], "explain": "In questions the prefix also goes to the end." },
     { "type": "gap", "q": "Ich muss früh ___. (aufstehen)", "answer": ["aufstehen"], "explain": "With a modal verb the separable verb stays together in the infinitive." },
     { "type": "mc", "q": "Which sentence is correct?", "options": ["Ich aufstehe um sechs Uhr.", "Ich stehe um sechs Uhr auf.", "Ich stehe auf um sechs Uhr."], "answer": 1, "explain": "Conjugated verb in position 2, prefix at the very end." },
     { "type": "mc", "q": "Which verb is NOT separable?", "options": ["anrufen", "verstehen", "einsteigen"], "answer": 1, "explain": "ver- is an inseparable prefix: Ich verstehe das nicht." },
     { "type": "mc", "q": "\"Der Kurs fängt um neun an.\" Which infinitive is it?", "options": ["fangen an", "anfangen", "angefangen"], "answer": 1, "explain": "The infinitive is anfangen; the prefix an goes to the end." },
     { "type": "match", "pairs": [["aufstehen", "to get up"], ["einkaufen", "to shop"], ["ankommen", "to arrive"], ["abfahren", "to depart"], ["fernsehen", "to watch TV"]], "explain": "Separable verbs: prefix + verb. The prefix changes the meaning." },
-    { "type": "order", "words": ["stehe", "Ich", "um sieben Uhr", "auf"], "answer": "Ich stehe um sieben Uhr auf", "explain": "Verb in position 2 and the prefix auf at the very end." },
+    { "type": "order", "words": ["sehen", "Wir", "abends", "fern"], "answer": "Wir sehen abends fern", "explain": "Verb in position 2 and the prefix fern at the very end." },
     { "type": "order", "words": ["Wann", "du", "stehst", "auf"], "answer": "Wann stehst du auf", "explain": "W-question: question word, verb, subject, and then the prefix at the end." },
-    { "type": "order", "words": ["in Köln", "Wir", "aus", "steigen"], "answer": "Wir steigen in Köln aus", "explain": "steigen … aus: the prefix aus goes last." },
-    { "type": "translate", "en": "The train arrives at nine o'clock.", "answer": ["Der Zug kommt um neun Uhr an", "Der Zug kommt um neun an"], "explain": "ankommen is separable: kommt … an." },
+    { "type": "order", "words": ["steige", "Ich", "in Frankfurt", "um"], "answer": "Ich steige in Frankfurt um", "explain": "umsteigen separates: steige … um, the prefix um goes last." },
+    { "type": "translate", "en": "The supermarket opens at eight o'clock.", "answer": ["Der Supermarkt macht um acht Uhr auf", "Der Supermarkt macht um acht auf", "Der Supermarkt öffnet um acht Uhr", "Der Supermarkt öffnet um acht"], "explain": "aufmachen is separable: macht … auf. (öffnen means the same and is not separable.)" },
     { "type": "translate", "en": "I have to shop today.", "answer": ["Ich muss heute einkaufen", "Heute muss ich einkaufen"], "explain": "With the modal müssen, einkaufen stays together at the end." }
   ],
   "speak": {

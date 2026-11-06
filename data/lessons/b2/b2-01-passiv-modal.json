@@ -212,14 +212,14 @@
     },
     {
       "type": "mc",
-      "q": "Die Pumpe ist gestern ___.",
+      "q": "Der Antrag ist letzte Woche ___.",
       "options": [
-        "repariert geworden",
-        "repariert worden",
-        "reparieren worden"
+        "bewilligt geworden",
+        "bewilligt worden",
+        "bewilligen worden"
       ],
       "answer": 1,
-      "explain": "The Perfekt Passiv ends in Partizip II + worden. Geworden is only the full verb werden."
+      "explain": "The Perfekt Passiv ends in Partizip II + worden. Geworden is only the full verb werden (to become)."
     },
     {
       "type": "mc",
@@ -234,11 +234,11 @@
     },
     {
       "type": "gap",
-      "q": "Das Gerät darf nicht geöffnet ___.",
+      "q": "Die Rechnung muss bis Montag bezahlt ___.",
       "answer": [
         "werden"
       ],
-      "explain": "Modal passive: dürfen + Partizip II + werden."
+      "explain": "Modal passive: müssen + Partizip II + werden."
     },
     {
       "type": "gap",
@@ -250,11 +250,11 @@
     },
     {
       "type": "gap",
-      "q": "Alle Teile sind vor der Lieferung geprüft ___.",
+      "q": "Letzten Winter ist unsere Straße wochenlang nicht geräumt ___.",
       "answer": [
         "worden"
       ],
-      "explain": "Perfekt Passiv: sind … geprüft worden."
+      "explain": "Perfekt Passiv: ist … geräumt worden."
     },
     {
       "type": "article",
@@ -284,15 +284,17 @@
     {
       "type": "order",
       "words": [
-        "saniert",
+        "umgebaut",
         "ist",
-        "Brücke",
-        "2018",
+        "Bahnhof",
+        "Jahren",
         "worden",
-        "Die"
+        "Der",
+        "vor",
+        "zwei"
       ],
-      "answer": "Die Brücke ist 2018 saniert worden",
-      "explain": "Perfekt Passiv: ist in position 2, saniert worden at the end."
+      "answer": "Der Bahnhof ist vor zwei Jahren umgebaut worden",
+      "explain": "Perfekt Passiv: ist in position 2, umgebaut worden at the end."
     },
     {
       "type": "match",
@@ -330,12 +332,14 @@
     },
     {
       "type": "translate",
-      "en": "The plant has been checked.",
+      "en": "The letter has been sent.",
       "answer": [
-        "Die Anlage ist geprüft worden",
-        "Die Anlage wurde geprüft"
+        "Der Brief ist abgeschickt worden",
+        "Der Brief wurde abgeschickt",
+        "Der Brief ist verschickt worden",
+        "Der Brief wurde verschickt"
       ],
-      "explain": "Perfekt Passiv: ist geprüft worden (Präteritum wurde geprüft is also fine in a report)."
+      "explain": "Perfekt Passiv: ist abgeschickt worden (Präteritum wurde abgeschickt is also fine in a report)."
     }
   ],
   "speak": {

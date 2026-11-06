@@ -111,8 +111,8 @@
     { "type": "mc", "q": "Gestern ___ ich nach Köln gefahren.", "options": ["bin", "habe", "war"], "answer": 0, "explain": "fahren is a movement verb (A → B) without an object, so it takes sein: ich bin gefahren." },
     { "type": "mc", "q": "What is the Partizip II of 'aufstehen'?", "options": ["aufgestanden", "geaufstanden", "aufgestehen"], "answer": 0, "explain": "Separable verb: the ge- goes between prefix and stem (auf + ge + standen). Stehen is irregular, so -en." },
     { "type": "mc", "q": "Which sentence is correct?", "options": ["Wir haben in einem Hotel übernachtet.", "Wir sind in einem Hotel übernachtet.", "Wir haben in einem Hotel geübernachtet."], "answer": 0, "explain": "übernachten is inseparable (über-), so no ge-, and it is not a movement verb, so haben." },
-    { "type": "gap", "q": "Der Zug ist pünktlich ___. (ankommen)", "answer": ["angekommen"], "explain": "Separable verb: an + ge + kommen = angekommen; ankommen takes sein." },
-    { "type": "gap", "q": "Ich habe die Fahrkarte online ___. (buchen)", "answer": ["gebucht"], "explain": "buchen is regular: ge- + buch + -t." },
+    { "type": "gap", "q": "Die Kinder sind schon um neun Uhr ___. (einschlafen)", "answer": ["eingeschlafen"], "explain": "Separable verb: ein + ge + schlafen = eingeschlafen; einschlafen is a change of state, so it takes sein." },
+    { "type": "gap", "q": "Meine Mitbewohnerin hat das Bad gestern ___. (putzen)", "answer": ["geputzt"], "explain": "putzen is regular: ge- + putz + -t, with haben." },
     { "type": "gap", "q": "Wir ___ am Wochenende nach Hamburg gefahren.", "answer": ["sind"], "explain": "Movement from A to B (nach Hamburg) → sein: wir sind gefahren." },
     { "type": "article", "word": "Koffer", "answer": "der", "explain": "Many nouns ending in -er for objects are masculine: der Koffer." },
     { "type": "article", "word": "Reise", "answer": "die", "explain": "Most nouns ending in -e are feminine: die Reise." },
@@ -120,7 +120,7 @@
     { "type": "order", "words": ["Gestern", "habe", "ich", "den Koffer", "gepackt"], "answer": "Gestern habe ich den Koffer gepackt", "explain": "With a time word first, the verb stays in position 2 and the subject follows: Gestern habe ich …" },
     { "type": "match", "pairs": [["fliegen", "ist geflogen"], ["buchen", "hat gebucht"], ["ankommen", "ist angekommen"], ["besichtigen", "hat besichtigt"], ["bleiben", "ist geblieben"]], "explain": "Learn the auxiliary together with the participle: movement and change use sein, most others haben." },
     { "type": "translate", "en": "We took the train to Munich.", "answer": ["Wir sind mit dem Zug nach München gefahren", "Wir sind nach München mit dem Zug gefahren", "Wir haben den Zug nach München genommen"], "explain": "Most natural: sein + gefahren (movement). nehmen takes haben: Wir haben den Zug genommen." },
-    { "type": "translate", "en": "I did not sleep well in the hotel.", "answer": ["Ich habe im Hotel nicht gut geschlafen", "Ich habe nicht gut im Hotel geschlafen"], "explain": "schlafen is not a movement or change verb → haben. nicht comes before the Partizip II area." }
+    { "type": "translate", "en": "I did not understand the doctor.", "answer": ["Ich habe den Arzt nicht verstanden", "Den Arzt habe ich nicht verstanden"], "explain": "verstehen starts with the inseparable prefix ver-, so there is no ge-: verstanden. It has an object, so haben. nicht comes before the Partizip II." }
   ],
   "speak": {
     "shadow": [

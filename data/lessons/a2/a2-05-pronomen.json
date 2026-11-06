@@ -94,15 +94,15 @@
   "exercises": [
     { "type": "gap", "q": "Ich kenne Anna schon lange. Ich mag ___ sehr.", "answer": ["sie"], "explain": "mögen takes the Akkusativ. Anna is feminine: sie stays sie in the Akkusativ." },
     { "type": "gap", "q": "Mein Bruder ist krank. Ich rufe ___ heute an.", "answer": ["ihn"], "explain": "anrufen takes the Akkusativ: er → ihn." },
-    { "type": "gap", "q": "Kannst du ___ bitte helfen? (me)", "answer": ["mir"], "explain": "helfen takes the Dativ: ich → mir." },
+    { "type": "gap", "q": "Der Kaffee schmeckt ___ sehr gut. (her)", "answer": ["ihr"], "explain": "schmecken takes the Dativ: sie → ihr." },
     { "type": "gap", "q": "Peter hat Geburtstag. Ich schenke ___ ein Buch.", "answer": ["ihm"], "explain": "The person who receives is in the Dativ: er → ihm." },
     { "type": "mc", "q": "Die Kollegin ist nett. Ich helfe ___ gern.", "options": ["ihr", "sie", "ihm"], "answer": 0, "explain": "helfen takes the Dativ; sie (she) in the Dativ is ihr." },
-    { "type": "mc", "q": "Ich gebe ___ dir morgen.", "options": ["es", "ihm", "ihn"], "answer": 0, "explain": "Two pronouns: Akkusativ (es) before Dativ (dir): Ich gebe es dir." },
+    { "type": "mc", "q": "Ich habe die Karte gekauft und schicke ___ dir heute Abend.", "options": ["sie", "ihr", "ihn"], "answer": 0, "explain": "die Karte → sie (Akkusativ). Two pronouns: Akkusativ (sie) before Dativ (dir)." },
     { "type": "mc", "q": "Kommt ihr heute? Wir holen ___ vom Bahnhof ab.", "options": ["euch", "ihr", "uns"], "answer": 0, "explain": "abholen takes the Akkusativ. ihr (you, plural) in the Akkusativ is euch." },
     { "type": "article", "word": "Nachbar", "answer": "der", "explain": "Male people are masculine: der Nachbar." },
     { "type": "article", "word": "Beziehung", "answer": "die", "explain": "Nouns ending in -ung are feminine." },
     { "type": "order", "words": ["gesehen", "ihn", "heute", "im Zug", "Ich", "habe"], "answer": "Ich habe ihn heute im Zug gesehen", "explain": "Perfekt: haben in position 2, Partizip II at the end. The pronoun ihn comes early." },
-    { "type": "order", "words": ["zeige", "Ich", "es", "später", "dir"], "answer": "Ich zeige es dir später", "explain": "Two pronouns: Akkusativ before Dativ." },
+    { "type": "order", "words": ["schickt", "Sie", "es", "uns", "am Montag"], "answer": "Sie schickt es uns am Montag", "explain": "Two pronouns: Akkusativ before Dativ." },
     { "type": "match", "pairs": [["ich", "mich / mir"], ["er", "ihn / ihm"], ["sie (she)", "sie / ihr"], ["wir", "uns / uns"], ["ihr", "euch / euch"]], "explain": "Akkusativ and Dativ are identical for wir and ihr." },
     { "type": "translate", "en": "I can hear you.", "answer": ["Ich kann dich hören", "Ich kann euch hören", "Ich kann Sie hören", "Ich höre dich", "Ich höre euch", "Ich höre Sie"], "explain": "hören takes the Akkusativ: du → dich. (euch / Sie work for plural and formal.) With kann the infinitive hören goes to the end." },
     { "type": "translate", "en": "I am giving her the key.", "answer": ["Ich gebe ihr den Schlüssel", "Ich gebe ihr die Schlüssel"], "explain": "The person is in the Dativ (ihr), the thing in the Akkusativ (den Schlüssel)." }
