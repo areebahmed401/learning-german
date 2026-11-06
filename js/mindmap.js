@@ -3,7 +3,7 @@
 const NS = 'http://www.w3.org/2000/svg';
 const GAP_X = 46;
 const GAP_Y = 10;
-const PALETTE = ['var(--accent)', 'var(--der)', 'var(--die)', 'var(--das)', 'var(--gold)', '#8a6bd1'];
+const PALETTE = ['var(--accent)', 'var(--der)', 'var(--die)', 'var(--das)', '#e07b39', '#8a6bd1'];
 
 const s = (tag, attrs = {}, text) => {
   const el = document.createElementNS(NS, tag);
