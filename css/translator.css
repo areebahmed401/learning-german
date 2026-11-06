@@ -31,7 +31,7 @@
 .tr .tr-chip { background: var(--surface-2); color: var(--muted); border-radius: 999px; padding: 0.1rem 0.55rem; font-size: 0.72rem; }
 .tr .tr-chip-src { background: var(--accent-soft); color: var(--text); }
 .tr .tr-chip-online { border: 1px dashed var(--line); background: transparent; }
-.tr .tr-toggle { margin-left: auto; border: 0; background: transparent; color: var(--accent); font: inherit; font-size: 0.82rem; cursor: pointer; padding: 0.2rem 0.1rem; }
+.tr .tr-toggle { margin-left: auto; border: 0; background: transparent; color: var(--accent-ink); font: inherit; font-size: 0.82rem; cursor: pointer; padding: 0.2rem 0.1rem; }
 
 .tr .tr-body { margin-top: 0.6rem; font-size: 0.85rem; }
 .tr .tr-body[hidden], .tr .tr-pane[hidden], .tr .tr-status[hidden] { display: none; }
