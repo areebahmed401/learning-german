@@ -229,14 +229,14 @@
     },
     {
       "type": "mc",
-      "q": "Das ___ Eis bedroht den Lebensraum der Eisbären. (Es schmilzt gerade.)",
+      "q": "Die ___ Kinder stören die Nachbarn. (Sie spielen gerade.)",
       "options": [
-        "schmelzende",
-        "geschmolzene",
-        "schmelzen"
+        "spielenden",
+        "gespielten",
+        "spielen"
       ],
       "answer": 0,
-      "explain": "The ice is melting now → Partizip I."
+      "explain": "The children are playing right now → Partizip I (spielend) + ending -en."
     },
     {
       "type": "gap",
@@ -256,19 +256,19 @@
     },
     {
       "type": "gap",
-      "q": "Eine ___ Zahl von Studien zeigt das. (wachsen)",
+      "q": "Die ___ Nachfrage nach Elektroautos überrascht die Hersteller. (zunehmen)",
       "answer": [
-        "wachsende"
+        "zunehmende"
       ],
-      "explain": "Partizip I wachsend; after eine (feminine nominative) the ending is -e."
+      "explain": "Partizip I zunehmend; after die (feminine nominative) the ending is -e."
     },
     {
       "type": "gap",
-      "q": "Wegen der ___ Preise kaufen mehr Leute ein. (sinken, schon passiert)",
+      "q": "Nach der ___ Reparatur läuft die Heizung wieder. (abschließen, schon passiert)",
       "answer": [
-        "gesunkenen"
+        "abgeschlossenen"
       ],
-      "explain": "Partizip II gesunken; genitive plural after der takes -en."
+      "explain": "Partizip II abgeschlossen; dative singular feminine after der takes -en."
     },
     {
       "type": "article",

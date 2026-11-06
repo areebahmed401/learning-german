@@ -97,18 +97,18 @@
     ]
   },
   "exercises": [
-    { "type": "gap", "q": "Ich habe ___ Fahrrad.", "answer": ["kein"], "explain": "Fahrrad is neuter and has no article, so you negate it with kein: kein Fahrrad." },
+    { "type": "gap", "q": "Mein Bruder hat leider ___ Handy.", "answer": ["kein"], "explain": "Handy is neuter and has no article, so you negate it with kein: kein Handy." },
     { "type": "gap", "q": "Wir haben ___ Zeit.", "answer": ["keine"], "explain": "Zeit is feminine → keine Zeit." },
-    { "type": "gap", "q": "Nein, danke. Ich brauche ___ Tüte.", "answer": ["keine"], "explain": "Tüte is feminine, and the noun has no definite article → keine." },
+    { "type": "gap", "q": "Im Café sagt die Kundin: Ich möchte ___ Milch im Kaffee.", "answer": ["keine"], "explain": "Milch is feminine and has no article → keine." },
     { "type": "gap", "q": "Er hat ___ Einkaufswagen.", "answer": ["keinen"], "explain": "Einkaufswagen is masculine and the object (accusative) → keinen." },
     { "type": "gap", "q": "Die Suppe ist ___ heiß.", "answer": ["nicht"], "explain": "You negate an adjective with nicht, placed before it." },
-    { "type": "gap", "q": "Ich kaufe das Brot ___.", "answer": ["nicht"], "explain": "The noun has the definite article das → nicht, at the end." },
+    { "type": "gap", "q": "Meine Freundin isst den Salat ___.", "answer": ["nicht"], "explain": "The noun has the definite article den → nicht, at the end." },
     { "type": "mc", "q": "Which sentence is correct?", "options": ["Ich habe nicht Geld.", "Ich habe kein Geld.", "Ich habe keine Geld."], "answer": 1, "explain": "Geld has no article and is neuter → kein Geld." },
     { "type": "mc", "q": "\"Du kaufst kein Brot?\" – You want to say \"Yes, I do.\" What do you answer?", "options": ["Ja, ich kaufe Brot.", "Doch, ich kaufe Brot.", "Nein, ich kaufe Brot."], "answer": 1, "explain": "To contradict a negative question, use doch." },
     { "type": "mc", "q": "Which sentence is correct?", "options": ["Der Laden ist nicht geöffnet.", "Der Laden ist kein geöffnet.", "Der Laden nicht ist geöffnet."], "answer": 0, "explain": "The adjective geöffnet is negated with nicht, before it." },
     { "type": "match", "pairs": [["teuer", "expensive"], ["billig", "cheap"], ["frisch", "fresh"], ["geöffnet", "open"], ["geschlossen", "closed"]], "explain": "Adjectives are negated with nicht: nicht teuer, nicht frisch." },
-    { "type": "order", "words": ["Geld", "Ich", "habe", "kein"], "answer": "Ich habe kein Geld", "explain": "kein stands directly before the noun it negates." },
-    { "type": "order", "words": ["teuer", "nicht", "Das", "ist"], "answer": "Das ist nicht teuer", "explain": "nicht stands before the adjective." },
+    { "type": "order", "words": ["keinen", "hat", "Er", "Hunger"], "answer": "Er hat keinen Hunger", "explain": "kein stands directly before the noun it negates. Hunger is masculine and the object → keinen." },
+    { "type": "order", "words": ["groß", "nicht", "ist", "Mein Zimmer"], "answer": "Mein Zimmer ist nicht groß", "explain": "nicht stands before the adjective." },
     { "type": "translate", "en": "I don't have a car and I don't have time.", "answer": ["Ich habe kein Auto und ich habe keine Zeit", "Ich habe kein Auto und keine Zeit"], "explain": "Both nouns come with ein/no article, so kein (neuter Auto) and keine (feminine Zeit)." }
   ],
   "speak": {

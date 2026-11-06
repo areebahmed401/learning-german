@@ -108,20 +108,20 @@
     ]
   },
   "exercises": [
-    { "type": "mc", "q": "Die Ursache ___ in der Software liegen. (vorsichtig)", "options": ["dürfte", "darf", "dürfen"], "answer": 0, "explain": "dürfte (Konjunktiv II) expresses a careful assumption: probably. darf means permission." },
-    { "type": "mc", "q": "Müller (2020) betont, die Methode ___ zuverlässig.", "options": ["sei", "war", "sein"], "answer": 0, "explain": "Indirect speech uses Konjunktiv I: er sei. It marks the statement as the author's, not yours." },
+    { "type": "mc", "q": "Die Abweichung ___ auf Messfehler zurückzuführen sein. (vorsichtig)", "options": ["dürfte", "darf", "dürfen"], "answer": 0, "explain": "dürfte (Konjunktiv II) expresses a careful assumption: probably. darf means permission." },
+    { "type": "mc", "q": "Schmidt (2019) argumentiert, der Effekt ___ nur gering.", "options": ["sei", "war", "sein"], "answer": 0, "explain": "Indirect speech uses Konjunktiv I: er sei. It marks the statement as the author's, not yours." },
     { "type": "mc", "q": "Die Stichprobe war klein. ___ sind die Ergebnisse nur begrenzt aussagekräftig.", "options": ["Folglich", "Hingegen", "Zunächst"], "answer": 0, "explain": "The second sentence is a result of the first, so a result connector (folglich) fits. Position 1 + verb in position 2." },
     { "type": "gap", "q": "Die Daten weisen ___ hin, dass die Nachfrage steigt.", "answer": ["darauf"], "explain": "hinweisen auf + Akkusativ; with a dass-clause the pronoun darauf anticipates it." },
-    { "type": "gap", "q": "Dem Autor ___ ist die Methode veraltet.", "answer": ["zufolge"], "explain": "zufolge follows its noun (dem Autor zufolge) and means according to." },
-    { "type": "gap", "q": "Alle Quellen müssen korrekt ___ werden. (zitieren)", "answer": ["zitiert"], "explain": "Passive with müssen: Partizip II zitiert + werden." },
+    { "type": "gap", "q": "Der Studie ___ ist der Stromverbrauch gesunken.", "answer": ["zufolge"], "explain": "zufolge follows its noun (der Studie zufolge) and means according to." },
+    { "type": "gap", "q": "Die Messreihen müssen vor der Veröffentlichung noch ___ werden. (auswerten)", "answer": ["ausgewertet"], "explain": "Passive with müssen: Partizip II ausgewertet + werden." },
     { "type": "gap", "q": "Die Hypothese wurde durch die neuen Daten ___. (belegen)", "answer": ["belegt"], "explain": "Passive past: wurde belegt. belegen is inseparable, so no ge-." },
     { "type": "article", "word": "Fazit", "answer": "das", "explain": "das Fazit, plural die Fazits (also Fazite)." },
     { "type": "article", "word": "Beleg", "answer": "der", "explain": "der Beleg, plural die Belege." },
-    { "type": "order", "words": ["ist", "Dem Autor zufolge", "nicht zuverlässig", "die Methode"], "answer": "Dem Autor zufolge ist die Methode nicht zuverlässig", "explain": "Dem Autor zufolge fills position 1, so the verb ist is second, then the subject." },
-    { "type": "order", "words": ["wird", "die Fragestellung", "Zunächst", "erläutert"], "answer": "Zunächst wird die Fragestellung erläutert", "explain": "Zunächst in position 1, then the verb wird, then the subject, and the Partizip II at the end." },
+    { "type": "order", "words": ["Meines Erachtens", "ist", "die Stichprobe", "zu klein"], "answer": "Meines Erachtens ist die Stichprobe zu klein", "explain": "Meines Erachtens fills position 1, so the verb ist is second, then the subject." },
+    { "type": "order", "words": ["werden", "die Ergebnisse", "Abschließend", "zusammengefasst"], "answer": "Abschließend werden die Ergebnisse zusammengefasst", "explain": "Abschließend in position 1, then the verb werden, then the subject, and the Partizip II at the end." },
     { "type": "match", "pairs": [["These", "a claim you argue for"], ["Beleg", "piece of evidence"], ["Fazit", "conclusion"], ["Fragestellung", "research question"], ["Literaturverzeichnis", "bibliography"]], "explain": "Key words for structuring a paper." },
-    { "type": "translate", "en": "The results suggest that the method is reliable.", "answer": ["Die Ergebnisse deuten darauf hin, dass die Methode zuverlässig ist", "Die Ergebnisse legen nahe, dass die Methode zuverlässig ist"], "explain": "darauf hindeuten / nahelegen are hedged verbs, and the dass-clause sends the verb to the end." },
-    { "type": "translate", "en": "In my view, the study has weaknesses.", "answer": ["Meines Erachtens hat die Studie Schwächen", "Meines Erachtens weist die Studie Schwächen auf", "Meiner Meinung nach hat die Studie Schwächen", "Meiner Meinung nach weist die Studie Schwächen auf"], "explain": "meines Erachtens (Genitiv of das Erachten) is a formal way to give your view; the verb follows in position 2." }
+    { "type": "translate", "en": "The figures indicate that the costs will rise.", "answer": ["Die Zahlen legen nahe, dass die Kosten steigen werden", "Die Zahlen legen nahe, dass die Kosten steigen", "Die Zahlen deuten darauf hin, dass die Kosten steigen werden", "Die Zahlen deuten darauf hin, dass die Kosten steigen"], "explain": "darauf hindeuten / nahelegen are hedged verbs, and the dass-clause sends the verb to the end." },
+    { "type": "translate", "en": "In my opinion, the results are not convincing.", "answer": ["Meines Erachtens sind die Ergebnisse nicht überzeugend", "Meines Erachtens überzeugen die Ergebnisse nicht", "Meiner Meinung nach sind die Ergebnisse nicht überzeugend", "Meiner Meinung nach überzeugen die Ergebnisse nicht"], "explain": "meines Erachtens (Genitiv of das Erachten) is a formal way to give your view; the verb follows in position 2." }
   ],
   "speak": {
     "shadow": [

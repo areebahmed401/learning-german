@@ -114,8 +114,8 @@
     { "type": "gap", "q": "Das Geschenk ist für ___ Lehrer. (der)", "answer": ["den"], "explain": "für is always followed by the accusative: der Lehrer → den Lehrer." },
     { "type": "gap", "q": "Ich gehe nicht ohne ___ Schlüssel. (mein)", "answer": ["meinen"], "explain": "ohne + accusative; Schlüssel is masculine → meinen." },
     { "type": "gap", "q": "Wir gehen durch ___ Park. (der)", "answer": ["den"], "explain": "durch + accusative; Park is masculine → den Park." },
-    { "type": "gap", "q": "Die Apotheke ist um ___ Ecke. (die)", "answer": ["die"], "explain": "um + accusative; feminine stays die." },
-    { "type": "gap", "q": "Ich brauche eine Fahrkarte ___ den Bus.", "answer": ["für"], "explain": "für = for (the purpose)." },
+    { "type": "gap", "q": "Die Kinder laufen um ___ See. (der)", "answer": ["den"], "explain": "um + accusative; See is masculine → den See." },
+    { "type": "gap", "q": "Das Paket ist ___ den Nachbarn.", "answer": ["für"], "explain": "für = for (the person it is meant for)." },
     { "type": "mc", "q": "Which preposition takes the accusative?", "options": ["mit", "durch", "bei"], "answer": 1, "explain": "durch always takes the accusative; mit and bei take the dative." },
     { "type": "mc", "q": "Ich trinke den Tee ___ Zucker. (without)", "options": ["ohne", "für", "durch"], "answer": 0, "explain": "ohne = without, and it is followed by the accusative." },
     { "type": "mc", "q": "Which sentence is correct?", "options": ["Wir gehen durch dem Park.", "Wir gehen durch den Park.", "Wir gehen durch der Park."], "answer": 1, "explain": "durch + accusative: der Park → den Park." },
@@ -124,7 +124,7 @@
     { "type": "match", "pairs": [["geradeaus", "straight ahead"], ["links", "left"], ["rechts", "right"], ["die Ampel", "traffic light"], ["die Kreuzung", "junction"]], "explain": "These words appear in every direction you get." },
     { "type": "order", "words": ["durch", "Wir", "den Park", "gehen"], "answer": "Wir gehen durch den Park", "explain": "Subject, verb in position 2, then durch + accusative." },
     { "type": "order", "words": ["ein Geschenk", "für", "Wir", "kaufen", "unseren Lehrer"], "answer": "Wir kaufen ein Geschenk für unseren Lehrer", "explain": "für + accusative: masculine Lehrer → unseren." },
-    { "type": "translate", "en": "The pharmacy is around the corner.", "answer": ["Die Apotheke ist um die Ecke"], "explain": "um + accusative: die Ecke (feminine, no change)." }
+    { "type": "translate", "en": "We go through the park without our dog.", "answer": ["Wir gehen ohne unseren Hund durch den Park", "Wir gehen durch den Park ohne unseren Hund"], "explain": "ohne and durch take the accusative: masculine Hund → unseren Hund, Park → den Park." }
   ],
   "speak": {
     "shadow": [

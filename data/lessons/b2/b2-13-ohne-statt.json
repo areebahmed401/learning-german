@@ -76,15 +76,15 @@
     ]
   },
   "exercises": [
-    { "type": "mc", "q": "Er arbeitet, ___ eine Pause zu machen.", "options": ["ohne", "ohne dass", "damit"], "answer": 0, "explain": "The subject is the same and the clause has zu + infinitive (zu machen), so the connector is ohne." },
+    { "type": "mc", "q": "Sie unterschrieb den Vertrag, ___ ihn zu lesen.", "options": ["ohne", "ohne dass", "damit"], "answer": 0, "explain": "The subject is the same and the clause has zu + infinitive (zu lesen), so the connector is ohne." },
     { "type": "mc", "q": "Er hat das Büro verlassen, ___ jemand ihn gesehen hat.", "options": ["ohne zu", "ohne dass", "statt zu"], "answer": 1, "explain": "The subjects are different (er / jemand), so you need ohne dass with the verb at the end." },
     { "type": "mc", "q": "Which sentence is correct?", "options": ["Statt zu schlafen, ich arbeite die ganze Nacht.", "Statt zu schlafen, arbeite ich die ganze Nacht.", "Statt schlafen zu, arbeite ich die ganze Nacht."], "answer": 1, "explain": "The infinitive clause fills position 1, so the main verb arbeite comes directly after the comma, before the subject." },
     { "type": "gap", "q": "Er geht ins Büro, anstatt im Homeoffice zu ___.", "answer": ["arbeiten"], "explain": "(an)statt … zu is followed by an infinitive: im Homeoffice zu arbeiten." },
     { "type": "gap", "q": "Er ist weggefahren, ohne ___ seine Eltern es wussten.", "answer": ["dass"], "explain": "Different subjects (er / seine Eltern) → ohne dass + verb at the end (wussten)." },
     { "type": "gap", "q": "Ich schalte nach der Arbeit ab, ___ weiter E-Mails zu lesen.", "answer": ["anstatt", "statt"], "explain": "I do something instead of the other thing, with the same subject: (an)statt … zu." },
-    { "type": "gap", "q": "Er arbeitet den ganzen Tag, ohne sich ___.", "answer": ["auszuruhen"], "explain": "ausruhen is separable: the zu goes between the prefix and the verb (aus-zu-ruhen) and written as one word. The reflexive pronoun sich comes first." },
+    { "type": "gap", "q": "Sie ging aus dem Haus, ohne das Licht ___.", "answer": ["auszuschalten"], "explain": "ausschalten is separable: the zu goes between the prefix and the verb (aus-zu-schalten) and is written as one word." },
     { "type": "article", "word": "Feierabend", "answer": "der", "explain": "Feierabend is masculine: der Feierabend (plural: die Feierabende)." },
-    { "type": "order", "words": ["Sie", "arbeitet", "viel,", "ohne", "sich zu erholen"], "answer": "Sie arbeitet viel, ohne sich zu erholen", "explain": "The infinitive clause goes to the end; for a reflexive verb the pronoun comes before zu: sich zu erholen." },
+    { "type": "order", "words": ["Er", "ging", "nach Hause,", "ohne", "sich zu verabschieden"], "answer": "Er ging nach Hause, ohne sich zu verabschieden", "explain": "The infinitive clause goes to the end; for a reflexive verb the pronoun comes before zu: sich zu verabschieden." },
     { "type": "order", "words": ["zu Fuß", "er", "Anstatt", "geht", "den Bus zu nehmen,"], "answer": "Anstatt den Bus zu nehmen, geht er zu Fuß", "explain": "The infinitive clause fills position 1, so the main verb geht follows directly, then the subject." },
     { "type": "order", "words": ["Er", "ist", "gegangen,", "ohne dass", "wir", "es", "bemerkt", "haben"], "answer": "Er ist gegangen, ohne dass wir es bemerkt haben", "explain": "Different subjects (er / wir) → ohne dass, with the verbs bemerkt haben at the end." },
     { "type": "match", "pairs": [["ohne zu", "without doing (same subject)"], ["ohne dass", "without (different subject)"], ["anstatt zu", "instead of doing (same subject)"], ["anstatt dass", "instead of (different subject)"]], "explain": "Match the connector to its meaning and its subject rule." },

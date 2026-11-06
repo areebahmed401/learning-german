@@ -99,19 +99,19 @@
     ]
   },
   "exercises": [
-    { "type": "mc", "q": "Als Kind ___ ich in Lahore.", "options": ["war", "bin", "hatte"], "answer": 0, "explain": "Stories about the past use war, not the present bin. Ich war in Lahore." },
+    { "type": "mc", "q": "Gestern ___ das Wetter schlecht.", "options": ["war", "bin", "waren"], "answer": 0, "explain": "Stories about the past use war, not the present bin. Singular das Wetter → war, not waren." },
     { "type": "mc", "q": "Wir ___ keine Hausaufgaben.", "options": ["hatten", "waren", "hatte"], "answer": 0, "explain": "wir + haben in the Präteritum: wir hatten. Only the ich/er form is hatte." },
     { "type": "mc", "q": "What is the Präteritum of 'müssen' (ich)?", "options": ["musste", "mußte", "müsste"], "answer": 0, "explain": "Modals lose the umlaut: musste. müsste is the Konjunktiv II (polite/hypothetical)." },
     { "type": "gap", "q": "Letztes Jahr ___ ich ein kleines Auto.", "answer": ["hatte"], "explain": "haben in the past: ich hatte." },
     { "type": "gap", "q": "Ihr ___ gestern nicht im Unterricht.", "answer": ["wart"], "explain": "ihr + sein in the Präteritum: ihr wart." },
-    { "type": "gap", "q": "Mit sechs Jahren ___ ich schon schwimmen. (können)", "answer": ["konnte"], "explain": "können → konnte, no umlaut, ending -te." },
+    { "type": "gap", "q": "Letzte Woche ___ ich zum Zahnarzt gehen. (müssen)", "answer": ["musste"], "explain": "müssen → musste, no umlaut, ending -te." },
     { "type": "article", "word": "Schule", "answer": "die", "explain": "Most nouns ending in -e are feminine: die Schule." },
     { "type": "article", "word": "Zeugnis", "answer": "das", "explain": "Nouns ending in -nis are neuter: das Zeugnis." },
     { "type": "order", "words": ["Früher", "hatte", "ich", "keine Angst", "vor Mathe"], "answer": "Früher hatte ich keine Angst vor Mathe", "explain": "A time word first → verb in position 2, then the subject." },
     { "type": "order", "words": ["In der Pause", "durften", "wir", "nicht", "ins Klassenzimmer"], "answer": "In der Pause durften wir nicht ins Klassenzimmer", "explain": "durften is in position 2; nicht comes before the direction ins Klassenzimmer." },
     { "type": "match", "pairs": [["ich war", "I was"], ["wir hatten", "we had"], ["er konnte", "he could"], ["sie mussten", "they had to"], ["du wolltest", "you wanted"]], "explain": "Präteritum of modals = stem + -te + personal ending." },
     { "type": "translate", "en": "Our teacher was very strict.", "answer": ["Unser Lehrer war sehr streng", "Unsere Lehrerin war sehr streng"], "explain": "sein in the Präteritum for er/sie: war. Lehrer is masculine → unser, Lehrerin feminine → unsere." },
-    { "type": "translate", "en": "As a child I could not swim.", "answer": ["Als Kind konnte ich nicht schwimmen", "Ich konnte als Kind nicht schwimmen"], "explain": "können → konnte. The infinitive schwimmen goes to the end." }
+    { "type": "translate", "en": "Last year my grandfather could still drive a car.", "answer": ["Letztes Jahr konnte mein Opa noch Auto fahren", "Mein Opa konnte letztes Jahr noch Auto fahren", "Letztes Jahr konnte mein Großvater noch Auto fahren", "Mein Großvater konnte letztes Jahr noch Auto fahren"], "explain": "können → konnte. The infinitive fahren goes to the end." }
   ],
   "speak": {
     "shadow": [

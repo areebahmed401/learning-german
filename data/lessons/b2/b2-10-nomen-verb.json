@@ -106,16 +106,16 @@
     ]
   },
   "exercises": [
-    { "type": "mc", "q": "Wir müssen heute eine Entscheidung ___.", "options": ["treffen", "machen", "geben"], "answer": 0, "explain": "The fixed combination is eine Entscheidung treffen. machen sounds like a literal translation and is not used here." },
+    { "type": "mc", "q": "Die Kollegin hat gestern einen Antrag auf Urlaub ___.", "options": ["gestellt", "gemacht", "gegeben"], "answer": 0, "explain": "The fixed combination is einen Antrag stellen. machen sounds like a literal translation and is not used here." },
     { "type": "mc", "q": "Der Kunde ___ den höheren Preis in Kauf.", "options": ["nimmt", "macht", "stellt"], "answer": 0, "explain": "in Kauf nehmen = to accept a drawback. The verb nehmen is part of the fixed phrase." },
     { "type": "mc", "q": "Dieser Kandidat ___ nicht in Frage ___. (Perfekt)", "options": ["hat … gekommen", "ist … gekommen", "ist … kommen"], "answer": 1, "explain": "kommen forms the perfect with sein, so in Frage kommen → ist in Frage gekommen." },
-    { "type": "gap", "q": "Die Firma stellt uns ein neues Büro zur ___.", "answer": ["Verfügung"], "explain": "zur Verfügung stellen = to make available. zur = zu + der, because Verfügung is feminine Dativ." },
+    { "type": "gap", "q": "Das Team will das Projekt bis Dezember zum ___ bringen.", "answer": ["Abschluss"], "explain": "zum Abschluss bringen = to complete. zum = zu + dem, because Abschluss is masculine Dativ." },
     { "type": "gap", "q": "Wir müssen mehr Rücksicht ___ die Kollegen nehmen.", "answer": ["auf"], "explain": "Rücksicht nehmen auf + Akkusativ: the preposition is part of the fixed phrase." },
     { "type": "gap", "q": "Wir nehmen Rücksicht ___ die Nachbarn.", "answer": ["auf"], "explain": "Rücksicht nehmen auf + Akkusativ. Here die Nachbarn is Akkusativ." },
     { "type": "gap", "q": "Sie bringt ihre Zufriedenheit zum ___.", "answer": ["Ausdruck"], "explain": "zum Ausdruck bringen = to express. zum = zu + dem, and Ausdruck is masculine." },
     { "type": "article", "word": "Protokoll", "answer": "das", "explain": "Protokoll is neuter: das Protokoll, plural die Protokolle." },
     { "type": "order", "words": ["Die Geschäftsführung", "hat", "die Kosten", "in Kauf", "genommen"], "answer": "Die Geschäftsführung hat die Kosten in Kauf genommen", "explain": "In the perfect tense the participle (genommen) goes to the end; in Kauf belongs to it, just before the participle." },
-    { "type": "order", "words": ["heute", "Wir", "treffen", "eine Entscheidung", "müssen"], "answer": "Wir müssen heute eine Entscheidung treffen", "explain": "With a modal verb the infinitive part (eine Entscheidung treffen) stands at the end; the noun part comes just before the verb." },
+    { "type": "order", "words": ["noch", "Darf", "eine Frage", "ich", "stellen", "dir"], "answer": "Darf ich dir noch eine Frage stellen", "explain": "In a yes/no question the modal verb comes first; the noun part (eine Frage) stands just before the infinitive stellen at the end." },
     { "type": "match", "pairs": [["eine Entscheidung treffen", "to make a decision"], ["in Kauf nehmen", "to accept (a drawback)"], ["zur Verfügung stellen", "to provide"], ["in Betracht ziehen", "to consider"], ["zur Kenntnis nehmen", "to take note of"]], "explain": "Core Nomen-Verb-Verbindungen for meetings." },
     { "type": "translate", "en": "We have to take the costs into account.", "answer": ["Wir müssen die Kosten in Betracht ziehen", "Wir müssen die Kosten berücksichtigen"], "explain": "in Betracht ziehen = to consider; with a modal verb the infinitive part goes to the end." },
     { "type": "translate", "en": "She made the decision yesterday.", "answer": ["Sie hat gestern die Entscheidung getroffen", "Sie hat die Entscheidung gestern getroffen", "Sie traf gestern die Entscheidung", "Sie traf die Entscheidung gestern"], "explain": "eine Entscheidung treffen: treffen has the participle getroffen and takes haben." }

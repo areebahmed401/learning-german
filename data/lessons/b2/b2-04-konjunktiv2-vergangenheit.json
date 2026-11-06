@@ -186,14 +186,14 @@
     },
     {
       "type": "mc",
-      "q": "Wir ___ gern länger geblieben.",
+      "q": "Er ___ gestern gern zum Konzert gegangen.",
       "options": [
-        "hätten",
-        "wären",
-        "waren"
+        "hätte",
+        "wäre",
+        "war"
       ],
       "answer": 1,
-      "explain": "Bleiben takes sein in the Perfekt, so: wären geblieben."
+      "explain": "Gehen takes sein in the Perfekt, so: wäre gegangen."
     },
     {
       "type": "mc",
@@ -208,22 +208,22 @@
     },
     {
       "type": "mc",
-      "q": "Ich weiß, dass ich das ___.",
+      "q": "Ich glaube, dass wir den Termin ___.",
       "options": [
-        "hätte machen sollen",
-        "machen sollen hätte",
-        "machen hätte sollen"
+        "hätten absagen müssen",
+        "absagen müssen hätten",
+        "absagen hätten müssen"
       ],
       "answer": 0,
-      "explain": "In a subordinate clause hätte stands before the double infinitive."
+      "explain": "In a subordinate clause hätten stands before the double infinitive."
     },
     {
       "type": "gap",
-      "q": "Wenn ich das gewusst ___, wäre ich nicht gefahren.",
+      "q": "Wenn sie früher angerufen ___, wäre das nicht passiert.",
       "answer": [
         "hätte"
       ],
-      "explain": "Wissen takes haben: gewusst hätte at the end of the wenn-clause."
+      "explain": "Anrufen takes haben: angerufen hätte at the end of the wenn-clause."
     },
     {
       "type": "gap",
@@ -243,11 +243,11 @@
     },
     {
       "type": "gap",
-      "q": "Hätte ich mehr gelernt, ___ ich die Prüfung bestanden.",
+      "q": "Wäre der Zug pünktlich gewesen, ___ wir rechtzeitig angekommen.",
       "answer": [
-        "hätte"
+        "wären"
       ],
-      "explain": "The main clause has the inverted structure: hätte ich … bestanden."
+      "explain": "The wenn-clause is inverted (Wäre … gewesen). The main clause needs wären, because ankommen takes sein: wären … angekommen."
     },
     {
       "type": "article",
@@ -318,12 +318,12 @@
     },
     {
       "type": "translate",
-      "en": "If I had known that, I would not have gone.",
+      "en": "If she had come earlier, we would have finished on time.",
       "answer": [
-        "Wenn ich das gewusst hätte, wäre ich nicht gefahren",
-        "Wenn ich das gewusst hätte, wäre ich nicht gegangen"
+        "Wenn sie früher gekommen wäre, wären wir pünktlich fertig geworden",
+        "Wäre sie früher gekommen, wären wir pünktlich fertig geworden"
       ],
-      "explain": "Both clauses are Konjunktiv II past: gewusst hätte / wäre gefahren (or gegangen)."
+      "explain": "Both clauses are Konjunktiv II past: gekommen wäre / wären … fertig geworden (kommen and werden take sein)."
     }
   ],
   "speak": {

@@ -87,12 +87,12 @@
     ]
   },
   "exercises": [
-    { "type": "mc", "q": "Das ist das Büro ___ Chefs.", "options": ["des", "dem", "den"], "answer": 0, "explain": "Possession → Genitiv. Chef is masculine: des Chefs." },
-    { "type": "mc", "q": "Die Adresse ___ Firma steht im Formular.", "options": ["des", "der", "die"], "answer": 1, "explain": "Firma is feminine; the Genitiv feminine article is der." },
+    { "type": "mc", "q": "Das ist der Schlüssel ___ Hausmeisters.", "options": ["des", "dem", "den"], "answer": 0, "explain": "Possession → Genitiv. Hausmeister is masculine: des Hausmeisters." },
+    { "type": "mc", "q": "Der Eingang ___ Universität liegt neben der Mensa.", "options": ["des", "der", "die"], "answer": 1, "explain": "Universität is feminine; the Genitiv feminine article is der." },
     { "type": "mc", "q": "Which sentence is correct in written German?", "options": ["Wegen dem Wetter kam er zu spät.", "Wegen des Wetters kam er zu spät.", "Wegen das Wetter kam er zu spät."], "answer": 1, "explain": "wegen takes the Genitiv: des Wetters. Wegen dem is common in speech, but not correct in writing." },
     { "type": "gap", "q": "Wegen ___ Streiks kam der Zug zu spät.", "answer": ["des"], "explain": "wegen + Genitiv; Streik is masculine → des Streiks." },
     { "type": "gap", "q": "Trotz ___ Regens gingen wir zum Amt.", "answer": ["des"], "explain": "trotz + Genitiv; Regen is masculine → des Regens." },
-    { "type": "gap", "q": "Während ___ Öffnungszeiten kann man ohne Termin kommen.", "answer": ["der"], "explain": "Öffnungszeiten is plural → Genitiv plural: der." },
+    { "type": "gap", "q": "Wegen ___ Bauarbeiten ist das Amt heute geschlossen.", "answer": ["der"], "explain": "Bauarbeiten is plural → Genitiv plural: der." },
     { "type": "gap", "q": "Das ist der Ausweis mein___ Frau.", "answer": ["er"], "explain": "Frau is feminine, so the Genitiv possessive is meiner." },
     { "type": "article", "word": "Formular", "answer": "das", "explain": "Formular is neuter: das Formular." },
     { "type": "article", "word": "Anmeldung", "answer": "die", "explain": "Nouns ending in -ung are always feminine." },

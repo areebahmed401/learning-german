@@ -115,10 +115,10 @@
     ]
   },
   "exercises": [
-    { "type": "gap", "q": "Ich ___ Ingenieur.", "answer": ["bin"], "explain": "sein with ich: ich bin." },
-    { "type": "gap", "q": "Wir ___ aus Pakistan.", "answer": ["sind", "kommen"], "explain": "sein with wir is sind. Wir kommen aus Pakistan is also correct." },
+    { "type": "gap", "q": "Ich ___ jetzt Student an der Uni.", "answer": ["bin"], "explain": "sein with ich: ich bin. A role like Student takes no article after sein." },
+    { "type": "gap", "q": "Anna und ich ___ Kollegen.", "answer": ["sind"], "explain": "Anna und ich means wir, and sein with wir is sind." },
     { "type": "gap", "q": "Du ___ heute Zeit.", "answer": ["hast"], "explain": "haben with du: du hast (no b)." },
-    { "type": "gap", "q": "Er ___ einen Termin beim Arzt.", "answer": ["hat"], "explain": "haben with er/sie/es: hat." },
+    { "type": "gap", "q": "Er ___ morgen eine Prüfung an der Uni.", "answer": ["hat"], "explain": "haben with er/sie/es: hat." },
     { "type": "gap", "q": "Ihr ___ sehr nett.", "answer": ["seid"], "explain": "sein with ihr: ihr seid." },
     { "type": "mc", "q": "Which pronoun do you use for your landlord (formal)?", "options": ["du", "ihr", "Sie"], "answer": 2, "explain": "Strangers and authority figures get the formal Sie, always with a capital S." },
     { "type": "mc", "q": "\"Sie sind Ärztin.\" Who is meant?", "options": ["She (is a doctor)", "You, formal (are a doctor)", "I (am a doctor)"], "answer": 1, "explain": "sind fits Sie (you, formal) or sie (they). \"She is\" would be sie ist." },
@@ -126,9 +126,9 @@
     { "type": "match", "pairs": [["ich", "bin"], ["du", "bist"], ["er", "ist"], ["wir", "sind"], ["ihr", "seid"]], "explain": "sein is irregular: learn all six forms as a set." },
     { "type": "match", "pairs": [["Deutschland", "Germany"], ["die Schweiz", "Switzerland"], ["die Türkei", "Turkey"], ["Österreich", "Austria"], ["die Sprache", "language"]], "explain": "Most countries have no article; a few like die Schweiz and die Türkei do." },
     { "type": "article", "word": "Sprache", "answer": "die", "explain": "Nouns ending in -e are mostly feminine: die Sprache." },
-    { "type": "order", "words": ["aus", "komme", "Ich", "Pakistan"], "answer": "Ich komme aus Pakistan", "explain": "Statement: subject, verb in position 2, then the rest." },
-    { "type": "order", "words": ["Sie", "Woher", "kommen"], "answer": "Woher kommen Sie", "explain": "W-question: question word first, verb second, then the subject." },
-    { "type": "translate", "en": "I am an engineer and I speak German and English.", "answer": ["Ich bin Ingenieur und ich spreche Deutsch und Englisch", "Ich bin Ingenieur und spreche Deutsch und Englisch"], "explain": "Jobs have no article after sein. sprechen is irregular only for du/er (du sprichst), so ich spreche." }
+    { "type": "order", "words": ["Hunger", "hat", "Mein", "Mitbewohner", "heute"], "answer": "Mein Mitbewohner hat heute Hunger", "explain": "Statement: subject (Mein Mitbewohner), verb in position 2 (hat), then the rest." },
+    { "type": "order", "words": ["müde", "seid", "Warum", "ihr"], "answer": "Warum seid ihr müde", "explain": "W-question: question word first, verb second (seid goes with ihr), then the subject." },
+    { "type": "translate", "en": "My brother is a student and he has a flat in Cologne.", "answer": ["Mein Bruder ist Student und er hat eine Wohnung in Köln", "Mein Bruder ist Student und hat eine Wohnung in Köln"], "explain": "A role has no article after sein (ist Student). haben with er is hat." }
   ],
   "speak": {
     "shadow": [

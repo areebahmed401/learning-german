@@ -97,19 +97,19 @@
     ]
   },
   "exercises": [
-    { "type": "gap", "q": "___ Sie bitte Platz! (nehmen)", "answer": ["Nehmen"], "explain": "Sie-imperative: infinitive first, then Sie." },
-    { "type": "gap", "q": "___ Sie bitte im Wartezimmer! (warten)", "answer": ["Warten"], "explain": "Sie-imperative: infinitive first, then Sie." },
+    { "type": "gap", "q": "___ Sie bitte Ihren Namen! (schreiben)", "answer": ["Schreiben"], "explain": "Sie-imperative: infinitive first, then Sie." },
+    { "type": "gap", "q": "___ Sie bitte hier auf dem Formular! (unterschreiben)", "answer": ["Unterschreiben"], "explain": "Sie-imperative: infinitive first, then Sie." },
     { "type": "gap", "q": "___ bitte mehr Wasser! (trinken, du)", "answer": ["Trink", "Trinke"], "explain": "du-imperative: the stem without -st: Trink! (Trinke is also possible.)" },
     { "type": "gap", "q": "___ bitte den Text! (lesen, du)", "answer": ["Lies"], "explain": "e → ie is kept in the du-imperative: Lies!" },
     { "type": "gap", "q": "___ nicht so schnell! (fahren, du)", "answer": ["Fahr", "Fahre"], "explain": "a → ä is not used in the imperative: Fahr! (not Fähr)." },
     { "type": "gap", "q": "___ bitte ruhig! (sein, du)", "answer": ["Sei"], "explain": "sein is irregular: Sei! – Seid! – Seien Sie!" },
     { "type": "mc", "q": "Which is correct? (formal, to the doctor's patient)", "options": ["Komm herein!", "Kommen Sie herein!", "Kommt Sie herein!"], "answer": 1, "explain": "Formal: infinitive + Sie. The prefix herein goes to the end." },
     { "type": "mc", "q": "Which is the du-form of \"aufstehen\"?", "options": ["Aufsteh!", "Steh auf!", "Stehst auf!"], "answer": 1, "explain": "Separable: the verb part is first, the prefix goes to the end: Steh auf!" },
-    { "type": "mc", "q": "The doctor says: \"Nehmen Sie die Tabletten dreimal am Tag.\" What do you do?", "options": ["Take the tablets three times a day.", "Buy three tablets.", "Stop taking the tablets."], "answer": 0, "explain": "nehmen = to take, dreimal am Tag = three times a day." },
+    { "type": "mc", "q": "The pharmacist says: \"Trinken Sie den Tee zweimal am Tag.\" What do you do?", "options": ["Drink the tea twice a day.", "Buy two teas.", "Stop drinking tea."], "answer": 0, "explain": "trinken = to drink, zweimal am Tag = twice a day." },
     { "type": "match", "pairs": [["der Kopf", "head"], ["der Hals", "throat"], ["der Bauch", "belly"], ["das Fieber", "fever"], ["die Schmerzen", "pain"]], "explain": "Body parts are masculine more often than not, but learn each article." },
     { "type": "order", "words": ["das Fenster", "bitte", "Sie", "Öffnen"], "answer": "Öffnen Sie bitte das Fenster", "explain": "Sie-imperative: verb first, then Sie." },
-    { "type": "order", "words": ["Atmen", "tief", "Sie", "ein"], "answer": "Atmen Sie tief ein", "explain": "einatmen is separable: Atmen Sie … ein." },
-    { "type": "translate", "en": "Please take a seat.", "answer": ["Nehmen Sie bitte Platz", "Bitte nehmen Sie Platz"], "explain": "Nehmen Sie Platz: the polite request in a waiting room." },
+    { "type": "order", "words": ["den Mund", "Sie", "Machen", "auf", "bitte"], "answer": "Machen Sie bitte den Mund auf", "explain": "aufmachen is separable: Machen Sie … auf." },
+    { "type": "translate", "en": "Please show your ID card.", "answer": ["Zeigen Sie bitte Ihren Ausweis", "Bitte zeigen Sie Ihren Ausweis"], "explain": "Sie-imperative: Zeigen Sie … ; bitte can stand in the middle or at the beginning. Ausweis is masculine and the object → Ihren." },
     { "type": "translate", "en": "Open the window and close the door. (Sie)", "answer": ["Öffnen Sie das Fenster und schließen Sie die Tür"], "explain": "Both verbs in Sie-imperative: Öffnen Sie … und schließen Sie …" }
   ],
   "speak": {

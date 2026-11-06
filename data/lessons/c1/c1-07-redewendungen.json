@@ -90,20 +90,20 @@
     ]
   },
   "exercises": [
-    { "type": "mc", "q": "Ich habe dir fest die ___ gedrückt, und es hat geklappt!", "options": ["Daumen", "Füße", "Hände"], "answer": 0, "explain": "The idiom is die Daumen drücken: to keep one's fingers crossed." },
+    { "type": "mc", "q": "Tut mir leid, ich stehe gerade total auf dem ___.", "options": ["Schlauch", "Gartenzaun", "Kopf"], "answer": 0, "explain": "The idiom is auf dem Schlauch stehen: to be slow on the uptake." },
     { "type": "mc", "q": "Was bedeutet 'Ich verstehe nur Bahnhof'?", "options": ["I'm at the train station.", "I don't understand anything.", "I'm in a hurry."], "answer": 1, "explain": "Nur Bahnhof verstehen means you understand nothing. It has nothing to do with trains." },
     { "type": "mc", "q": "Ein Kollege sagt: 'Da liegt der Hund begraben.' Was meint er?", "options": ["That is the real cause of the problem.", "The dog is lost.", "That is very easy."], "answer": 0, "explain": "Da liegt der Hund begraben points to the real reason or the core of a problem." },
-    { "type": "gap", "q": "Das ist nicht mein ___, das entscheidet die Chefin.", "answer": ["Bier"], "explain": "Das ist nicht mein Bier = that's not my business." },
-    { "type": "gap", "q": "Du hast den Nagel auf den ___ getroffen.", "answer": ["Kopf"], "explain": "Den Nagel auf den Kopf treffen = to say exactly the right thing." },
-    { "type": "gap", "q": "Ich habe die ___ voll von dem Lärm in der Nachbarschaft.", "answer": ["Nase"], "explain": "Die Nase voll haben = to be fed up with something." },
-    { "type": "gap", "q": "Lass uns das lieber unter vier ___ besprechen.", "answer": ["Augen"], "explain": "Unter vier Augen = in private (two people, four eyes)." },
+    { "type": "gap", "q": "Ich esse nie Fleisch, außer an Weihnachten. Ausnahmen bestätigen die ___.", "answer": ["Regel"], "explain": "Ausnahmen bestätigen die Regel = the exception proves the rule." },
+    { "type": "gap", "q": "Für deine Prüfung morgen wünsche ich dir Hals- und ___!", "answer": ["Beinbruch"], "explain": "Hals- und Beinbruch = good luck (said before an exam or a performance)." },
+    { "type": "gap", "q": "Nach drei Stunden Diskussion hatte ich endgültig die ___ voll.", "answer": ["Nase"], "explain": "Die Nase voll haben = to be fed up." },
+    { "type": "gap", "q": "Wenn ich auf dem Weg zur Arbeit einkaufe, schlage ich zwei Fliegen mit einer ___.", "answer": ["Klappe"], "explain": "Zwei Fliegen mit einer Klappe schlagen = to kill two birds with one stone." },
     { "type": "gap", "q": "Mit dem Umzug haben wir zwei Fliegen mit einer ___ geschlagen.", "answer": ["Klappe"], "explain": "Zwei Fliegen mit einer Klappe schlagen = to achieve two things at once." },
     { "type": "article", "word": "Schlauch", "answer": "der", "explain": "Schlauch is masculine: der Schlauch, plural die Schläuche. The idiom is auf dem Schlauch stehen (dative)." },
-    { "type": "order", "words": ["Ich", "habe", "den", "Faden", "verloren"], "answer": "Ich habe den Faden verloren", "explain": "The idiom den Faden verlieren is used in the Perfekt: habe in position 2 and verloren at the end." },
+    { "type": "order", "words": ["Beim Vortrag", "hat", "sie", "plötzlich", "den Faden", "verloren"], "answer": "Beim Vortrag hat sie plötzlich den Faden verloren", "explain": "The idiom den Faden verlieren is used in the Perfekt: hat in position 2 and verloren at the end." },
     { "type": "order", "words": ["Er", "redet", "um", "den", "heißen", "Brei", "herum"], "answer": "Er redet um den heißen Brei herum", "explain": "Herumreden is separable: redet stays in position 2 and herum goes to the end." },
     { "type": "match", "pairs": [["Schwein haben", "to be lucky"], ["auf dem Schlauch stehen", "to be slow on the uptake"], ["Tomaten auf den Augen haben", "to overlook the obvious"], ["ein Kinderspiel", "very easy"], ["Hals- und Beinbruch", "good luck"]], "explain": "Real meaning of the idioms, not the literal translation." },
-    { "type": "translate", "en": "That is not my business. (use the idiom)", "answer": ["Das ist nicht mein Bier"], "explain": "The idiom is fixed: nicht mein Bier." },
-    { "type": "translate", "en": "I'm fed up with the noise. (use the idiom)", "answer": ["Ich habe die Nase voll vom Lärm", "Ich habe die Nase voll von dem Lärm", "Ich habe vom Lärm die Nase voll", "Ich habe von dem Lärm die Nase voll"], "explain": "Die Nase voll haben + von + Dativ (vom Lärm)." }
+    { "type": "translate", "en": "That is a piece of cake for me. (use the idiom)", "answer": ["Das ist ein Kinderspiel für mich", "Das ist für mich ein Kinderspiel"], "explain": "The idiom is fixed: ein Kinderspiel sein." },
+    { "type": "translate", "en": "We were really lucky. (use the idiom)", "answer": ["Wir haben Schwein gehabt", "Wir haben wirklich Schwein gehabt", "Wir haben echt Schwein gehabt", "Wir haben richtig Schwein gehabt", "Wir hatten Schwein", "Wir hatten wirklich Schwein"], "explain": "Schwein haben / Schwein gehabt = to be lucky; in the Perfekt it is haben + Schwein gehabt." }
   ],
   "speak": {
     "shadow": [

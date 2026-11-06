@@ -95,18 +95,18 @@
   "exercises": [
     { "type": "mc", "q": "Ich kenne den ___ schon lange.", "options": ["Kollege", "Kollegen", "Kolleges"], "answer": 1, "explain": "Kollege is an n-noun. In the accusative singular it gets -n: den Kollegen." },
     { "type": "mc", "q": "Which noun does NOT follow the n-Deklination?", "options": ["der Kollege", "der Ingenieur", "der Kunde"], "answer": 1, "explain": "Ingenieur is a regular masculine noun: den Ingenieur. Kollege and Kunde are weak nouns." },
-    { "type": "gap", "q": "Wir haben mit dem ___ gesprochen. (der Kunde)", "answer": ["Kunden"], "explain": "After mit the dative is used. n-nouns add -n in the dative: dem Kunden." },
+    { "type": "gap", "q": "Die Lehrerin gibt dem ___ das Heft zurück. (der Junge)", "answer": ["Jungen"], "explain": "The person who receives something is in the dative. n-nouns add -n in the dative: dem Jungen." },
     { "type": "gap", "q": "Ich habe den neuen ___ gefragt. (der Praktikant)", "answer": ["Praktikanten"], "explain": "Accusative singular of an n-noun: Praktikant → Praktikanten." },
-    { "type": "gap", "q": "Das ist das Handy des ___. (der Student)", "answer": ["Studenten"], "explain": "Genitiv of Student is Studenten (n-noun)." },
-    { "type": "gap", "q": "Der Chef hat den ___ eingeladen. (der Kandidat)", "answer": ["Kandidaten"], "explain": "Accusative singular: den Kandidaten. -at nouns are weak." },
+    { "type": "gap", "q": "Der Laptop des ___ ist leider kaputt. (der Kollege)", "answer": ["Kollegen"], "explain": "Genitiv of Kollege is Kollegen (n-noun)." },
+    { "type": "gap", "q": "Die Ärztin untersucht den ___ sorgfältig. (der Patient)", "answer": ["Patienten"], "explain": "Accusative singular: den Patienten. -ent nouns are weak." },
     { "type": "article", "word": "Mensch", "answer": "der", "explain": "Mensch is masculine: der Mensch (n-noun: den Menschen)." },
     { "type": "article", "word": "Beruf", "answer": "der", "explain": "Beruf is masculine: der Beruf (plural: die Berufe)." },
     { "type": "order", "words": ["im", "Jungen", "gestern", "Ich", "den", "Park", "gesehen", "habe"], "answer": "Ich habe den Jungen gestern im Park gesehen", "explain": "sehen takes the accusative, so the n-noun shows -n: den Jungen." },
     { "type": "order", "words": ["sucht", "jungen", "Praktikanten", "Klinik", "einen", "Die"], "answer": "Die Klinik sucht einen jungen Praktikanten", "explain": "Praktikant is an n-noun; the accusative gets -en: einen Praktikanten." },
     { "type": "match", "pairs": [["der Experte", "expert"], ["der Praktikant", "intern"], ["der Mitarbeiter", "employee"], ["der Kunde", "customer"], ["der Nachbar", "neighbour"]], "explain": "Vocabulary for people at work." },
-    { "type": "translate", "en": "I know the new colleague.", "answer": ["Ich kenne den neuen Kollegen"], "explain": "kennen takes the accusative; n-noun Kollege → den neuen Kollegen." },
-    { "type": "translate", "en": "She helps the customer.", "answer": ["Sie hilft dem Kunden"], "explain": "helfen takes the dative; n-noun Kunde → dem Kunden." },
-    { "type": "translate", "en": "I work with an expert.", "answer": ["Ich arbeite mit einem Experten"], "explain": "mit + dative; n-noun Experte → einem Experten." }
+    { "type": "translate", "en": "I met the neighbour in the stairwell.", "answer": ["Ich habe den Nachbarn im Treppenhaus getroffen", "Ich traf den Nachbarn im Treppenhaus"], "explain": "treffen takes the accusative; n-noun Nachbar → den Nachbarn." },
+    { "type": "translate", "en": "He shows the tourist the way.", "answer": ["Er zeigt dem Touristen den Weg", "Er erklärt dem Touristen den Weg"], "explain": "zeigen takes the dative for the person; n-noun Tourist → dem Touristen." },
+    { "type": "translate", "en": "I live with a student in a shared flat.", "answer": ["Ich wohne mit einem Studenten in einer WG", "Ich wohne in einer WG mit einem Studenten", "Ich wohne mit einem Studenten zusammen"], "explain": "mit + dative; n-noun Student → einem Studenten." }
   ],
   "speak": {
     "shadow": [

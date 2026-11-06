@@ -98,9 +98,9 @@
     ]
   },
   "exercises": [
-    { "type": "mc", "q": "Ich fahre jeden Tag ___ dem Bus zur Arbeit.", "options": ["mit", "nach", "seit"], "answer": 0, "explain": "By transport: mit + dative (mit dem Bus)." },
+    { "type": "mc", "q": "Ich fahre am Wochenende ___ meiner Familie nach Köln.", "options": ["mit", "nach", "seit"], "answer": 0, "explain": "mit means together with and takes the dative: mit meiner Familie (feminine dative: -er)." },
     { "type": "mc", "q": "Ich wohne ___ drei Jahren in Aachen.", "options": ["seit", "von", "bei"], "answer": 0, "explain": "seit + dative with the present tense: it started three years ago and still continues." },
-    { "type": "mc", "q": "Wir fahren im Sommer ___ Spanien.", "options": ["nach", "zu", "bei"], "answer": 0, "explain": "Countries and cities without an article take nach." },
+    { "type": "mc", "q": "Meine Tante fliegt im Oktober ___ Portugal.", "options": ["nach", "zu", "bei"], "answer": 0, "explain": "Countries and cities without an article take nach." },
     { "type": "gap", "q": "Ich arbeite ___ Siemens.", "answer": ["bei"], "explain": "bei is used for working at a company: bei Siemens, bei der Bahn." },
     { "type": "gap", "q": "Ich gehe heute ___ Arzt.", "answer": ["zum", "zu dem"], "explain": "People and places like the doctor take zu + dative. zu dem is shortened to zum." },
     { "type": "gap", "q": "Er kommt ___ der Türkei.", "answer": ["aus"], "explain": "Origin of a person: aus + dative (aus der Türkei, aus dem Iran)." },
@@ -108,10 +108,10 @@
     { "type": "article", "word": "Haltestelle", "answer": "die", "explain": "Nouns ending in -stelle / -e are mostly feminine: die Haltestelle." },
     { "type": "article", "word": "Fahrrad", "answer": "das", "explain": "das Fahrrad: the last part of the compound (das Rad) decides the gender." },
     { "type": "order", "words": ["zum See", "mit dem Bus", "Wir", "am Samstag", "fahren"], "answer": "Wir fahren am Samstag mit dem Bus zum See", "explain": "Time, then means of transport (mit + dative), then the goal (zu + dative) after the verb in position 2." },
-    { "type": "order", "words": ["zum Supermarkt", "Nach dem Kurs", "gehe", "ich"], "answer": "Nach dem Kurs gehe ich zum Supermarkt", "explain": "Starting with nach dem Kurs puts the verb in position 2 and the subject after it." },
+    { "type": "order", "words": ["zur Mensa", "Nach der Vorlesung", "gehen", "wir"], "answer": "Nach der Vorlesung gehen wir zur Mensa", "explain": "Starting with nach der Vorlesung puts the verb in position 2 and the subject after it." },
     { "type": "match", "pairs": [["aus", "origin / out of"], ["mit", "with / by (transport)"], ["seit", "since / for (time)"], ["bei", "at (a person or firm)"], ["zu", "to (people, places)"]], "explain": "All of these always take the dative." },
-    { "type": "translate", "en": "I have been living in Aachen for two years.", "answer": ["Ich wohne seit zwei Jahren in Aachen", "Seit zwei Jahren wohne ich in Aachen"], "explain": "Use the present tense with seit + dative: seit zwei Jahren (dative plural with -n)." },
-    { "type": "translate", "en": "I go to the doctor by bike.", "answer": ["Ich fahre mit dem Fahrrad zum Arzt", "Ich fahre mit dem Rad zum Arzt"], "explain": "mit + dative for the bike, zu + dative for the doctor: zum Arzt." }
+    { "type": "translate", "en": "I have been working in a bakery for four months.", "answer": ["Ich arbeite seit vier Monaten in einer Bäckerei", "Seit vier Monaten arbeite ich in einer Bäckerei"], "explain": "Use the present tense with seit + dative: seit vier Monaten (dative plural with -n)." },
+    { "type": "translate", "en": "We drive to the swimming pool by car.", "answer": ["Wir fahren mit dem Auto zum Schwimmbad", "Wir fahren zum Schwimmbad mit dem Auto"], "explain": "mit + dative for the car, zu + dative for the swimming pool: zum Schwimmbad (zu + dem)." }
   ],
   "speak": {
     "shadow": [

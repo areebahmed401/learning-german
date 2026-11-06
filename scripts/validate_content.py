@@ -4,6 +4,7 @@ Usage: python scripts/validate_content.py [lesson-id ...]
 Exits 1 if any error is found. Missing lesson files are reported as warnings
 (milestones not written yet), unless --strict is given.
 """
+import difflib
 import json
 import re
 import sys
@@ -200,8 +201,16 @@ def plain(s: str) -> str:
     return " ".join(re.sub(r"[^a-zäöüß ]", "", str(s).lower()).split())
 
 
-def check_not_copied(ex: dict, examples: set[str], where: str) -> None:
-    """A quiz must not repeat a Learn example word for word (that is cramming), and a possessive gap must say whose."""
+SIMILAR = 0.6  # word-level likeness from which a question counts as a reworded example (the daily quiz reuses exercises)
+
+
+def similarity(a: str, b: str) -> float:
+    return difflib.SequenceMatcher(None, plain(a).split(), plain(b).split()).ratio()
+
+
+def check_not_copied(ex: dict, refs_de: list[str], refs_en: list[str], where: str) -> None:
+    """A quiz must use a new sentence, not a Learn example, shadow sentence or model answer with a few words
+    changed (the answer is then remembered, not worked out), and a possessive gap must say whose."""
     t, ans = ex.get("type"), ex.get("answer")
     if t == "translate":
         sentences = ans or []
@@ -211,10 +220,17 @@ def check_not_copied(ex: dict, examples: set[str], where: str) -> None:
         sentences = [ex.get("q", "").replace("___", ans[0])]
         if ans[0].lower() in POSSESSIVES and not re.search(r"\([^)]+\)", ex.get("q", "")):
             err(where, f"possessive gap {ans[0]!r} needs a hint such as (my) or (her)")
+    elif t == "mc" and isinstance(ans, int) and 0 <= ans < len(ex.get("options", [])):
+        sentences = [ex.get("q", "").replace("___", str(ex["options"][ans]))]
     else:
         return
-    if any(plain(s) in examples for s in sentences):
-        err(where, "copies a Learn example; write a new sentence")
+    pairs = [(s, r) for s in sentences[:1] for r in refs_de]
+    if t == "translate":
+        pairs += [(ex.get("en", ""), r) for r in refs_en]
+    for s, r in pairs:
+        if similarity(s, r) >= SIMILAR:
+            err(where, f"too close to {r!r}; write a new sentence that tests the same rule")
+            return
 
 
 def check_lesson(path: Path, milestone: dict, level: str) -> None:
@@ -246,10 +262,13 @@ def check_lesson(path: Path, milestone: dict, level: str) -> None:
     exs = lesson.get("exercises", [])
     if not 8 <= len(exs) <= 16:
         warnings.append(f"{where}: {len(exs)} exercises (aim for 10–14)")
-    examples = {plain(e.get("de", "")) for sec in lesson.get("learn", []) for e in sec.get("examples", [])}
+    learn_ex = [e for sec in lesson.get("learn", []) for e in sec.get("examples", [])]
+    speak = lesson.get("speak", {})
+    refs_de = [e.get("de", "") for e in learn_ex + speak.get("shadow", [])] + [p.get("model", "") for p in speak.get("prompts", [])]
+    refs_en = [e.get("en", "") for e in learn_ex]
     for i, ex in enumerate(exs):
         check_exercise(ex, f"{where} exercises[{i}]")
-        check_not_copied(ex, examples, f"{where} exercises[{i}]")
+        check_not_copied(ex, refs_de, refs_en, f"{where} exercises[{i}]")
     speak_de = check_speak(lesson.get("speak", {}), where)
     umlaut_warnings(where, speak_de)
 

@@ -97,12 +97,12 @@
     ]
   },
   "exercises": [
-    { "type": "gap", "q": "Ich fühle ___ heute nicht gut.", "answer": ["mich"], "explain": "sich fühlen with ich: mich (Akkusativ)." },
-    { "type": "gap", "q": "Wir freuen ___ auf den Urlaub.", "answer": ["uns"], "explain": "sich freuen with wir: uns." },
+    { "type": "gap", "q": "Ich dusche ___ jeden Morgen kalt.", "answer": ["mich"], "explain": "sich duschen with ich: mich (Akkusativ)." },
+    { "type": "gap", "q": "Wir treffen ___ morgen am Bahnhof.", "answer": ["uns"], "explain": "sich treffen with wir: uns." },
     { "type": "gap", "q": "Ich wasche ___ vor dem Essen die Hände.", "answer": ["mir"], "explain": "There is another object (die Hände), so the reflexive pronoun is in the Dativ: mir." },
     { "type": "gap", "q": "Hast du ___ schon für den Kurs angemeldet?", "answer": ["dich"], "explain": "sich anmelden with du: dich (Akkusativ). In the Perfekt the pronoun comes after the subject." },
     { "type": "mc", "q": "Ich wasche ___ die Hände.", "options": ["mir", "mich", "sich"], "answer": 0, "explain": "Body part = Akkusativ object, so the reflexive pronoun is Dativ: mir." },
-    { "type": "mc", "q": "Sie hat ___ erkältet.", "options": ["sich", "ihr", "sie"], "answer": 0, "explain": "Third person singular and plural: always sich." },
+    { "type": "mc", "q": "Mein Bruder hat ___ beim Fußball verletzt.", "options": ["sich", "ihm", "ihn"], "answer": 0, "explain": "Third person singular and plural: always sich." },
     { "type": "mc", "q": "Ihr müsst ___ beeilen.", "options": ["euch", "sich", "uns"], "answer": 0, "explain": "ihr → euch." },
     { "type": "article", "word": "Rücken", "answer": "der", "explain": "der Rücken, plural die Rücken." },
     { "type": "article", "word": "Erkältung", "answer": "die", "explain": "Nouns ending in -ung are always feminine." },

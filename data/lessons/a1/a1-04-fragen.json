@@ -112,10 +112,10 @@
   "exercises": [
     { "type": "mc", "q": "___ wohnst du? – In Aachen.", "options": ["Wer", "Wo", "Wann"], "answer": 1, "explain": "The answer is a place, so ask with wo." },
     { "type": "mc", "q": "___ kommen Sie? – Aus Pakistan.", "options": ["Woher", "Wohin", "Warum"], "answer": 0, "explain": "aus Pakistan answers \"from where\": woher." },
-    { "type": "mc", "q": "___ beginnt der Deutschkurs? – Um neun Uhr.", "options": ["Wo", "Wie", "Wann"], "answer": 2, "explain": "A time answers wann." },
-    { "type": "gap", "q": "___ kostet das Brot? – Drei Euro.", "answer": ["Wie viel", "Wieviel"], "explain": "Prices and quantities that cannot be counted use wie viel." },
+    { "type": "mc", "q": "___ fährt der Bus zum Bahnhof? – Um zehn Uhr.", "options": ["Wo", "Wie", "Wann"], "answer": 2, "explain": "A time answers wann." },
+    { "type": "gap", "q": "___ kostet ein Kaffee im Café? – Drei Euro fünfzig.", "answer": ["Wie viel", "Wieviel"], "explain": "Prices are asked with wie viel." },
     { "type": "gap", "q": "___ du aus Indien? – Nein, ich komme aus Pakistan.", "answer": ["Kommst"], "explain": "A yes/no question starts with the conjugated verb: Kommst du …?" },
-    { "type": "gap", "q": "Hast du keine Zeit? – ___, ich habe Zeit.", "answer": ["Doch"], "explain": "Use doch to say \"yes\" to a negative question." },
+    { "type": "gap", "q": "Haben Sie keine Fragen? – ___, ich habe eine Frage.", "answer": ["Doch"], "explain": "Use doch to say \"yes\" to a negative question." },
     { "type": "gap", "q": "Zwei plus drei ist ___.", "answer": ["fünf"], "explain": "2 + 3 = 5 = fünf." },
     { "type": "gap", "q": "Sieben mal drei ist ___.", "answer": ["einundzwanzig"], "explain": "7 × 3 = 21. The unit comes first: ein-und-zwanzig." },
     { "type": "match", "pairs": [["Wer?", "who"], ["Warum?", "why"], ["Wann?", "when"], ["Wie viele?", "how many"], ["Woher?", "from where"]], "explain": "Most W-questions start with w; wie is \"how\", not \"what\"." },
@@ -123,7 +123,7 @@
     { "type": "order", "words": ["wohnst", "Wo", "du"], "answer": "Wo wohnst du", "explain": "W-question: question word, verb, subject." },
     { "type": "order", "words": ["du", "Aachen", "Kommst", "aus"], "answer": "Kommst du aus Aachen", "explain": "Yes/no question: the verb comes first." },
     { "type": "order", "words": ["Sie", "alt", "Wie", "sind"], "answer": "Wie alt sind Sie", "explain": "Wie alt + verb + subject. The formal version of Wie alt bist du?" },
-    { "type": "translate", "en": "How old are you?", "answer": ["Wie alt bist du", "Wie alt sind Sie", "Wie alt seid ihr"], "explain": "Age is asked with sein: Wie alt bist du? Formal: Wie alt sind Sie?" }
+    { "type": "translate", "en": "Why are you learning German?", "answer": ["Warum lernst du Deutsch", "Warum lernen Sie Deutsch", "Warum lernt ihr Deutsch"], "explain": "Warum asks for a reason: question word, then the verb, then the subject. du lernst, Sie lernen, ihr lernt." }
   ],
   "speak": {
     "shadow": [

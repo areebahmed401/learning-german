@@ -109,19 +109,19 @@
     ]
   },
   "exercises": [
-    { "type": "gap", "q": "Der Kurs beginnt ___ neun Uhr.", "answer": ["um"], "explain": "Clock times take um." },
+    { "type": "gap", "q": "Der Zahnarzt hat ___ halb drei Zeit für mich.", "answer": ["um"], "explain": "Clock times take um." },
     { "type": "gap", "q": "Wir treffen uns ___ Montag.", "answer": ["am"], "explain": "Days of the week take am." },
     { "type": "gap", "q": "Mein Bruder hat ___ Oktober Geburtstag.", "answer": ["im"], "explain": "Months take im: im Oktober." },
-    { "type": "gap", "q": "Der Supermarkt ist ___ acht bis zwanzig Uhr geöffnet.", "answer": ["von"], "explain": "A period of time is von … bis." },
-    { "type": "mc", "q": "Wie spät ist es? 14:30 Uhr in everyday language:", "options": ["halb drei", "halb vier", "Viertel nach zwei"], "answer": 0, "explain": "halb counts toward the next hour: 2:30 = halb drei." },
+    { "type": "gap", "q": "Meine Mittagspause dauert ___ eins bis zwei Uhr.", "answer": ["von"], "explain": "A period of time is von … bis." },
+    { "type": "mc", "q": "17:30 in everyday language:", "options": ["halb sechs", "halb fünf", "halb sieben"], "answer": 0, "explain": "halb counts toward the next hour: 5:30 = halb sechs." },
     { "type": "mc", "q": "6:45 in everyday language:", "options": ["Viertel nach sechs", "Viertel vor sieben", "halb sieben"], "answer": 1, "explain": "Viertel vor sieben = quarter to seven." },
     { "type": "mc", "q": "Which sentence is correct?", "options": ["Ich habe am Mai Urlaub.", "Ich habe im Mai Urlaub.", "Ich habe um Mai Urlaub."], "answer": 1, "explain": "Months take im." },
     { "type": "article", "word": "Termin", "answer": "der", "explain": "Termin is masculine: der Termin." },
     { "type": "article", "word": "Woche", "answer": "die", "explain": "Most nouns in -e are feminine: die Woche. (Days and months are masculine.)" },
     { "type": "match", "pairs": [["Montag", "Monday"], ["Freitag", "Friday"], ["Samstag", "Saturday"], ["heute", "today"], ["gestern", "yesterday"]], "explain": "Days of the week are masculine; heute and gestern are adverbs without an article." },
-    { "type": "order", "words": ["Der Kurs", "um neun Uhr", "beginnt"], "answer": "Der Kurs beginnt um neun Uhr", "explain": "Subject, verb in position 2, then the time with um." },
+    { "type": "order", "words": ["Die Vorlesung", "um zwölf Uhr", "endet"], "answer": "Die Vorlesung endet um zwölf Uhr", "explain": "Subject, verb in position 2, then the time with um." },
     { "type": "order", "words": ["habe", "Ich", "am Montag", "einen Termin"], "answer": "Ich habe am Montag einen Termin", "explain": "Time before the object is natural: am Montag, then einen Termin." },
-    { "type": "order", "words": ["ist", "Wie", "es", "spät"], "answer": "Wie spät ist es", "explain": "Standard question for the time." },
+    { "type": "order", "words": ["öffnet", "Um wie viel Uhr", "die Bank"], "answer": "Um wie viel Uhr öffnet die Bank", "explain": "Um wie viel Uhr asks for a clock time; then comes the verb, then the subject." },
     { "type": "translate", "en": "I have an appointment on Friday at half past ten.", "answer": ["Ich habe am Freitag um halb elf einen Termin", "Ich habe einen Termin am Freitag um halb elf", "Am Freitag um halb elf habe ich einen Termin"], "explain": "am for the day, um for the time; halb elf = 10:30." }
   ],
   "speak": {

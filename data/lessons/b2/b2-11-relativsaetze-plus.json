@@ -91,9 +91,9 @@
     ]
   },
   "exercises": [
-    { "type": "mc", "q": "Das ist der Kollege, ___ ich zusammenarbeite.", "options": ["mit dem", "mit den", "mit der"], "answer": 0, "explain": "Kollege is masculine, mit takes the Dativ, so the relative pronoun is dem; the preposition comes first." },
+    { "type": "mc", "q": "Das ist die Ärztin, ___ ich mich verlasse.", "options": ["auf die", "auf der", "auf den"], "answer": 0, "explain": "Ärztin is feminine and sich verlassen auf takes the Akkusativ, so the relative pronoun is die; the preposition comes first." },
     { "type": "mc", "q": "Aachen ist die Stadt, ___ ich arbeite.", "options": ["wo", "was", "wer"], "answer": 0, "explain": "After a place you can use wo instead of in der." },
-    { "type": "mc", "q": "___ viel arbeitet, braucht auch Erholung.", "options": ["Wer", "Was", "Wo"], "answer": 0, "explain": "wer means whoever or anyone who; it refers to a person in general." },
+    { "type": "mc", "q": "___ in Deutschland arbeitet, muss Steuern zahlen.", "options": ["Wer", "Was", "Wo"], "answer": 0, "explain": "wer means anyone who; it refers to people in general." },
     { "type": "gap", "q": "Die Nachbarn, mit ___ wir feiern, sind sehr nett.", "answer": ["denen"], "explain": "Nachbarn is plural and mit takes the Dativ, so the pronoun is denen." },
     { "type": "gap", "q": "Das Projekt, an ___ wir arbeiten, fördert die Integration.", "answer": ["dem"], "explain": "Projekt is neuter; arbeiten an takes the Dativ → an dem." },
     { "type": "gap", "q": "Das ist das Beste, ___ du tun kannst.", "answer": ["was"], "explain": "After a superlative used as a noun (das Beste) the relative pronoun is was." },

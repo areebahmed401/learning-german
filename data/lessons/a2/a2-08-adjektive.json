@@ -96,19 +96,19 @@
   },
   "exercises": [
     { "type": "gap", "q": "Das ist ein ___ Mann. (nett)", "answer": ["netter"], "explain": "ein + masculine Nominativ: the adjective shows the gender with -er." },
-    { "type": "gap", "q": "Ich kenne den ___ Mann nicht. (jung)", "answer": ["jungen"], "explain": "den + masculine Akkusativ: after the definite article the ending is -en." },
-    { "type": "gap", "q": "Sie hat lange ___ Haare. (blond)", "answer": ["blonde"], "explain": "No article, plural Akkusativ: -e (like die)." },
+    { "type": "gap", "q": "Ich kaufe den ___ Mantel. (warm)", "answer": ["warmen"], "explain": "den + masculine Akkusativ: after the definite article the ending is -en." },
+    { "type": "gap", "q": "Er trägt immer ___ Schuhe. (schwarz)", "answer": ["schwarze"], "explain": "No article, plural Akkusativ: -e (like die)." },
     { "type": "gap", "q": "Wir wohnen in einer ___ Wohnung. (klein)", "answer": ["kleinen"], "explain": "in + Dativ feminine: einer kleinen Wohnung. Dativ always ends in -en after an article." },
-    { "type": "mc", "q": "Das ist ein ___ Kind.", "options": ["freundliches", "freundlicher", "freundliche"], "answer": 0, "explain": "ein + neuter Nominativ: the adjective needs -es (ein freundliches Kind)." },
-    { "type": "mc", "q": "Ich habe eine ___ Kollegin.", "options": ["nette", "netten", "netter"], "answer": 0, "explain": "eine + feminine Akkusativ: -e." },
+    { "type": "mc", "q": "Vor dem Haus steht ein ___ Auto.", "options": ["rotes", "roter", "rote"], "answer": 0, "explain": "ein + neuter Nominativ: the adjective needs -es (ein rotes Auto)." },
+    { "type": "mc", "q": "Wir suchen eine ___ Wohnung.", "options": ["günstige", "günstigen", "günstiger"], "answer": 0, "explain": "eine + feminine Akkusativ: -e." },
     { "type": "mc", "q": "Mit dem ___ Chef spreche ich morgen.", "options": ["neuen", "neue", "neuer"], "answer": 0, "explain": "mit + Dativ, dem + masculine: -en." },
     { "type": "article", "word": "Bart", "answer": "der", "explain": "der Bart, plural die Bärte." },
     { "type": "article", "word": "Brille", "answer": "die", "explain": "Most nouns ending in -e are feminine: die Brille." },
-    { "type": "order", "words": ["Meine neue Kollegin", "ist", "sehr", "freundlich"], "answer": "Meine neue Kollegin ist sehr freundlich", "explain": "After sein the adjective has no ending (freundlich). Before the noun it does: meine neue Kollegin." },
+    { "type": "order", "words": ["Unser neuer Nachbar", "ist", "wirklich", "hilfsbereit"], "answer": "Unser neuer Nachbar ist wirklich hilfsbereit", "explain": "After sein the adjective has no ending (hilfsbereit). Before the noun it does: unser neuer Nachbar." },
     { "type": "order", "words": ["Der junge Mann", "trägt", "einen grauen Mantel"], "answer": "Der junge Mann trägt einen grauen Mantel", "explain": "Der junge Mann: Nominativ after der → -e. Einen grauen Mantel: Akkusativ masculine → -en." },
     { "type": "match", "pairs": [["ein junger Mann", "a young man"], ["eine ruhige Frau", "a calm woman"], ["ein lustiges Kind", "a funny child"], ["die netten Kollegen", "the nice coworkers"], ["mit kaltem Wasser", "with cold water"]], "explain": "Notice -er (masc. Nom. after ein), -e (fem.), -es (neuter), -en (plural after die) and -em (Dativ without article)." },
     { "type": "translate", "en": "He has short brown hair.", "answer": ["Er hat kurze braune Haare", "Er hat kurze, braune Haare"], "explain": "No article, plural Akkusativ → -e on both adjectives: kurze braune Haare." },
-    { "type": "translate", "en": "My new coworker is very friendly.", "answer": ["Mein neuer Kollege ist sehr freundlich", "Meine neue Kollegin ist sehr freundlich"], "explain": "mein + masculine Nominativ → neuer; feminine → neue. After sein: freundlich, no ending." }
+    { "type": "translate", "en": "Our small kitchen is quite cosy.", "answer": ["Unsere kleine Küche ist ziemlich gemütlich", "Unsere kleine Küche ist ganz gemütlich"], "explain": "unser + feminine Nominativ → unsere kleine Küche. After sein: gemütlich, no ending." }
   ],
   "speak": {
     "shadow": [

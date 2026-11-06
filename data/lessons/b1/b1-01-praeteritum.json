@@ -106,7 +106,7 @@
     { "type": "mc", "q": "Gestern ___ ich lange im Büro.", "options": ["arbeitete", "arbeitte", "arbeitet"], "answer": 0, "explain": "The stem arbeit- ends in -t, so an extra -e- is needed before the ending: arbeit-e-te." },
     { "type": "mc", "q": "Letzten Sommer ___ wir nach Italien. (fahren)", "options": ["fuhren", "fahrten", "gefahren"], "answer": 0, "explain": "fahren is irregular: fuhr. With wir the ending is -en: wir fuhren." },
     { "type": "gap", "q": "Letztes Jahr ___ wir in Spanien. (sein)", "answer": ["waren"], "explain": "sein → war; with wir the form is waren." },
-    { "type": "gap", "q": "Er ___ jeden Morgen die Zeitung. (lesen)", "answer": ["las"], "explain": "lesen is irregular: er las. The er/sie/es form has no ending." },
+    { "type": "gap", "q": "Die Studentin ___ gestern einen langen Brief an das Amt. (schreiben)", "answer": ["schrieb"], "explain": "schreiben is irregular: sie schrieb. The er/sie/es form has no ending." },
     { "type": "gap", "q": "Ich ___ gestern leider keine Zeit. (haben)", "answer": ["hatte"], "explain": "haben → hatte. This form is also normal in spoken German." },
     { "type": "gap", "q": "Am Samstag ___ wir arbeiten. (müssen)", "answer": ["mussten"], "explain": "Modal verbs lose the umlaut in the Präteritum: müssen → musste, wir mussten." },
     { "type": "article", "word": "Schlagzeile", "answer": "die", "explain": "Most nouns ending in -e are feminine: die Schlagzeile." },

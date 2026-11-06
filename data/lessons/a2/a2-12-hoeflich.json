@@ -99,18 +99,18 @@
   },
   "exercises": [
     { "type": "mc", "q": "Which sentence is the most polite?", "options": ["Gib mir die Rechnung!", "Ich will zahlen.", "Könnten wir bitte zahlen?"], "answer": 2, "explain": "Könnten + bitte is the polite Konjunktiv II request; the other two sound too direct." },
-    { "type": "mc", "q": "Ich ___ gern einen Tisch für zwei Personen.", "options": ["hätte", "habe", "hatte"], "answer": 0, "explain": "Ich hätte gern … is the polite Konjunktiv II of haben. habe sounds blunt, hatte is the past." },
-    { "type": "mc", "q": "___ Sie mir bitte die Speisekarte bringen?", "options": ["Würden", "Wurden", "Werden"], "answer": 0, "explain": "Würden Sie bitte + infinitive: the polite request. Wurden is a Präteritum form of werden." },
-    { "type": "gap", "q": "Wir ___ gern die Speisekarte. (haben)", "answer": ["hätten"], "explain": "wir + haben in the Konjunktiv II: hätten." },
-    { "type": "gap", "q": "Das ___ sehr nett von Ihnen. (sein)", "answer": ["wäre"], "explain": "es/das + sein in the Konjunktiv II: wäre." },
-    { "type": "gap", "q": "___ du mir bitte das Salz geben? (können)", "answer": ["Könntest"], "explain": "du + können in the Konjunktiv II: du könntest." },
+    { "type": "mc", "q": "Ich ___ gern ein Zimmer mit Frühstück.", "options": ["hätte", "habe", "hatte"], "answer": 0, "explain": "Ich hätte gern … is the polite Konjunktiv II of haben. habe sounds blunt, hatte is the past." },
+    { "type": "mc", "q": "___ Sie bitte kurz warten?", "options": ["Würden", "Wurden", "Werden"], "answer": 0, "explain": "Würden Sie bitte + infinitive: the polite request. Wurden is a Präteritum form of werden." },
+    { "type": "gap", "q": "Mein Freund und ich ___ gern zwei Stück Apfelkuchen. (haben)", "answer": ["hätten"], "explain": "wir (Freund und ich) + haben in the Konjunktiv II: hätten." },
+    { "type": "gap", "q": "Ich ___ Ihnen sehr dankbar. (sein)", "answer": ["wäre"], "explain": "ich + sein in the Konjunktiv II: wäre." },
+    { "type": "gap", "q": "Entschuldigung, ___ du mir kurz die Tür aufhalten? (können)", "answer": ["Könntest"], "explain": "du + können in the Konjunktiv II: du könntest." },
     { "type": "article", "word": "Rechnung", "answer": "die", "explain": "Nouns ending in -ung are always feminine." },
     { "type": "article", "word": "Besteck", "answer": "das", "explain": "das Besteck (no plural). Collective nouns for sets of things are often neuter; learn it as a unit." },
     { "type": "order", "words": ["Ich", "hätte", "gern", "eine Suppe", "und", "ein Wasser"], "answer": "Ich hätte gern eine Suppe und ein Wasser", "explain": "Statement: subject, verb in position 2 (hätte), then gern and the objects." },
     { "type": "order", "words": ["bitte", "mir", "erklären", "den Weg", "Sie", "Könnten"], "answer": "Könnten Sie mir bitte den Weg erklären", "explain": "In a polite request the infinitive (erklären) goes to the end." },
     { "type": "match", "pairs": [["Ich hätte gern …", "I would like …"], ["Könnten Sie …?", "Could you …?"], ["Würden Sie bitte …?", "Would you please …?"], ["Zahlen, bitte!", "The bill, please!"], ["Stimmt so.", "Keep the change."]], "explain": "These are fixed phrases for any restaurant." },
-    { "type": "translate", "en": "Could I have a glass of water, please?", "answer": ["Könnte ich bitte ein Glas Wasser haben", "Könnte ich bitte ein Glas Wasser bekommen", "Könnte ich ein Glas Wasser haben", "Ich hätte gern ein Glas Wasser", "Ich hätte gerne ein Glas Wasser"], "explain": "Könnte + ich … + infinitive at the end. Alternatively: Ich hätte gern ein Glas Wasser." },
-    { "type": "translate", "en": "I would like a table for four.", "answer": ["Ich hätte gern einen Tisch für vier Personen", "Ich hätte gern einen Tisch für vier", "Ich möchte einen Tisch für vier Personen", "Ich möchte einen Tisch für vier"], "explain": "Ich hätte gern + Akkusativ (einen Tisch)." }
+    { "type": "translate", "en": "Could you please speak more slowly?", "answer": ["Könnten Sie bitte langsamer sprechen", "Würden Sie bitte langsamer sprechen", "Könntest du bitte langsamer sprechen", "Würdest du bitte langsamer sprechen", "Könntet ihr bitte langsamer sprechen", "Würdet ihr bitte langsamer sprechen"], "explain": "Könnten Sie / Könntest du + … + infinitive at the end. Alternatively: Würden Sie bitte + infinitive." },
+    { "type": "translate", "en": "I would like a ticket to Munich.", "answer": ["Ich hätte gern eine Fahrkarte nach München", "Ich hätte gerne eine Fahrkarte nach München", "Ich hätte gern ein Ticket nach München", "Ich hätte gerne ein Ticket nach München", "Ich möchte eine Fahrkarte nach München", "Ich möchte ein Ticket nach München"], "explain": "Ich hätte gern + Akkusativ (eine Fahrkarte)." }
   ],
   "speak": {
     "shadow": [

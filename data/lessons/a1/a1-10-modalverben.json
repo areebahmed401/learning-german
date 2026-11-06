@@ -108,20 +108,20 @@
     ]
   },
   "exercises": [
-    { "type": "gap", "q": "Ich ___ gut schwimmen. (können)", "answer": ["kann"], "explain": "ich kann: the singular has no ending." },
-    { "type": "gap", "q": "Du ___ morgen früh aufstehen. (müssen)", "answer": ["musst"], "explain": "du musst: müssen is irregular in the singular." },
+    { "type": "gap", "q": "Ich ___ ein bisschen Spanisch sprechen. (können)", "answer": ["kann"], "explain": "ich kann: the singular has no ending." },
+    { "type": "gap", "q": "Du ___ heute Abend das Zimmer putzen. (müssen)", "answer": ["musst"], "explain": "du musst: müssen is irregular in the singular." },
     { "type": "gap", "q": "Er ___ heute nicht kommen. (können)", "answer": ["kann"], "explain": "er/sie/es has the same form as ich: kann." },
-    { "type": "gap", "q": "Wir ___ am Wochenende wandern. (wollen)", "answer": ["wollen"], "explain": "The plural wir takes the infinitive form." },
-    { "type": "gap", "q": "___ ich hier sitzen? (dürfen)", "answer": ["Darf"], "explain": "darf for ich. A yes/no question puts the modal first." },
-    { "type": "gap", "q": "Der Arzt sagt, ich ___ mehr schlafen. (sollen)", "answer": ["soll"], "explain": "sollen with ich: soll (no ending)." },
+    { "type": "gap", "q": "Wir ___ im Sommer nach Italien fahren. (wollen)", "answer": ["wollen"], "explain": "The plural wir takes the infinitive form." },
+    { "type": "gap", "q": "___ ich das Fenster öffnen? (dürfen)", "answer": ["Darf"], "explain": "darf for ich. A yes/no question puts the modal first." },
+    { "type": "gap", "q": "Der Trainer sagt, du ___ mehr Wasser trinken. (sollen)", "answer": ["sollst"], "explain": "sollen with du: sollst (the regular du-ending -st)." },
     { "type": "mc", "q": "Which sentence is correct?", "options": ["Ich kann heute kommen nicht.", "Ich kann heute nicht kommen.", "Ich kommen kann heute nicht."], "answer": 1, "explain": "Modal in position 2, infinitive at the end." },
     { "type": "mc", "q": "How do you politely order a coffee?", "options": ["Ich will einen Kaffee.", "Ich möchte einen Kaffee.", "Ich muss einen Kaffee."], "answer": 1, "explain": "möchten is the polite form; wollen sounds too demanding." },
     { "type": "mc", "q": "\"Hier darf man nicht rauchen.\" means …", "options": ["You don't have to smoke here.", "You must not smoke here.", "You cannot smoke here."], "answer": 1, "explain": "nicht dürfen = must not (prohibited)." },
     { "type": "match", "pairs": [["können", "can"], ["müssen", "must"], ["wollen", "to want"], ["dürfen", "may"], ["sollen", "should"]], "explain": "Learn the modals as a set of six; möchten is the polite wish." },
-    { "type": "order", "words": ["muss", "Ich", "heute", "arbeiten"], "answer": "Ich muss heute arbeiten", "explain": "Modal in position 2, infinitive arbeiten at the end." },
-    { "type": "order", "words": ["Sie", "helfen", "mir", "Können", "bitte"], "answer": "Können Sie mir bitte helfen", "explain": "Yes/no question: modal first, infinitive at the end." },
+    { "type": "order", "words": ["muss", "Meine Schwester", "am Montag", "zum Zahnarzt", "gehen"], "answer": "Meine Schwester muss am Montag zum Zahnarzt gehen", "explain": "Modal in position 2, infinitive gehen at the end." },
+    { "type": "order", "words": ["ihr", "Könnt", "morgen", "kommen"], "answer": "Könnt ihr morgen kommen", "explain": "Yes/no question: modal first, infinitive at the end." },
     { "type": "order", "words": ["will", "ich", "Am Samstag", "ins Kino gehen"], "answer": "Am Samstag will ich ins Kino gehen", "explain": "Position 1 is the time, the modal stays in position 2, and the infinitive goes last." },
-    { "type": "translate", "en": "I would like to meet friends at the weekend.", "answer": ["Ich möchte am Wochenende Freunde treffen", "Am Wochenende möchte ich Freunde treffen"], "explain": "möchte + infinitive treffen at the end." }
+    { "type": "translate", "en": "I would like to learn German better.", "answer": ["Ich möchte besser Deutsch lernen", "Ich möchte Deutsch besser lernen"], "explain": "möchte + infinitive lernen at the end." }
   ],
   "speak": {
     "shadow": [
