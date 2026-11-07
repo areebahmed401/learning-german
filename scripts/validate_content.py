@@ -273,6 +273,71 @@ def check_lesson(path: Path, milestone: dict, level: str) -> None:
     umlaut_warnings(where, speak_de)
 
 
+def check_prepositions() -> None:
+    """data/prepositions.json: the Präpositionen-Trainer's groups (case + memory hook) and gap sentences."""
+    path = DATA / "prepositions.json"
+    where = path.relative_to(ROOT).as_posix()
+    if not path.exists():
+        return
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as e:
+        err(where, f"invalid JSON: {e}")
+        return
+    groups = data.get("groups", {})
+    owner: dict[str, str] = {}
+    for key in ("akk", "dat", "wechsel", "gen"):
+        g = groups.get(key)
+        if not g:
+            err(where, f"missing group {key!r}")
+            continue
+        need(g, ["name", "level", "preps", "hook"], f"{where} groups.{key}")
+        if g.get("level") not in LEVELS:
+            err(f"{where} groups.{key}", f"bad level {g.get('level')!r}")
+        for p in g.get("preps", []):
+            if p in owner:
+                err(f"{where} groups.{key}", f"{p!r} is also in group {owner[p]!r}")
+            owner[p] = key
+    sentences = data.get("sentences", [])
+    if not 60 <= len(sentences) <= 80:
+        warnings.append(f"{where}: {len(sentences)} sentences (aim for 60–80)")
+    seen: set[str] = set()
+    for i, s in enumerate(sentences):
+        w = f"{where} sentences[{i}]"
+        if not need(s, ["q", "noun", "prep", "options", "answer", "case", "explain", "level"], w):
+            continue
+        if s["q"].count("___") != 1:
+            err(w, "needs exactly one ___")
+        if s["q"] in seen:
+            err(w, "duplicate sentence")
+        seen.add(s["q"])
+        if len(s["options"]) != 3 or len(set(s["options"])) != 3:
+            err(w, "needs 3 different options")
+        if s["answer"] not in s["options"]:
+            err(w, f"answer {s['answer']!r} is not in options")
+        if s["level"] not in LEVELS:
+            err(w, f"bad level {s['level']!r}")
+        if s["case"] not in ("akk", "dat", "gen"):
+            err(w, f"case must be akk, dat or gen, not {s['case']!r}")
+        group = owner.get(s["prep"])
+        if group is None:
+            err(w, f"prep {s['prep']!r} belongs to no group")
+        elif group == "wechsel":
+            if s.get("ask") not in ("wo", "wohin"):
+                err(w, "Wechsel sentence needs ask: 'wo' or 'wohin'")
+            elif s["case"] != ("dat" if s["ask"] == "wo" else "akk"):
+                err(w, f"ask {s['ask']!r} needs case {'dat' if s['ask'] == 'wo' else 'akk'!r}, not {s['case']!r}")
+        else:
+            if "ask" in s:
+                err(w, "only Wechsel sentences have 'ask'")
+            if s["case"] != group:
+                err(w, f"{s['prep']!r} takes {group!r}, but case is {s['case']!r}")
+        glevel = groups.get(group, {}).get("level")
+        order = ["A1", "A2", "B1", "B2", "C1"]
+        if glevel in LEVELS and s["level"] in LEVELS and order.index(s["level"]) < order.index(glevel):
+            err(w, f"level {s['level']} is below its group's level {glevel}")
+
+
 def main(argv: list[str]) -> int:
     strict = "--strict" in argv
     only = {a for a in argv if not a.startswith("--")}
@@ -296,6 +361,7 @@ def main(argv: list[str]) -> int:
         if path.stem not in seen:
             err(path.relative_to(ROOT).as_posix(), "lesson not in roadmap.json")
     check_alltag(strict, only)
+    check_prepositions()
     for w in warnings:
         print("WARN ", w)
     for e in errors:
