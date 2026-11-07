@@ -61,8 +61,9 @@ export async function renderSettings(view) {
           ...(s.deck.startsWith('place:') ? [[s.deck, 'One place (picked in Karten)']] : [])], (v) => set({ deck: v }))),
       field('Scheduling', 'How long until a card comes back. SM-2 multiplies the gap by each card’s ease; FSRS predicts when you would forget (aims for 90% recall). Your cards keep their history when you switch.',
         select(s.algorithm, [['sm2', 'SM-2 (Anki classic)'], ['fsrs', 'FSRS (Anki’s newer default)']], (v) => set({ algorithm: v }))),
-      field('Direction', 'English → Deutsch is better speaking practice.',
-        select(s.reverse ? 'en' : 'de', [['de', 'Deutsch → English'], ['en', 'English → Deutsch']], (v) => set({ reverse: v === 'en' }))),
+      field('Direction', 'English → Deutsch is better speaking practice. Beides mixes both, a random direction per card.',
+        select(s.reverse === 'both' ? 'both' : s.reverse ? 'en' : 'de', [['de', 'Deutsch → English'], ['en', 'English → Deutsch'], ['both', 'Beides (gemischt)']],
+          (v) => set({ reverse: v === 'both' ? 'both' : v === 'en' }))),
       field('Read German aloud', 'When a card shows the German word.',
         h('input.set-check', { type: 'checkbox', checked: s.autoplay, onchange: (e) => set({ autoplay: e.target.checked }) }))),
 
