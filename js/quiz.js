@@ -31,7 +31,7 @@ export async function renderQuiz(view, round = 0) {
 
   const body = h('section');
   view.replaceChildren(h('article.lesson',
-    h('header.lesson-head', h('a.back', { href: '#/road' }, '← Zurück zur Straße'), h('h1', '⚡ Tagesquiz'),
+    h('header.lesson-head', h('a.back', { href: '#/road' }, '← Zurück zur Straße'), h('h1', '⚡ Tagesquiz'), h('a.btn.small', { href: '#/prep' }, '🎯 Präpositionen-Trainer'),
       h('p', `${quizSize} quick grammar questions from ${level} and below. Questions you miss come back until you get them right.`)),
     plan ? h('div.adapt-note', h('p', planNote(plan, level))) : null,
     h('div.stats.cards-stats',

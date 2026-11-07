@@ -6,7 +6,7 @@ import { KEEP_ANSWERS } from './adapt.js';
 const KEY = 'lg-progress-v1';
 // pass mark for lessons, places, checkpoints and the quiz: settings().passMark (default 70%)
 
-const blank = () => ({ lessons: {}, places: {}, checkpoints: {}, speakDays: [], cards: {}, cardDays: [], cardStats: {}, quiz: { days: {}, mistakes: [], answers: [] }, adapt: {}, settings: {}, version: 1 });
+const blank = () => ({ lessons: {}, places: {}, checkpoints: {}, speakDays: [], cards: {}, cardDays: [], cardStats: {}, quiz: { days: {}, mistakes: [], answers: [] }, prep: { weak: {}, days: {} }, adapt: {}, settings: {}, version: 1 });
 let state = load();
 
 function load() {
@@ -20,7 +20,7 @@ function load() {
 /** Older progress files lack newer sections: fill them in. */
 function withDefaults(data) {
   const b = blank();
-  return { ...b, ...data, quiz: { ...b.quiz, ...data.quiz }, adapt: { ...data.adapt } };
+  return { ...b, ...data, quiz: { ...b.quiz, ...data.quiz }, prep: { ...b.prep, ...data.prep }, adapt: { ...data.adapt } };
 }
 
 function save() {
@@ -218,6 +218,16 @@ export function recordQuiz(today, score, mistakes, answers = []) {
   save();
 }
 export const quizStreak = () => streak(Object.keys(state.quiz.days), srsDay);
+
+/* ---------- Präpositionen-Trainer (rounds and weighting live in prep.js) ---------- */
+export const prepState = () => state.prep;
+export const prepStreak = () => streak(Object.keys(state.prep.days), srsDay);
+/** weak: prep → miss count after this round (prep.js updateWeak). score: the Tageschallenge result, null for practice rounds. */
+export function recordPrep(today, score, weak) {
+  if (score != null) state.prep.days[today] = Math.max(state.prep.days[today] ?? 0, score);
+  state.prep.weak = weak;
+  save();
+}
 
 /* ---------- Flashcards (scheduling lives in srs.js) ---------- */
 export const cards = () => state.cards;

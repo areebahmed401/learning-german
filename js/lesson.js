@@ -49,6 +49,8 @@ export async function renderLesson(view, id, step = 'learn') {
   ({ learn, mindmap, practice, speak: speakStep })[step](body, lesson, skipTo);
 }
 
+const PREP_LESSONS = ['a1-13-akk-praepositionen', 'a2-03-dativ-praepositionen', 'a2-04-wechselpraepositionen'];
+
 function learn(body, lesson) {
   for (const sec of lesson.learn) {
     body.append(h('div.card',
@@ -63,6 +65,9 @@ function learn(body, lesson) {
     ));
   }
   if (lesson.tip) body.append(h('div.card.tip', h('b', '💡 Merke: '), h('span', { html: md(lesson.tip) })));
+  if (PREP_LESSONS.includes(lesson.id)) body.append(h('div.card.yt', '🎯', h('div',
+    h('a', { href: '#/prep' }, 'Präpositionen-Trainer'),
+    h('div.muted', { style: 'font-size:.85rem' }, 'Drill which case each preposition takes.'))));
   if (lesson.youtube) body.append(h('div.card.yt', '▶️', h('div',
     h('a', { href: lesson.youtube, target: '_blank', rel: 'noopener' }, 'Watch this topic in the Learn German course'),
     h('div.muted', { style: 'font-size:.85rem' }, 'Opens YouTube in a new tab.'))));

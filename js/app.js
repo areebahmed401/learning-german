@@ -1,10 +1,11 @@
-// App shell: router (#/road, #/alltag, #/place, #/lesson, #/checkpoint, #/sheet, #/cards, #/quiz, #/settings), theme, settings menu, translator panel, checkpoint quizzes.
+// App shell: router (#/road, #/alltag, #/place, #/lesson, #/checkpoint, #/sheet, #/cards, #/quiz, #/prep, #/settings), theme, settings menu, translator panel, checkpoint quizzes.
 import { h, getRoadmap, getJSON, lessonURL, shuffle, toast, getAlltag, getPlace, placeWords } from './util.js';
 import { renderRoad } from './road.js';
 import { renderLesson } from './lesson.js';
 import { renderPlace } from './place.js';
 import { renderCards } from './cards.js';
 import { renderQuiz } from './quiz.js';
+import { renderPrep } from './prepview.js';
 import { renderSettings } from './settings.js';
 import { renderSheet } from './sheet.js';
 import { runQuiz } from './exercises.js';
@@ -20,9 +21,11 @@ async function route() {
   const parts = path.split('/').filter(Boolean);
   const params = Object.fromEntries(new URLSearchParams(query));
   document.querySelectorAll('.sheet, .sheet-backdrop, .peek, .mm-modal-backdrop').forEach((e) => e.remove());
-  document.body.classList.toggle('on-cards', ['cards', 'quiz'].includes(parts[0])); // the dock would cover the answer buttons
+  document.body.classList.toggle('on-cards', ['cards', 'quiz', 'prep'].includes(parts[0])); // the dock would cover the answer buttons
   const score = progress.quizState().days[day()];
   document.getElementById('dock-quiz').textContent = score != null ? `today ✓ ${Math.round(score * 100)}%` : 'daily grammar';
+  const prepScore = progress.prepState().days[day()];
+  document.getElementById('dock-prep').textContent = prepScore != null ? `today ✓ ${Math.round(prepScore * 100)}%` : 'daily challenge';
   try {
     if (parts[0] === 'lesson' && parts[1]) {
       await renderLesson(view, parts[1], parts[2]);
@@ -37,6 +40,9 @@ async function route() {
       window.scrollTo(0, 0);
     } else if (parts[0] === 'quiz') {
       await renderQuiz(view);
+      window.scrollTo(0, 0);
+    } else if (parts[0] === 'prep') {
+      await renderPrep(view);
       window.scrollTo(0, 0);
     } else if (parts[0] === 'settings') {
       await renderSettings(view);
