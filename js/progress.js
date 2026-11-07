@@ -172,7 +172,7 @@ export const DEFAULT_SETTINGS = {
   newCards: 15, // new flashcards per day
   moreCards: 10, // new words added per "+ more" click once today's limit is used up
   deck: 'level', // 'level' = all words up to your level, 'mine' = opened lessons, or one level id
-  reverse: false, // cards English → German
+  reverse: false, // card direction: false = German → English, true = English → German, 'both' = random per card
   autoplay: true, // read the German aloud when a card flips
   quizSize: 10, // questions in the daily quiz
   passMark: 0.7, // share right to pass a lesson, place, checkpoint or the daily quiz

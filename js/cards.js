@@ -64,10 +64,12 @@ export async function renderCards(view, { start = false } = {}) {
     type: 'button', 'aria-pressed': String(prefs.deck === id),
     onclick: () => { progress.setSettings({ deck: id }); renderCards(view); },
   }, label);
-  const reverse = h('label.cards-switch', h('input', {
-    type: 'checkbox', checked: prefs.reverse,
-    onchange: (e) => progress.setSettings({ reverse: e.target.checked }),
-  }), ' English → Deutsch');
+  // settings.reverse: false = Deutsch → English, true = English → Deutsch, 'both' = a random direction per card
+  const dirOf = (r) => (r === 'both' ? 'both' : r ? 'en' : 'de');
+  const reverse = h('label.cards-switch', 'Richtung ', h('select', {
+    onchange: (e) => progress.setSettings({ reverse: e.target.value === 'both' ? 'both' : e.target.value === 'en' }),
+  }, [['de', 'Deutsch → English'], ['en', 'English → Deutsch'], ['both', 'Beides (gemischt)']]
+    .map(([v, label]) => h('option', { value: v, selected: dirOf(prefs.reverse) === v }, label))));
 
   const stage = h('section');
   const layout = h('div.cards-layout',
@@ -94,7 +96,7 @@ export async function renderCards(view, { start = false } = {}) {
       h('p.muted', `${words.length} words in this deck.`),
       unseen ? moreBtn(view, unseen) : null)));
   } else {
-    const go = () => run(stage, shuffle(queue.slice(0, due)).concat(queue.slice(due)), reverse.querySelector('input').checked, view, unseen - (queue.length - due));
+    const go = () => run(stage, shuffle(queue.slice(0, due)).concat(queue.slice(due)), progress.settings().reverse, view, unseen - (queue.length - due));
     stage.append(h('div.card.cards-start',
       h('p', h('b', `${queue.length} cards`), ` ready: ${due} to review, ${queue.length - due} new. `,
         h('span.muted', `${words.length} words in this deck · ${limit} new a day${prefs.adaptive ? ', adaptive' : ''} (⚙ Settings)`)),
@@ -218,13 +220,14 @@ function statsPanel(pool, order, today, newAllowed) {
 }
 
 /** One session: show cards until the queue is empty; a missed card goes back into the queue. */
-function run(stage, queue, reverse, view, unseen) {
+function run(stage, queue, direction, view, unseen) {
   const today = srs.day();
   const autoplay = canSpeak && progress.settings().autoplay;
   const missed = new Set();
   const answered = new Set(); // first answer per card this session feeds the adaptive stats
   let knew = 0;
   let flipped = false;
+  let reverse = false; // this card's direction: English on the front?
   stage.closest('.cards-layout')?.classList.add('in-session'); // the statistics panel steps aside during a session
 
   const card = h('div.flash', { role: 'button', tabindex: '0', 'aria-live': 'polite' });
@@ -242,6 +245,7 @@ function run(stage, queue, reverse, view, unseen) {
   function show() {
     const w = queue[0];
     flipped = false;
+    reverse = direction === 'both' ? Math.random() < 0.5 : !!direction;
     counter.textContent = `${queue.length} left · ✓ ${knew} · ✗ ${missed.size}` + (missed.has(srs.cardKey(w)) ? ' · again' : '');
     card.className = 'flash';
     card.replaceChildren(h('div.flash-side', reverse ? english(w) : german(w)), h('div.flash-hint.muted', 'tap to flip'));
