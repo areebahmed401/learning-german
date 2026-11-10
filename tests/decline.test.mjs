@@ -67,3 +67,16 @@ test('adjective declension', () => {
   assert.equal(declineAdjective('teuer').weak.f.nom, 'teure');
   assert.equal(declineAdjective('müde').strong.m.nom, 'müder');
 });
+
+test('indefinite forms: ein/eine, no article in the plural', () => {
+  const m = declineNoun({ de: 'Tisch', article: 'der', plural: 'Tische' });
+  assert.deepEqual(m.indef.sg, { nom: 'ein Tisch', akk: 'einen Tisch', dat: 'einem Tisch', gen: 'eines Tisches' });
+  assert.equal(m.indef.pl.dat, 'Tischen');
+  const f = declineNoun({ de: 'Frau', article: 'die', plural: 'Frauen' });
+  assert.equal(f.indef.sg.dat, 'einer Frau');
+  const n = declineNoun({ de: 'Kind', article: 'das', plural: 'Kinder' });
+  assert.equal(n.indef.sg.akk, 'ein Kind');
+  assert.equal(n.indef.pl.nom, 'Kinder');
+  const w = declineNoun({ de: 'Student', article: 'der', plural: 'Studenten' });
+  assert.equal(w.indef.sg.akk, 'einen Studenten');
+});

@@ -49,6 +49,8 @@
 .tr .tr-table tbody th { color: var(--muted); width: 3.2rem; }
 .tr .tr-table tbody tr:nth-child(odd) { background: var(--surface-2); }
 .tr .tr-table td { overflow-wrap: anywhere; }
+.tr .tr-noun .tr-group { color: var(--text); font-weight: 600; border-bottom: 1px solid var(--line); }
+.tr .tr-noun .tr-split { border-left: 1px solid var(--line); }
 
 @media (max-width: 400px) {
   .tr .tr-hint { display: none; }
