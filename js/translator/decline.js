@@ -6,6 +6,11 @@ const ART = {
   das: { nom: 'das', akk: 'das', dat: 'dem', gen: 'des' },
 };
 const ART_PL = { nom: 'die', akk: 'die', dat: 'den', gen: 'der' };
+const ART_INDEF = {
+  der: { nom: 'ein', akk: 'einen', dat: 'einem', gen: 'eines' },
+  die: { nom: 'eine', akk: 'eine', dat: 'einer', gen: 'einer' },
+  das: { nom: 'ein', akk: 'ein', dat: 'einem', gen: 'eines' },
+};
 const CASES = ['nom', 'akk', 'dat', 'gen'];
 
 const PLURAL_ONLY = new Set(['Eltern', 'Geschwister', 'Leute', 'Ferien', 'Kosten', 'Möbel', 'Großeltern', 'Schulden', 'Zinsen']);
@@ -77,7 +82,9 @@ export function declineNoun({ de, article, plural, gen, weak, plOnly }) {
   } else {
     pl = { nom: '–', akk: '–', dat: '–', gen: '–' };
   }
-  if (pluralOnly) return { sg: null, pl };
+  // indefinite: ein/eine in the singular, no article in the plural (Kinder, mit Kindern)
+  const plain = (forms) => Object.fromEntries(Object.entries(forms).map(([c, f]) => [c, f === '–' ? f : f.replace(/^\S+ /, '')]));
+  if (pluralOnly) return { sg: null, pl, indef: { sg: null, pl: plain(pl) } };
 
   const a = ART[article] || ART.der;
   const w = isWeak(de, article, plural, weak);
@@ -89,7 +96,9 @@ export function declineNoun({ de, article, plural, gen, weak, plOnly }) {
     nom: `${a.nom} ${de}`, akk: `${a.akk} ${akk}`, dat: `${a.dat} ${dat}`, gen: `${a.gen} ${g}`,
   };
   if (w && plural === '-') pl = { nom: '–', akk: '–', dat: '–', gen: '–' };
-  return { sg, pl };
+  const i = ART_INDEF[article] || ART_INDEF.der;
+  const indefSg = { nom: `${i.nom} ${de}`, akk: `${i.akk} ${akk}`, dat: `${i.dat} ${dat}`, gen: `${i.gen} ${g}` };
+  return { sg, pl, indef: { sg: indefSg, pl: plain(pl) } };
 }
 
 // ---- adjectives -------------------------------------------------------------
