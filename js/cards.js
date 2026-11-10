@@ -241,6 +241,12 @@ function run(stage, queue, direction, view, unseen) {
   const say = (w) => (w.pos === 'noun' && w.article ? `${w.article} ${w.de}` : w.de);
   const german = (w) => h('div.flash-word', h('div.flash-de', { html: nounHTML(w) }), canSpeak ? sayBtn(say(w), speak) : null);
   const english = (w) => h('div.flash-en', w.en);
+  // what to read out for the back's forms line: the plural (die Koffer) or the Perfekt (hat abgeholt)
+  const sayForms = (w) => {
+    if (w.pos === 'noun') return w.plural && w.plural !== '-' ? `die ${w.plural}` : '';
+    if (w.pos === 'verb' && w.p2) return `${w.aux === 'sein' ? 'ist' : 'hat'} ${w.p2}`;
+    return '';
+  };
 
   function show() {
     const w = queue[0];
@@ -259,11 +265,16 @@ function run(stage, queue, direction, view, unseen) {
     flipped = true;
     const w = queue[0];
     const forms = wordForms(w);
+    const spokenForms = sayForms(w);
     card.className = 'flash flipped';
     // the question stays on top (faded), the answer comes in below it
     card.replaceChildren(h('div.flash-side', reverse ? english(w) : german(w)),
-      h('div.flash-back', reverse ? german(w) : english(w), forms ? h('div.flash-forms', forms) : null, h('span.chip', w.level)));
-    if (reverse && autoplay) speak(say(w));
+      h('div.flash-back', reverse ? german(w) : english(w),
+        forms ? h('div.flash-forms', forms, canSpeak && spokenForms ? sayBtn(spokenForms, speak) : null) : null,
+        h('span.chip', w.level)));
+    // read the plural / Perfekt too (after the word itself when it is the answer)
+    const spoken = [reverse ? say(w) : '', spokenForms].filter(Boolean).join(', ');
+    if (autoplay && spoken) speak(spoken);
     // four ratings, each with the gap until the card comes back
     const gaps = srs.preview(progress.cards()[srs.cardKey(w)], today, progress.settings().algorithm);
     const rate = (r, label, cls) => h(`button.btn${cls}`, { type: 'button', onclick: () => grade(r) },
