@@ -26,22 +26,17 @@ function artSpan(text, gender) {
 function nounTable(e) {
   const d = declineNoun({ de: e.de, article: e.article, plural: e.plural, gen: e.gen });
   const g = e.article || 'der';
-  // two groups: definite (der/die/das) and indefinite (ein/eine; no article in the plural)
+  // pills switch between definite (der/die/das) and indefinite (ein/eine; no article in the plural)
+  const kinds = [['def', 'bestimmt', d], ['indef', 'unbestimmt', d.indef]];
   const cols = d.sg ? ['Singular', 'Plural'] : ['Plural'];
-  const group = (label, cls = '') => `<th colspan="${cols.length}" class="tr-group${cls}">${label}</th>`;
-  let html = `<div class="tr-scroll"><table class="tr-table tr-noun"><thead>`
-    + `<tr><th></th>${group('bestimmt')}${group('unbestimmt', ' tr-split')}</tr>`
-    + `<tr><th></th>${[...cols, ...cols].map((c, k) => `<th${k === cols.length ? ' class="tr-split"' : ''}>${c}</th>`).join('')}</tr></thead><tbody>`;
-  const cell = (f, gender, cls = '') => `<td${cls}>${f === '–' ? '–' : artSpan(f, gender)}</td>`;
-  const split = ' class="tr-split"';
-  for (const c of CASES) {
-    html += `<tr><th>${CASE_LABEL[c]}</th>`;
-    if (d.sg) html += cell(d.sg[c], g);
-    html += cell(d.pl[c], 'die');
-    if (d.indef.sg) html += cell(d.indef.sg[c], g, split);
-    html += `${cell(d.indef.pl[c], 'die', d.indef.sg ? '' : split)}</tr>`;
-  }
-  return html + '</tbody></table></div>';
+  const cell = (f, gender) => `<td>${f === '–' ? '–' : artSpan(f, gender)}</td>`;
+  const tabs = kinds.map(([k, l], i) => `<button type="button" class="tr-tab${i === 0 ? ' is-on' : ''}" role="tab" data-pane="${k}" aria-selected="${i === 0}">${l}</button>`).join('');
+  const panes = kinds.map(([k, , f], i) => {
+    let t = `<div class="tr-scroll"><table class="tr-table"><thead><tr><th></th>${cols.map((c) => `<th>${c}</th>`).join('')}</tr></thead><tbody>`;
+    for (const c of CASES) t += `<tr><th>${CASE_LABEL[c]}</th>${f.sg ? cell(f.sg[c], g) : ''}${cell(f.pl[c], 'die')}</tr>`;
+    return `<div class="tr-pane" data-pane="${k}"${i === 0 ? '' : ' hidden'}>${t}</tbody></table></div></div>`;
+  }).join('');
+  return `<div class="tr-tabs" role="tablist">${tabs}</div>${panes}`;
 }
 
 function personTable(rows) {
